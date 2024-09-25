@@ -1,0 +1,148 @@
+/*barra superior*/
+.barra-superior-govco {
+  background-color: #3366cc;
+  width: 100%;
+}
+
+.barra-superior-govco a {
+  content: url(https://cdn.www.gov.co/assets/images/logo.svg);
+  height: 1.875rem;
+  width: 8.5rem;
+}
+
+.barra-superior-govco a:focus-visible {
+  outline: max(0.125rem, 0.15em) solid #FFFFFF;
+  border-radius: 0.313rem;
+}
+
+/*fin barra superior*/
+
+/*buscador*/
+#ajaxsearchlite1 .probox,
+div.asl_w .probox {
+  border: 0.063rem solid #4B4B4B !important;
+  padding: 5px !important;
+}
+
+#ajaxsearchlite1 .probox .proinput input,
+div.asl_w .probox .proinput input {
+  font-size: 1rem !important;
+  font-family: WorkSans-Regular !important;
+  height: 100%;
+}
+
+#ajaxsearchlite1:has(> .probox .proinput input:focus-visible),
+div.asl_w:has(> .probox .proinput input:focus-visible) {
+  outline: max(0.125rem, 0.15em) solid #000000;
+  outline-offset: max(0.125rem, 0.15em);
+  border-radius: 30px;
+}
+
+div.asl_m .probox .promagnifier .innericon {
+  margin-right: 0.3rem;
+  border-radius: 50%;
+  background-color: #737373 !important;
+}
+
+
+div.asl_m .probox .promagnifier .innericon:hover {
+  background-color: #3366cc !important;
+}
+
+div.asl_w .probox .promagnifier .innericon svg {
+  fill: white !important;
+}
+
+div.asl_m .probox .proclose svg {
+  fill: #3366cc !important;
+  background-color: transparent !important;
+  margin-left: -15px !important;
+  width: 28px !important;
+  height: 28px !important;
+  margin-top: 0 !important;
+  top: 0 !important;
+}
+
+/*buscador*/
+
+/*menu*/
+.menu-principal {
+  background-color: #25368b;
+
+  li {
+    display: block;
+    width: max-content;
+    position: relative;
+    max-width: 250px;
+
+    a {
+      display: block;
+      position: relative;
+      padding: 10px;
+      font-size: 1rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  #menu-principal>li>a {
+    color: white;
+    text-align: center;
+    height: 100%;
+    min-height: 60px;
+    z-index: 1000;
+  }
+
+  #menu-principal>li>a:hover,
+  #menu-principal>li>a:focus-visible {
+    background-color: #f0bc37;
+    color: #25368b;
+  }
+
+  .sub-menu {
+    position: absolute;
+    background-color: #e6effd;
+    padding: 0;
+    opacity: 0;
+    z-index: -1;
+    min-width: max-content;
+    transition: opacity 0.3s ease-in-out;
+
+    li {
+      min-width: 100%;
+      width: 100%;
+
+      a {
+        color: #25368b;
+      }
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: #3366cc;
+      text-decoration: underline;
+    }
+
+    .sub-menu {
+      top: 0;
+    }
+
+  }
+
+  .show-submenu {
+    opacity: 1;
+    z-index: 900;
+  }
+
+  .rigth-submenu {
+    left: 100%;
+  }
+
+  .left-submenu {
+    right: 100%;
+  }
+
+}
+
+/*fin-menu*/
