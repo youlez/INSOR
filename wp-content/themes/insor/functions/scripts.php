@@ -19,6 +19,10 @@ function cargar_estilos()
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('style');
 }
+function custom_tooltip_script() {
+    wp_enqueue_script( 'tooltip-script', get_template_directory_uri() . '/js/tooltip.js', array(), null, true );
+}
 
+add_action( 'wp_enqueue_scripts', 'custom_tooltip_script' );
 add_action('wp_enqueue_scripts', 'cargar_scripts');
 add_action('wp_enqueue_scripts', 'cargar_estilos');
