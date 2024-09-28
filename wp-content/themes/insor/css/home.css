@@ -99,4 +99,114 @@
     padding: 0%;
 }
 
+/* Noticias */
+
+.noticias {
+    justify-content: center;
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    
+      .imagen{ 
+        width: 250px;
+      }
+      .texto {
+        width: calc(100% - 250px);
+        background-color: var(--azul);
+      }
+
+      img {
+        object-fit: cover;
+        object-position: left;
+        margin: 0;
+        height: 100%;
+        width: 100%;   
+      } 
+  
+      h3 {
+        height: 46px;
+        font-weight: bold;
+        color: var(--amarillo);
+        font-size: 1.2rem;
+        overflow: hidden;
+      }
+
+      p, span {
+        height: 96px;
+        overflow: hidden;
+        margin: 0;
+        font-family: 'Montserrat-Medium';
+        color: var(--gris);
+        font-size: 1rem;
+      } 
+  
+    }
+
+    .noticias >* {
+        padding: 0%;
+    }
+
+    /*Temas de interés*/
+
+    .temas_Interes {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+  /* Redes sociales */
+
+    .redes {
+        justify-content: center;
+       
+        margin: 2px ;
+        
+         .tabsContainer {
+            justify-content: center; 
+            max-width: 48.4rem;  
+            border: 1px solid var(--azul-ct);   
+         }
+         .nav-tabs .nav-link .btn-tab{
+            text-align: center;
+            display:contents;
+            border: 1px solid var(--azul-ct); 
+         }
+   
+        .nav-tabs .nav-link {
+            margin-bottom: calc(-1* var(--bs-nav-tabs-border-width));
+            border-left: 1px solid var(--azul-ct);
+            border-radius: 0%;
+            width: 12rem; 
+            text-decoration: none;
+            color: var(--azul);
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+         .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+            color: var(--azul);
+            border-right: 0px solid var(--azul-ct);
+            border-bottom: 3px solid var(--amarillo);
+            background-color: var(--blanco);
+            border-radius: 0%;
+        }
+
+         .tab-pane{
+            width: 48rem;   
+         }
+         iframe {
+            border: none;
+            overflow: hidden;
+            width: 40rem;
+            margin: 2rem 1rem;
+            height: 400px;
+         }
+    }
+    
+    .redes>* {
+        padding: 0%;
+    }
+
+
+
 /*fin micrositios*/
