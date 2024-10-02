@@ -1,26 +1,48 @@
 jQuery(document).ready(function ($) {
-  Array.from($("#menu-principal >li >ul")).forEach(element => {
+  ajustarMenu();
+  $("li").mouseenter(function () {
+    $(this).find('.sub-menu').first().addClass("show-submenu");
+    Array.from($('.img-menu')).forEach(imagen => {
+      $(imagen).removeClass("show-img");      
+    });
+    $(this).find('a .img-menu').first().addClass("show-img");
+  });
+  $("li").mouseleave(function () {
+    $(this).find('.sub-menu').first().removeClass("show-submenu");
+    $(this).find('a .img-menu').first().removeClass("show-img");
+  });
+});
+
+jQuery(window).on("resize", function () {
+  ajustarMenu();
+});
+
+function ajustarMenu() {
+  Array.from(jQuery("#menu-principal >li >ul")).forEach(element => {
     var widthWindow = window.innerWidth;
-    var posSubMenu = $(element).offset().left;
-    var widthSubMenu = $(element).width();
-    Array.from($(element).find(".sub-menu")).forEach(submenu => {      
-      var widthSub = $(submenu).width();
-      Array.from($(submenu).find(".sub-menu")).forEach(ultimo => {
-        var widthUlt = $(ultimo).width();
-        var widthTotal = posSubMenu + widthSubMenu + widthSub + widthUlt;
+    var posSubMenu = jQuery(element).offset().left;
+    var widthSubMenu = jQuery(element).width();
+    let widthTotal = posSubMenu + widthSubMenu + 95;
+    if (widthTotal > widthWindow) {
+      jQuery(element).css("right", "0")
+    }
+    Array.from(jQuery(element).find(".sub-menu")).forEach(submenu => {
+      var widthSub = jQuery(submenu).width();
+      let widthTotal = posSubMenu + widthSubMenu + widthSub + 95;
+      if (widthTotal > widthWindow) {
+        jQuery(submenu).removeClass("right-submenu");
+        jQuery(submenu).addClass("left-submenu");
+      }
+      Array.from(jQuery(submenu).find(".sub-menu")).forEach(ultimo => {
+        let widthUlt = jQuery(ultimo).width();
+        let widthTotal = posSubMenu + widthSubMenu + widthSub + widthUlt + 95;        
         if (widthTotal > widthWindow) {
-          $(submenu).removeClass("rigth-submenu");
-          $(ultimo).removeClass("rigth-submenu");
-          $(submenu).addClass("left-submenu");
-          $(ultimo).addClass("left-submenu");
+          jQuery(submenu).removeClass("right-submenu");
+          jQuery(ultimo).removeClass("right-submenu");
+          jQuery(submenu).addClass("left-submenu");
+          jQuery(ultimo).addClass("left-submenu");
         }
       });
     });
   });
-  $("li").mouseenter(function () {
-    $(this).find('.sub-menu').first().addClass("show-submenu")
-  });
-  $("li").mouseleave(function () {
-    $(this).find('.sub-menu').first().removeClass("show-submenu")
-  });
-});
+}
