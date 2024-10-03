@@ -75,7 +75,7 @@
 
 .btn-icono {
   padding: 0;
-  width: 12rem;
+  width: 10rem;
   height: 10rem;
 
   a {
@@ -85,7 +85,7 @@
     border-width: 2px;
     border-radius: 0.375rem;
     background-color: var(--blanco);
-    box-shadow: 0 1rem 1rem var(--gris);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-color: var(--gris);
     color: var(--azul);
     text-align: center;
@@ -116,24 +116,6 @@
   a:hover {
     background-color: var(--azul);
     color: var(--gris);
-  }
-}
-
-.enlaces_container {
-  background-color: var(--azul-ct);
-  justify-content: center;
-  text-align: left;
-  
-   ul {
-    list-style: none;
-   }
-
-  .imgLogoEnlaces {
-    max-width: 8rem;
-    margin-top: 1rem;
-    left: 50%;
-    right: 50%;
-    position: relative;
   }
 }
 

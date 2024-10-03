@@ -2,86 +2,48 @@
 <html>
 <div class="container">
   <section class="pb-4">
-    <!-- <div id="carouselExampleCaptions" class="carousel ">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/slider_noticias/Rotabanner_Septiembre-08_360_1130.jpg" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/slider_noticias/Rotabanner_Pag-web-INSOR_7AGO-07_360_1130.jpg" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/slider_noticias/Rotabanner-69-anos-INSOR-1_360_1130.jpg" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/slider_noticias/Rotabanner_Pag-web-INSOR_Manual-03_360_1130.png" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/slider_noticias/Banner-IITPS-Web_360_1130.jpg" class="d-block w-100">
-        </div>
-        <div class="carousel-item">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/slider_noticias/Rotabanner_Ibague-y-Villavicencio_360_1130.jpg" class="d-block w-100">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div> -->
     <?php echo do_shortcode('[serious-slider id="5"]') ?>
   </section>
 
   <section class="py-4">
-    <div class="row titleContainer">
-      <div class="col-lg-3 p-3 title ">
+    <div class="row m-0 titleContainer">
+      <div class="col-lg-3 p-2 title ">
         <h3>
           MICROSITIOS
         </h3>
       </div>
       <div class="col-lg-8"> </div>
     </div>
-    <div class="row banner">
+    <div class="row m-0 banner">
       <div class="col-lg-6" id="mask">
-        <a href="#" class="position-relative">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/DSC00824.JPG" class="imgBanner" alt="Banner Image" onmouseover="showTooltip(event)" onmouseout="hideTooltip()">
-
+        <a href="#" class="position-relative link-micrositios">
+          <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/DSC00824.JPG" class="imgBanner" alt="Banner Image">
           <p>
             INSOR <br />
             <span>EDUCATIVO</span>
+            <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
           </p>
         </a>
-
       </div>
       <hr class="barra">
       </hr>
       <div class="col-lg-6" id="mask">
-        <a href="#" class="position-relative">
+        <a href="#" class="position-relative link-micrositios">
           <img src="<?php bloginfo('template_url'); ?> /assets/img/banner/Taller Cultura Sorda 3.jpg" class="imgBanner">
           <p>
             INSOR <br />
             <span>LAB</span>
+            <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
           </p>
         </a>
       </div>
     </div>
   </section>
 
-  <section class="mb-4">
+  <section class="my-4">
 
-    <div class="row titleContainer">
-      <div class="col-lg-3 p-3 title ">
+    <div class="row m-0 titleContainer">
+      <div class="col-lg-3 p-2 title ">
         <h3>
           INFORMATE
         </h3>
@@ -91,55 +53,55 @@
     </div>
 
     <div class="noticias">
-      <div class="row mt-4">
-        <?php 
-          $args = array(
-            'post_type' => array('post'),
-            'post_status' => 'publish',
-            'orderby'  => 'date',
-            'order' => 'DESC',
-            'posts_per_page' => '4'
-          );
-          $query = new WP_Query($args);
-          if ($query->have_posts()) {
-              while ($query->have_posts()) {
-                  $query->the_post();
-                  $post_thumbnail_id = get_post_thumbnail_id();
-                  $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
-                  ?>
-                    <div class="col-lg-6">
-                      <div class="row">
-                        <div class="imagen p-0">
-                          <img src="<?php echo $post_thumbnail_url; ?>">
-                        </div>
-                        <div class="texto p-3">
-                          <span><?php echo get_the_date(); ?></span>
-                          <h3 class="mb-2">
-                            <?php echo get_the_title(); ?>
-                          </h3>
-                          <p>
-                            <?php echo get_the_excerpt(); ?>
-                          </p>
-                        </div>
-                      </div>       
-                    </div>
-                  <?php
+      <div class="row mt-2">
+        <?php
+        $args = array(
+          'post_type' => array('post'),
+          'post_status' => 'publish',
+          'orderby'  => 'date',
+          'order' => 'DESC',
+          'posts_per_page' => '4'
+        );
+        $query = new WP_Query($args);
+        if ($query->have_posts()) {
+          while ($query->have_posts()) {
+            $query->the_post();
+            $post_thumbnail_id = get_post_thumbnail_id();
+            $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
+        ?>
+            <div class="col-lg-6 py-2">
+              <div class="row m-0">
+                <div class="imagen p-0">
+                  <img src="<?php echo $post_thumbnail_url; ?>">
+                </div>
+                <div class="texto p-3">
+                  <span><?php echo get_the_date(); ?></span>
+                  <h3 class="mb-2">
+                    <?php echo get_the_title(); ?>
+                  </h3>
+                  <p>
+                    <?php echo get_the_excerpt(); ?>
+                  </p>
+                </div>
+              </div>
+            </div>
+        <?php
 
-              }
-            }
-    
+          }
+        }
+
         ?>
       </div>
-      <button type="button" class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
-      
+
     </div>
-
-
+    <div class="d-flex justify-content-center mt-2">
+      <button type="button" class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
+    </div>
   </section>
 
-  <section class="mb-4">
-    <div class="row titleContainer">
-      <div class="col-lg-3 p-3 title ">
+  <section class="py-4">
+    <div class="row m-0 titleContainer">
+      <div class="col-lg-3 p-2 title ">
         <h3>
           TEMAS DE INTERÉS
         </h3>
@@ -147,14 +109,14 @@
       <div class="col-lg-8">
       </div>
     </div>
-    <div class="row temas_Interes">   
-      <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button> 
+    <div class="row temas_Interes">
+      <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button>
     </div>
   </section>
 
-  <section class="mb-4">
-    <div class="row titleContainer my-4">
-      <div class="col-lg-3 p-3 title ">
+  <section class="py-4">
+    <div class="row m-0 titleContainer my-4">
+      <div class="col-lg-3 p-2 title ">
         <h3>
           DESTACADOS
         </h3>
@@ -202,9 +164,9 @@
     </div>
   </section>
 
-  <section class="mb-4">
-    <div class="row titleContainer">
-      <div class="col-lg-3 p-3 title ">
+  <section class="py-4">
+    <div class="row m-0 titleContainer">
+      <div class="col-lg-3 p-2 title ">
         <h3>
           INSOR PARA NIÑOS
         </h3>
@@ -218,9 +180,9 @@
     </div>
   </section>
 
-  <section class="mt-4">
-    <div class="row titleContainer">
-      <div class="col-lg-3 p-3 title ">
+  <section class="py-4">
+    <div class="row m-0 titleContainer">
+      <div class="col-lg-3 p-2 title ">
         <h3>
           REDES SOCIALES
         </h3>
@@ -229,7 +191,7 @@
     </div>
 
     <div class="row ">
-      <div class="row redes mt-4"> 
+      <div class="row redes my-4">
         <div class="text-center tabsContainer">
 
           <nav>
@@ -240,11 +202,11 @@
               <button class="nav-link btn-tab" id="nav-tiktok-tab" data-bs-toggle="tab" data-bs-target="#nav-tiktok" type="button" role="tab" aria-controls="nav-tiktok" aria-selected="false" tiktok>Tiktok</button>
             </div>
           </nav>
-          
+
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-facebook" role="tabpanel" aria-labelledby="nav-facebook-tab" tabindex="0">
               <!-- <iframe frameborder="0" scrolling="no" src="https://www.facebook.com/InsorColombiaOficial/embed" ></iframe> -->
-                <iframe frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial&amp;tabs=timeline&amp;width=340&amp;height=400&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" style="border:none;overflow:hidden" height="500px" width="300"></iframe>
+              <iframe frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial&amp;tabs=timeline&amp;width=340&amp;height=400&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" style="border:none;overflow:hidden" height="500px" width="300"></iframe>
             </div>
 
             <div class="tab-pane fade" id="nav-x" role="tabpanel" aria-labelledby="nav-c-tab" tabindex="0">
@@ -255,24 +217,24 @@
             </div>
 
             <div class="tab-pane fade" id="nav-tiktok" role="tabpanel" aria-labelledby="nav-tiktok-tab" tabindex="0">
-            
+
             </div>
           </div>
-        </div>                
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="mb-4">
-    <div class="row titleContainer">
-      <div class="col-lg-3 p-3 title ">
+  <section class="py-4">
+    <div class="row m-0 titleContainer">
+      <div class="col-lg-3 p-2 title ">
         <h3>
           ENLACES
         </h3>
       </div>
       <div class="col-lg-8"> </div>
     </div>
-    <div class="row enlaces_container">
+    <div class="row m-0 enlaces_container">
       <div class="col-lg-3 justify-content-center mt-2 mb-2">
         <img src="<?php bloginfo('template_url'); ?> /assets/img/logos/Logo-Gobierno-de-Colombia-2024.png" class="d-block imgLogoEnlaces">
       </div>
