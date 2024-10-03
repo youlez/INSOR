@@ -54,7 +54,7 @@
   --azul-ct: #c9ebf5;
   --amarillo: #f0bc37;
   --blanco: #fff;
-  --gris: #f0ebebe0;
+  --gris: #e8e8f0ef;
 }
 
 .btn-azul {
@@ -119,23 +119,7 @@
   }
 }
 
-.enlaces_container {
-  background-color: var(--azul-ct);
-  justify-content: center;
-  text-align: left;
-  
-   ul {
-    list-style: none;
-   }
 
-  .imgLogoEnlaces {
-    max-width: 8rem;
-    margin-top: 1rem;
-    left: 50%;
-    right: 50%;
-    position: relative;
-  }
-}
 
 .icon-programa::before {
   content: "\EBD3";
