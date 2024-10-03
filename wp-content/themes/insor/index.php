@@ -25,7 +25,7 @@
           </p>
         </a>
       </div>
-      <hr class="barra">
+      <hr class="barra .d-none .d-lg-block .d-xl-none .d-sm-none">
       </hr>
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
@@ -205,11 +205,14 @@
 
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-facebook" role="tabpanel" aria-labelledby="nav-facebook-tab" tabindex="0">
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial%2F&tabs=timeline&width=500&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="331" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
               <!-- <iframe frameborder="0" scrolling="no" src="https://www.facebook.com/InsorColombiaOficial/embed" ></iframe> -->
               <iframe frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial&amp;tabs=timeline&amp;width=340&amp;height=400&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" style="border:none;overflow:hidden" height="500px" width="300"></iframe>
             </div>
 
             <div class="tab-pane fade" id="nav-x" role="tabpanel" aria-labelledby="nav-c-tab" tabindex="0">
+              <a class="twitter-timeline" data-lang="es" data-width="500" data-height="300" data-dnt="true" data-theme="light" href="https://twitter.com/insorcolombia?ref_src=twsrc%5Etfw">Tweets by insorcolombia</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 
             <div class="tab-pane fade" id="nav-instagram" role="tabpanel" aria-labelledby="nav-instagram-tab" tabindex="0">
@@ -217,7 +220,10 @@
             </div>
 
             <div class="tab-pane fade" id="nav-tiktok" role="tabpanel" aria-labelledby="nav-tiktok-tab" tabindex="0">
-
+              <blockquote class="tiktok-embed" scrolling="no" frameborder="0" cite="https://www.tiktok.com/@insorcolombia" data-unique-id="insorcolombia" data-embed-from="embed_page" data-embed-type="creator" style="max-width:600px; min-width:58rem; border: 0px !important; border-radius: 0px;">
+                <section> <a target="_blank" href="https://www.tiktok.com/@insorcolombia?refer=creator_embed">@insorcolombia</a> </section>
+              </blockquote>
+              <script async src="https://www.tiktok.com/embed.js"></script>
             </div>
           </div>
         </div>
@@ -234,104 +240,104 @@
       </div>
       <div class="col-lg-8"> </div>
     </div>
-    <div class="row m-0 enlaces_container">
-      <div class="col-lg-3 justify-content-center mt-2 mb-2">
+    <div class="row enlaces_container">
+      <div class="col-lg-3 imgCol mt-2 mb-2">
         <img src="<?php bloginfo('template_url'); ?> /assets/img/logos/Logo-Gobierno-de-Colombia-2024.png" class="d-block imgLogoEnlaces">
       </div>
-      <div class="col-lg-9">
+      <div class="col-lg-9 mt-4 ">
         <div class="row">
           <div class="col-lg-2 mt-2 mb-2">
             <ul>
               <li>
-                <a>Presidencia</a>
+                <a target="_blank" href="https://www.presidencia.gov.co/">Presidencia</a>
               </li>
               <li>
-                <a>Vidcepresidencia</a>
+                <a target="_blank" href="https://www.vicepresidencia.gov.co/">Vidcepresidencia</a>
               </li>
               <li>
-                <a>MinJusticia</a>
+                <a target="_blank" href="https://www.minjusticia.gov.co/">MinJusticia</a>
               </li>
               <li>
-                <a>MinDefensa</a>
+                <a target="_blank" href="https://www.mindefensa.gov.co/">MinDefensa</a>
               </li>
               <li>
-                <a>MinInterior</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 mt-2 mb-2">
-            <ul>
-              <li>
-                <a>Cancillería</a>
-              </li>
-              <li>
-                <a>MinHacienda</a>
-              </li>
-              <li>
-                <a>MinMinas</a>
-              </li>
-              <li>
-                <a>MinComercio</a>
-              </li>
-              <li>
-                <a>MinTIC</a>
+                <a target="_blank" href="https://www.mininterior.gov.co/">MinInterior</a>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 mt-2 mb-2">
             <ul>
               <li>
-                <a>MinCultura</a>
+                <a target="_blank" href="https://www.cancilleria.gov.co/">Cancillería</a>
               </li>
               <li>
-                <a>MinAgricultura</a>
+                <a target="_blank" href="https://www.minhacienda.gov.co/webcenter/portal/Minhacienda">MinHacienda</a>
               </li>
               <li>
-                <a>MinAmbiente</a>
+                <a target="_blank" href="https://www.minenergia.gov.co/es/">MinMinas</a>
               </li>
               <li>
-                <a>MinTransporte</a>
+                <a target="_blank" href="https://www.mincit.gov.co/inicio">MinComercio</a>
               </li>
               <li>
-                <a>MinVivienda</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 mt-2 mb-2">
-            <ul>
-              <li>
-                <a>MinEducación</a>
-              </li>
-              <li>
-                <a>MinTrabajo</a>
-              </li>
-              <li>
-                <a>MinSalud</a>
-              </li>
-              <li>
-                <a>DNP</a>
-              </li>
-              <li>
-                <a>DANE</a>
+                <a target="_blank" href="https://www.mintic.gov.co/portal/inicio/">MinTIC</a>
               </li>
             </ul>
           </div>
           <div class="col-lg-2 mt-2 mb-2">
             <ul>
               <li>
-                <a>DPS</a>
+                <a target="_blank" href="https://www.mincultura.gov.co/">MinCultura</a>
               </li>
               <li>
-                <a>DNI</a>
+                <a target="_blank" href="https://www.minagricultura.gov.co/paginas/default.aspx">MinAgricultura</a>
               </li>
               <li>
-                <a>Coldeportes</a>
+                <a target="_blank" href="https://www.minambiente.gov.co/">MinAmbiente</a>
               </li>
               <li>
-                <a>Colciencias</a>
+                <a target="_blank" href="https://mintransporte.gov.co/">MinTransporte</a>
               </li>
               <li>
-                <a>Colombia Ágil</a>
+                <a target="_blank" href="https://www.minvivienda.gov.co/">MinVivienda</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 mt-2 mb-2">
+            <ul>
+              <li>
+                <a target="_blank" href="https://www.mineducacion.gov.co/portal/">MinEducación</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.mintrabajo.gov.co/web/guest/inicio">MinTrabajo</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.minsalud.gov.co/Portada/index.html">MinSalud</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.dnp.gov.co/">DNP</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.dane.gov.co/">DANE</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 mt-2 mb-2">
+            <ul>
+              <li>
+                <a target="_blank" href="http://www.dps.gov.co/">DPS</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://dni.gov.co/">DNI</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.mindeporte.gov.co/">Coldeportes</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://minciencias.gov.co/">Colciencias</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.colombiaagil.gov.co/">Colombia Ágil</a>
               </li>
             </ul>
           </div>
