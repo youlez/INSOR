@@ -29,7 +29,7 @@
       </hr>
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
-          <img src="<?php bloginfo('template_url'); ?> /assets/img/banner/Taller Cultura Sorda 3.jpg" class="imgBanner">
+          <img src="<?php bloginfo('template_url'); ?> /assets/img/banner/Taller_Cultura_Sorda_3.jpg" class="imgBanner">
           <p>
             INSOR <br />
             <span>LAB</span>
