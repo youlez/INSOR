@@ -75,7 +75,7 @@
 
     img {
       position: absolute;
-      width: 100px;
+      width: 150px;
       right: 0;
       bottom: 0;
       opacity: 0;
@@ -243,6 +243,7 @@
   .imgLogoEnlaces {
     max-width: 8rem;
     margin-top: 1rem;
+    object-fit: contain;
   }
 
   .imgCol {

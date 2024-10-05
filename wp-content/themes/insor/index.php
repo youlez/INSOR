@@ -33,7 +33,7 @@
           <p>
             INSOR <br />
             <span>LAB</span>
-            <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
+            <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/BIDES.gif">
           </p>
         </a>
       </div>
@@ -196,28 +196,35 @@
 
           <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <button class="nav-link active btn-tab" id="nav-facebook-tab" data-bs-toggle="tab" data-bs-target="#nav-facebook" type="button" role="tab" aria-controls="nav-facebook" aria-selected="true">Facebook</button>
+              <button class="nav-link active btn-tab" id="nav-instagram-tab" data-bs-toggle="tab" data-bs-target="#nav-instagram" type="button" role="tab" aria-controls="nav-instagram" aria-selected="false">Instagram</button>
+              <button class="nav-link btn-tab" id="nav-facebook-tab" data-bs-toggle="tab" data-bs-target="#nav-facebook" type="button" role="tab" aria-controls="nav-facebook" aria-selected="true">Facebook</button>
               <button class="nav-link btn-tab" id="nav-x-tab" data-bs-toggle="tab" data-bs-target="#nav-x" type="button" role="tab" aria-controls="nav-x" aria-selected="false">X</button>
-              <button class="nav-link btn-tab" id="nav-instagram-tab" data-bs-toggle="tab" data-bs-target="#nav-instagram" type="button" role="tab" aria-controls="nav-instagram" aria-selected="false">Instagram</button>
               <button class="nav-link btn-tab" id="nav-tiktok-tab" data-bs-toggle="tab" data-bs-target="#nav-tiktok" type="button" role="tab" aria-controls="nav-tiktok" aria-selected="false" tiktok>Tiktok</button>
             </div>
           </nav>
 
+
           <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-facebook" role="tabpanel" aria-labelledby="nav-facebook-tab" tabindex="0">
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial%2F&tabs=timeline&width=500&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="331" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-              <!-- <iframe frameborder="0" scrolling="no" src="https://www.facebook.com/InsorColombiaOficial/embed" ></iframe> -->
-              <iframe frameborder="0" scrolling="no" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial&amp;tabs=timeline&amp;width=340&amp;height=400&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" style="border:none;overflow:hidden" height="500px" width="300"></iframe>
+            <div class="tab-pane fade" id="nav-facebook" role="tabpanel" aria-labelledby="nav-facebook-tab" tabindex="0">
+              <div class=" d-flex justify-content-center">
+                <div style="width: 550px;height: 600px;">
+                  <div class="ratio ratio-16x9">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial&tabs=timeline&width=1200&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="1200" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="tab-pane fade" id="nav-x" role="tabpanel" aria-labelledby="nav-c-tab" tabindex="0">
-              <a class="twitter-timeline" data-lang="es" data-width="500" data-height="300" data-dnt="true" data-theme="light" href="https://twitter.com/insorcolombia?ref_src=twsrc%5Etfw">Tweets by insorcolombia</a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-
-            <div class="tab-pane fade" id="nav-instagram" role="tabpanel" aria-labelledby="nav-instagram-tab" tabindex="0">
+            <div class="tab-pane fade show active" id="nav-instagram" role="tabpanel" aria-labelledby="nav-instagram-tab" tabindex="0">
               <iframe frameborder="0" scrolling="no" src="https://www.instagram.com/insorcolombiaoficial/embed" height="500px" width="300"></iframe>
             </div>
+            <div class="tab-pane fade" id="nav-x" role="tabpanel" aria-labelledby="nav-c-tab" tabindex="0">
+              <div class=" d-flex justify-content-center">
+                <a class="twitter-timeline" data-lang="es" data-width="500" data-height="300" data-dnt="true" data-theme="light" href="https://twitter.com/insorcolombia?ref_src=twsrc%5Etfw">Tweets by insorcolombia</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+            </div>
+
 
             <div class="tab-pane fade" id="nav-tiktok" role="tabpanel" aria-labelledby="nav-tiktok-tab" tabindex="0">
               <blockquote class="tiktok-embed" scrolling="no" frameborder="0" cite="https://www.tiktok.com/@insorcolombia" data-unique-id="insorcolombia" data-embed-from="embed_page" data-embed-type="creator" style="max-width:600px; min-width:58rem; border: 0px !important; border-radius: 0px;">
@@ -240,7 +247,7 @@
       </div>
       <div class="col-lg-8"> </div>
     </div>
-    <div class="row enlaces_container">
+    <div class="row m-0 enlaces_container">
       <div class="col-lg-3 imgCol mt-2 mb-2">
         <img src="<?php bloginfo('template_url'); ?> /assets/img/logos/Logo-Gobierno-de-Colombia-2024.png" class="d-block imgLogoEnlaces">
       </div>

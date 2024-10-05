@@ -42,7 +42,7 @@ function agregar_campo_imagen_menu($item_id, $item, $depth, $args)
     <label for="edit-menu-item-image-<?php echo esc_attr($item_id); ?>">
       <?php _e('Seleccionar Imagen', 'textdomain'); ?><br>
       <input type="text" id="edit-menu-item-image-<?php echo esc_attr($item_id); ?>" class="widefat code edit-menu-item-image" name="menu-item-image[<?php echo esc_attr($item_id); ?>]" value="<?php echo esc_attr($image); ?>" />
-      <img src="<?php echo esc_attr($image); ?>" alt="">
+      <img style="width: 100%;" src="<?php echo esc_attr($image); ?>" alt="">
       <button type="button" class="button button-secondary seleccionar-imagen-menu" data-id="edit-menu-item-image-<?php echo esc_attr($item_id); ?>">Seleccionar Imagen</button>
     </label>
   </p>

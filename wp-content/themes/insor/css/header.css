@@ -111,11 +111,16 @@ div.asl_m .probox .proclose svg {
       min-height: 60px;
 
       .img-menu {
-        width: 100%;
+        width: max-content;
         bottom: 100%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
 
         img {
-          width: 30%;
+          width: 150px;
+          z-index: 1000;
         }
       }
     }
@@ -202,7 +207,7 @@ div.asl_m .probox .proclose svg {
     }
 
     .img-menu {
-      width: 80px;
+      width: 150px;
       right: 100%;
       left: auto;
       bottom: 0;
@@ -223,8 +228,10 @@ div.asl_m .probox .proclose svg {
     left: calc(100% + 2px);
 
     .img-menu {
-      left: 100%;
-      right: auto;
+      right: 100%;
+      left: auto;
+      /*left: 100%;
+      right: auto;*/
     }
   }
 
@@ -232,8 +239,10 @@ div.asl_m .probox .proclose svg {
     right: 100%;
 
     .img-menu {
-      right: 100%;
-      left: auto;
+      left: 100%;
+      right: auto;
+      /* right: 100%;
+      left: auto; */
     }
   }
 

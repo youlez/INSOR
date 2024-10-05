@@ -1,5 +1,8 @@
 jQuery(document).ready(function ($) {
   ajustarMenu();
+  $($("#menu-principal .img-menu")[0]).css('left','-75%');
+  $($("#menu-principal >li>a .img-menu")[3]).css('left','-25%');
+  $($("#menu-principal >li>a .img-menu")[4]).css('left','-30%');
   $("li").mouseenter(function () {
     $(this).find('.sub-menu').first().addClass("show-submenu");
     Array.from($('.img-menu')).forEach(imagen => {
