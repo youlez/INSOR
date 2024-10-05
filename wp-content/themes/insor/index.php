@@ -175,7 +175,7 @@
     </div>
     <div class="mt-4">
       <a target="_blank" href="https://www.insor.gov.co/portalninos/">
-        <img src="<?php bloginfo('template_url'); ?>/assets/img/niños/insor_niños.jpg" class="d-block w-100">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/niños/Insor_niños.jpg" class="d-block w-100">
       </a>
     </div>
   </section>
