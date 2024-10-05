@@ -29,7 +29,7 @@
       </hr>
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
-          <img src="<?php bloginfo('template_url'); ?> /assets/img/banner/Taller_Cultura_Sorda_3.jpg" class="imgBanner">
+          <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/Taller_Cultura_Sorda_3.jpg" class="imgBanner">
           <p>
             INSOR <br />
             <span>LAB</span>
@@ -175,7 +175,7 @@
     </div>
     <div class="mt-4">
       <a target="_blank" href="https://www.insor.gov.co/portalninos/">
-        <img src="<?php bloginfo('template_url'); ?> /assets/img/niños/insor_niños.jpg" class="d-block w-100">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/niños/insor_niños.jpg" class="d-block w-100">
       </a>
     </div>
   </section>
@@ -249,7 +249,7 @@
     </div>
     <div class="row m-0 enlaces_container">
       <div class="col-lg-3 imgCol mt-2 mb-2">
-        <img src="<?php bloginfo('template_url'); ?> /assets/img/logos/Logo-Gobierno-de-Colombia-2024.png" class="d-block imgLogoEnlaces">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/logos/Logo-Gobierno-de-Colombia-2024.png" class="d-block imgLogoEnlaces">
       </div>
       <div class="col-lg-9 mt-4 ">
         <div class="row">
