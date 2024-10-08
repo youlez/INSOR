@@ -100,7 +100,7 @@
   </section>
 
   <section class="py-4">
-    <div class="row m-0 titleContainer">
+    <div class="row m-0 titleContainer mb-4">
       <div class="col-lg-3 p-2 title ">
         <h3>
           TEMAS DE INTERÉS
@@ -110,8 +110,32 @@
       </div>
     </div>
     <div class="row temas_Interes">
+
+        <div class="row align-items-center  m-4">
+            <div class="col-md-3">
+                <div class="video-container prev">
+                    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" loop muted></video>
+                    <div class="video-overlay" data-action="prev"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="video-container center-video">
+                    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4" loop></video>
+                    <div class="video-overlay" data-action="play">
+                      <span class="icon-reproducir icon"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="video-container next">
+                    <video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" loop muted></video>
+                    <div class="video-overlay" data-action="next"></div>
+                </div>
+            </div>
+        </div>
       <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button>
     </div>
+
   </section>
 
   <section class="py-4">
