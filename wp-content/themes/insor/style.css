@@ -142,3 +142,7 @@
 .icon-agenda::before {
   content: "\E87A";
 }
+
+.icon-reproducir::before {
+  content: "\EA95";
+}
