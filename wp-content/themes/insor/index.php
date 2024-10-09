@@ -113,23 +113,24 @@
 
         <div class="row align-items-center  m-4">
             <div class="col-md-3">
-                <div class="video-container prev">
-                    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" loop muted></video>
+                <div class="video-container">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bc8ikwawzlQ" title="¿Sabes qué hace el Instituto Nacional para Sordos? 🤓💡" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="video-overlay" data-action="prev"></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="video-container center-video">
-                    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4" loop></video>
-                    <div class="video-overlay" data-action="play">
-                      <span class="icon-reproducir icon"></span>
-                    </div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6N31oUaEMxI" title="¿Sabes cuáles son las funciones del INSOR?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="video-container next">
-                    <video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" loop muted></video>
-                    <div class="video-overlay" data-action="next"></div>
+                <div class="video-container">
+                    <iframe frameborder="0" height="100%" scrolling="no" src="https://www.facebook.com/plugins/video.php?&amp;href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial%2Fvideos%2F459759910166884%2F&amp;show_text=false&amp;width=560&amp;t=0" style="border:none;overflow:hidden" width="100%"></iframe>
+                    
+                     <!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/0_3h9c_WvpM" title="Acceso a los Libros Digitales Accesibles_2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                       -->
+                      <div class="video-overlay" data-action="next"></div>
                 </div>
             </div>
         </div>
