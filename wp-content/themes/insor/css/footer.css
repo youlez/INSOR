@@ -45,10 +45,6 @@ a:hover {
     font-family: "govco-font";
 }
 
-.icono-twitter::before {
-    content: "\ee16";
-}
-
 .icono-instagram:before {
     content: "\ed5b";
 }
@@ -63,6 +59,14 @@ a:hover {
 
 .icono-youtube:before {
     content: "\ee52";
+}
+
+.icono-linkedin:before {
+    content: "\ed7b";
+}
+
+.icono-tiktok:before {
+    content: "\EE0F";
 }
 
 .logos-iso img {

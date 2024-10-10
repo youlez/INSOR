@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 <html>
-<div class="container">
+<div class="container contenedor">
   <section class="pb-4">
     <?php echo do_shortcode('[serious-slider id="5"]') ?>
   </section>
 
   <section class="py-4">
     <div class="row m-0 titleContainer">
-      <div class="col-lg-3 p-2 title ">
+      <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
         <h3>
           MICROSITIOS
         </h3>
@@ -25,7 +25,7 @@
           </p>
         </a>
       </div>
-      <hr class="barra .d-none .d-lg-block .d-xl-none .d-sm-none">
+      <hr class="barra d-none d-lg-block">
       </hr>
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
@@ -40,10 +40,10 @@
     </div>
   </section>
 
-  <section class="my-4">
+  <section class="py-4">
 
     <div class="row m-0 titleContainer">
-      <div class="col-lg-3 p-2 title ">
+      <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
         <h3>
           INFORMATE
         </h3>
@@ -70,7 +70,7 @@
             $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
         ?>
             <div class="col-lg-6 py-2">
-              <div class="row m-0">
+              <a class="link-noticias row m-0" href="<?php bloginfo('url'); ?>/<?php echo get_post_field('post_name', get_post()); ?>">
                 <div class="imagen p-0">
                   <img src="<?php echo $post_thumbnail_url; ?>">
                 </div>
@@ -83,7 +83,7 @@
                     <?php echo get_the_excerpt(); ?>
                   </p>
                 </div>
-              </div>
+              </a>
             </div>
         <?php
 
@@ -101,7 +101,7 @@
 
   <section class="py-4">
     <div class="row m-0 titleContainer mb-4">
-      <div class="col-lg-3 p-2 title ">
+      <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
         <h3>
           TEMAS DE INTERÉS
         </h3>
@@ -109,30 +109,27 @@
       <div class="col-lg-8">
       </div>
     </div>
-    <div class="row temas_Interes">
+    <div class="row m-0 temas_Interes">
 
-        <div class="row align-items-center  m-4">
-            <div class="col-md-3">
-                <div class="video-container prev">
-                    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" loop muted></video>
-                    <div class="video-overlay" data-action="prev"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="video-container center-video">
-                    <video src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4" loop></video>
-                    <div class="video-overlay" data-action="play">
-                      <span class="icon-reproducir icon"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="video-container next">
-                    <video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" loop muted></video>
-                    <div class="video-overlay" data-action="next"></div>
-                </div>
-            </div>
+      <!-- <div class="row align-items-center  m-4">
+        <div class="col-md-3">
+          <div class="video-container prev">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial%2Fvideos%2F459759910166884%2F%3Fref%3Dembed_video&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <div class="video-overlay" data-action="prev"></div>
+          </div>
         </div>
+        <div class="col-md-6">
+          <div class="video-container center-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bc8ikwawzlQ?si=3JwdMncva7sccN6L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="video-container next">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6N31oUaEMxI?si=oL-IQTixCUbt7cJp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-overlay" data-action="next"></div>
+          </div>
+        </div>
+      </div> -->
       <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button>
     </div>
 
@@ -140,14 +137,14 @@
 
   <section class="py-4">
     <div class="row m-0 titleContainer my-4">
-      <div class="col-lg-3 p-2 title ">
+      <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
         <h3>
           DESTACADOS
         </h3>
       </div>
       <div class="col-lg-8"> </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row m-0 justify-content-center">
       <div class="btn-icono m-2">
         <a href="#">
           <span class="icon-programa icon"></span>
@@ -190,15 +187,21 @@
 
   <section class="py-4">
     <div class="row m-0 titleContainer">
-      <div class="col-lg-3 p-2 title ">
+      <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
         <h3>
           INSOR PARA NIÑOS
         </h3>
       </div>
       <div class="col-lg-8"> </div>
     </div>
-    <div class="mt-4">
+    <div class="mt-4 position-relative link-kids">
       <a target="_blank" href="https://www.insor.gov.co/portalninos/">
+        <div class="tituloKids position-absolute">
+          <p>
+            INSOR <br />
+            <span>PARA NIÑOS</span>
+          </p>
+        </div>
         <img src="<?php bloginfo('template_url'); ?>/assets/img/niños/Insor_niños.jpg" class="d-block w-100">
       </a>
     </div>
@@ -206,56 +209,56 @@
 
   <section class="py-4">
     <div class="row m-0 titleContainer">
-      <div class="col-lg-3 p-2 title ">
+      <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
         <h3>
           REDES SOCIALES
         </h3>
       </div>
-      <div class="col-lg-8"> </div>
+      <div class="col-lg-8">
+      </div>
     </div>
 
-    <div class="row ">
-      <div class="row redes my-4">
-        <div class="text-center tabsContainer">
 
-          <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <button class="nav-link active btn-tab" id="nav-instagram-tab" data-bs-toggle="tab" data-bs-target="#nav-instagram" type="button" role="tab" aria-controls="nav-instagram" aria-selected="false">Instagram</button>
-              <button class="nav-link btn-tab" id="nav-facebook-tab" data-bs-toggle="tab" data-bs-target="#nav-facebook" type="button" role="tab" aria-controls="nav-facebook" aria-selected="true">Facebook</button>
-              <button class="nav-link btn-tab" id="nav-x-tab" data-bs-toggle="tab" data-bs-target="#nav-x" type="button" role="tab" aria-controls="nav-x" aria-selected="false">X</button>
-              <button class="nav-link btn-tab" id="nav-tiktok-tab" data-bs-toggle="tab" data-bs-target="#nav-tiktok" type="button" role="tab" aria-controls="nav-tiktok" aria-selected="false" tiktok>Tiktok</button>
-            </div>
-          </nav>
+    <div class="row m-0 redes my-4">
+      <div class="text-center tabsContainer">
+
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active btn-tab" id="nav-instagram-tab" data-bs-toggle="tab" data-bs-target="#nav-instagram" type="button" role="tab" aria-controls="nav-instagram" aria-selected="false">Instagram</button>
+            <button class="nav-link btn-tab" id="nav-facebook-tab" data-bs-toggle="tab" data-bs-target="#nav-facebook" type="button" role="tab" aria-controls="nav-facebook" aria-selected="true">Facebook</button>
+            <button class="nav-link btn-tab" id="nav-x-tab" data-bs-toggle="tab" data-bs-target="#nav-x" type="button" role="tab" aria-controls="nav-x" aria-selected="false">X</button>
+            <button class="nav-link btn-tab" id="nav-tiktok-tab" data-bs-toggle="tab" data-bs-target="#nav-tiktok" type="button" role="tab" aria-controls="nav-tiktok" aria-selected="false" tiktok>Tiktok</button>
+          </div>
+        </nav>
 
 
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade" id="nav-facebook" role="tabpanel" aria-labelledby="nav-facebook-tab" tabindex="0">
-              <div class=" d-flex justify-content-center">
-                <div style="width: 550px;height: 600px;">
-                  <div class="ratio ratio-16x9">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial&tabs=timeline&width=1200&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="1200" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                  </div>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade" id="nav-facebook" role="tabpanel" aria-labelledby="nav-facebook-tab" tabindex="0">
+            <div class=" d-flex justify-content-center">
+              <div style="width: 550px;height: 600px;">
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="tab-pane fade show active" id="nav-instagram" role="tabpanel" aria-labelledby="nav-instagram-tab" tabindex="0">
-              <iframe frameborder="0" scrolling="no" src="https://www.instagram.com/insorcolombiaoficial/embed" height="500px" width="300"></iframe>
+          <div class="tab-pane fade show active" id="nav-instagram" role="tabpanel" aria-labelledby="nav-instagram-tab" tabindex="0">
+            <iframe frameborder="0" scrolling="no" src="https://www.instagram.com/insorcolombiaoficial/embed" height="500px" width="300"></iframe>
+          </div>
+          <div class="tab-pane fade" id="nav-x" role="tabpanel" aria-labelledby="nav-c-tab" tabindex="0">
+            <div class=" d-flex justify-content-center">
+              <a class="twitter-timeline" data-lang="es" data-width="500" data-height="300" data-dnt="true" data-theme="light" href="https://twitter.com/insorcolombia?ref_src=twsrc%5Etfw">Tweets by insorcolombia</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
-            <div class="tab-pane fade" id="nav-x" role="tabpanel" aria-labelledby="nav-c-tab" tabindex="0">
-              <div class=" d-flex justify-content-center">
-                <a class="twitter-timeline" data-lang="es" data-width="500" data-height="300" data-dnt="true" data-theme="light" href="https://twitter.com/insorcolombia?ref_src=twsrc%5Etfw">Tweets by insorcolombia</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </div>
-            </div>
+          </div>
 
 
-            <div class="tab-pane fade" id="nav-tiktok" role="tabpanel" aria-labelledby="nav-tiktok-tab" tabindex="0">
-              <blockquote class="tiktok-embed" scrolling="no" frameborder="0" cite="https://www.tiktok.com/@insorcolombia" data-unique-id="insorcolombia" data-embed-from="embed_page" data-embed-type="creator" style="max-width:600px; min-width:58rem; border: 0px !important; border-radius: 0px;">
-                <section> <a target="_blank" href="https://www.tiktok.com/@insorcolombia?refer=creator_embed">@insorcolombia</a> </section>
-              </blockquote>
-              <script async src="https://www.tiktok.com/embed.js"></script>
-            </div>
+          <div class="tab-pane fade" id="nav-tiktok" role="tabpanel" aria-labelledby="nav-tiktok-tab" tabindex="0">
+            <blockquote class="tiktok-embed" scrolling="no" frameborder="0" cite="https://www.tiktok.com/@insorcolombia" data-unique-id="insorcolombia" data-embed-from="embed_page" data-embed-type="creator" style="max-width:600px; min-width:58rem; border: 0px !important; border-radius: 0px;">
+              <section> <a target="_blank" href="https://www.tiktok.com/@insorcolombia?refer=creator_embed">@insorcolombia</a> </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
           </div>
         </div>
       </div>
@@ -264,7 +267,7 @@
 
   <section class="py-4">
     <div class="row m-0 titleContainer">
-      <div class="col-lg-3 p-2 title ">
+      <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
         <h3>
           ENLACES
         </h3>
@@ -277,7 +280,7 @@
       </div>
       <div class="col-lg-9 mt-4 ">
         <div class="row">
-          <div class="col-lg-2 mt-2 mb-2">
+          <div class="col-4 col-lg-2 mt-2 mb-2">
             <ul>
               <li>
                 <a target="_blank" href="https://www.presidencia.gov.co/">Presidencia</a>
@@ -296,7 +299,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-2 mt-2 mb-2">
+          <div class="col-4 col-lg-2 mt-2 mb-2">
             <ul>
               <li>
                 <a target="_blank" href="https://www.cancilleria.gov.co/">Cancillería</a>
@@ -315,7 +318,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-2 mt-2 mb-2">
+          <div class="col-4 col-lg-2 mt-2 mb-2">
             <ul>
               <li>
                 <a target="_blank" href="https://www.mincultura.gov.co/">MinCultura</a>
@@ -334,7 +337,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-2 mt-2 mb-2">
+          <div class="col-4 col-lg-2 mt-2 mb-2">
             <ul>
               <li>
                 <a target="_blank" href="https://www.mineducacion.gov.co/portal/">MinEducación</a>
@@ -353,7 +356,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-2 mt-2 mb-2">
+          <div class="col-4 col-lg-2 mt-2 mb-2">
             <ul>
               <li>
                 <a target="_blank" href="http://www.dps.gov.co/">DPS</a>

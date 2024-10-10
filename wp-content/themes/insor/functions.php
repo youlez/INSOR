@@ -41,9 +41,10 @@ function agregar_campo_imagen_menu($item_id, $item, $depth, $args)
   <p class="field-custom description description-wide">
     <label for="edit-menu-item-image-<?php echo esc_attr($item_id); ?>">
       <?php _e('Seleccionar Imagen', 'textdomain'); ?><br>
-      <input type="text" id="edit-menu-item-image-<?php echo esc_attr($item_id); ?>" class="widefat code edit-menu-item-image" name="menu-item-image[<?php echo esc_attr($item_id); ?>]" value="<?php echo esc_attr($image); ?>" />
-      <img style="width: 100%;" src="<?php echo esc_attr($image); ?>" alt="">
-      <button type="button" class="button button-secondary seleccionar-imagen-menu" data-id="edit-menu-item-image-<?php echo esc_attr($item_id); ?>">Seleccionar Imagen</button>
+      <input style="display: none;" type="text" id="edit-menu-item-image-<?php echo esc_attr($item_id); ?>" class="widefat code edit-menu-item-image" name="menu-item-image[<?php echo esc_attr($item_id); ?>]" value="<?php echo esc_attr($image); ?>" />
+      <img <?php echo esc_attr($image) != "" ? 'style="width: 100%;"' : '' ?> id="image-<?php echo esc_attr($item_id); ?>" src="<?php echo esc_attr($image); ?>" alt="">
+      <button type="button" class="button button-secondary seleccionar-imagen-menu" data-image="image-<?php echo esc_attr($item_id); ?>" data-button="eliminar-<?php echo esc_attr($item_id); ?>" data-id="edit-menu-item-image-<?php echo esc_attr($item_id); ?>">Seleccionar Imagen</button>
+      <button <?php echo esc_attr($image) == "" ? 'style="display: none;"' : '' ?> type="button" class="button button-secondary eliminar-imagen-menu" id="eliminar-<?php echo esc_attr($item_id); ?>" data-image="image-<?php echo esc_attr($item_id); ?>" data-id="edit-menu-item-image-<?php echo esc_attr($item_id); ?>">Eliminar Imagen</button>
     </label>
   </p>
 <?php
@@ -109,3 +110,64 @@ function my_custom_css()
     }
   }
 }
+
+add_action("widgets_init", "insorWidgetsInit");
+
+function insorWidgetsInit()
+{
+
+  register_sidebar(array(
+    'name' => __('Footer', 'insor'),
+    'id' => 'sidebar-footer',
+    'description' => __('Widgets for footer', 'insor'),
+    'before_widget' => '<div id="%1$s" class="%2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>',
+  ));
+}
+
+/**
+ * Add support to Theme Customizer
+ */
+function insor_customize_register($wp_customize)
+{
+  // Add new section to Customizer
+  $wp_customize->add_section('theme_options', array(
+    'title'    => __('Logos', 'insor'),
+    'priority' => 130, // Before Additional CSS.
+  ));
+
+  // Display the form for change the logo on header
+  $wp_customize->add_setting('logo', array(
+    'transport'   => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+    new WP_Customize_Image_Control(
+      $wp_customize,
+      'logo',
+      array(
+        'label'      => __('Subir imagen del logo ', 'insor'),
+        'section'    => 'theme_options'
+      )
+    )
+  );
+  // Display the form for change the logo on header
+  $wp_customize->add_setting('logo-movil', array(
+    'transport'   => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+    new WP_Customize_Image_Control(
+      $wp_customize,
+      'logo-movil',
+      array(
+        'label'      => __('Subir imagen del logo para movil', 'insor'),
+        'section'    => 'theme_options'
+      )
+    )
+  );
+}
+
+add_action('customize_register', 'insor_customize_register');
