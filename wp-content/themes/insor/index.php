@@ -130,8 +130,9 @@
         ?>
             <div class="<?php echo $index == 0 ? 'col-6 col-lg-3 my-4 order-2 order-lg-1' : ($index == 1 ? 'col-12 order-1 col-lg-6 order-lg-2 my-4' : 'col-6 col-lg-3 my-4 order-3') ?>">
               <div class="video-container <?php echo ($index == 1) ? 'center-video' : '' ?>">
-
-                <?php echo do_shortcode('[featured-video-plus]'); ?>
+                <div class="ratio ratio-16x9">
+                  <?php echo do_shortcode('[featured-video-plus]'); ?>
+                </div>
                 <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bc8ikwawzlQ" title="¿Sabes qué hace el Instituto Nacional para Sordos? 🤓💡" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
                 <?php if ($index != 1) { ?>
                   <div class="video-overlay" data-action="prev"></div>
