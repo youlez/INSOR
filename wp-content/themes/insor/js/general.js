@@ -3,7 +3,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const videoContainers = document.querySelectorAll('.video-container');
     const overlays = document.querySelectorAll('.video-overlay');
     let currentIndex = 1;
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const videoIndex = (currentIndex - 1 + index + videos.length) % videos.length;
             const video = videos[videoIndex];
             let iframe = container.querySelector('iframe');
-            
+
             if (video.type === 'youtube') {
                 iframe.src = `https://www.youtube.com/embed/${video.id}${index === 1 ? '?enablejsapi=1' : ''}`;
             } else if (video.type === 'facebook') {
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 centralVideo.src = currentSrc.replace('autoplay=1', 'autoplay=0');
                 // return false;
             } else {
-                centralVideo.src = currentSrc.includes('?') ? 
-                    currentSrc + '&autoplay=1' : 
+                centralVideo.src = currentSrc.includes('?') ?
+                    currentSrc + '&autoplay=1' :
                     currentSrc + '?autoplay=1';
                 // return true;
             }
@@ -99,16 +99,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     overlays.forEach((overlay, index) => {
         overlay.addEventListener('click', () => {
-            if (index === 1) {
-                // Centro: reproducir/pausar
-                togglePlayPause();
-            } else {
-                // Izquierda o derecha: navegar
-                currentIndex = index === 0 ? 
-                    (currentIndex - 1 + videos.length) % videos.length : 
-                    (currentIndex + 1) % videos.length;
-                updateVideos();    
-            }
+            currentIndex = index === 0 ?
+                (currentIndex - 1 + videos.length) % videos.length :
+                (currentIndex + 1) % videos.length;
+            updateVideos();
         });
     });
 
@@ -119,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
     // Cargar el SDK de Facebook
-    (function(d, s, id) {
+    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;

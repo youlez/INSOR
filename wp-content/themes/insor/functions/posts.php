@@ -88,9 +88,9 @@ function crear_entrada($entrada, $nombre, $genero)
 }
 function crear_entradas()
 {
-    crear_entrada('enlaces', 'Enlace', 'm');
-    crear_entrada('micrositios', 'Micrositio', 'm');
+    // crear_entrada('enlaces', 'Enlace', 'm');
+    // crear_entrada('micrositios', 'Micrositio', 'm');
     crear_entrada('videos', 'Video', 'm');
-    crear_entrada('destacados', 'Destacado', 'm');
+    //crear_entrada('destacados', 'Destacado', 'm');
 }
 add_action('init', 'crear_entradas');
