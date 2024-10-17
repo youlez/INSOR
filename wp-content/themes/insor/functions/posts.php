@@ -29,7 +29,7 @@ function modificar_post_object()
 add_action('admin_menu', 'modificar_post_label');
 add_action('init', 'modificar_post_object');
 
-function crear_entrada($entrada, $nombre, $genero)
+function crear_entrada($entrada, $nombre, $plural, $genero, $tipo)
 {
     if ($genero == 'f') {
         $varios = 'Todas';
@@ -41,24 +41,13 @@ function crear_entrada($entrada, $nombre, $genero)
         $ningun = 'ninguno';
     }
 
-    $vocales = "aeiouAEIOU";
-    if (is_numeric(strpos($vocales, substr($nombre, strlen($nombre) - 1, strlen($nombre) - 1))) == false) {
-        if ($genero == 'f') {
-            $plural = 'as ';
-        } else {
-            $plural = 'es ';
-        }
-    } else {
-        $plural = 's ';
-    }
-
     $labels = array(
-        'name' => __($nombre . $plural),
+        'name' => __($plural),
         'singular_name' => __($nombre),
-        'search_items' =>  __('Buscar ' . strtolower($nombre) . $plural),
+        'search_items' =>  __('Buscar ' . strtolower($plural)),
         'all_items' => __($varios),
         'add_new' => __('Añadir ' . strtolower($crear), strtolower($nombre)),
-        'add_new_item' => __('Añadir ' . strtolower($crear) . $plural . strtolower($nombre) . $plural),
+        'add_new_item' => __('Añadir ' . strtolower($crear) . ' ' . strtolower($nombre)),
         'edit_item' => __('Editar ' . strtolower($nombre)),
         'new_item' => __($crear . ' ' . strtolower($nombre)),
         'view_item' => __('Ver ' . strtolower($nombre)),
@@ -76,7 +65,7 @@ function crear_entrada($entrada, $nombre, $genero)
             'show_ui' => true,
             'show_in_rest' => true,
             '_builtin' => false,
-            'capability_type' => 'post',
+            'capability_type' => $tipo,
             'hierarchical' => true,
             'rewrite' => array('with_front' => true),
             'supports' => array('title', 'editor', 'author', 'thumbnail', 'custom-fields', 'page-attributes'),
@@ -88,9 +77,8 @@ function crear_entrada($entrada, $nombre, $genero)
 }
 function crear_entradas()
 {
-    // crear_entrada('enlaces', 'Enlace', 'm');
-    // crear_entrada('micrositios', 'Micrositio', 'm');
-    crear_entrada('videos', 'Video', 'm');
-    //crear_entrada('destacados', 'Destacado', 'm');
+    crear_entrada('videos', 'Video', 'Videos', 'm', 'post');
+    crear_entrada('items-acordeon', 'Item Acordeon', 'Items Acordeon', 'm', 'post');
+    crear_entrada('items-lista', 'Lista', 'Listas de Documentos', 'f', 'post');
 }
 add_action('init', 'crear_entradas');

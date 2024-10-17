@@ -1,0 +1,76 @@
+#ajaxsearchlite1 .probox .proinput input,
+div.asl_w .probox .proinput input {
+	font-size: 1rem !important;
+	font-family: WorkSans !important;
+	height: 100%;
+	color: var(--gris-o) !important;
+}
+
+#ajaxsearchlite1 .probox .proinput:before,
+div.asl_w .probox .proinput::before {
+	content: "Buscar";
+	font-family: WorkSans;
+	color: #adb5bd;
+	position: absolute;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+}
+
+#ajaxsearchlite1:has(> .probox .proinput input:focus-visible),
+div.asl_w:has(> .probox .proinput input:focus-visible) {
+	outline: max(0.125rem, 0.15em) solid #000000;
+	outline-offset: max(0.125rem, 0.15em);
+	border-radius: 30px;
+}
+
+#ajaxsearchlite1 .probox .proinput:has(input:focus-visible)::before,
+div.asl_w .probox .proinput:has(input:focus-visible) ::before,
+#ajaxsearchlite1 .probox .proinput:has(.no-place)::before,
+div.asl_w .probox .proinput:has(.no-place) ::before {
+	display: none;
+}
+
+div.asl_m .probox .promagnifier .innericon {
+	margin-right: 0.3rem;
+	border-radius: 50%;
+	background-color: var(--gris-o) !important;
+}
+
+div.asl_m .probox .promagnifier .innericon:hover {
+	background-color: var(--azul-r) !important;
+}
+
+div.asl_w .probox .promagnifier .innericon svg {
+	fill: white !important;
+}
+
+div.asl_m .probox .proclose svg {
+	fill: var(--azul-r) !important;
+	background-color: transparent !important;
+	margin-left: -15px !important;
+	width: 28px !important;
+	height: 28px !important;
+	margin-top: 0 !important;
+	top: 0 !important;
+}
+
+div.asl_w .asl_nores_header {
+	color: transparent;
+}
+
+div.asl_w .asl_nores_header::before {
+	color: var(--gris-o);
+	content: "No hay resultados!";
+	font-family: WorkSans;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+div.asl_r .results .item .asl_content h3,
+div.asl_r .results .item .asl_content h3 a,
+.results .asl_nores .asl_keyword {
+	font-family: WorkSans !important;
+}

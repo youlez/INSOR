@@ -12,6 +12,16 @@ jQuery(document).ready(function ($) {
       jQuery('.contenedor').css('margin-top', 'auto');
     }
   });
+
+  $("div.asl_w .probox .proinput input").on("focusout", function () {
+    if ($(this).val() != "") {
+      $(this).addClass("no-place");
+    }
+    else {
+      $(this).removeClass("no-place");
+    }
+  });
+
 });
 
 jQuery(window).on("resize", function () {

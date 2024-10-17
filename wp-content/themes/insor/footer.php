@@ -24,7 +24,7 @@
             <?php endif; ?>
           </div>
           <div class="col-12 col-lg-5">
-            <div class="row justify-content-center d-none d-lg-block">
+            <div class="row justify-content-center d-none d-lg-flex">
               <a href="/" rel="home" class="col-10 col-sm-8 col-md-7" aria-label="Portal INSOR  - Instituto Nacional para Sordos">
                 <?php
                 $logo_header = get_theme_mod('logo');

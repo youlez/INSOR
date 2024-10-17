@@ -4,7 +4,7 @@ header {
 
 /*barra superior*/
 .barra-superior-govco {
-  background-color: #3366cc;
+  background-color: var(--azul-r);
   width: 100%;
 }
 
@@ -24,57 +24,31 @@ header {
 /*buscador*/
 #ajaxsearchlite1 .probox,
 div.asl_w .probox {
-  border: 0.063rem solid #4B4B4B !important;
+  border: 0.063rem solid var(--gris-o) !important;
   padding: 5px !important;
+  border-radius: 30px !important;
+  background: none !important
 }
 
-#ajaxsearchlite1 .probox .proinput input,
-div.asl_w .probox .proinput input {
-  font-size: 1rem !important;
-  font-family: WorkSans !important;
-  height: 100%;
+div.asl_w,
+div.asl_w .probox .promagnifier {
+  background: none !important;
 }
 
-#ajaxsearchlite1:has(> .probox .proinput input:focus-visible),
-div.asl_w:has(> .probox .proinput input:focus-visible) {
-  outline: max(0.125rem, 0.15em) solid #000000;
-  outline-offset: max(0.125rem, 0.15em);
-  border-radius: 30px;
-}
-
-div.asl_m .probox .promagnifier .innericon {
-  margin-right: 0.3rem;
-  border-radius: 50%;
-  background-color: #737373 !important;
-}
-
-
-div.asl_m .probox .promagnifier .innericon:hover {
-  background-color: #3366cc !important;
-}
-
-div.asl_w .probox .promagnifier .innericon svg {
-  fill: white !important;
-}
-
-div.asl_m .probox .proclose svg {
-  fill: #3366cc !important;
-  background-color: transparent !important;
-  margin-left: -15px !important;
-  width: 28px !important;
-  height: 28px !important;
-  margin-top: 0 !important;
-  top: 0 !important;
+div.asl_w .probox .proinput input::placeholder {
+  opacity: 0 !important;
+  display: none !important;
 }
 
 /*buscador*/
 
 /*menu*/
 .menu-principal {
-  background-color: #25368b;
+  background-color: var(--azul);
   width: 100%;
   position: relative;
   z-index: 1000;
+  font-family: "Montserrat-Medium";
 
   li {
     display: block;
@@ -85,7 +59,7 @@ div.asl_m .probox .proclose svg {
       display: block;
       position: relative;
       padding: 10px;
-      font-size: 1rem;
+      font-size: 0.9rem;
       text-decoration: none;
       display: flex;
       align-items: center;
@@ -111,7 +85,7 @@ div.asl_m .probox .proclose svg {
     }
 
     >li:hover:after {
-      color: #25368b;
+      color: var(--azul);
     }
 
     >li>a {
@@ -137,8 +111,8 @@ div.asl_m .probox .proclose svg {
     >li>a:hover,
     >li>a:focus-visible,
     >li:has(.show-submenu)>a {
-      background-color: #f0bc37;
-      color: #25368b;
+      background-color: var(--amarillo);
+      color: var(--azul);
     }
 
     >li>.sub-menu>.menu-item-has-children:has(.left-submenu) {
@@ -175,7 +149,7 @@ div.asl_m .probox .proclose svg {
     content: "\e8b7";
     background-image: none;
     width: auto;
-    color: #25368b;
+    color: var(--azul);
     margin-left: 0.5em;
     transition: all 0.3s ease-in-out;
   }
@@ -187,16 +161,16 @@ div.asl_m .probox .proclose svg {
   }
 
   .sub-menu:has(.right-submenu.show-submenu) {
-    border-right: #c5d3f0 2px solid;
+    border-right: var(--azul-ct) 2px solid;
   }
 
   .sub-menu:has(.left-submenu.show-submenu) {
-    border-left: #c5d3f0 2px solid;
+    border-left: var(--azul-ct) 2px solid;
   }
 
   .sub-menu {
     position: absolute;
-    background-color: #e6effd;
+    background-color: var(--azul-ct);
     padding: 0;
     opacity: 0;
     visibility: hidden;
@@ -209,14 +183,15 @@ div.asl_m .probox .proclose svg {
       width: 100%;
 
       a {
-        color: #25368b;
+        color: var(--azul);
+        font-size: 0.8rem;
       }
     }
 
     a:hover,
     a:focus-visible,
     li:has(.show-submenu)>a {
-      color: #3366cc;
+      color: var(--azul-r);
       text-decoration: underline;
     }
 
@@ -274,7 +249,7 @@ div.asl_m .probox .proclose svg {
   position: fixed;
   right: 0;
   top: 35%;
-  background-color: #3366cc !important;
+  background-color: var(--azul-r) !important;
   border-radius: 10px 0px 0px 10px;
   opacity: 1;
   padding-left: 0px;
@@ -290,7 +265,7 @@ div.asl_m .probox .proclose svg {
 }
 
 .barra-accesibilidad-govco .icon-contraste {
-  background: #3366cc;
+  background: var(--azul-r);
   width: 48px;
   height: 40px;
   border: none;
@@ -304,7 +279,7 @@ div.asl_m .probox .proclose svg {
   font-family: "govco-font";
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -317,7 +292,7 @@ div.asl_m .probox .proclose svg {
 .barra-accesibilidad-govco #titlecontraste {
   text-align: left;
   position: absolute;
-  background: #3366cc;
+  background: var(--azul-r);
   color: #fff;
   line-height: normal !important;
   font-family: WorkSans !important;
@@ -346,7 +321,7 @@ div.asl_m .probox .proclose svg {
   font-family: "govco-font";
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -372,7 +347,7 @@ div.asl_m .probox .proclose svg {
   font-family: "govco-font";
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -399,7 +374,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -412,7 +387,7 @@ div.asl_m .probox .proclose svg {
 .barra-accesibilidad-govco #titledisminuir {
   text-align: left;
   position: absolute;
-  background: #3366cc;
+  background: var(--azul-r);
   color: #fff;
   line-height: normal !important;
   font-family: WorkSans !important;
@@ -442,7 +417,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -469,7 +444,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -499,7 +474,7 @@ div.asl_m .probox .proclose svg {
 .barra-accesibilidad-govco #titlerelevo {
   text-align: left;
   position: absolute;
-  background: #3366cc;
+  background: var(--azul-r);
   color: #fff;
   line-height: normal !important;
   font-family: WorkSans !important;
@@ -539,7 +514,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -552,7 +527,7 @@ div.asl_m .probox .proclose svg {
 .barra-accesibilidad-govco #titlenormal {
   text-align: left;
   position: absolute;
-  background: #3366cc;
+  background: var(--azul-r);
   color: #fff;
   line-height: normal !important;
   font-family: WorkSans !important;
@@ -582,7 +557,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -609,7 +584,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -636,7 +611,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -649,7 +624,7 @@ div.asl_m .probox .proclose svg {
 .barra-accesibilidad-govco #titleaumentar {
   text-align: left;
   position: absolute;
-  background: #3366cc;
+  background: var(--azul-r);
   color: #fff;
   line-height: normal !important;
   font-family: WorkSans !important;
@@ -679,7 +654,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -706,7 +681,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -717,7 +692,7 @@ div.asl_m .probox .proclose svg {
 }
 
 .active-barra-accesibilidad-govco {
-  background-color: #3366cc !important;
+  background-color: var(--azul-r) !important;
 }
 
 .active-barra-accesibilidad-govco.icon-aumentar::after {
@@ -727,7 +702,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -744,7 +719,7 @@ div.asl_m .probox .proclose svg {
   line-height: 0;
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -760,7 +735,7 @@ div.asl_m .probox .proclose svg {
   font-family: "govco-font";
   height: 24px;
   width: 24px;
-  color: #3366cc;
+  color: var(--azul-r);
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
@@ -903,7 +878,7 @@ div.asl_m .probox .proclose svg {
 
         .sub-menu {
 
-          border-top: #c5d3f0 2px solid;
+          border-top: var(--azul-ct) 2px solid;
           border-left: none !important;
           border-right: none !important;
           position: relative;

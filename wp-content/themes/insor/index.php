@@ -131,20 +131,14 @@
             <div class="<?php echo $index == 0 ? 'col-6 col-lg-3 my-4 order-2 order-lg-1' : ($index == 1 ? 'col-12 order-1 col-lg-6 order-lg-2 my-4' : 'col-6 col-lg-3 my-4 order-3') ?>">
               <div class="video-container <?php echo ($index == 1) ? 'center-video' : '' ?>">
                 <div class="ratio ratio-16x9">
-                  <?php echo do_shortcode('[featured-video-plus]'); ?>
+                  <?php the_content(); ?>
                 </div>
-                <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bc8ikwawzlQ" title="¿Sabes qué hace el Instituto Nacional para Sordos? 🤓💡" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
                 <?php if ($index != 1) { ?>
                   <div class="video-overlay" data-action="prev"></div>
                 <?php } ?>
               </div>
             </div>
-            <!-- <div class="col-12 order-1 col-lg-6 order-lg-2 my-4">
-          <div class="video-container center-video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6N31oUaEMxI" title="¿Sabes cuáles son las funciones del INSOR?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-          </div>
-        </div>
+            <!-- 
         <div class="col-6 order-3 col-md-3 my-4">
           <div class="video-container">
             <iframe frameborder="0" height="100%" scrolling="no" src="https://www.facebook.com/plugins/video.php?&amp;href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial%2Fvideos%2F459759910166884%2F&amp;show_text=false&amp;width=560&amp;t=0" style="border:none;overflow:hidden" width="100%"></iframe>

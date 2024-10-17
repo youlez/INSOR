@@ -51,10 +51,45 @@
 :root {
   --azul: #25368b;
   --azul-c: #3cbfe4;
-  --azul-ct: #c9ebf5;
+  --azul-ct: #e6effd;
+  --azul-r: #3366cc;
+  --azul-cr: #f5f7f6;
+  --morado-c: #d2d6e0;
   --amarillo: #f0bc37;
   --blanco: #fff;
   --gris: #e8e8f0ef;
+  --gris-o: #4B4B4B;
+}
+
+.titulo-internas {
+  background-color: var(--amarillo);
+
+  h1 {
+    background-color: var(--azul);
+    color: white;
+    font-size: 1.2rem;
+    width: fit-content;
+    text-transform: uppercase;
+    font-family: "Montserrat-Bold";
+  }
+}
+
+.subtitulo-internas {
+  font-size: 1.2rem;
+  font-family: "WorkSans";
+  font-weight: bold;
+  color: var(--azul);
+}
+
+.subtitulo-h3 {
+  font-size: 1rem;
+  font-family: "WorkSans";
+  color: var(--azul);
+}
+
+p,
+label {
+  font-family: WorkSans;
 }
 
 .btn-azul {
@@ -147,4 +182,114 @@
 
 .icon-reproducir::before {
   content: "\EA95";
+}
+
+.accordion {
+  width: 85%;
+
+  .accordion-item {
+    border: 0;
+  }
+
+  .accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-radius: 0;
+  }
+
+  .accordion-button {
+    border-radius: 0;
+    background-color: var(--azul-cr);
+    font-family: 'Montserrat-SemiBold';
+    border-bottom: var(--azul-ct) 2px solid;
+    color: black;
+    box-shadow: none;
+    min-height: 70px;
+
+    span {
+      background-color: var(--azul);
+      border-radius: 50%;
+      height: 35px;
+      min-width: 35px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+  }
+
+  .accordion-button::after {
+    font-family: "govco-font";
+    content: "\e8b7";
+    background-image: none;
+    width: auto;
+    color: var(--azul);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(90deg);
+  }
+
+  .accordion-collapse {
+    border-radius: 0;
+    border-left: var(--azul) 2px solid;
+    border-bottom: var(--azul-ct) 2px solid;
+    font-family: 'WorkSans';
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+    .is-provider-youtube,
+    .wp-block-image {
+      display: flex;
+      justify-content: center;
+
+      .wp-block-embed__wrapper {
+        width: 60%;
+      }
+    }
+  }
+
+  .accordion-item:last-of-type>.accordion-collapse {
+    border-radius: 0;
+  }
+}
+
+.table {
+  thead {
+    th {
+      background-color: var(--morado-c);
+      color: var(--azul);
+    }
+  }
+
+  thead,
+  tr,
+  th,
+  td {
+    border-color: var(--morado-c);
+    font-family: WorkSans;
+  }
+}
+
+.select-insor {
+  border: var(--azul) 2px solid;
+  color: var(--gris-o);
+  border-radius: 0;
+  font-family: WorkSans;
+}
+
+a.link-file {
+  text-decoration: 0;
+  color: var(--azul);
+  transition: all 0.3s ease-in-out;
+  display: block;
+
+  i,
+  span {
+    margin-right: 0.3rem;
+  }
+}
+
+a.link-file:hover {
+  color: var(--azul-r);
 }
