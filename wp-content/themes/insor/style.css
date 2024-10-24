@@ -335,6 +335,7 @@ hr {
   button {
     color: white;
     background-color: var(--azul);
+    transition: all 0.3s ease-in-out;
   }
 
   button:hover,
@@ -344,6 +345,7 @@ hr {
   }
 }
 
-.contenido-glosario {
+.contenido-glosario,
+.cargando-glosario {
   width: calc(100% - 70px);
 }

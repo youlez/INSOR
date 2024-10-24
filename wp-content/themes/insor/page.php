@@ -198,15 +198,46 @@ while (have_posts()) : the_post();
 
     if (is_array($terms))
       foreach ($terms as $term) {
-        $abc = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
+        $args = array(
+          'post_type' => 'items-glosario',
+          'post_status' => 'publish',
+          'orderby' => 'title',
+          'order' => 'ASC',
+          'tax_query' => array(
+            array(
+              'taxonomy' => 'glosario',
+              'field' => 'term_id',
+              'terms' => $term->term_id,
+              'operator' => 'IN',
+              'include_children' => false,
+            ),
+          )
+        );
+
+        $query = new WP_Query($args);
+        $titulos = [];
+        $abc = [];
+        if ($query->have_posts())
+          while ($query->have_posts()) {
+            $query->the_post();
+            $titulos[] = get_the_title();
+          }
+
+        foreach ($titulos as $titulo) {
+          if (!isset($abc[substr($titulo, 0, 1)])) {
+            $abc[substr($titulo, 0, 1)] = substr($titulo, 0, 1);
+          }
+        }
+
       ?>
         <div class="row mt-4">
           <h2>Glosario</h2>
           <div class="row m-0 justify-content-center abc">
             <?php
-            foreach ($abc as $key => $letra) {
+            foreach (array_keys($abc) as $key => $letra) {
             ?>
-              <button type="button" class="btn rounded-0 border-0 fw-bold <?php echo $key == 0 ? 'rounded-top-1 active' : ($key == count($abc) - 1 ? 'rounded-bottom-1' : '') ?>">
+              <button type="button" class="letra btn rounded-0 border-0 fw-bold <?php echo $key == 0 ? 'rounded-top-1 active' : ($key == count($abc) - 1 ? 'rounded-bottom-1' : '') ?>" data-id="<?php echo $term->term_id ?>" data-letra="<?php echo $letra ?>">
                 <?php
                 echo $letra;
                 ?>
@@ -215,34 +246,63 @@ while (have_posts()) : the_post();
             }
             ?>
           </div>
-          <div class="contenido-glosario">
+          <div id="cargando-<?php echo $term->term_id ?>" class="cargando-glosario row m-0 justify-content-center p-4" style="display: none;">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Cargando ...</span>
+            </div>
+          </div>
+          <div class="contenido-glosario" id="glosario-<?php echo $term->term_id ?>">
+
+
             <?php
+            //incluir el filtro para glosario
+            add_filter('posts_where', 'filter_where_title_starts_with', 10, 2);
+            function filter_where_title_starts_with($where, $query)
+            {
+              global $wpdb;
+
+              if ($query->get('title_starts_with')) {
+                $first_letter = $query->get('title_starts_with');
+                // Escapar y asegurar que la letra esté formateada correctamente
+                $first_letter = esc_sql($first_letter);
+
+                // Añadir condición para que el título comience con la letra específica
+                $where .= " AND {$wpdb->posts}.post_title LIKE '{$first_letter}%'";
+              }
+
+              return $where;
+            }
 
             $args = array(
-              'post_type' => array('items-glosario'),
+              'post_type' => 'items-glosario',
               'post_status' => 'publish',
-              'orderby'  => 'date',
+              'orderby' => 'title',
               'order' => 'ASC',
               'tax_query' => array(
                 array(
                   'taxonomy' => 'glosario',
-                  'field'    => 'term_id',
-                  'terms'    => $term->term_id,
+                  'field' => 'term_id',
+                  'terms' => $term->term_id,
                   'operator' => 'IN',
-                  'include_children' => false
+                  'include_children' => false,
                 ),
-                'relation' => 'AND',
-                'limit' => 1
-              )
+              ),
+              // Aquí defines la letra con la que deben empezar los títulos
+              'title_starts_with' => array_keys($abc)[0], // Cambia 'A' por la letra que quieras
             );
 
             $query = new WP_Query($args);
+            //var_dump($query);
+            remove_filter('posts_where', 'filter_where_title_starts_with');
+
             if ($query->have_posts()) {
-              $index = 0;
+            ?>
+              <h2 class="fs-1"><?php echo array_keys($abc)[0] . strtolower(array_keys($abc)[0]); ?></h2>
+              <?php
               while ($query->have_posts()) {
                 $query->the_post();
-            ?>
-                <h3 class="fw-bold"><?php the_title(); ?></h3>
+              ?>
+                <h3 class="fw-bold m-0"><?php the_title(); ?></h3>
                 <p><?php the_content(); ?></p>
             <?php
               }

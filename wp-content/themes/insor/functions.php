@@ -132,3 +132,4 @@ function guardar_archivo_medios($post_id)
 add_action('save_post', 'guardar_archivo_medios');
 
 include('ajax/lista-archivos.php');
+include('ajax/glosario.php');

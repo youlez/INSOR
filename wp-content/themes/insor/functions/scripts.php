@@ -16,6 +16,7 @@ function cargar_scripts()
     wp_register_script('accesibilidad', get_template_directory_uri() . '/js/front/accesibilidad.js', array(), '2024.10.24.02', 'all');
     wp_register_script('lista-desplegable', get_template_directory_uri() . '/js/front/lista-desplegable.js', array(), '2024.10.24.02', 'all');
     wp_register_script('page', get_template_directory_uri() . '/js/front/page.js', array(), '2024.10.24.02', 'all');
+    wp_register_script('glosario', get_template_directory_uri() . '/js/front/glosario.js', array(), '2024.10.24.02', 'all');
 
     wp_enqueue_script('bootstrap');
     wp_enqueue_script('bootstrap-bundle');
@@ -26,6 +27,7 @@ function cargar_scripts()
     wp_enqueue_script('accesibilidad');
     wp_enqueue_script('lista-desplegable');
     wp_enqueue_script('page');
+    wp_enqueue_script('glosario');
 }
 
 function cargar_estilos_head()
