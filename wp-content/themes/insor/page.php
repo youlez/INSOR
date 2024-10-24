@@ -3,7 +3,7 @@ get_header();
 while (have_posts()) : the_post();
   $post_name = get_post_field('post_name', get_post());
 ?>
-  <section class="container my-4 pages <?php echo $post_name; ?>">
+  <section class="container my-4 page-interna <?php echo $post_name; ?>">
     <div class="titulo-internas mb-4">
       <h1 class="px-4 py-2">
         <?php the_title(); ?>
@@ -25,7 +25,7 @@ while (have_posts()) : the_post();
     ?>
       <div class="my-4">
 
-        <h2 class="subtitulo-internas mb-4"><?php echo $term->name ?></h2>
+        <h2><?php echo $term->name ?></h2>
         <?php
         $args = array(
           'post_type' => array('items-acordeon'),
@@ -55,11 +55,11 @@ while (have_posts()) : the_post();
                 $item_name = get_post_field('post_name', get_post());
               ?>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
+                  <div class="accordion-header">
                     <button class="accordion-button <?php echo $index == 0 ? '' : 'collapsed' ?>" type="button" data-bs-toggle="collapse" data-bs-target="#<?php echo $item_name; ?>" aria-expanded="true" aria-controls="<?php echo $item_name; ?>">
                       <?php the_title(); ?>
                     </button>
-                  </h2>
+                  </div>
                   <div id="<?php echo $item_name; ?>" class="accordion-collapse collapse <?php echo $index == 0 ? 'show' : '' ?>" data-bs-parent="#accordion<?php echo $term->term_id; ?>">
                     <div class="accordion-body">
                       <?php the_content(); ?>
@@ -96,8 +96,8 @@ while (have_posts()) : the_post();
         if ($hijos && !is_wp_error($hijos)) {
       ?>
 
-        <h2 class="subtitulo-internas mt-4"><?php echo $term->name ?></h2>
-        <div class="row mt-4">
+        <h2><?php echo $term->name ?></h2>
+        <div class="row">
           <div class="col-3">
             <label class="form-label" for="<?php echo $term->term_id ?>">Seleccione el año de su interés:</label>
             <select class="form-select select-insor lista-year" id="<?php echo $term->term_id ?>" aria-label="<?php echo $term->term_id ?>">
@@ -166,7 +166,7 @@ while (have_posts()) : the_post();
 
                             class="link-file"
                             href="<?php echo esc_url($archivo_medios); ?>"
-                            target="_blank"><i class="fa-solid fa-file-pdf"></i><?php the_title(); ?></a>
+                            target="_blank"><?php the_title(); ?></a>
 
                         </td>
                       </tr>
@@ -182,6 +182,72 @@ while (have_posts()) : the_post();
           <?php
         }
           ?>
+          </div>
+        </div>
+      <?php
+      }
+
+    $terms = wp_get_post_terms(
+      get_the_id(),
+      'glosario',
+      array(
+        'orderby' => 'id',
+        'order' => 'ASC',
+      )
+    );
+
+    if (is_array($terms))
+      foreach ($terms as $term) {
+        $abc = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+      ?>
+        <div class="row mt-4">
+          <h2>Glosario</h2>
+          <div class="row m-0 justify-content-center abc">
+            <?php
+            foreach ($abc as $key => $letra) {
+            ?>
+              <button type="button" class="btn rounded-0 border-0 fw-bold <?php echo $key == 0 ? 'rounded-top-1 active' : ($key == count($abc) - 1 ? 'rounded-bottom-1' : '') ?>">
+                <?php
+                echo $letra;
+                ?>
+              </button>
+            <?php
+            }
+            ?>
+          </div>
+          <div class="contenido-glosario">
+            <?php
+
+            $args = array(
+              'post_type' => array('items-glosario'),
+              'post_status' => 'publish',
+              'orderby'  => 'date',
+              'order' => 'ASC',
+              'tax_query' => array(
+                array(
+                  'taxonomy' => 'glosario',
+                  'field'    => 'term_id',
+                  'terms'    => $term->term_id,
+                  'operator' => 'IN',
+                  'include_children' => false
+                ),
+                'relation' => 'AND',
+                'limit' => 1
+              )
+            );
+
+            $query = new WP_Query($args);
+            if ($query->have_posts()) {
+              $index = 0;
+              while ($query->have_posts()) {
+                $query->the_post();
+            ?>
+                <h3 class="fw-bold"><?php the_title(); ?></h3>
+                <p><?php the_content(); ?></p>
+            <?php
+              }
+            }
+            ?>
           </div>
         </div>
       <?php

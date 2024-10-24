@@ -74,17 +74,39 @@
   }
 }
 
-.subtitulo-internas {
+.page-interna h2 {
   font-size: 1.2rem;
   font-family: "WorkSans";
   font-weight: bold;
   color: var(--azul);
+  margin-bottom: 1.5rem;
 }
 
-.subtitulo-h3 {
+.page-interna h3 {
   font-size: 1rem;
   font-family: "WorkSans";
   color: var(--azul);
+  margin-bottom: 1.5rem;
+}
+
+
+a.link {
+  text-decoration: 0;
+  color: var(--azul);
+  transition: all 0.3s ease-in-out;
+}
+
+a.link:hover {
+  color: var(--azul-r);
+  text-decoration: underline;
+}
+
+a.link-file {
+
+  i,
+  span {
+    margin-right: 0.3rem;
+  }
 }
 
 p,
@@ -130,7 +152,7 @@ label {
     height: 100%;
     width: 100%;
     padding: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-family: 'Montserrat-Bold';
     transition: all 0.3s ease-in-out;
   }
@@ -153,6 +175,7 @@ label {
   a:hover {
     background-color: var(--azul);
     color: var(--amarillo);
+    text-decoration: none;
   }
 }
 
@@ -238,15 +261,6 @@ label {
     color: black;
     transition: all 0.3s ease-in-out;
 
-    .is-provider-youtube,
-    .wp-block-image {
-      display: flex;
-      justify-content: center;
-
-      .wp-block-embed__wrapper {
-        width: 60%;
-      }
-    }
   }
 
   .accordion-item:last-of-type>.accordion-collapse {
@@ -254,11 +268,21 @@ label {
   }
 }
 
-.table {
+.is-provider-youtube,
+.wp-block-image {
+  display: flex;
+  justify-content: center;
+
+  .wp-block-embed__wrapper {
+    width: 60%;
+  }
+}
+
+table {
   thead {
     th {
-      background-color: var(--morado-c);
-      color: var(--azul);
+      background-color: var(--morado-c) !important;
+      color: var(--azul) !important;
     }
   }
 
@@ -266,9 +290,31 @@ label {
   tr,
   th,
   td {
-    border-color: var(--morado-c);
-    font-family: WorkSans;
+    border-color: var(--morado-c) !important;
+    font-family: WorkSans !important;
   }
+
+  a.link-file {
+    display: block;
+  }
+}
+
+.wp-block-table.aligncenter {
+  width: 100% !important;
+
+  td,
+  th {
+    align-content: center;
+  }
+}
+
+hr {
+  clear: both;
+}
+
+.contacto table th {
+  color: var(--azul);
+  text-align: center;
 }
 
 .select-insor {
@@ -278,18 +324,26 @@ label {
   font-family: WorkSans;
 }
 
-a.link-file {
-  text-decoration: 0;
-  color: var(--azul);
-  transition: all 0.3s ease-in-out;
-  display: block;
+.is-content-justification-center>div {
+  margin-bottom: 1.5rem !important;
+  width: min-content;
+}
 
-  i,
-  span {
-    margin-right: 0.3rem;
+.abc {
+  width: 70px;
+
+  button {
+    color: white;
+    background-color: var(--azul);
+  }
+
+  button:hover,
+  button.active {
+    background-color: var(--amarillo);
+    color: var(--azul);
   }
 }
 
-a.link-file:hover {
-  color: var(--azul-r);
+.contenido-glosario {
+  width: calc(100% - 70px);
 }

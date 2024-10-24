@@ -34,7 +34,7 @@ function my_custom_css()
   }
 }
 
-function agregar_clase_a_wp_block_embed($content)
+function agregar_clases_elementos($content)
 {
   // Verifica si el contenido tiene el div con la clase wp-block-embed__wrapper
   if (strpos($content, 'wp-block-embed__wrapper') !== false) {
@@ -61,19 +61,11 @@ function agregar_clase_a_wp_block_embed($content)
       $content
     );
   }
-  if (strpos($content, '<h3 class="wp-block-heading"') !== false) {
-    // Agrega la clase 'mi-clase-personalizada' a los div con la clase class="has-fixed-layout
-    $content = preg_replace(
-      '/<h3 class="wp-block-heading(.*?)">/',
-      '<h3 class="wp-block-heading subtitulo-h3 mb-4">',
-      $content
-    );
-  }
   return $content;
 }
 
 // Aplica el filtro a the_content para modificar el contenido del post
-add_filter('the_content', 'agregar_clase_a_wp_block_embed');
+add_filter('the_content', 'agregar_clases_elementos');
 
 
 /* archivos de listas */

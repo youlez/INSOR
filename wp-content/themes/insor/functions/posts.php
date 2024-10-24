@@ -79,6 +79,7 @@ function crear_entradas()
 {
     crear_entrada('videos', 'Video', 'Videos', 'm', 'post');
     crear_entrada('items-acordeon', 'Item Acordeon', 'Items Acordeon', 'm', 'post');
-    crear_entrada('items-lista', 'Lista', 'Documentos', 'm', 'post');
+    crear_entrada('items-lista', 'Documento', 'Documentos', 'm', 'post');
+    crear_entrada('items-glosario', 'Item Glosario', 'Items Glosario', 'm', 'post');
 }
 add_action('init', 'crear_entradas');
