@@ -217,13 +217,14 @@
     </div>
     <div class="mt-4 position-relative link-kids">
       <a target="_blank" href="https://www.insor.gov.co/portalninos/">
-        <div class="tituloKids position-absolute">
+        <div class="tituloKids position-absolute d-none d-lg-flex">
           <p>
             INSOR <br />
             <span>PARA NIÑOS</span>
           </p>
         </div>
-        <img src="<?php bloginfo('template_url'); ?>/assets/img/niños/Insor_niños.jpg" class="d-block w-100">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/niños/Insor_niños.jpg" class="d-none d-lg-block w-100">
+        <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/banner_insor_ninos_mobiles.jpg" class="d-block d-lg-none w-100">
       </a>
     </div>
   </section>
