@@ -212,6 +212,7 @@ while (have_posts()) : the_post();
               'operator' => 'IN',
               'include_children' => false,
             ),
+            'nopaging' => true
           )
         );
 
