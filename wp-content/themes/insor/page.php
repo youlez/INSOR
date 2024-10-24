@@ -233,18 +233,20 @@ while (have_posts()) : the_post();
       ?>
         <div class="row mt-4">
           <h2>Glosario</h2>
-          <div class="row m-0 justify-content-center abc">
-            <?php
-            foreach (array_keys($abc) as $key => $letra) {
-            ?>
-              <button type="button" class="letra btn rounded-0 border-0 fw-bold <?php echo $key == 0 ? 'rounded-top-1 active' : ($key == count($abc) - 1 ? 'rounded-bottom-1' : '') ?>" data-id="<?php echo $term->term_id ?>" data-letra="<?php echo $letra ?>">
-                <?php
-                echo $letra;
-                ?>
-              </button>
-            <?php
-            }
-            ?>
+          <div class="abc">
+            <div class="row m-0 justify-content-center">
+              <?php
+              foreach (array_keys($abc) as $key => $letra) {
+              ?>
+                <button type="button" class="letra btn rounded-0 border-0 fw-bold <?php echo $key == 0 ? 'rounded-top-1 active' : ($key == count($abc) - 1 ? 'rounded-bottom-1' : '') ?>" data-id="<?php echo $term->term_id ?>" data-letra="<?php echo $letra ?>">
+                  <?php
+                  echo $letra;
+                  ?>
+                </button>
+              <?php
+              }
+              ?>
+            </div>
           </div>
           <div id="cargando-<?php echo $term->term_id ?>" class="cargando-glosario row m-0 justify-content-center p-4" style="display: none;">
             <div class="spinner-border" role="status">
