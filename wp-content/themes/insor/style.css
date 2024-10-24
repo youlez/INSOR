@@ -268,7 +268,7 @@ label {
   }
 }
 
-.is-provider-youtube,
+.page-interna .is-provider-youtube,
 .wp-block-image {
   display: flex;
   justify-content: center;
