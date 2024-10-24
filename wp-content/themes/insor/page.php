@@ -300,14 +300,21 @@ while (have_posts()) : the_post();
             if ($query->have_posts()) {
             ?>
               <h2 class="fs-1"><?php echo array_keys($abc)[0] . strtolower(array_keys($abc)[0]); ?></h2>
-              <?php
-              while ($query->have_posts()) {
-                $query->the_post();
-              ?>
-                <h3 class="fw-bold m-0"><?php the_title(); ?></h3>
-                <p><?php the_content(); ?></p>
+              <div class="row">
+                <?php
+                while ($query->have_posts()) {
+                  $query->the_post();
+                ?>
+                  <div class="col-6">
+                    <h3 class="fw-bold m-0"><?php the_title(); ?></h3>
+                    <p><?php the_content(); ?></p>
+                  </div>
+                <?php
+                }
+                ?>
+              </div>
+
             <?php
-              }
             }
             ?>
           </div>

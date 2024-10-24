@@ -3,7 +3,8 @@ function mostrarcontenidoglosario()
 {
     $id = $_POST["id"];
     $letra = $_POST["letra"];
-    $html = '<h2 class="fs-1">' . $letra . strtolower($letra) . '</h2>';
+    $html = '<h2 class="fs-1">' . $letra . strtolower($letra) . '</h2>
+    <div class="row">';
 
     add_filter('posts_where', 'filter_where_title_starts_with', 10, 2);
     function filter_where_title_starts_with($where, $query)
@@ -44,9 +45,10 @@ function mostrarcontenidoglosario()
     if ($query->have_posts()) {
         while ($query->have_posts()) {
             $query->the_post();
-            $html .= '<h3 class="fw-bold m-0">' . get_the_title() . '</h3><p>' . get_the_content() . '</p>';
+            $html .= '<div class="col-6"><h3 class="fw-bold m-0">' . get_the_title() . '</h3><p>' . get_the_content() . '</p></div>';
         }
     }
+    $html .= '</div>';
 
     echo $html;
     die();
