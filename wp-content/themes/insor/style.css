@@ -134,7 +134,7 @@ label {
 
 .btn-icono {
   padding: 0;
-  width: 10rem;
+  width: 10rem !important;
   height: 10rem;
 
   a {
@@ -324,10 +324,10 @@ hr {
   font-family: WorkSans;
 }
 
-.is-content-justification-center>div {
+/*.is-content-justification-center>div {
   margin-bottom: 1.5rem !important;
   width: min-content;
-}
+}*/
 
 .abc {
   width: 70px;
