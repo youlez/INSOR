@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  Array.from($('.page-interna a')).forEach(element => {
+  /*Array.from($('.page-interna a')).forEach(element => {
     $(element).addClass("link");
     let href = $(element).attr('href');
 
@@ -36,5 +36,5 @@ jQuery(document).ready(function ($) {
   Array.from($('.page-interna .icono-user-check a')).forEach(element => {
     let html = $(element).html();
     $(element).html('<i class="fa-solid fa-user-check"></i>' + html);
-  });
+  });*/
 });
