@@ -4,6 +4,7 @@ while (have_posts()) : the_post();
   $post_name = get_post_field('post_name', get_post());
 ?>
   <section class="container my-4 page-interna <?php echo $post_name; ?>">
+    <?php miga_pan(); ?>
     <div class="titulo-internas mb-4">
       <h1 class="px-4 py-2">
         <?php the_title(); ?>

@@ -110,7 +110,8 @@ a.link-file {
 }
 
 p,
-label {
+label,
+.miga {
   font-family: WorkSans;
 }
 
@@ -348,4 +349,12 @@ hr {
 .contenido-glosario,
 .cargando-glosario {
   width: calc(100% - 70px);
+}
+
+.miga:after {
+  font-family: govco-font;
+  content: "\e8b7";
+  font-size: 0.8rem;
+  margin-right: 0.4rem;
+  color: var(--azul);
 }
