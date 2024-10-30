@@ -2,7 +2,7 @@
 function miga_pan()
 {
 ?>
-  <div class="d-flex mb-4">
+  <div style="display: ruby;">
     <div class="miga fw-bold">
       <a class="link" href="/">Inicio</a>
     </div>

@@ -55,7 +55,8 @@ function mostrarcontenidoglosario()
         $html .= '<div class="col-6">';
       }
 
-      $html .= '<h3 class="fw-bold m-0">' . get_the_title() . '</h3><p>' . get_the_content() . '</p>';
+      $html .= '<h3 class="fw-bold m-0">' . get_the_title() . '</h3>
+                <p>' . modificar_elementos(get_the_content()) . '</p>';
 
       if ($i == $cont) {
         $html .= '</div>';
