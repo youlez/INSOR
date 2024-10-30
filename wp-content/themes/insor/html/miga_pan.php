@@ -4,7 +4,7 @@ function miga_pan()
 ?>
   <div class="d-flex mb-4">
     <div class="miga fw-bold">
-      <a href="/">Inicio</a>
+      <a class="link" href="/">Inicio</a>
     </div>
     <?php
     // Obtener el menú asignado en WordPress
@@ -44,7 +44,7 @@ function miga_pan()
       foreach ($ancestors as $ancestor) {
     ?>
         <div class="miga fw-bold">
-          <a href="<?php echo $ancestor->url ?>"><?php echo $ancestor->title ?></a>
+          <a class="link" href="<?php echo $ancestor->url ?>"><?php echo $ancestor->title ?></a>
         </div>
     <?php
       }
