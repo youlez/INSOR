@@ -348,6 +348,7 @@ while (have_posts()) : the_post();
                             $archivo_medios = get_post_meta(get_the_ID(), 'archivo_medios', true);
                             $extension = explode(".", $archivo_medios);
                             $icono = "";
+                            var_dump($extension[1]);
                             if ($extension[1] == "pdf" || $extension[0] == "PDF") {
                               $icono = '<i class="fa-solid fa-file-pdf"></i>';
                             }
