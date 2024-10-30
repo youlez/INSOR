@@ -148,7 +148,6 @@ while (have_posts()) : the_post();
             );
 
             $query = new WP_Query($args);
-            var_dump($query->request);
             $titulos = [];
             $abc = [];
             if ($query->have_posts())
