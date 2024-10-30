@@ -6,6 +6,7 @@ include('functions/menu.php');
 include('functions/personalizar.php');
 include('functions/elementos.php');
 include('functions/orden.php');
+include('functions/tipos-lista.php');
 
 add_theme_support('post-thumbnails');
 
