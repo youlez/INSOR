@@ -115,7 +115,8 @@ label,
   font-family: WorkSans;
 }
 
-.btn-azul {
+.btn-azul,
+.btn-azul a {
   height: auto;
   width: auto;
   background-color: var(--azul);
@@ -127,7 +128,8 @@ label,
   font-weight: bold;
 }
 
-.btn-azul:hover {
+.btn-azul:hover,
+.btn-azul a:hover {
   background-color: var(--amarillo);
   color: var(--azul);
 }

@@ -51,6 +51,9 @@ function mostrarcontenidotabla()
         if ($extension[count($extension) - 1] == "pdf" || $extension[count($extension) - 1] == "PDF") {
           $icono = '<i class="fa-solid fa-file-pdf"></i>';
         }
+        if ($extension[count($extension) - 1] == "xlsx" || $extension[count($extension) - 1] == "XLSX" || $extension[count($extension) - 1] == "xls" || $extension[count($extension) - 1] == "XLS") {
+          $icono = '<i class="fa-solid fa-file-excel"></i>';
+        }
         if ($archivo_medios) {
           $html .= '
               <tr>
