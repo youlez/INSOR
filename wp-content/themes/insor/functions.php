@@ -73,9 +73,10 @@ add_action('add_meta_boxes', 'agregar_campo_personalizado');
 
 function mostrar_campo_personalizado($post)
 {
+  $archivo_medios = get_post_meta($post->ID, 'archivo_medios', true);
 ?>
   <div>
-    <input type="text" id="archivo_medios" name="archivo_medios" value="" style="width:100%;" readonly />
+    <input type="text" id="archivo_medios" name="archivo_medios" value="<?php echo $archivo_medios ?>" style="width:100%;" readonly />
     <input type="button" id="seleccionar_archivo" class="button" value="Seleccionar Archivo" />
   </div>
 
