@@ -3,7 +3,7 @@ function miga_pan()
 {
 ?>
   <div style="display: ruby;">
-    <div class="miga fw-bold">
+    <div class="miga">
       <a class="link" href="/">Inicio</a>
     </div>
     <?php
@@ -43,7 +43,7 @@ function miga_pan()
       // Mostrar la ruta de los ancestros en la miga de pan
       foreach ($ancestors as $ancestor) {
     ?>
-        <div class="miga fw-bold">
+        <div class="miga">
           <a class="link" href="<?php echo $ancestor->url ?>"><?php echo $ancestor->title ?></a>
         </div>
     <?php

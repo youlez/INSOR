@@ -181,6 +181,8 @@ label,
 }
 
 .btn-logo {
+  margin-bottom: 10px;
+
   a {
     display: flex;
     width: 100%;
