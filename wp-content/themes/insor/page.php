@@ -300,37 +300,39 @@ while (have_posts()) : the_post();
                 </select>
               </div>
               <div class="col-9">
-                <?php
-              }
-              $args = array(
-                'post_type' => array('items-lista'),
-                'post_status' => 'publish',
-                'orderby'  => 'date',
-                'order' => 'DESC',
-                'posts_per_page' => -1,
-                'tax_query' => array(
-                  array(
-                    'taxonomy' => $taxonomy,
-                    'field'    => 'term_id',
-                    'terms'    => $hijos[0]->term_id,
-                    'operator' => 'IN',
-                    'include_children' => false
-                  ),
-                  'relation' => 'AND'
-                )
-              );
-              $query = new WP_Query($args);
-              if ($query->have_posts()) {
-                $tipo_contenido = get_term_meta($hijos[0]->term_id, 'tipo_contenido', true);
-                if ($tipo_contenido == 2) {
-                ?>
-                  <div class="table-responsive">
-                    <div id="cargando-<?php echo $dato->term_id ?>" class=" row m-0 justify-content-center p-4" style="display: none;">
-                      <div class="spinner-border" role="status">
-                        <span class="visually-hidden">Cargando ...</span>
-                      </div>
+              <?php
+            }
+            $args = array(
+              'post_type' => array('items-lista'),
+              'post_status' => 'publish',
+              'orderby'  => 'date',
+              'order' => 'DESC',
+              'posts_per_page' => -1,
+              'tax_query' => array(
+                array(
+                  'taxonomy' => $taxonomy,
+                  'field'    => 'term_id',
+                  'terms'    => $hijos[0]->term_id,
+                  'operator' => 'IN',
+                  'include_children' => false
+                ),
+                'relation' => 'AND'
+              )
+            );
+            $query = new WP_Query($args);
+            if ($query->have_posts()) {
+              $tipo_contenido = get_term_meta($hijos[0]->term_id, 'tipo_contenido', true);
+              ?>
+                <div class="table-responsive">
+                  <div id="cargando-<?php echo $dato->term_id ?>" class=" row m-0 justify-content-center p-4" style="display: none;">
+                    <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Cargando ...</span>
                     </div>
-                    <div id="tabla-<?php echo $dato->term_id ?>">
+                  </div>
+                  <div id="tabla-<?php echo $dato->term_id ?>">
+                    <?php
+                    if ($tipo_contenido == 2) {
+                    ?>
                       <table class="table border">
                         <thead>
                           <tr>
@@ -381,13 +383,138 @@ while (have_posts()) : the_post();
 
                         </tbody>
                       </table>
-                    </div>
+                      <?php
+                    } else {
+
+                      while ($query->have_posts()) {
+                        $query->the_post();
+                      ?>
+                        <h3 class="fw-bold"><?php the_title() ?></h3>
+                      <?php
+                        the_content();
+                      }
+                    }
+
+                    $subhijos = get_terms(array(
+                      'taxonomy' => $taxonomy,
+                      'parent' => $hijos[0]->term_id,
+                      'hide_empty' => false, // Si quieres incluir categorías vacías
+                      'orderby' => 'name',
+                      'order' => 'DESC',
+                    ));
+
+
+                    if ($subhijos && !is_wp_error($subhijos)) {
+                      foreach ($subhijos as $subhijo) {
+                      ?>
+                        <div class="ms-3">
+                          <h3 class="fw-bold"><?php echo $subhijo->name ?></h3>
+                          <?php
+                          $args = array(
+                            'post_type' => array('items-lista'),
+                            'post_status' => 'publish',
+                            'orderby'  => 'date',
+                            'order' => 'DESC',
+                            'posts_per_page' => -1,
+                            'tax_query' => array(
+                              array(
+                                'taxonomy' => $taxonomy,
+                                'field'    => 'term_id',
+                                'terms'    => $subhijo->term_id,
+                                'operator' => 'IN',
+                                'include_children' => false
+                              ),
+                              'relation' => 'AND'
+                            )
+                          );
+                          $query = new WP_Query($args);
+                          if ($query->have_posts()) {
+                            $tipo_contenido_s = get_term_meta($subhijo->term_id, 'tipo_contenido', true);
+                          ?>
+                            <div class="table-responsive">
+                              <?php
+                              if ($tipo_contenido_s == 2) {
+                              ?>
+                                <table class="table border">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col">No.</th>
+                                      <th scope="col">Fecha de publicación</th>
+                                      <th scope="col">Documento</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+
+                                    <?php
+                                    $index = 1;
+                                    while ($query->have_posts()) {
+                                      $query->the_post();
+                                      $archivo_medios = get_post_meta(get_the_ID(), 'archivo_medios', true);
+                                      $extension = explode(".", $archivo_medios);
+                                      $icono = "";
+                                      if ($extension[count($extension) - 1] == "pdf" || $extension[count($extension) - 1] == "PDF") {
+                                        $icono = '<i class="fa-solid fa-file-pdf"></i>';
+                                      }
+                                      if ($extension[count($extension) - 1] == "xlsx" || $extension[count($extension) - 1] == "XLSX" || $extension[count($extension) - 1] == "xls" || $extension[count($extension) - 1] == "XLS") {
+                                        $icono = '<i class="fa-solid fa-file-excel"></i>';
+                                      }
+                                      if ($archivo_medios) {
+
+                                    ?>
+                                        <tr>
+                                          <td><?php echo $index; ?></td>
+                                          <td><?php echo get_the_date(); ?></td>
+                                          <td>
+                                            <a
+
+                                              class="link link-file"
+                                              href="<?php echo esc_url($archivo_medios); ?>"
+                                              target="_blank">
+                                              <?php
+                                              echo $icono;
+                                              the_title(); ?>
+                                            </a>
+
+                                          </td>
+                                        </tr>
+                                    <?php
+                                        $index++;
+                                      }
+                                    }
+                                    ?>
+
+                                  </tbody>
+                                </table>
+                                <?php
+
+                              } else {
+                                while ($query->have_posts()) {
+                                  $query->the_post();
+                                ?>
+                                  <div class="ms-3">
+                                    <h3 class="fw-bold"><?php the_title() ?></h3>
+                                    <?php
+                                    the_content();
+                                    ?>
+                                  </div>
+                              <?php
+                                }
+                              }
+                              ?>
+                            </div>
+                          <?php
+                          }
+                          ?>
+                        </div>
                   </div>
-              <?php
-                }
-              }
-              ?>
+                </div>
+          <?php
+                      }
+                    }
+                  }
+          ?>
               </div>
+            </div>
             </div>
       <?php
         }
