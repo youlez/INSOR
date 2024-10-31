@@ -132,6 +132,7 @@ label,
 .btn-azul a:hover {
   background-color: var(--amarillo);
   color: var(--azul);
+  text-decoration: none;
 }
 
 
