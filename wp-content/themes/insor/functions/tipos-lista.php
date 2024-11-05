@@ -1,6 +1,6 @@
 <?php
 // Añadir el campo en la creación de la taxonomía
-function agregar_campo_personalizado_creacion($taxonomy)
+/*function agregar_campo_personalizado_creacion($taxonomy)
 {
 ?>
   <div class="form-field term-parent-wrap">
@@ -48,4 +48,4 @@ function guardar_valor_lista_desplegable_edicion($term_id)
     update_term_meta($term_id, 'tipo_contenido', sanitize_text_field($_POST['tipo_contenido']));
   }
 }
-add_action('edited_lista', 'guardar_valor_lista_desplegable_edicion', 10, 2);
+add_action('edited_lista', 'guardar_valor_lista_desplegable_edicion', 10, 2);*/

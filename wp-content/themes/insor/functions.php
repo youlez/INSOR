@@ -58,7 +58,7 @@ function ocultar_hijos_taxonomias_en_pages($args)
 add_action('admin_head', 'ocultar_hijos_taxonomias_en_pages');
 
 /* archivos de listas */
-function agregar_campo_personalizado()
+/*function agregar_campo_personalizado()
 {
   add_meta_box(
     'archivo_personalizado',
@@ -119,7 +119,7 @@ function guardar_archivo_medios($post_id)
   }
 }
 
-add_action('save_post', 'guardar_archivo_medios');
+add_action('save_post', 'guardar_archivo_medios');*/
 
 include('ajax/lista-archivos.php');
 include('ajax/glosario.php');
