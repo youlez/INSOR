@@ -5,8 +5,8 @@ include('functions/taxonomys.php');
 include('functions/menu.php');
 include('functions/personalizar.php');
 include('functions/elementos.php');
-include('functions/orden.php');
 include('functions/tipos-lista.php');
+include('functions/shorcode.php');
 
 add_theme_support('post-thumbnails');
 
