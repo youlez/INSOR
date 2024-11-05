@@ -10,7 +10,7 @@ function mostrarcontenidotabla()
   if ($tipo_contenido == 2) {
 
     $html .= '
-    <div id="tabla-' . $id . '">
+    <div id="contenido-' . $id . '">
   <table class="table border">
     <thead>
       <tr>
@@ -70,8 +70,7 @@ function mostrarcontenidotabla()
         }
         $index++;
       } else {
-        $contenido = modificar_elementos(get_the_content());
-        $html .= '<h3 class="fw-bold">' . get_the_title() . '</h3>' . $contenido;
+        $html .= modificar_elementos(get_the_content());
       }
 
       $subhijos = get_terms(array(
@@ -146,8 +145,7 @@ function mostrarcontenidotabla()
                 }
                 $index++;
               } else {
-                $contenido = modificar_elementos(get_the_content());
-                $html .= '<div class="ms-3"><h3 class="fw-bold">' . get_the_title() . '</h3>' . $contenido . '</div>';
+                $html .= modificar_elementos(get_the_content());
               }
             }
             if ($tipo_contenido_s == 2) {

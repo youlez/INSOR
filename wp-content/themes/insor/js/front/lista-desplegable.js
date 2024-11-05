@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
     $(".lista-year").change(function () {
-        var tabla = "#tabla-" + this.id;
+        var contenido = "#contenido-" + this.id;
         var cargando = "#cargando-" + this.id;
         var year_id = $(this).val();
 
@@ -17,12 +17,12 @@ jQuery(document).ready(function ($) {
             data: datos,
             beforeSend: function () {
                 $(cargando).show();
-                $(tabla).hide();
+                $(contenido).hide();
             },
             success: function (result) {
                 //console.log(result);
-                $(tabla).html(result);
-                $(tabla).show();
+                $(contenido).html(result);
+                $(contenido).show();
                 $(cargando).hide();
 
             }, error: function (result) {

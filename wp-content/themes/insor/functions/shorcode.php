@@ -52,7 +52,13 @@ function contenido_interactivo_shortcode($atts)
       $html .= '
           </select>
         </div>
-        <div class="col-9">';
+        <div class="col-9">
+          <div id="cargando-' . $id_term . '" class=" row m-0 justify-content-center p-4" style="display: none;">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Cargando ...</span>
+            </div>
+          </div>
+          <div id="contenido-' . $id_term . '">';
 
       $args = array(
         'post_type' => array('items-' . $taxonomia),
@@ -246,7 +252,7 @@ function contenido_interactivo_shortcode($atts)
   }
   if ($taxonomia == "lista") {
     if ($hijos && !is_wp_error($hijos)) {
-      $html .= '</div>';
+      $html .= '</div></div>';
     }
   }
   $html .= '</div>';
