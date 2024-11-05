@@ -27,64 +27,100 @@ function contenido_interactivo_shortcode($atts)
     );
   }
 
+  if ($taxonomia == "lista") {
+    $hijos = get_terms(array(
+      'taxonomy' => $taxonomia,
+      'parent' => $id_term,
+      'hide_empty' => false, // Si quieres incluir categorías vacías
+      'orderby' => 'name',
+      'order' => 'DESC',
+    ));
+
+    // Mostrar los hijos (subcategorías)
+    if ($hijos && !is_wp_error($hijos)) {
+      $html .= '<div class="row">
+        <div class="col-3">
+          <label class="form-label" for="' . $id_term . '">Seleccione una opción:</label>
+          <select class="form-select select-insor lista-year" id="' . $id_term . '" aria-label="' . $id_term . '">';
+
+      $index = 0;
+      foreach ($hijos as $hijo) {
+        $html .= '
+            <option value="' . $hijo->term_id . '" ' . ($index == 0 ? 'selected' : '') . '>' . $hijo->name . '</option>';
+        $index++;
+      }
+      $html .= '
+          </select>
+        </div>
+        <div class="col-9">';
+
+      $args = array(
+        'post_type' => array('items-' . $taxonomia),
+        'post_status' => 'publish',
+        'orderby'  => 'date',
+        'order' => 'DESC',
+        'posts_per_page' => -1,
+        'tax_query' => array(
+          array(
+            'taxonomy' => $taxonomia,
+            'field'    => 'term_id',
+            'terms'    => $hijos[0]->term_id,
+            'operator' => 'IN',
+            'include_children' => false
+          ),
+          'relation' => 'AND'
+        )
+      );
+    }
+  }
+
   if ($taxonomia == "glosario") {
-    $items_glosario = wp_get_post_terms(
-      get_the_id(),
-      $taxonomia,
-      array(
-        'orderby' => 'id',
-        'order' => 'ASC',
+
+    $args_abc = array(
+      'post_type' => 'items-' . $taxonomia,
+      'post_status' => 'publish',
+      'orderby' => 'title',
+      'order' => 'ASC',
+      'posts_per_page' => -1,
+      'tax_query' => array(
+        array(
+          'taxonomy' => $taxonomia,
+          'field' => 'term_id',
+          'terms' => $id_term,
+          'operator' => 'IN',
+          'include_children' => false,
+        )
       )
     );
 
-    if (is_array($items_glosario)) {
-      foreach ($items_glosario as $item) {
-
-        $args_abc = array(
-          'post_type' => 'items-' . $taxonomia,
-          'post_status' => 'publish',
-          'orderby' => 'title',
-          'order' => 'ASC',
-          'posts_per_page' => -1,
-          'tax_query' => array(
-            array(
-              'taxonomy' => $taxonomia,
-              'field' => 'term_id',
-              'terms' => $id_term,
-              'operator' => 'IN',
-              'include_children' => false,
-            )
-          )
-        );
-
-        $query_abc = new WP_Query($args_abc);
-        $titulos = [];
-        $abc = [];
-        if ($query_abc->have_posts())
-          while ($query_abc->have_posts()) {
-            $query_abc->the_post();
-            $titulos[] = get_the_title();
-          }
-
-        foreach ($titulos as $titulo) {
-          if (!isset($abc[substr($titulo, 0, 1)])) {
-            $abc[substr($titulo, 0, 1)] = substr($titulo, 0, 1);
-          }
-        }
+    $query_abc = new WP_Query($args_abc);
+    $titulos = [];
+    $abc = [];
+    if ($query_abc->have_posts())
+      while ($query_abc->have_posts()) {
+        $query_abc->the_post();
+        $titulos[] = get_the_title();
       }
-      $html .= '  
+
+    foreach ($titulos as $titulo) {
+      if (!isset($abc[substr($titulo, 0, 1)])) {
+        $abc[substr($titulo, 0, 1)] = substr($titulo, 0, 1);
+      }
+    }
+
+    $html .= '  
             <div class="row">
               <div class="abc">
                 <div class="row m-0 justify-content-center">';
-      foreach (array_keys($abc) as $key => $letra) {
-        $html .= '<button 
+    foreach (array_keys($abc) as $key => $letra) {
+      $html .= '<button 
                     type="button" 
                     class="letra btn rounded-0 border-0 fw-bold ' . ($key == 0 ? 'rounded-top-1 active' : ($key == count($abc) - 1 ? 'rounded-bottom-1' : '')) . '" 
                     data-id="' . $id_term . '" data-letra="' . $letra . '">
                     ' . $letra . '
                   </button>';
-      }
-      $html .= '</div>
+    }
+    $html .= '</div>
               </div>
               <div id="cargando-' . $id_term . '" class="cargando-glosario row m-0 justify-content-center p-4" style="display: none;">
                 <div class="spinner-border" role="status">
@@ -93,43 +129,42 @@ function contenido_interactivo_shortcode($atts)
               </div>
               <div class="contenido-glosario" id="glosario-' . $id_term . '">';
 
-      //incluir el filtro para glosario
-      add_filter('posts_where', 'filter_where_title_starts_with', 10, 2);
-      function filter_where_title_starts_with($where, $query)
-      {
-        global $wpdb;
+    //incluir el filtro para glosario
+    add_filter('posts_where', 'filter_where_title_starts_with', 10, 2);
+    function filter_where_title_starts_with($where, $query)
+    {
+      global $wpdb;
 
-        if ($query->get('title_starts_with')) {
-          $first_letter = $query->get('title_starts_with');
-          // Escapar y asegurar que la letra esté formateada correctamente
-          $first_letter = esc_sql($first_letter);
+      if ($query->get('title_starts_with')) {
+        $first_letter = $query->get('title_starts_with');
+        // Escapar y asegurar que la letra esté formateada correctamente
+        $first_letter = esc_sql($first_letter);
 
-          // Añadir condición para que el título comience con la letra específica
-          $where .= " AND {$wpdb->posts}.post_title LIKE '{$first_letter}%'";
-        }
-
-        return $where;
+        // Añadir condición para que el título comience con la letra específica
+        $where .= " AND {$wpdb->posts}.post_title LIKE '{$first_letter}%'";
       }
 
-      $args = array(
-        'post_type' => 'items-glosario',
-        'post_status' => 'publish',
-        'orderby' => 'title',
-        'order' => 'ASC',
-        'posts_per_page' => -1,
-        'tax_query' => array(
-          array(
-            'taxonomy' => $taxonomia,
-            'field' => 'term_id',
-            'terms' => $term->term_id,
-            'operator' => 'IN',
-            'include_children' => false,
-          ),
-        ),
-        // Aquí defines la letra con la que deben empezar los títulos
-        'title_starts_with' => array_keys($abc)[0], // Cambia 'A' por la letra que quieras
-      );
+      return $where;
     }
+
+    $args = array(
+      'post_type' => 'items-glosario',
+      'post_status' => 'publish',
+      'orderby' => 'title',
+      'order' => 'ASC',
+      'posts_per_page' => -1,
+      'tax_query' => array(
+        array(
+          'taxonomy' => $taxonomia,
+          'field' => 'term_id',
+          'terms' => $term->term_id,
+          'operator' => 'IN',
+          'include_children' => false,
+        ),
+      ),
+      // Aquí defines la letra con la que deben empezar los títulos
+      'title_starts_with' => array_keys($abc)[0], // Cambia 'A' por la letra que quieras
+    );
   }
 
   $query = new WP_Query($args);
@@ -194,6 +229,10 @@ function contenido_interactivo_shortcode($atts)
         }
       }
 
+      if ($taxonomia == "lista") {
+        $html .= apply_filters('the_content', get_the_content());
+      }
+
       $index++;
     }
     if ($taxonomia == "acordeon") {
@@ -203,6 +242,11 @@ function contenido_interactivo_shortcode($atts)
     if ($taxonomia == 'glosario') {
       $html .= '
       </div>';
+    }
+  }
+  if ($taxonomia == "lista") {
+    if ($hijos && !is_wp_error($hijos)) {
+      $html .= '</div>';
     }
   }
   $html .= '</div>';

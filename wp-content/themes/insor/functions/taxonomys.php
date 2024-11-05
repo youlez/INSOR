@@ -42,7 +42,7 @@ function crear_taxonomia($taxonomia, $nombre, $plural, $genero, $posts, $hierarc
 function crear_taxonomias()
 {
     crear_taxonomia('acordeon', 'Acordeon', 'Acordeones', 'm', array('items-acordeon'), true);
-    crear_taxonomia('lista', 'Lista desplegable', 'Listas Desplegables', 'f', array('items-lista'), true);
+    crear_taxonomia('lista', 'Lista desplegable', 'Listas Desplegables', 'f', array('page', 'items-lista'), true);
     crear_taxonomia('glosario', 'Glosario', 'Glosarios', 'm', array('items-glosario'), true);
 }
 add_action('init', 'crear_taxonomias', 0);

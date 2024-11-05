@@ -51,6 +51,9 @@ function ocultar_hijos_taxonomias_en_pages($args)
             #orden_taxonomias{
               display: none !important;
             }
+            .components-panel__body{
+              display: none !important;
+            }  
         </style>';
   }
   return $args;
