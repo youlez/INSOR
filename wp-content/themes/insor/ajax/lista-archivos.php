@@ -145,7 +145,7 @@ function mostrarcontenidotabla()
                 }
                 $index++;
               } else {
-                $html .= modificar_elementos(get_the_content());
+                $html .= apply_filters('the_content', get_the_content());
               }
             }
             if ($tipo_contenido_s == 2) {

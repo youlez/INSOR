@@ -120,7 +120,7 @@ while (have_posts()) : the_post();
                       <span class="visually-hidden">Cargando ...</span>
                     </div>
                   </div>
-                  <div id="tabla-<?php echo $dato->term_id ?>">
+                  <div id="contenido-<?php echo $dato->term_id ?>">
                     <?php
                     if ($tipo_contenido == 2) {
                     ?>
