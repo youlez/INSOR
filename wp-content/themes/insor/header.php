@@ -11,6 +11,9 @@
 
 <body>
   <header>
+    <div class="container">
+      <a class='skip-link btn btn-amarillo' href='#content'>Saltar al contenido principal</a>
+    </div>
     <div class="barra-superior-govco topbar" aria-label="Barra superior">
       <div class="container">
         <div class="enlace-gov">

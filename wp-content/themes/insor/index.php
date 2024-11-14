@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-<html>
-<div class="container contenedor">
+<div class="container contenedor" id="content">
   <section class="pb-4">
     <?php echo do_shortcode('[serious-slider id="5"]') ?>
   </section>
@@ -8,9 +7,9 @@
   <section class="py-4">
     <div class="row m-0 titleContainer">
       <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
-        <h3>
+        <h1>
           MICROSITIOS
-        </h3>
+        </h1>
       </div>
       <div class="col-lg-8"> </div>
     </div>
@@ -18,11 +17,11 @@
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
           <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/DSC00824.JPG" class="imgBanner" alt="Banner Image">
-          <p>
+          <h2 class="mb-4">
             INSOR <br />
             <span>EDUCATIVO</span>
             <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
-          </p>
+          </h2>
         </a>
       </div>
       <hr class="barra d-none d-lg-block">
@@ -30,11 +29,11 @@
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
           <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/Taller_Cultura_Sorda_3.jpg" class="imgBanner">
-          <p>
+          <h2 class="mb-4">
             INSOR <br />
             <span>LAB</span>
             <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/BIDES.gif">
-          </p>
+          </h2>
         </a>
       </div>
     </div>
@@ -44,9 +43,9 @@
 
     <div class="row m-0 titleContainer">
       <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
-        <h3>
-          INFORMATE
-        </h3>
+        <h1>
+          INFÓRMATE
+        </h1>
       </div>
       <div class="col-lg-8">
       </div>
@@ -76,9 +75,9 @@
                 </div>
                 <div class="texto p-3">
                   <span><?php echo get_the_date(); ?></span>
-                  <h3 class="mb-2">
+                  <h2 class="mb-2">
                     <?php echo get_the_title(); ?>
-                  </h3>
+                  </h2>
                   <p>
                     <?php echo get_the_excerpt(); ?>
                   </p>
@@ -102,9 +101,9 @@
   <section class="py-4">
     <div class="row m-0 titleContainer mb-4">
       <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
-        <h3>
+        <h1>
           TEMAS DE INTERÉS
-        </h3>
+        </h1>
       </div>
       <div class="col-lg-8">
       </div>
@@ -159,9 +158,9 @@
   <section class="py-4">
     <div class="row m-0 titleContainer mb-4">
       <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
-        <h3>
+        <h1>
           DESTACADOS
-        </h3>
+        </h1>
       </div>
       <div class="col-lg-8"> </div>
     </div>
@@ -209,9 +208,9 @@
   <section class="py-4">
     <div class="row m-0 titleContainer">
       <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
-        <h3>
+        <h1>
           INSOR PARA NIÑOS
-        </h3>
+        </h1>
       </div>
       <div class="col-lg-8"> </div>
     </div>
@@ -232,9 +231,9 @@
   <section class="py-4">
     <div class="row m-0 titleContainer">
       <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
-        <h3>
+        <h1>
           REDES SOCIALES
-        </h3>
+        </h1>
       </div>
       <div class="col-lg-8">
       </div>
@@ -290,9 +289,9 @@
   <section class="py-4">
     <div class="row m-0 titleContainer">
       <div class="col-7 col-sm-5 col-md-4 col-lg-3 p-2 title">
-        <h3>
+        <h1>
           ENLACES
-        </h3>
+        </h1>
       </div>
       <div class="col-lg-8"> </div>
     </div>
@@ -403,8 +402,5 @@
 
     </div>
   </section>
-
-
-</html>
-<?php
-get_footer();
+  <?php
+  get_footer();

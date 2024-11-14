@@ -10,6 +10,7 @@ function cargar_scripts()
     wp_register_script('bootstrap', get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js', array('jquery'), false, false);
     wp_register_script('bootstrap-bundle', get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', array('jquery'), false, false);
     wp_register_script('general', get_template_directory_uri() . '/js/front/general.js', array(), '2024.10.30.02', 'all');
+    wp_register_script('videos', get_template_directory_uri() . '/js/front/videos.js', array(), '2024.10.30.02', 'all');
     wp_register_script('menu', get_template_directory_uri() . '/js/front/menu.js', array(), '2024.10.30.02', 'all');
     wp_register_script('home', get_template_directory_uri() . '/js/front/home.js', array(), '2024.10.30.02', 'all');
     wp_register_script('header', get_template_directory_uri() . '/js/front/header.js', array(), '2024.10.30.02', 'all');
@@ -21,6 +22,7 @@ function cargar_scripts()
     wp_enqueue_script('bootstrap');
     wp_enqueue_script('bootstrap-bundle');
     wp_enqueue_script('general');
+    wp_enqueue_script('videos');
     wp_enqueue_script('menu');
     wp_enqueue_script('home');
     wp_enqueue_script('header');

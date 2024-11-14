@@ -33,7 +33,7 @@
     background-color: var(--azul);
   }
 
-  h3 {
+  h1 {
     margin-bottom: 0px;
     font-size: 1.2rem;
   }
@@ -70,7 +70,7 @@
     transition: transform 0.3s ease-in-out;
   }
 
-  p {
+  h2 {
     width: -webkit-fill-available;
     z-index: 100;
     position: absolute;
@@ -159,7 +159,7 @@
     width: 100%;
   }
 
-  h3 {
+  h2 {
     height: 46px;
     font-weight: bold;
     color: var(--amarillo);

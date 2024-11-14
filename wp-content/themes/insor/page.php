@@ -3,8 +3,10 @@ get_header();
 while (have_posts()) : the_post();
   $post_name = get_post_field('post_name', get_post());
 ?>
-  <section class="container my-4 page-interna <?php echo $post_name; ?>">
+  <div class="container mt-4">
     <?php miga_pan(); ?>
+  </div>
+  <section class="container my-4 page-interna <?php echo $post_name; ?>" id="content">
     <div class="titulo-internas my-4">
       <h1 class="px-4 py-2">
         <?php the_title(); ?>

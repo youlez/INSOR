@@ -135,6 +135,30 @@ label,
   text-decoration: none;
 }
 
+.btn-amarillo {
+  height: auto;
+  width: auto;
+  background-color: var(--amarillo);
+  color: var(--azul);
+  justify-self: center;
+  margin: 4px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.btn-amarillo:hover {
+  background-color: var(--azul);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-amarillo:focus-visible,
+.btn-amarillo:focus {
+  background-color: var(--amarillo);
+  color: var(--azul);
+}
 
 .btn-icono {
   padding: 0;
@@ -391,4 +415,15 @@ hr {
   font-size: 0.8rem;
   margin-right: 0.4rem;
   color: var(--azul-r);
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+}
+
+.skip-link:focus-visible,
+.skip-link:focus,
+.skip-link:hover {
+  top: 0;
 }
