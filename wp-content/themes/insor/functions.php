@@ -72,23 +72,9 @@ function configuracion_smtp($phpmailer)
   $phpmailer->Password = "3hUeljmQw8+H";
   $phpmailer->SMTPSecure = 'ssl';
   $phpmailer->From = 'noresponder@consultorestic.com.co';
-  $phpmailer->FromName = 'prueba';
+  $phpmailer->FromName = 'INSOR - Instituto Nacional para Sordos';
   $phpmailer->isSMTP();
 }
-
-function modify_event_link_with_metadata($url, $event_id)
-{
-  // Obtener el metadato "_EventURL"
-  $event_url = get_post_meta($event_id, '_EventURL', true);
-
-  if (! empty($event_url)) {
-    // Modificar el enlace y agregar el atributo data-event-url
-    $url = add_query_arg('data-event-url', esc_url($event_url), $url);
-  }
-
-  return $url;
-}
-add_filter('tribe_events_get_event_link', 'modify_event_link_with_metadata', 10, 2);
 
 /* archivos de listas */
 /*function agregar_campo_personalizado()
