@@ -1,0 +1,5096 @@
+# Translation of Plugins - WP Booking Calendar - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-14 21:44:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
+
+#: core/lang/wpbc_all_translations2.php:332 core/wpbc-emails.php:303
+#: core/wpbc-emails.php:308 core/wpbc-emails.php:314 core/wpbc-emails.php:322
+msgid "Example of HTML a link usage: %s )"
+msgstr "Przykład użycia odnośnika w HTML: %s )"
+
+#: core/lang/wpbc_all_translations2.php:331
+#: core/lib/wpdev-booking-class.php:641 core/lib/wpdev-booking-class.php:973
+#: core/lib/wpdev-booking-class.php:1008 core/lib/wpdev-booking-class.php:1037
+#: core/lib/wpdev-booking-class.php:1057
+msgid "This shortcode available in Pro versions,  only!"
+msgstr "Ten shortcode jest dostępny tylko w wersji Pro!"
+
+#: core/admin/page-ics-general.php:216 core/lang/wpbc_all_translations.php:302
+msgid "Remove Details in Google Calendar Export"
+msgstr "Usuń szczegóły w eksporcie kalendarza Google."
+
+#: core/lang/wpbc_all_translations2.php:330
+msgid "Continue Setup"
+msgstr "Kontynuuj konfigurację"
+
+#: core/lang/wpbc_all_translations2.php:319
+msgid "Save payment details to charge later"
+msgstr "Zapisz dane płatności, aby obciążyć później"
+
+#: core/lang/wpbc_all_translations2.php:318
+msgid "Accept one-time payments"
+msgstr "Włącz płatności jednorazowe"
+
+#: core/lang/wpbc_all_translations2.php:317
+msgid "Accept one-time payments for cards, iDEAL, and more,  or save payment details to charge your customers later."
+msgstr "Przyjmuj jednorazowe płatności kartami, iDEAL i innymi metodami, lub zapisuj dane płatności, aby później obciążyć swoich klientów."
+
+#: core/lang/wpbc_all_translations2.php:316
+msgid "Payment mode"
+msgstr "Tryb płatności"
+
+#: core/lang/wpbc_all_translations2.php:315
+msgid "This option does not work with %s payment systems."
+msgstr "Ta opcja nie działa z systemami płatności %s."
+
+#: core/lang/wpbc_all_translations2.php:314
+msgid "Wizard"
+msgstr "Kreator"
+
+#: core/lang/wpbc_all_translations2.php:313
+msgid "Times Templates"
+msgstr "Szablony czasów"
+
+#: core/lang/wpbc_all_translations2.php:311
+msgid "Show Pricing Options"
+msgstr "Pokaż opcje cenowe"
+
+#: core/lang/wpbc_all_translations2.php:310
+msgid "Pricing"
+msgstr "Cennik"
+
+#: core/lang/wpbc_all_translations2.php:304
+msgid "Hide Toolbar"
+msgstr "Ukryj pasek narzędzi"
+
+#: core/lang/wpbc_all_translations2.php:303
+msgid "Show Toolbar"
+msgstr "Pokaż pasek narzędzi"
+
+#: core/lang/wpbc_all_translations2.php:302
+msgid "Hide Column"
+msgstr "Ukryj kolumnę"
+
+#: core/lang/wpbc_all_translations2.php:301
+msgid "Show Labels"
+msgstr "Pokaż etykiety"
+
+#: core/lang/wpbc_all_translations2.php:298
+msgid "Excerpt / Image"
+msgstr "Zajawka / Obrazek"
+
+#: core/lang/wpbc_all_translations2.php:297
+msgid "Redirect URL from Search Results to Booking Page"
+msgstr "Przekieruj adres URL z wyników wyszukiwania na stronę rezerwacji"
+
+#: core/lang/wpbc_all_translations2.php:296
+msgid "URL"
+msgstr "Adres URL"
+
+#: core/lang/wpbc_all_translations2.php:295
+msgid "Define specific search filter parameters that can be used to refine search results"
+msgstr "Zdefiniuj określone parametry filtrów wyszukiwania, które mogą być używane do zawężania wyników wyszukiwania."
+
+#: core/lang/wpbc_all_translations2.php:294
+msgid "Set the thumbnail URL for item shown in search results"
+msgstr "Ustaw adres URL miniaturki dla elementu wyświetlanego w wynikach wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:293
+msgid "Specify an excerpt description for display in search results"
+msgstr "Określ opis zajawki do wyświetlenia w wynikach wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:292
+msgid "Customize the title displayed in search results"
+msgstr "Dostosuj tytuł wyświetlany w wynikach wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:291
+msgid "No Image"
+msgstr "Brak obrazka"
+
+#: core/lang/wpbc_all_translations2.php:290
+msgid "Select Image"
+msgstr "Wybierz obrazek"
+
+#: core/lang/wpbc_all_translations2.php:306
+msgid "Contain"
+msgstr "Zawiera"
+
+#: core/lang/wpbc_all_translations2.php:287
+msgid "Disabled"
+msgstr "Wyłączony"
+
+#: core/lang/wpbc_all_translations2.php:286
+msgid "Searchable Resource Setup"
+msgstr "Konfiguracja zasobów do wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:285
+msgid "Compact"
+msgstr "Kompaktowy"
+
+#: core/lang/wpbc_all_translations2.php:280
+msgid "Searchable Resources"
+msgstr "Zasoby do wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:279
+msgid "Search Options"
+msgstr "Opcje wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:278
+msgid "Search Results Layout"
+msgstr "Układ wyników wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:277
+#: includes/page-settings-all/all__page.php:55
+msgid "Search Form Layout"
+msgstr "Układ formularza wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:283
+msgid "Time-Slots"
+msgstr "Przedziały czasowe"
+
+#: core/lang/wpbc_all_translations2.php:282
+msgid "Single Day"
+msgstr "Pojedynczy dzień"
+
+#: core/lang/wpbc_all_translations2.php:281
+msgid "Minimal"
+msgstr "Minimalny"
+
+#: core/lang/wpbc_all_translations2.php:242
+msgid "Deprecated Shortcodes"
+msgstr "Przestarzałe shortcode"
+
+#: core/lang/wpbc_all_translations2.php:237
+msgid "Show More"
+msgstr "Pokaż więcej"
+
+#: core/lang/wpbc_all_translations2.php:236
+msgid "%s - items count, "
+msgstr "%s - liczba elementów, "
+
+#: core/lang/wpbc_all_translations2.php:235
+msgid "Standard Shortcodes"
+msgstr "Standardowe shortcode"
+
+#: core/lang/wpbc_all_translations2.php:232
+msgid "Urban Villa"
+msgstr "Wiejska willa"
+
+#: core/lang/wpbc_all_translations2.php:230
+msgid "Standard Room"
+msgstr "Pokój standardowy"
+
+#: core/lang/wpbc_all_translations2.php:227 core/wpbc.php:273 core/wpbc.php:274
+#: includes/page-settings-all/all__page.php:148
+#: includes/page-settings-all/all__page.php:167
+#: includes/page-settings-all/all__page.php:186
+#: includes/page-settings-all/all__page.php:205
+#: includes/page-settings-all/all__page.php:224
+#: includes/page-setup/setup_steps.php:250
+#: includes/page-setup/setup__page.php:52
+#: includes/page-setup/setup__page.php:53
+#: includes/page-setup/setup__page.php:54
+#: includes/page-setup/setup__page.php:69
+#: includes/page-setup/setup__page.php:70
+#: includes/page-setup/setup__page.php:71
+#: includes/page-setup/setup__page.php:98
+msgid "Setup"
+msgstr "Konfiguracja"
+
+#: core/lang/wpbc_all_translations2.php:224 core/wpbc-emails.php:210
+msgid "%s - inserting only booking dates without times"
+msgstr "%s - wprowadzanie tylko dat rezerwacji bez godzin"
+
+#: core/admin/page-settings.php:475 core/lang/wpbc_all_translations.php:410
+msgid "Personal Information"
+msgstr "Informacje osobiste"
+
+#: core/lang/wpbc_all_translations2.php:246
+msgid "image associated with search result"
+msgstr "obrazek powiązany z wynikiem wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:244
+msgid "search title"
+msgstr "tytuł wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:243
+msgid "The %s shortcode is outdated and no longer supported. Find more details on %sthis page%s."
+msgstr "Shortcode %s jest przestarzały i nie jest już obsługiwany. Więcej informacji znajdziesz na %stej stronie%s."
+
+#: core/admin/page-settings.php:475 core/admin/page-settings.php:481
+#: core/lang/wpbc_all_translations.php:409
+msgid "Section"
+msgstr "Sekcja"
+
+#: core/admin/api-settings.php:1075 core/lang/wpbc_all_translations.php:97
+msgid "%s - dates in readable format"
+msgstr "%s - daty w czytelnym formacie"
+
+#: core/admin/api-settings.php:847 core/admin/api-settings.php:882
+#: core/admin/api-settings.php:991 core/lang/wpbc_all_translations.php:90
+msgid "Enable"
+msgstr "Włącz"
+
+#: core/admin/api-settings.php:836 core/lang/wpbc_all_translations.php:89
+msgid "Header"
+msgstr "Nagłówek"
+
+#: core/admin/api-settings.php:734 core/lang/wpbc_all_translations.php:81
+msgid "Show booking confirmation at same page"
+msgstr "Pokaż potwierdzenie rezerwacji na tej samej stronie"
+
+#: core/lang/wpbc_all_translations1.php:933
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:195
+msgid "View Options"
+msgstr "Zobacz opcje"
+
+#: core/lang/wpbc_all_translations1.php:921
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:145
+msgid "Search results "
+msgstr "Wyniki wyszukiwania "
+
+#: core/lang/wpbc_all_translations1.php:919
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:206
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:150
+msgid "Select type of shortcode"
+msgstr "Wybierz rodzaj shortcode"
+
+#: core/lang/wpbc_all_translations1.php:882
+#: includes/ui_modal__shortcodes/sh_tpl_booking_form.php:106
+msgid "Only form without calendar"
+msgstr "Tylko formularz bez kalendarza"
+
+#: core/lang/wpbc_all_translations1.php:847
+#: includes/page-form-simple/page-form-simple.php:428
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:426
+msgid "Set width of calendar"
+msgstr "Ustaw szerokość kalendarza"
+
+#: core/lang/wpbc_all_translations1.php:848
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:430
+msgid "Calendar cell height:"
+msgstr "Wysokość komórki kalendarza:"
+
+#: core/lang/wpbc_all_translations1.php:230
+msgid "Owner"
+msgstr "Właściciel"
+
+#: core/lang/wpbc_all_translations.php:776
+msgid "Double Room"
+msgstr "Pokój dwuosobowy"
+
+#: core/lang/wpbc_all_translations.php:745
+#: includes/_functions/admin_top_bar.php:210
+#: includes/_functions/admin_top_bar.php:306
+#: includes/_toolbar_ui/ui__settings_panel.php:183
+msgid "Payment Setup"
+msgstr "Konfiguracja płatności"
+
+#: core/admin/page-email-approved.php:687 core/admin/page-email-deleted.php:685
+#: core/admin/page-email-deny.php:683 core/admin/page-email-new-admin.php:668
+#: core/admin/page-email-new-visitor.php:661
+#: core/admin/page-email-trash.php:690 core/lang/wpbc_all_translations.php:240
+msgid "Email Type"
+msgstr "Rodzaj wiadomości e-mail"
+
+#: core/admin/page-email-approved.php:668 core/admin/page-email-deleted.php:666
+#: core/admin/page-email-deny.php:664 core/admin/page-email-new-admin.php:649
+#: core/admin/page-email-new-visitor.php:642
+#: core/admin/page-email-trash.php:671 core/lang/wpbc_all_translations.php:238
+msgid "Email Content"
+msgstr "Treść wiadomości e-mail"
+
+#: core/lang/wpbc_all_translations2.php:177
+#: includes/page-setup/setup_templates.php:288
+#: includes/page-setup/template__bookings_types.php:190
+#: includes/publish/wpbc-publish-shortcode.php:333
+msgid "Go Back"
+msgstr "Wróć"
+
+#: core/lang/wpbc_all_translations2.php:176
+#: includes/publish/wpbc-publish-shortcode.php:318
+msgid "Create Page"
+msgstr "Utwórz stronę"
+
+#: core/lang/wpbc_all_translations2.php:175
+#: includes/publish/wpbc-publish-shortcode.php:315
+msgid "Enter Page Name"
+msgstr "Wpisz nazwę strony"
+
+#: core/lang/wpbc_all_translations2.php:174
+#: includes/publish/wpbc-publish-shortcode.php:312
+msgid "Provide a name for your new page."
+msgstr "Podaj nazwę nowej strony."
+
+#: core/lang/wpbc_all_translations2.php:173
+#: includes/publish/wpbc-publish-shortcode.php:307
+msgid "Use This Page"
+msgstr "Użyj tej strony"
+
+#: core/lang/wpbc_all_translations2.php:172
+#: includes/publish/wpbc-publish-shortcode.php:301
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Wybierz &mdash;"
+
+#: core/lang/wpbc_all_translations2.php:170
+#: includes/publish/wpbc-publish-shortcode.php:291
+msgid "Create New Page"
+msgstr "Utwórz nową stronę"
+
+#: core/lang/wpbc_all_translations2.php:169
+#: includes/publish/wpbc-publish-shortcode.php:284
+msgid "Embed in Existing Page"
+msgstr "Osadź na istniejącej stronie"
+
+#: core/lang/wpbc_all_translations2.php:168
+#: includes/publish/wpbc-publish-shortcode.php:276
+msgid "Choose whether to embed your booking form in an existing page or create a new one."
+msgstr "Zdecyduj, czy chcesz osadzić swój formularz rezerwacji na istniejącej stronie, czy stworzyć nową."
+
+#: core/lang/wpbc_all_translations2.php:166
+#: includes/publish/wpbc-publish-shortcode.php:170
+#: includes/publish/wpbc-publish-shortcode.php:176
+msgid "Find more information at the %sFAQ page%s"
+msgstr "Więcej informacji znajdziesz na stronie %sFAQ%s"
+
+#: core/lang/wpbc_all_translations2.php:156
+#: includes/publish/wpbc-create-pages.php:225
+msgid "A new page has been created."
+msgstr "Utworzono nową stronę."
+
+#: core/lang/wpbc_all_translations2.php:37
+#: includes/page-availability/availability__page.php:413
+msgid "Define unavailable weekdays for all calendar(s) and unavailable dates depend from today date"
+msgstr "Zdefiniuj niedostępne dni tygodnia dla wszystkich kalendarzy oraz niedostępne daty zaczynając od dzisiejszej daty"
+
+#: core/lang/wpbc_all_translations1.php:768
+msgid "Find more information at %sFAQ page%s."
+msgstr "Więcej informacji znajdziesz na stronie %sFAQ%s."
+
+#: core/lang/wpbc_all_translations1.php:767
+msgid "Paste these values to appropriate fields at this page."
+msgstr "Wklej te wartości do odpowiednich pól na tej stronie."
+
+#: core/lang/wpbc_all_translations1.php:764
+msgid "Click the \"Apps & Credentials\"."
+msgstr "Kliknij \"Aplikacje i poświadczenia\"."
+
+#: core/lang/wpbc_all_translations1.php:763
+msgid "Log in to your PayPal account Dashboard."
+msgstr "Zaloguj się do kokpitu swojego konta PayPal."
+
+#: core/lang/wpbc_all_translations1.php:225 core/wpbc.php:249
+#: includes/page-resource-free/page-resource-free.php:409
+msgid "Publish"
+msgstr "Opublikuj"
+
+#: core/lang/wpbc_all_translations2.php:154
+#: includes/page-resource-free/page-resource-free.php:314
+msgid "Shortcode for page"
+msgstr "Shortcode dla strony"
+
+#: core/lang/wpbc_all_translations1.php:35
+msgid "Reset All"
+msgstr "Resetuj wszystko"
+
+#: core/lang/wpbc_all_translations1.php:13
+msgid "Early / Late Check-in Discounts"
+msgstr "Zniżki za wcześniejsze / późniejsze zameldowanie"
+
+#: core/lang/wpbc_all_translations.php:978
+msgid "Seasonal Pricing"
+msgstr "Ceny sezonowe"
+
+#: core/lang/wpbc_all_translations.php:960
+msgid "Partial Payments"
+msgstr "Zaliczki"
+
+#: core/lang/wpbc_all_translations.php:934
+msgid "Customize costs based on form fields selections."
+msgstr "Dostosuj koszty na podstawie wybranych pól formularza."
+
+#: core/lang/wpbc_all_translations.php:744
+#: includes/_functions/admin_top_bar.php:193
+msgid "Discount Coupons"
+msgstr "Kupony rabatowe"
+
+#: core/lang/wpbc_all_translations.php:742
+#: includes/_functions/admin_top_bar.php:176
+msgid "Daily Costs"
+msgstr "Koszty dzienne"
+
+#: core/lang/wpbc_all_translations.php:741
+#: includes/page-availability/availability__page.php:412
+#: includes/page-availability/availability__page.php:414
+#: includes/_functions/admin_top_bar.php:156
+#: includes/_toolbar_ui/ui__settings_panel.php:444
+msgid "General Availability"
+msgstr "Ogólna dostępność"
+
+#: core/lang/wpbc_all_translations.php:740
+#: includes/_functions/admin_top_bar.php:146
+#: includes/_functions/admin_top_bar.php:202
+msgid "Seasons"
+msgstr "Sezony"
+
+#: core/lang/wpbc_all_translations.php:739
+#: includes/_functions/admin_top_bar.php:137
+msgid "Season Availability"
+msgstr "Dostępność w sezonie"
+
+#: core/lang/wpbc_all_translations.php:738
+#: includes/page-availability/availability__page.php:41
+#: includes/_functions/admin_top_bar.php:128
+msgid "Days Availability"
+msgstr "Dostępność w dniach"
+
+#: core/lang/wpbc_all_translations.php:729 core/wpbc.php:216
+msgid "Booking Prices"
+msgstr "Ceny rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:956
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:276
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:278
+msgid "Insert"
+msgstr "Wstaw"
+
+#: core/admin/page-ics-general.php:263 core/lang/wpbc_all_translations.php:313
+msgid "Import only if dates are available in the source calendar."
+msgstr "Importuj tylko wtedy, gdy daty są dostępne w kalendarzu źródłowym."
+
+#: core/lang/wpbc_all_translations2.php:152
+msgid "1 mouse click"
+msgstr "1 kliknięcie myszką"
+
+#: core/lang/wpbc_all_translations2.php:151
+msgid "2 mouse clicks"
+msgstr "2 kliknięcia myszką"
+
+#: core/lang/wpbc_all_translations2.php:150
+msgid "Reset Size"
+msgstr "Resetuj rozmiar"
+
+#: core/lang/wpbc_all_translations2.php:149
+msgid "Apply Size"
+msgstr "Zastosuj rozmiar"
+
+#: core/lang/wpbc_all_translations2.php:148
+msgid "Height of calendar cell"
+msgstr "Wysokość komórki kalendarza"
+
+#: core/lang/wpbc_all_translations2.php:141
+msgid "Save and continue"
+msgstr "Zapisz i kontynuuj"
+
+#: core/lang/wpbc_all_translations1.php:806
+#: includes/_capacity/dates_times_support.php:720
+msgid "now"
+msgstr "teraz"
+
+#: core/lang/wpbc_all_translations.php:612 core/lib/wpdev-booking-class.php:279
+#: core/lib/wpdev-booking-class.php:282 core/lib/wpdev-booking-class.php:366
+#: core/lib/wpdev-booking-class.php:695 core/lib/wpdev-booking-class.php:933
+#: core/lib/wpdev-booking-class.php:935
+#: includes/_capacity/confirmation_page.php:140
+msgid "Oops!"
+msgstr "Ups!"
+
+#: core/admin/page-settings.php:384 core/admin/page-settings.php:621
+#: core/lang/wpbc_all_translations.php:421
+#: includes/_toolbar_ui/ui__settings_panel.php:1533
+msgid "Tools"
+msgstr "Narzędzia"
+
+#: core/lang/wpbc_all_translations1.php:981
+#: includes/_toolbar_ui/toolbar_ui.php:896
+msgid "Show all bookings."
+msgstr "Pokaż wszystkie rezerwacje."
+
+#: core/admin/wpbc-toolbars.php:1606 core/lang/wpbc_all_translations.php:502
+#: includes/_toolbar_ui/toolbar_ui.php:861
+msgid "Reset keyword text field"
+msgstr "Zresetuj pole słowa kluczowego"
+
+#: core/lang/wpbc_all_translations2.php:162
+#: includes/publish/wpbc-create-pages.php:544
+msgid "Booking Payment Confirmation"
+msgstr "Potwierdzenie płatności za rezerwację"
+
+#: includes/publish/wpbc-create-pages.php:454
+msgid "My Booking"
+msgstr "Moja rezerwacja"
+
+#: core/lang/wpbc_all_translations2.php:36
+#: includes/page-availability/availability__page.php:43
+msgid "Calendar Availability"
+msgstr "Dostępność kalendarza"
+
+#: core/lang/wpbc_all_translations2.php:35
+#: includes/page-availability/availability__page.php:42
+msgid "Define available and unavailable days for calendar(s)"
+msgstr "Definiowanie dni dostępnych i niedostępnych dla kalendarza(y)"
+
+#: core/lang/wpbc_all_translations1.php:408
+#: includes/page-availability/availability__class.php:291
+msgid "Calendar Legend"
+msgstr "Legenda kalendarza"
+
+#: core/admin/api-settings.php:396 core/lang/wpbc_all_translations.php:46
+#: core/lib/wpbc-calendar-legend.php:156 core/wpbc-activation.php:1210
+#: includes/page-availability/availability__toolbar_ui.php:191
+#: includes/_capacity/capacity.php:998
+msgid "Unavailable"
+msgstr "Niedostępny"
+
+#: core/admin/api-settings.php:441 core/lang/wpbc_all_translations.php:51
+msgid "Check this box to display legend items vertically in a column."
+msgstr "Zaznacz to pole, aby wyświetlać legendę w pionie."
+
+#: core/admin/api-settings.php:440 core/lang/wpbc_all_translations.php:50
+msgid "Show legend items in a column"
+msgstr "Pokaż elementy legendy w pionie"
+
+#: core/lang/wpbc_all_translations2.php:32
+#: includes/page-availability/availability__class.php:593
+#: includes/page-availability/availability__toolbar_ui.php:103
+msgid "%sSelect days%s in calendar then select %sAvailable%s / %sUnavailable%s status and click %sApply%s availability button."
+msgstr "%sWybierz dni%s w kalendarzu, a następnie wybierz status %sDostępny%s / %sNiedostępny%s i kliknij przycisk %sZastosuj%s dostępność."
+
+#: core/lang/wpbc_all_translations2.php:24
+#: includes/page-availability/availability__class.php:230
+msgid "Apply availability"
+msgstr "Zastosuj dostępność"
+
+#: core/lang/wpbc_all_translations1.php:828 includes/_feedback/feedback.php:420
+msgid "Thanks for sharing your rating %s"
+msgstr "Dziękujemy za podzielenie się swoją oceną %s"
+
+#: core/lang/wpbc_all_translations1.php:825 includes/_feedback/feedback.php:370
+msgid "Yes! Sure, I'd love to help!"
+msgstr "Tak! Oczywiście chciałbym pomóc!"
+
+#: core/lang/wpbc_all_translations1.php:826 includes/_feedback/feedback.php:374
+msgid "No, sorry - not this time."
+msgstr "Przykro mi - nie tym razem."
+
+#: core/lang/wpbc_all_translations1.php:827 includes/_feedback/feedback.php:389
+msgid "%sPerfect!%s Thanks for taking the time! %s"
+msgstr "%sŚwietnie!%s Dziękujemy za poświęcenie czasu! %s"
+
+#: core/lang/wpbc_all_translations1.php:822 includes/_feedback/feedback.php:330
+msgid "%sFantastic!%s Thanks for taking the time! %s"
+msgstr "%sFantastycznie!%s Dziękujemy za poświęcenie czasu! %s"
+
+#: core/lang/wpbc_all_translations1.php:824 includes/_feedback/feedback.php:335
+#: includes/_feedback/feedback.php:394
+msgid "Thanks for sharing your feedback! Have a great day :)"
+msgstr "Dziękujemy za podzielenie się swoimi uwagami! Miłego dnia :)"
+
+#: core/lang/wpbc_all_translations1.php:823 includes/_feedback/feedback.php:334
+#: includes/_feedback/feedback.php:393
+msgid "Your answers will help us to make the plugin better for you!"
+msgstr "Twoje odpowiedzi pomogą nam w ulepszeniu wtyczki!"
+
+#: core/lang/wpbc_all_translations1.php:821 includes/_feedback/feedback.php:316
+msgid "It's an %soptional question%s. But, we'd love to hear your thoughts!"
+msgstr "To jest %spytanie nieobowiązkowe%s. Z przyjemnością jednak poznamy twoje zdanie!"
+
+#: includes/_feedback/feedback.php:363
+msgid "What's the main benefit from Booking Calendar for you?"
+msgstr "Jaka jest dla ciebie główna korzyść z korzystania z Booking Calendar?"
+
+#: core/admin/wpbc-dashboard.php:676 core/lang/wpbc_all_translations.php:454
+#: includes/_toolbar_ui/toolbar_ui.php:530
+#: includes/_toolbar_ui/ui__settings_panel.php:1955
+msgid "Check in - Tomorrow"
+msgstr "Przyjazd - Jutro"
+
+#: core/admin/wpbc-dashboard.php:668 core/lang/wpbc_all_translations.php:452
+#: includes/_toolbar_ui/toolbar_ui.php:528
+#: includes/_toolbar_ui/ui__settings_panel.php:1915
+msgid "Check in - Today"
+msgstr "Przyjazd - Dzisiaj"
+
+#: core/admin/page-settings.php:355 core/admin/page-settings.php:628
+#: core/lang/wpbc_all_translations.php:422
+#: includes/_toolbar_ui/ui__settings_panel.php:1397
+msgid "Translations"
+msgstr "Tłumaczenia"
+
+#: core/lang/wpbc_all_translations1.php:197
+msgid "Start time"
+msgstr "Czas rozpoczęcia"
+
+#: core/lang/wpbc_all_translations1.php:198
+msgid "End time"
+msgstr "Czas zakończenia"
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:45
+#: core/lang/wpbc_all_translations.php:510
+msgid "Unpacking the update&#8230;"
+msgstr "Rozpakowywanie aktualizacji&#8230;"
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:42
+#: core/lang/wpbc_all_translations.php:508
+msgid "Update package not available."
+msgstr "Paczka z aktualizacją nie jest dostępna."
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:40
+#: core/lang/wpbc_all_translations.php:506
+msgid "Some of your translations need updating. Sit tight for a few more seconds while we update them as well."
+msgstr "Niektóre z używanych tłumaczeń wymagają aktualizacji. Teraz nastąpi ich aktualizacja. Prosimy o cierpliwość."
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:47
+#: core/lang/wpbc_all_translations.php:512
+msgid "Translation updated successfully."
+msgstr "Tłumaczenie zostało zaktualizowane."
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:46
+#: core/lang/wpbc_all_translations.php:511
+msgid "Translation update failed."
+msgstr "Aktualizacja tłumaczenia nie powiodła się."
+
+#: core/admin/page-settings.php:661 core/lang/wpbc_all_translations.php:424
+#: core/wpbc-translation.php:585
+#: includes/_toolbar_ui/ui__settings_panel.php:1661
+msgid "Update Translations"
+msgstr "Zaktualizuj tłumaczenia"
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:41
+#: core/lang/wpbc_all_translations.php:507
+msgid "Your translations are all up to date."
+msgstr "Wszystkie twoje tłumaczenia są aktualne."
+
+#. translators: %s: Package URL.
+#: core/class/wpbc-class-upgrader-translation-skin.php:44
+#: core/lang/wpbc_all_translations.php:509
+msgid "Downloading translation from %s&#8230;"
+msgstr "Pobieranie tłumaczenia z %s&#8230;"
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:48
+#: core/lang/wpbc_all_translations.php:513
+msgid "Removing the old version of the translation&#8230;"
+msgstr "Usuwanie starych wersji tłumaczeń&#8230;"
+
+#: core/class/wpbc-class-upgrader-translation-skin.php:49
+#: core/lang/wpbc_all_translations.php:514
+msgid "Could not remove the old translation."
+msgstr "Nie można było usunąć starych tłumaczeń."
+
+#: core/admin/api-settings.php:1852 core/lang/wpbc_all_translations.php:187
+msgid "The plugin tries to use translations from %s, if failed (doesn't exist), try using translations from %s folder. You can change this behavior with this option."
+msgstr "Wtyczka próbuje użyć tłumaczeń z %s, a jeżeli to się nie powiedzie (gdy nie istnieje), próbuje użyć tłumaczeń z folderu %s. Za pomocą tej opcji można zmienić zachowanie wtyczki."
+
+#: core/admin/api-settings.php:1839 core/lang/wpbc_all_translations.php:185
+msgid "Firstly load translation"
+msgstr "Najpierw wczytaj tłumaczenie"
+
+#: core/admin/api-settings.php:1842 core/lang/wpbc_all_translations.php:186
+msgid "Local"
+msgstr "Lokalny"
+
+#: core/lang/wpbc_all_translations2.php:17
+#: includes/_toolbar_ui/toolbar_ui.php:2132
+msgid "Export page to CSV"
+msgstr "Eksportuj stronę do CSV"
+
+#: core/lang/wpbc_all_translations2.php:19
+#: includes/_toolbar_ui/toolbar_ui.php:2172
+msgid "Export all pages to CSV"
+msgstr "Eksportuj wszystkie strony do CSV"
+
+#: core/lang/wpbc_all_translations1.php:654
+msgid "Currency Settings"
+msgstr "Ustawienia waluty"
+
+#: core/admin/page-ics-general.php:207 core/lang/wpbc_all_translations.php:301
+msgid "Imported bookings"
+msgstr "Zaimportowane rezerwacje"
+
+#: core/admin/page-ics-general.php:200 core/lang/wpbc_all_translations.php:297
+msgid "Export bookings type"
+msgstr "Eksportuj typ rezerwacji"
+
+#: core/admin/page-ics-general.php:201 core/lang/wpbc_all_translations.php:298
+msgid "Select which type of bookings to export"
+msgstr "Wybierz typ rezerwacji do eksportu"
+
+#: core/admin/page-ics-general.php:206 core/lang/wpbc_all_translations.php:300
+msgid "Bookings created in Booking Calendar"
+msgstr "Rezerwacje utworzone w Kalendarzu rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:787
+msgid "Use Ctrl button to select multiple options."
+msgstr "Użyj klawisza Ctrl, aby wybrać wiele opcji"
+
+#: core/lang/wpbc_all_translations1.php:785
+msgid "Payment Methods"
+msgstr "Metody płatności"
+
+#: core/lang/wpbc_all_translations1.php:784
+msgid "Card"
+msgstr "Wizytówka"
+
+#: core/lang/wpbc_all_translations1.php:786
+msgid "Select one or several payment methods."
+msgstr "Wybierz jedną lub kilka metod płatności."
+
+#: core/admin/api-settings.php:491 core/lang/wpbc_all_translations.php:53
+#: includes/page-form-simple/page-form-simple.php:557
+msgid "Time picker for time slots"
+msgstr "Selektor czasu dla przedziałów czasowych"
+
+#: core/admin/api-settings.php:492 core/lang/wpbc_all_translations.php:54
+#: includes/page-form-simple/page-form-simple.php:558
+msgid "Show time slots as a time picker instead of a select box."
+msgstr "Pokaż przedziały czasowe jako selektor czasu zamiast pola wyboru."
+
+#: core/admin/api-settings.php:518 core/lang/wpbc_all_translations.php:56
+msgid "Select the skin of the time picker"
+msgstr "Wybierz kolorystykę selektora czasu"
+
+#: core/admin/api-settings.php:517 core/lang/wpbc_all_translations.php:55
+#: includes/page-form-simple/form_simple__preview_templates.php:147
+msgid "Time Picker Skin"
+msgstr "Kolorystyka selektora czasu"
+
+#: core/lang/wpbc_all_translations.php:972
+msgid "Discount"
+msgstr "Rabat"
+
+#: core/lang/wpbc_all_translations.php:653
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2516
+#: includes/page-availability/availability__page.php:267
+#: includes/page-bookings/bookings__page.php:187
+#: includes/page-settings-all/all__page.php:393
+#: includes/page-setup/setup__page.php:208
+msgid "Loading"
+msgstr "Wczytywanie"
+
+#: core/lang/wpbc_all_translations1.php:783
+msgid "For more information:"
+msgstr "Więcej informacji:"
+
+#: core/admin/page-ics-export.php:466 core/lang/wpbc_all_translations.php:280
+#: includes/publish/wpbc-create-pages.php:228
+#: includes/publish/wpbc-create-pages.php:268
+#: includes/publish/wpbc-create-pages.php:278
+#: includes/publish/wpbc-create-pages.php:288
+msgid "Open in new window"
+msgstr "Otwórz w nowym oknie"
+
+#: core/admin/api-settings.php:680 core/lang/wpbc_all_translations.php:73
+msgid "Simple"
+msgstr "Proste"
+
+#: core/admin/wpbc-toolbars.php:1208 core/admin/wpbc-toolbars.php:1209
+#: core/lang/wpbc_all_translations.php:499
+#: includes/page-bookings/bookings__actions.php:2875
+msgid "Add to Google Calendar"
+msgstr "Dodaj do kalendarza Google"
+
+#: core/admin/page-ics-import.php:467 core/lang/wpbc_all_translations.php:321
+msgid "Choose file"
+msgstr "Wybierz plik"
+
+#: core/admin/page-ics-export.php:64 core/admin/page-ics-export.php:231
+#: core/lang/wpbc_all_translations.php:272
+msgid "feed"
+msgstr "kanał"
+
+#: core/lang/wpbc_all_translations2.php:21
+#: includes/_toolbar_ui/toolbar_ui.php:2210
+#: includes/_toolbar_ui/toolbar_ui.php:2211
+msgid "Empty Trash"
+msgstr "Opróżnij kosz"
+
+#: core/admin/wpbc-dashboard.php:578 core/lang/wpbc_all_translations.php:439
+msgid "Demo"
+msgstr "Demo"
+
+#: core/admin/page-settings.php:116 core/lang/wpbc_all_translations.php:400
+#: js/wpbc-gutenberg.js:799
+msgid "Timeline"
+msgstr "Oś czasu"
+
+#: core/lang/wpbc_all_translations1.php:988
+#: includes/page-bookings/bookings__listing.php:248
+#: includes/_toolbar_ui/toolbar_ui.php:1198
+msgid "Imported"
+msgstr "Zaimportowano"
+
+#: core/admin/page-ics-import.php:468 core/lang/wpbc_all_translations.php:322
+msgid "Insert file URL"
+msgstr "Wstaw adres URL pliku"
+
+#: core/lang/wpbc_all_translations.php:856
+msgid "Cost of booking"
+msgstr "Koszt rezerwacji"
+
+#: core/lang/wpbc_all_translations2.php:217 js/wpbc-gutenberg.js:1566
+msgid "Click to edit"
+msgstr "Kliknij, aby edytować"
+
+#: core/lang/wpbc_all_translations.php:812 core/wpbc-activation.php:1511
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:212
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:223
+msgid "Nothing Found"
+msgstr "Niczego nie znaleziono"
+
+#: core/lang/wpbc_all_translations1.php:653
+#: includes/_toolbar_ui/ui__settings_panel.php:980
+msgid "Payment Options"
+msgstr "Metody płatności"
+
+#: core/lang/wpbc_all_translations2.php:197
+msgid "Search Results Title"
+msgstr "Tytuł wyników wyszukiwania"
+
+#: core/lang/wpbc_all_translations.php:591
+#: includes/page-form-simple/form_simple__timeslots.php:138
+msgid "Titles"
+msgstr "Tytuły"
+
+#: core/admin/api-settings.php:1717 core/lang/wpbc_all_translations.php:178
+msgid "Premium"
+msgstr "Premium"
+
+#: core/lang/wpbc_all_translations1.php:480
+msgid "Signature Key"
+msgstr "Klucz obliczania podpisu"
+
+#: core/lang/wpbc_all_translations.php:600 core/lib/wpbc-ajax.php:99
+#: includes/page-bookings/bookings__actions.php:702
+msgid "Approved by:"
+msgstr "Zaakceptowane przez:"
+
+#: core/admin/page-ics-export.php:180 core/admin/page-ics-export.php:243
+#: core/admin/page-ics-import.php:178 core/lang/wpbc_all_translations.php:278
+msgid "How it works"
+msgstr "Jak to działa"
+
+#: core/lang/wpbc_all_translations.php:615 core/lib/wpdev-booking-class.php:687
+msgid "My bookings"
+msgstr "Moje rezerwacje"
+
+#: core/lang/wpbc_all_translations.php:876
+msgid "Flex"
+msgstr "Elastyczny"
+
+#: core/lang/wpbc_all_translations.php:857
+msgid "Shuffle"
+msgstr "Losowo"
+
+#. Author of the plugin
+#: wpdev-booking.php
+msgid "wpdevelop, oplugins"
+msgstr "wpdevelop, oplugins"
+
+#: core/admin/api-settings.php:1718 core/lang/wpbc_all_translations.php:179
+msgid "Show / hide menu"
+msgstr "Pokaż / ukryj menu"
+
+#: core/admin/api-settings.php:529 core/lang/wpbc_all_translations.php:57
+msgid "Do not change background color for partially booked days"
+msgstr "Nie zmieniaj koloru tła dla częściowo zarezerwowanych dni"
+
+#: core/admin/api-settings.php:530 core/lang/wpbc_all_translations.php:58
+msgid "Show partially booked days with same background as in legend item"
+msgstr "Pokaż częściowo zarezerwowane dni na tym samym tle, co w elemencie legendy"
+
+#: core/lang/wpbc_all_translations.php:848
+msgid "Sort search results by"
+msgstr "Sortuj wyniki wyszukiwania według"
+
+#: core/admin/api-settings.php:1529 core/lang/wpbc_all_translations.php:155
+msgid "Show system debugging log for beta features"
+msgstr "Pokaż dziennik debugowania systemu dla funkcji beta"
+
+#: core/lang/wpbc_all_translations.php:970
+msgid "Set Early / Late Booking"
+msgstr "Ustaw, wczesne / późne rezerwacje"
+
+#: core/lang/wpbc_all_translations1.php:6
+msgid "Early / Late Booking"
+msgstr "Wczesna / późna rezerwacja"
+
+#: core/lang/wpbc_all_translations1.php:7
+msgid "Set Early / Late Booking Amount"
+msgstr "Ustaw, wczesne / późne kwoty rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:589
+#: includes/page-form-simple/form_simple__timeslots.php:112
+msgid "in 24 hour format"
+msgstr "w formacie 24-godzinnym"
+
+#: core/lang/wpbc_all_translations.php:593
+#: includes/page-form-simple/form_simple__timeslots.php:157
+msgid "Visible options in selectbox"
+msgstr "Widoczne opcje w polu wyboru"
+
+#: core/lang/wpbc_all_translations.php:594
+#: includes/page-form-simple/form_simple__timeslots.php:199
+msgid "Reset times by"
+msgstr "Zresetuj czas według"
+
+#: core/lang/wpbc_all_translations1.php:224
+msgid "Lost booking resource"
+msgstr "Utracony zasób rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:954
+msgid "if selected %s"
+msgstr "jeśli wybrano %s"
+
+#: core/lang/wpbc_all_translations1.php:616
+msgid "Send email on cost changes"
+msgstr "Wyślij e-mail na temat zmian kosztów"
+
+#: core/admin/page-email-approved.php:189
+#: core/admin/page-email-approved.php:205 core/admin/page-email-deleted.php:190
+#: core/admin/page-email-deleted.php:205 core/admin/page-email-deny.php:190
+#: core/admin/page-email-deny.php:207 core/admin/page-email-trash.php:190
+#: core/admin/page-email-trash.php:205 core/lang/wpbc_all_translations.php:194
+msgid "Copy(ies)"
+msgstr "Kopie"
+
+#: core/lang/wpbc_all_translations1.php:757
+msgid "Chose payment account"
+msgstr "Wybierz konto płatności"
+
+#: core/lang/wpbc_all_translations1.php:782
+msgid "Publishable key"
+msgstr "Klucz publikacji"
+
+#: core/lang/wpbc_all_translations.php:566
+#: includes/page-form-simple/page-form-simple.php:318
+msgid "Standard Forms"
+msgstr "Standardowe formularze"
+
+#: core/admin/page-ics-export.php:142 core/lang/wpbc_all_translations.php:274
+msgid "This feature require %s"
+msgstr "Ta funkcja wymaga %s"
+
+#: core/admin/page-ics-general.php:170 core/lang/wpbc_all_translations.php:291
+msgid "Append check out day"
+msgstr "Dołącz dzień wyjazdu"
+
+#: core/lang/wpbc_all_translations.php:657
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3020
+msgid "Pay"
+msgstr "Zapłać"
+
+#: core/lang/wpbc_all_translations1.php:917
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:193
+msgid "Show listing of customer bookings"
+msgstr "Pokaż listę rezerwacji klientów"
+
+#: core/lang/wpbc_all_translations1.php:124
+msgid "Email with  Payment Request which is sent to Visitor."
+msgstr "E-mail z prośbą o płatność, który jest wysyłany do Gościa."
+
+#: core/lang/wpbc_all_translations.php:914
+msgid "Show booking details in tooltip"
+msgstr "Pokaż szczegóły rezerwacji w podpowiedzi"
+
+#: core/admin/api-settings.php:998 core/admin/page-settings.php:481
+#: core/lang/wpbc_all_translations.php:96 core/wpbc-activation.php:1011
+#: includes/_capacity/capacity.php:1334
+msgid "Booking details"
+msgstr "Szczegóły rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:91
+msgid "Set check out date as available"
+msgstr "Ustaw datę wymeldowania jako dostępną"
+
+#: core/lang/wpbc_all_translations1.php:92
+msgid "Check this option, to remove last selected day of saving to booking."
+msgstr "Zaznacz tę opcję, aby usunąć ostatni wybrany dzień zapisu do rezerwacji."
+
+#: core/lang/wpbc_all_translations1.php:108
+msgid "Auto approve bookings during import"
+msgstr "Automatyczne zatwierdzanie rezerwacji podczas importu"
+
+#: core/lang/wpbc_all_translations1.php:110
+msgid "Auto approve booking, if booking cost is zero"
+msgstr "Automatycznie zatwierdza rezerwację, jeśli koszt rezerwacji wynosi zero"
+
+#: core/lang/wpbc_all_translations1.php:112
+msgid "Auto approve bookings after creation booking in admin panel"
+msgstr "Automatyczne zatwierdzanie rezerwacji po utworzeniu rezerwacji w panelu administracyjnym"
+
+#: core/lang/wpbc_all_translations2.php:22
+#: includes/_toolbar_ui/toolbar_ui.php:2274
+msgid "Show / hide notes"
+msgstr "Pokaż / ukryj wskazówki"
+
+#: core/lang/wpbc_all_translations1.php:214 js/wpbc-gutenberg.js:1445
+msgid "URL of page for customer bookings listing"
+msgstr "Adres URL strony zawierającej listę rezerwacji klientów"
+
+#: core/lang/wpbc_all_translations1.php:603
+msgid "Auto send payment request after creation booking in admin panel"
+msgstr "Automatycznie wyślij prośbę o płatność po utworzeniu rezerwacji w panelu administracyjnym"
+
+#: core/lang/wpbc_all_translations1.php:604
+msgid "Check this box if you want automatically send payment request to visitor, if booking was made in admin panel"
+msgstr "Zaznacz to pole, jeśli chcesz automatycznie wysyłać prośbę o płatność do gościa, jeśli rezerwacja została dokonana w panelu administracyjnym"
+
+#: core/lang/wpbc_all_translations1.php:607
+msgid "Show deposit and total booking cost together"
+msgstr "Pokaż łączny depozyt i łączny koszt rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:608
+msgid "Check this box if you want to show deposit amount and total booking cost, after submit of booking."
+msgstr "Zaznacz to pole, jeśli chcesz pokazać kwotę depozytu i całkowity koszt rezerwacji po przesłaniu rezerwacji."
+
+#: core/lang/wpbc_all_translations1.php:617
+msgid "Check this box if you want to send booking modification email, if cost of booking was edited in booking listing page."
+msgstr "Zaznacz to pole, jeśli chcesz wysłać e-mail z modyfikacją rezerwacji, jeśli koszt rezerwacji został zmieniony na stronie z listą rezerwacji."
+
+#: core/admin/page-email-approved.php:190 core/admin/page-email-deleted.php:191
+#: core/admin/page-email-deny.php:191 core/admin/page-email-trash.php:191
+#: core/lang/wpbc_all_translations.php:195
+msgid "Enable / disable sending email(s) to additional addresses"
+msgstr "Włącz / wyłącz wysyłanie wiadomości e-mail na dodatkowe adresy"
+
+#: core/lang/wpbc_all_translations.php:567
+#: includes/page-form-simple/page-form-simple.php:321
+msgid "Form under calendar"
+msgstr "Formularz pod kalendarzem"
+
+#: core/lang/wpbc_all_translations.php:568
+#: includes/page-form-simple/page-form-simple.php:331
+msgid "Form at right side of calendar"
+msgstr "Formularz po prawej stronie kalendarza"
+
+#: core/lang/wpbc_all_translations.php:569
+#: includes/page-form-simple/page-form-simple.php:341
+msgid "Form and calendar are centered"
+msgstr "Formularz i kalendarz są wyśrodkowane"
+
+#: core/lang/wpbc_all_translations.php:693 core/wpbc-emails.php:261
+#: core/wpbc-emails.php:262 core/wpbc-emails.php:263 core/wpbc-emails.php:264
+#: core/wpbc-emails.php:265 core/wpbc-emails.php:266 core/wpbc-emails.php:267
+msgid "%s - inserting modification date of booking "
+msgstr "%s - wstawienie modyfikacji dat rezerwacji"
+
+#: core/admin/page-ics-export.php:444 core/admin/page-ics-export.php:447
+#: core/lang/wpbc_all_translations.php:279
+msgid ".ics feed URL"
+msgstr "Adres URL kanału .ics"
+
+#: core/admin/api-settings.php:1530 core/lang/wpbc_all_translations.php:156
+msgid "Activate this option only for testing beta features"
+msgstr "Włącz tę opcję tylko do testowania funkcji beta"
+
+#: core/lang/wpbc_all_translations1.php:769
+msgid "If you have no account on this system, please visit %s to create one."
+msgstr "Jeśli nie masz konta w tym systemie , odwiedź %s by je utworzyć "
+
+#: core/lang/wpbc_all_translations1.php:574
+msgid "Always use Description"
+msgstr "Zawsze używaj opisu"
+
+#: core/lang/wpbc_all_translations1.php:776
+msgid "This can be DEFERRED or AUTHENTICATED if your Sage Pay account supports those payment types"
+msgstr "To może być odroczone lub zatwierdzone , jeśli twoje konto Sage Pay obsługuje ten typ płatności "
+
+#: core/lang/wpbc_all_translations1.php:755
+msgid "Integration of Paypal payment system"
+msgstr "Integracja systemu platnosci PayPal"
+
+#: core/lang/wpbc_all_translations1.php:756
+msgid "PayPal IPN"
+msgstr "PayPal IPN"
+
+#: core/lang/wpbc_all_translations1.php:752
+msgid "Click Back to Profile Summary to return to the Profile after activating your listener."
+msgstr "Kliknij Powróć do podsumowania Profilu, by powrócić do Profilu po aktywowaniu "
+
+#: core/lang/wpbc_all_translations1.php:699
+msgid "New Zealand Dollar"
+msgstr "Dolar nowozelandzki"
+
+#: core/lang/wpbc_all_translations1.php:476
+msgid "Guests"
+msgstr "Goście"
+
+#: core/lang/wpbc_all_translations1.php:702
+msgid "Singapore Dollar"
+msgstr "Dolar singapurski"
+
+#: core/wpbc_functions.php:481
+msgid "Thanks :)"
+msgstr "Dzięki :)"
+
+#: core/lang/wpbc_all_translations1.php:457
+msgid "Adults"
+msgstr "Dorośli"
+
+#: core/lang/wpbc_all_translations1.php:713
+msgid "Philippine Pesos"
+msgstr "Peso filipińskie"
+
+#: core/lang/wpbc_all_translations1.php:695
+msgid "Sandbox"
+msgstr "Tryb testowy"
+
+#: core/lang/wpbc_all_translations1.php:643
+msgid "Billing City"
+msgstr "Miejscowość na dokumencie rozliczeniowym"
+
+#: core/lang/wpbc_all_translations1.php:623
+msgid "Currency Position"
+msgstr "Pozycja symbolu waluty"
+
+#: core/lang/wpbc_all_translations1.php:707
+msgid "Hungarian Forint"
+msgstr "Forint węgierski"
+
+#: core/lang/wpbc_all_translations1.php:714
+msgid "Taiwan New Dollars"
+msgstr "nowy dolar tajwański"
+
+#: core/lang/wpbc_all_translations1.php:642
+msgid "Billing Address"
+msgstr "Adres rozliczeniowy"
+
+#: core/lang/wpbc_all_translations1.php:329
+msgid "field"
+msgstr "pole"
+
+#: core/admin/wpbc-toolbars.php:1108 core/lang/wpbc_all_translations.php:497
+#: includes/page-bookings/bookings__actions.php:2715
+msgid "Save"
+msgstr "Zapisz"
+
+#: core/lang/wpbc_all_translations1.php:286
+msgid "Examples"
+msgstr "Przykłady"
+
+#: core/lang/wpbc_all_translations2.php:101
+#: includes/page-bookings/bookings__actions.php:3226
+msgid "Change"
+msgstr "Zmień"
+
+#: core/lang/wpbc_all_translations1.php:471
+#: includes/page-form-simple/form_simple__default.php:81
+msgid "Email"
+msgstr "E-mail"
+
+#: core/lang/wpbc_all_translations1.php:641
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: core/lang/wpbc_all_translations1.php:459
+#: includes/page-form-simple/form_simple__default.php:112
+msgid "Details"
+msgstr "Szczegóły"
+
+#: core/lang/wpbc_all_translations1.php:620
+msgid "Currency"
+msgstr "Waluta"
+
+#: core/lang/wpbc_all_translations1.php:536
+msgid "Account details"
+msgstr "Szczegóły konta"
+
+#: core/lang/wpbc_all_translations1.php:754
+msgid "PayPal"
+msgstr "PayPal"
+
+#: core/lang/wpbc_all_translations1.php:546
+msgid "BSB"
+msgstr "BSB"
+
+#: core/lang/wpbc_all_translations1.php:548
+msgid "IFSC"
+msgstr "Kod IFSC"
+
+#: core/lang/wpbc_all_translations1.php:543
+msgid "BIC / Swift"
+msgstr "BIC (dawny Swift)"
+
+#: core/lang/wpbc_all_translations1.php:562
+msgid "Remove selected account(s)"
+msgstr "Usuń zaznaczone konto(a)"
+
+#: core/lang/wpbc_all_translations1.php:542
+msgid "IBAN"
+msgstr "IBAN"
+
+#: core/lang/wpbc_all_translations1.php:609
+msgid "Important"
+msgstr "Ważne"
+
+#: core/lang/wpbc_all_translations1.php:541
+msgid "Account Number"
+msgstr "Numer konta"
+
+#: core/lang/wpbc_all_translations1.php:251
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#: core/lang/wpbc_all_translations1.php:777
+msgid "PAYMENT"
+msgstr "PŁATNOŚĆ"
+
+#: core/lang/wpbc_all_translations1.php:333
+msgid "Parameters"
+msgstr "Parametry"
+
+#: core/lang/wpbc_all_translations1.php:652
+msgid "Active Payment Gateways"
+msgstr "Aktywne bramki płatności"
+
+#: core/lang/wpbc_all_translations1.php:684
+msgid "Paypal Standard"
+msgstr "Paypal Standard"
+
+#: core/lang/wpbc_all_translations1.php:472
+msgid "Address"
+msgstr "Adres"
+
+#: core/lang/wpbc_all_translations1.php:634
+msgid "Comma"
+msgstr "Przecinek"
+
+#: core/lang/wpbc_all_translations1.php:470
+msgid "Last Name"
+msgstr "Nazwisko"
+
+#: core/lang/wpbc_all_translations1.php:703
+msgid "Swedish Krona"
+msgstr "Korona szwedzka"
+
+#: core/lang/wpbc_all_translations1.php:705
+msgid "Polish Zloty"
+msgstr "Polski złoty"
+
+#: core/lang/wpbc_all_translations1.php:501
+msgid "Euros"
+msgstr "Euro"
+
+#: core/lang/wpbc_all_translations1.php:693
+msgid "Authorization"
+msgstr "Autoryzacja"
+
+#: core/lang/wpbc_all_translations1.php:500
+msgid "Pounds Sterling"
+msgstr "Brytyjski funt szterling"
+
+#: core/lang/wpbc_all_translations1.php:502
+msgid "Canadian Dollars"
+msgstr "Dolar kanadyjski"
+
+#: core/lang/wpbc_all_translations1.php:455
+msgid "Email (required)"
+msgstr "Adres e-mail (wymagany)"
+
+#: core/lang/wpbc_all_translations1.php:686
+msgid "Account Type"
+msgstr "Typ konta"
+
+#: core/lang/wpbc_all_translations1.php:639
+msgid "Customer Email"
+msgstr "Adres e-mail klienta"
+
+#: core/lang/wpbc_all_translations1.php:698
+msgid "Australian Dollars"
+msgstr "Dolar australijski"
+
+#: core/lang/wpbc_all_translations1.php:692
+msgid "Sale"
+msgstr "Promocja"
+
+#: core/lang/wpbc_all_translations1.php:781
+msgid "Israeli Shekel"
+msgstr "Nowy izraelski szekel"
+
+#: core/lang/wpbc_all_translations1.php:697
+msgid "Japanese Yen"
+msgstr "Jen"
+
+#: core/lang/wpbc_all_translations1.php:700
+msgid "Swiss Franc"
+msgstr "Frank szwajcarski"
+
+#: core/lang/wpbc_all_translations2.php:373
+#: includes/_toolbar_ui/ui__settings_panel.php:908
+msgid "Payment Gateways"
+msgstr "Bramki płatności"
+
+#: core/lang/wpbc_all_translations1.php:628
+msgid "Right with space"
+msgstr "Po prawej z odstępem"
+
+#: core/lang/wpbc_all_translations1.php:563
+msgid "Merchant ID"
+msgstr "Identyfikator sprzedawcy"
+
+#: core/lang/wpbc_all_translations1.php:657
+msgid "Gateway"
+msgstr "Bramka"
+
+#: core/lang/wpbc_all_translations1.php:627
+msgid "Left with space"
+msgstr "Po lewej z odstępem"
+
+#: core/lang/wpbc_all_translations1.php:704
+msgid "Danish Krone"
+msgstr "Korona duńska"
+
+#: core/lang/wpbc_all_translations1.php:438
+msgid "Register"
+msgstr "Zarejestruj się"
+
+#: core/lang/wpbc_all_translations1.php:589
+msgid "Malaysian Ringgit"
+msgstr "Ringgit"
+
+#: core/lang/wpbc_all_translations1.php:706
+msgid "Norwegian Krone"
+msgstr "Korona norweska"
+
+#: core/lang/wpbc_all_translations1.php:452
+msgid "View details"
+msgstr "Zobacz szczegóły"
+
+#: core/lang/wpbc_all_translations1.php:526
+msgid "%s Settings"
+msgstr "Ustawienia: %s"
+
+#: core/lang/wpbc_all_translations1.php:701
+msgid "Hong Kong Dollar"
+msgstr "Dolar Hongkongu"
+
+#: core/lang/wpbc_all_translations1.php:636
+msgid "Thousands separator"
+msgstr "Separator tysięczny"
+
+#: core/lang/wpbc_all_translations1.php:545
+msgid "Bank Name"
+msgstr "Nazwa banku"
+
+#: core/lang/wpbc_all_translations1.php:473
+msgid "City"
+msgstr "Miejscowość"
+
+#: core/lang/wpbc_all_translations1.php:475
+msgid "Country"
+msgstr "Kraj"
+
+#: core/lang/wpbc_all_translations1.php:625
+msgid "Left"
+msgstr "Do lewej"
+
+#: core/lang/wpbc_all_translations1.php:633
+msgid "Dot"
+msgstr "Kropka"
+
+#: core/lang/wpbc_all_translations1.php:450
+msgid "Upgrade Notice"
+msgstr "Informacje o aktualizacji"
+
+#: core/lang/wpbc_all_translations.php:956
+msgid "Example:"
+msgstr "Przykład:"
+
+#: core/lang/wpbc_all_translations1.php:645
+msgid "State"
+msgstr "Stan"
+
+#: core/lang/wpbc_all_translations1.php:720
+msgid "Enter your phone number"
+msgstr "Wprowadź numer swojego telefonu"
+
+#: core/admin/page-ics-export.php:44 core/admin/page-ics-export.php:61
+#: core/admin/page-ics-export.php:62 core/admin/page-ics-export.php:64
+#: core/admin/page-ics-export.php:231 core/admin/page-ics-general.php:318
+#: core/admin/page-ics-general.php:468 core/admin/page-ics-import.php:42
+#: core/admin/page-import-gcal.php:430 core/lang/wpbc_all_translations.php:271
+#: includes/page-bookings/bookings__actions.php:3625
+msgid "Export"
+msgstr "Eksport"
+
+#: core/lang/wpbc_all_translations.php:759 core/wpbc_functions_dates.php:285
+msgid "Check in"
+msgstr "Zameldowanie"
+
+#: core/lang/wpbc_all_translations1.php:708
+msgid "Czech Koruna"
+msgstr "Korona czeska"
+
+#: core/lang/wpbc_all_translations1.php:434
+msgid "Cancel Booking"
+msgstr "Anuluj rezerwację"
+
+#: core/lang/wpbc_all_translations1.php:474
+msgid "Post code"
+msgstr "Kod pocztowy"
+
+#: core/lang/wpbc_all_translations1.php:499
+msgid "U.S. Dollars"
+msgstr "Dolary amerykańskie"
+
+#: core/lang/wpbc_all_translations1.php:579
+msgid "Successful payment"
+msgstr "Pomyślna płatność"
+
+#: core/lang/wpbc_all_translations1.php:644
+msgid "Post Code"
+msgstr "Kod pocztowy"
+
+#: core/lang/wpbc_all_translations1.php:551
+msgid "Routing Number"
+msgstr "Numer rozliczeniowy"
+
+#: core/lang/wpbc_all_translations1.php:772
+msgid "Vendor Name"
+msgstr "Nazwa dostawcy"
+
+#: core/lang/wpbc_all_translations1.php:637
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:402
+msgid "Please select"
+msgstr "Proszę wybrać"
+
+#: core/lang/wpbc_all_translations1.php:503
+msgid "Accepted Currency"
+msgstr "Akceptowana waluta"
+
+#: core/lang/wpbc_all_translations1.php:709
+msgid "Israeli New Shekel"
+msgstr "Nowy szekel izraelski"
+
+#: core/lang/wpbc_all_translations.php:760 core/wpbc_functions_dates.php:286
+msgid "Check out"
+msgstr "Wymeldowanie"
+
+#: core/lang/wpbc_all_translations1.php:715
+msgid "Thai Baht"
+msgstr "Baht tajski"
+
+#: core/lang/wpbc_all_translations2.php:400
+#: includes/page-form-simple/form_simple__default.php:91
+msgid "Visitors"
+msgstr "Goście"
+
+#: core/lang/wpbc_all_translations1.php:337
+msgid "Week days conditions."
+msgstr "Warunki w dni tygodnia."
+
+#: core/lang/wpbc_all_translations1.php:340
+msgid "Season filters conditions."
+msgstr "Warunki filtów sezonu."
+
+#: core/lang/wpbc_all_translations1.php:343
+msgid "Additional info"
+msgstr "Dodatkowe informacje"
+
+#: core/lang/wpbc_all_translations1.php:346
+msgid "Time Field"
+msgstr "Pole czasu"
+
+#: core/lang/wpbc_all_translations1.php:367
+msgid "You can use several values, separated by comma."
+msgstr "Możesz użyć kilka wartości oddzielonych przecinkami."
+
+#: core/lang/wpbc_all_translations1.php:368
+msgid "You can use several values, separated by a comma."
+msgstr "Możesz użyć kilka wartości oddzielonych przecinkami."
+
+#: core/lang/wpbc_all_translations1.php:385
+msgid "All selected dates."
+msgstr "Wszystkie wybrane daty."
+
+#: core/lang/wpbc_all_translations1.php:386
+msgid "All selected dates with times."
+msgstr "Wszystkie wybrane daty z czasem."
+
+#: core/lang/wpbc_all_translations1.php:387
+msgid "All selected dates in \"short\" format."
+msgstr "Wszystkie wybrane daty w formacie \"krótkim\""
+
+#: core/lang/wpbc_all_translations1.php:388
+msgid "All selected dates with times in \"short\" format.."
+msgstr "Wszystkie wybrane daty z czasem w formacie \"krótkim\".."
+
+#: core/lang/wpbc_all_translations.php:955
+msgid "Number of selected days."
+msgstr "Liczba wybranych dni."
+
+#: core/lang/wpbc_all_translations.php:957
+msgid "Number of selected nights."
+msgstr "Liczba wybranych nocy."
+
+#: core/lang/wpbc_all_translations1.php:390
+msgid "Other Hints"
+msgstr "Inne wskazówki"
+
+#: core/lang/wpbc_all_translations1.php:422
+#: includes/page-resource-free/page-resource-free.php:256
+msgid "Add New Booking Resource(s)"
+msgstr "Dodaj nowe zasoby rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:423
+msgid "Enter name of booking resource"
+msgstr "Wpisz nazwę zasobu rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:425
+#: includes/page-resource-free/page-resource-free.php:262
+msgid "Resources count"
+msgstr "Ilość zasobów"
+
+#: core/lang/wpbc_all_translations1.php:428
+msgid "This booking resources does not exist"
+msgstr "Ten zasób rezerwacji nie istnieje"
+
+#: core/lang/wpbc_all_translations1.php:430
+msgid "The booking was canceled by the visitor."
+msgstr "Rezerwacja została anulowana przez użytkownika."
+
+#: core/lang/wpbc_all_translations1.php:431
+msgid "The booking has been canceled successfully"
+msgstr "Rezerwacja została anulowana z powodzeniem"
+
+#: core/lang/wpbc_all_translations1.php:432
+msgid "Incorrect date format"
+msgstr "Nieprawidłowy format daty"
+
+#: core/lang/wpbc_all_translations.php:554
+#: includes/page-form-simple/form_simple__get_data.php:448
+#: includes/page-form-simple/form_simple__get_data.php:660
+msgid "Change your Booking"
+msgstr "Zmień rezerwację"
+
+#: core/lang/wpbc_all_translations1.php:436
+msgid "Sending request..."
+msgstr "Wysyłanie żądania..."
+
+#: core/lang/wpbc_all_translations1.php:437
+msgid "Order number"
+msgstr "Numer zamówienia"
+
+#: core/lang/wpbc_all_translations1.php:453
+msgid "First Name (required)"
+msgstr "Imię (wymagane)"
+
+#: core/lang/wpbc_all_translations1.php:454
+msgid "Last Name (required)"
+msgstr "Nazwisko (wymagane)"
+
+#: core/lang/wpbc_all_translations1.php:456
+#: includes/page-form-simple/form_simple__default.php:103
+msgid "Phone"
+msgstr "Telefon"
+
+#: core/lang/wpbc_all_translations1.php:458
+msgid "Children"
+msgstr "Dzieci"
+
+#: core/lang/wpbc_all_translations1.php:465
+msgid "Address (required)"
+msgstr "Adres (wymagane)"
+
+#: core/lang/wpbc_all_translations2.php:155
+#: includes/print/bookings_print.php:98
+msgid "Print bookings"
+msgstr "Drukuj rezerwacje"
+
+#: core/lang/wpbc_all_translations1.php:466
+msgid "City (required)"
+msgstr "Miasto (wymagane)"
+
+#: core/lang/wpbc_all_translations1.php:467
+msgid "Post code (required)"
+msgstr "Kod pocztowy (wymagane)"
+
+#: core/lang/wpbc_all_translations1.php:468
+msgid "Country (required)"
+msgstr "Kraj (Wymagane)"
+
+#: core/lang/wpbc_all_translations1.php:464
+msgid "Full cost of the booking"
+msgstr "Pełny koszt rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:581
+#: includes/page-form-simple/form_simple__default.php:63
+#: includes/page-form-simple/page-form-simple.php:977
+msgid "First Name"
+msgstr "Imię"
+
+#: core/lang/wpbc_all_translations1.php:477
+msgid "Enable this payment gateway"
+msgstr "Włącz tę bramę płatności"
+
+#: core/lang/wpbc_all_translations1.php:523
+msgid "Automatically approve booking"
+msgstr "Automatycznie zatwierdź rezerwację"
+
+#: core/lang/wpbc_all_translations1.php:537
+msgid "Allow payments by %sdirect bank / wire transfer%s"
+msgstr "Zezwalaj na %sprzelewy bankowe%s"
+
+#: core/lang/wpbc_all_translations1.php:544
+msgid "Account Name"
+msgstr "Nazwa konta"
+
+#: core/lang/wpbc_all_translations1.php:555
+msgid "%s - inserting account number"
+msgstr "%s - wstawianie numeru konta bankowego"
+
+#: core/lang/wpbc_all_translations1.php:556
+msgid "%s - inserting bank name "
+msgstr "%s - wstawianie nazwy banku"
+
+#: core/lang/wpbc_all_translations1.php:558
+msgid "%s - inserting IBAN "
+msgstr "%s - wstawianie kodu IBAN"
+
+#: core/lang/wpbc_all_translations1.php:559
+msgid "%s - inserting BIC "
+msgstr "%s - wstawianie kodu BIC / Swift"
+
+#: core/lang/wpbc_all_translations1.php:585
+msgid "Connection Error"
+msgstr "Błąd połączenia"
+
+#: core/lang/wpbc_all_translations1.php:586
+msgid "Merchant Code"
+msgstr "Kod sklepu"
+
+#: core/lang/wpbc_all_translations1.php:565
+msgid "Merchant Key"
+msgstr "Klucz sklepu"
+
+#: core/lang/wpbc_all_translations1.php:575
+msgid "Automatically approve/cancel booking"
+msgstr "Automatycznie zatwierdź / anuluj rezerwację"
+
+#: core/lang/wpbc_all_translations1.php:590
+msgid "Integration of iPay88 payment system"
+msgstr "Integracja z systemem płatności iPay88"
+
+#: core/lang/wpbc_all_translations1.php:624
+msgid "Set position of the currency symbol."
+msgstr "Określ położenie symbolu waluty."
+
+#: core/lang/wpbc_all_translations1.php:629
+msgid "Currency format"
+msgstr "Format waluty"
+
+#: core/lang/wpbc_all_translations1.php:630
+msgid "Number of decimal points"
+msgstr "Liczba miejsc po przecinku"
+
+#: core/lang/wpbc_all_translations1.php:631
+msgid "No separator"
+msgstr "Bez separacji"
+
+#: core/lang/wpbc_all_translations1.php:640
+msgid "First Name(s)"
+msgstr "Imię"
+
+#: core/lang/wpbc_all_translations1.php:651
+msgid "Payment Gateways - General Settings"
+msgstr "Bramki płatności - Ustawienia ogólne"
+
+#: core/lang/wpbc_all_translations1.php:656
+msgid "Billing form fields"
+msgstr "Pola formularza płatności"
+
+#: core/lang/wpbc_all_translations1.php:655
+msgid "Payment Description"
+msgstr "Opis płatności"
+
+#: core/lang/wpbc_all_translations1.php:661
+msgid "ID of booking"
+msgstr "ID rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:680
+msgid "Error IPN"
+msgstr "Bład IPN"
+
+#: core/lang/wpbc_all_translations1.php:681
+msgid "Verified IPN"
+msgstr "Zweryfikowany IPN"
+
+#: core/lang/wpbc_all_translations1.php:682
+msgid "Invalid IPN"
+msgstr "Nieprawidłowy IPN"
+
+#: core/lang/wpbc_all_translations1.php:696
+msgid "British Pound"
+msgstr "Funt brytyjski"
+
+#: core/lang/wpbc_all_translations1.php:710
+msgid "Mexican Peso"
+msgstr "Meksykańskie Peso"
+
+#: core/lang/wpbc_all_translations1.php:780
+msgid "Yen"
+msgstr "Jen"
+
+#: core/lang/wpbc_all_translations.php:756 core/wpbc_functions.php:1265
+msgid "Payment rejected"
+msgstr "Płatność odrzucona"
+
+#: core/lang/wpbc_all_translations1.php:451
+msgid "Version %s By %s"
+msgstr "Wersja %s przez %s"
+
+#: core/lang/wpbc_all_translations1.php:262
+msgid "required"
+msgstr "wymagane"
+
+#: core/lang/wpbc_all_translations1.php:321
+msgid "End Time"
+msgstr "Czas zakończenia"
+
+#: core/lang/wpbc_all_translations1.php:318
+msgid "Start Time"
+msgstr "Czas rozpoczęcia"
+
+#: core/lang/wpbc_all_translations1.php:174
+msgid "Unlimited"
+msgstr "Nieograniczone"
+
+#: core/lang/wpbc_all_translations1.php:132
+msgid "Cancelled"
+msgstr "Anulowano"
+
+#: core/lang/wpbc_all_translations1.php:134
+msgid "Refunded"
+msgstr "Zwrócono"
+
+#: core/lang/wpbc_all_translations1.php:220
+msgid "Modified"
+msgstr "Zmodyfikowano"
+
+#: core/lang/wpbc_all_translations1.php:148
+msgid "Invalid"
+msgstr "Nieprawidłowe"
+
+#: core/lang/wpbc_all_translations1.php:274
+msgid "Columns"
+msgstr "Kolumny"
+
+#: core/lang/wpbc_all_translations.php:880
+msgid "Page"
+msgstr "Strona"
+
+#: core/admin/api-settings.php:1286 core/lang/wpbc_all_translations.php:128
+msgid "Time Format"
+msgstr "Format godziny"
+
+#: core/lang/wpbc_all_translations1.php:255
+msgid "No results found."
+msgstr "Brak wyników."
+
+#: core/lang/wpbc_all_translations1.php:275
+msgid "General Information"
+msgstr "Informacje ogólne"
+
+#: core/lang/wpbc_all_translations1.php:269
+msgid "Size"
+msgstr "Rozmiar"
+
+#: core/lang/wpbc_all_translations.php:866 js/wpbc-gutenberg.js:1131
+msgid "Search Results"
+msgstr "Wyniki wyszukiwania"
+
+#: core/lang/wpbc_all_translations2.php:13
+#: includes/page-bookings/bookings__actions.php:2620
+#: includes/print/bookings_print.php:102
+#: includes/_toolbar_ui/toolbar_ui.php:2014
+msgid "Print"
+msgstr "Drukuj"
+
+#: core/lang/wpbc_all_translations.php:927
+msgid "All days"
+msgstr "Wszystkie dni"
+
+#: core/lang/wpbc_all_translations1.php:144
+msgid "Reversed"
+msgstr "Odwrócone"
+
+#: core/lang/wpbc_all_translations1.php:233
+msgid "Form fields"
+msgstr "Pola formularza"
+
+#: core/lang/wpbc_all_translations1.php:268
+msgid "Class"
+msgstr "Klasa"
+
+#: core/lang/wpbc_all_translations1.php:273
+msgid "Rows"
+msgstr "Wiersze"
+
+#: core/lang/wpbc_all_translations.php:981
+msgid "Season"
+msgstr "Sezon"
+
+#: core/lang/wpbc_all_translations1.php:55
+msgid "time"
+msgstr "czas"
+
+#: core/lang/wpbc_all_translations1.php:246
+msgid "Hints"
+msgstr "Wskazówki"
+
+#: core/lang/wpbc_all_translations1.php:21
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2864
+msgid "Months"
+msgstr "Miesiące"
+
+#: core/lang/wpbc_all_translations.php:965
+msgid "Conditions"
+msgstr "Warunki"
+
+#: core/lang/wpbc_all_translations1.php:46
+msgid "Apr"
+msgstr "kw."
+
+#: core/lang/wpbc_all_translations1.php:51
+msgid "Oct"
+msgstr "paź"
+
+#: core/lang/wpbc_all_translations1.php:45
+msgid "Mar"
+msgstr "mar"
+
+#: core/lang/wpbc_all_translations1.php:47
+msgid "Jun"
+msgstr "cze"
+
+#: core/lang/wpbc_all_translations1.php:48
+msgid "Jul"
+msgstr "lip"
+
+#: core/lang/wpbc_all_translations1.php:49
+msgid "Aug"
+msgstr "sie"
+
+#: core/lang/wpbc_all_translations1.php:52
+msgid "Nov"
+msgstr "lis"
+
+#: core/lang/wpbc_all_translations1.php:53
+msgid "Dec"
+msgstr "gru"
+
+#: core/lang/wpbc_all_translations1.php:139
+msgid "Processed"
+msgstr "Przetworzone"
+
+#: core/lang/wpbc_all_translations.php:871
+msgid "Select Template"
+msgstr "Wybierz szablon"
+
+#: core/lang/wpbc_all_translations1.php:142
+msgid "Expired"
+msgstr "Przedawniło się"
+
+#: core/lang/wpbc_all_translations2.php:104
+#: includes/page-bookings/bookings__actions.php:3429
+msgid "Send Request"
+msgstr "Wyślij prośbę"
+
+#: core/lang/wpbc_all_translations1.php:141
+msgid "Denied"
+msgstr "Odmówiono"
+
+#: core/lang/wpbc_all_translations1.php:267
+msgid "Placeholder"
+msgstr "Symbol zastępczy"
+
+#: core/lang/wpbc_all_translations1.php:87
+msgid "Max"
+msgstr "Maks."
+
+#: core/lang/wpbc_all_translations1.php:151
+msgid "Suspended"
+msgstr "Zawieszone"
+
+#: core/lang/wpbc_all_translations.php:845
+msgid "hour(s)"
+msgstr "godzina/godziny"
+
+#: core/lang/wpbc_all_translations1.php:150
+msgid "Rejected"
+msgstr "Odrzucono"
+
+#: core/lang/wpbc_all_translations1.php:305
+msgid "Submit Button"
+msgstr "Przycisk wysyłania"
+
+#: core/lang/wpbc_all_translations1.php:172
+msgid "User Role"
+msgstr "Rola użytkownika"
+
+#: core/admin/page-import-gcal.php:95 core/lang/wpbc_all_translations.php:346
+msgid "day(s)"
+msgstr "dzień/dni"
+
+#: core/lang/wpbc_all_translations1.php:301
+msgid "Drop Down"
+msgstr "Lista rozwijana"
+
+#: core/lang/wpbc_all_translations1.php:260
+msgid "Default value"
+msgstr "Wartość domyślna"
+
+#: core/lang/wpbc_all_translations1.php:43
+msgid "Jan"
+msgstr "sty"
+
+#: core/lang/wpbc_all_translations.php:746
+msgid "Search Availability Form"
+msgstr "Formularz wyszukiwania dostępnych"
+
+#: core/lang/wpbc_all_translations1.php:44
+msgid "Feb"
+msgstr "lut"
+
+#: core/lang/wpbc_all_translations1.php:50
+msgid "Sep"
+msgstr "wrz"
+
+#: core/lang/wpbc_all_translations.php:918
+msgid "Custom Forms"
+msgstr "Niestandardowe formularze"
+
+#: core/admin/api-settings.php:889 core/admin/api-settings.php:998
+#: core/lang/wpbc_all_translations.php:92
+#: includes/page-setup/template__general_info.php:52
+#: includes/page-setup/template__general_info.php:201
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:157
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:181
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:212
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:299
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:369
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:402
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:189
+msgid "Example"
+msgstr "Przykład"
+
+#: core/lang/wpbc_all_translations1.php:20
+msgid "Weekdays"
+msgstr "Dni robocze"
+
+#: core/lang/wpbc_all_translations.php:885
+msgid "Book now"
+msgstr "Zarezerwuj teraz"
+
+#: core/lang/wpbc_all_translations.php:929
+msgid "unavailable"
+msgstr "niedostępne"
+
+#: core/lang/wpbc_all_translations1.php:994
+#: includes/page-bookings/bookings__actions.php:2305
+#: includes/_toolbar_ui/toolbar_ui.php:1519
+msgid "Payment status"
+msgstr "Status płatności"
+
+#: core/lang/wpbc_all_translations1.php:138
+#: includes/_toolbar_ui/toolbar_ui.php:1479
+msgid "Not Completed"
+msgstr "Nie ukończone"
+
+#: core/lang/wpbc_all_translations2.php:93
+#: includes/page-bookings/bookings__actions.php:2355
+#: includes/page-bookings/bookings__actions.php:2368
+msgid "Change status"
+msgstr "Zmień status"
+
+#: core/lang/wpbc_all_translations1.php:186
+msgid "Delete data"
+msgstr "Usuwanie danych"
+
+#: core/lang/wpbc_all_translations2.php:108
+#: includes/page-bookings/bookings__actions.php:3556
+msgid "semicolon"
+msgstr "średnik"
+
+#: core/lang/wpbc_all_translations.php:912
+msgid "Currency symbol"
+msgstr "Symbol waluty"
+
+#: core/lang/wpbc_all_translations1.php:137
+msgid "Unknown status"
+msgstr "Nieznany status"
+
+#: core/lang/wpbc_all_translations1.php:166
+msgid "Manage Users"
+msgstr "Zarządzaj użytkownikami"
+
+#: core/lang/wpbc_all_translations1.php:145
+msgid "Voided"
+msgstr "Unieważnione"
+
+#: core/lang/wpbc_all_translations1.php:86
+msgid "Min"
+msgstr "Min."
+
+#: core/admin/api-settings.php:190 core/lang/wpbc_all_translations.php:27
+msgid "Title of booked timeslot(s)"
+msgstr "Tytuł zarezerwowanego przedziału czasowego"
+
+#: core/lang/wpbc_all_translations1.php:317
+msgid "Enter %s in text field."
+msgstr "Wpisz %s w polu tekstowym."
+
+#: core/lang/wpbc_all_translations1.php:322
+msgid "Duration Time"
+msgstr "Czas trwania"
+
+#: core/lang/wpbc_all_translations.php:887
+msgid "Search results."
+msgstr "Wyniki wyszukiwania."
+
+#: core/lang/wpbc_all_translations.php:897
+msgid "Weekend"
+msgstr "Weekend"
+
+#: core/lang/wpbc_all_translations.php:899
+msgid "Limit available days from today"
+msgstr "Limit dostępnych dni od dzisiaj"
+
+#: core/lang/wpbc_all_translations.php:903
+msgid "Before booking"
+msgstr "Przed dokonaniem rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:904
+msgid "Select unavailable time interval."
+msgstr "Wybierz niedostępny przedział czasowy."
+
+#: core/lang/wpbc_all_translations.php:905
+msgid "After booking"
+msgstr "Po dokonaniu rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:908
+msgid "Cost Title"
+msgstr "Tytuł kosztu"
+
+#: core/lang/wpbc_all_translations.php:921
+msgid "Show Children Resources"
+msgstr "Pokaż zasoby dzieci"
+
+#: core/lang/wpbc_all_translations.php:922
+msgid "Hide Children Resources"
+msgstr "Ukryj zasoby dzieci"
+
+#: core/lang/wpbc_all_translations.php:923
+#: includes/page-availability/availability__page.php:85
+msgid "Set Availability"
+msgstr "Ustaw dostępność"
+
+#: core/lang/wpbc_all_translations.php:925
+#: includes/page-resource-free/page-resource-free.php:313
+msgid "Resource Name"
+msgstr "Nazwa zasobu"
+
+#: core/lang/wpbc_all_translations.php:928
+msgid "available"
+msgstr "dostępne"
+
+#: core/lang/wpbc_all_translations.php:932
+msgid "Hide season filters"
+msgstr "Ukryj filtry sezonu"
+
+#: core/lang/wpbc_all_translations.php:933
+msgid "Show all exist season filters"
+msgstr "Pokaż wszystkie istniejące filtry sezonu"
+
+#: core/lang/wpbc_all_translations1.php:658
+msgid "Enabled"
+msgstr "Włączone"
+
+#: core/lang/wpbc_all_translations1.php:18
+msgid "Filter Name"
+msgstr "Nazwa filtra"
+
+#: core/lang/wpbc_all_translations1.php:22
+msgid "January"
+msgstr "Styczeń"
+
+#: core/lang/wpbc_all_translations1.php:23
+msgid "February"
+msgstr "Luty"
+
+#: core/lang/wpbc_all_translations1.php:24
+msgid "March"
+msgstr "Marzec"
+
+#: core/lang/wpbc_all_translations1.php:25
+msgid "April"
+msgstr "Kwiecień"
+
+#: core/lang/wpbc_all_translations1.php:26
+msgid "May"
+msgstr "Maj"
+
+#: core/lang/wpbc_all_translations1.php:27
+msgid "June"
+msgstr "Czerwiec"
+
+#: core/lang/wpbc_all_translations1.php:28
+msgid "July"
+msgstr "Lipiec"
+
+#: core/lang/wpbc_all_translations1.php:29
+msgid "August"
+msgstr "Sierpień"
+
+#: core/lang/wpbc_all_translations1.php:30
+msgid "September"
+msgstr "Wrzesień"
+
+#: core/lang/wpbc_all_translations1.php:31
+msgid "October"
+msgstr "Październik"
+
+#: core/lang/wpbc_all_translations1.php:32
+msgid "November"
+msgstr "Listopad"
+
+#: core/lang/wpbc_all_translations1.php:33
+msgid "December"
+msgstr "Grudzień"
+
+#: core/lang/wpbc_all_translations1.php:34
+msgid "Years"
+msgstr "Lata"
+
+#: core/lang/wpbc_all_translations1.php:38
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:780
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1218
+msgid "We"
+msgstr "Śr"
+
+#: core/lang/wpbc_all_translations1.php:74
+msgid "Apartment#1"
+msgstr "Apartament#1"
+
+#: core/lang/wpbc_all_translations1.php:75
+msgid "Apartment#2"
+msgstr "Apartament#2"
+
+#: core/lang/wpbc_all_translations1.php:76
+msgid "Apartment#3"
+msgstr "Apartament#3"
+
+#: core/lang/wpbc_all_translations1.php:799
+#: includes/_capacity/confirmation.php:242
+msgid "Total cost"
+msgstr "Całkowity koszt"
+
+#: core/lang/wpbc_all_translations1.php:992
+#: includes/_toolbar_ui/toolbar_ui.php:1475
+msgid "Any Status"
+msgstr "Dowolny status"
+
+#: core/lang/wpbc_all_translations1.php:993
+#: includes/_toolbar_ui/toolbar_ui.php:1478
+msgid "Unknown Status"
+msgstr "Nieznany status"
+
+#: core/lang/wpbc_all_translations1.php:131
+msgid "Partially paid"
+msgstr "Częściowo zapłacone"
+
+#: core/lang/wpbc_all_translations1.php:135
+msgid "Fraud"
+msgstr "Oszustwo"
+
+#: core/lang/wpbc_all_translations1.php:136
+msgid "!Paid OK"
+msgstr "!Opłacony"
+
+#: core/lang/wpbc_all_translations1.php:161
+msgid "User"
+msgstr "Użytkownik"
+
+#: core/lang/wpbc_all_translations1.php:162
+msgid "Super Admin"
+msgstr "Super Admin"
+
+#: core/lang/wpbc_all_translations1.php:187
+msgid "Work days"
+msgstr "Dni robocze"
+
+#: core/lang/wpbc_all_translations2.php:110
+#: includes/page-bookings/bookings__actions.php:3562
+msgid "CSV data separator"
+msgstr "Separator danych CSV"
+
+#: core/lang/wpbc_all_translations.php:590
+#: includes/page-form-simple/form_simple__timeslots.php:132
+msgid "One option per line"
+msgstr "Jedna opcja na linię"
+
+#: core/lang/wpbc_all_translations1.php:263
+msgid "Titles of options"
+msgstr "Tytuły opcji"
+
+#: core/lang/wpbc_all_translations1.php:270
+msgid "Maxlength"
+msgstr "Maksymalna długość"
+
+#: core/lang/wpbc_all_translations1.php:293
+msgid "Example: %s."
+msgstr "Przykład: %s."
+
+#: core/lang/wpbc_all_translations1.php:252
+msgid "%s - inserting new line"
+msgstr "%s - wstawienie nowej linii"
+
+#: core/admin/page-email-approved.php:381 core/admin/page-email-deleted.php:378
+#: core/admin/page-email-deny.php:378 core/admin/page-email-new-admin.php:361
+#: core/admin/page-email-new-visitor.php:362
+#: core/admin/page-email-trash.php:383 core/lang/wpbc_all_translations.php:209
+msgid "Email Heading"
+msgstr "Nagłówek wiadomości e-mail"
+
+#: core/lang/wpbc_all_translations.php:717 core/wpbc-js-vars.php:102
+msgid "Updating"
+msgstr "Aktualizowanie"
+
+#: core/admin/page-email-approved.php:425 core/admin/page-email-deleted.php:422
+#: core/admin/page-email-deny.php:422 core/admin/page-email-new-admin.php:405
+#: core/admin/page-email-new-visitor.php:406
+#: core/admin/page-email-trash.php:427 core/lang/wpbc_all_translations.php:218
+msgid "Base Color"
+msgstr "Kolor podstawowy"
+
+#: core/lang/wpbc_all_translations.php:562
+#: includes/page-form-simple/form_simple__toolbar_free.php:120
+msgid "Textarea"
+msgstr "Pole tekstowe"
+
+#: core/lang/wpbc_all_translations.php:796
+msgid "Single"
+msgstr "Pojedyncze"
+
+#: core/lang/wpbc_all_translations1.php:397
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:85
+msgid "Other"
+msgstr "Inne"
+
+#: core/lang/wpbc_all_translations.php:584
+#: includes/page-form-simple/form_simple__timeslots.php:790
+#: includes/page-form-simple/page-form-simple.php:1040
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:370
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:190
+#: js/wpbc-gutenberg.js:939
+msgid "Label"
+msgstr "Etykieta"
+
+#: core/lang/wpbc_all_translations.php:608 core/lib/wpbc-ajax.php:348
+msgid "Saved"
+msgstr "Zapisano"
+
+#: core/lang/wpbc_all_translations.php:754 core/wpbc_functions.php:757
+msgid "Changes saved."
+msgstr "Zmiany zostały zapisane."
+
+#: core/lang/wpbc_all_translations.php:539
+msgid "Send Test Email"
+msgstr "Wyślij testową wiadomość e-mail"
+
+#: core/admin/page-settings.php:490 core/lang/wpbc_all_translations.php:411
+#: includes/page-form-simple/page-form-simple.php:843
+msgid "Shortcodes"
+msgstr "Shortcody"
+
+#: core/lang/wpbc_all_translations.php:917
+msgid "Default Form"
+msgstr "Formularz domyślny"
+
+#: core/lang/wpbc_all_translations.php:564
+msgid "Advanced Fields"
+msgstr "Pola zaawansowane"
+
+#: core/lang/wpbc_all_translations.php:557
+#: includes/page-form-simple/form_simple__toolbar_free.php:196
+#: includes/page-form-simple/page-form-simple.php:1125
+msgid "Add New Field"
+msgstr "Dodaj pole"
+
+#: core/admin/api-settings.php:680 core/lang/wpbc_all_translations.php:74
+#: includes/page-form-simple/page-form-simple.php:59
+#: includes/page-settings-all/all__page.php:166
+#: includes/publish/wpbc-create-pages.php:164
+#: includes/publish/wpbc-create-pages.php:330
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:310
+#: includes/_functions/admin_top_bar.php:281
+#: includes/_toolbar_ui/ui__settings_panel.php:149 js/wpbc-gutenberg.js:612
+msgid "Booking Form"
+msgstr "Formularz rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:811
+msgid "Coupon"
+msgstr "Kupon"
+
+#: core/admin/page-email-approved.php:473 core/admin/page-email-deleted.php:470
+#: core/admin/page-email-deny.php:470 core/admin/page-email-new-admin.php:453
+#: core/admin/page-email-new-visitor.php:454
+#: core/admin/page-email-trash.php:475 core/lang/wpbc_all_translations.php:229
+msgid "Plain text"
+msgstr "Zwykły tekst"
+
+#: core/admin/page-email-approved.php:434 core/admin/page-email-deleted.php:431
+#: core/admin/page-email-deny.php:431 core/admin/page-email-new-admin.php:414
+#: core/admin/page-email-new-visitor.php:415
+#: core/admin/page-email-trash.php:436 core/lang/wpbc_all_translations.php:221
+msgid "Background Color"
+msgstr "Kolor tła"
+
+#: core/lang/wpbc_all_translations.php:718 core/wpbc-js-vars.php:103
+msgid "Saving"
+msgstr "Zapisywanie"
+
+#: core/admin/page-email-approved.php:480 core/admin/page-email-deleted.php:477
+#: core/admin/page-email-deny.php:477 core/admin/page-email-new-admin.php:460
+#: core/admin/page-email-new-visitor.php:461
+#: core/admin/page-email-trash.php:482 core/lang/wpbc_all_translations.php:230
+msgid "HTML"
+msgstr "HTML"
+
+#: core/lang/wpbc_all_translations.php:586
+#: includes/page-form-simple/page-form-simple.php:1090
+msgid "Values"
+msgstr "Wartości"
+
+#: core/lang/wpbc_all_translations.php:559
+#: includes/page-form-simple/form_simple__toolbar_free.php:90
+msgid "Form Field"
+msgstr "Pole formularza"
+
+#: core/lang/wpbc_all_translations2.php:167
+#: includes/publish/wpbc-publish-shortcode.php:258
+msgid "Insert into page"
+msgstr "Wstaw na stronę"
+
+#: core/admin/page-settings.php:130 core/admin/page-settings.php:260
+#: core/admin/page-settings.php:545 core/lang/wpbc_all_translations.php:402
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:85
+msgid "Capacity"
+msgstr "Pojemność"
+
+#: core/lang/wpbc_all_translations.php:671 core/wpbc-debug.php:189
+#: core/wpbc-emails.php:507 core/wpbc.php:417 core/wpbc.php:458
+#: includes/page-bookings/bookings__actions.php:2106
+#: includes/publish/wpbc-publish-shortcode.php:189
+#: includes/_functions/nonce_func.php:60
+msgid "Error"
+msgstr "Błąd"
+
+#: core/lang/wpbc_all_translations.php:563
+#: includes/page-form-simple/form_simple__toolbar_free.php:130
+msgid "Checkbox"
+msgstr "Pole zaznaczenia"
+
+#: core/lang/wpbc_all_translations1.php:943
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:158
+#: js/wpbc-gutenberg.js:856
+msgid "View mode"
+msgstr "Sposób wyświetlania"
+
+#: core/lang/wpbc_all_translations2.php:94
+#: includes/page-bookings/bookings__actions.php:2447
+msgid "Edit Booking"
+msgstr "Edytuj rezerwacje"
+
+#: core/admin/page-email-approved.php:402 core/admin/page-email-deleted.php:399
+#: core/admin/page-email-deny.php:399 core/admin/page-email-new-admin.php:382
+#: core/admin/page-email-new-visitor.php:383
+#: core/admin/page-email-trash.php:404 core/lang/wpbc_all_translations.php:213
+msgid "Email template"
+msgstr "Szablon wiadomości e-mail"
+
+#: core/lang/wpbc_all_translations.php:815
+msgid "Expiration Date"
+msgstr "Data wygaśnięcia"
+
+#: core/lang/wpbc_all_translations.php:574
+#: includes/page-form-simple/page-form-simple.php:602
+#: includes/page-form-simple/page-form-simple.php:697
+#: includes/page-form-simple/page-form-simple.php:1064
+msgid "Name"
+msgstr "Nazwa"
+
+#: core/admin/page-email-approved.php:215
+#: core/admin/page-email-approved.php:272 core/admin/page-email-deleted.php:215
+#: core/admin/page-email-deleted.php:272 core/admin/page-email-deny.php:217
+#: core/admin/page-email-deny.php:272 core/admin/page-email-new-admin.php:200
+#: core/admin/page-email-new-admin.php:252
+#: core/admin/page-email-new-visitor.php:254
+#: core/admin/page-email-trash.php:215 core/admin/page-email-trash.php:277
+#: core/lang/wpbc_all_translations.php:197
+msgid "Email Address"
+msgstr "Adres e-mail"
+
+#: core/lang/wpbc_all_translations.php:822
+#: includes/page-resource-free/page-resource-free.php:256
+msgid "Add New"
+msgstr "Dodaj"
+
+#: core/admin/page-email-approved.php:234
+#: core/admin/page-email-approved.php:290 core/admin/page-email-deleted.php:234
+#: core/admin/page-email-deleted.php:290 core/admin/page-email-deny.php:236
+#: core/admin/page-email-deny.php:290 core/admin/page-email-new-admin.php:218
+#: core/admin/page-email-new-admin.php:270
+#: core/admin/page-email-new-visitor.php:272
+#: core/admin/page-email-trash.php:234 core/admin/page-email-trash.php:295
+#: core/lang/wpbc_all_translations.php:201
+#: includes/page-form-simple/form_simple__timeslots.php:138
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:191
+msgid "optional"
+msgstr "opcjonalne"
+
+#: core/lang/wpbc_all_translations.php:558
+#: includes/page-form-simple/form_simple__toolbar_free.php:90
+msgid "Select"
+msgstr "Wybierz"
+
+#: core/lang/wpbc_all_translations.php:806
+msgid "Expiration"
+msgstr "Wygaśnięcie"
+
+#: core/lang/wpbc_all_translations.php:799
+msgid "Coupons"
+msgstr "Kupony"
+
+#: core/lang/wpbc_all_translations1.php:920
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:144
+msgid "Search form"
+msgstr "Formularz wyszukiwania"
+
+#: core/lang/wpbc_all_translations.php:595 core/wpbc-js-vars.php:100
+#: includes/page-bookings/bookings__actions.php:2127
+#: includes/page-form-simple/form_simple__timeslots.php:428
+#: includes/page-form-simple/form_simple__timeslots.php:438
+#: includes/page-form-simple/form_simple__timeslots.php:441
+#: includes/page-form-simple/form_simple__timeslots.php:450
+#: includes/page-form-simple/form_simple__timeslots.php:452
+#: includes/page-form-simple/form_simple__timeslots.php:461
+#: includes/page-form-simple/form_simple__timeslots.php:463
+#: includes/page-form-simple/form_simple__timeslots.php:472
+#: includes/page-form-simple/form_simple__timeslots.php:474
+msgid "Processing"
+msgstr "W trakcie realizacji"
+
+#: core/admin/page-import-gcal.php:138 core/lang/wpbc_all_translations.php:354
+msgid "Note:"
+msgstr "Adnotacja:"
+
+#: core/admin/page-settings.php:135 core/lang/wpbc_all_translations.php:403
+#: includes/_toolbar_ui/toolbar_ui.php:1197
+msgid "New"
+msgstr "Utwórz"
+
+#: core/admin/page-email-approved.php:178 core/admin/page-email-deleted.php:179
+#: core/admin/page-email-deny.php:179 core/admin/page-email-new-admin.php:177
+#: core/admin/page-email-new-visitor.php:177
+#: core/admin/page-email-trash.php:179 core/lang/wpbc_all_translations.php:193
+msgid "Enable this email notification"
+msgstr "Włącz powiadomienie e-mail"
+
+#: core/admin/page-email-approved.php:469 core/admin/page-email-deleted.php:466
+#: core/admin/page-email-deny.php:466 core/admin/page-email-new-admin.php:449
+#: core/admin/page-email-new-visitor.php:450
+#: core/admin/page-email-trash.php:471 core/lang/wpbc_all_translations.php:228
+msgid "Choose which format of email to send."
+msgstr "Wybierz format wiadomości e-mail."
+
+#: core/admin/api-settings.php:1618 core/lang/wpbc_all_translations.php:167
+msgid "Middle"
+msgstr "Pośrodku"
+
+#: core/admin/page-email-approved.php:391 core/admin/page-email-deleted.php:388
+#: core/admin/page-email-deny.php:388 core/admin/page-email-new-admin.php:371
+#: core/admin/page-email-new-visitor.php:372
+#: core/admin/page-email-trash.php:393 core/lang/wpbc_all_translations.php:211
+msgid "Email Footer Text"
+msgstr "Treść stopki wiadomości e-mail"
+
+#: core/lang/wpbc_all_translations.php:884
+msgid "Search results"
+msgstr "Wyniki wyszukiwania"
+
+#: core/lang/wpbc_all_translations.php:804
+msgid "Savings"
+msgstr "Oszczędności"
+
+#: core/lang/wpbc_all_translations.php:803
+msgid "Coupon Code"
+msgstr "Kod kuponu"
+
+#: core/lang/wpbc_all_translations.php:716 core/wpbc-js-vars.php:101
+msgid "Deleting"
+msgstr "Usuwanie"
+
+#: core/lang/wpbc_all_translations.php:575
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2967
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3018
+#: includes/page-form-simple/page-form-simple.php:749
+msgid "Edit"
+msgstr "Edytuj"
+
+#: core/lang/wpbc_all_translations.php:813
+msgid "Enter coupon code."
+msgstr "Wprowadź kod z kuponu"
+
+#: core/admin/wpbc-toolbars.php:1412 core/lang/wpbc_all_translations.php:500
+msgid "Total"
+msgstr "Łącznie"
+
+#: core/lang/wpbc_all_translations.php:576
+#: includes/page-form-simple/form_simple__timeslots.php:794
+#: includes/page-form-simple/page-form-simple.php:750
+msgid "Remove"
+msgstr "Usuń"
+
+#: core/admin/page-settings.php:144 core/admin/page-settings.php:607
+#: core/lang/wpbc_all_translations.php:404
+msgid "Plugin Menu"
+msgstr "Menu wtyczki"
+
+#: core/lang/wpbc_all_translations1.php:950
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:352
+msgid "Select start date"
+msgstr "Wybierz datę rozpoczęcia"
+
+#: core/lang/wpbc_all_translations.php:607 core/lib/wpbc-ajax.php:213
+msgid "Restored"
+msgstr "Przywrócono"
+
+#: core/lang/wpbc_all_translations.php:797
+msgid "Child"
+msgstr "dziecko"
+
+#: core/lang/wpbc_all_translations1.php:429
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1103
+#: js/wpbc-gutenberg.js:893
+msgid "Please Select"
+msgstr "Proszę wybrać"
+
+#: core/admin/page-email-approved.php:177 core/admin/page-email-deleted.php:178
+#: core/admin/page-email-deny.php:178 core/admin/page-email-new-admin.php:176
+#: core/admin/page-email-new-visitor.php:176
+#: core/admin/page-email-trash.php:178 core/lang/wpbc_all_translations.php:192
+msgid "Enable / Disable"
+msgstr "Włącz / Wyłącz"
+
+#: core/admin/page-ics-export.php:166 core/admin/page-ics-import.php:164
+#: core/lang/wpbc_all_translations.php:275 js/wpbc-gutenberg.js:1365
+#: js/wpbc-gutenberg.js:1451
+msgid "Important!"
+msgstr "Ważne!"
+
+#: core/admin/api-settings.php:1614 core/lang/wpbc_all_translations.php:165
+msgid "Plugin menu position"
+msgstr "Pozycja wtyczki w menu"
+
+#: core/admin/api-settings.php:1617 core/lang/wpbc_all_translations.php:166
+msgid "Top"
+msgstr "Na górze"
+
+#: core/admin/api-settings.php:1619 core/lang/wpbc_all_translations.php:168
+msgid "Bottom"
+msgstr "Na dole"
+
+#: core/admin/api-settings.php:189 core/lang/wpbc_all_translations.php:26
+#: core/wpbc-activation.php:1060
+msgid "Booked Times:"
+msgstr "Zarezerwowane godziny:"
+
+#: core/lang/wpbc_all_translations.php:805
+msgid "Minimum Cost"
+msgstr "Minimalny koszt"
+
+#: core/lang/wpbc_all_translations.php:809
+#: includes/_toolbar_ui/toolbar_ui.php:1011
+#: includes/_toolbar_ui/toolbar_ui.php:1012
+#: includes/_toolbar_ui/toolbar_ui.php:1094
+msgid "All resources"
+msgstr "Wszystkie zasoby"
+
+#: core/lang/wpbc_all_translations.php:801
+msgid "Add New Discount Coupon"
+msgstr "Dodaj nowy kupon rabatowy"
+
+#: core/admin/wpbc-toolbars.php:1551 core/admin/wpbc-toolbars.php:1591
+#: core/lang/wpbc_all_translations.php:501
+msgid "ID or Title"
+msgstr "ID lub tytuł"
+
+#: core/lang/wpbc_all_translations.php:669 core/wpbc-activation.php:1449
+msgid "Cost: "
+msgstr "Koszt:"
+
+#: core/admin/page-settings.php:535 core/lang/wpbc_all_translations.php:415
+msgid "Auto cancellation / auto approval of bookings"
+msgstr "Automatyczne odrzucanie/akceptowanie rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:583
+#: includes/page-form-simple/page-form-simple.php:1020
+msgid "Set field as required"
+msgstr "Ustaw pole jako wymagane"
+
+#: core/lang/wpbc_all_translations.php:582
+#: includes/page-form-simple/page-form-simple.php:999
+msgid "Show / hide field in booking form"
+msgstr "Pokaż / ukryj pole w formularzu"
+
+#: core/lang/wpbc_all_translations.php:561
+#: includes/page-form-simple/form_simple__toolbar_free.php:100
+msgid "Text"
+msgstr "Tekst"
+
+#: core/lang/wpbc_all_translations.php:560
+msgid "Standard Fields"
+msgstr "Standardowe pola"
+
+#: core/lang/wpbc_all_translations.php:548
+#: includes/page-form-simple/page-form-simple.php:278
+msgid "Form Field Configuration"
+msgstr "Konfiguracja pól formularza"
+
+#: core/admin/page-email-new-visitor.php:558
+#: core/lang/wpbc_all_translations.php:263
+msgid "visitor"
+msgstr "gość"
+
+#: core/admin/page-email-approved.php:468 core/admin/page-email-deleted.php:465
+#: core/admin/page-email-deny.php:465 core/admin/page-email-new-admin.php:448
+#: core/admin/page-email-new-visitor.php:449
+#: core/admin/page-email-trash.php:470 core/lang/wpbc_all_translations.php:227
+msgid "Email format"
+msgstr "Format e-maila"
+
+#: core/admin/page-email-new-admin.php:564
+#: core/lang/wpbc_all_translations.php:259
+msgid "admin"
+msgstr "admin"
+
+#: core/admin/page-email-approved.php:695 core/admin/page-email-deleted.php:693
+#: core/admin/page-email-deny.php:691 core/admin/page-email-new-admin.php:676
+#: core/admin/page-email-new-visitor.php:669
+#: core/admin/page-email-trash.php:698 core/lang/wpbc_all_translations.php:242
+msgid "Header / Footer"
+msgstr "Nagłówek / Stopka"
+
+#: core/admin/page-email-approved.php:407 core/admin/page-email-deleted.php:404
+#: core/admin/page-email-deny.php:404 core/admin/page-email-new-admin.php:387
+#: core/admin/page-email-new-visitor.php:388
+#: core/admin/page-email-trash.php:409 core/lang/wpbc_all_translations.php:215
+msgid "Plain (without styles)"
+msgstr "Zwykły (bez żadnych styli)"
+
+#: core/admin/page-email-approved.php:403 core/admin/page-email-deleted.php:400
+#: core/admin/page-email-deny.php:400 core/admin/page-email-new-admin.php:383
+#: core/admin/page-email-new-visitor.php:384
+#: core/admin/page-email-trash.php:405 core/lang/wpbc_all_translations.php:214
+msgid "Choose email template."
+msgstr "Wybierz szablon e-maila."
+
+#: core/admin/page-email-approved.php:427
+#: core/admin/page-email-approved.php:436
+#: core/admin/page-email-approved.php:445
+#: core/admin/page-email-approved.php:454 core/admin/page-email-deleted.php:424
+#: core/admin/page-email-deleted.php:433 core/admin/page-email-deleted.php:442
+#: core/admin/page-email-deleted.php:451 core/admin/page-email-deny.php:424
+#: core/admin/page-email-deny.php:433 core/admin/page-email-deny.php:442
+#: core/admin/page-email-deny.php:451 core/admin/page-email-new-admin.php:407
+#: core/admin/page-email-new-admin.php:416
+#: core/admin/page-email-new-admin.php:425
+#: core/admin/page-email-new-admin.php:434
+#: core/admin/page-email-new-visitor.php:408
+#: core/admin/page-email-new-visitor.php:417
+#: core/admin/page-email-new-visitor.php:426
+#: core/admin/page-email-new-visitor.php:435
+#: core/admin/page-email-trash.php:429 core/admin/page-email-trash.php:438
+#: core/admin/page-email-trash.php:447 core/admin/page-email-trash.php:456
+#: core/lang/wpbc_all_translations.php:220
+msgid "Default color"
+msgstr "Domyślny kolor"
+
+#: core/admin/api-settings.php:83 core/lang/wpbc_all_translations.php:6
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:240
+#: js/wpbc-gutenberg.js:865
+msgid "Number of months to scroll"
+msgstr "Ilość miesięcy do przewijania"
+
+#: core/lang/wpbc_all_translations1.php:946
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:221
+#: js/wpbc-gutenberg.js:862
+msgid "Number of days to scroll"
+msgstr "Ilość dni do przewijania"
+
+#: core/lang/wpbc_all_translations.php:606 core/lib/wpbc-ajax.php:205
+msgid "Moved to trash"
+msgstr "Przenieś do kosza"
+
+#: core/lang/wpbc_all_translations2.php:122
+#: includes/page-bookings/bookings__listing.php:251
+msgid "In Trash"
+msgstr "W koszu"
+
+#: core/lang/wpbc_all_translations.php:714 core/wpbc-js-vars.php:98
+msgid "Your emails do not match"
+msgstr "Twoje adresy e-mail nie pasują do siebie"
+
+#: core/lang/wpbc_all_translations.php:556
+#: includes/page-availability/availability__toolbar_ui.php:292
+#: includes/page-bookings/bookings__actions.php:2918
+#: includes/page-bookings/bookings__actions.php:2959
+#: includes/page-form-simple/form_simple__toolbar_free.php:235
+#: includes/_toolbar_ui/toolbar_ui.php:1785
+#: includes/_toolbar_ui/toolbar_ui.php:1823
+#: includes/_toolbar_ui/toolbar_ui.php:2213
+msgid "Do you really want to do this ?"
+msgstr "Czy na pewno chcesz to zrobić?"
+
+#: core/lang/wpbc_all_translations.php:654
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2984
+#: includes/page-bookings/bookings__actions.php:2956
+#: includes/_toolbar_ui/toolbar_ui.php:1820
+msgid "Restore"
+msgstr "Przywróć"
+
+#: core/lang/wpbc_all_translations2.php:4
+#: includes/_toolbar_ui/toolbar_ui.php:1821
+msgid "Restore selected bookings"
+msgstr "Przywróć zaznaczone rezerwacje"
+
+#: core/lang/wpbc_all_translations.php:810
+#: includes/page-bookings/bookings__actions.php:2997
+msgid "Completely Delete"
+msgstr "Usuń całkowicie"
+
+#: core/admin/api-settings.php:1654 core/admin/page-settings.php:101
+#: core/admin/page-settings.php:253 core/admin/page-settings.php:451
+#: core/lang/wpbc_all_translations.php:171 core/wpbc.php:204 core/wpbc.php:205
+#: core/wpbc.php:206 includes/page-availability/availability__page.php:86
+#: includes/_functions/admin_top_bar.php:120
+msgid "Availability"
+msgstr "Dostępność"
+
+#: core/admin/api-settings.php:1264 core/lang/wpbc_all_translations.php:127
+msgid "Type your date format for emails and the booking table. %sDocumentation on date formatting%s"
+msgstr "Wpisz swój format daty dla wiadomości e-mail i tabeli rezerwacji. %sDokumentacja na temat formatowania daty%s"
+
+#: core/admin/api-settings.php:1205 core/lang/wpbc_all_translations.php:121
+msgid "Dates view"
+msgstr "Wygląd daty"
+
+#: core/admin/api-settings.php:1208 core/lang/wpbc_all_translations.php:123
+msgid "Short days view"
+msgstr "Zobacz krótkie dni"
+
+#: core/admin/api-settings.php:1209 core/lang/wpbc_all_translations.php:124
+msgid "Wide days view"
+msgstr "Zobacz długie dni"
+
+#: core/admin/api-settings.php:1206 core/lang/wpbc_all_translations.php:122
+msgid "Select the default view for dates on the booking tables"
+msgstr "Wybierz domyślny widok dla daty w tabelach rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:517
+msgid "Show / hide hints"
+msgstr "Pokaż / ukryj wskazówki"
+
+#: core/lang/wpbc_all_translations.php:518
+msgid "Check this box if you want to show help hints on the admin panel."
+msgstr "Zaznacz to pole, jeśli chcesz pokazać podpowiedzi w panelu administratora."
+
+#: core/admin/api-settings.php:2035 core/admin/api-settings.php:2079
+#: core/admin/api-settings.php:2116 core/lang/wpbc_all_translations.php:188
+#: includes/page-bookings/bookings__actions.php:1532
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: core/admin/api-settings.php:1368 core/lang/wpbc_all_translations.php:130
+msgid "Allow unlimited bookings per same day(s)"
+msgstr "Umożliwiaj wielokrotne rezerwacje tego samego dnia"
+
+#: core/admin/api-settings.php:2036 core/lang/wpbc_all_translations.php:189
+msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
+msgstr "Pozwalasz na nieograniczona liczba rezerwacji w tych samych dat, może to być przyczyną podwójnych rezerwacji w tym samym dniu. Czy na pewno chcesz to zrobić?"
+
+#: core/admin/api-settings.php:1369 core/lang/wpbc_all_translations.php:131
+msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
+msgstr "Zaznacz to pole jeśli chcesz %sustawić wszystkie dni jako dostępne%s w kalendarzu. Twoi goście będą mogli dokonać %snieograniczonych rezerwacji tego samego dnia i nie będą widzieli żadnego zarezerwowanego terminu%s innych gości."
+
+#: core/admin/api-settings.php:2080 core/lang/wpbc_all_translations.php:190
+msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
+msgstr "Zamierzasz wyłączyć wczytywanie niektórych JavaScript. Czy na pewno chcesz to zrobić ? "
+
+#: core/admin/api-settings.php:1493 core/lang/wpbc_all_translations.php:148
+msgid "Load JS and CSS files only on specific pages"
+msgstr "Ładowanie plików JS i CSS tylko na poszczególnych stronach"
+
+#: core/admin/api-settings.php:1494 core/lang/wpbc_all_translations.php:149
+msgid "Activate loading of CSS and JavaScript files of plugin only at specific pages."
+msgstr "Aktywuj ładowanie plików CSS i JavaScript wtyczki tylko na poszczególnych stronach."
+
+#: core/admin/api-settings.php:1504 core/lang/wpbc_all_translations.php:150
+msgid "Relative URLs of pages, where to load plugin CSS and JS files"
+msgstr "Adresy URL stron, gdzie załadować pliki CSS i JS wtyczki"
+
+#: core/admin/api-settings.php:1505 core/lang/wpbc_all_translations.php:151
+msgid "Enter relative URLs of pages, where you have Booking Calendar elements (booking forms or availability calendars). Please enter one URL per line. Example: %s"
+msgstr "Wprowadź adresy URL stron, na których posiadasz elementy kalendarza (formularze rezerwacji lub kalendarze). Podaj jeden adres URL w każdym wierszu. Przykład %s"
+
+#: core/admin/api-settings.php:1566 core/lang/wpbc_all_translations.php:159
+msgid "Show settings of powered by notice"
+msgstr "Pokaż ustawienia 'powered by notice'"
+
+#: core/admin/api-settings.php:1567 core/lang/wpbc_all_translations.php:160
+msgid "Hide settings of powered by notice"
+msgstr "Ukryj ustawienia 'w oparciu o'"
+
+#: core/admin/api-settings.php:1574 core/lang/wpbc_all_translations.php:161
+msgid "Powered by notice"
+msgstr "Informacja w oparciu o"
+
+#: core/admin/api-settings.php:1575 core/lang/wpbc_all_translations.php:162
+msgid " Turn On/Off powered by \"Booking Calendar\" notice under the calendar."
+msgstr "Włącz/wyłącz informację \"w oparciu o\" pod kalendarzem."
+
+#: core/admin/api-settings.php:1583 core/lang/wpbc_all_translations.php:163
+msgid "Help and info notices"
+msgstr "Pomoc i informacje"
+
+#: core/admin/api-settings.php:1584 core/lang/wpbc_all_translations.php:164
+msgid " Turn On/Off version notice and help info links at booking admin panel."
+msgstr " Włącz/wyłącz informację o wersji i pomocy w stopce panelu rezerwacji administratora."
+
+#: core/admin/page-settings.php:591 core/lang/wpbc_all_translations.php:418
+msgid "Information"
+msgstr "Informacja"
+
+#: core/admin/api-settings.php:1630 core/lang/wpbc_all_translations.php:169
+msgid "User permissions for plugin menu pages"
+msgstr "Uprawnienia użytkowników do stron wtyczki"
+
+#: core/admin/api-settings.php:1706 core/lang/wpbc_all_translations.php:177
+msgid "Select user access level for the menu pages of plugin"
+msgstr "Wybierz użytkownika który uzyska dostęp dla stron menu z wtyczką "
+
+#: core/admin/page-settings.php:369 core/admin/page-settings.php:614
+#: core/lang/wpbc_all_translations.php:420
+msgid "Uninstall / deactivation"
+msgstr "Odinstaluj / dezaktywacja"
+
+#: core/admin/api-settings.php:1739 core/lang/wpbc_all_translations.php:182
+msgid "Delete booking data, when plugin deactivated"
+msgstr "Usuń dane rezerwacji gdy wtyczka zostanie wyłączona"
+
+#: core/admin/api-settings.php:2117 core/lang/wpbc_all_translations.php:191
+msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
+msgstr "Jeśli zaznaczysz tą opcję wszystkie dane rezerwacji zostaną usunięte gdy odinstalujesz ten plugin. Chcesz zaznaczyć ?"
+
+#: core/admin/api-settings.php:1740 core/lang/wpbc_all_translations.php:183
+msgid "Check this box to delete all booking data when you uninstal this plugin."
+msgstr "Zaznacz to pole aby usunąć wszystkie dane rezerwacji po usunięciu tej wtyczki."
+
+#: core/admin/api-settings.php:212 core/lang/wpbc_all_translations.php:29
+msgid "Show legend below calendar"
+msgstr "Pokaż ilość miesięcy poniżej kalendarza"
+
+#: core/admin/api-settings.php:213 core/lang/wpbc_all_translations.php:30
+msgid "Check this box to display a legend of dates below the booking calendar."
+msgstr "Zaznacz to pole wyboru, aby wyświetlić  ilość dat poniżej kalendarza rezerwacji."
+
+#: core/admin/api-settings.php:225 core/lang/wpbc_all_translations.php:31
+msgid "Available item"
+msgstr "Dostępny"
+
+#: core/admin/api-settings.php:248 core/lang/wpbc_all_translations.php:33
+msgid "Activate and type your %stitle of available%s item in legend"
+msgstr "Włącz i wpisz %stytuł dostępności%s"
+
+#: core/admin/api-settings.php:262 core/lang/wpbc_all_translations.php:34
+msgid "Pending item"
+msgstr "W oczekiwaniu"
+
+#: core/admin/api-settings.php:285 core/lang/wpbc_all_translations.php:36
+msgid "Activate and type your %stitle of pending%s item in legend"
+msgstr "Włącz i wpisz %stytuł oczekiwania%s"
+
+#: core/admin/api-settings.php:299 core/lang/wpbc_all_translations.php:37
+msgid "Approved item"
+msgstr "Wynajęty"
+
+#: core/admin/api-settings.php:322 core/lang/wpbc_all_translations.php:39
+msgid "Activate and type your %stitle of approved%s item in legend"
+msgstr "Włącz i wpisz %stytuł zatwierdzenia%s"
+
+#: core/admin/api-settings.php:362 core/lang/wpbc_all_translations.php:42
+msgid "Activate and type your %stitle of partially booked%s item in legend"
+msgstr "Włącz i wpisz %stytuł częsciowego zatwierdzenia%s"
+
+#: core/admin/page-email-approved.php:215
+#: core/admin/page-email-approved.php:272
+#: core/admin/page-email-approved.php:332 core/admin/page-email-deleted.php:215
+#: core/admin/page-email-deleted.php:272 core/admin/page-email-deleted.php:333
+#: core/admin/page-email-deny.php:217 core/admin/page-email-deny.php:272
+#: core/admin/page-email-deny.php:333 core/admin/page-email-new-admin.php:200
+#: core/admin/page-email-new-admin.php:252
+#: core/admin/page-email-new-admin.php:318
+#: core/admin/page-email-new-visitor.php:254
+#: core/admin/page-email-new-visitor.php:314
+#: core/admin/page-email-trash.php:215 core/admin/page-email-trash.php:277
+#: core/admin/page-email-trash.php:338 core/lang/wpbc_all_translations.php:198
+#: includes/page-form-simple/page-form-simple.php:601
+#: includes/page-form-simple/page-form-simple.php:1019
+msgid "Required"
+msgstr "Wymagane"
+
+#: core/lang/wpbc_all_translations.php:587
+#: includes/page-form-simple/page-form-simple.php:1095
+msgid "Enter dropdown options. One option per line."
+msgstr "Wprowadź rozwijane opcje. Jedna opcja w jednej linijce."
+
+#: core/admin/page-email-approved.php:205 core/admin/page-email-deleted.php:205
+#: core/admin/page-email-deny.php:207 core/admin/page-email-new-admin.php:190
+#: core/admin/page-email-trash.php:205 core/lang/wpbc_all_translations.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:1361
+msgid "To"
+msgstr "Do"
+
+#: core/admin/page-email-approved.php:314
+#: core/admin/page-email-approved.php:321 core/admin/page-email-deleted.php:315
+#: core/admin/page-email-deleted.php:322 core/admin/page-email-deny.php:315
+#: core/admin/page-email-deny.php:322 core/admin/page-email-new-admin.php:300
+#: core/admin/page-email-new-admin.php:307
+#: core/admin/page-email-new-visitor.php:296
+#: core/admin/page-email-new-visitor.php:303
+#: core/admin/page-email-trash.php:320 core/admin/page-email-trash.php:327
+#: core/lang/wpbc_all_translations.php:204
+msgid "Subject"
+msgstr "Temat"
+
+#: core/lang/wpbc_all_translations.php:536
+msgid "Type your email %ssubject%s for the booking confimation message."
+msgstr "Wpisz swój %stytuł%s w e-mail dla wiadomości potwierdzającej rezerwację."
+
+#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
+#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
+#: core/admin/page-email-new-visitor.php:491
+#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:232
+msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
+msgstr "Przykład: \"Masz nową rezerwację %s w następujących terminach: %s Informacje kontaktowe. %s Możesz zaakceptować albo edytować rezerwację na: %s . Dziękuję.\""
+
+#: core/lang/wpbc_all_translations.php:673 core/wpbc-emails.php:195
+msgid "You can use (in subject and content of email template) any shortcodes, which you used in the booking form. Use the shortcodes in the same way as you used them in the content form at Settings Fields page."
+msgstr "Możesz użyć (w temacie i treści szablonu e-mail) każdy skrót, który został użyty w formularzu rezerwacji. Używać skrótów w taki sam sposób, jak są stosowane w postaci treści na stronie Ustawienia pola."
+
+#: core/lang/wpbc_all_translations.php:674 core/wpbc-emails.php:198
+msgid "You can use following shortcodes in content of this template"
+msgstr "Można użyć skrutów w treści tego szablonu"
+
+#: core/lang/wpbc_all_translations.php:676 core/wpbc-emails.php:204
+msgid "%s - inserting data info about the booking"
+msgstr "%s - wstawianie informacji danych o rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:675 core/wpbc-emails.php:202
+msgid "%s - inserting data info about the booking, which you configured in the content form at Settings Fields page"
+msgstr "%s - wstawianie informacji danych o rezerwacji, które skonfigurowano w postaci zawartości na stronie Ustawienia pola"
+
+#: core/lang/wpbc_all_translations.php:684 core/wpbc-emails.php:232
+msgid "%s - inserting ID of booking "
+msgstr "%s - wstawianie ID rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:685 core/wpbc-emails.php:237
+msgid "%s or %s - inserting the title of the booking resource "
+msgstr "%s lub %s - wstawianie  tytułu zasobu rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:686 core/wpbc-emails.php:245
+msgid "%s - inserting the cost of  booking "
+msgstr "%s - wstawienie kosztów rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:677 core/wpbc-emails.php:209
+msgid "%s - inserting the dates of booking"
+msgstr "%s - wstawienie dat rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:678 core/wpbc-emails.php:214
+msgid "%s - inserting check-in date (first day of reservation),"
+msgstr "%s - wstawianie daty zameldowania (pierwszy dzień rezerwacji)"
+
+#: core/lang/wpbc_all_translations.php:680 core/wpbc-emails.php:219
+#: core/wpbc-emails.php:221
+msgid "%s - inserting check-out date (last day of reservation),"
+msgstr "%s - wstawianie daty wymeldowania (ostatni dzień rezerwacji)"
+
+#: core/lang/wpbc_all_translations.php:683 core/wpbc-emails.php:226
+msgid "%s - inserting the number of booking dates "
+msgstr "%s - wstawienie daty numeru rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:687 core/wpbc-emails.php:250
+msgid "%s - inserting your site URL "
+msgstr "%s - wstawianie adresu URL"
+
+#: core/lang/wpbc_all_translations.php:688 core/wpbc-emails.php:253
+msgid "%s - inserting IP address of the user who made this action "
+msgstr "%s - wstawiając adres IP użytkownika, który wykonane to działanie"
+
+#: core/lang/wpbc_all_translations.php:689 core/wpbc-emails.php:254
+msgid "%s - inserting contents of the User-Agent: header from the current request, if there is one "
+msgstr "%s - wstawiając zawartość User Agent: nagłówek z obecnego żądania, jeśli istnieje"
+
+#: core/lang/wpbc_all_translations.php:690 core/wpbc-emails.php:255
+msgid "%s - inserting address of the page (if any), where visitor make this action "
+msgstr "%s - wstaw adres strony (ewentualne), gdzie użytkownik dokonania tej czynności"
+
+#: core/lang/wpbc_all_translations.php:692 core/wpbc-emails.php:259
+msgid "%s - inserting date of this action "
+msgstr "%s - wstawiając datę tego działania"
+
+#: core/lang/wpbc_all_translations.php:691 core/wpbc-emails.php:256
+msgid "%s - inserting time of this action "
+msgstr "%s - wstawiając czas tego działania"
+
+#: core/lang/wpbc_all_translations.php:694 core/wpbc-emails.php:281
+msgid "%s - inserting moderate link of new booking "
+msgstr "%s - wstawianie zmodyfikowany link nowej rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:701 core/wpbc-emails.php:307
+msgid "%s - inserting link to the page where visitor can edit the reservation,  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - wstawienie linku do strony płatności, w których użytkownik może edytować rezerwację (możliwość korzystania z parametru %s parametr do ustawienia innych ustawień %s dla tej strony Przykład:% s)"
+
+#: core/lang/wpbc_all_translations.php:702 core/wpbc-emails.php:313
+msgid "%s - inserting link to the page where visitor can cancel the reservation, (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - wstawienie linku do strony płatności, w których użytkownik może anulować rezerwację (możliwość korzystania z parametru %s parametr do ustawienia innych ustawień %s dla tej strony Przykład:% s)"
+
+#: core/lang/wpbc_all_translations.php:703 core/wpbc-emails.php:321
+msgid "%s - inserting link to payment page where visitor can pay for the reservation  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - wstawienie linku do strony płatności, w których użytkownik może zapłacić za rezerwację (możliwość korzystania z parametru %s parametr do ustawienia innych ustawień %s dla tej strony Przykład:% s)"
+
+#: core/lang/wpbc_all_translations.php:704 core/wpbc-emails.php:327
+msgid "%s - add the reason for booking payment, you can enter it before sending email, "
+msgstr "%s - dodaj powód dla płatności rezerwacji, możesz go wprowadzić przed wysłaniem e-mail"
+
+#: core/lang/wpbc_all_translations.php:705 core/wpbc-emails.php:333
+msgid "%s - add the reason booking was cancelled, you can enter it before sending email, "
+msgstr "%s - dodaj powód dla anulowanej rezerwacji, możesz go wprowadzić przed wysłaniem e-mail"
+
+#: core/lang/wpbc_all_translations.php:831
+msgid "HTML tags is accepted."
+msgstr "HTML tagi są akceptowane."
+
+#: core/lang/wpbc_all_translations.php:543
+msgid "Customization of email template, which is sending to Admin after new booking"
+msgstr "Dostosowanie szablonu e-mail, który wysyła do administratora po nowej rezerwacji"
+
+#: core/admin/page-email-new-visitor.php:560
+#: core/lang/wpbc_all_translations.php:264
+msgid "Customization of email template, which is sending to Visitor after new booking"
+msgstr "Dostosowanie szablonu e-mail, który wysyła do Visitor po nowej rezerwacji"
+
+#: core/admin/api-settings.php:1093 core/lang/wpbc_all_translations.php:101
+msgid "Default booking admin page"
+msgstr "Domyślna strona rezerwacji dla Administratora"
+
+#: core/admin/api-settings.php:1087 core/lang/wpbc_all_translations.php:99
+#: core/wpbc.php:168 core/wpbc.php:169
+msgid "Bookings Listing"
+msgstr "Lista rezerwacji"
+
+#: core/admin/api-settings.php:1094 core/lang/wpbc_all_translations.php:102
+msgid "Select your default view mode of bookings at the booking listing page"
+msgstr "Wybierz domyślny tryb widoku rezerwacji na stronie listy rezerwacji"
+
+#: core/admin/api-settings.php:1139 core/lang/wpbc_all_translations.php:110
+msgid "Select your default calendar view mode at booking calendar overview page"
+msgstr "Wybierz domyślny tryb wyświetlania kalendarza na stronie rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:851
+#: includes/_pagination/pagination.php:232
+msgid "ASC"
+msgstr "Rosnąco"
+
+#: core/lang/wpbc_all_translations.php:852
+#: includes/_pagination/pagination.php:233
+msgid "DESC"
+msgstr "Malejąco"
+
+#: core/lang/wpbc_all_translations.php:635 core/sync/wpbc-gcal-class.php:665
+#: core/wpbc.php:251 includes/page-resource-free/page-resource-free.php:34
+#: includes/page-resource-free/page-resource-free.php:100
+#: includes/_functions/admin_top_bar.php:222
+#: includes/_functions/admin_top_bar.php:230
+#: includes/_toolbar_ui/toolbar_ui.php:297
+#: includes/_toolbar_ui/toolbar_ui.php:298
+msgid "Resource"
+msgstr "Zasób"
+
+#: core/lang/wpbc_all_translations1.php:121
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:82
+#: includes/_toolbar_ui/toolbar_ui.php:303
+#: includes/_toolbar_ui/toolbar_ui.php:304
+#: includes/_toolbar_ui/toolbar_ui.php:1617
+msgid "Cost"
+msgstr "Koszt"
+
+#: core/admin/api-settings.php:1224 core/lang/wpbc_all_translations.php:125
+msgid "Date Format"
+msgstr "Format daty"
+
+#. Author URI of the plugin
+#: wpdev-booking.php
+msgid "https://wpbookingcalendar.com/"
+msgstr "http://wpbookingcalendar.com/"
+
+#. Plugin URI of the plugin
+#: wpdev-booking.php
+msgid "https://wpbookingcalendar.com/demo/"
+msgstr "http://wpbookingcalendar.com/demo/"
+
+#: core/admin/api-settings.php:430 core/lang/wpbc_all_translations.php:48
+msgid "Show date number in legend"
+msgstr "Pokaż datę w legendzie"
+
+#: core/admin/api-settings.php:431 core/lang/wpbc_all_translations.php:49
+msgid "Check this box to display today date number in legend cells. "
+msgstr "Zaznacz to pole aby pokazać dzisiejszą datę w legendzie."
+
+#: core/admin/api-settings.php:913 core/admin/api-settings.php:921
+#: core/admin/api-settings.php:1017 core/admin/api-settings.php:1027
+#: core/admin/page-email-approved.php:350
+#: core/admin/page-email-approved.php:357 core/admin/page-email-deleted.php:347
+#: core/admin/page-email-deleted.php:354 core/admin/page-email-deny.php:347
+#: core/admin/page-email-deny.php:354 core/admin/page-email-new-admin.php:327
+#: core/admin/page-email-new-admin.php:336
+#: core/admin/page-email-new-visitor.php:331
+#: core/admin/page-email-new-visitor.php:338
+#: core/admin/page-email-trash.php:352 core/admin/page-email-trash.php:359
+#: core/lang/wpbc_all_translations.php:95
+msgid "Content"
+msgstr "Treść"
+
+#: core/lang/wpbc_all_translations.php:572
+#: includes/page-form-simple/page-form-simple.php:599
+#: includes/page-form-simple/page-form-simple.php:998
+msgid "Active"
+msgstr "Włączono"
+
+#: core/lang/wpbc_all_translations.php:573
+#: includes/page-form-simple/page-form-simple.php:600
+msgid "Field Label"
+msgstr "Etykieta pola"
+
+#: core/admin/api-settings.php:339 core/lang/wpbc_all_translations.php:40
+msgid "Partially booked item"
+msgstr "Pozycja częściowo zarezerwowana"
+
+#: core/admin/api-settings.php:365 core/admin/api-settings.php:532
+#: core/lang/wpbc_all_translations.php:44
+msgid "Partially booked item - day, which is booked for the specific time-slot(s)."
+msgstr "Częściowo zarezerwowany - dzień, który jest zarezerwowany w określonym zakresie czasu."
+
+#: core/admin/api-settings.php:103 core/admin/api-settings.php:574
+#: core/lang/wpbc_all_translations.php:15
+#: core/timeline/v2/wpbc-class-timeline_v2.php:84
+msgid "Friday"
+msgstr "Piątek"
+
+#: core/lang/wpbc_all_translations1.php:37
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:779
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1217
+msgid "Tu"
+msgstr "Wt"
+
+#: core/lang/wpbc_all_translations1.php:39
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:781
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1219
+msgid "Th"
+msgstr "Cz"
+
+#: core/lang/wpbc_all_translations1.php:41
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:783
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1221
+msgid "Sa"
+msgstr "So"
+
+#: core/lang/wpbc_all_translations1.php:42
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:784
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1222
+msgid "Su"
+msgstr "Ni"
+
+#: core/lang/wpbc_all_translations.php:637 core/sync/wpbc-gcal-class.php:668
+#: core/timeline/v2/wpbc-class-timeline_v2.php:1500
+#: core/timeline/v2/wpbc-class-timeline_v2.php:1513
+msgid "Times"
+msgstr "Czasy"
+
+#: core/admin/api-settings.php:1696 core/admin/page-import-gcal.php:535
+#: core/lang/wpbc_all_translations.php:175
+#: core/timeline/v2/wpbc-class-timeline_v2.php:72 core/wpbc.php:225
+#: core/wpbc.php:227 includes/_functions/admin_top_bar.php:222
+#: includes/_functions/admin_top_bar.php:230
+msgid "Resources"
+msgstr "Zasoby"
+
+#. Plugin Name of the plugin
+#: wpdev-booking.php core/admin/wpbc-dashboard.php:188
+#: core/lang/wpbc_all_translations.php:427 core/lib/wpdev-booking-widget.php:30
+#: core/wpbc.php:169 core/wpbc.php:197 core/wpbc.php:206 core/wpbc.php:217
+#: core/wpbc.php:227 core/wpbc.php:239 core/wpbc.php:251 core/wpbc.php:263
+#: core/wpbc.php:274
+msgid "Booking Calendar"
+msgstr "Kalendarz rezerwacji"
+
+#: core/admin/wpbc-dashboard.php:643 core/lang/wpbc_all_translations.php:446
+msgid "Statistic"
+msgstr "Statystyka"
+
+#: core/admin/wpbc-dashboard.php:655 core/admin/wpbc-dashboard.php:887
+#: core/lang/wpbc_all_translations.php:449
+#: includes/_toolbar_ui/ui__settings_panel.php:1816
+msgid "New (unverified) booking(s)"
+msgstr "Nowe (niezweryfikowane) rezerwacje"
+
+#: core/admin/wpbc-dashboard.php:659 core/admin/wpbc-dashboard.php:870
+#: core/lang/wpbc_all_translations.php:450
+#: includes/_toolbar_ui/ui__settings_panel.php:1836
+msgid "Pending booking(s)"
+msgstr "Rezerwacje w oczekiwaniu"
+
+#: core/admin/wpbc-dashboard.php:664 core/lang/wpbc_all_translations.php:451
+msgid "Agenda"
+msgstr "Agenda"
+
+#: core/admin/wpbc-dashboard.php:651 core/admin/wpbc-dashboard.php:838
+#: core/lang/wpbc_all_translations.php:448
+#: includes/_toolbar_ui/ui__settings_panel.php:1895
+msgid "New booking(s) made today"
+msgstr "Nowe rezerwacje dzisiaj"
+
+#: core/admin/wpbc-dashboard.php:647 core/lang/wpbc_all_translations.php:447
+msgid "Bookings for today"
+msgstr "Rezerwacje na dzisiaj"
+
+#: core/lang/wpbc_all_translations.php:547
+#: includes/page-form-simple/page-form-simple.php:76
+msgid "Upgrade to higher versions"
+msgstr "Zaktualizuj do wyższej wersji"
+
+#: core/admin/wpbc-dashboard.php:573 core/lang/wpbc_all_translations.php:438
+msgid "Current version"
+msgstr "Aktualna wersja"
+
+#: core/admin/wpbc-dashboard.php:582 core/lang/wpbc_all_translations.php:440
+msgid "Version"
+msgstr "Wersja"
+
+#: core/admin/wpbc-dashboard.php:592 core/lang/wpbc_all_translations.php:441
+#: includes/page-form-simple/page-form-simple.php:602
+#: includes/page-form-simple/page-form-simple.php:695
+msgid "Type"
+msgstr "Typ"
+
+#: core/admin/wpbc-dashboard.php:598 core/lang/wpbc_all_translations.php:442
+msgid "Used for"
+msgstr "Wykorzystywane do"
+
+#: core/admin/wpbc-dashboard.php:520 core/lang/wpbc_all_translations.php:436
+#: includes/_feedback/feedback.php:565
+msgid "websites"
+msgstr "strony"
+
+#: core/admin/wpbc-dashboard.php:605 core/lang/wpbc_all_translations.php:443
+msgid "Release date"
+msgstr "Data wydania"
+
+#: core/admin/wpbc-dashboard.php:616 core/lang/wpbc_all_translations.php:444
+msgid "Check Premium Features"
+msgstr "Poznaj Opcje Premium"
+
+#: core/admin/wpbc-dashboard.php:620 core/lang/wpbc_all_translations.php:445
+msgid "Explore Premium Features"
+msgstr "Poznaj Premium Opcje"
+
+#: core/admin/wpbc-dashboard.php:424 core/lang/wpbc_all_translations.php:430
+msgid "Getting Started"
+msgstr "Pierwsze kroki"
+
+#: core/lang/wpbc_all_translations.php:527
+msgid "Help Info"
+msgstr "Pomoc"
+
+#: core/admin/wpbc-dashboard.php:442 core/lang/wpbc_all_translations.php:435
+msgid "Rate plugin (thanks:)"
+msgstr "Oceń ten plugin (dzięki :)"
+
+#: core/admin/api-settings.php:1705 core/lang/wpbc_all_translations.php:176
+#: core/wpbc.php:261 core/wpbc.php:263 core/wpbc.php:471
+#: includes/page-settings-all/all__page.php:39
+#: includes/page-settings-all/all__page.php:74
+#: includes/_functions/admin_top_bar.php:263
+#: includes/_toolbar_ui/ui__settings_panel.php:116
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: core/admin/wpbc-dashboard.php:428 core/lang/wpbc_all_translations.php:431
+msgid "What's New"
+msgstr "Co nowego"
+
+#: core/admin/api-settings.php:1686 core/admin/page-new.php:33
+#: core/admin/page-new.php:34 core/admin/page-new.php:35
+#: core/admin/wpbc-toolbars.php:1149 core/lang/wpbc_all_translations.php:174
+#: core/wpbc.php:195 core/wpbc.php:196 core/wpbc.php:197
+#: includes/_functions/admin_top_bar.php:110
+msgid "Add booking"
+msgstr "Dodaj rezerwację"
+
+#: core/admin/api-settings.php:1645 core/lang/wpbc_all_translations.php:170
+#: core/timeline/v2/wpbc-class-timeline_v2.php:74 core/wpbc.php:167
+#: includes/_functions/admin_top_bar.php:73
+msgid "Bookings"
+msgstr "Rezerwacje"
+
+#: core/admin/wpbc-toolbars.php:304 core/admin/wpbc-toolbars.php:1175
+#: core/lang/wpbc_all_translations.php:463
+msgid "Send email notification to customer about this operation"
+msgstr "Wyślij powiadomienie e-mail do klienta o tej operacji"
+
+#: core/lang/wpbc_all_translations.php:544
+#: includes/page-form-simple/page-form-simple.php:60
+msgid "Fields Settings"
+msgstr "Ustrawienia Formularzy"
+
+#: core/admin/page-email-approved.php:584 core/admin/page-email-deleted.php:582
+#: core/admin/page-email-deny.php:580 core/admin/page-email-new-admin.php:544
+#: core/admin/page-email-new-admin.php:545
+#: core/admin/page-email-new-admin.php:565
+#: core/admin/page-email-new-visitor.php:559
+#: core/admin/page-email-trash.php:587 core/lang/wpbc_all_translations.php:235
+msgid "Emails Settings"
+msgstr "Ustawienia Wiadomości e-mail"
+
+#: core/lang/wpbc_all_translations2.php:139
+#: includes/page-settings-all/all__page.php:204
+msgid "Payments"
+msgstr "Płatności"
+
+#: core/admin/wpbc-toolbars.php:1639 core/lang/wpbc_all_translations.php:503
+msgid "Search"
+msgstr "Szukaj"
+
+#: core/lang/wpbc_all_translations.php:747
+#: includes/_functions/admin_top_bar.php:326
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: core/lang/wpbc_all_translations1.php:167
+msgid "Users Settings"
+msgstr "Ustawienia użytkowników"
+
+#: core/lang/wpbc_all_translations.php:610 core/lib/wpdev-booking-class.php:202
+#: includes/page-availability/availability__class.php:200
+#: includes/page-availability/availability__page.php:294
+msgid "Calendar is loading..."
+msgstr "Wczytuję kalendarz..."
+
+#: core/lang/wpbc_all_translations.php:551 core/wpbc-activation.php:1193
+#: includes/page-form-simple/form_simple__default.php:134
+msgid "Send"
+msgstr "Wyślij"
+
+#: core/lang/wpbc_all_translations.php:614 core/lib/wpdev-booking-class.php:504
+msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
+msgstr "%sUwaga! Kalendarz rezerwacji dla tego zasobu rezerwacji jest już na stronie, sprawdź więcej na ten temat %stutaj%s"
+
+#: core/lang/wpbc_all_translations.php:618 core/lib/wpdev-booking-class.php:760
+#: core/lib/wpdev-booking-widget.php:54
+msgid "You need to use special shortcode [bookingedit] for booking editing."
+msgstr "Musisz użyć specjalnego skrótu [bookingedit] do edycji rezerwacji."
+
+#: core/lang/wpbc_all_translations2.php:213 js/wpbc-gutenberg.js:1377
+#: js/wpbc-gutenberg.js:1463
+msgid "You do not set any parameters for booking editing"
+msgstr "Nie ustawiłeś parametrów do edycji rezerwacji"
+
+#: core/admin/page-email-new-admin.php:305
+#: core/admin/page-email-new-visitor.php:301
+#: core/lang/wpbc_all_translations.php:255 core/wpbc-activation.php:1143
+#: core/wpbc-activation.php:1150
+#: includes/page-bookings/bookings__actions.php:3126
+msgid "New booking"
+msgstr "Nowa rezerwacja"
+
+#: core/admin/page-email-new-admin.php:334
+#: core/lang/wpbc_all_translations.php:256 core/wpbc-activation.php:1144
+msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
+msgstr "Musisz potwierdzić nową rezerwację %s dla: %s Szczegółowe dane osób:%s Obecnie nowa rezerwacja czeka na zatwierdzenie. Proszę odwiedzić panel moderacji%sDziękuję, %s"
+
+#: core/admin/page-email-new-visitor.php:321
+#: core/lang/wpbc_all_translations.php:261 core/wpbc-activation.php:1152
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
+msgstr "Rezerwacja %s dla: %s jest przetwarzana teraz! Wyślemy potwierdzenie na e-mail. %sMożesz edytować tę rezerwację na tej stronie: %s Dziękuję %s"
+
+#: core/admin/page-email-new-visitor.php:323
+#: core/lang/wpbc_all_translations.php:262 core/wpbc-activation.php:1154
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
+msgstr "Rezerwacja %s dla: %s jest przetwarzana! Wyślemy potwierdzenie na email. %s Dziękuję %s"
+
+#: core/admin/page-email-approved.php:319
+#: core/lang/wpbc_all_translations.php:205 core/wpbc-activation.php:1161
+msgid "Your booking has been approved"
+msgstr "Twoja rezerwacja została zatwierdzona"
+
+#: core/admin/page-email-approved.php:339
+#: core/lang/wpbc_all_translations.php:207 core/wpbc-activation.php:1163
+msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
+msgstr "Rezerwacja %s dla: %s została zaakceptowana.%sMożesz edytować rezerwację na tej stronie: %s Dziękuję, %s"
+
+#: core/admin/page-email-approved.php:341
+#: core/lang/wpbc_all_translations.php:208 core/wpbc-activation.php:1165
+msgid "Your booking %s for: %s has been approved.%sThank you, %s"
+msgstr "Rezerwacja %s dla: %s została zaakceptowana. %s Dziękujemy, %s"
+
+#: core/admin/page-email-deleted.php:320 core/admin/page-email-deny.php:320
+#: core/admin/page-email-trash.php:325 core/lang/wpbc_all_translations.php:246
+#: core/wpbc-activation.php:1172
+msgid "Your booking has been declined"
+msgstr "Twoja rezerwacja została odrzucona"
+
+#: core/admin/page-email-deleted.php:339 core/admin/page-email-deny.php:339
+#: core/admin/page-email-trash.php:344 core/lang/wpbc_all_translations.php:247
+#: core/wpbc-activation.php:1173
+msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
+msgstr "Rezerwacja %s dla: %s została anulowana. %s Dziękujemy, %s"
+
+#: core/lang/wpbc_all_translations.php:663 core/wpbc-activation.php:1177
+msgid "Booking form"
+msgstr "Formulasz rezerwacji"
+
+#: core/admin/api-settings.php:239 core/lang/wpbc_all_translations.php:32
+#: core/wpbc-activation.php:1197
+#: includes/page-availability/availability__toolbar_ui.php:155
+msgid "Available"
+msgstr "Dostępne"
+
+#: core/lang/wpbc_all_translations.php:660 core/wpbc-activation.php:617
+msgid "%s Found %s not indexed bookings %s"
+msgstr "%s Znaleziono %s nie indeksowane rezerwacje %s"
+
+#: core/lang/wpbc_all_translations.php:661 core/wpbc-activation.php:632
+msgid "%s Finish getting sort dates. %s"
+msgstr "%s Zakończ otrzymywanie dat sortowania. %s"
+
+#: core/lang/wpbc_all_translations.php:662 core/wpbc-activation.php:641
+msgid "Updated booking: %s"
+msgstr "Zaktualizowano rezerwację %s"
+
+#: core/lang/wpbc_all_translations.php:736
+#: includes/_functions/booking_data__parse.php:652
+msgid "yes"
+msgstr "tak"
+
+#: core/lang/wpbc_all_translations.php:737
+#: includes/_functions/booking_data__parse.php:656
+msgid "no"
+msgstr "nie"
+
+#: core/lang/wpbc_all_translations.php:672 core/wpbc-emails.php:78
+msgid "Booking system"
+msgstr "Sytem Rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:752
+#: includes/_functions/news_version.php:140
+msgid "Warning! Some error occur, during sending registration request."
+msgstr "Ostrzeżenie! Błąd podczas wysyłania żądania rejestracji."
+
+#: core/lang/wpbc_all_translations.php:753
+#: includes/_functions/news_version.php:145
+msgid "Please refresh this page and if the same error appear again contact support by email (with  info about order number and website) for finishing the registrations"
+msgstr "Proszę odświeżyć stronę, a jeśli pojawi się ten sam błąd ponownie skontaktować się e-mailem z obsługą (z informacją o numerze porządkowym i stroną internetową) do zakończenia rejestracji"
+
+#: core/lang/wpbc_all_translations.php:622
+#: core/lib/wpdev-booking-widget.php:150 core/wpbc.php:250
+#: includes/page-availability/availability__class.php:372
+#: includes/page-resource-free/page-resource-free.php:36
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:279
+#: js/wpbc-gutenberg.js:653 js/wpbc-gutenberg.js:657 js/wpbc-gutenberg.js:748
+#: js/wpbc-gutenberg.js:752 js/wpbc-gutenberg.js:1020 js/wpbc-gutenberg.js:1024
+#: js/wpbc-gutenberg.js:1525 js/wpbc-gutenberg.js:1529
+msgid "Booking resource"
+msgstr "Zasoby rezerwacji"
+
+#: core/admin/wpbc-toolbars.php:900 core/lang/wpbc_all_translations.php:493
+#: core/lib/wpdev-booking-widget.php:167
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:331
+msgid "Visible months"
+msgstr "Widoczne miesiące"
+
+#: core/lang/wpbc_all_translations.php:623
+#: core/lib/wpdev-booking-widget.php:183
+msgid "Footer"
+msgstr "Stopka"
+
+#: core/lang/wpbc_all_translations.php:624
+#: core/lib/wpdev-booking-widget.php:188
+msgid "Example: %sMake booking here%s"
+msgstr "Przykład: %sZrób rezerwację tutaj%s"
+
+#: core/lang/wpbc_all_translations.php:625
+#: core/lib/wpdev-booking-widget.php:193
+msgid "%sImportant!!!%s Please note, if you show booking calendar (inserted into post/page) with widget at the same page, then the last will not be visible."
+msgstr "%sWażne%s,Jeśli na tej samej stronie umieścisz wtyczkę i widget ostatni z nich nie będzie widoczny."
+
+#: core/lang/wpbc_all_translations.php:626
+#: core/lib/wpdev-booking-widget.php:198
+msgid "%sSeveral widgets are supported at %spaid versions%s."
+msgstr "%sKilka widgetów jest obsługiwane w %spłatnych wersjach%s"
+
+#: core/admin/page-settings.php:90 core/admin/page-settings.php:239
+#: core/admin/page-settings.php:429 core/lang/wpbc_all_translations.php:396
+#: includes/page-form-simple/page-form-simple.php:687
+#: includes/page-resource-free/page-resource-free.php:233
+#: includes/page-settings-all/all__page.php:81
+#: includes/page-settings-all/all__page.php:147
+msgid "Calendar"
+msgstr "Kalendarz"
+
+#: core/lang/wpbc_all_translations.php:985
+msgid "Costs"
+msgstr "Koszty"
+
+#: core/admin/page-settings.php:124 core/lang/wpbc_all_translations.php:401
+msgid "Auto cancellation / approval"
+msgstr "Automatyczne anulowanie / zatwierdzanie"
+
+#: core/admin/page-settings.php:149 core/lang/wpbc_all_translations.php:405
+msgid "Uninstall"
+msgstr "Odinstaluj"
+
+#: core/admin/api-settings.php:56 core/lang/wpbc_all_translations.php:2
+#: includes/page-form-simple/form_simple__preview_templates.php:70
+msgid "Calendar Skin"
+msgstr "Wygląd kalendarza"
+
+#: core/admin/api-settings.php:57 core/lang/wpbc_all_translations.php:3
+msgid "Select the skin of the booking calendar"
+msgstr "Wybierz wygląd kalendarza rezerwacji"
+
+#: core/admin/api-settings.php:78 core/lang/wpbc_all_translations.php:5
+msgid "year(s)"
+msgstr "Lata"
+
+#: core/admin/api-settings.php:84 core/lang/wpbc_all_translations.php:7
+msgid "Select the maximum number of months to show (scroll)"
+msgstr "Wybierz maksymalną liczbę miesięcy, aby pokazać (przewijanie)"
+
+#: core/admin/api-settings.php:95 core/lang/wpbc_all_translations.php:8
+msgid "Start Day of the week"
+msgstr "Pierwszy dzień tygodnia"
+
+#: core/admin/api-settings.php:96 core/lang/wpbc_all_translations.php:9
+msgid "Select your start day of the week"
+msgstr "Wybierz pierwszy dzień tygodnia"
+
+#: core/admin/api-settings.php:602 core/lang/wpbc_all_translations.php:61
+msgid "Unavailable days from today"
+msgstr "Niedostępne dni od dzisiaj"
+
+#: core/admin/api-settings.php:603 core/lang/wpbc_all_translations.php:62
+msgid "Select number of unavailable days in calendar start from today."
+msgstr "Zaznacz ilość dni niedostępnych w kalendarzu licząc od dzisiaj."
+
+#: core/admin/api-settings.php:554 core/lang/wpbc_all_translations.php:59
+msgid "Unavailable week days"
+msgstr "Niedostępne dni w tygodniu"
+
+#: core/admin/api-settings.php:584 core/lang/wpbc_all_translations.php:60
+msgid "Check unavailable days in calendars. This option will overwrite all other settings."
+msgstr "Zaznacz niedostępne dni w kalendarzu. Ta opcja nadpisze wszystkie inne ustawienia."
+
+#: core/admin/api-settings.php:116 core/lang/wpbc_all_translations.php:17
+msgid "Single day"
+msgstr "Jeden dzień"
+
+#: core/lang/wpbc_all_translations1.php:77
+msgid "Range days"
+msgstr "Zakres dni"
+
+#: core/admin/api-settings.php:658 core/lang/wpbc_all_translations.php:69
+msgid "Check the box to activate CAPTCHA inside the booking form."
+msgstr "Zaznacz pole, aby włączyć CAPTCHA wewnątrz formularza rezerwacji."
+
+#: core/admin/api-settings.php:668 core/lang/wpbc_all_translations.php:71
+#: includes/page-form-simple/page-form-simple.php:544
+msgid "Auto-fill fields"
+msgstr "Automatyczne wypełnianie pól"
+
+#: core/admin/api-settings.php:669 core/lang/wpbc_all_translations.php:72
+#: includes/page-form-simple/page-form-simple.php:545
+msgid "Check the box to activate auto-fill form fields for logged in users."
+msgstr "Zaznacz pole, aby uaktywnić automatyczne wypełnianie pola formularza dla zalogowanych użytkowników."
+
+#: core/admin/api-settings.php:1517 core/lang/wpbc_all_translations.php:152
+msgid "Use CSS BootStrap"
+msgstr "Użyj CSS Bootstrap"
+
+#: core/lang/wpbc_all_translations.php:529
+msgid "You must not deactivate loading BootStrap files at advanced section of these settings!"
+msgstr "Nie wolno wyłączyć ładowania plików Bootstrap w zaawansowanej części tych ustawień!"
+
+#: core/admin/api-settings.php:819 core/lang/wpbc_all_translations.php:88
+msgid "Message title"
+msgstr "Tytuł wiadomości"
+
+#: core/lang/wpbc_all_translations.php:531
+msgid "Type title of message %safter booking has done by user%s"
+msgstr "Wpisz tytul wiadomości %spo rezerwacji przez klienta%s"
+
+#: core/admin/wpbc-toolbars.php:367 core/lang/wpbc_all_translations.php:466
+msgid "Technical Support"
+msgstr "Wsparcie techniczne"
+
+#: core/admin/wpbc-toolbars.php:294 core/admin/wpbc-toolbars.php:1165
+#: core/lang/wpbc_all_translations.php:462
+#: includes/_toolbar_ui/toolbar_ui.php:2248
+msgid "Emails sending"
+msgstr "Wysyłanie wiadomości e-mail"
+
+#: core/admin/wpbc-toolbars.php:330 core/lang/wpbc_all_translations.php:464
+#: includes/page-bookings/bookings__listing.php:298
+#: includes/page-bookings/bookings__listing.php:439
+msgid "Booking ID"
+msgstr "Numer rezerwacji"
+
+#: core/admin/wpbc-toolbars.php:333 core/admin/wpbc-toolbars.php:1555
+#: core/lang/wpbc_all_translations.php:465
+msgid "Go"
+msgstr "Idź"
+
+#: core/lang/wpbc_all_translations1.php:171
+#: includes/_toolbar_ui/toolbar_ui.php:774
+msgid "Status"
+msgstr "Status"
+
+#: core/admin/page-ics-general.php:205 core/lang/wpbc_all_translations.php:299
+msgid "All bookings"
+msgstr "Wszystkie rezerwacje"
+
+#: core/admin/page-email-new-admin.php:564
+#: core/admin/page-email-new-visitor.php:558
+#: core/lang/wpbc_all_translations.php:258
+msgid "New Booking"
+msgstr "Nowa rezerwacja"
+
+#: core/admin/api-settings.php:1721 core/lang/wpbc_all_translations.php:180
+#: core/lib/wpdev-booking-widget.php:136
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:90
+#: js/wpbc-gutenberg.js:1533
+msgid "Show"
+msgstr "Pokaż"
+
+#: core/lang/wpbc_all_translations1.php:997
+#: includes/_toolbar_ui/toolbar_ui.php:1709
+msgid "Approve selected bookings"
+msgstr "Zatwierdzić wybrane rezerwacje"
+
+#: core/lang/wpbc_all_translations.php:656
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2994
+#: includes/page-bookings/bookings__actions.php:3040
+#: includes/_toolbar_ui/toolbar_ui.php:1708
+msgid "Approve"
+msgstr "Zatwierdź"
+
+#: core/lang/wpbc_all_translations1.php:998
+#: includes/_toolbar_ui/toolbar_ui.php:1745
+msgid "Set selected bookings as pending"
+msgstr "Ustaw wybrane rezerwacje jako oczekujące"
+
+#: core/lang/wpbc_all_translations2.php:2
+#: includes/page-bookings/bookings__actions.php:3086
+#: includes/_toolbar_ui/toolbar_ui.php:1747
+msgid "Do you really want to set booking as pending ?"
+msgstr "Czy na pewno chcesz ustawić rezerwację jako oczekującą ?"
+
+#: core/lang/wpbc_all_translations2.php:5
+#: includes/_toolbar_ui/toolbar_ui.php:1859
+msgid "Delete selected bookings"
+msgstr "Usuń wybrane rezerwacje"
+
+#: core/lang/wpbc_all_translations.php:655
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2988
+#: includes/_toolbar_ui/toolbar_ui.php:1858
+msgid "Delete"
+msgstr "Usuń"
+
+#: core/lang/wpbc_all_translations2.php:8
+#: includes/_toolbar_ui/toolbar_ui.php:1915
+msgid "Mark as read all bookings"
+msgstr "Oznacz wszystkie rezerwacje jako przeczytane"
+
+#: core/lang/wpbc_all_translations2.php:7
+#: includes/_toolbar_ui/toolbar_ui.php:1914
+msgid "Read All"
+msgstr "Przeczytaj wszystkie"
+
+#: core/lang/wpbc_all_translations2.php:10
+#: includes/_toolbar_ui/toolbar_ui.php:1951
+msgid "Mark as read selected bookings"
+msgstr "Oznacz wybrane rezerwacje jako przeczytane "
+
+#: core/lang/wpbc_all_translations2.php:9
+#: includes/_toolbar_ui/toolbar_ui.php:1950
+msgid "Read"
+msgstr "Czytaj"
+
+#: core/lang/wpbc_all_translations2.php:12
+#: includes/_toolbar_ui/toolbar_ui.php:1987
+msgid "Mark as Unread selected bookings"
+msgstr "Oznacz wybrane rezerwacje jako nieprzeczytane"
+
+#: core/lang/wpbc_all_translations2.php:11
+#: includes/_toolbar_ui/toolbar_ui.php:1986
+msgid "Unread"
+msgstr "Nieprzeczytane"
+
+#: core/lang/wpbc_all_translations2.php:116
+#: includes/page-bookings/bookings__listing.php:120
+msgid "Labels"
+msgstr "Etykiety"
+
+#: core/lang/wpbc_all_translations2.php:117
+#: includes/page-bookings/bookings__listing.php:121
+msgid "Booking Data"
+msgstr "Dane Rezerwacji"
+
+#: core/lang/wpbc_all_translations2.php:118
+#: includes/page-bookings/bookings__listing.php:122
+msgid "Booking Dates"
+msgstr "Daty Rezerwacji"
+
+#: core/lang/wpbc_all_translations2.php:119
+#: includes/page-bookings/bookings__listing.php:126
+msgid "Show ALL dates of booking"
+msgstr "Pokaż wszystkie daty rezerwacji"
+
+#: core/lang/wpbc_all_translations2.php:120
+#: includes/page-bookings/bookings__listing.php:132
+msgid "Show only check in/out dates"
+msgstr "Pokaż tylko daty zameldowania/wymeldowania"
+
+#: core/lang/wpbc_all_translations2.php:121
+#: includes/page-bookings/bookings__listing.php:234
+#: includes/page-bookings/bookings__sql.php:1732
+#: includes/page-bookings/bookings__sql.php:1940
+#: includes/page-bookings/bookings__sql.php:1991
+msgid "Resource not exist"
+msgstr "Zasób nie istnieje"
+
+#: core/lang/wpbc_all_translations1.php:128
+#: includes/_toolbar_ui/toolbar_ui.php:1477
+msgid "Paid OK"
+msgstr "Opłacony"
+
+#: core/lang/wpbc_all_translations2.php:100
+#: includes/page-bookings/bookings__actions.php:3000
+msgid "Do you really want to delete this booking ?"
+msgstr "Czy na pewno chcesz usunąć tę rezerwację?"
+
+#: core/admin/wpbc-toolbars.php:493 core/admin/wpbc-toolbars.php:547
+#: core/lang/wpbc_all_translations.php:471
+msgid "Show month"
+msgstr "Pokaż miesiąc"
+
+#: core/admin/api-settings.php:1124 core/admin/api-settings.php:1131
+#: core/admin/wpbc-toolbars.php:492 core/admin/wpbc-toolbars.php:546
+#: core/lang/wpbc_all_translations.php:105
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2860
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2879
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:148
+msgid "Month"
+msgstr "Miesiąc"
+
+#: core/admin/wpbc-toolbars.php:459 core/admin/wpbc-toolbars.php:519
+#: core/lang/wpbc_all_translations.php:469
+msgid "Show day"
+msgstr "Pokaż dzień"
+
+#: core/admin/api-settings.php:1122 core/admin/wpbc-toolbars.php:458
+#: core/admin/wpbc-toolbars.php:518 core/lang/wpbc_all_translations.php:103
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2852
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2871
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:145
+msgid "Day"
+msgstr "Dzień"
+
+#: core/admin/wpbc-toolbars.php:476 core/admin/wpbc-toolbars.php:533
+#: core/lang/wpbc_all_translations.php:470
+msgid "Show week"
+msgstr "Pokaż tydzień"
+
+#: core/admin/api-settings.php:1123 core/admin/wpbc-toolbars.php:475
+#: core/admin/wpbc-toolbars.php:532 core/lang/wpbc_all_translations.php:104
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2856
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2875
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:146
+msgid "Week"
+msgstr "Tydzień"
+
+#: core/admin/wpbc-toolbars.php:561 core/lang/wpbc_all_translations.php:472
+msgid "Show 2 months"
+msgstr "Pokaż 2 miesiące"
+
+#: core/admin/api-settings.php:1125 core/admin/wpbc-toolbars.php:560
+#: core/lang/wpbc_all_translations.php:106
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:150
+msgid "2 Months"
+msgstr "2 Miesiące"
+
+#: core/admin/wpbc-toolbars.php:618 core/admin/wpbc-toolbars.php:687
+#: core/lang/wpbc_all_translations.php:473
+msgid "Previous 4 weeks"
+msgstr "Poprzednie 4 tygodnie"
+
+#: core/admin/wpbc-toolbars.php:619 core/admin/wpbc-toolbars.php:688
+#: core/lang/wpbc_all_translations.php:474
+msgid "Previous week"
+msgstr "Poprzedni tydzień"
+
+#: core/admin/wpbc-toolbars.php:620 core/admin/wpbc-toolbars.php:642
+#: core/admin/wpbc-toolbars.php:689 core/lang/wpbc_all_translations.php:475
+msgid "Current week"
+msgstr "Aktualny tydzień"
+
+#: core/admin/wpbc-toolbars.php:622 core/admin/wpbc-toolbars.php:691
+#: core/lang/wpbc_all_translations.php:477
+msgid "Next 4 weeks"
+msgstr "Następne 4 tygodnie"
+
+#: core/admin/wpbc-toolbars.php:654 core/admin/wpbc-toolbars.php:704
+#: core/admin/wpbc-toolbars.php:719 core/lang/wpbc_all_translations.php:480
+msgid "Previous 3 months"
+msgstr "Poprzednie 3 miesiące"
+
+#: core/admin/wpbc-toolbars.php:655 core/admin/wpbc-toolbars.php:705
+#: core/admin/wpbc-toolbars.php:720 core/lang/wpbc_all_translations.php:481
+msgid "Previous month"
+msgstr "Poprzedni miesiąc"
+
+#: core/admin/wpbc-toolbars.php:657 core/admin/wpbc-toolbars.php:707
+#: core/admin/wpbc-toolbars.php:722 core/lang/wpbc_all_translations.php:483
+msgid "Next month"
+msgstr "Następny miesiąc"
+
+#: core/admin/wpbc-toolbars.php:658 core/admin/wpbc-toolbars.php:708
+#: core/admin/wpbc-toolbars.php:723 core/lang/wpbc_all_translations.php:484
+msgid "Next 3 months"
+msgstr "Następne 3 miesiące"
+
+#: core/admin/wpbc-toolbars.php:672 core/lang/wpbc_all_translations.php:485
+msgid "Previous 7 days"
+msgstr "Poprzednie 7 dni"
+
+#: core/admin/wpbc-toolbars.php:673 core/lang/wpbc_all_translations.php:486
+msgid "Previous day"
+msgstr "Poprzedni dzień"
+
+#: core/admin/wpbc-toolbars.php:674 core/lang/wpbc_all_translations.php:487
+msgid "Current day"
+msgstr "Bieżący dzień"
+
+#: core/admin/wpbc-toolbars.php:675 core/lang/wpbc_all_translations.php:488
+msgid "Next day"
+msgstr "Następny dzień"
+
+#: core/admin/wpbc-toolbars.php:676 core/lang/wpbc_all_translations.php:489
+msgid "Next 7 days"
+msgstr "Następne 7 dni"
+
+#: core/lang/wpbc_all_translations2.php:98
+#: includes/page-bookings/bookings__actions.php:2821
+msgid "Default Locale"
+msgstr "Domyślna lokalizacja"
+
+#: core/admin/api-settings.php:276 core/admin/page-email-deny.php:579
+#: core/lang/wpbc_all_translations.php:35
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2997
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3050
+#: core/wpbc-activation.php:1201
+#: includes/page-bookings/bookings__actions.php:3082
+#: includes/page-bookings/bookings__listing.php:241
+#: includes/_toolbar_ui/toolbar_ui.php:777
+#: includes/_toolbar_ui/toolbar_ui.php:1744
+msgid "Pending"
+msgstr "Oczekujące"
+
+#: core/lang/wpbc_all_translations.php:749 core/wpbc_functions.php:544
+#: includes/_pagination/pagination.php:159
+msgid "Prev"
+msgstr "Poprzednie"
+
+#: core/lang/wpbc_all_translations.php:652
+#: core/timeline/v2/wpbc-class-timeline_v2.php:95
+#: core/timeline/v2/wpbc-class-timeline_v2.php:104
+#: core/timeline/v2/wpbc-class-timeline_v2.php:113
+msgid "Sun"
+msgstr "niedz."
+
+#: core/admin/page-ics-general.php:335 core/admin/page-settings.php:74
+#: core/lang/wpbc_all_translations.php:314
+#: includes/_functions/admin_top_bar.php:273
+msgid "General"
+msgstr "Ogólne"
+
+#: core/lang/wpbc_all_translations.php:659
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3172
+#: includes/page-bookings/bookings__listing.php:441
+msgid "Created"
+msgstr "Utworzono"
+
+#: core/lang/wpbc_all_translations.php:651
+#: core/timeline/v2/wpbc-class-timeline_v2.php:94
+#: core/timeline/v2/wpbc-class-timeline_v2.php:103
+#: core/timeline/v2/wpbc-class-timeline_v2.php:112
+msgid "Sat"
+msgstr "sob."
+
+#: core/lang/wpbc_all_translations.php:650
+#: core/timeline/v2/wpbc-class-timeline_v2.php:93
+#: core/timeline/v2/wpbc-class-timeline_v2.php:102
+#: core/timeline/v2/wpbc-class-timeline_v2.php:111
+msgid "Fri"
+msgstr "pt."
+
+#: core/admin/api-settings.php:99 core/admin/api-settings.php:562
+#: core/lang/wpbc_all_translations.php:11
+#: core/timeline/v2/wpbc-class-timeline_v2.php:80
+msgid "Monday"
+msgstr "poniedziałek"
+
+#: core/admin/page-email-approved.php:583
+#: core/lang/wpbc_all_translations.php:234
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3053
+#: includes/page-bookings/bookings__listing.php:240
+#: includes/_toolbar_ui/toolbar_ui.php:778
+msgid "Approved"
+msgstr "Zatwierdzono"
+
+#: core/admin/page-email-new-admin.php:543
+#: core/lang/wpbc_all_translations.php:257
+#: includes/page-settings-all/all__page.php:185
+#: includes/_functions/admin_top_bar.php:289
+#: includes/_toolbar_ui/ui__settings_panel.php:713
+msgid "Emails"
+msgstr "E-maile"
+
+#: core/lang/wpbc_all_translations.php:538
+#: includes/page-bookings/bookings__listing.php:120
+#: includes/page-form-simple/form_simple__timeslots.php:774
+#: includes/page-form-simple/page-form-simple.php:603
+#: includes/page-resource-free/page-resource-free.php:315
+#: includes/_toolbar_ui/toolbar_ui.php:69
+msgid "Actions"
+msgstr "Działania"
+
+#: core/lang/wpbc_all_translations.php:648
+#: core/timeline/v2/wpbc-class-timeline_v2.php:91
+#: core/timeline/v2/wpbc-class-timeline_v2.php:100
+#: core/timeline/v2/wpbc-class-timeline_v2.php:109
+msgid "Wed"
+msgstr "śr."
+
+#: core/admin/wpbc-toolbars.php:656 core/admin/wpbc-toolbars.php:706
+#: core/admin/wpbc-toolbars.php:721 core/lang/wpbc_all_translations.php:482
+msgid "Current month"
+msgstr "Bieżący miesiąc"
+
+#: core/lang/wpbc_all_translations1.php:979
+#: includes/_toolbar_ui/toolbar_ui.php:785
+#: includes/_toolbar_ui/toolbar_ui.php:1149
+#: includes/_toolbar_ui/toolbar_ui.php:1194
+msgid "Any"
+msgstr "Dowolne"
+
+#: core/admin/api-settings.php:313 core/lang/wpbc_all_translations.php:38
+#: core/wpbc-activation.php:1205
+msgid "Booked"
+msgstr "Zarezerwowano"
+
+#: core/lang/wpbc_all_translations.php:646
+#: core/timeline/v2/wpbc-class-timeline_v2.php:89
+#: core/timeline/v2/wpbc-class-timeline_v2.php:98
+#: core/timeline/v2/wpbc-class-timeline_v2.php:107
+msgid "Mon"
+msgstr "pon."
+
+#: core/lang/wpbc_all_translations1.php:129
+#: includes/page-bookings/bookings__sql.php:1817
+msgid "Unknown"
+msgstr "Nieznane"
+
+#: core/lang/wpbc_all_translations1.php:650
+msgid "Payment Settings"
+msgstr "Ustawienia płatności"
+
+#: core/lang/wpbc_all_translations1.php:958
+#: includes/_toolbar_ui/toolbar_ui.php:47
+msgid "Filters"
+msgstr "Filtry"
+
+#: core/admin/api-settings.php:364 core/admin/api-settings.php:458
+#: core/admin/api-settings.php:531 core/admin/api-settings.php:660
+#: core/admin/api-settings.php:1427 core/admin/page-ics-export.php:470
+#: core/lang/wpbc_all_translations.php:43
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3143 js/wpbc-gutenberg.js:1094
+msgid "Note"
+msgstr "Notatka"
+
+#: core/admin/api-settings.php:100 core/admin/api-settings.php:565
+#: core/lang/wpbc_all_translations.php:12
+#: core/timeline/v2/wpbc-class-timeline_v2.php:81
+msgid "Tuesday"
+msgstr "wtorek"
+
+#: core/admin/api-settings.php:102 core/admin/api-settings.php:571
+#: core/lang/wpbc_all_translations.php:14
+#: core/timeline/v2/wpbc-class-timeline_v2.php:83
+msgid "Thursday"
+msgstr "czwartek"
+
+#: core/lang/wpbc_all_translations.php:658
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3082
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3084
+#: includes/page-bookings/bookings__sql.php:1834
+msgid "Payment"
+msgstr "Płatność"
+
+#: core/admin/wpbc-dashboard.php:439 core/lang/wpbc_all_translations.php:434
+msgid "Contact email"
+msgstr "Adres e-mail do kontaktu"
+
+#: core/lang/wpbc_all_translations.php:864
+#: includes/page-settings-all/all__page.php:56
+#: includes/page-settings-all/all__page.php:57
+msgid "Search Settings"
+msgstr "Ustawienia wyszukiwania"
+
+#: core/admin/wpbc-toolbars.php:621 core/admin/wpbc-toolbars.php:690
+#: core/lang/wpbc_all_translations.php:476
+msgid "Next week"
+msgstr "Następny tydzień"
+
+#: core/lang/wpbc_all_translations.php:647
+#: core/timeline/v2/wpbc-class-timeline_v2.php:90
+#: core/timeline/v2/wpbc-class-timeline_v2.php:99
+#: core/timeline/v2/wpbc-class-timeline_v2.php:108
+msgid "Tue"
+msgstr "wt."
+
+#: core/lang/wpbc_all_translations.php:649
+#: core/timeline/v2/wpbc-class-timeline_v2.php:92
+#: core/timeline/v2/wpbc-class-timeline_v2.php:101
+#: core/timeline/v2/wpbc-class-timeline_v2.php:110
+msgid "Thu"
+msgstr "czw."
+
+#: core/admin/page-ics-general.php:461 core/admin/page-ics-general.php:468
+#: core/admin/page-settings.php:139 core/admin/page-settings.php:362
+#: core/admin/page-settings.php:584 core/lang/wpbc_all_translations.php:317
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:247
+#: includes/ui_modal__shortcodes/sh_tpl_booking_calendar.php:116
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:127
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:121
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:219
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:120
+#: includes/_toolbar_ui/ui__settings_panel.php:245
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: core/lang/wpbc_all_translations.php:888
+msgid "Nothing found."
+msgstr "Niczego nie znaleziono."
+
+#: core/admin/page-email-approved.php:770 core/admin/page-email-deleted.php:768
+#: core/admin/page-email-deny.php:766 core/admin/page-email-new-admin.php:750
+#: core/admin/page-email-new-visitor.php:744
+#: core/admin/page-email-trash.php:773 core/lang/wpbc_all_translations.php:244
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: core/admin/api-settings.php:104 core/admin/api-settings.php:577
+#: core/lang/wpbc_all_translations.php:16
+#: core/timeline/v2/wpbc-class-timeline_v2.php:85
+msgid "Saturday"
+msgstr "sobota"
+
+#: core/admin/api-settings.php:101 core/admin/api-settings.php:568
+#: core/lang/wpbc_all_translations.php:13
+#: core/timeline/v2/wpbc-class-timeline_v2.php:82
+msgid "Wednesday"
+msgstr "środa"
+
+#: core/admin/api-settings.php:98 core/admin/api-settings.php:559
+#: core/lang/wpbc_all_translations.php:10
+#: core/timeline/v2/wpbc-class-timeline_v2.php:86
+msgid "Sunday"
+msgstr "niedziela"
+
+#: core/admin/page-up.php:38 core/admin/wpbc-dashboard.php:618
+#: core/lang/wpbc_all_translations.php:426
+msgid "Upgrade"
+msgstr "Ulepszenie"
+
+#: core/lang/wpbc_all_translations1.php:323
+msgid "fields"
+msgstr "pola"
+
+#: core/admin/api-settings.php:1126 core/admin/api-settings.php:1132
+#: core/lang/wpbc_all_translations.php:107
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:152
+msgid "3 Months"
+msgstr "3 miesiące"
+
+#: core/admin/api-settings.php:657 core/lang/wpbc_all_translations.php:68
+#: includes/page-form-simple/page-form-simple.php:574
+msgid "CAPTCHA"
+msgstr "Captcha"
+
+#: core/admin/api-settings.php:1518 core/lang/wpbc_all_translations.php:153
+msgid "Using BootStrap CSS for the form fields"
+msgstr "Korzystaj z CSS Bootstrap dla pól formularza"
+
+#: core/admin/page-settings.php:106 core/lang/wpbc_all_translations.php:398
+msgid "Form"
+msgstr "Formularz"
+
+#: core/admin/api-settings.php:76 core/admin/api-settings.php:77
+#: core/lang/wpbc_all_translations.php:4
+msgid "month(s)"
+msgstr "miesiąc(e)"
+
+#: core/admin/api-settings.php:353 core/lang/wpbc_all_translations.php:41
+#: core/lib/wpbc-calendar-legend.php:145 core/wpbc-activation.php:1216
+#: includes/page-setup/template__bookings_types__action.php:113
+msgid "Partially booked"
+msgstr "Częściowo zarezerwowane"
+
+#: core/admin/api-settings.php:122 core/lang/wpbc_all_translations.php:18
+msgid "Multiple days"
+msgstr "Wiele dni"
+
+#: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
+#: core/admin/page-ics-general.php:445 core/admin/page-import-gcal.php:529
+#: core/admin/page-settings.php:75 core/admin/page-settings.php:76
+#: core/lang/wpbc_all_translations.php:315 core/wpbc.php:262
+#: includes/page-settings-all/all__page.php:40
+#: includes/page-settings-all/all__page.php:41
+msgid "General Settings"
+msgstr "Ustawienia ogólne"
+
+#: core/admin/wpbc-dashboard.php:413 core/lang/wpbc_all_translations.php:429
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+#: core/admin/wpbc-dashboard.php:522 core/lang/wpbc_all_translations.php:437
+#: includes/_feedback/feedback.php:567
+msgid "website"
+msgstr "witryna internetowa"
+
+#: core/lang/wpbc_all_translations2.php:206 js/wpbc-gutenberg.js:1302
+msgid "Booking Calendar Editing"
+msgstr "Edycja kalendarza rezerwacji"
+
+#: core/admin/wpbc-toolbars.php:266 core/lang/wpbc_all_translations.php:461
+msgid "Collapse Advanced Toolbar"
+msgstr "Zwiń zaawansowany pasek narzędzi"
+
+#: core/admin/wpbc-toolbars.php:369 core/lang/wpbc_all_translations.php:467
+msgid "About Booking Calendar"
+msgstr "O Kalendarzu Rezerwacji"
+
+#: core/admin/wpbc-dashboard.php:436 core/admin/wpbc-toolbars.php:366
+#: core/lang/wpbc_all_translations.php:433
+msgid "FAQ"
+msgstr "Najczęściej zadawane pytania"
+
+#: core/admin/page-email-approved.php:678 core/admin/page-email-deleted.php:676
+#: core/admin/page-email-deny.php:674 core/admin/page-email-new-admin.php:659
+#: core/admin/page-email-new-visitor.php:652
+#: core/admin/page-email-trash.php:681 core/admin/page-ics-import.php:196
+#: core/admin/page-import-gcal.php:596 core/admin/wpbc-toolbars.php:359
+#: core/admin/wpbc-toolbars.php:365 core/lang/wpbc_all_translations.php:239
+msgid "Help"
+msgstr "Pomoc"
+
+#: core/admin/wpbc-toolbars.php:397 core/lang/wpbc_all_translations.php:468
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2952
+#: includes/page-bookings/bookings__page.php:40
+#: includes/page-bookings/bookings__page.php:41
+#: includes/page-bookings/bookings__page.php:42
+#: includes/_functions/admin_top_bar.php:81
+msgid "Booking Listing"
+msgstr "Lista rezerwacji"
+
+#: core/admin/wpbc-toolbars.php:785 core/lang/wpbc_all_translations.php:490
+#: js/wpbc-gutenberg.js:868
+msgid "Start Date"
+msgstr "Data rozpoczęcia"
+
+#: core/admin/api-settings.php:1232 core/admin/api-settings.php:1294
+#: core/admin/wpbc-toolbars.php:766 core/lang/wpbc_all_translations.php:126
+#: includes/_toolbar_ui/toolbar_ui.php:1497
+msgid "Custom"
+msgstr "Własne"
+
+#: core/lang/wpbc_all_translations1.php:977
+#: includes/_toolbar_ui/toolbar_ui.php:600
+#: includes/_toolbar_ui/toolbar_ui.php:1283
+msgid "Prior"
+msgstr "Poprzedni"
+
+#: core/lang/wpbc_all_translations1.php:969
+#: includes/_toolbar_ui/toolbar_ui.php:437
+msgid "Check-in"
+msgstr "Zameldowanie"
+
+#: core/lang/wpbc_all_translations1.php:970
+#: includes/_toolbar_ui/toolbar_ui.php:453
+msgid "Check-out"
+msgstr "Wymeldowanie"
+
+#: core/admin/wpbc-toolbars.php:798 core/lang/wpbc_all_translations.php:491
+#: includes/page-availability/availability__toolbar_ui.php:215
+#: includes/_toolbar_ui/toolbar_ui.php:481
+#: includes/_toolbar_ui/toolbar_ui.php:698
+#: includes/_toolbar_ui/toolbar_ui.php:1381
+#: includes/_toolbar_ui/toolbar_ui.php:1538
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: core/lang/wpbc_all_translations1.php:976
+#: includes/_toolbar_ui/toolbar_ui.php:527
+msgid "Today check in/out"
+msgstr "Dzisiejsze rezerwacje/rezygnacje"
+
+#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/lang/wpbc_all_translations.php:479 core/wpbc_functions.php:577
+#: includes/_feedback/feedback.php:222 includes/_feedback/feedback.php:266
+#: includes/_feedback/feedback.php:287 includes/_feedback/feedback.php:324
+#: includes/_pagination/pagination.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:556 includes/_tour/wpbc_tour.php:175
+msgid "Next"
+msgstr "Następny"
+
+#: core/lang/wpbc_all_translations1.php:974
+#: includes/_toolbar_ui/toolbar_ui.php:522
+msgid "Previous dates"
+msgstr "Poprzednie daty"
+
+#: core/lang/wpbc_all_translations1.php:975
+#: includes/_toolbar_ui/toolbar_ui.php:523
+#: includes/_toolbar_ui/toolbar_ui.php:1262
+msgid "All dates"
+msgstr "Wszystkie daty"
+
+#: core/lang/wpbc_all_translations1.php:972
+#: includes/_toolbar_ui/toolbar_ui.php:520
+msgid "Current dates"
+msgstr "Aktualne daty"
+
+#: core/lang/wpbc_all_translations1.php:973
+#: includes/_toolbar_ui/toolbar_ui.php:521
+#: includes/_toolbar_ui/toolbar_ui.php:1261
+msgid "Today"
+msgstr "Dzisiaj"
+
+#: core/admin/api-settings.php:1127 core/admin/api-settings.php:1133
+#: core/lang/wpbc_all_translations.php:108
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:153
+#: includes/_toolbar_ui/toolbar_ui.php:386
+#: includes/_toolbar_ui/toolbar_ui.php:1247
+msgid "Year"
+msgstr "Rok"
+
+#: core/lang/wpbc_all_translations1.php:967
+#: includes/_toolbar_ui/toolbar_ui.php:382
+#: includes/_toolbar_ui/toolbar_ui.php:1243
+msgid "month"
+msgstr "miesiąc"
+
+#: core/lang/wpbc_all_translations1.php:966
+#: includes/_toolbar_ui/toolbar_ui.php:381
+#: includes/_toolbar_ui/toolbar_ui.php:1242
+msgid "weeks"
+msgstr "tygodnie"
+
+#: core/lang/wpbc_all_translations1.php:968
+#: includes/_toolbar_ui/toolbar_ui.php:383
+#: includes/_toolbar_ui/toolbar_ui.php:384
+#: includes/_toolbar_ui/toolbar_ui.php:385
+#: includes/_toolbar_ui/toolbar_ui.php:1244
+#: includes/_toolbar_ui/toolbar_ui.php:1245
+#: includes/_toolbar_ui/toolbar_ui.php:1246
+msgid "months"
+msgstr "miesiące"
+
+#: core/lang/wpbc_all_translations1.php:857
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:657
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:672
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:878
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1030
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1281
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1422
+msgid "Code Example"
+msgstr "Przykładowy kod"
+
+#: core/lang/wpbc_all_translations1.php:965
+#: includes/_toolbar_ui/toolbar_ui.php:380
+#: includes/_toolbar_ui/toolbar_ui.php:1241
+msgid "week"
+msgstr "tydzień"
+
+#: core/lang/wpbc_all_translations.php:926
+msgid "Description"
+msgstr "Opis"
+
+#: core/admin/wpbc-toolbars.php:133 core/lang/wpbc_all_translations.php:458
+#: includes/page-availability/availability__page.php:110
+#: includes/page-form-simple/page-form-simple.php:234
+#: includes/page-form-simple/page-form-simple.php:235
+#: includes/page-resource-free/page-resource-free.php:237
+#: includes/_toolbar_ui/toolbar_ui.php:94 js/wpbc-gutenberg.js:672
+#: js/wpbc-gutenberg.js:764 js/wpbc-gutenberg.js:960
+msgid "Options"
+msgstr "Opcje"
+
+#: core/lang/wpbc_all_translations1.php:841
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:332
+msgid "Select number of month to show for calendar."
+msgstr "Wybierz liczbę miesięcy w kalendarzu"
+
+#: core/lang/wpbc_all_translations1.php:850
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:478
+msgid "Start month:"
+msgstr "Początek miesiąca:"
+
+#: core/lang/wpbc_all_translations1.php:851
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:536
+msgid "Select start month of calendar"
+msgstr "Wybierz początek miesiąca w kalendarzu"
+
+#: core/lang/wpbc_all_translations.php:620
+#: core/lib/wpdev-booking-widget.php:140
+msgid "Booking form with calendar"
+msgstr "Formularz rezerwacji i kalendarz"
+
+#: core/lang/wpbc_all_translations.php:621
+#: core/lib/wpdev-booking-widget.php:141
+msgid "Only availability calendar"
+msgstr "Tylko dostępny kalendarz"
+
+#: core/admin/wpbc-dashboard.php:907 core/lang/wpbc_all_translations.php:457
+#: includes/_toolbar_ui/ui__settings_panel.php:1700
+#: includes/_toolbar_ui/ui__settings_panel.php:1740
+msgid "for"
+msgstr "dla "
+
+#: core/lang/wpbc_all_translations1.php:219
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:280
+msgid "Select booking resource"
+msgstr "Wybierz zasób rezerwacji"
+
+#: core/lang/wpbc_all_translations.php:730 core/wpbc.php:226
+msgid "Booking resources"
+msgstr "Rezerwacja zasobów"
+
+#: core/lang/wpbc_all_translations.php:588
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3019
+#: includes/page-bookings/bookings__actions.php:2216
+#: includes/page-bookings/bookings__actions.php:2381
+#: includes/page-bookings/bookings__actions.php:2734
+#: includes/page-bookings/bookings__actions.php:3239
+#: includes/page-bookings/bookings__actions.php:3347
+#: includes/page-form-simple/page-form-simple.php:1130
+#: includes/page-form-simple/page-form-simple.php:1144
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: core/lang/wpbc_all_translations.php:769 core/wpbc_welcome.php:331
+msgid "Check %sBooking Listing%s page for new bookings."
+msgstr "Sprawdź %sstronę listy rezerwacji%s aby zobaczyć nowe rezerwacje."
+
+#: core/lang/wpbc_all_translations.php:771 core/wpbc_welcome.php:347
+msgid "Have a questions?"
+msgstr "Masz pytania ?"
+
+#: core/lang/wpbc_all_translations.php:772 core/wpbc_welcome.php:350
+msgid "See %sFAQ%s."
+msgstr "Zobacz %snajczęściej zadawane pytania%s."
+
+#: core/lang/wpbc_all_translations.php:733 core/wpbc.php:295 core/wpbc.php:314
+msgid "Need even more functionality? Check %s higher versions %s"
+msgstr "Potrzebujesz jeszcze więcej funkcji? Sprawdź %s wyższe wersje %s"
+
+#: core/lang/wpbc_all_translations1.php:953
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:35
+msgid "Insert booking calendar"
+msgstr "Wstaw kalendarz rezerwacji"
+
+#: core/lang/wpbc_all_translations1.php:954
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:36
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:316
+msgid "Booking calendar"
+msgstr "Kalendarz rezerwacji"
+
+#: core/lang/wpbc_all_translations2.php:307
+msgid "Ok"
+msgstr "Dobrze"
+
+#: core/lang/wpbc_all_translations.php:767 core/wpbc_welcome.php:317
+msgid "Next Steps"
+msgstr "Następne kroki"
+
+#: core/lang/wpbc_all_translations.php:715 core/wpbc-js-vars.php:99
+msgid "Please, select booking date(s) at Calendar."
+msgstr "Proszę wybrać datę rezerwacji w kalendarzu."
+
+#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/lang/wpbc_all_translations.php:515
+msgid "Purchase"
+msgstr "Kup"
+
+#: core/lang/wpbc_all_translations.php:761 core/wpbc_welcome.php:267
+msgid "We&#8217;ve assembled some links to get you started:"
+msgstr "Kilka linków które można zobaczyć na początek:"
+
+#: core/lang/wpbc_all_translations.php:762 core/wpbc_welcome.php:270
+msgid "Get Started"
+msgstr "Rozpocznij"
+
+#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/lang/wpbc_all_translations.php:516
+msgid "Upgrade Now"
+msgstr "Ulepsz teraz"
+
+#: core/lang/wpbc_all_translations2.php:18
+#: includes/_toolbar_ui/toolbar_ui.php:2134
+msgid "Export only current page of bookings to CSV format"
+msgstr "Eksport tylko aktualnej strony z rezerwacją do formatu CSV"
+
+#: core/lang/wpbc_all_translations.php:710 core/wpbc-js-vars.php:94
+msgid "This field is required"
+msgstr "To pole jest wymagane"
+
+#: core/lang/wpbc_all_translations.php:711 core/wpbc-js-vars.php:95
+msgid "This checkbox must be checked"
+msgstr "To pole wyboru musi być zaznaczone"
+
+#: core/lang/wpbc_all_translations.php:712 core/wpbc-js-vars.php:96
+msgid "At least one option must be selected"
+msgstr "Co najmniej jedną z opcji musi być zaznaczona"
+
+#: core/admin/page-ics-export.php:44 core/admin/page-ics-general.php:318
+#: core/admin/page-ics-general.php:452 core/admin/page-ics-general.php:461
+#: core/admin/page-ics-import.php:42 core/admin/page-ics-import.php:59
+#: core/admin/page-ics-import.php:60 core/admin/page-ics-import.php:62
+#: core/admin/page-ics-import.php:188 core/admin/page-ics-import.php:471
+#: core/admin/page-import-gcal.php:430 core/lang/wpbc_all_translations.php:270
+#: includes/_toolbar_ui/toolbar_ui.php:2053
+msgid "Import"
+msgstr "Import"
+
+#: core/admin/page-import-gcal.php:447 core/admin/page-import-gcal.php:448
+#: core/admin/page-import-gcal.php:449 core/lang/wpbc_all_translations.php:392
+#: includes/page-bookings/bookings__actions.php:3511
+#: includes/_toolbar_ui/toolbar_ui.php:2055
+#: includes/_toolbar_ui/ui__settings_panel.php:852
+msgid "Import Google Calendar Events"
+msgstr "Importuj wydarzenia z kalendarza google"
+
+#: core/admin/wpbc-toolbars.php:818 core/lang/wpbc_all_translations.php:492
+#: includes/page-bookings/bookings__actions.php:2217
+#: includes/page-bookings/bookings__actions.php:2382
+#: includes/page-bookings/bookings__actions.php:2735
+#: includes/page-bookings/bookings__actions.php:3240
+#: includes/page-bookings/bookings__actions.php:3348
+#: includes/page-bookings/bookings__actions.php:3430
+#: includes/page-bookings/bookings__actions.php:3513
+#: includes/page-bookings/bookings__actions.php:3626
+#: includes/page-form-simple/page-form-simple.php:959
+#: includes/print/bookings_print.php:103
+#: includes/publish/wpbc-publish-shortcode.php:327
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:279
+#: includes/_toolbar_ui/toolbar_ui.php:717
+#: includes/_toolbar_ui/toolbar_ui.php:1400
+#: includes/_toolbar_ui/toolbar_ui.php:1557
+msgid "Close"
+msgstr "Zamknij"
+
+#: core/lang/wpbc_all_translations2.php:90
+#: includes/page-bookings/bookings__actions.php:2032
+#: includes/page-bookings/bookings__actions.php:3477
+msgid "Please configure settings for import Google Calendar events"
+msgstr "Proszę skonfigurować ustawienia importu wydarzeń z kalendarza google"
+
+#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
+#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
+#: core/admin/page-email-new-visitor.php:491
+#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:233
+#: includes/page-bookings/bookings__actions.php:2033
+#: includes/page-bookings/bookings__actions.php:3478
+msgid "here"
+msgstr "tutaj"
+
+#: core/lang/wpbc_all_translations2.php:106
+#: includes/page-bookings/bookings__actions.php:3505
+msgid "Configure"
+msgstr "Konfiguruj"
+
+#: core/admin/page-import-gcal.php:119 core/lang/wpbc_all_translations.php:351
+msgid "Select time duration of import requests."
+msgstr "Wybierz czas trwania zapytań o import."
+
+#: core/lang/wpbc_all_translations2.php:105
+#: includes/page-bookings/bookings__actions.php:3471
+msgid "Retrieve Google Calendar Events "
+msgstr "Odzyskaj wydarzenia kalendarza google"
+
+#: core/admin/page-ics-export.php:140 core/class/wpbc-class-notices.php:25
+#: core/lang/wpbc_all_translations.php:273
+#: includes/page-bookings/bookings__actions.php:3470
+msgid "Warning!"
+msgstr "Uwaga!"
+
+#: core/lang/wpbc_all_translations.php:682 core/wpbc-emails.php:221
+#: includes/_toolbar_ui/toolbar_ui.php:374
+#: includes/_toolbar_ui/toolbar_ui.php:1235
+msgid "day"
+msgstr "dzień"
+
+#: core/admin/page-ics-general.php:159 core/lang/wpbc_all_translations.php:290
+#: core/sync/wpbc-gcal.php:265
+msgid "Select a city in your required timezone, if you are having problems with dates and times."
+msgstr "Wybierz miasto w wymaganej strefie czasowej, jeśli masz problemy z datami i godzinami."
+
+#: core/admin/page-import-gcal.php:60 core/lang/wpbc_all_translations.php:341
+msgid "Activate auto import"
+msgstr "Aktywuj automatyczne importowanie"
+
+#: core/admin/page-import-gcal.php:61 core/lang/wpbc_all_translations.php:342
+msgid "Check this box to %sactivate%s auto import events and creation bookings from them"
+msgstr "Zaznacz to pole, aby %saktywować%s automatyczny import wydarzeń i tworzonych w nich rezerwacji"
+
+#: core/admin/page-import-gcal.php:118 core/lang/wpbc_all_translations.php:350
+msgid "Import events every"
+msgstr "Importuj wydarzenia co"
+
+#: core/admin/page-import-gcal.php:87 core/admin/page-import-gcal.php:89
+#: core/lang/wpbc_all_translations.php:344
+#: includes/page-form-simple/form_simple__timeslots.php:202
+msgid "hour"
+msgstr "godzina"
+
+#: core/admin/page-ics-general.php:131 core/lang/wpbc_all_translations.php:288
+#: core/sync/wpbc-gcal.php:235 includes/_capacity/resource_support.php:45
+msgid "Default"
+msgstr "Domyślne"
+
+#: core/admin/page-import-gcal.php:136 core/lang/wpbc_all_translations.php:353
+msgid "Please enter your Google API key. This field required to import events."
+msgstr "Podaj swój klucz API Google. Pole wymagane do importowania wydarzeń."
+
+#: core/admin/page-import-gcal.php:139 core/lang/wpbc_all_translations.php:355
+msgid "You can check in this %sinstruction how to generate and use your Google API key%s."
+msgstr "Możesz sprawdzić w instrukcji, %sjak wygenerować i wykorzystać swój klucz API Google%s."
+
+#: core/admin/page-ics-general.php:158 core/lang/wpbc_all_translations.php:289
+#: core/sync/wpbc-gcal.php:230
+msgid "Timezone"
+msgstr "Strefa czasowa"
+
+#: core/admin/page-import-gcal.php:256 core/admin/page-import-gcal.php:338
+#: core/lang/wpbc_all_translations.php:371 core/sync/wpbc-gcal.php:136
+msgid "You can specify an additional offset from you chosen start point. The offset can be negative."
+msgstr "Można podać dodatkowe przesunięcie z wybranego punktu startowego. Przesunięcie to może być ujemne."
+
+#: core/admin/page-import-gcal.php:259 core/admin/page-import-gcal.php:341
+#: core/lang/wpbc_all_translations.php:372 core/sync/wpbc-gcal.php:139
+#: core/sync/wpbc-gcal.php:203
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:275
+msgid "Type your date in format %s. Example: %s"
+msgstr "Wpisz datę w formacie %s. Przykład: %s"
+
+#: core/admin/page-import-gcal.php:281 core/lang/wpbc_all_translations.php:374
+#: core/sync/wpbc-gcal.php:156
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:63
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:60
+msgid "Until"
+msgstr "Do"
+
+#: core/admin/page-import-gcal.php:275 core/lang/wpbc_all_translations.php:373
+#: core/sync/wpbc-gcal.php:174
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:59
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:56
+msgid "The end of time"
+msgstr "Czas zakończenia"
+
+#: core/admin/page-import-gcal.php:282 core/lang/wpbc_all_translations.php:375
+#: core/sync/wpbc-gcal.php:182
+msgid "Select option, when to stop retrieving events."
+msgstr "Wybierz opcję, kiedy zatrzymać pobieranie wydarzeń."
+
+#: core/lang/wpbc_all_translations.php:645 core/sync/wpbc-gcal.php:200
+msgid "You can specify an additional offset from you chosen end point. The offset can be negative."
+msgstr "Można podać dodatkowe przesunięcie z wybranego punktu końcowego. Przesunięcie to może być ujemne."
+
+#: core/admin/page-import-gcal.php:178 core/lang/wpbc_all_translations.php:357
+#: core/sync/wpbc-gcal.php:216
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:386
+msgid "Maximum number"
+msgstr "Maksymalna liczba"
+
+#: core/admin/page-import-gcal.php:179 core/lang/wpbc_all_translations.php:358
+#: core/sync/wpbc-gcal.php:219
+msgid "You can specify the maximum number of events to import during one session."
+msgstr "Możesz określić maksymalną liczbę importowanych wydarzeń  w trakcie jednej sesji."
+
+#: core/admin/page-import-gcal.php:135 core/lang/wpbc_all_translations.php:352
+msgid "Google API Key"
+msgstr "Klucz API Google"
+
+#: core/admin/page-import-gcal.php:85 core/admin/page-import-gcal.php:89
+#: core/admin/page-import-gcal.php:235 core/admin/page-import-gcal.php:317
+#: core/lang/wpbc_all_translations.php:343 core/sync/wpbc-gcal.php:127
+#: core/sync/wpbc-gcal.php:191
+#: includes/page-form-simple/form_simple__timeslots.php:203
+#: includes/page-form-simple/form_simple__timeslots.php:204
+#: includes/page-form-simple/form_simple__timeslots.php:205
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:266
+msgid "minutes"
+msgstr "minuty"
+
+#: core/admin/page-import-gcal.php:92 core/admin/page-import-gcal.php:236
+#: core/admin/page-import-gcal.php:318 core/lang/wpbc_all_translations.php:345
+#: core/sync/wpbc-gcal.php:128 core/sync/wpbc-gcal.php:192
+#: includes/page-form-simple/form_simple__timeslots.php:201
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:265
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:415
+msgid "hours"
+msgstr "godziny"
+
+#: core/admin/page-import-gcal.php:237 core/admin/page-import-gcal.php:319
+#: core/admin/wpbc-toolbars.php:640 core/admin/wpbc-toolbars.php:641
+#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/lang/wpbc_all_translations.php:370 core/sync/wpbc-gcal.php:129
+#: core/sync/wpbc-gcal.php:193
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:998
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1390
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:264
+#: includes/_toolbar_ui/toolbar_ui.php:375
+#: includes/_toolbar_ui/toolbar_ui.php:376
+#: includes/_toolbar_ui/toolbar_ui.php:377
+#: includes/_toolbar_ui/toolbar_ui.php:378
+#: includes/_toolbar_ui/toolbar_ui.php:379
+#: includes/_toolbar_ui/toolbar_ui.php:1236
+#: includes/_toolbar_ui/toolbar_ui.php:1237
+#: includes/_toolbar_ui/toolbar_ui.php:1238
+#: includes/_toolbar_ui/toolbar_ui.php:1239
+#: includes/_toolbar_ui/toolbar_ui.php:1240
+msgid "days"
+msgstr "dni"
+
+#: core/admin/page-import-gcal.php:189 core/admin/page-import-gcal.php:271
+#: core/lang/wpbc_all_translations.php:360 core/sync/wpbc-gcal.php:106
+#: core/sync/wpbc-gcal.php:170
+msgid "00:00 today"
+msgstr "00:00 dzisiaj"
+
+#: core/admin/page-import-gcal.php:190 core/admin/page-import-gcal.php:272
+#: core/lang/wpbc_all_translations.php:361 core/sync/wpbc-gcal.php:107
+#: core/sync/wpbc-gcal.php:171
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:188
+msgid "Start of current week"
+msgstr "Początek bieżącego tygodnia"
+
+#: core/admin/page-import-gcal.php:191 core/admin/page-import-gcal.php:273
+#: core/lang/wpbc_all_translations.php:362 core/sync/wpbc-gcal.php:108
+#: core/sync/wpbc-gcal.php:172
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:56
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:189
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:53
+msgid "Start of current month"
+msgstr "Początek bieżącego miesiąca"
+
+#: core/admin/page-import-gcal.php:192 core/admin/page-import-gcal.php:274
+#: core/lang/wpbc_all_translations.php:363 core/sync/wpbc-gcal.php:109
+#: core/sync/wpbc-gcal.php:173
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:57
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:190
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:54
+msgid "End of current month"
+msgstr "Koniec bieżącego miesiąca"
+
+#: core/admin/page-import-gcal.php:193 core/lang/wpbc_all_translations.php:364
+#: core/sync/wpbc-gcal.php:110
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:192
+msgid "The start of time"
+msgstr "Czas rozpoczęcia"
+
+#: core/admin/page-import-gcal.php:194 core/admin/page-import-gcal.php:276
+#: core/lang/wpbc_all_translations.php:365 core/sync/wpbc-gcal.php:111
+#: core/sync/wpbc-gcal.php:175
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:60
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:193
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:57
+msgid "Specific date / time"
+msgstr "Określona data / godzina"
+
+#: core/admin/page-import-gcal.php:200 core/lang/wpbc_all_translations.php:366
+#: core/sync/wpbc-gcal.php:118
+msgid "Select option, when to start retrieving events."
+msgstr "Wybierz opcję, aby rozpocząć pobieranie wydarzeń."
+
+#: core/admin/page-import-gcal.php:215 core/admin/page-import-gcal.php:297
+#: core/lang/wpbc_all_translations.php:367 core/sync/wpbc-gcal.php:120
+#: core/sync/wpbc-gcal.php:184
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:226
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:235
+msgid "Offset"
+msgstr "Przesunięcie"
+
+#: core/admin/page-import-gcal.php:216 core/admin/page-import-gcal.php:298
+#: core/lang/wpbc_all_translations.php:368 core/sync/wpbc-gcal.php:120
+#: core/sync/wpbc-gcal.php:184
+msgid "Enter date / time"
+msgstr "Wprowadź datę / godzinę"
+
+#: core/admin/page-import-gcal.php:234 core/admin/page-import-gcal.php:316
+#: core/lang/wpbc_all_translations.php:369 core/sync/wpbc-gcal.php:126
+#: core/sync/wpbc-gcal.php:190
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:267
+msgid "seconds"
+msgstr "sekund"
+
+#: core/admin/page-email-approved.php:262 core/admin/page-email-deleted.php:262
+#: core/admin/page-email-deny.php:262 core/admin/page-email-new-admin.php:242
+#: core/admin/page-email-new-visitor.php:244
+#: core/admin/page-email-trash.php:262 core/admin/page-import-gcal.php:199
+#: core/lang/wpbc_all_translations.php:202 core/sync/wpbc-gcal.php:92
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:1345
+msgid "From"
+msgstr "Od"
+
+#: core/admin/page-import-gcal.php:188 core/admin/page-import-gcal.php:270
+#: core/lang/wpbc_all_translations.php:359 core/lib/wpbc-cron.php:305
+#: core/sync/wpbc-gcal.php:105 core/sync/wpbc-gcal.php:169
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:53
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:186
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:50
+msgid "Now"
+msgstr "Teraz"
+
+#: core/admin/page-ics-general.php:101 core/admin/page-ics-general.php:111
+#: core/admin/page-ics-general.php:121 core/lang/wpbc_all_translations.php:285
+msgid "Select field for assigning to %sevent property%s"
+msgstr "Wybierz pole przypisania do %sobiektu wydarzenia%s"
+
+#: core/admin/page-ics-general.php:110 core/lang/wpbc_all_translations.php:286
+msgid "Event Description (optional field)"
+msgstr "Opis wydarzeń (pole opcjonalne)"
+
+#: core/admin/page-ics-general.php:100 core/lang/wpbc_all_translations.php:284
+msgid "Event Title"
+msgstr "Tytuł wydarzenia"
+
+#: core/admin/page-ics-general.php:120 core/lang/wpbc_all_translations.php:287
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: core/admin/page-import-gcal.php:363 core/lang/wpbc_all_translations.php:380
+msgid "Click APIs and make sure \"Calendar API\" is set to ON."
+msgstr "Na pasku bocznym kliknij \"APIs\" po prawej kliknij \"Calendar API\" następnie \"Enable API\""
+
+#: core/admin/page-import-gcal.php:364 core/lang/wpbc_all_translations.php:381
+msgid "Now click on \"Credentials\" in the sidebar."
+msgstr "Teraz na pasku bocznym kliknij \"Credentials\""
+
+#: core/admin/page-import-gcal.php:365 core/lang/wpbc_all_translations.php:382
+msgid "Under the section \"Public API access\" click the button \"Create new Key\"."
+msgstr "W sekcji \"Public API access\" kliknij przycisk \"Create new Key\"."
+
+#: core/admin/page-import-gcal.php:366 core/lang/wpbc_all_translations.php:383
+msgid "On the popup click the button \"Server Key\" and click \"Create\"."
+msgstr "Kliknij \"Server Key\" a potem \"Create\"."
+
+#: core/admin/page-import-gcal.php:367 core/lang/wpbc_all_translations.php:384
+msgid "You will now see a table loaded with the top item being the API Key. Copy this and paste it into %sGoogle API Key%s field at this page."
+msgstr "Zobaczysz teraz tabelę \"Key for server applications\" znajduje się w niej \"API key\". Skopiuj go i wklej w polu %sKlucz API Google%s na tej stronie."
+
+#: core/admin/page-import-gcal.php:370 core/lang/wpbc_all_translations.php:385
+msgid "Set Your Calendar to Public"
+msgstr "Ustawienie kalendarza do odczytu publicznego"
+
+#: core/admin/page-import-gcal.php:372 core/admin/page-import-gcal.php:380
+#: core/lang/wpbc_all_translations.php:386
+msgid "Navigate to your Google calendars."
+msgstr "Przejdź do swojego kalendarza Google."
+
+#: core/admin/page-import-gcal.php:373 core/admin/page-import-gcal.php:381
+#: core/lang/wpbc_all_translations.php:387
+msgid "Open the settings for the calendar."
+msgstr "Otwórz ustawienia kalendarza i kliknij zakładkę \"Kalendarze\". Z listy wybierz kalendarz który ma być importowany."
+
+#: core/admin/page-import-gcal.php:374 core/lang/wpbc_all_translations.php:388
+msgid "Click the \"Share this Calendar\" link."
+msgstr "Kliknij zakładkę \"Kalendarze\" a następnie \"Udostępnij ten kalendarz\""
+
+#: core/admin/page-import-gcal.php:375 core/lang/wpbc_all_translations.php:389
+msgid "Click the checkbox to make calendar public. Do not check the other option."
+msgstr "Zaznacz tylko pole  \"Udostępnij ten kalendarz publicznie\" i kliknij przycisk \"Zapisz\"."
+
+#: core/admin/page-import-gcal.php:378 core/lang/wpbc_all_translations.php:390
+msgid "Find Your Calendar ID"
+msgstr "Znajdź ID swojego kalendarza"
+
+#: core/admin/page-import-gcal.php:382 core/lang/wpbc_all_translations.php:391
+msgid "Now copy the Calendar ID to use in the plugin settings in your WordPress admin. Make sure to %suse the Calendar ID only, not the entire XML feed URL%s."
+msgstr "Skopiuj ID kalendarza z rubryki \"Adres kalendarza:\" i wklej go do wybranej rubryki \"ID Kalendarza Google\" na tej stronie. Pamiętaj %saby adres kalendarza wyglądał następująco przykład: tertr4645645rtytry56456@group.calendar.google.com%s"
+
+#: core/admin/page-ics-general.php:67 core/lang/wpbc_all_translations.php:283
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:573
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:248
+msgid "None"
+msgstr "Brak"
+
+#: core/admin/page-ics-general.php:452 core/lang/wpbc_all_translations.php:316
+msgid "Assign events fields to specific booking form field"
+msgstr "Przypisywanie pola wydarzeń do specyficznego pola formularza rezerwacji"
+
+#: core/admin/page-import-gcal.php:531 core/admin/page-import-gcal.php:578
+#: core/lang/wpbc_all_translations.php:393
+msgid "Auto import events"
+msgstr "Automatyczny import wydarzeń"
+
+#: core/admin/page-import-gcal.php:569 core/lang/wpbc_all_translations.php:395
+msgid "Google Calendar - General Settings"
+msgstr "Kalendarz Google - Ustawienia ogólne"
+
+#: core/admin/page-import-gcal.php:533 core/admin/page-import-gcal.php:586
+#: core/lang/wpbc_all_translations.php:394
+msgid "Default settings for retrieving events"
+msgstr "Domyślne ustawienia pobierania wydarzeń"
+
+#: core/admin/page-import-gcal.php:160 core/lang/wpbc_all_translations.php:356
+msgid "Google Calendar ID"
+msgstr "ID Kalendarza Google"
+
+#: core/admin/page-import-gcal.php:358 core/lang/wpbc_all_translations.php:376
+msgid "To get Google Calendar API key please follow this instruction"
+msgstr "Aby uzyskać klucz API Kalendarza Google podążaj zgodnie z tą instrukcją"
+
+#: core/admin/page-import-gcal.php:360 core/lang/wpbc_all_translations.php:377
+msgid "Go to Google Developer Console: %s."
+msgstr "Idź do konsoli programisty Google %s"
+
+#: core/admin/page-import-gcal.php:361 core/lang/wpbc_all_translations.php:378
+msgid "Give your project a name and click \"Create\"."
+msgstr "Kliknij przycisk \"Create Project\" Następnie podaj nazwę projektu i kliknij przycisk \"Create\"."
+
+#: core/admin/page-import-gcal.php:362 core/lang/wpbc_all_translations.php:379
+msgid "In the sidebar click on \"APIs & auth\"."
+msgstr "Na pasku bocznym kliknij  \"APIs & auth\"."
+
+#: core/lang/wpbc_all_translations.php:643 core/sync/wpbc-gcal-class.php:798
+#: includes/_toolbar_ui/toolbar_ui.php:1861
+msgid "Do you really want to delete selected booking(s) ?"
+msgstr "Czy na pewno chcesz usunąć wybrane rezerwacje?"
+
+#: core/lang/wpbc_all_translations.php:644 core/sync/wpbc-gcal-class.php:807
+msgid "Delete selected booking(s)"
+msgstr "Usuń wybraną rezerwację"
+
+#: core/admin/page-ics-export.php:42 core/admin/page-ics-export.php:43
+#: core/admin/page-ics-general.php:316 core/admin/page-ics-general.php:317
+#: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
+#: core/admin/page-ics-import.php:40 core/admin/page-ics-import.php:41
+#: core/admin/page-import-gcal.php:428 core/admin/page-import-gcal.php:429
+#: core/lang/wpbc_all_translations.php:269
+#: includes/_functions/admin_top_bar.php:297
+msgid "Sync"
+msgstr "Synchronizacja"
+
+#: core/lang/wpbc_all_translations.php:755 core/wpbc_functions.php:901
+#: includes/page-form-simple/form_simple__preview.php:209
+msgid "Click to toggle"
+msgstr "Kliknij, aby przełączyć"
+
+#: core/lang/wpbc_all_translations.php:636 core/sync/wpbc-gcal-class.php:666
+#: core/sync/wpbc-gcal-class.php:735 core/sync/wpbc-gcal-class.php:770
+#: core/timeline/v2/wpbc-class-timeline_v2.php:73
+#: core/wpbc_functions_dates.php:235 core/wpbc_functions_dates.php:277
+#: includes/_toolbar_ui/toolbar_ui.php:292
+#: includes/_toolbar_ui/toolbar_ui.php:293
+#: includes/_toolbar_ui/toolbar_ui.php:415
+#: includes/_toolbar_ui/toolbar_ui.php:1323
+msgid "Dates"
+msgstr "Daty"
+
+#: core/lang/wpbc_all_translations.php:639 core/sync/wpbc-gcal-class.php:736
+#: core/sync/wpbc-gcal-class.php:786
+msgid "GID"
+msgstr "Identyficaja"
+
+#: core/lang/wpbc_all_translations.php:640 core/sync/wpbc-gcal-class.php:750
+msgid "Selection"
+msgstr "Wybór"
+
+#: core/lang/wpbc_all_translations.php:641 core/sync/wpbc-gcal-class.php:764
+msgid "Location:"
+msgstr "Lokalizacja:"
+
+#: core/lang/wpbc_all_translations.php:642 core/sync/wpbc-gcal-class.php:794
+msgid "Reload page"
+msgstr "Odśwież stronę"
+
+#: core/admin/api-settings.php:1722 core/class/wpbc-class-notices.php:107
+#: core/lang/wpbc_all_translations.php:181 core/sync/wpbc-gcal-class.php:796
+#: core/wpbc_functions.php:808
+msgid "Hide"
+msgstr "Ukryj"
+
+#: core/admin/api-settings.php:1769 core/lang/wpbc_all_translations.php:184
+#: core/sync/wpbc-gcal-class.php:492 core/sync/wpbc-gcal-class.php:734
+#: core/sync/wpbc-gcal-class.php:760
+msgid "Info"
+msgstr "Informacja"
+
+#: core/admin/page-email-approved.php:234
+#: core/admin/page-email-approved.php:290 core/admin/page-email-deleted.php:234
+#: core/admin/page-email-deleted.php:290 core/admin/page-email-deny.php:236
+#: core/admin/page-email-deny.php:290 core/admin/page-email-new-admin.php:218
+#: core/admin/page-email-new-admin.php:270
+#: core/admin/page-email-new-visitor.php:272
+#: core/admin/page-email-trash.php:234 core/admin/page-email-trash.php:295
+#: core/lang/wpbc_all_translations.php:200
+#: core/lib/wpdev-booking-widget.php:128 core/sync/wpbc-gcal-class.php:733
+#: core/sync/wpbc-gcal-class.php:756
+#: includes/page-form-simple/form_simple__timeslots.php:773
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:80
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:191
+#: js/wpbc-gutenberg.js:859
+msgid "Title"
+msgstr "Tytuł"
+
+#: core/lang/wpbc_all_translations.php:638 core/sync/wpbc-gcal-class.php:732
+#: core/sync/wpbc-gcal-class.php:753 includes/_toolbar_ui/toolbar_ui.php:289
+#: includes/_toolbar_ui/toolbar_ui.php:290
+msgid "ID"
+msgstr "Identyficaja"
+
+#: core/lang/wpbc_all_translations.php:627 core/sync/wpbc-gcal-class.php:317
+msgid "Importing Feed"
+msgstr "Importowanie RSS"
+
+#: core/lang/wpbc_all_translations.php:628 core/sync/wpbc-gcal-class.php:333
+msgid "Data Parsing"
+msgstr "Parsowanie daty"
+
+#: core/lang/wpbc_all_translations.php:629 core/sync/wpbc-gcal-class.php:476
+msgid "Some data was retrieved, but could not be parsed successfully. Please ensure your feed URL is correct."
+msgstr "Niektóre dane zostały pobrane, ale nie można przeanalizować ich pomyślnie. Prosimy upewnić się że adres URL kanału jest poprawny."
+
+#: core/lang/wpbc_all_translations.php:630 core/sync/wpbc-gcal-class.php:483
+msgid "The feed could not be found (404). Please ensure your feed URL is correct."
+msgstr "Nie znaleziono RSS (404). Upewnij się ze adres RSS jest poprawny."
+
+#: core/lang/wpbc_all_translations.php:631 core/sync/wpbc-gcal-class.php:486
+msgid "Access to this feed was denied (403). Please ensure you have public sharing enabled for your calendar."
+msgstr "Dostęp do RSS jest zabroniony (403). Prosimy upewnić się, że publiczne udostępnianie kalendarza jest włączone."
+
+#: core/lang/wpbc_all_translations.php:632 core/sync/wpbc-gcal-class.php:489
+msgid "The feed data could not be retrieved. Error code: %s. Please ensure your feed URL is correct."
+msgstr "Błąd: %s. Upewnij się ze adres RSS jest poprawny."
+
+#: core/admin/page-ics-import.php:713 core/lang/wpbc_all_translations.php:340
+#: core/sync/wpbc-gcal-class.php:512 includes/page-setup/setup_support.php:78
+#: includes/_feedback/feedback.php:305 includes/_feedback/feedback.php:339
+#: includes/_feedback/feedback.php:398 includes/_feedback/feedback.php:424
+msgid "Done"
+msgstr "Gotowe"
+
+#: core/admin/page-email-approved.php:702 core/admin/page-email-deleted.php:700
+#: core/admin/page-email-deny.php:698 core/admin/page-email-new-admin.php:683
+#: core/admin/page-email-new-visitor.php:676
+#: core/admin/page-email-trash.php:705 core/admin/page-ics-export.php:239
+#: core/admin/page-ics-general.php:478 core/admin/page-ics-import.php:205
+#: core/admin/page-import-gcal.php:614 core/admin/page-settings.php:160
+#: core/admin/page-settings.php:649 core/lang/wpbc_all_translations.php:243
+#: includes/page-bookings/bookings__actions.php:2204
+#: includes/page-bookings/bookings__actions.php:2369
+#: includes/page-bookings/bookings__actions.php:2716
+#: includes/page-bookings/bookings__actions.php:3227
+#: includes/page-bookings/bookings__actions.php:3335
+#: includes/page-form-simple/page-form-simple.php:187
+#: includes/page-form-simple/page-form-simple.php:1139
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: core/lang/wpbc_all_translations1.php:528
+msgid "Error!"
+msgstr "Błąd!"
+
+#: core/admin/page-settings.php:560 core/lang/wpbc_all_translations.php:416
+#: core/wpbc_welcome.php:246
+#: includes/page-form-simple/form_simple__preview.php:239
+#: includes/page-resource-free/page-resource-free.php:216
+#: includes/_functions/is_dismissed.php:59
+#: includes/_functions/is_dismissed.php:110
+#: includes/_functions/is_dismissed.php:114
+#: includes/_functions/versions.php:374
+msgid "Dismiss"
+msgstr "Odrzuć"
+
+#: core/lang/wpbc_all_translations.php:602 core/lib/wpbc-ajax.php:127
+msgid "Set as Approved"
+msgstr "Ustaw jako zatwierdzony"
+
+#: core/lang/wpbc_all_translations.php:603 core/lib/wpbc-ajax.php:129
+msgid "Set as Pending"
+msgstr "Ustaw jako oczekujący"
+
+#: core/lang/wpbc_all_translations.php:604 core/lib/wpbc-ajax.php:150
+#: core/lib/wpbc-ajax.php:238
+msgid "Reason for cancellation here"
+msgstr "Wpisz przyczynę odwołania tutaj"
+
+#: core/lang/wpbc_all_translations.php:605 core/lib/wpbc-ajax.php:151
+#: core/lib/wpbc-ajax.php:239
+msgid "Reason of cancellation here"
+msgstr "Powód unieważnienia tutaj"
+
+#: core/lang/wpbc_all_translations1.php:797
+#: includes/_capacity/captcha_simple_text.php:34
+msgid "The code you entered is incorrect"
+msgstr "Kod jest niepoprawny"
+
+#: core/admin/page-email-deleted.php:581
+#: core/lang/wpbc_all_translations.php:248 core/lib/wpbc-ajax.php:278
+msgid "Deleted"
+msgstr "Usunięto"
+
+#: core/lang/wpbc_all_translations.php:597 core/lib/wpbc-ajax.php:33
+#: includes/_functions/nonce_func.php:72
+msgid "%sError!%s Request do not pass security check! Please refresh the page and try one more time."
+msgstr "%sBłąd!%s Wniosek nie przeszedł kontroli bezpieczeństwa! Proszę odświeżyć stronę i spróbować jeszcze raz."

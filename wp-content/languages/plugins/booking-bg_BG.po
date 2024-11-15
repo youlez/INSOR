@@ -1,0 +1,3533 @@
+# Translation of Plugins - WP Booking Calendar - Stable (latest release) in Bulgarian
+# This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-13 19:55:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: bg\n"
+"Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
+
+#: core/lang/wpbc_all_translations1.php:554
+msgid "%s - inserting account name"
+msgstr "%s - въвеждане име на сметката"
+
+#: core/lang/wpbc_all_translations1.php:555
+msgid "%s - inserting account number"
+msgstr "%s - въвеждане номер на сметката"
+
+#: core/lang/wpbc_all_translations1.php:553
+msgid "%s - inserting all bank accounts details"
+msgstr "%s - въвеждане на детайли за банковата сметка"
+
+#: core/lang/wpbc_all_translations1.php:556
+msgid "%s - inserting bank name "
+msgstr "%s - въвеждане име на банката"
+
+#: core/lang/wpbc_all_translations1.php:559
+msgid "%s - inserting BIC "
+msgstr "%s - въвеждане на BIC"
+
+#: core/lang/wpbc_all_translations1.php:558
+msgid "%s - inserting IBAN "
+msgstr "%s - въвеждане на IBAN"
+
+#: core/lang/wpbc_all_translations1.php:324
+msgid "End Time - Text field"
+msgstr "Краен час - текстово поле"
+
+#: core/lang/wpbc_all_translations1.php:327
+msgid "End Time - Drop Down list"
+msgstr "Краен час - Избор от списък"
+
+#: core/lang/wpbc_all_translations1.php:328
+msgid "Duration Time - Drop Down list"
+msgstr "Продължителност - Избор от списък"
+
+#: core/lang/wpbc_all_translations1.php:325
+msgid "Start Time - Drop Down list"
+msgstr "Начален час - Избор от списък"
+
+#: core/lang/wpbc_all_translations1.php:326
+msgid "Please note, in the %sOptions list%s you can  use times in military time format %s(24 Hour Time)%s only."
+msgstr "Моля имайте предвид, че в %sСписъка с опции%s можете да използвате само %s(24 Часа)%s формат."
+
+#: core/lang/wpbc_all_translations1.php:329
+msgid "field"
+msgstr "поле"
+
+#: core/lang/wpbc_all_translations1.php:330
+msgid "Different time slots, for the different week days"
+msgstr "Различни  времеви интервали за различните дни от седмицата."
+
+#: core/lang/wpbc_all_translations1.php:251
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: core/lang/wpbc_all_translations1.php:332
+msgid "The general structure of the configuration %scondition rule%s is as follows"
+msgstr "Основната структура на конфигурацията %sусловие, правило%s както следва"
+
+#: core/lang/wpbc_all_translations1.php:333
+msgid "Parameters"
+msgstr "Параметри"
+
+#: core/lang/wpbc_all_translations1.php:286
+msgid "Examples"
+msgstr "Примери"
+
+#: core/lang/wpbc_all_translations1.php:337
+msgid "Week days conditions."
+msgstr "Условия за дни от седмицата"
+
+#: core/lang/wpbc_all_translations1.php:338
+msgid "default value, if no dates are selected, or none exist conditions are true."
+msgstr "стойност по подразбиране, ако не са избрани дати или нито едно условие не е изпълнено."
+
+#: core/lang/wpbc_all_translations1.php:331
+msgid "This feature provides the possibility to use the different time slot selections in the booking form for the different week days or different days - which are assigned to the specific season filters. So each week day (day of specific season filter) can have a different time slots list."
+msgstr "Възможност за използване на различни  времеви интервали за различни дни от седмицата или различни дати във формата за резервации , които са избрани за специфичните сезони. Така всеки ден от различния сезон може да има различно работно време."
+
+#: core/lang/wpbc_all_translations1.php:334
+msgid "%sname%s – the unique name of the condition group, containing several conditions with different values. For example, if you want to have specific HTML content for the different week days, you can have several conditions, with the same name but with different value parameters in conditions. Please check more about it, in the examples."
+msgstr "%sиме%s - уникално име на групата условия, която съдържа няколко условия с различни стойности. Примерно, ако искате да имате специфично HTML съдържание за различни дни от седмицата, можете да имате няколко условия, с едно и също име, но са различен параметър. Моля погледнете примерите."
+
+#: core/lang/wpbc_all_translations1.php:335
+msgid "%stype%s – type of the condition. There are 2 types of condition: \"weekday\" and \"season\". \"weekday\" – is the condition rule based on the selected day of week value, like Monday, Tuesday, etc… . \"season\" – is the condition rule based on the \"season filter\" name of selected date. In other words the condition is TRUE if the selected day belongs to a season filter in the Season Filters page."
+msgstr "%sтип%s – тип на условието. Има два типа условия: \"weekday\" ден от седмицата and \"season\" сезон. \"weekday\" ден от седмицата е условие, базирани на избран ден от седмицата като Понеделник, Вторник и т.н. .. \"season\"  - е условие, базирано на име на  \"season filter\" . С друго думи, условието е ИСТИНА, ако избрания ден е от съответния сезон о страницата за филтриране на сезони."
+
+#: core/lang/wpbc_all_translations1.php:336
+msgid "%svalue%s – value of the specific conditions. If the value is true, the content of the conditions will show in the booking form. You can have the default value (empty – \"\", or like this – \"*\") for showing the content of this condition, if all other conditions are FALSE, or at initial stage, when the date in calendar is not yet selected."
+msgstr "%sстойност%s – стойност на определени условия. Ако стойността е истина (true),  съдържанието се показва във формата. Може да имате стойност по подразбиране  (празно – \"\", или – \"*\")  за да се показва съдържанието на това условие, ако всички други условия не са изпълнени или са по подразбиране, тогава датата ит календара не е избрана."
+
+#: core/lang/wpbc_all_translations1.php:339
+msgid "You can use the several values, separated by comma."
+msgstr "Можете да използвате повече стойности разделени със запетая."
+
+#: core/lang/wpbc_all_translations1.php:344
+msgid "Please use  %sSingle day%s selection mode in the General Booking Settings page at calendar section."
+msgstr "Моля използвайте възможност за избор на %sЕдин единствен ден%s в Основните Настройки на резрервации в секцията Календар."
+
+#: core/lang/wpbc_all_translations1.php:342
+msgid "Season filter on the Season Filters page"
+msgstr "Филтър на страниците за филтриране по сезон"
+
+#: core/lang/wpbc_all_translations1.php:341
+msgid "Season filter on the Season Filters page,"
+msgstr "Филтър на страниците за филтриране по сезон,"
+
+#: core/lang/wpbc_all_translations1.php:347
+msgid "Enter the %sTime%s using the text field."
+msgstr "Въвдете %sвреме%s като използвате текстовото поле."
+
+#: core/lang/wpbc_all_translations1.php:358
+msgid "Booking Calendar supports WPML and qTranslate plugins for dynamic changing of website locale."
+msgstr "Резервационният календар поддържа разширенията WPML и qTranslate за динамична смяна на езика на сайта."
+
+#: core/lang/wpbc_all_translations1.php:340
+msgid "Season filters conditions."
+msgstr "Условия за фитър по сезон."
+
+#: core/lang/wpbc_all_translations1.php:343
+msgid "Additional info"
+msgstr "Допълнителна информация"
+
+#: core/lang/wpbc_all_translations1.php:345
+msgid "Please check more about this feature at  %sthis page%s"
+msgstr "Моля изберете повече за тази възможност на %sтази страница%st."
+
+#: core/lang/wpbc_all_translations1.php:346
+msgid "Time Field"
+msgstr "Поле за време"
+
+#: core/lang/wpbc_all_translations1.php:348
+msgid "This field does not impact to availability (booking for the specific time) ."
+msgstr "Това поле не влияе на наличността (резервация за определен час)."
+
+#: core/lang/wpbc_all_translations1.php:349
+msgid "The value of this field is just saved into DB."
+msgstr "Стойността на това поле е просто запазена в базата от данни."
+
+#: core/lang/wpbc_all_translations1.php:350
+msgid "Country List"
+msgstr "Списък с държави"
+
+#: core/lang/wpbc_all_translations1.php:351
+msgid "Select the country from the predefined country list."
+msgstr "Изберете страната от списъка с предварително зададени страни."
+
+#: core/lang/wpbc_all_translations1.php:352
+msgid "You can customize the country list at this file: %s"
+msgstr "Можете да персонализирате списъка на страните в този файл: %s"
+
+#: core/lang/wpbc_all_translations1.php:353
+msgid "You can insert this field with default selected value."
+msgstr "Можете да вмъкнете това поле с избрана стойност по подразбиране."
+
+#: core/lang/wpbc_all_translations1.php:354
+msgid "Example: %s - %s\"United States\"%s is selected by default."
+msgstr "Пример: %s - %s\"България\"%s е избрана по подразбиране."
+
+#: core/lang/wpbc_all_translations1.php:355
+msgid "Language Sections"
+msgstr "Секции Езици"
+
+#: core/lang/wpbc_all_translations1.php:356
+msgid "Plugin support configurations of the booking form are available in different languages."
+msgstr "Поддържаме конфигурации на форма формата за резервации за различните езици."
+
+#: core/lang/wpbc_all_translations1.php:357
+msgid "The active language of the booking form depends on the active locale of the site."
+msgstr "Актнивният език на формата за резервации зависи от езиковите настройки на сайта."
+
+#: core/lang/wpbc_all_translations1.php:359
+msgid "Usage"
+msgstr "Използване"
+
+#: core/lang/wpbc_all_translations1.php:360
+msgid "start new translation section in specific language, where %s - locale of the translation."
+msgstr "започнете нов раздел за превод на конкретен език, където %s - е е държавата за превода."
+
+#: core/lang/wpbc_all_translations1.php:361
+msgid "English and French translation"
+msgstr "Английски и Френски превод"
+
+#: core/lang/wpbc_all_translations1.php:362
+msgid "of configuration booking form in English and French languages"
+msgstr "на конфигурацията на формата за резервации на английски и френски език"
+
+#: core/lang/wpbc_all_translations1.php:364
+msgid "Different form fields, for the different week days"
+msgstr "Различни полета от формата за различни дни от седмицата"
+
+#: core/lang/wpbc_all_translations1.php:365
+msgid "This feature provides the possibility to show the different form fields or any other HTML content in the booking form, depending on the selection of specific week day in calendar or different days, which are assigned to the specific season filters"
+msgstr "Тази функция дава възможност да се показват различните полета или друго HTML съдържание във формата за резервация, в зависимост от избора на деня то седмицата в календара или различни дни, които се отнасят към специфичните филтри за сезон."
+
+#: core/lang/wpbc_all_translations1.php:367
+msgid "You can use several values, separated by comma."
+msgstr "Можете да използвате няколко стойности, разделени със запетая."
+
+#: core/lang/wpbc_all_translations1.php:368
+msgid "You can use several values, separated by a comma."
+msgstr "Можете да използвате няколко стойности, разделени със запетая.."
+
+#: core/lang/wpbc_all_translations1.php:369
+msgid "Cost Fields"
+msgstr "Полета за разходи"
+
+#: core/lang/wpbc_all_translations1.php:370
+msgid "Cost Correction Field"
+msgstr "Поле за корекция на разходите"
+
+#: core/lang/wpbc_all_translations1.php:371
+msgid "This field is visible only in Admin Panel at %sAdd booking page%s."
+msgstr "Това поле е видимо само в Административния панел в %s Страница добавяне на резервация%s."
+
+#: core/lang/wpbc_all_translations1.php:372
+msgid "Use this field for %scorrecting the cost%s during adding new booking."
+msgstr "Използвайте това поле за %sкоригиране на разходите%s по време на добавяне на нова резервация."
+
+#: core/lang/wpbc_all_translations1.php:366
+msgid "%svalue%s – value of the specific conditions. If the value is true, so then the content of the conditions will show in the booking form. You can have the default value (empty – \"\", or like this – \"*\") for showing the content of this condition, if all other conditions are FALSE, or at initial stage, when the date in calendar is not yet selected."
+msgstr "%sстойност%s –  стойност на специфичните условия. Ако стойността е истина, то съдържанието на условията ще се покаже във формуляра за резервация. Можете да имате стойност по подразбиране (празно – \"\", или така – \"*\")  за показване на съдържанието на това условие, ако всички други условия са неверни, или в начален етап, то датата в календара още не е избрана."
+
+#: core/lang/wpbc_all_translations1.php:373
+msgid "Discount Coupon field"
+msgstr "Поле за купон за отстъпка"
+
+#: core/lang/wpbc_all_translations1.php:374
+msgid "Please use this field for possibility to use coupon discounts by your visitors."
+msgstr "Моля, използвайте това поле за възможност за използване на купон отстъпки за гостите."
+
+#: core/lang/wpbc_all_translations1.php:375
+msgid "You can configure the discount coupon codes at this %spage%s."
+msgstr "Можете да конфигурирате купон кодове на намаления на тази %sстраница%s."
+
+#: core/lang/wpbc_all_translations1.php:381
+msgid "Selected Check In date."
+msgstr "Избор на дата на пристигане"
+
+#: core/lang/wpbc_all_translations1.php:382
+msgid "Selected Check Out date."
+msgstr "Избор на дата за напускане:"
+
+#: core/lang/wpbc_all_translations1.php:383
+msgid "Selected Start Time."
+msgstr "Избор на начален час:"
+
+#: core/lang/wpbc_all_translations1.php:384
+msgid "Selected End Time."
+msgstr "Избор на карен час:"
+
+#: core/lang/wpbc_all_translations1.php:387
+msgid "All selected dates in \"short\" format."
+msgstr "Всички избрани дати в кратък формат."
+
+#: core/lang/wpbc_all_translations1.php:388
+msgid "All selected dates with times in \"short\" format.."
+msgstr "Всички избрани дати с час в кратък формат."
+
+#: core/lang/wpbc_all_translations1.php:376
+msgid "Hints for your form"
+msgstr "Съвети за вашата форма"
+
+#: core/lang/wpbc_all_translations1.php:377
+msgid "Cost Hints"
+msgstr "Съвети за разходите"
+
+#: core/lang/wpbc_all_translations1.php:378
+msgid "Insert these shortcodes into form to %sshow info in real time %s(after selection of the dates in calendar or options in checkboxes or selectboxes)%s."
+msgstr "Поставете тези кратки кодове във формата, за да се %sпокаже информация в реално време%s (след избор на дати в календара или опциите)%s."
+
+#: core/lang/wpbc_all_translations1.php:380
+msgid "Dates and Times Hints"
+msgstr "Съвети за дата и час"
+
+#: core/lang/wpbc_all_translations.php:956
+msgid "Example:"
+msgstr "Пример:"
+
+#: core/lang/wpbc_all_translations1.php:385
+msgid "All selected dates."
+msgstr "Всички избрани дати."
+
+#: core/lang/wpbc_all_translations1.php:386
+msgid "All selected dates with times."
+msgstr "Всички избрани дати с време."
+
+#: core/lang/wpbc_all_translations.php:955
+msgid "Number of selected days."
+msgstr "Брой избрани дни:"
+
+#: core/lang/wpbc_all_translations.php:957
+msgid "Number of selected nights."
+msgstr "Брой избрани нощи:"
+
+#: core/lang/wpbc_all_translations1.php:398
+msgid "Tips and Tricks"
+msgstr "Съвети и трикове"
+
+#: core/lang/wpbc_all_translations1.php:399
+msgid "%sEmail verification field%s."
+msgstr "%sПоле за  проверка на имейл%s"
+
+#: core/lang/wpbc_all_translations1.php:403
+msgid "%sDescription of usage%s."
+msgstr "%sНачин на употреба%s"
+
+#: core/lang/wpbc_all_translations1.php:400
+msgid "To create verification email, you need to use special CSS class in other email field. This CSS class must start with this reserved words: %s and then have to go the name of your primary email field: %s"
+msgstr "За създаване на имейл за потвърждение, ще трябва да използвате специален CSS клас в друго поле имейл. Този CSS клас трябва да започнете с тази запазена дума: %s и след това трябва да отидете на името на основното  поле за имейл: %s"
+
+#: core/lang/wpbc_all_translations1.php:401
+msgid "confirmation email field of the primary email field"
+msgstr "поле за потвърждение на полето за основен имейл"
+
+#: core/admin/page-ics-export.php:44 core/admin/page-ics-export.php:61
+#: core/admin/page-ics-export.php:62 core/admin/page-ics-export.php:64
+#: core/admin/page-ics-export.php:231 core/admin/page-ics-general.php:318
+#: core/admin/page-ics-general.php:468 core/admin/page-ics-import.php:42
+#: core/admin/page-import-gcal.php:430 core/lang/wpbc_all_translations.php:271
+#: includes/page-bookings/bookings__actions.php:3625
+msgid "Export"
+msgstr "Експортиране"
+
+#: core/lang/wpbc_all_translations2.php:20
+#: includes/_toolbar_ui/toolbar_ui.php:2174
+msgid "Export All bookings to CSV format"
+msgstr "Експортиране на всички резервации в CSV формат"
+
+#: core/lang/wpbc_all_translations2.php:96
+#: includes/page-bookings/bookings__actions.php:2661
+msgid "Edit Note"
+msgstr "Редактиране на бележка"
+
+#: core/lang/wpbc_all_translations2.php:95
+#: includes/page-bookings/bookings__actions.php:2488
+msgid "Change Resource"
+msgstr "Промяна на ресурс"
+
+#: core/lang/wpbc_all_translations2.php:101
+#: includes/page-bookings/bookings__actions.php:3226
+msgid "Change"
+msgstr "Промяна"
+
+#: core/lang/wpbc_all_translations1.php:414
+msgid "Generate Tag"
+msgstr "Генериране на таг"
+
+#: core/lang/wpbc_all_translations1.php:415
+msgid "Select option to configure or show help info about tags"
+msgstr "Изберете опция за конфигуриране или покаже помощ информация за тагове"
+
+#: core/lang/wpbc_all_translations2.php:14
+#: includes/_toolbar_ui/toolbar_ui.php:2016
+msgid "Print bookings listing"
+msgstr "Печат на списъка с резервации"
+
+#: core/admin/wpbc-toolbars.php:1108 core/lang/wpbc_all_translations.php:497
+#: includes/page-bookings/bookings__actions.php:2715
+msgid "Save"
+msgstr "Запис"
+
+#: core/lang/wpbc_all_translations2.php:155
+#: includes/print/bookings_print.php:98
+msgid "Print bookings"
+msgstr "Печат на резервации "
+
+#: core/lang/wpbc_all_translations1.php:419
+msgid "Clear booking resources selection"
+msgstr "Изчисти селекцията на резервационните ресурси"
+
+#: core/lang/wpbc_all_translations1.php:420
+msgid "Apply booking resources selection"
+msgstr "Приложи селекцията на резервационните ресурси"
+
+#: core/lang/wpbc_all_translations1.php:421
+#: includes/_toolbar_ui/toolbar_ui.php:1107
+msgid "Please note, its not possible to add new resources, if \"All resources\" option is selected. Please clear the selection, then add new resources."
+msgstr "Обърнете внимание, че не е възможно да се добави нов ресурс, ако опцията  \"Всички ресурсию\" е избрана. Моля изчистете селекцията преди да добавите нов ресурс."
+
+#: core/lang/wpbc_all_translations1.php:422
+#: includes/page-resource-free/page-resource-free.php:256
+msgid "Add New Booking Resource(s)"
+msgstr "Добавяне на нови ресурси"
+
+#: core/lang/wpbc_all_translations1.php:423
+msgid "Enter name of booking resource"
+msgstr "Име на ресурс"
+
+#: core/lang/wpbc_all_translations1.php:434
+msgid "Cancel Booking"
+msgstr "Отказване на резервация"
+
+#: core/lang/wpbc_all_translations1.php:440
+msgid "If you will get any difficulties or have a questions, please contact by email %s"
+msgstr "Ако срещате някакви затруднения или имате въпроси свържете се с нас на имейл %s"
+
+#: core/lang/wpbc_all_translations1.php:425
+#: includes/page-resource-free/page-resource-free.php:262
+msgid "Resources count"
+msgstr "Брояч на ресурсите"
+
+#: core/lang/wpbc_all_translations1.php:428
+msgid "This booking resources does not exist"
+msgstr "Този ресурс не съществува"
+
+#: core/lang/wpbc_all_translations1.php:430
+msgid "The booking was canceled by the visitor."
+msgstr "Резервацията е отказана от госта"
+
+#: core/lang/wpbc_all_translations1.php:431
+msgid "The booking has been canceled successfully"
+msgstr "Резервацията е отказана успешно"
+
+#: core/lang/wpbc_all_translations1.php:432
+msgid "Incorrect date format"
+msgstr "Некоректен формат за данни"
+
+#: core/lang/wpbc_all_translations.php:554
+#: includes/page-form-simple/form_simple__get_data.php:448
+#: includes/page-form-simple/form_simple__get_data.php:660
+msgid "Change your Booking"
+msgstr "Променете своята резервация"
+
+#: core/lang/wpbc_all_translations2.php:75
+#: includes/page-bookings/bookings__actions.php:1227
+msgid "Warning! The resource was not changed. Current dates are already booked there."
+msgstr "Внимание! Ресурсът не е променен. Настоящите дати вече са резервирани."
+
+#: core/lang/wpbc_all_translations1.php:436
+msgid "Sending request..."
+msgstr "Изпращане на искане..."
+
+#: core/lang/wpbc_all_translations1.php:437
+msgid "Order number"
+msgstr "Номер на поръчка"
+
+#: core/lang/wpbc_all_translations1.php:438
+msgid "Register"
+msgstr "Регистрация"
+
+#: core/lang/wpbc_all_translations1.php:439
+msgid "Please, enter order number of your purchased version, which you received to your billing email."
+msgstr "Моля въведете номера на поръчката, която сте получили в email-а за плащане."
+
+#: core/lang/wpbc_all_translations1.php:443
+msgid "Default form"
+msgstr "Форма по подразбиране"
+
+#: core/lang/wpbc_all_translations1.php:449
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" target=\"_blank\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin.</em>"
+msgstr "Има нова версия на %1$s . <a href=\"%2$s\" target=\"_blank\" title=\"%3$s\">Виж версията %4$s details</a>. <em>Автоматичното обновяване не е налично за този plugin.</em>"
+
+#: core/lang/wpbc_all_translations1.php:450
+msgid "Upgrade Notice"
+msgstr "Обновяване на бележка"
+
+#: core/lang/wpbc_all_translations1.php:451
+msgid "Version %s By %s"
+msgstr "Версия %s от %s"
+
+#: core/lang/wpbc_all_translations1.php:452
+msgid "View details"
+msgstr "Подробности"
+
+#: core/lang/wpbc_all_translations1.php:455
+msgid "Email (required)"
+msgstr "Имейл (задължително)"
+
+#: core/lang/wpbc_all_translations1.php:462
+msgid "Select Times"
+msgstr "Избор на периоди"
+
+#: core/lang/wpbc_all_translations1.php:448
+msgid "You can request the new update of plugin on %1$sthis page%2$s."
+msgstr "Може да поръчате ново обновление на този plugin на %1$sthis page%2$s."
+
+#: core/lang/wpbc_all_translations1.php:453
+msgid "First Name (required)"
+msgstr "Име (задължително)"
+
+#: core/lang/wpbc_all_translations1.php:454
+msgid "Last Name (required)"
+msgstr "Фамилия (задължително)"
+
+#: core/lang/wpbc_all_translations1.php:456
+#: includes/page-form-simple/form_simple__default.php:103
+msgid "Phone"
+msgstr "Телефон"
+
+#: core/lang/wpbc_all_translations1.php:457
+msgid "Adults"
+msgstr "Възрастни"
+
+#: core/lang/wpbc_all_translations1.php:458
+msgid "Children"
+msgstr "Деца"
+
+#: core/lang/wpbc_all_translations1.php:459
+#: includes/page-form-simple/form_simple__default.php:112
+msgid "Details"
+msgstr "Описание"
+
+#: core/lang/wpbc_all_translations1.php:460
+msgid "I Accept term and conditions"
+msgstr "Съгласен съм с условията"
+
+#: core/lang/wpbc_all_translations1.php:465
+msgid "Address (required)"
+msgstr "Адрес (задължително)"
+
+#: core/lang/wpbc_all_translations1.php:466
+msgid "City (required)"
+msgstr "Град (задължително)"
+
+#: core/lang/wpbc_all_translations1.php:467
+msgid "Post code (required)"
+msgstr "Пощенски код (задължително)"
+
+#: core/lang/wpbc_all_translations1.php:468
+msgid "Country (required)"
+msgstr "Държава (задължително)"
+
+#: core/lang/wpbc_all_translations1.php:463
+msgid "night(s)"
+msgstr "нощ(и)"
+
+#: core/lang/wpbc_all_translations1.php:464
+msgid "Full cost of the booking"
+msgstr "Обща цена на резервацията"
+
+#: core/lang/wpbc_all_translations2.php:400
+#: includes/page-form-simple/form_simple__default.php:91
+msgid "Visitors"
+msgstr "Гости"
+
+#: core/lang/wpbc_all_translations1.php:471
+#: includes/page-form-simple/form_simple__default.php:81
+msgid "Email"
+msgstr "Имейл"
+
+#: core/lang/wpbc_all_translations.php:581
+#: includes/page-form-simple/form_simple__default.php:63
+#: includes/page-form-simple/page-form-simple.php:977
+msgid "First Name"
+msgstr "Име"
+
+#: core/lang/wpbc_all_translations1.php:470
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: core/lang/wpbc_all_translations1.php:472
+msgid "Address"
+msgstr "Адрес"
+
+#: core/lang/wpbc_all_translations1.php:473
+msgid "City"
+msgstr "Град"
+
+#: core/lang/wpbc_all_translations1.php:474
+msgid "Post code"
+msgstr "Пощенски код"
+
+#: core/lang/wpbc_all_translations1.php:475
+msgid "Country"
+msgstr "Държава"
+
+#: core/lang/wpbc_all_translations.php:759 core/wpbc_functions_dates.php:285
+msgid "Check in"
+msgstr "Настаняване"
+
+#: core/lang/wpbc_all_translations.php:760 core/wpbc_functions_dates.php:286
+msgid "Check out"
+msgstr "Напускане"
+
+#: core/lang/wpbc_all_translations1.php:476
+msgid "Guests"
+msgstr "Гости"
+
+#: core/lang/wpbc_all_translations1.php:478
+msgid "API Login ID"
+msgstr "API Login ID"
+
+#: core/lang/wpbc_all_translations1.php:479
+msgid "The merchant API Login ID is provided in the Merchant Interface of %s"
+msgstr "Идентификационният номер на търговец API Login е предвидено в търговския интерфейс на%s"
+
+#: core/lang/wpbc_all_translations1.php:759
+msgid "This parameter have to assigned to you by %s"
+msgstr "Този параметър трябва да ви е даден от %s"
+
+#: core/lang/wpbc_all_translations1.php:489
+msgid "Chose payment mode"
+msgstr "Избор на метода за плащане"
+
+#: core/lang/wpbc_all_translations1.php:493
+msgid "Live Test"
+msgstr " Тест наживо"
+
+#: core/lang/wpbc_all_translations1.php:494
+msgid "Live"
+msgstr "На живо"
+
+#: core/lang/wpbc_all_translations1.php:490
+msgid "Select \"Live test\" or \"Live\" environment for using Merchant account or \"Developer Test\" for using Developer account."
+msgstr "Изберете \"Тест на живо\" или \"На живо\" среда за да използвате търговски акаунт или \"Тест за разработчици\" за да използвате акаунт за разработчици."
+
+#: core/lang/wpbc_all_translations1.php:504
+msgid "The currency code that gateway will process the payment in."
+msgstr "Код на валутата, в която платежната ситема ще обработи плащането."
+
+#: core/lang/wpbc_all_translations1.php:506
+msgid "Pay via"
+msgstr "Плащане чрез"
+
+#: core/lang/wpbc_all_translations1.php:491
+msgid "Transactions posted against live merchant accounts using either of the above testing methods are not submitted to financial institutions for authorization and are not stored in the Merchant Interface."
+msgstr "Трансакции, изпратени към истински търговски сметки при използването на който и да е от горните тестови методи, не се изпращат към финансовите институции и не се съхраняват в търговския интерфейс."
+
+#: core/lang/wpbc_all_translations1.php:492
+msgid "Developer Test"
+msgstr "Тест за разработчици"
+
+#: core/lang/wpbc_all_translations1.php:495
+msgid "Transaction type"
+msgstr "Тип на трансакцията"
+
+#: core/lang/wpbc_all_translations1.php:496
+msgid "Select transaction type, which supported by the payment gateway."
+msgstr "Изберете тип на трансакцията, която се поддържа от платежната система"
+
+#: core/lang/wpbc_all_translations1.php:497
+msgid "Authorization and Capture"
+msgstr "Оторизация и прихващане"
+
+#: core/lang/wpbc_all_translations1.php:498
+msgid "Authorization Only"
+msgstr "Само оторизация"
+
+#: core/lang/wpbc_all_translations1.php:499
+msgid "U.S. Dollars"
+msgstr "Американски долари"
+
+#: core/lang/wpbc_all_translations1.php:500
+msgid "Pounds Sterling"
+msgstr "Лири стерлинги"
+
+#: core/lang/wpbc_all_translations1.php:501
+msgid "Euros"
+msgstr "Евро"
+
+#: core/lang/wpbc_all_translations1.php:502
+msgid "Canadian Dollars"
+msgstr "Канадски долари"
+
+#: core/lang/wpbc_all_translations1.php:503
+msgid "Accepted Currency"
+msgstr "Приемани валути"
+
+#: core/lang/wpbc_all_translations1.php:505
+msgid "Setting the currency that is not supported by the payment processor will result in an error."
+msgstr "Избирането на валути, които не се поддържат от платежната система, ще даде съобщение за грешка."
+
+#: core/lang/wpbc_all_translations1.php:507
+msgid "Payment button title"
+msgstr "Заглавие на бутона за плащане"
+
+#: core/lang/wpbc_all_translations1.php:508
+msgid "Enter the title of the payment button"
+msgstr "Въведете заглавие на бутона за плащане"
+
+#: core/lang/wpbc_all_translations1.php:509
+msgid "Payment for booking %s on these day(s): %s"
+msgstr "Плащане на резервация %s за тези дни: %s"
+
+#: core/lang/wpbc_all_translations1.php:519
+msgid "For example, a URL to your site that displays a %s\"Thank you for the payment\"%s."
+msgstr "Примерно, адрес на вашия сайт, където се показва %s\"Благодарим Ви за плащането\"%s."
+
+#: core/lang/wpbc_all_translations1.php:520
+msgid "Return URL after Failed order"
+msgstr "Адрес за връщане на посетителя при неуспешна операция"
+
+#: core/lang/wpbc_all_translations1.php:521
+msgid "The URL where the visitor will be redirected after completing payment."
+msgstr "Адрес на страницата (URL), където клиентът ще бъде пренасочен след плащане."
+
+#: core/lang/wpbc_all_translations1.php:522
+msgid "For example, the URL to your website that displays a %s\"Payment Canceled\"%s page."
+msgstr "Примерно, страницата от вашия сайт, която показва съобщение %s\"Плащането е отказано\"%s."
+
+#: core/lang/wpbc_all_translations1.php:523
+msgid "Automatically approve booking"
+msgstr "Автоматично одобряване на резервацията"
+
+#: core/lang/wpbc_all_translations1.php:524
+msgid "Check this box to automatically approve booking, when visitor makes a successful payment."
+msgstr "Отбележете тази опция за автоматично одобряване на резервацията, след като потребителят е извършил успешно плащане."
+
+#: core/lang/wpbc_all_translations1.php:525
+msgid "This will not work, if the visitor leaves the payment page."
+msgstr "Това няма да работи, ако посетителят напусне страницата за плащане."
+
+#: core/lang/wpbc_all_translations1.php:527
+msgid "Integration of authorizenet payment system"
+msgstr "Интегриране на разплащателна система authorizenet"
+
+#: core/lang/wpbc_all_translations1.php:531
+msgid "Be sure that the merchant server system clock is set to the proper time and time zone."
+msgstr "Уверете се, че сървърът на търговеца е с вярно настроени час и часова зона."
+
+#: core/lang/wpbc_all_translations1.php:533
+msgid "Payment method description that the customer will see on your payment page."
+msgstr "Описание на начина на плащане, което клиентът ще види на страницата за плащане"
+
+#: core/lang/wpbc_all_translations1.php:534
+msgid "Bank Transfer"
+msgstr "Плащане по банков път"
+
+#: core/lang/wpbc_all_translations1.php:535
+msgid "Integration of Bank Transfer payment system"
+msgstr "Интегриране на система за плащане по банков път"
+
+#: core/lang/wpbc_all_translations1.php:536
+msgid "Account details"
+msgstr "Детайли за профила ви"
+
+#: core/lang/wpbc_all_translations1.php:557
+msgid "%s - inserting sort code "
+msgstr "%s - въвеждане на банков код (sort code)"
+
+#: core/lang/wpbc_all_translations1.php:561
+msgid "+ Add Account"
+msgstr "+ Добавяне на профил"
+
+#: core/lang/wpbc_all_translations1.php:562
+msgid "Remove selected account(s)"
+msgstr "Изтриване на избраните профили"
+
+#: core/lang/wpbc_all_translations1.php:579
+msgid "Successful payment"
+msgstr "Успешно плащане"
+
+#: core/lang/wpbc_all_translations1.php:580
+msgid " Parameters are incorrect,"
+msgstr "Параметрите са невалидни,"
+
+#: core/lang/wpbc_all_translations1.php:581
+msgid "Cannot find the record"
+msgstr "Записът не може да бъде намерен"
+
+#: core/lang/wpbc_all_translations1.php:582
+msgid "Amount different"
+msgstr "Сумата се различава"
+
+#: core/lang/wpbc_all_translations1.php:583
+msgid "Payment failed"
+msgstr "Неуспешно плащане"
+
+#: core/lang/wpbc_all_translations1.php:584
+msgid "Payment status updated by Mobile88 Admin(Fail)"
+msgstr "Статутът на плащането е актуализиран от Mobile88 Admin(Fail)"
+
+#: core/lang/wpbc_all_translations1.php:585
+msgid "Connection Error"
+msgstr "Грешка във връзката"
+
+#: core/lang/wpbc_all_translations1.php:586
+msgid "Merchant Code"
+msgstr "Код на търговеца"
+
+#: core/lang/wpbc_all_translations1.php:587
+msgid "Enter your iPay88 Merchant Code."
+msgstr "Въведете iPay88 код на търговеца."
+
+#: core/lang/wpbc_all_translations1.php:565
+msgid "Merchant Key"
+msgstr "Ключ на търговеца"
+
+#: core/lang/wpbc_all_translations1.php:588
+msgid "Enter your iPay88 Merchant Key."
+msgstr "Въведете вашия iPay88 търговски ключ."
+
+#: core/lang/wpbc_all_translations1.php:589
+msgid "Malaysian Ringgit"
+msgstr "Малайзийски Рингит"
+
+#: core/lang/wpbc_all_translations1.php:631
+msgid "No separator"
+msgstr "Без разделител"
+
+#: core/lang/wpbc_all_translations1.php:632
+msgid "Space"
+msgstr "Разстояние"
+
+#: core/lang/wpbc_all_translations1.php:633
+msgid "Dot"
+msgstr "Точка"
+
+#: core/lang/wpbc_all_translations1.php:634
+msgid "Comma"
+msgstr "Запетая"
+
+#: core/lang/wpbc_all_translations1.php:635
+msgid "Separator for the decimal point"
+msgstr "Разделител за десетичната запетая"
+
+#: core/lang/wpbc_all_translations1.php:636
+msgid "Thousands separator"
+msgstr "Разделител за хиляди"
+
+#: core/lang/wpbc_all_translations1.php:638
+msgid "Please select a field from your booking form. This field will be automatically assigned to the current field in the billing form."
+msgstr "Изберете поле от формуляра за резервации. Това поле ще бъде автоматично свързано с текущото поле във формуляра за плащане."
+
+#: core/lang/wpbc_all_translations1.php:639
+msgid "Customer Email"
+msgstr "Имейл адрес на клиента"
+
+#: core/lang/wpbc_all_translations1.php:640
+msgid "First Name(s)"
+msgstr "Първо име"
+
+#: core/lang/wpbc_all_translations1.php:641
+msgid "Last name"
+msgstr "Фамилия"
+
+#: core/lang/wpbc_all_translations1.php:642
+msgid "Billing Address"
+msgstr "Адрес за фактура"
+
+#: core/lang/wpbc_all_translations1.php:643
+msgid "Billing City"
+msgstr "Град за фактура"
+
+#: core/lang/wpbc_all_translations1.php:644
+msgid "Post Code"
+msgstr "Пощенски код"
+
+#: core/lang/wpbc_all_translations1.php:645
+msgid "State"
+msgstr "Област"
+
+#: core/lang/wpbc_all_translations1.php:646
+msgid "Show booking details in payment form"
+msgstr "Показване на детайли за резрервацията във формуляра за плащане"
+
+#: core/lang/wpbc_all_translations1.php:511
+msgid "Enter the service name or the reason for the payment here."
+msgstr "Въведете името на услугата или причината за плащането тук."
+
+#: core/lang/wpbc_all_translations1.php:514
+msgid "Activate Relay Response"
+msgstr "Активиране на Relay Response"
+
+#: core/lang/wpbc_all_translations1.php:515
+msgid "Indicate to the payment gateway that you would like to receive the transaction response to your site."
+msgstr "Посочете разплащателна система, която искате да получи отговора относно трансакцията."
+
+#: core/lang/wpbc_all_translations1.php:516
+msgid "You should leave empty the Relay Response URL and Receipt Link URL/Text in the Merchant Interface, if a Relay Response is activated here."
+msgstr "Ако активирате Replay Response тук, трябва да оставите празни полетата за адрес на Relay Response и адрес или текст на фактура в интерфейса на търговеца."
+
+#: core/lang/wpbc_all_translations1.php:517
+msgid "Return URL after Successful order"
+msgstr "Адрес за връщане след успешна поръчка"
+
+#: core/lang/wpbc_all_translations1.php:518
+msgid "The URL where visitor will be redirected after completing payment."
+msgstr "Адрес, към който ще бъде пренасочен потребителят, след като извърши плащането."
+
+#: core/lang/wpbc_all_translations1.php:713
+msgid "Philippine Pesos"
+msgstr "Филипинско песо"
+
+#: core/lang/wpbc_all_translations1.php:575
+msgid "Automatically approve/cancel booking"
+msgstr "Автоматично одобряване/отказване на резервация"
+
+#: core/lang/wpbc_all_translations1.php:576
+msgid "Check this box to automatically approve bookings, when visitor makes a successful payment, or automatically cancel the booking, when visitor makes a payment cancellation."
+msgstr "Маркирайте тази отметка за автоматично одобряване на резервации, когато посетителят е  направил успешно плащане или автоматично да се анулира резервацията, когато посетителят е отказал плащането."
+
+#: core/lang/wpbc_all_translations1.php:590
+msgid "Integration of iPay88 payment system"
+msgstr "Интеграция с iPay88 платежна система"
+
+#: core/lang/wpbc_all_translations1.php:592
+msgid "for 1 day"
+msgstr "за 1 ден"
+
+#: core/lang/wpbc_all_translations1.php:593
+msgid "for 1 night"
+msgstr "за 1 нощ"
+
+#: core/lang/wpbc_all_translations1.php:594
+msgid "fixed sum"
+msgstr "фиксирана сума"
+
+#: core/lang/wpbc_all_translations1.php:595
+msgid "for 1 hour"
+msgstr "за 1 час"
+
+#: core/lang/wpbc_all_translations1.php:596
+msgid "Set the cost"
+msgstr "Въведете разход"
+
+#: core/lang/wpbc_all_translations1.php:597
+msgid " Select your cost configuration."
+msgstr "Изберете конфигурация за разхода."
+
+#: core/lang/wpbc_all_translations1.php:598
+msgid "Time impact to cost"
+msgstr "Въздействие на времето върху разхода"
+
+#: core/lang/wpbc_all_translations1.php:599
+msgid "Check this box if you want the %stime selection%s on the booking form %sapplied to the cost calculation%s."
+msgstr "Маркирайте, ако искате %sизборът на време%s от формуляра за резервации %sда бъде приложен в калкулацията на разходите%s"
+
+#: core/lang/wpbc_all_translations1.php:600
+msgid "Check this box if you want that specific additional cost, which configured as percentage for some option, apply to other additional fixed costs and not only to original booking cost."
+msgstr "Маркирайте тази отметка, ако искате специфичните допълнителни разходи, които се конфигурират като процент от някоя опция, да важат и за други допълнителни фиксирани цени, а не само към първоначалната цена за резервация."
+
+#: core/lang/wpbc_all_translations1.php:629
+msgid "Currency format"
+msgstr "Формат на валутата"
+
+#: core/lang/wpbc_all_translations1.php:630
+msgid "Number of decimal points"
+msgstr "Брой знаци след десетичната запетая"
+
+#: core/lang/wpbc_all_translations1.php:537
+msgid "Allow payments by %sdirect bank / wire transfer%s"
+msgstr "Позволяване на плащания с %sплатежно нареждане / банков превод%s"
+
+#: core/lang/wpbc_all_translations1.php:539
+msgid "Sort Code"
+msgstr "Банков код (Sort Code)"
+
+#: core/lang/wpbc_all_translations1.php:540
+msgid "Dear %sMake your payment %s directly into our bank account. %sPlease use your Booking ID %s as the payment reference! %s %s: %s %s: %s %s: %s %s: %s"
+msgstr "Уважаеми(а) %s,Направете плащането %s по нашата банкова сметка. %sВъведете уникалния ID номер на вашата резервация%s като основание за плащането! %s %s: %s %s: %s %s: %s %s: %s"
+
+#: core/lang/wpbc_all_translations1.php:541
+msgid "Account Number"
+msgstr "Номер на сметка"
+
+#: core/lang/wpbc_all_translations1.php:542
+msgid "IBAN"
+msgstr "IBAN"
+
+#: core/lang/wpbc_all_translations1.php:543
+msgid "BIC / Swift"
+msgstr "BIC / Swift"
+
+#: core/lang/wpbc_all_translations1.php:544
+msgid "Account Name"
+msgstr "Име на титуляр"
+
+#: core/lang/wpbc_all_translations1.php:545
+msgid "Bank Name"
+msgstr "Име на банката"
+
+#: core/lang/wpbc_all_translations1.php:546
+msgid "BSB"
+msgstr "BSB"
+
+#: core/lang/wpbc_all_translations1.php:547
+msgid "Bank Transit Number"
+msgstr "Bank Transit Номер"
+
+#: core/lang/wpbc_all_translations1.php:548
+msgid "IFSC"
+msgstr "IFSC"
+
+#: core/lang/wpbc_all_translations1.php:549
+msgid "Branch Sort"
+msgstr "Клон (Branch Sort)"
+
+#: core/lang/wpbc_all_translations1.php:550
+msgid "Bank Code"
+msgstr "Код на банката"
+
+#: core/lang/wpbc_all_translations1.php:551
+msgid "Routing Number"
+msgstr "Насочващ номер (Routing Number)"
+
+#: core/lang/wpbc_all_translations1.php:552
+msgid "Branch Code"
+msgstr "Код на клона"
+
+#: core/lang/wpbc_all_translations1.php:690
+msgid "This is the Secure Merchant ID, which can be found on the profile page"
+msgstr "Това е сигурният ID на търговеца, който може да бъде намерен в профилната страница"
+
+#: core/lang/wpbc_all_translations1.php:691
+msgid " Indicates whether the transaction is payment on a final sale or an authorization for a final sale, to be captured later. "
+msgstr "Показва кога трансакцията е реално плащане и кога е оторизация за последващо плащане."
+
+#: core/lang/wpbc_all_translations1.php:692
+msgid "Sale"
+msgstr "Продажба"
+
+#: core/lang/wpbc_all_translations1.php:693
+msgid "Authorization"
+msgstr "Оторизация"
+
+#: core/lang/wpbc_all_translations1.php:694
+msgid " Select using test (Sandbox Test Environment) or live PayPal payment."
+msgstr "Изберете дали да използвате тестов режим (Sandbox Test Environment) или реални PayPal плащания."
+
+#: core/lang/wpbc_all_translations1.php:695
+msgid "Sandbox"
+msgstr "PayPal режим за разработчици"
+
+#: core/lang/wpbc_all_translations1.php:696
+msgid "British Pound"
+msgstr "Британска лира"
+
+#: core/lang/wpbc_all_translations1.php:697
+msgid "Japanese Yen"
+msgstr "Японска йена"
+
+#: core/lang/wpbc_all_translations1.php:698
+msgid "Australian Dollars"
+msgstr "Австралийски долар"
+
+#: core/lang/wpbc_all_translations1.php:699
+msgid "New Zealand Dollar"
+msgstr "Новозеландски долар"
+
+#: core/lang/wpbc_all_translations1.php:700
+msgid "Swiss Franc"
+msgstr "Швейцарски франк"
+
+#: core/lang/wpbc_all_translations1.php:701
+msgid "Hong Kong Dollar"
+msgstr "Хонгконгски долар"
+
+#: core/lang/wpbc_all_translations1.php:702
+msgid "Singapore Dollar"
+msgstr "Сингапурски долар"
+
+#: core/lang/wpbc_all_translations1.php:703
+msgid "Swedish Krona"
+msgstr "Шведска крона"
+
+#: core/lang/wpbc_all_translations1.php:704
+msgid "Danish Krone"
+msgstr "Датска крона"
+
+#: core/lang/wpbc_all_translations1.php:647
+msgid " Check this checkbox if you want to show the %sbooking details summary%s  above the payment form"
+msgstr "Маркирайте, ако желаете да се показват %sдетайли за резервацията%s  над формата за плащане"
+
+#: core/lang/wpbc_all_translations1.php:656
+msgid "Billing form fields"
+msgstr "Полета от формата за фактура"
+
+#: core/lang/wpbc_all_translations1.php:676
+msgid "Pay in Cash"
+msgstr "Плащане в брой"
+
+#: core/lang/wpbc_all_translations1.php:677
+msgid "Integration of Pay in Cash payment system"
+msgstr "Интегриране на разплащателна система за плащане в брой"
+
+#: core/lang/wpbc_all_translations1.php:678
+msgid "If you accept %scash payment%s, you can write details about it here"
+msgstr "Ако приемате %sплащане в брой%s, можете да въведете детайли за него тук"
+
+#: core/lang/wpbc_all_translations1.php:679
+msgid "Dear %sPay in cash %s for your booking %s on check in %sFor reference your booking ID: %s"
+msgstr "Уважаеми(а) %s,Можете да платите в брой %s за вашата резервация %s на място %sID на резервацията за ваша информация: %s"
+
+#: core/lang/wpbc_all_translations1.php:680
+msgid "Error IPN"
+msgstr "Грешен IPN"
+
+#: core/lang/wpbc_all_translations1.php:681
+msgid "Verified IPN"
+msgstr "Проверен IPN"
+
+#: core/lang/wpbc_all_translations1.php:682
+msgid "Invalid IPN"
+msgstr "Невалиден IPN"
+
+#: core/lang/wpbc_all_translations1.php:684
+msgid "Paypal Standard"
+msgstr "Paypal Standard"
+
+#: core/lang/wpbc_all_translations1.php:685
+msgid "Paypal Pro Hosted Solution"
+msgstr "Paypal Pro Hosted Solution"
+
+#: core/lang/wpbc_all_translations1.php:687
+msgid "Paypal Email address to receive payments"
+msgstr "Paypal имейл адрес за получаване на плащанията"
+
+#: core/lang/wpbc_all_translations1.php:688
+msgid "This is the Paypal Email address where payments will be sent"
+msgstr "Това е имейлът адресът ви в Paypal, към който ще се изпращат плащанията"
+
+#: core/lang/wpbc_all_translations1.php:689
+msgid "Secure Merchant ID"
+msgstr "Сигурен ID на търговец"
+
+#: core/lang/wpbc_all_translations1.php:720
+msgid "Enter your phone number"
+msgstr "Въведете телефонния си номер"
+
+#: core/lang/wpbc_all_translations1.php:721
+msgid "Reference Text Box Title"
+msgstr "Референтен текстов прозорец"
+
+#: core/lang/wpbc_all_translations1.php:722
+msgid "Enter a title for the Reference text box (i.e. Your email address). Visitors will see this text."
+msgstr "Въведете заглавието на референтния текстов прозорец (например вашия имейл адрес). Потребителите ще виждат този текст."
+
+#: core/lang/wpbc_all_translations1.php:723
+msgid "Return URL from PayPal"
+msgstr "URL за връщане от PayPal"
+
+#: core/lang/wpbc_all_translations1.php:724
+msgid "Cancel Return URL from PayPal"
+msgstr "Адрес на страницата, към която ще се премине при отказ от плащане в PayPal"
+
+#: core/lang/wpbc_all_translations1.php:727
+msgid "To use this feature you %smust activate auto-return link%s at your Paypal account."
+msgstr "За да използвате тази възможност, %sтрябва да активирате връзката за автоматично връщане (auto-return link)%s във вашия профил в Paypal."
+
+#: core/lang/wpbc_all_translations1.php:728
+msgid "Follow these steps to configure it:"
+msgstr "Следвайте стъпките, за да го конфигурирате:"
+
+#: core/lang/wpbc_all_translations1.php:729
+msgid "Log in to your PayPal account."
+msgstr "Влезте в PayPal профила си."
+
+#: core/lang/wpbc_all_translations1.php:730
+msgid "Click the Profile subtab."
+msgstr "Натиснете Profile."
+
+#: core/lang/wpbc_all_translations1.php:731
+msgid "Click Website Payment Preferences in the Seller Preferences column."
+msgstr "Натиснете Website Payment Preferences в колоната Seller Preferences."
+
+#: core/lang/wpbc_all_translations1.php:732
+msgid "Under Auto Return for Website Payments, click the On radio button."
+msgstr "Под Auto Return for Website Payments натиснете радио бутона On."
+
+#: core/lang/wpbc_all_translations1.php:733
+msgid "For the Return URL, enter the Return URL from PayPal on your site for successfull payment."
+msgstr "Като адрес за връщане въведете Return URL от PayPal при успешно плащане."
+
+#: core/lang/wpbc_all_translations.php:994
+msgid " for all days!"
+msgstr " за всички дни!"
+
+#: core/lang/wpbc_all_translations1.php:249
+msgid "%s - inserting data from fields of booking form"
+msgstr "%s - въвеждане на данните от полетата от резервационната форма"
+
+#: core/lang/wpbc_all_translations1.php:252
+msgid "%s - inserting new line"
+msgstr "%s - въвеждане на нов ред"
+
+#: core/lang/wpbc_all_translations1.php:294
+msgid "where %s – default calendar %s (you can select desired resource of calendar by inserting shortcode into page)%s"
+msgstr "където %s – календар по подразбиране %s (можете да избирате желания ресурс от календара като вмъквате краткия код в страницата)%s"
+
+#: core/lang/wpbc_all_translations1.php:295
+msgid "%s – calendar of booking resource with %s"
+msgstr "%s – календар на ресурс с %s"
+
+#: core/lang/wpbc_all_translations1.php:296
+msgid "Please check more about this feature %shere%s."
+msgstr "Моля изберете повече възможности за този ресурс %sтук%s."
+
+#: core/lang/wpbc_all_translations1.php:297
+msgid "You can %suse this shortcode only once%s in the form."
+msgstr "Можете да %sизплозвате този код само веднъж%s във формата."
+
+#: core/lang/wpbc_all_translations1.php:298
+msgid "Email Field"
+msgstr "Поле за имейл"
+
+#: core/lang/wpbc_all_translations1.php:299
+msgid "You must have this shortcode:%s in the booking form."
+msgstr "Трябва да имате този код%s: във формата за резервации."
+
+#: core/lang/wpbc_all_translations1.php:300
+msgid "This is the primary email field, which is used for sending emails to visitors."
+msgstr "Основно поле за имейл, което ще се използва за изпащане на имейли на гостите."
+
+#: core/lang/wpbc_all_translations1.php:301
+msgid "Drop Down"
+msgstr "Падащо меню"
+
+#: core/lang/wpbc_all_translations1.php:302
+msgid "Checkbox(es)"
+msgstr "Поле(та) за отметка"
+
+#: core/lang/wpbc_all_translations1.php:303
+msgid "Radio Button(s)"
+msgstr "Бутон за избор"
+
+#: core/lang/wpbc_all_translations1.php:304
+msgid "Insert %s shortcode to prevent SPAM bookings."
+msgstr "Вмъкнете %s  кода, за да се предотвратят SPAM резервации."
+
+#: core/lang/wpbc_all_translations1.php:305
+msgid "Submit Button"
+msgstr "Бутон Напред"
+
+#: core/lang/wpbc_all_translations1.php:306
+msgid "Times Fields"
+msgstr "Полета за време"
+
+#: core/lang/wpbc_all_translations1.php:307
+msgid "Time Slot List"
+msgstr "Списък с времеви интервали"
+
+#: core/lang/wpbc_all_translations1.php:308
+msgid "Select the %s using the predefined %sTime List%s."
+msgstr "Изберете %s  използвайки предварително зададени %s Списък с времеви интервали%s ."
+
+#: core/lang/wpbc_all_translations1.php:309
+msgid "Time Slot"
+msgstr "Времеви интервал"
+
+#: core/lang/wpbc_all_translations1.php:310
+msgid "Please note, %sthe use of the time shortcode%s. If you select a date with some booked time slots, this time field will %sdisable booked times slots%s (set them as grayed)."
+msgstr "Имайте в пред вид, в %sизползването на кодовете за време%s. Ако изберете дата с някои от резервираните времеви интервали, това поле ще бъде %sзабранен  времеви интервал%s (ще е сиво)."
+
+#: core/lang/wpbc_all_translations1.php:311
+msgid "It works only in %ssingle day selection%s mode."
+msgstr "Работи само като възможност за %sизбро на един, единствен ден%s."
+
+#: core/lang/wpbc_all_translations1.php:312
+msgid "Also some early versions of the IE do not support disabling of the options in the selectboxes."
+msgstr "Също така някои ранни версии на IE не поддържат забрана на опциите от selectboxes (списък от стойности с възможност за избор)."
+
+#: core/lang/wpbc_all_translations1.php:313
+msgid "Even if visitor selects the booked timeslot, system will not allow them to make the booking."
+msgstr "Дори и госта да избере резервиреан времеви интервал, системата няма да му позволи да направи резервацията."
+
+#: core/lang/wpbc_all_translations1.php:314
+msgid "Please note, in the %sOptions list%s you can use times in military time format %s(24 Hour Time)%s only."
+msgstr "Имайте предвид, чв в %sСписъка с опции%s можете да използвате само време във формат милитари %s(24 Часа Време)%s."
+
+#: core/lang/wpbc_all_translations1.php:315
+msgid "If you use this shortcode, %syou can not use any other time shortcodes%s in the form."
+msgstr "Можете да използвате този код, %sвие не можете да използвате други кодове%s за време във формата."
+
+#: core/lang/wpbc_all_translations1.php:316
+msgid "Start Time - Text field"
+msgstr "Начално време - Текстово полеа"
+
+#: core/lang/wpbc_all_translations1.php:317
+msgid "Enter %s in text field."
+msgstr "Въведете %s в текстовото поле."
+
+#: core/lang/wpbc_all_translations1.php:318
+msgid "Start Time"
+msgstr "Начален час"
+
+#: core/lang/wpbc_all_translations1.php:319
+msgid "Please note: this field only supports military time format %s(24 Hour Time)%s."
+msgstr "Моля имайте предвид, чв за това поле можете да използвате само време във формат милитари %s(24 Часа)%s."
+
+#: core/lang/wpbc_all_translations1.php:320
+msgid "You can also use the %s in the form."
+msgstr "Можете също да използвате %s във формата."
+
+#: core/lang/wpbc_all_translations1.php:321
+msgid "End Time"
+msgstr "Краен час"
+
+#: core/lang/wpbc_all_translations1.php:322
+msgid "Duration Time"
+msgstr "Продължителност"
+
+#: core/lang/wpbc_all_translations.php:826
+msgid "%s - check-in date, "
+msgstr "%s - дата на пристигане,"
+
+#: core/lang/wpbc_all_translations.php:827
+msgid "%s - check-out date, "
+msgstr "%s - дата на освобождаване,"
+
+#: core/admin/api-settings.php:2035 core/admin/api-settings.php:2079
+#: core/admin/api-settings.php:2116 core/lang/wpbc_all_translations.php:188
+#: includes/page-bookings/bookings__actions.php:1532
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: core/lang/wpbc_all_translations.php:831
+msgid "HTML tags is accepted."
+msgstr "HTML таговете са разрешени"
+
+#: core/lang/wpbc_all_translations.php:572
+#: includes/page-form-simple/page-form-simple.php:599
+#: includes/page-form-simple/page-form-simple.php:998
+msgid "Active"
+msgstr "Активно"
+
+#: core/admin/page-email-approved.php:205 core/admin/page-email-deleted.php:205
+#: core/admin/page-email-deny.php:207 core/admin/page-email-new-admin.php:190
+#: core/admin/page-email-trash.php:205 core/lang/wpbc_all_translations.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:1361
+msgid "To"
+msgstr "До"
+
+#: core/admin/page-email-approved.php:314
+#: core/admin/page-email-approved.php:321 core/admin/page-email-deleted.php:315
+#: core/admin/page-email-deleted.php:322 core/admin/page-email-deny.php:315
+#: core/admin/page-email-deny.php:322 core/admin/page-email-new-admin.php:300
+#: core/admin/page-email-new-admin.php:307
+#: core/admin/page-email-new-visitor.php:296
+#: core/admin/page-email-new-visitor.php:303
+#: core/admin/page-email-trash.php:320 core/admin/page-email-trash.php:327
+#: core/lang/wpbc_all_translations.php:204
+msgid "Subject"
+msgstr "Тема"
+
+#: core/admin/api-settings.php:913 core/admin/api-settings.php:921
+#: core/admin/api-settings.php:1017 core/admin/api-settings.php:1027
+#: core/admin/page-email-approved.php:350
+#: core/admin/page-email-approved.php:357 core/admin/page-email-deleted.php:347
+#: core/admin/page-email-deleted.php:354 core/admin/page-email-deny.php:347
+#: core/admin/page-email-deny.php:354 core/admin/page-email-new-admin.php:327
+#: core/admin/page-email-new-admin.php:336
+#: core/admin/page-email-new-visitor.php:331
+#: core/admin/page-email-new-visitor.php:338
+#: core/admin/page-email-trash.php:352 core/admin/page-email-trash.php:359
+#: core/lang/wpbc_all_translations.php:95
+msgid "Content"
+msgstr "Съдържание"
+
+#: core/lang/wpbc_all_translations.php:674 core/wpbc-emails.php:198
+msgid "You can use following shortcodes in content of this template"
+msgstr "Може да използвате следните shortcodes в съдържанието на шаблоните"
+
+#: core/lang/wpbc_all_translations.php:675 core/wpbc-emails.php:202
+msgid "%s - inserting data info about the booking, which you configured in the content form at Settings Fields page"
+msgstr "%s - въвеждане на данните от информацията за резервацията, които сте конфигурирали в страницата с настройки на полетата"
+
+#: core/lang/wpbc_all_translations.php:684 core/wpbc-emails.php:232
+msgid "%s - inserting ID of booking "
+msgstr "%s - добавяне на ID на резервацията "
+
+#: core/lang/wpbc_all_translations.php:685 core/wpbc-emails.php:237
+msgid "%s or %s - inserting the title of the booking resource "
+msgstr "%s или %s - въвеждане на заглавието на резервационния ресурс"
+
+#: core/lang/wpbc_all_translations.php:686 core/wpbc-emails.php:245
+msgid "%s - inserting the cost of  booking "
+msgstr "%s - въвеждане на цена на резервацията"
+
+#: core/lang/wpbc_all_translations.php:677 core/wpbc-emails.php:209
+msgid "%s - inserting the dates of booking"
+msgstr "%s - въвеждане на датите на резервацията"
+
+#: core/lang/wpbc_all_translations.php:678 core/wpbc-emails.php:214
+msgid "%s - inserting check-in date (first day of reservation),"
+msgstr "%s - въвеждане на дата на настаняване (първи ден от резервацията),"
+
+#: core/lang/wpbc_all_translations.php:680 core/wpbc-emails.php:219
+#: core/wpbc-emails.php:221
+msgid "%s - inserting check-out date (last day of reservation),"
+msgstr "%s - въвеждане на дата на напускане (последен ден от резервацията),"
+
+#: core/lang/wpbc_all_translations.php:683 core/wpbc-emails.php:226
+msgid "%s - inserting the number of booking dates "
+msgstr "%s - въвеждане на броя резервирани дни "
+
+#: core/lang/wpbc_all_translations.php:543
+msgid "Customization of email template, which is sending to Admin after new booking"
+msgstr "Персонализиране на шаблона за email, който се изпраща на администратора след нова резервация"
+
+#: core/admin/page-email-new-visitor.php:560
+#: core/lang/wpbc_all_translations.php:264
+msgid "Customization of email template, which is sending to Visitor after new booking"
+msgstr "Персонализиране на шаблона за email, който се изпраща на посетителя след нова резервация"
+
+#: core/lang/wpbc_all_translations.php:536
+msgid "Type your email %ssubject%s for the booking confimation message."
+msgstr "Въведете вашия email %ssubject%s за съобщението за потвърждаване на резервация."
+
+#: core/admin/api-settings.php:1264 core/lang/wpbc_all_translations.php:127
+msgid "Type your date format for emails and the booking table. %sDocumentation on date formatting%s"
+msgstr "Въведете формата на датата за имейлите и за таблицата с резервации. %sДокументация за форматите за дата%s"
+
+#: core/admin/api-settings.php:1205 core/lang/wpbc_all_translations.php:121
+msgid "Dates view"
+msgstr "Представяне на датите"
+
+#: core/admin/api-settings.php:1208 core/lang/wpbc_all_translations.php:123
+msgid "Short days view"
+msgstr "Кратко представяне на датите"
+
+#: core/admin/api-settings.php:1209 core/lang/wpbc_all_translations.php:124
+msgid "Wide days view"
+msgstr "Разширено представяне на датите"
+
+#: core/admin/api-settings.php:1206 core/lang/wpbc_all_translations.php:122
+msgid "Select the default view for dates on the booking tables"
+msgstr "Изберете как да се показват датите в таблиците с резервации"
+
+#: core/lang/wpbc_all_translations.php:517
+msgid "Show / hide hints"
+msgstr "Покажи/скрии подсказки"
+
+#: core/lang/wpbc_all_translations.php:518
+msgid "Check this box if you want to show help hints on the admin panel."
+msgstr "Маркирайте, ако искате да се показват подсказки на административния панел"
+
+#: core/admin/api-settings.php:1368 core/lang/wpbc_all_translations.php:130
+msgid "Allow unlimited bookings per same day(s)"
+msgstr "Позволи неограничен борй резервации за едни и същи дни"
+
+#: core/admin/api-settings.php:2036 core/lang/wpbc_all_translations.php:189
+msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
+msgstr "Ако се позволи неограничен борй резервации за едни и същи дати, това може да бъде причина за дублиране на резервации за една и съща дата. Наистина ли искате да направите това?"
+
+#: core/admin/api-settings.php:1369 core/lang/wpbc_all_translations.php:131
+msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
+msgstr "Маркирайте, ако искате да %sнаправите някои дни налични%s в календара. Вашите гости ще могат да правят %sнеограничен брой резервации за едни и същи дати ит календара и да не виждат датите%s на резервация на другите посетители."
+
+#: core/admin/api-settings.php:2080 core/lang/wpbc_all_translations.php:190
+msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
+msgstr "Вие трябва да бъдете сигурни какво правите. Вие сте забраняване на зареждане на някои JavaScripts функции. Наистина ли искате да направите това?"
+
+#: core/admin/api-settings.php:1493 core/lang/wpbc_all_translations.php:148
+msgid "Load JS and CSS files only on specific pages"
+msgstr "Зареждане на JS и CSS файлове на специфични страници"
+
+#: core/admin/api-settings.php:1494 core/lang/wpbc_all_translations.php:149
+msgid "Activate loading of CSS and JavaScript files of plugin only at specific pages."
+msgstr "Активиране на зареждането на JS и CSS файлове от плъгина само на специфични страници"
+
+#: core/admin/api-settings.php:1504 core/lang/wpbc_all_translations.php:150
+msgid "Relative URLs of pages, where to load plugin CSS and JS files"
+msgstr "Релативни URLs адреси на страниците, където ще се заредят CSS и  JS файловете"
+
+#: core/admin/api-settings.php:1505 core/lang/wpbc_all_translations.php:151
+msgid "Enter relative URLs of pages, where you have Booking Calendar elements (booking forms or availability calendars). Please enter one URL per line. Example: %s"
+msgstr "Въведете относителни URL адреси на страниците, в които имате елементи  на Календара за резервации (форми за резервация или календари за наличностите). Моля, въведете един URL на ред. Пример:%s"
+
+#: core/admin/api-settings.php:1566 core/lang/wpbc_all_translations.php:159
+msgid "Show settings of powered by notice"
+msgstr "Покажи съобщение Поддържан от"
+
+#: core/admin/api-settings.php:1567 core/lang/wpbc_all_translations.php:160
+msgid "Hide settings of powered by notice"
+msgstr "Скрии съобщение Поддържан от"
+
+#: core/admin/api-settings.php:1574 core/lang/wpbc_all_translations.php:161
+msgid "Powered by notice"
+msgstr "Съобщение Поддържан от"
+
+#: core/admin/api-settings.php:1575 core/lang/wpbc_all_translations.php:162
+msgid " Turn On/Off powered by \"Booking Calendar\" notice under the calendar."
+msgstr "Пусни/Спри съобщението поддържан от  \"Booking Calendar\" след календара"
+
+#: core/admin/api-settings.php:1583 core/lang/wpbc_all_translations.php:163
+msgid "Help and info notices"
+msgstr "Съобщения за помощ и информация"
+
+#: core/admin/api-settings.php:1584 core/lang/wpbc_all_translations.php:164
+msgid " Turn On/Off version notice and help info links at booking admin panel."
+msgstr "Пусни/Спри съобщението за версията, както и връзките към помощ на администратирския панел"
+
+#: core/admin/page-settings.php:591 core/lang/wpbc_all_translations.php:418
+msgid "Information"
+msgstr "Информация"
+
+#: core/admin/api-settings.php:1630 core/lang/wpbc_all_translations.php:169
+msgid "User permissions for plugin menu pages"
+msgstr "Потребителски разрешения за страниците на менюто на плъгина"
+
+#: core/admin/api-settings.php:1706 core/lang/wpbc_all_translations.php:177
+msgid "Select user access level for the menu pages of plugin"
+msgstr "Изберете нивото на достъп на потребителите до страниците на менюто на плъгина"
+
+#: core/admin/page-settings.php:369 core/admin/page-settings.php:614
+#: core/lang/wpbc_all_translations.php:420
+msgid "Uninstall / deactivation"
+msgstr "Деинсталиране/деактивиране"
+
+#: core/admin/api-settings.php:1739 core/lang/wpbc_all_translations.php:182
+msgid "Delete booking data, when plugin deactivated"
+msgstr "Изтриване на данните за резерваци след деактивиране"
+
+#: core/admin/api-settings.php:2117 core/lang/wpbc_all_translations.php:191
+msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
+msgstr "Ако изберет тази опция, когато деинсталирате този плъгин, всички данни за резервации ще бъдат изтрити завинаги. Наистина ли искате да направите това?"
+
+#: core/admin/api-settings.php:1740 core/lang/wpbc_all_translations.php:183
+msgid "Check this box to delete all booking data when you uninstal this plugin."
+msgstr "Маркирайте за изтриване на данните за резерваци след деинсталиране на този плъгин."
+
+#: core/admin/api-settings.php:212 core/lang/wpbc_all_translations.php:29
+msgid "Show legend below calendar"
+msgstr "Показване на легенда под календара"
+
+#: core/admin/api-settings.php:213 core/lang/wpbc_all_translations.php:30
+msgid "Check this box to display a legend of dates below the booking calendar."
+msgstr "Маркирай за показване на легенда за датите под календара"
+
+#: core/admin/api-settings.php:225 core/lang/wpbc_all_translations.php:31
+msgid "Available item"
+msgstr "Наличен"
+
+#: core/admin/api-settings.php:248 core/lang/wpbc_all_translations.php:33
+msgid "Activate and type your %stitle of available%s item in legend"
+msgstr "Активирайте и въведете вашето %sзаглавие за наличен%s легендата"
+
+#: core/admin/api-settings.php:262 core/lang/wpbc_all_translations.php:34
+msgid "Pending item"
+msgstr "Чакащ"
+
+#: core/admin/api-settings.php:285 core/lang/wpbc_all_translations.php:36
+msgid "Activate and type your %stitle of pending%s item in legend"
+msgstr "Активирайте и въведете вашето %sзаглавие за чакащ%s легендата"
+
+#: core/admin/api-settings.php:299 core/lang/wpbc_all_translations.php:37
+msgid "Approved item"
+msgstr "Одобрен"
+
+#: core/admin/api-settings.php:322 core/lang/wpbc_all_translations.php:39
+msgid "Activate and type your %stitle of approved%s item in legend"
+msgstr "Активирайте и въведете вашето %sзаглавие за одобрен%s в легендата"
+
+#: core/admin/api-settings.php:339 core/lang/wpbc_all_translations.php:40
+msgid "Partially booked item"
+msgstr "Частично резервиран"
+
+#: core/admin/api-settings.php:362 core/lang/wpbc_all_translations.php:42
+msgid "Activate and type your %stitle of partially booked%s item in legend"
+msgstr "Активирайте и въведете вашето %sзаглавие за частично резервиран%s легендата"
+
+#: core/admin/api-settings.php:365 core/admin/api-settings.php:532
+#: core/lang/wpbc_all_translations.php:44
+msgid "Partially booked item - day, which is booked for the specific time-slot(s)."
+msgstr "Частично резервиран - ден, в който има резервация за специфичен интервал от време"
+
+#: core/lang/wpbc_all_translations.php:573
+#: includes/page-form-simple/page-form-simple.php:600
+msgid "Field Label"
+msgstr "Етикет на полето"
+
+#: core/admin/page-email-approved.php:215
+#: core/admin/page-email-approved.php:272
+#: core/admin/page-email-approved.php:332 core/admin/page-email-deleted.php:215
+#: core/admin/page-email-deleted.php:272 core/admin/page-email-deleted.php:333
+#: core/admin/page-email-deny.php:217 core/admin/page-email-deny.php:272
+#: core/admin/page-email-deny.php:333 core/admin/page-email-new-admin.php:200
+#: core/admin/page-email-new-admin.php:252
+#: core/admin/page-email-new-admin.php:318
+#: core/admin/page-email-new-visitor.php:254
+#: core/admin/page-email-new-visitor.php:314
+#: core/admin/page-email-trash.php:215 core/admin/page-email-trash.php:277
+#: core/admin/page-email-trash.php:338 core/lang/wpbc_all_translations.php:198
+#: includes/page-form-simple/page-form-simple.php:601
+#: includes/page-form-simple/page-form-simple.php:1019
+msgid "Required"
+msgstr "Задължително"
+
+#: core/lang/wpbc_all_translations.php:587
+#: includes/page-form-simple/page-form-simple.php:1095
+msgid "Enter dropdown options. One option per line."
+msgstr "Опции за dropdown (падащ списък са възможност за избор). Една опция на ред."
+
+#: core/lang/wpbc_all_translations.php:673 core/wpbc-emails.php:195
+msgid "You can use (in subject and content of email template) any shortcodes, which you used in the booking form. Use the shortcodes in the same way as you used them in the content form at Settings Fields page."
+msgstr "Можете да използвате (в полето относно на имейл шаблона) всички кодове, които сте използвали във формата за резерввации. Използвайте тези кодове по същия начин и със същия смисъл, както сте ги използвали във формата."
+
+#: core/lang/wpbc_all_translations.php:676 core/wpbc-emails.php:204
+msgid "%s - inserting data info about the booking"
+msgstr "%s - въвеждане на данните от информацията за резервацията"
+
+#: core/lang/wpbc_all_translations.php:687 core/wpbc-emails.php:250
+msgid "%s - inserting your site URL "
+msgstr "%s - въведете URL на вашия сайт"
+
+#: core/lang/wpbc_all_translations.php:688 core/wpbc-emails.php:253
+msgid "%s - inserting IP address of the user who made this action "
+msgstr "%s - въвеждане на  IP адреса на потребителя който извършва това действие "
+
+#: core/lang/wpbc_all_translations.php:689 core/wpbc-emails.php:254
+msgid "%s - inserting contents of the User-Agent: header from the current request, if there is one "
+msgstr "%s - вмъкване на съдържанието на User-Agent: заглавие на текущата заявка, ако има такава"
+
+#: core/lang/wpbc_all_translations.php:690 core/wpbc-emails.php:255
+msgid "%s - inserting address of the page (if any), where visitor make this action "
+msgstr "%s - вмъкване на адрес на страницата (ако има), когато потребителят извърши това действие"
+
+#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
+#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
+#: core/admin/page-email-new-visitor.php:491
+#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:232
+msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
+msgstr "Пример:  \"Вие имате нова резервация %s на следнита дати : %s Информация за контакт: %s Вир можете да одобрите или да откажете тази резервация на:  %s  Благодарим Ви, отдел резервации .\""
+
+#: core/lang/wpbc_all_translations.php:692 core/wpbc-emails.php:259
+msgid "%s - inserting date of this action "
+msgstr "%s - вмъкване дата на действието"
+
+#: core/lang/wpbc_all_translations.php:691 core/wpbc-emails.php:256
+msgid "%s - inserting time of this action "
+msgstr "%s - вмъкване време на действието"
+
+#: core/lang/wpbc_all_translations.php:694 core/wpbc-emails.php:281
+msgid "%s - inserting moderate link of new booking "
+msgstr "%s - вмъкване връзка за забавяне на нова резервация"
+
+#: core/lang/wpbc_all_translations.php:701 core/wpbc-emails.php:307
+msgid "%s - inserting link to the page where visitor can edit the reservation,  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - вмъкване на връзка към страницата, където посетителите могат да редактират резервацията, (може да се използва  %s параметър за определяне на различни  %s от тази страница. Пример:  %s)"
+
+#: core/lang/wpbc_all_translations.php:702 core/wpbc-emails.php:313
+msgid "%s - inserting link to the page where visitor can cancel the reservation, (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - вмъкване на връзка към страницата, където посетителите могат да анулират резервацията, (може да се използва  %s параметър за определяне на различни  %s от тази страница. Пример:  %s)"
+
+#: core/lang/wpbc_all_translations.php:703 core/wpbc-emails.php:321
+msgid "%s - inserting link to payment page where visitor can pay for the reservation  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - вмъкване на връзка към страницата, където посетителите могат да плащат резервацията, (може да се използва  %s параметър за определяне на различни %s на тази страница. Пример: %s )"
+
+#: core/lang/wpbc_all_translations.php:704 core/wpbc-emails.php:327
+msgid "%s - add the reason for booking payment, you can enter it before sending email, "
+msgstr "%s - добавете причина за плащане на резервацията, можете да го добавите преди да изпратите мейла,"
+
+#: core/lang/wpbc_all_translations.php:705 core/wpbc-emails.php:333
+msgid "%s - add the reason booking was cancelled, you can enter it before sending email, "
+msgstr "%s - добавете причина за анулиране на резервацията, можете да го добавите преди да изпратите мейла,"
+
+#: core/lang/wpbc_all_translations1.php:121
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:82
+#: includes/_toolbar_ui/toolbar_ui.php:303
+#: includes/_toolbar_ui/toolbar_ui.php:304
+#: includes/_toolbar_ui/toolbar_ui.php:1617
+msgid "Cost"
+msgstr "цена"
+
+#: core/lang/wpbc_all_translations.php:635 core/sync/wpbc-gcal-class.php:665
+#: core/wpbc.php:251 includes/page-resource-free/page-resource-free.php:34
+#: includes/page-resource-free/page-resource-free.php:100
+#: includes/_functions/admin_top_bar.php:222
+#: includes/_functions/admin_top_bar.php:230
+#: includes/_toolbar_ui/toolbar_ui.php:297
+#: includes/_toolbar_ui/toolbar_ui.php:298
+msgid "Resource"
+msgstr "Ресурс"
+
+#: core/admin/api-settings.php:1093 core/lang/wpbc_all_translations.php:101
+msgid "Default booking admin page"
+msgstr "Административна страница за резрервации по подразбиране"
+
+#: core/admin/api-settings.php:1087 core/lang/wpbc_all_translations.php:99
+#: core/wpbc.php:168 core/wpbc.php:169
+msgid "Bookings Listing"
+msgstr "Списък с резервации"
+
+#: core/admin/api-settings.php:1094 core/lang/wpbc_all_translations.php:102
+msgid "Select your default view mode of bookings at the booking listing page"
+msgstr "Изберете вашия режим на показване на резервации в листата на резервация"
+
+#: core/admin/api-settings.php:1139 core/lang/wpbc_all_translations.php:110
+msgid "Select your default calendar view mode at booking calendar overview page"
+msgstr "Изберете вашия режим по подразбиране на това как ще изглежда календара в страницата за преглед резервации"
+
+#: core/lang/wpbc_all_translations.php:851
+#: includes/_pagination/pagination.php:232
+msgid "ASC"
+msgstr "ВЪЗХОДЯЩ"
+
+#: core/lang/wpbc_all_translations.php:852
+#: includes/_pagination/pagination.php:233
+msgid "DESC"
+msgstr "НИЗХОДЯЩ"
+
+#: core/admin/api-settings.php:1224 core/lang/wpbc_all_translations.php:125
+msgid "Date Format"
+msgstr "Форам на Дата"
+
+#: core/lang/wpbc_all_translations.php:551 core/wpbc-activation.php:1193
+#: includes/page-form-simple/form_simple__default.php:134
+msgid "Send"
+msgstr "Изпрати"
+
+#: core/admin/wpbc-toolbars.php:1639 core/lang/wpbc_all_translations.php:503
+msgid "Search"
+msgstr "Търси"
+
+#: core/admin/api-settings.php:364 core/admin/api-settings.php:458
+#: core/admin/api-settings.php:531 core/admin/api-settings.php:660
+#: core/admin/api-settings.php:1427 core/admin/page-ics-export.php:470
+#: core/lang/wpbc_all_translations.php:43
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3143 js/wpbc-gutenberg.js:1094
+msgid "Note"
+msgstr "Забележка"
+
+#: core/admin/api-settings.php:1696 core/admin/page-import-gcal.php:535
+#: core/lang/wpbc_all_translations.php:175
+#: core/timeline/v2/wpbc-class-timeline_v2.php:72 core/wpbc.php:225
+#: core/wpbc.php:227 includes/_functions/admin_top_bar.php:222
+#: includes/_functions/admin_top_bar.php:230
+msgid "Resources"
+msgstr "Ресурси"
+
+#: core/lang/wpbc_all_translations.php:527
+msgid "Help Info"
+msgstr "Помощтна информация"
+
+#: core/admin/api-settings.php:1686 core/admin/page-new.php:33
+#: core/admin/page-new.php:34 core/admin/page-new.php:35
+#: core/admin/wpbc-toolbars.php:1149 core/lang/wpbc_all_translations.php:174
+#: core/wpbc.php:195 core/wpbc.php:196 core/wpbc.php:197
+#: includes/_functions/admin_top_bar.php:110
+msgid "Add booking"
+msgstr "Добави резервация"
+
+#: core/lang/wpbc_all_translations.php:736
+#: includes/_functions/booking_data__parse.php:652
+msgid "yes"
+msgstr "да"
+
+#: core/lang/wpbc_all_translations1.php:42
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:784
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1222
+msgid "Su"
+msgstr "Нд"
+
+#: core/lang/wpbc_all_translations1.php:37
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:779
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1217
+msgid "Tu"
+msgstr "Вт"
+
+#: core/lang/wpbc_all_translations1.php:39
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:781
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1219
+msgid "Th"
+msgstr "Чт"
+
+#: core/lang/wpbc_all_translations1.php:41
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:783
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1221
+msgid "Sa"
+msgstr "Сб"
+
+#: core/admin/api-settings.php:98 core/admin/api-settings.php:559
+#: core/lang/wpbc_all_translations.php:10
+#: core/timeline/v2/wpbc-class-timeline_v2.php:86
+msgid "Sunday"
+msgstr "Неделя"
+
+#: core/admin/api-settings.php:101 core/admin/api-settings.php:568
+#: core/lang/wpbc_all_translations.php:13
+#: core/timeline/v2/wpbc-class-timeline_v2.php:82
+msgid "Wednesday"
+msgstr "Сряда"
+
+#: core/admin/api-settings.php:102 core/admin/api-settings.php:571
+#: core/lang/wpbc_all_translations.php:14
+#: core/timeline/v2/wpbc-class-timeline_v2.php:83
+msgid "Thursday"
+msgstr "Четвъртък"
+
+#: core/admin/api-settings.php:103 core/admin/api-settings.php:574
+#: core/lang/wpbc_all_translations.php:15
+#: core/timeline/v2/wpbc-class-timeline_v2.php:84
+msgid "Friday"
+msgstr "Петък"
+
+#: core/admin/api-settings.php:104 core/admin/api-settings.php:577
+#: core/lang/wpbc_all_translations.php:16
+#: core/timeline/v2/wpbc-class-timeline_v2.php:85
+msgid "Saturday"
+msgstr "Събота"
+
+#: core/lang/wpbc_all_translations.php:985
+msgid "Costs"
+msgstr "Разходи"
+
+#: core/admin/page-settings.php:90 core/admin/page-settings.php:239
+#: core/admin/page-settings.php:429 core/lang/wpbc_all_translations.php:396
+#: includes/page-form-simple/page-form-simple.php:687
+#: includes/page-resource-free/page-resource-free.php:233
+#: includes/page-settings-all/all__page.php:81
+#: includes/page-settings-all/all__page.php:147
+msgid "Calendar"
+msgstr "Календар"
+
+#: core/admin/api-settings.php:657 core/lang/wpbc_all_translations.php:68
+#: includes/page-form-simple/page-form-simple.php:574
+msgid "CAPTCHA"
+msgstr "Капча"
+
+#: core/lang/wpbc_all_translations.php:658
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3082
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3084
+#: includes/page-bookings/bookings__sql.php:1834
+msgid "Payment"
+msgstr "Плащане"
+
+#: core/lang/wpbc_all_translations.php:747
+#: includes/_functions/admin_top_bar.php:326
+msgid "Users"
+msgstr "Потребители"
+
+#: core/lang/wpbc_all_translations.php:637 core/sync/wpbc-gcal-class.php:668
+#: core/timeline/v2/wpbc-class-timeline_v2.php:1500
+#: core/timeline/v2/wpbc-class-timeline_v2.php:1513
+msgid "Times"
+msgstr "Време"
+
+#: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
+#: core/admin/page-ics-general.php:445 core/admin/page-import-gcal.php:529
+#: core/admin/page-settings.php:75 core/admin/page-settings.php:76
+#: core/lang/wpbc_all_translations.php:315 core/wpbc.php:262
+#: includes/page-settings-all/all__page.php:40
+#: includes/page-settings-all/all__page.php:41
+msgid "General Settings"
+msgstr "Основни настройки"
+
+#: core/lang/wpbc_all_translations.php:622
+#: core/lib/wpdev-booking-widget.php:150 core/wpbc.php:250
+#: includes/page-availability/availability__class.php:372
+#: includes/page-resource-free/page-resource-free.php:36
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:279
+#: js/wpbc-gutenberg.js:653 js/wpbc-gutenberg.js:657 js/wpbc-gutenberg.js:748
+#: js/wpbc-gutenberg.js:752 js/wpbc-gutenberg.js:1020 js/wpbc-gutenberg.js:1024
+#: js/wpbc-gutenberg.js:1525 js/wpbc-gutenberg.js:1529
+msgid "Booking resource"
+msgstr "Резервационен ресурс"
+
+#: core/lang/wpbc_all_translations.php:618 core/lib/wpdev-booking-class.php:760
+#: core/lib/wpdev-booking-widget.php:54
+msgid "You need to use special shortcode [bookingedit] for booking editing."
+msgstr "Трябва да използвате специален код [bookingedit] за радакция на резервация."
+
+#: core/admin/wpbc-toolbars.php:900 core/lang/wpbc_all_translations.php:493
+#: core/lib/wpdev-booking-widget.php:167
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:331
+msgid "Visible months"
+msgstr "Видими месеци"
+
+#: core/lang/wpbc_all_translations.php:625
+#: core/lib/wpdev-booking-widget.php:193
+msgid "%sImportant!!!%s Please note, if you show booking calendar (inserted into post/page) with widget at the same page, then the last will not be visible."
+msgstr "%sВажно!!!%s Моля, обърнете внимание, ако се покаже  календарът  (поставен в пост/страница) с джаджа на една и съща страница, последната няма да е видима"
+
+#: core/lang/wpbc_all_translations.php:646
+#: core/timeline/v2/wpbc-class-timeline_v2.php:89
+#: core/timeline/v2/wpbc-class-timeline_v2.php:98
+#: core/timeline/v2/wpbc-class-timeline_v2.php:107
+msgid "Mon"
+msgstr "Пон"
+
+#: core/lang/wpbc_all_translations.php:647
+#: core/timeline/v2/wpbc-class-timeline_v2.php:90
+#: core/timeline/v2/wpbc-class-timeline_v2.php:99
+#: core/timeline/v2/wpbc-class-timeline_v2.php:108
+msgid "Tue"
+msgstr "Вт"
+
+#: core/lang/wpbc_all_translations.php:648
+#: core/timeline/v2/wpbc-class-timeline_v2.php:91
+#: core/timeline/v2/wpbc-class-timeline_v2.php:100
+#: core/timeline/v2/wpbc-class-timeline_v2.php:109
+msgid "Wed"
+msgstr "Ср"
+
+#: core/lang/wpbc_all_translations.php:649
+#: core/timeline/v2/wpbc-class-timeline_v2.php:92
+#: core/timeline/v2/wpbc-class-timeline_v2.php:101
+#: core/timeline/v2/wpbc-class-timeline_v2.php:110
+msgid "Thu"
+msgstr "Чет"
+
+#: core/lang/wpbc_all_translations.php:650
+#: core/timeline/v2/wpbc-class-timeline_v2.php:93
+#: core/timeline/v2/wpbc-class-timeline_v2.php:102
+#: core/timeline/v2/wpbc-class-timeline_v2.php:111
+msgid "Fri"
+msgstr "Пет"
+
+#: core/lang/wpbc_all_translations.php:651
+#: core/timeline/v2/wpbc-class-timeline_v2.php:94
+#: core/timeline/v2/wpbc-class-timeline_v2.php:103
+#: core/timeline/v2/wpbc-class-timeline_v2.php:112
+msgid "Sat"
+msgstr "Съб"
+
+#: core/lang/wpbc_all_translations.php:652
+#: core/timeline/v2/wpbc-class-timeline_v2.php:95
+#: core/timeline/v2/wpbc-class-timeline_v2.php:104
+#: core/timeline/v2/wpbc-class-timeline_v2.php:113
+msgid "Sun"
+msgstr "Нед"
+
+#. Plugin Name of the plugin
+#: wpdev-booking.php core/admin/wpbc-dashboard.php:188
+#: core/lang/wpbc_all_translations.php:427 core/lib/wpdev-booking-widget.php:30
+#: core/wpbc.php:169 core/wpbc.php:197 core/wpbc.php:206 core/wpbc.php:217
+#: core/wpbc.php:227 core/wpbc.php:239 core/wpbc.php:251 core/wpbc.php:263
+#: core/wpbc.php:274
+msgid "Booking Calendar"
+msgstr "Календар за резервации"
+
+#: core/admin/wpbc-dashboard.php:643 core/lang/wpbc_all_translations.php:446
+msgid "Statistic"
+msgstr "Статистика"
+
+#: core/admin/wpbc-dashboard.php:655 core/admin/wpbc-dashboard.php:887
+#: core/lang/wpbc_all_translations.php:449
+#: includes/_toolbar_ui/ui__settings_panel.php:1816
+msgid "New (unverified) booking(s)"
+msgstr "Нови (нерповерени) резервации"
+
+#: core/admin/wpbc-dashboard.php:659 core/admin/wpbc-dashboard.php:870
+#: core/lang/wpbc_all_translations.php:450
+#: includes/_toolbar_ui/ui__settings_panel.php:1836
+msgid "Pending booking(s)"
+msgstr "Чакащи резервации"
+
+#: core/admin/wpbc-dashboard.php:664 core/lang/wpbc_all_translations.php:451
+msgid "Agenda"
+msgstr "Дневен ред"
+
+#: core/admin/wpbc-dashboard.php:651 core/admin/wpbc-dashboard.php:838
+#: core/lang/wpbc_all_translations.php:448
+#: includes/_toolbar_ui/ui__settings_panel.php:1895
+msgid "New booking(s) made today"
+msgstr "Нови резервации направени днес"
+
+#: core/admin/wpbc-dashboard.php:647 core/lang/wpbc_all_translations.php:447
+msgid "Bookings for today"
+msgstr "Резервации за днес"
+
+#: core/lang/wpbc_all_translations.php:547
+#: includes/page-form-simple/page-form-simple.php:76
+msgid "Upgrade to higher versions"
+msgstr "Обнови до по-високи версии"
+
+#: core/admin/wpbc-dashboard.php:573 core/lang/wpbc_all_translations.php:438
+msgid "Current version"
+msgstr "Настояща версия"
+
+#: core/admin/wpbc-dashboard.php:582 core/lang/wpbc_all_translations.php:440
+msgid "Version"
+msgstr "Версия"
+
+#: core/admin/wpbc-dashboard.php:592 core/lang/wpbc_all_translations.php:441
+#: includes/page-form-simple/page-form-simple.php:602
+#: includes/page-form-simple/page-form-simple.php:695
+msgid "Type"
+msgstr "Тип"
+
+#: core/admin/wpbc-dashboard.php:598 core/lang/wpbc_all_translations.php:442
+msgid "Used for"
+msgstr "Използван за"
+
+#: core/admin/wpbc-dashboard.php:520 core/lang/wpbc_all_translations.php:436
+#: includes/_feedback/feedback.php:565
+msgid "websites"
+msgstr "уебсайтове"
+
+#: core/admin/wpbc-dashboard.php:522 core/lang/wpbc_all_translations.php:437
+#: includes/_feedback/feedback.php:567
+msgid "website"
+msgstr "уебсайт"
+
+#: core/admin/wpbc-dashboard.php:605 core/lang/wpbc_all_translations.php:443
+msgid "Release date"
+msgstr "Дата на пускане"
+
+#: core/admin/wpbc-dashboard.php:616 core/lang/wpbc_all_translations.php:444
+msgid "Check Premium Features"
+msgstr "Маркирайте Premium възможностите"
+
+#: core/admin/page-up.php:38 core/admin/wpbc-dashboard.php:618
+#: core/lang/wpbc_all_translations.php:426
+msgid "Upgrade"
+msgstr "Актуализиране"
+
+#: core/admin/wpbc-dashboard.php:620 core/lang/wpbc_all_translations.php:445
+msgid "Explore Premium Features"
+msgstr "Покажи Premium възможностите"
+
+#: core/admin/wpbc-dashboard.php:413 core/lang/wpbc_all_translations.php:429
+msgid "Support"
+msgstr "Поддръжка"
+
+#: core/admin/wpbc-dashboard.php:424 core/lang/wpbc_all_translations.php:430
+msgid "Getting Started"
+msgstr "Започни сега"
+
+#: core/admin/wpbc-dashboard.php:439 core/lang/wpbc_all_translations.php:434
+msgid "Contact email"
+msgstr "За контакти"
+
+#: core/admin/wpbc-dashboard.php:442 core/lang/wpbc_all_translations.php:435
+msgid "Rate plugin (thanks:)"
+msgstr "Оцени приложението (благодаря:)"
+
+#: core/admin/api-settings.php:1705 core/lang/wpbc_all_translations.php:176
+#: core/wpbc.php:261 core/wpbc.php:263 core/wpbc.php:471
+#: includes/page-settings-all/all__page.php:39
+#: includes/page-settings-all/all__page.php:74
+#: includes/_functions/admin_top_bar.php:263
+#: includes/_toolbar_ui/ui__settings_panel.php:116
+msgid "Settings"
+msgstr "Настройки"
+
+#: core/admin/wpbc-dashboard.php:428 core/lang/wpbc_all_translations.php:431
+msgid "What's New"
+msgstr "Какво ново"
+
+#: core/admin/api-settings.php:1645 core/lang/wpbc_all_translations.php:170
+#: core/timeline/v2/wpbc-class-timeline_v2.php:74 core/wpbc.php:167
+#: includes/_functions/admin_top_bar.php:73
+msgid "Bookings"
+msgstr "Резервации"
+
+#: core/admin/wpbc-toolbars.php:304 core/admin/wpbc-toolbars.php:1175
+#: core/lang/wpbc_all_translations.php:463
+msgid "Send email notification to customer about this operation"
+msgstr "Изпрати имейл на клиента за тази операция"
+
+#: core/admin/page-ics-general.php:335 core/admin/page-settings.php:74
+#: core/lang/wpbc_all_translations.php:314
+#: includes/_functions/admin_top_bar.php:273
+msgid "General"
+msgstr "Основно"
+
+#: core/lang/wpbc_all_translations.php:544
+#: includes/page-form-simple/page-form-simple.php:60
+msgid "Fields Settings"
+msgstr "Настройки на полетата"
+
+#: core/admin/page-email-new-admin.php:543
+#: core/lang/wpbc_all_translations.php:257
+#: includes/page-settings-all/all__page.php:185
+#: includes/_functions/admin_top_bar.php:289
+#: includes/_toolbar_ui/ui__settings_panel.php:713
+msgid "Emails"
+msgstr "Имейли"
+
+#: core/admin/page-email-approved.php:584 core/admin/page-email-deleted.php:582
+#: core/admin/page-email-deny.php:580 core/admin/page-email-new-admin.php:544
+#: core/admin/page-email-new-admin.php:545
+#: core/admin/page-email-new-admin.php:565
+#: core/admin/page-email-new-visitor.php:559
+#: core/admin/page-email-trash.php:587 core/lang/wpbc_all_translations.php:235
+msgid "Emails Settings"
+msgstr "Настройки на имейл"
+
+#: core/lang/wpbc_all_translations2.php:139
+#: includes/page-settings-all/all__page.php:204
+msgid "Payments"
+msgstr "Плащания"
+
+#: core/lang/wpbc_all_translations.php:864
+#: includes/page-settings-all/all__page.php:56
+#: includes/page-settings-all/all__page.php:57
+msgid "Search Settings"
+msgstr "Настройки за търсене"
+
+#: core/lang/wpbc_all_translations1.php:167
+msgid "Users Settings"
+msgstr "Потребителски настройки"
+
+#: core/lang/wpbc_all_translations.php:610 core/lib/wpdev-booking-class.php:202
+#: includes/page-availability/availability__class.php:200
+#: includes/page-availability/availability__page.php:294
+msgid "Calendar is loading..."
+msgstr "Календарът се зарежда..."
+
+#: core/lang/wpbc_all_translations.php:614 core/lib/wpdev-booking-class.php:504
+msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
+msgstr "%sВнимание! Резервационния календар за този ресурс е вече на страницата, моля, проверете повече по този въпрос на %sтази страница%s"
+
+#: core/lang/wpbc_all_translations2.php:213 js/wpbc-gutenberg.js:1377
+#: js/wpbc-gutenberg.js:1463
+msgid "You do not set any parameters for booking editing"
+msgstr "Вие не ста задали никакви параметри за редактиране на резервацията"
+
+#: core/admin/page-email-new-admin.php:305
+#: core/admin/page-email-new-visitor.php:301
+#: core/lang/wpbc_all_translations.php:255 core/wpbc-activation.php:1143
+#: core/wpbc-activation.php:1150
+#: includes/page-bookings/bookings__actions.php:3126
+msgid "New booking"
+msgstr "Нова резервация"
+
+#: core/admin/page-email-new-admin.php:334
+#: core/lang/wpbc_all_translations.php:256 core/wpbc-activation.php:1144
+msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
+msgstr "Трябва да потвърдите новатеща  резервация %s за: %s Персонална информация:%s В момента новата резервация чака одобрение. Моля, посетете панела за модериране%sБлафгодарим Ви, %s"
+
+#: core/admin/page-email-new-visitor.php:321
+#: core/lang/wpbc_all_translations.php:261 core/wpbc-activation.php:1152
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
+msgstr "Вашата резервация%s за:%s се обработва сега! Ние ще ви изпратим потвърждение по електронната поща. %sВие можете да редактирате резервацията на тази страница:%s Благодаря ви,%s"
+
+#: core/admin/page-email-new-visitor.php:323
+#: core/lang/wpbc_all_translations.php:262 core/wpbc-activation.php:1154
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
+msgstr "Вашата резервация%s за:%s се обработва сега! Ние ще ви изпратим потвърждение по електронната поща. %s Благодаря ви,%s"
+
+#: core/admin/page-email-approved.php:319
+#: core/lang/wpbc_all_translations.php:205 core/wpbc-activation.php:1161
+msgid "Your booking has been approved"
+msgstr "Вашата резервация е одобрена"
+
+#: core/admin/page-email-approved.php:339
+#: core/lang/wpbc_all_translations.php:207 core/wpbc-activation.php:1163
+msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
+msgstr "Вашата резервация%s за:%s е одобрена%sВие можете да променяте резервацията на тази страница:.%s Благодаря ви,%s"
+
+#: core/admin/page-email-approved.php:341
+#: core/lang/wpbc_all_translations.php:208 core/wpbc-activation.php:1165
+msgid "Your booking %s for: %s has been approved.%sThank you, %s"
+msgstr "Вашата резервация%s за:%s е одобрена%sБлагодарим ви,%s."
+
+#: core/admin/page-email-deleted.php:320 core/admin/page-email-deny.php:320
+#: core/admin/page-email-trash.php:325 core/lang/wpbc_all_translations.php:246
+#: core/wpbc-activation.php:1172
+msgid "Your booking has been declined"
+msgstr "Вашата резервация е отхвърлена"
+
+#: core/admin/page-email-deleted.php:339 core/admin/page-email-deny.php:339
+#: core/admin/page-email-trash.php:344 core/lang/wpbc_all_translations.php:247
+#: core/wpbc-activation.php:1173
+msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
+msgstr "Вашата резервация%s за:%s е била отменена. %sБлагодарим ви,%s"
+
+#: core/lang/wpbc_all_translations.php:663 core/wpbc-activation.php:1177
+msgid "Booking form"
+msgstr "Форма за резервации"
+
+#: core/admin/api-settings.php:239 core/lang/wpbc_all_translations.php:32
+#: core/wpbc-activation.php:1197
+#: includes/page-availability/availability__toolbar_ui.php:155
+msgid "Available"
+msgstr "Наличен"
+
+#: core/admin/api-settings.php:313 core/lang/wpbc_all_translations.php:38
+#: core/wpbc-activation.php:1205
+msgid "Booked"
+msgstr "Резервиран"
+
+#: core/admin/api-settings.php:353 core/lang/wpbc_all_translations.php:41
+#: core/lib/wpbc-calendar-legend.php:145 core/wpbc-activation.php:1216
+#: includes/page-setup/template__bookings_types__action.php:113
+msgid "Partially booked"
+msgstr "Чаастично резервиран"
+
+#: core/lang/wpbc_all_translations.php:660 core/wpbc-activation.php:617
+msgid "%s Found %s not indexed bookings %s"
+msgstr "%sНамерени са %s неидекснирани резервации %s"
+
+#: core/lang/wpbc_all_translations.php:661 core/wpbc-activation.php:632
+msgid "%s Finish getting sort dates. %s"
+msgstr "%s Завършете работата си с датите за сортирате %s"
+
+#: core/lang/wpbc_all_translations.php:662 core/wpbc-activation.php:641
+msgid "Updated booking: %s"
+msgstr "Актуализирани резервации: %s"
+
+#: core/lang/wpbc_all_translations.php:737
+#: includes/_functions/booking_data__parse.php:656
+msgid "no"
+msgstr "не"
+
+#: core/lang/wpbc_all_translations.php:672 core/wpbc-emails.php:78
+msgid "Booking system"
+msgstr "Резервационна система"
+
+#: core/lang/wpbc_all_translations.php:752
+#: includes/_functions/news_version.php:140
+msgid "Warning! Some error occur, during sending registration request."
+msgstr "Внимание ! Възникна грешка ,при изпращането на заявката за регистрация ."
+
+#: core/lang/wpbc_all_translations.php:753
+#: includes/_functions/news_version.php:145
+msgid "Please refresh this page and if the same error appear again contact support by email (with  info about order number and website) for finishing the registrations"
+msgstr "Моля, опреснете страницата и ако се появи същата грешка отново се свържете с поддръжката по електронна поща ( с информация за номер на поръчката и уебсайт ) за приключване на регистрацияте"
+
+#: core/lang/wpbc_all_translations.php:623
+#: core/lib/wpdev-booking-widget.php:183
+msgid "Footer"
+msgstr "Долна част (Footer)"
+
+#: core/lang/wpbc_all_translations.php:624
+#: core/lib/wpdev-booking-widget.php:188
+msgid "Example: %sMake booking here%s"
+msgstr "Пример: %sНаправете вашата резервация тук%s"
+
+#: core/lang/wpbc_all_translations.php:626
+#: core/lib/wpdev-booking-widget.php:198
+msgid "%sSeveral widgets are supported at %spaid versions%s."
+msgstr "%s Повече джаджи се поддържат на %sзакипените версии %s"
+
+#: core/admin/page-settings.php:106 core/lang/wpbc_all_translations.php:398
+msgid "Form"
+msgstr "Форма"
+
+#: core/admin/page-settings.php:124 core/lang/wpbc_all_translations.php:401
+msgid "Auto cancellation / approval"
+msgstr "Автоматично анулиране/одобрение"
+
+#: core/admin/page-ics-general.php:461 core/admin/page-ics-general.php:468
+#: core/admin/page-settings.php:139 core/admin/page-settings.php:362
+#: core/admin/page-settings.php:584 core/lang/wpbc_all_translations.php:317
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:247
+#: includes/ui_modal__shortcodes/sh_tpl_booking_calendar.php:116
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:127
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:121
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:219
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:120
+#: includes/_toolbar_ui/ui__settings_panel.php:245
+msgid "Advanced"
+msgstr "Разширени"
+
+#: core/admin/page-settings.php:149 core/lang/wpbc_all_translations.php:405
+msgid "Uninstall"
+msgstr "Деинсталиране"
+
+#: core/admin/api-settings.php:56 core/lang/wpbc_all_translations.php:2
+#: includes/page-form-simple/form_simple__preview_templates.php:70
+msgid "Calendar Skin"
+msgstr "Ефект на фона на календара"
+
+#: core/admin/api-settings.php:57 core/lang/wpbc_all_translations.php:3
+msgid "Select the skin of the booking calendar"
+msgstr "Изберете ефект на фона на календара"
+
+#: core/admin/api-settings.php:76 core/admin/api-settings.php:77
+#: core/lang/wpbc_all_translations.php:4
+msgid "month(s)"
+msgstr "месец(и)"
+
+#: core/admin/api-settings.php:78 core/lang/wpbc_all_translations.php:5
+msgid "year(s)"
+msgstr "годин(и)"
+
+#: core/admin/api-settings.php:84 core/lang/wpbc_all_translations.php:7
+msgid "Select the maximum number of months to show (scroll)"
+msgstr "Изберете максималния брой месеци, които ще се покажат (списък"
+
+#: core/admin/api-settings.php:95 core/lang/wpbc_all_translations.php:8
+msgid "Start Day of the week"
+msgstr "Първи ден от седмицата"
+
+#: core/admin/api-settings.php:96 core/lang/wpbc_all_translations.php:9
+msgid "Select your start day of the week"
+msgstr "Изберете първи ден от седмицата"
+
+#: core/admin/api-settings.php:602 core/lang/wpbc_all_translations.php:61
+msgid "Unavailable days from today"
+msgstr "Дните считани от днес не са налични"
+
+#: core/admin/api-settings.php:603 core/lang/wpbc_all_translations.php:62
+msgid "Select number of unavailable days in calendar start from today."
+msgstr "Изберете от календара броя на неналични дни, които започват от днес."
+
+#: core/admin/api-settings.php:554 core/lang/wpbc_all_translations.php:59
+msgid "Unavailable week days"
+msgstr "Неналични дни от седмицата"
+
+#: core/admin/api-settings.php:584 core/lang/wpbc_all_translations.php:60
+msgid "Check unavailable days in calendars. This option will overwrite all other settings."
+msgstr "маркирайте неналичните в календара. Тази опция е по-силна и прави невалидни другите настройки."
+
+#: core/admin/api-settings.php:116 core/lang/wpbc_all_translations.php:17
+msgid "Single day"
+msgstr "Един единствен ден"
+
+#: core/admin/api-settings.php:122 core/lang/wpbc_all_translations.php:18
+msgid "Multiple days"
+msgstr "Няколко дни"
+
+#: core/lang/wpbc_all_translations1.php:77
+msgid "Range days"
+msgstr "Диапазон на дните"
+
+#: core/admin/api-settings.php:658 core/lang/wpbc_all_translations.php:69
+msgid "Check the box to activate CAPTCHA inside the booking form."
+msgstr "Маркирайте, за да активирате CAPTCHA във формата за резервация"
+
+#: core/admin/api-settings.php:668 core/lang/wpbc_all_translations.php:71
+#: includes/page-form-simple/page-form-simple.php:544
+msgid "Auto-fill fields"
+msgstr "Автоматично попълване на полетата"
+
+#: core/admin/api-settings.php:669 core/lang/wpbc_all_translations.php:72
+#: includes/page-form-simple/page-form-simple.php:545
+msgid "Check the box to activate auto-fill form fields for logged in users."
+msgstr "Маркирайте, за да активирате автоматичното попълване на полетата от формата за регистрираните потребители, които са влязли в системата."
+
+#: core/admin/api-settings.php:1517 core/lang/wpbc_all_translations.php:152
+msgid "Use CSS BootStrap"
+msgstr "Използване на CSS BootStrap"
+
+#: core/admin/api-settings.php:1518 core/lang/wpbc_all_translations.php:153
+msgid "Using BootStrap CSS for the form fields"
+msgstr "Използване на CSS BootStrap в полетата на формата"
+
+#: core/lang/wpbc_all_translations.php:529
+msgid "You must not deactivate loading BootStrap files at advanced section of these settings!"
+msgstr "Не трябва да деактивирате зареждането на BootStrap файловете в разширената секцията на тези настройки"
+
+#: core/admin/api-settings.php:819 core/lang/wpbc_all_translations.php:88
+msgid "Message title"
+msgstr "Заглавие на съобщението"
+
+#: core/lang/wpbc_all_translations.php:531
+msgid "Type title of message %safter booking has done by user%s"
+msgstr "Въведете заглавие на съобщението %sслед като резервацията е направена от потребител%s"
+
+#: core/lang/wpbc_all_translations.php:538
+#: includes/page-bookings/bookings__listing.php:120
+#: includes/page-form-simple/form_simple__timeslots.php:774
+#: includes/page-form-simple/page-form-simple.php:603
+#: includes/page-resource-free/page-resource-free.php:315
+#: includes/_toolbar_ui/toolbar_ui.php:69
+msgid "Actions"
+msgstr "Действия"
+
+#: core/lang/wpbc_all_translations.php:655
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2988
+#: includes/_toolbar_ui/toolbar_ui.php:1858
+msgid "Delete"
+msgstr "Изтрий"
+
+#: core/lang/wpbc_all_translations1.php:171
+#: includes/_toolbar_ui/toolbar_ui.php:774
+msgid "Status"
+msgstr "Статус"
+
+#: core/admin/api-settings.php:99 core/admin/api-settings.php:562
+#: core/lang/wpbc_all_translations.php:11
+#: core/timeline/v2/wpbc-class-timeline_v2.php:80
+msgid "Monday"
+msgstr "Понеделни"
+
+#: core/admin/api-settings.php:100 core/admin/api-settings.php:565
+#: core/lang/wpbc_all_translations.php:12
+#: core/timeline/v2/wpbc-class-timeline_v2.php:81
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: core/admin/wpbc-toolbars.php:333 core/admin/wpbc-toolbars.php:1555
+#: core/lang/wpbc_all_translations.php:465
+msgid "Go"
+msgstr "Иди"
+
+#: core/lang/wpbc_all_translations2.php:116
+#: includes/page-bookings/bookings__listing.php:120
+msgid "Labels"
+msgstr "Етикети"
+
+#: core/admin/page-email-approved.php:583
+#: core/lang/wpbc_all_translations.php:234
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3053
+#: includes/page-bookings/bookings__listing.php:240
+#: includes/_toolbar_ui/toolbar_ui.php:778
+msgid "Approved"
+msgstr "Одобрена"
+
+#: core/admin/api-settings.php:276 core/admin/page-email-deny.php:579
+#: core/lang/wpbc_all_translations.php:35
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2997
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3050
+#: core/wpbc-activation.php:1201
+#: includes/page-bookings/bookings__actions.php:3082
+#: includes/page-bookings/bookings__listing.php:241
+#: includes/_toolbar_ui/toolbar_ui.php:777
+#: includes/_toolbar_ui/toolbar_ui.php:1744
+msgid "Pending"
+msgstr "Чакаща"
+
+#: core/lang/wpbc_all_translations1.php:129
+#: includes/page-bookings/bookings__sql.php:1817
+msgid "Unknown"
+msgstr "Неизвестен"
+
+#: core/lang/wpbc_all_translations.php:659
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3172
+#: includes/page-bookings/bookings__listing.php:441
+msgid "Created"
+msgstr "Създадена"
+
+#: core/lang/wpbc_all_translations1.php:128
+#: includes/_toolbar_ui/toolbar_ui.php:1477
+msgid "Paid OK"
+msgstr "Платена ОК"
+
+#: core/admin/page-ics-general.php:205 core/lang/wpbc_all_translations.php:299
+msgid "All bookings"
+msgstr "Всички резервации"
+
+#: core/admin/wpbc-toolbars.php:367 core/lang/wpbc_all_translations.php:466
+msgid "Technical Support"
+msgstr "Техническа поддръжка"
+
+#: core/admin/wpbc-toolbars.php:294 core/admin/wpbc-toolbars.php:1165
+#: core/lang/wpbc_all_translations.php:462
+#: includes/_toolbar_ui/toolbar_ui.php:2248
+msgid "Emails sending"
+msgstr "Изпращане на имейли"
+
+#: core/admin/wpbc-toolbars.php:330 core/lang/wpbc_all_translations.php:464
+#: includes/page-bookings/bookings__listing.php:298
+#: includes/page-bookings/bookings__listing.php:439
+msgid "Booking ID"
+msgstr "ID на резервацията"
+
+#: core/lang/wpbc_all_translations1.php:979
+#: includes/_toolbar_ui/toolbar_ui.php:785
+#: includes/_toolbar_ui/toolbar_ui.php:1149
+#: includes/_toolbar_ui/toolbar_ui.php:1194
+msgid "Any"
+msgstr "Който и да е"
+
+#: core/admin/api-settings.php:1721 core/lang/wpbc_all_translations.php:180
+#: core/lib/wpdev-booking-widget.php:136
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:90
+#: js/wpbc-gutenberg.js:1533
+msgid "Show"
+msgstr "Покажи"
+
+#: core/lang/wpbc_all_translations1.php:997
+#: includes/_toolbar_ui/toolbar_ui.php:1709
+msgid "Approve selected bookings"
+msgstr "Одобри избраните резервации"
+
+#: core/lang/wpbc_all_translations.php:656
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2994
+#: includes/page-bookings/bookings__actions.php:3040
+#: includes/_toolbar_ui/toolbar_ui.php:1708
+msgid "Approve"
+msgstr "Одобри"
+
+#: core/lang/wpbc_all_translations1.php:998
+#: includes/_toolbar_ui/toolbar_ui.php:1745
+msgid "Set selected bookings as pending"
+msgstr "Отбележи избраните резервации като чакащи"
+
+#: core/lang/wpbc_all_translations2.php:2
+#: includes/page-bookings/bookings__actions.php:3086
+#: includes/_toolbar_ui/toolbar_ui.php:1747
+msgid "Do you really want to set booking as pending ?"
+msgstr "Наистина ли искате да смените тези резервации на чакащи?"
+
+#: core/lang/wpbc_all_translations2.php:5
+#: includes/_toolbar_ui/toolbar_ui.php:1859
+msgid "Delete selected bookings"
+msgstr "Изтрий избраните резервации"
+
+#: core/lang/wpbc_all_translations2.php:8
+#: includes/_toolbar_ui/toolbar_ui.php:1915
+msgid "Mark as read all bookings"
+msgstr "Маркирай всички резервации като прочетени"
+
+#: core/lang/wpbc_all_translations2.php:7
+#: includes/_toolbar_ui/toolbar_ui.php:1914
+msgid "Read All"
+msgstr "Прочети всички"
+
+#: core/lang/wpbc_all_translations2.php:10
+#: includes/_toolbar_ui/toolbar_ui.php:1951
+msgid "Mark as read selected bookings"
+msgstr "Маркирай като прочетени избраните резервации"
+
+#: core/lang/wpbc_all_translations2.php:9
+#: includes/_toolbar_ui/toolbar_ui.php:1950
+msgid "Read"
+msgstr "Прочетен"
+
+#: core/lang/wpbc_all_translations2.php:12
+#: includes/_toolbar_ui/toolbar_ui.php:1987
+msgid "Mark as Unread selected bookings"
+msgstr "Маркирай като непрочетени избраните резервации"
+
+#: core/lang/wpbc_all_translations2.php:11
+#: includes/_toolbar_ui/toolbar_ui.php:1986
+msgid "Unread"
+msgstr "Непрочетен"
+
+#: core/lang/wpbc_all_translations2.php:117
+#: includes/page-bookings/bookings__listing.php:121
+msgid "Booking Data"
+msgstr "Данни за резервация"
+
+#: core/lang/wpbc_all_translations2.php:118
+#: includes/page-bookings/bookings__listing.php:122
+msgid "Booking Dates"
+msgstr "Дати за резервация"
+
+#: core/lang/wpbc_all_translations2.php:119
+#: includes/page-bookings/bookings__listing.php:126
+msgid "Show ALL dates of booking"
+msgstr "Покажи ВСИЧКИ дати на резервацията."
+
+#: core/lang/wpbc_all_translations2.php:120
+#: includes/page-bookings/bookings__listing.php:132
+msgid "Show only check in/out dates"
+msgstr "Покажи само датите на настаняване/напускане"
+
+#: core/lang/wpbc_all_translations2.php:121
+#: includes/page-bookings/bookings__listing.php:234
+#: includes/page-bookings/bookings__sql.php:1732
+#: includes/page-bookings/bookings__sql.php:1940
+#: includes/page-bookings/bookings__sql.php:1991
+msgid "Resource not exist"
+msgstr "Този ресурс не съществува"
+
+#: core/lang/wpbc_all_translations2.php:100
+#: includes/page-bookings/bookings__actions.php:3000
+msgid "Do you really want to delete this booking ?"
+msgstr "Наистина ли искате да изтриете избраната резервация?"
+
+#: core/lang/wpbc_all_translations.php:749 core/wpbc_functions.php:544
+#: includes/_pagination/pagination.php:159
+msgid "Prev"
+msgstr "Предишен"
+
+#: core/admin/wpbc-toolbars.php:493 core/admin/wpbc-toolbars.php:547
+#: core/lang/wpbc_all_translations.php:471
+msgid "Show month"
+msgstr "Покажи месец"
+
+#: core/admin/api-settings.php:1124 core/admin/api-settings.php:1131
+#: core/admin/wpbc-toolbars.php:492 core/admin/wpbc-toolbars.php:546
+#: core/lang/wpbc_all_translations.php:105
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2860
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2879
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:148
+msgid "Month"
+msgstr "Месец"
+
+#: core/admin/api-settings.php:1126 core/admin/api-settings.php:1132
+#: core/lang/wpbc_all_translations.php:107
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:152
+msgid "3 Months"
+msgstr "3 Месеца"
+
+#: core/admin/wpbc-toolbars.php:459 core/admin/wpbc-toolbars.php:519
+#: core/lang/wpbc_all_translations.php:469
+msgid "Show day"
+msgstr "Покажи ден"
+
+#: core/admin/api-settings.php:1122 core/admin/wpbc-toolbars.php:458
+#: core/admin/wpbc-toolbars.php:518 core/lang/wpbc_all_translations.php:103
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2852
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2871
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:145
+msgid "Day"
+msgstr "Ден"
+
+#: core/admin/wpbc-toolbars.php:476 core/admin/wpbc-toolbars.php:533
+#: core/lang/wpbc_all_translations.php:470
+msgid "Show week"
+msgstr "Покажи седмица"
+
+#: core/admin/api-settings.php:1123 core/admin/wpbc-toolbars.php:475
+#: core/admin/wpbc-toolbars.php:532 core/lang/wpbc_all_translations.php:104
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2856
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2875
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:146
+msgid "Week"
+msgstr "Седмица"
+
+#: core/admin/wpbc-toolbars.php:561 core/lang/wpbc_all_translations.php:472
+msgid "Show 2 months"
+msgstr "Покажи 2 месеца"
+
+#: core/admin/api-settings.php:1125 core/admin/wpbc-toolbars.php:560
+#: core/lang/wpbc_all_translations.php:106
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:150
+msgid "2 Months"
+msgstr "2 Месеца"
+
+#: core/admin/wpbc-toolbars.php:618 core/admin/wpbc-toolbars.php:687
+#: core/lang/wpbc_all_translations.php:473
+msgid "Previous 4 weeks"
+msgstr "Предишни 4 седмици"
+
+#: core/admin/wpbc-toolbars.php:619 core/admin/wpbc-toolbars.php:688
+#: core/lang/wpbc_all_translations.php:474
+msgid "Previous week"
+msgstr "Предишна седмица"
+
+#: core/admin/wpbc-toolbars.php:620 core/admin/wpbc-toolbars.php:642
+#: core/admin/wpbc-toolbars.php:689 core/lang/wpbc_all_translations.php:475
+msgid "Current week"
+msgstr "Текуща седмица"
+
+#: core/admin/wpbc-toolbars.php:621 core/admin/wpbc-toolbars.php:690
+#: core/lang/wpbc_all_translations.php:476
+msgid "Next week"
+msgstr "Седваща седмица"
+
+#: core/admin/wpbc-toolbars.php:622 core/admin/wpbc-toolbars.php:691
+#: core/lang/wpbc_all_translations.php:477
+msgid "Next 4 weeks"
+msgstr "Следващи 4 седмици"
+
+#: core/admin/wpbc-toolbars.php:654 core/admin/wpbc-toolbars.php:704
+#: core/admin/wpbc-toolbars.php:719 core/lang/wpbc_all_translations.php:480
+msgid "Previous 3 months"
+msgstr "Предишни 3 месеца"
+
+#: core/admin/wpbc-toolbars.php:655 core/admin/wpbc-toolbars.php:705
+#: core/admin/wpbc-toolbars.php:720 core/lang/wpbc_all_translations.php:481
+msgid "Previous month"
+msgstr "Миналия месец"
+
+#: core/admin/wpbc-toolbars.php:656 core/admin/wpbc-toolbars.php:706
+#: core/admin/wpbc-toolbars.php:721 core/lang/wpbc_all_translations.php:482
+msgid "Current month"
+msgstr "Текущ месец"
+
+#: core/admin/wpbc-toolbars.php:657 core/admin/wpbc-toolbars.php:707
+#: core/admin/wpbc-toolbars.php:722 core/lang/wpbc_all_translations.php:483
+msgid "Next month"
+msgstr "Следващ месец"
+
+#: core/admin/wpbc-toolbars.php:658 core/admin/wpbc-toolbars.php:708
+#: core/admin/wpbc-toolbars.php:723 core/lang/wpbc_all_translations.php:484
+msgid "Next 3 months"
+msgstr "Следващите 3 месеца"
+
+#: core/admin/wpbc-toolbars.php:672 core/lang/wpbc_all_translations.php:485
+msgid "Previous 7 days"
+msgstr "Предните 7 дни"
+
+#: core/admin/wpbc-toolbars.php:673 core/lang/wpbc_all_translations.php:486
+msgid "Previous day"
+msgstr "Предния ден"
+
+#: core/admin/wpbc-toolbars.php:674 core/lang/wpbc_all_translations.php:487
+msgid "Current day"
+msgstr "Текущия ден"
+
+#: core/admin/wpbc-toolbars.php:675 core/lang/wpbc_all_translations.php:488
+msgid "Next day"
+msgstr "Следващия ден"
+
+#: core/admin/wpbc-toolbars.php:676 core/lang/wpbc_all_translations.php:489
+msgid "Next 7 days"
+msgstr "Следващите 7 дни"
+
+#: core/admin/wpbc-toolbars.php:369 core/lang/wpbc_all_translations.php:467
+msgid "About Booking Calendar"
+msgstr "Повеча за календара за резервации"
+
+#: core/admin/wpbc-dashboard.php:436 core/admin/wpbc-toolbars.php:366
+#: core/lang/wpbc_all_translations.php:433
+msgid "FAQ"
+msgstr "Често задавани въпроси"
+
+#: core/admin/page-email-approved.php:678 core/admin/page-email-deleted.php:676
+#: core/admin/page-email-deny.php:674 core/admin/page-email-new-admin.php:659
+#: core/admin/page-email-new-visitor.php:652
+#: core/admin/page-email-trash.php:681 core/admin/page-ics-import.php:196
+#: core/admin/page-import-gcal.php:596 core/admin/wpbc-toolbars.php:359
+#: core/admin/wpbc-toolbars.php:365 core/lang/wpbc_all_translations.php:239
+msgid "Help"
+msgstr "Помощ"
+
+#: core/admin/wpbc-toolbars.php:785 core/lang/wpbc_all_translations.php:490
+#: js/wpbc-gutenberg.js:868
+msgid "Start Date"
+msgstr "Начална дата"
+
+#: core/admin/wpbc-toolbars.php:397 core/lang/wpbc_all_translations.php:468
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2952
+#: includes/page-bookings/bookings__page.php:40
+#: includes/page-bookings/bookings__page.php:41
+#: includes/page-bookings/bookings__page.php:42
+#: includes/_functions/admin_top_bar.php:81
+msgid "Booking Listing"
+msgstr "Списък с резервации"
+
+#: core/admin/api-settings.php:1232 core/admin/api-settings.php:1294
+#: core/admin/wpbc-toolbars.php:766 core/lang/wpbc_all_translations.php:126
+#: includes/_toolbar_ui/toolbar_ui.php:1497
+msgid "Custom"
+msgstr "Персонализиран"
+
+#: core/lang/wpbc_all_translations1.php:977
+#: includes/_toolbar_ui/toolbar_ui.php:600
+#: includes/_toolbar_ui/toolbar_ui.php:1283
+msgid "Prior"
+msgstr "Назад"
+
+#: core/lang/wpbc_all_translations1.php:969
+#: includes/_toolbar_ui/toolbar_ui.php:437
+msgid "Check-in"
+msgstr "Настаняване"
+
+#: core/lang/wpbc_all_translations1.php:970
+#: includes/_toolbar_ui/toolbar_ui.php:453
+msgid "Check-out"
+msgstr "Напускане"
+
+#: core/admin/wpbc-toolbars.php:798 core/lang/wpbc_all_translations.php:491
+#: includes/page-availability/availability__toolbar_ui.php:215
+#: includes/_toolbar_ui/toolbar_ui.php:481
+#: includes/_toolbar_ui/toolbar_ui.php:698
+#: includes/_toolbar_ui/toolbar_ui.php:1381
+#: includes/_toolbar_ui/toolbar_ui.php:1538
+msgid "Apply"
+msgstr "Прилагане"
+
+#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/lang/wpbc_all_translations.php:479 core/wpbc_functions.php:577
+#: includes/_feedback/feedback.php:222 includes/_feedback/feedback.php:266
+#: includes/_feedback/feedback.php:287 includes/_feedback/feedback.php:324
+#: includes/_pagination/pagination.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:556 includes/_tour/wpbc_tour.php:175
+msgid "Next"
+msgstr "Напред"
+
+#: core/lang/wpbc_all_translations1.php:974
+#: includes/_toolbar_ui/toolbar_ui.php:522
+msgid "Previous dates"
+msgstr "Минали дати"
+
+#: core/lang/wpbc_all_translations1.php:975
+#: includes/_toolbar_ui/toolbar_ui.php:523
+#: includes/_toolbar_ui/toolbar_ui.php:1262
+msgid "All dates"
+msgstr "Всички дати"
+
+#: core/admin/api-settings.php:1127 core/admin/api-settings.php:1133
+#: core/lang/wpbc_all_translations.php:108
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:153
+#: includes/_toolbar_ui/toolbar_ui.php:386
+#: includes/_toolbar_ui/toolbar_ui.php:1247
+msgid "Year"
+msgstr "Година"
+
+#: core/lang/wpbc_all_translations1.php:972
+#: includes/_toolbar_ui/toolbar_ui.php:520
+msgid "Current dates"
+msgstr "Настоящи дати"
+
+#: core/lang/wpbc_all_translations1.php:973
+#: includes/_toolbar_ui/toolbar_ui.php:521
+#: includes/_toolbar_ui/toolbar_ui.php:1261
+msgid "Today"
+msgstr "Днес"
+
+#: core/lang/wpbc_all_translations1.php:966
+#: includes/_toolbar_ui/toolbar_ui.php:381
+#: includes/_toolbar_ui/toolbar_ui.php:1242
+msgid "weeks"
+msgstr "седмици"
+
+#: core/lang/wpbc_all_translations1.php:968
+#: includes/_toolbar_ui/toolbar_ui.php:383
+#: includes/_toolbar_ui/toolbar_ui.php:384
+#: includes/_toolbar_ui/toolbar_ui.php:385
+#: includes/_toolbar_ui/toolbar_ui.php:1244
+#: includes/_toolbar_ui/toolbar_ui.php:1245
+#: includes/_toolbar_ui/toolbar_ui.php:1246
+msgid "months"
+msgstr "месеци"
+
+#: core/lang/wpbc_all_translations1.php:967
+#: includes/_toolbar_ui/toolbar_ui.php:382
+#: includes/_toolbar_ui/toolbar_ui.php:1243
+msgid "month"
+msgstr "месец"
+
+#: core/lang/wpbc_all_translations1.php:857
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:657
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:672
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:878
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1030
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1281
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1422
+msgid "Code Example"
+msgstr "Пример за код:"
+
+#: core/lang/wpbc_all_translations1.php:965
+#: includes/_toolbar_ui/toolbar_ui.php:380
+#: includes/_toolbar_ui/toolbar_ui.php:1241
+msgid "week"
+msgstr "седмица"
+
+#: core/lang/wpbc_all_translations.php:926
+msgid "Description"
+msgstr "Описание"
+
+#: core/lang/wpbc_all_translations1.php:841
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:332
+msgid "Select number of month to show for calendar."
+msgstr "Изберете номер на месец , който ще се покаже на календара"
+
+#: core/lang/wpbc_all_translations1.php:850
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:478
+msgid "Start month:"
+msgstr "Начален месец:"
+
+#: core/lang/wpbc_all_translations1.php:851
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:536
+msgid "Select start month of calendar"
+msgstr "Избери началния месец от календара"
+
+#: core/lang/wpbc_all_translations.php:620
+#: core/lib/wpdev-booking-widget.php:140
+msgid "Booking form with calendar"
+msgstr "Резервационна форма с календар"
+
+#: core/lang/wpbc_all_translations.php:621
+#: core/lib/wpdev-booking-widget.php:141
+msgid "Only availability calendar"
+msgstr "Само Календар"
+
+#: core/admin/wpbc-dashboard.php:907 core/lang/wpbc_all_translations.php:457
+#: includes/_toolbar_ui/ui__settings_panel.php:1700
+#: includes/_toolbar_ui/ui__settings_panel.php:1740
+msgid "for"
+msgstr "за"
+
+#: core/lang/wpbc_all_translations1.php:219
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:280
+msgid "Select booking resource"
+msgstr "Изберете резервационен ресурс"
+
+#: core/lang/wpbc_all_translations.php:588
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3019
+#: includes/page-bookings/bookings__actions.php:2216
+#: includes/page-bookings/bookings__actions.php:2381
+#: includes/page-bookings/bookings__actions.php:2734
+#: includes/page-bookings/bookings__actions.php:3239
+#: includes/page-bookings/bookings__actions.php:3347
+#: includes/page-form-simple/page-form-simple.php:1130
+#: includes/page-form-simple/page-form-simple.php:1144
+msgid "Cancel"
+msgstr "Откажи"
+
+#: core/lang/wpbc_all_translations.php:769 core/wpbc_welcome.php:331
+msgid "Check %sBooking Listing%s page for new bookings."
+msgstr "Провери страницата %sBooking Listing%s за нови резервации."
+
+#: core/lang/wpbc_all_translations.php:771 core/wpbc_welcome.php:347
+msgid "Have a questions?"
+msgstr "Имате въпроси?"
+
+#: core/lang/wpbc_all_translations.php:772 core/wpbc_welcome.php:350
+msgid "See %sFAQ%s."
+msgstr "Вижте %sFAQ%s."
+
+#: core/lang/wpbc_all_translations.php:733 core/wpbc.php:295 core/wpbc.php:314
+msgid "Need even more functionality? Check %s higher versions %s"
+msgstr "Трябват ви повече функционалности? Проверете %s higher versions %s"
+
+#: core/lang/wpbc_all_translations1.php:953
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:35
+msgid "Insert booking calendar"
+msgstr "Постави календара за резервации"
+
+#: core/lang/wpbc_all_translations1.php:954
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:36
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:316
+msgid "Booking calendar"
+msgstr "Календар за резервации"
+
+#: core/lang/wpbc_all_translations2.php:307
+msgid "Ok"
+msgstr "ОК"
+
+#: core/lang/wpbc_all_translations.php:767 core/wpbc_welcome.php:317
+msgid "Next Steps"
+msgstr "Следваща стъпка"
+
+#: core/lang/wpbc_all_translations.php:715 core/wpbc-js-vars.php:99
+msgid "Please, select booking date(s) at Calendar."
+msgstr "Моля изберете дата(и) за резервация от календара."
+
+#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/lang/wpbc_all_translations.php:515
+msgid "Purchase"
+msgstr "Поръчай"
+
+#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/lang/wpbc_all_translations.php:516
+msgid "Upgrade Now"
+msgstr "Актуализирай сега"
+
+#: core/lang/wpbc_all_translations.php:761 core/wpbc_welcome.php:267
+msgid "We&#8217;ve assembled some links to get you started:"
+msgstr "Ние сме събрали някой връзки за начало:"
+
+#: core/lang/wpbc_all_translations.php:762 core/wpbc_welcome.php:270
+msgid "Get Started"
+msgstr "Започни сега"
+
+#: core/lang/wpbc_all_translations2.php:18
+#: includes/_toolbar_ui/toolbar_ui.php:2134
+msgid "Export only current page of bookings to CSV format"
+msgstr "Експортирай само текущата страница от резервациите в CSV формат"
+
+#: core/lang/wpbc_all_translations.php:710 core/wpbc-js-vars.php:94
+msgid "This field is required"
+msgstr "Полето е задължително"
+
+#: core/lang/wpbc_all_translations.php:711 core/wpbc-js-vars.php:95
+msgid "This checkbox must be checked"
+msgstr "Този чекбокс трябва да е избран"
+
+#: core/lang/wpbc_all_translations.php:712 core/wpbc-js-vars.php:96
+msgid "At least one option must be selected"
+msgstr "Поне една опция трябва да е избрана"
+
+#: core/admin/page-ics-export.php:44 core/admin/page-ics-general.php:318
+#: core/admin/page-ics-general.php:452 core/admin/page-ics-general.php:461
+#: core/admin/page-ics-import.php:42 core/admin/page-ics-import.php:59
+#: core/admin/page-ics-import.php:60 core/admin/page-ics-import.php:62
+#: core/admin/page-ics-import.php:188 core/admin/page-ics-import.php:471
+#: core/admin/page-import-gcal.php:430 core/lang/wpbc_all_translations.php:270
+#: includes/_toolbar_ui/toolbar_ui.php:2053
+msgid "Import"
+msgstr "Импортиране"
+
+#: core/admin/page-import-gcal.php:447 core/admin/page-import-gcal.php:448
+#: core/admin/page-import-gcal.php:449 core/lang/wpbc_all_translations.php:392
+#: includes/page-bookings/bookings__actions.php:3511
+#: includes/_toolbar_ui/toolbar_ui.php:2055
+#: includes/_toolbar_ui/ui__settings_panel.php:852
+msgid "Import Google Calendar Events"
+msgstr "Импортиране на събития от Google календар"
+
+#: core/admin/wpbc-toolbars.php:818 core/lang/wpbc_all_translations.php:492
+#: includes/page-bookings/bookings__actions.php:2217
+#: includes/page-bookings/bookings__actions.php:2382
+#: includes/page-bookings/bookings__actions.php:2735
+#: includes/page-bookings/bookings__actions.php:3240
+#: includes/page-bookings/bookings__actions.php:3348
+#: includes/page-bookings/bookings__actions.php:3430
+#: includes/page-bookings/bookings__actions.php:3513
+#: includes/page-bookings/bookings__actions.php:3626
+#: includes/page-form-simple/page-form-simple.php:959
+#: includes/print/bookings_print.php:103
+#: includes/publish/wpbc-publish-shortcode.php:327
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:279
+#: includes/_toolbar_ui/toolbar_ui.php:717
+#: includes/_toolbar_ui/toolbar_ui.php:1400
+#: includes/_toolbar_ui/toolbar_ui.php:1557
+msgid "Close"
+msgstr "Затвори"
+
+#: core/lang/wpbc_all_translations2.php:90
+#: includes/page-bookings/bookings__actions.php:2032
+#: includes/page-bookings/bookings__actions.php:3477
+msgid "Please configure settings for import Google Calendar events"
+msgstr "Моля конфигурирайте настройките за импортиране на събития от Google календар"
+
+#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
+#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
+#: core/admin/page-email-new-visitor.php:491
+#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:233
+#: includes/page-bookings/bookings__actions.php:2033
+#: includes/page-bookings/bookings__actions.php:3478
+msgid "here"
+msgstr "тук"
+
+#: core/lang/wpbc_all_translations2.php:106
+#: includes/page-bookings/bookings__actions.php:3505
+msgid "Configure"
+msgstr "Конфигуриране"
+
+#: core/admin/page-import-gcal.php:119 core/lang/wpbc_all_translations.php:351
+msgid "Select time duration of import requests."
+msgstr "Изберете продължителност на заявката за импортиране."
+
+#: core/lang/wpbc_all_translations2.php:105
+#: includes/page-bookings/bookings__actions.php:3471
+msgid "Retrieve Google Calendar Events "
+msgstr "Получаване на събития от Google календар"
+
+#: core/admin/page-ics-export.php:140 core/class/wpbc-class-notices.php:25
+#: core/lang/wpbc_all_translations.php:273
+#: includes/page-bookings/bookings__actions.php:3470
+msgid "Warning!"
+msgstr "Предупреждение!"
+
+#: core/lang/wpbc_all_translations.php:682 core/wpbc-emails.php:221
+#: includes/_toolbar_ui/toolbar_ui.php:374
+#: includes/_toolbar_ui/toolbar_ui.php:1235
+msgid "day"
+msgstr "ден"
+
+#: core/admin/page-ics-general.php:159 core/lang/wpbc_all_translations.php:290
+#: core/sync/wpbc-gcal.php:265
+msgid "Select a city in your required timezone, if you are having problems with dates and times."
+msgstr "Изберете град в желаната часова зона, ако имате проблем с датите и часа."
+
+#: core/admin/page-import-gcal.php:60 core/lang/wpbc_all_translations.php:341
+msgid "Activate auto import"
+msgstr "Активирайте автоматичното импортиране"
+
+#: core/admin/page-import-gcal.php:61 core/lang/wpbc_all_translations.php:342
+msgid "Check this box to %sactivate%s auto import events and creation bookings from them"
+msgstr "Изберете този бокс за да %sactivate%s автоматичното импортиране на събития и създаването на ерзервации за тях"
+
+#: core/admin/page-import-gcal.php:118 core/lang/wpbc_all_translations.php:350
+msgid "Import events every"
+msgstr "Импортирай събития всеки "
+
+#: core/admin/page-import-gcal.php:87 core/admin/page-import-gcal.php:89
+#: core/lang/wpbc_all_translations.php:344
+#: includes/page-form-simple/form_simple__timeslots.php:202
+msgid "hour"
+msgstr "час"
+
+#: core/admin/page-ics-general.php:131 core/lang/wpbc_all_translations.php:288
+#: core/sync/wpbc-gcal.php:235 includes/_capacity/resource_support.php:45
+msgid "Default"
+msgstr "По подразбиране"
+
+#: core/admin/page-import-gcal.php:136 core/lang/wpbc_all_translations.php:353
+msgid "Please enter your Google API key. This field required to import events."
+msgstr "Моля, въведене ключа за Google API. Това поле е задължително, за да се импортират събития."
+
+#: core/admin/page-import-gcal.php:139 core/lang/wpbc_all_translations.php:355
+msgid "You can check in this %sinstruction how to generate and use your Google API key%s."
+msgstr "Можете да поглднете %sинструкцията как се генерира Google API ключ %s"
+
+#: core/admin/page-ics-general.php:158 core/lang/wpbc_all_translations.php:289
+#: core/sync/wpbc-gcal.php:230
+msgid "Timezone"
+msgstr "Часова зона"
+
+#: core/admin/page-import-gcal.php:256 core/admin/page-import-gcal.php:338
+#: core/lang/wpbc_all_translations.php:371 core/sync/wpbc-gcal.php:136
+msgid "You can specify an additional offset from you chosen start point. The offset can be negative."
+msgstr "Може да изберете специфично отместване на началната точка. Отместването може да е отрицателно."
+
+#: core/admin/page-import-gcal.php:259 core/admin/page-import-gcal.php:341
+#: core/lang/wpbc_all_translations.php:372 core/sync/wpbc-gcal.php:139
+#: core/sync/wpbc-gcal.php:203
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:275
+msgid "Type your date in format %s. Example: %s"
+msgstr "Въведете вашата дата в следния формат %s. Пример: %s"
+
+#: core/admin/page-import-gcal.php:281 core/lang/wpbc_all_translations.php:374
+#: core/sync/wpbc-gcal.php:156
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:63
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:60
+msgid "Until"
+msgstr "Единици"
+
+#: core/admin/page-import-gcal.php:275 core/lang/wpbc_all_translations.php:373
+#: core/sync/wpbc-gcal.php:174
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:59
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:56
+msgid "The end of time"
+msgstr "Край на периода"
+
+#: core/admin/page-import-gcal.php:282 core/lang/wpbc_all_translations.php:375
+#: core/sync/wpbc-gcal.php:182
+msgid "Select option, when to stop retrieving events."
+msgstr "Изберете опция, кога да се прекрати полчаването на събития"
+
+#: core/lang/wpbc_all_translations.php:645 core/sync/wpbc-gcal.php:200
+msgid "You can specify an additional offset from you chosen end point. The offset can be negative."
+msgstr "Може да изберете специфично отместване на крайната точка. Отместването може да е отрицателно."
+
+#: core/admin/page-import-gcal.php:178 core/lang/wpbc_all_translations.php:357
+#: core/sync/wpbc-gcal.php:216
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:386
+msgid "Maximum number"
+msgstr "Максимален брой"
+
+#: core/admin/page-import-gcal.php:179 core/lang/wpbc_all_translations.php:358
+#: core/sync/wpbc-gcal.php:219
+msgid "You can specify the maximum number of events to import during one session."
+msgstr "Може да зададете максималния брой събития, които да се получават в рамките на една сесия."
+
+#: core/admin/page-import-gcal.php:135 core/lang/wpbc_all_translations.php:352
+msgid "Google API Key"
+msgstr "Ключ за Google API"
+
+#: core/admin/page-import-gcal.php:85 core/admin/page-import-gcal.php:89
+#: core/admin/page-import-gcal.php:235 core/admin/page-import-gcal.php:317
+#: core/lang/wpbc_all_translations.php:343 core/sync/wpbc-gcal.php:127
+#: core/sync/wpbc-gcal.php:191
+#: includes/page-form-simple/form_simple__timeslots.php:203
+#: includes/page-form-simple/form_simple__timeslots.php:204
+#: includes/page-form-simple/form_simple__timeslots.php:205
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:266
+msgid "minutes"
+msgstr "минути"
+
+#: core/admin/page-import-gcal.php:92 core/admin/page-import-gcal.php:236
+#: core/admin/page-import-gcal.php:318 core/lang/wpbc_all_translations.php:345
+#: core/sync/wpbc-gcal.php:128 core/sync/wpbc-gcal.php:192
+#: includes/page-form-simple/form_simple__timeslots.php:201
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:265
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:415
+msgid "hours"
+msgstr "чсове"
+
+#: core/admin/page-import-gcal.php:237 core/admin/page-import-gcal.php:319
+#: core/admin/wpbc-toolbars.php:640 core/admin/wpbc-toolbars.php:641
+#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/lang/wpbc_all_translations.php:370 core/sync/wpbc-gcal.php:129
+#: core/sync/wpbc-gcal.php:193
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:998
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1390
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:264
+#: includes/_toolbar_ui/toolbar_ui.php:375
+#: includes/_toolbar_ui/toolbar_ui.php:376
+#: includes/_toolbar_ui/toolbar_ui.php:377
+#: includes/_toolbar_ui/toolbar_ui.php:378
+#: includes/_toolbar_ui/toolbar_ui.php:379
+#: includes/_toolbar_ui/toolbar_ui.php:1236
+#: includes/_toolbar_ui/toolbar_ui.php:1237
+#: includes/_toolbar_ui/toolbar_ui.php:1238
+#: includes/_toolbar_ui/toolbar_ui.php:1239
+#: includes/_toolbar_ui/toolbar_ui.php:1240
+msgid "days"
+msgstr "Дни"
+
+#: core/admin/page-import-gcal.php:189 core/admin/page-import-gcal.php:271
+#: core/lang/wpbc_all_translations.php:360 core/sync/wpbc-gcal.php:106
+#: core/sync/wpbc-gcal.php:170
+msgid "00:00 today"
+msgstr "00:00 днес"
+
+#: core/admin/page-import-gcal.php:190 core/admin/page-import-gcal.php:272
+#: core/lang/wpbc_all_translations.php:361 core/sync/wpbc-gcal.php:107
+#: core/sync/wpbc-gcal.php:171
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:188
+msgid "Start of current week"
+msgstr "Начало на текущата седмица"
+
+#: core/admin/page-import-gcal.php:191 core/admin/page-import-gcal.php:273
+#: core/lang/wpbc_all_translations.php:362 core/sync/wpbc-gcal.php:108
+#: core/sync/wpbc-gcal.php:172
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:56
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:189
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:53
+msgid "Start of current month"
+msgstr "Начало на текущия месец"
+
+#: core/admin/page-import-gcal.php:192 core/admin/page-import-gcal.php:274
+#: core/lang/wpbc_all_translations.php:363 core/sync/wpbc-gcal.php:109
+#: core/sync/wpbc-gcal.php:173
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:57
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:190
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:54
+msgid "End of current month"
+msgstr "Край на текущия месец"
+
+#: core/admin/page-import-gcal.php:193 core/lang/wpbc_all_translations.php:364
+#: core/sync/wpbc-gcal.php:110
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:192
+msgid "The start of time"
+msgstr "Начало на периода"
+
+#: core/admin/page-import-gcal.php:194 core/admin/page-import-gcal.php:276
+#: core/lang/wpbc_all_translations.php:365 core/sync/wpbc-gcal.php:111
+#: core/sync/wpbc-gcal.php:175
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:60
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:193
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:57
+msgid "Specific date / time"
+msgstr "Конкретен ден/час"
+
+#: core/admin/page-import-gcal.php:200 core/lang/wpbc_all_translations.php:366
+#: core/sync/wpbc-gcal.php:118
+msgid "Select option, when to start retrieving events."
+msgstr "Изберете опция, кога да зопочне получаването на събития"
+
+#: core/admin/page-import-gcal.php:215 core/admin/page-import-gcal.php:297
+#: core/lang/wpbc_all_translations.php:367 core/sync/wpbc-gcal.php:120
+#: core/sync/wpbc-gcal.php:184
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:226
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:235
+msgid "Offset"
+msgstr "Отместване"
+
+#: core/admin/page-import-gcal.php:216 core/admin/page-import-gcal.php:298
+#: core/lang/wpbc_all_translations.php:368 core/sync/wpbc-gcal.php:120
+#: core/sync/wpbc-gcal.php:184
+msgid "Enter date / time"
+msgstr "Въведете дата/час"
+
+#: core/admin/page-import-gcal.php:234 core/admin/page-import-gcal.php:316
+#: core/lang/wpbc_all_translations.php:369 core/sync/wpbc-gcal.php:126
+#: core/sync/wpbc-gcal.php:190
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:267
+msgid "seconds"
+msgstr "секунди"
+
+#: core/admin/page-email-approved.php:262 core/admin/page-email-deleted.php:262
+#: core/admin/page-email-deny.php:262 core/admin/page-email-new-admin.php:242
+#: core/admin/page-email-new-visitor.php:244
+#: core/admin/page-email-trash.php:262 core/admin/page-import-gcal.php:199
+#: core/lang/wpbc_all_translations.php:202 core/sync/wpbc-gcal.php:92
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:1345
+msgid "From"
+msgstr "От"
+
+#: core/admin/page-import-gcal.php:188 core/admin/page-import-gcal.php:270
+#: core/lang/wpbc_all_translations.php:359 core/lib/wpbc-cron.php:305
+#: core/sync/wpbc-gcal.php:105 core/sync/wpbc-gcal.php:169
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:53
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:186
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:50
+msgid "Now"
+msgstr "Сега"
+
+#: core/admin/page-ics-general.php:101 core/admin/page-ics-general.php:111
+#: core/admin/page-ics-general.php:121 core/lang/wpbc_all_translations.php:285
+msgid "Select field for assigning to %sevent property%s"
+msgstr "Изберете поле което да се асоцеира с %sevent property%s"
+
+#: core/admin/page-ics-general.php:100 core/lang/wpbc_all_translations.php:284
+msgid "Event Title"
+msgstr "Заглавие на събитието"
+
+#: core/admin/page-ics-general.php:110 core/lang/wpbc_all_translations.php:286
+msgid "Event Description (optional field)"
+msgstr "Описание на събитието (опционално поле)"
+
+#: core/admin/page-ics-general.php:120 core/lang/wpbc_all_translations.php:287
+msgid "Location"
+msgstr "Местонахождение"
+
+#: core/admin/page-import-gcal.php:363 core/lang/wpbc_all_translations.php:380
+msgid "Click APIs and make sure \"Calendar API\" is set to ON."
+msgstr "Натиснете APIs и се уверете, че \"Calendar API\" е включено."
+
+#: core/admin/page-import-gcal.php:364 core/lang/wpbc_all_translations.php:381
+msgid "Now click on \"Credentials\" in the sidebar."
+msgstr "Сега натиснете \"Акредитивни писма\" от страничната лента"
+
+#: core/admin/page-import-gcal.php:365 core/lang/wpbc_all_translations.php:382
+msgid "Under the section \"Public API access\" click the button \"Create new Key\"."
+msgstr "Под секцията  \"Публичен API достъп\" натиснете бутона \"Създай нов Ключ\"."
+
+#: core/admin/page-import-gcal.php:366 core/lang/wpbc_all_translations.php:383
+msgid "On the popup click the button \"Server Key\" and click \"Create\"."
+msgstr "На прозореца, който ще се покаже натиснете \"Ключ за Сървъра\" и натиснете \"Създаване\"."
+
+#: core/admin/page-import-gcal.php:367 core/lang/wpbc_all_translations.php:384
+msgid "You will now see a table loaded with the top item being the API Key. Copy this and paste it into %sGoogle API Key%s field at this page."
+msgstr "Сега ще видите таблица със зареден най-горе  API ключа. Копирайте този ключ и го поставете в %sGoogle API Key%s полето от тази страница."
+
+#: core/admin/page-import-gcal.php:370 core/lang/wpbc_all_translations.php:385
+msgid "Set Your Calendar to Public"
+msgstr "Направете вашия календар публичен"
+
+#: core/admin/page-import-gcal.php:372 core/admin/page-import-gcal.php:380
+#: core/lang/wpbc_all_translations.php:386
+msgid "Navigate to your Google calendars."
+msgstr "Отидете във вашите Google календари"
+
+#: core/admin/page-import-gcal.php:373 core/admin/page-import-gcal.php:381
+#: core/lang/wpbc_all_translations.php:387
+msgid "Open the settings for the calendar."
+msgstr "Отворете основните настройки на календара."
+
+#: core/admin/page-import-gcal.php:374 core/lang/wpbc_all_translations.php:388
+msgid "Click the \"Share this Calendar\" link."
+msgstr "Натиснете връзката  \"Сподели този календар\"."
+
+#: core/admin/page-import-gcal.php:375 core/lang/wpbc_all_translations.php:389
+msgid "Click the checkbox to make calendar public. Do not check the other option."
+msgstr "Маркирайте, за да направите календара публичен. Не избирайте друга опция."
+
+#: core/admin/page-import-gcal.php:378 core/lang/wpbc_all_translations.php:390
+msgid "Find Your Calendar ID"
+msgstr "Намерете ID-то на вашия календар"
+
+#: core/admin/page-import-gcal.php:382 core/lang/wpbc_all_translations.php:391
+msgid "Now copy the Calendar ID to use in the plugin settings in your WordPress admin. Make sure to %suse the Calendar ID only, not the entire XML feed URL%s."
+msgstr "Сега копирайте ID-то на календара, за да го използвате в настройките на хранилка в административната секцията на WordPress . Уверете се, че %sизползвате само ID-то на календара, а не целия XML %s."
+
+#: core/admin/page-ics-general.php:67 core/lang/wpbc_all_translations.php:283
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:573
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:248
+msgid "None"
+msgstr "Нищо"
+
+#: core/admin/page-ics-general.php:452 core/lang/wpbc_all_translations.php:316
+msgid "Assign events fields to specific booking form field"
+msgstr "Асоциирай събития към поле от конкретна резервационна форма"
+
+#: core/admin/page-import-gcal.php:531 core/admin/page-import-gcal.php:578
+#: core/lang/wpbc_all_translations.php:393
+msgid "Auto import events"
+msgstr "Автоматично импортиране на събития"
+
+#: core/admin/page-import-gcal.php:569 core/lang/wpbc_all_translations.php:395
+msgid "Google Calendar - General Settings"
+msgstr "Google календар - Основни настройки"
+
+#: core/admin/page-import-gcal.php:533 core/admin/page-import-gcal.php:586
+#: core/lang/wpbc_all_translations.php:394
+msgid "Default settings for retrieving events"
+msgstr "Настройки по подразбиране за получаване на събития"
+
+#: core/admin/page-import-gcal.php:160 core/lang/wpbc_all_translations.php:356
+msgid "Google Calendar ID"
+msgstr "Google календар ID"
+
+#: core/admin/page-import-gcal.php:358 core/lang/wpbc_all_translations.php:376
+msgid "To get Google Calendar API key please follow this instruction"
+msgstr "За да ключ за Google календар API, моля следвайте тези инструкции"
+
+#: core/admin/page-import-gcal.php:360 core/lang/wpbc_all_translations.php:377
+msgid "Go to Google Developer Console: %s."
+msgstr "Отидете на конзолата Google Developer Console: %s."
+
+#: core/admin/page-import-gcal.php:361 core/lang/wpbc_all_translations.php:378
+msgid "Give your project a name and click \"Create\"."
+msgstr "Задайте име на проекта и натиснете \"Създай\"."
+
+#: core/admin/page-import-gcal.php:362 core/lang/wpbc_all_translations.php:379
+msgid "In the sidebar click on \"APIs & auth\"."
+msgstr "В страничната лента натиснете на \"APIs & auth\"."
+
+#: core/lang/wpbc_all_translations.php:643 core/sync/wpbc-gcal-class.php:798
+#: includes/_toolbar_ui/toolbar_ui.php:1861
+msgid "Do you really want to delete selected booking(s) ?"
+msgstr "Наистина ли искате да изтриете избраните резервации?"
+
+#: core/lang/wpbc_all_translations.php:644 core/sync/wpbc-gcal-class.php:807
+msgid "Delete selected booking(s)"
+msgstr "Изтрий избраните резервации"
+
+#: core/admin/page-ics-export.php:42 core/admin/page-ics-export.php:43
+#: core/admin/page-ics-general.php:316 core/admin/page-ics-general.php:317
+#: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
+#: core/admin/page-ics-import.php:40 core/admin/page-ics-import.php:41
+#: core/admin/page-import-gcal.php:428 core/admin/page-import-gcal.php:429
+#: core/lang/wpbc_all_translations.php:269
+#: includes/_functions/admin_top_bar.php:297
+msgid "Sync"
+msgstr "Синхронизирай"
+
+#: core/lang/wpbc_all_translations.php:755 core/wpbc_functions.php:901
+#: includes/page-form-simple/form_simple__preview.php:209
+msgid "Click to toggle"
+msgstr "Кликнете, за да превключите"
+
+#: core/lang/wpbc_all_translations.php:636 core/sync/wpbc-gcal-class.php:666
+#: core/sync/wpbc-gcal-class.php:735 core/sync/wpbc-gcal-class.php:770
+#: core/timeline/v2/wpbc-class-timeline_v2.php:73
+#: core/wpbc_functions_dates.php:235 core/wpbc_functions_dates.php:277
+#: includes/_toolbar_ui/toolbar_ui.php:292
+#: includes/_toolbar_ui/toolbar_ui.php:293
+#: includes/_toolbar_ui/toolbar_ui.php:415
+#: includes/_toolbar_ui/toolbar_ui.php:1323
+msgid "Dates"
+msgstr "Дати"
+
+#: core/lang/wpbc_all_translations.php:639 core/sync/wpbc-gcal-class.php:736
+#: core/sync/wpbc-gcal-class.php:786
+msgid "GID"
+msgstr "GID"
+
+#: core/lang/wpbc_all_translations.php:640 core/sync/wpbc-gcal-class.php:750
+msgid "Selection"
+msgstr "Избор"
+
+#: core/lang/wpbc_all_translations.php:641 core/sync/wpbc-gcal-class.php:764
+msgid "Location:"
+msgstr "Направление:"
+
+#: core/lang/wpbc_all_translations.php:642 core/sync/wpbc-gcal-class.php:794
+msgid "Reload page"
+msgstr "Презареди страницата"
+
+#: core/admin/api-settings.php:1722 core/class/wpbc-class-notices.php:107
+#: core/lang/wpbc_all_translations.php:181 core/sync/wpbc-gcal-class.php:796
+#: core/wpbc_functions.php:808
+msgid "Hide"
+msgstr "Скрий"
+
+#: core/admin/api-settings.php:1769 core/lang/wpbc_all_translations.php:184
+#: core/sync/wpbc-gcal-class.php:492 core/sync/wpbc-gcal-class.php:734
+#: core/sync/wpbc-gcal-class.php:760
+msgid "Info"
+msgstr "Информация"
+
+#: core/admin/page-email-approved.php:234
+#: core/admin/page-email-approved.php:290 core/admin/page-email-deleted.php:234
+#: core/admin/page-email-deleted.php:290 core/admin/page-email-deny.php:236
+#: core/admin/page-email-deny.php:290 core/admin/page-email-new-admin.php:218
+#: core/admin/page-email-new-admin.php:270
+#: core/admin/page-email-new-visitor.php:272
+#: core/admin/page-email-trash.php:234 core/admin/page-email-trash.php:295
+#: core/lang/wpbc_all_translations.php:200
+#: core/lib/wpdev-booking-widget.php:128 core/sync/wpbc-gcal-class.php:733
+#: core/sync/wpbc-gcal-class.php:756
+#: includes/page-form-simple/form_simple__timeslots.php:773
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:80
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:191
+#: js/wpbc-gutenberg.js:859
+msgid "Title"
+msgstr "Заглавие"
+
+#: core/lang/wpbc_all_translations.php:638 core/sync/wpbc-gcal-class.php:732
+#: core/sync/wpbc-gcal-class.php:753 includes/_toolbar_ui/toolbar_ui.php:289
+#: includes/_toolbar_ui/toolbar_ui.php:290
+msgid "ID"
+msgstr "ID"
+
+#: core/lang/wpbc_all_translations.php:627 core/sync/wpbc-gcal-class.php:317
+msgid "Importing Feed"
+msgstr "Импортиране на полета"
+
+#: core/lang/wpbc_all_translations.php:628 core/sync/wpbc-gcal-class.php:333
+msgid "Data Parsing"
+msgstr "Data Parsing"
+
+#: core/lang/wpbc_all_translations.php:629 core/sync/wpbc-gcal-class.php:476
+msgid "Some data was retrieved, but could not be parsed successfully. Please ensure your feed URL is correct."
+msgstr "Получени са данни, но не могат да бъдат вкарани успешно. Моля проверете дали URL адреса на хранилката е коректен."
+
+#: core/lang/wpbc_all_translations.php:630 core/sync/wpbc-gcal-class.php:483
+msgid "The feed could not be found (404). Please ensure your feed URL is correct."
+msgstr "Хранилката не може да бъде намерена (404). Моля проверете дали URL адреса на хранилката е коректен."
+
+#: core/lang/wpbc_all_translations.php:631 core/sync/wpbc-gcal-class.php:486
+msgid "Access to this feed was denied (403). Please ensure you have public sharing enabled for your calendar."
+msgstr "Достъпа до хранилката е отказан (403). Моля проверете, че разполагате с разрешено публично споделяне на вашия календар."
+
+#: core/lang/wpbc_all_translations.php:632 core/sync/wpbc-gcal-class.php:489
+msgid "The feed data could not be retrieved. Error code: %s. Please ensure your feed URL is correct."
+msgstr "Данните от хранилката не могат да бъдат изтеглени. Код на грешката: %s. Моля проверете дали URL адреса на хранилката е коректен."
+
+#: core/admin/page-ics-import.php:713 core/lang/wpbc_all_translations.php:340
+#: core/sync/wpbc-gcal-class.php:512 includes/page-setup/setup_support.php:78
+#: includes/_feedback/feedback.php:305 includes/_feedback/feedback.php:339
+#: includes/_feedback/feedback.php:398 includes/_feedback/feedback.php:424
+msgid "Done"
+msgstr "Готово"
+
+#: core/admin/page-email-approved.php:702 core/admin/page-email-deleted.php:700
+#: core/admin/page-email-deny.php:698 core/admin/page-email-new-admin.php:683
+#: core/admin/page-email-new-visitor.php:676
+#: core/admin/page-email-trash.php:705 core/admin/page-ics-export.php:239
+#: core/admin/page-ics-general.php:478 core/admin/page-ics-import.php:205
+#: core/admin/page-import-gcal.php:614 core/admin/page-settings.php:160
+#: core/admin/page-settings.php:649 core/lang/wpbc_all_translations.php:243
+#: includes/page-bookings/bookings__actions.php:2204
+#: includes/page-bookings/bookings__actions.php:2369
+#: includes/page-bookings/bookings__actions.php:2716
+#: includes/page-bookings/bookings__actions.php:3227
+#: includes/page-bookings/bookings__actions.php:3335
+#: includes/page-form-simple/page-form-simple.php:187
+#: includes/page-form-simple/page-form-simple.php:1139
+msgid "Save Changes"
+msgstr "Запис на промените"
+
+#: core/lang/wpbc_all_translations1.php:528
+msgid "Error!"
+msgstr "Грешка!"
+
+#: core/admin/page-settings.php:560 core/lang/wpbc_all_translations.php:416
+#: core/wpbc_welcome.php:246
+#: includes/page-form-simple/form_simple__preview.php:239
+#: includes/page-resource-free/page-resource-free.php:216
+#: includes/_functions/is_dismissed.php:59
+#: includes/_functions/is_dismissed.php:110
+#: includes/_functions/is_dismissed.php:114
+#: includes/_functions/versions.php:374
+msgid "Dismiss"
+msgstr "Отхвърли"
+
+#: core/lang/wpbc_all_translations.php:602 core/lib/wpbc-ajax.php:127
+msgid "Set as Approved"
+msgstr "Отбележи като одобрено"
+
+#: core/lang/wpbc_all_translations.php:603 core/lib/wpbc-ajax.php:129
+msgid "Set as Pending"
+msgstr "Отбележи като чакащо"
+
+#: core/lang/wpbc_all_translations.php:604 core/lib/wpbc-ajax.php:150
+#: core/lib/wpbc-ajax.php:238
+msgid "Reason for cancellation here"
+msgstr "Причина за отказа"
+
+#: core/lang/wpbc_all_translations.php:605 core/lib/wpbc-ajax.php:151
+#: core/lib/wpbc-ajax.php:239
+msgid "Reason of cancellation here"
+msgstr "Причина за отказа"
+
+#: core/admin/page-email-deleted.php:581
+#: core/lang/wpbc_all_translations.php:248 core/lib/wpbc-ajax.php:278
+msgid "Deleted"
+msgstr "Изтрий"
+
+#: core/lang/wpbc_all_translations1.php:797
+#: includes/_capacity/captcha_simple_text.php:34
+msgid "The code you entered is incorrect"
+msgstr "Кода който въведахте е невалиден"
+
+#: core/lang/wpbc_all_translations.php:597 core/lib/wpbc-ajax.php:33
+#: includes/_functions/nonce_func.php:72
+msgid "%sError!%s Request do not pass security check! Please refresh the page and try one more time."
+msgstr "%sError!%s Заявката не премина проверката за сигурност! Моля обнвете страницата и пробвайте отново."

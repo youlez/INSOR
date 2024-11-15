@@ -1,0 +1,2241 @@
+# Translation of Plugins - WP Booking Calendar - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-05 10:35:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
+
+#: core/admin/api-settings.php:2035 core/admin/api-settings.php:2079
+#: core/admin/api-settings.php:2116 core/lang/wpbc_all_translations.php:188
+#: includes/page-bookings/bookings__actions.php:1532
+msgid "Warning"
+msgstr "Varoitus"
+
+#: core/lang/wpbc_all_translations.php:831
+msgid "HTML tags is accepted."
+msgstr "HTML tägit hyväksytään."
+
+#: core/lang/wpbc_all_translations.php:572
+#: includes/page-form-simple/page-form-simple.php:599
+#: includes/page-form-simple/page-form-simple.php:998
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: core/admin/page-email-approved.php:205 core/admin/page-email-deleted.php:205
+#: core/admin/page-email-deny.php:207 core/admin/page-email-new-admin.php:190
+#: core/admin/page-email-trash.php:205 core/lang/wpbc_all_translations.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:1361
+msgid "To"
+msgstr "Vastaanottaja"
+
+#: core/admin/page-email-approved.php:314
+#: core/admin/page-email-approved.php:321 core/admin/page-email-deleted.php:315
+#: core/admin/page-email-deleted.php:322 core/admin/page-email-deny.php:315
+#: core/admin/page-email-deny.php:322 core/admin/page-email-new-admin.php:300
+#: core/admin/page-email-new-admin.php:307
+#: core/admin/page-email-new-visitor.php:296
+#: core/admin/page-email-new-visitor.php:303
+#: core/admin/page-email-trash.php:320 core/admin/page-email-trash.php:327
+#: core/lang/wpbc_all_translations.php:204
+msgid "Subject"
+msgstr "Aihe"
+
+#: core/admin/api-settings.php:913 core/admin/api-settings.php:921
+#: core/admin/api-settings.php:1017 core/admin/api-settings.php:1027
+#: core/admin/page-email-approved.php:350
+#: core/admin/page-email-approved.php:357 core/admin/page-email-deleted.php:347
+#: core/admin/page-email-deleted.php:354 core/admin/page-email-deny.php:347
+#: core/admin/page-email-deny.php:354 core/admin/page-email-new-admin.php:327
+#: core/admin/page-email-new-admin.php:336
+#: core/admin/page-email-new-visitor.php:331
+#: core/admin/page-email-new-visitor.php:338
+#: core/admin/page-email-trash.php:352 core/admin/page-email-trash.php:359
+#: core/lang/wpbc_all_translations.php:95
+msgid "Content"
+msgstr "Sisältö"
+
+#: core/lang/wpbc_all_translations.php:674 core/wpbc-emails.php:198
+msgid "You can use following shortcodes in content of this template"
+msgstr "Voit käyttää seuraavia shortcodeja tämän pohjan sisällössä"
+
+#: core/lang/wpbc_all_translations.php:675 core/wpbc-emails.php:202
+msgid "%s - inserting data info about the booking, which you configured in the content form at Settings Fields page"
+msgstr "%s - lisää tämän varauksen tiedot, jotka on määritelty sisältölomakkeella Asetuskentät-sivulla"
+
+#: core/lang/wpbc_all_translations.php:684 core/wpbc-emails.php:232
+msgid "%s - inserting ID of booking "
+msgstr "%s - lisää varauksen ID"
+
+#: core/lang/wpbc_all_translations.php:685 core/wpbc-emails.php:237
+msgid "%s or %s - inserting the title of the booking resource "
+msgstr "%s tai %s - lisää varattavan kohteen otsikko"
+
+#: core/lang/wpbc_all_translations.php:686 core/wpbc-emails.php:245
+msgid "%s - inserting the cost of  booking "
+msgstr "%s - lisää varauksen hinta"
+
+#: core/lang/wpbc_all_translations.php:677 core/wpbc-emails.php:209
+msgid "%s - inserting the dates of booking"
+msgstr "%s - lisää varauksen päivät"
+
+#: core/lang/wpbc_all_translations.php:678 core/wpbc-emails.php:214
+msgid "%s - inserting check-in date (first day of reservation),"
+msgstr "%s - lisää sisäänkirjautumispäivä (varauksen ensimmäinen päivä)"
+
+#: core/lang/wpbc_all_translations.php:680 core/wpbc-emails.php:219
+#: core/wpbc-emails.php:221
+msgid "%s - inserting check-out date (last day of reservation),"
+msgstr "%s - lisää lähtopäivä (varauksen viimeinen päivä)"
+
+#: core/lang/wpbc_all_translations.php:683 core/wpbc-emails.php:226
+msgid "%s - inserting the number of booking dates "
+msgstr "%s - lisää varattujen päivien määrä"
+
+#: core/lang/wpbc_all_translations.php:543
+msgid "Customization of email template, which is sending to Admin after new booking"
+msgstr "Uuden varauksen tekemisen jälkeen ylläpitäjälle lähetettävän sähköpostin mallin räätälöinti"
+
+#: core/admin/page-email-new-visitor.php:560
+#: core/lang/wpbc_all_translations.php:264
+msgid "Customization of email template, which is sending to Visitor after new booking"
+msgstr "Uuden varauksen tekemisen jälkeen vierailijalle lähetettävän sähköpostin mallin räätälöinti"
+
+#: core/lang/wpbc_all_translations.php:536
+msgid "Type your email %ssubject%s for the booking confimation message."
+msgstr "Sähköpostin %sotsikko%s uudelle varaukselle"
+
+#: core/admin/api-settings.php:1264 core/lang/wpbc_all_translations.php:127
+msgid "Type your date format for emails and the booking table. %sDocumentation on date formatting%s"
+msgstr "Anna oma päivämäärämuoto sähköposteille ja varaustaulukolle. %sDokumentaatio päivämääräformaateista%s"
+
+#: core/admin/api-settings.php:1205 core/lang/wpbc_all_translations.php:121
+msgid "Dates view"
+msgstr "Päivänäkymä"
+
+#: core/admin/api-settings.php:1208 core/lang/wpbc_all_translations.php:123
+msgid "Short days view"
+msgstr "Lyhyt päivänäkymä"
+
+#: core/admin/api-settings.php:1209 core/lang/wpbc_all_translations.php:124
+msgid "Wide days view"
+msgstr "Leveä päivänäkymä"
+
+#: core/admin/api-settings.php:1206 core/lang/wpbc_all_translations.php:122
+msgid "Select the default view for dates on the booking tables"
+msgstr "Valitse oletusnäkymä päivämäärille varaustaulukossa"
+
+#: core/lang/wpbc_all_translations.php:517
+msgid "Show / hide hints"
+msgstr "Näytä / piilota vihjeet"
+
+#: core/lang/wpbc_all_translations.php:518
+msgid "Check this box if you want to show help hints on the admin panel."
+msgstr "Valitse tämä jos haluat näyttää ohje-vinkit ylläpitonäkymässä."
+
+#: core/admin/api-settings.php:1368 core/lang/wpbc_all_translations.php:130
+msgid "Allow unlimited bookings per same day(s)"
+msgstr "Salli rajoittamaton määrä varauksia päivittäin"
+
+#: core/admin/api-settings.php:2036 core/lang/wpbc_all_translations.php:189
+msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
+msgstr "Jos sallit rajoittamattomasti varauksia kaikille päiville, siitä saattaa seurata päällekkäisiä varauksia. Haluatko todella tehdä tämän?"
+
+#: core/admin/api-settings.php:1369 core/lang/wpbc_all_translations.php:131
+msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
+msgstr "Valitse tämä, jos haluat %ssallia varaukset kaikkina päivänä%s. Asiakkaat voivat tehdä %srajoittamattomasti varauksia, eivätkä näe toisten asiakkaden varauspäiviä%s."
+
+#: core/admin/api-settings.php:2080 core/lang/wpbc_all_translations.php:190
+msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
+msgstr "Sinun pitää tietää mitä olet tekemässä. Olet poistamassa käytöstä JavaScriptin latauksen. Haluatko todella tähdä tämän?"
+
+#: core/admin/api-settings.php:1493 core/lang/wpbc_all_translations.php:148
+msgid "Load JS and CSS files only on specific pages"
+msgstr "Lataa JS ja CSS vain valituille sivuille"
+
+#: core/admin/api-settings.php:1494 core/lang/wpbc_all_translations.php:149
+msgid "Activate loading of CSS and JavaScript files of plugin only at specific pages."
+msgstr "Aktivoi JS ja CSS lataaminen vain valituille sivuille."
+
+#: core/admin/api-settings.php:1504 core/lang/wpbc_all_translations.php:150
+msgid "Relative URLs of pages, where to load plugin CSS and JS files"
+msgstr "Suhtelliset URL:t sivuille, joilla ladataan lisäosan JS ja CSS tiedostot"
+
+#: core/admin/api-settings.php:1505 core/lang/wpbc_all_translations.php:151
+msgid "Enter relative URLs of pages, where you have Booking Calendar elements (booking forms or availability calendars). Please enter one URL per line. Example: %s"
+msgstr "Anna suhtelliset URL:t sivuille, joilla on varauskalenterin osia (lomakkeita tai kalentereita). Syötä yksi URL per rivi. Esimerkki: %s"
+
+#: core/admin/api-settings.php:1566 core/lang/wpbc_all_translations.php:159
+msgid "Show settings of powered by notice"
+msgstr "Näytä powered by notice-asetukset"
+
+#: core/admin/api-settings.php:1567 core/lang/wpbc_all_translations.php:160
+msgid "Hide settings of powered by notice"
+msgstr "Piilota powered by notice-asetukset"
+
+#: core/admin/api-settings.php:1574 core/lang/wpbc_all_translations.php:161
+msgid "Powered by notice"
+msgstr "Powered by notice-ilmoitus"
+
+#: core/admin/api-settings.php:1575 core/lang/wpbc_all_translations.php:162
+msgid " Turn On/Off powered by \"Booking Calendar\" notice under the calendar."
+msgstr "Ota käyttöön/poista käytöstä powered by \"Booking Calendar\" ilmoitus kalenterin alta"
+
+#: core/admin/api-settings.php:1583 core/lang/wpbc_all_translations.php:163
+msgid "Help and info notices"
+msgstr "Ohje ja info ilmoitukset"
+
+#: core/admin/api-settings.php:1584 core/lang/wpbc_all_translations.php:164
+msgid " Turn On/Off version notice and help info links at booking admin panel."
+msgstr "Ota käyttöön/poista käytöstä versioilmoitukset ja ohje-linkit varauksen hallintapaneelista"
+
+#: core/admin/page-settings.php:591 core/lang/wpbc_all_translations.php:418
+msgid "Information"
+msgstr "Tiedot"
+
+#: core/admin/api-settings.php:1630 core/lang/wpbc_all_translations.php:169
+msgid "User permissions for plugin menu pages"
+msgstr "Käyttöoikeudet lisäosan valikoihin"
+
+#: core/admin/api-settings.php:1706 core/lang/wpbc_all_translations.php:177
+msgid "Select user access level for the menu pages of plugin"
+msgstr "Valitse käyttäjältä vaadittu oikeustaso lisäosan valikoihin"
+
+#: core/admin/page-settings.php:369 core/admin/page-settings.php:614
+#: core/lang/wpbc_all_translations.php:420
+msgid "Uninstall / deactivation"
+msgstr "Poistamien / de-aktivointi"
+
+#: core/admin/api-settings.php:1739 core/lang/wpbc_all_translations.php:182
+msgid "Delete booking data, when plugin deactivated"
+msgstr "Poista kaikki varaukset, kun lisäosa de-aktivoidaan"
+
+#: core/admin/api-settings.php:2117 core/lang/wpbc_all_translations.php:191
+msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
+msgstr "Jos valitset tämän asetuksen, kaikki varauksiin liittyvä tieto tuhotaan kun lisäosa poistetaan. Haluatko varmasti tähdä tämän?"
+
+#: core/admin/api-settings.php:1740 core/lang/wpbc_all_translations.php:183
+msgid "Check this box to delete all booking data when you uninstal this plugin."
+msgstr "Valitset tämä, jotta kaikki varausilmoitukset tuhotaan kun lisäosa poistetaan"
+
+#: core/admin/api-settings.php:212 core/lang/wpbc_all_translations.php:29
+msgid "Show legend below calendar"
+msgstr "Näytä kuvateksti kalenterin alla"
+
+#: core/admin/api-settings.php:213 core/lang/wpbc_all_translations.php:30
+msgid "Check this box to display a legend of dates below the booking calendar."
+msgstr "Valitse tämä, jotta päivät näytetään kuvatekstinä varauskalenterin alla"
+
+#: core/admin/api-settings.php:225 core/lang/wpbc_all_translations.php:31
+msgid "Available item"
+msgstr "Vapaa kohde"
+
+#: core/admin/api-settings.php:248 core/lang/wpbc_all_translations.php:33
+msgid "Activate and type your %stitle of available%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko vapaalle%s kohteelle kuvatekstissä"
+
+#: core/admin/api-settings.php:262 core/lang/wpbc_all_translations.php:34
+msgid "Pending item"
+msgstr "Avoin kohde"
+
+#: core/admin/api-settings.php:285 core/lang/wpbc_all_translations.php:36
+msgid "Activate and type your %stitle of pending%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko avoimelle%s kohteelle kuvatekstissä"
+
+#: core/admin/api-settings.php:299 core/lang/wpbc_all_translations.php:37
+msgid "Approved item"
+msgstr "Vahvistettu kohde"
+
+#: core/admin/api-settings.php:322 core/lang/wpbc_all_translations.php:39
+msgid "Activate and type your %stitle of approved%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko vahvistetulle%s kohteelle kuvatekstissä"
+
+#: core/admin/api-settings.php:339 core/lang/wpbc_all_translations.php:40
+msgid "Partially booked item"
+msgstr "Osittain varattu kohde"
+
+#: core/admin/api-settings.php:362 core/lang/wpbc_all_translations.php:42
+msgid "Activate and type your %stitle of partially booked%s item in legend"
+msgstr "Aktivoi ja anna %sotsikko osittain varatulle%s kohteelle kuvatekstissä"
+
+#: core/admin/api-settings.php:365 core/admin/api-settings.php:532
+#: core/lang/wpbc_all_translations.php:44
+msgid "Partially booked item - day, which is booked for the specific time-slot(s)."
+msgstr "Osittain varattu kohde - päivä, jolla varaus/varauksia tiettyinä tunteina"
+
+#: core/lang/wpbc_all_translations.php:573
+#: includes/page-form-simple/page-form-simple.php:600
+msgid "Field Label"
+msgstr "Kentän nimi"
+
+#: core/admin/page-email-approved.php:215
+#: core/admin/page-email-approved.php:272
+#: core/admin/page-email-approved.php:332 core/admin/page-email-deleted.php:215
+#: core/admin/page-email-deleted.php:272 core/admin/page-email-deleted.php:333
+#: core/admin/page-email-deny.php:217 core/admin/page-email-deny.php:272
+#: core/admin/page-email-deny.php:333 core/admin/page-email-new-admin.php:200
+#: core/admin/page-email-new-admin.php:252
+#: core/admin/page-email-new-admin.php:318
+#: core/admin/page-email-new-visitor.php:254
+#: core/admin/page-email-new-visitor.php:314
+#: core/admin/page-email-trash.php:215 core/admin/page-email-trash.php:277
+#: core/admin/page-email-trash.php:338 core/lang/wpbc_all_translations.php:198
+#: includes/page-form-simple/page-form-simple.php:601
+#: includes/page-form-simple/page-form-simple.php:1019
+msgid "Required"
+msgstr "Pakollinen"
+
+#: core/lang/wpbc_all_translations.php:587
+#: includes/page-form-simple/page-form-simple.php:1095
+msgid "Enter dropdown options. One option per line."
+msgstr "Alasvetovalikon arvot. Yksi arvo per rivi."
+
+#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
+#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
+#: core/admin/page-email-new-visitor.php:491
+#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:232
+msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
+msgstr "Esimerkiksi: \"Teillä on uusi varaus %s seuraaville päiville: %s Yhteystiedot: %s Voitte hyväksyä tai perua tämän varauksen: %s Ystävällisin terveisin, Varauspalvelu\""
+
+#: core/lang/wpbc_all_translations.php:673 core/wpbc-emails.php:195
+msgid "You can use (in subject and content of email template) any shortcodes, which you used in the booking form. Use the shortcodes in the same way as you used them in the content form at Settings Fields page."
+msgstr "Voit käyttää (sähköpostin otsikossa ja sisältöpohjassa) kaikkia samoja shortcodeja kuin varauslomakkeessa. Käytä shortcodeja samalla tavalla kuin lomakkeessa Asetuskentät-sivulla."
+
+#: core/lang/wpbc_all_translations.php:676 core/wpbc-emails.php:204
+msgid "%s - inserting data info about the booking"
+msgstr "%s - lisää varauksen tiedot"
+
+#: core/lang/wpbc_all_translations.php:687 core/wpbc-emails.php:250
+msgid "%s - inserting your site URL "
+msgstr "%s - lisää sivuston URLn"
+
+#: core/lang/wpbc_all_translations.php:688 core/wpbc-emails.php:253
+msgid "%s - inserting IP address of the user who made this action "
+msgstr "%s - lisää varauksen tehneen henkilön IP-osoitteen"
+
+#: core/lang/wpbc_all_translations.php:689 core/wpbc-emails.php:254
+msgid "%s - inserting contents of the User-Agent: header from the current request, if there is one "
+msgstr "%s - lisää User-Agent: otsikon nykyisestä pyynnöstä, mikäli sellainen on"
+
+#: core/lang/wpbc_all_translations.php:690 core/wpbc-emails.php:255
+msgid "%s - inserting address of the page (if any), where visitor make this action "
+msgstr "%s - lisää sivuston osoitteen(mikäli on), mistä käyttäjä suorittaa toimenpiteen"
+
+#: core/lang/wpbc_all_translations.php:692 core/wpbc-emails.php:259
+msgid "%s - inserting date of this action "
+msgstr "%s - lisää toimenpiteen päiväyksen"
+
+#: core/lang/wpbc_all_translations.php:691 core/wpbc-emails.php:256
+msgid "%s - inserting time of this action "
+msgstr "%s - lisää toimenpiteen ajan"
+
+#: core/lang/wpbc_all_translations.php:694 core/wpbc-emails.php:281
+msgid "%s - inserting moderate link of new booking "
+msgstr "%s - lisää linkin uuden varauksen muokkaamiseen"
+
+#: core/lang/wpbc_all_translations.php:701 core/wpbc-emails.php:307
+msgid "%s - inserting link to the page where visitor can edit the reservation,  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - lisää linkin sivulle, jolla vierailija voi muokata varausta, (tässä on mahdollista käytää %s parametria eri %s asettamiseksi. Esimerkki: %s)"
+
+#: core/lang/wpbc_all_translations.php:702 core/wpbc-emails.php:313
+msgid "%s - inserting link to the page where visitor can cancel the reservation, (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - lisää linkin sivulle, jolla vierailija voi peruuttaa varauksen, (tässä on mahdollista käytää %s parametria eri %s asettamiseksi. Esimerkki: %s)"
+
+#: core/lang/wpbc_all_translations.php:703 core/wpbc-emails.php:321
+msgid "%s - inserting link to payment page where visitor can pay for the reservation  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
+msgstr "%s - lisää linkin sivulle, jolla vierailija voi maksaa varauksen, (tässä on mahdollista käytää %s parametria eri %s asettamiseksi. Esimerkki: %s)"
+
+#: core/lang/wpbc_all_translations.php:704 core/wpbc-emails.php:327
+msgid "%s - add the reason for booking payment, you can enter it before sending email, "
+msgstr "%s - lisää syy varauksen maksamiselle. Voit syöttää sen ennen sähköpostin lähettämistä, "
+
+#: core/lang/wpbc_all_translations.php:705 core/wpbc-emails.php:333
+msgid "%s - add the reason booking was cancelled, you can enter it before sending email, "
+msgstr "%s - lisää syy varauksen peruuttamiselle. Voit syöttää sen ennen sähköpostin lähettämistä, "
+
+#: core/lang/wpbc_all_translations1.php:121
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:82
+#: includes/_toolbar_ui/toolbar_ui.php:303
+#: includes/_toolbar_ui/toolbar_ui.php:304
+#: includes/_toolbar_ui/toolbar_ui.php:1617
+msgid "Cost"
+msgstr "Hinta"
+
+#: core/lang/wpbc_all_translations.php:635 core/sync/wpbc-gcal-class.php:665
+#: core/wpbc.php:251 includes/page-resource-free/page-resource-free.php:34
+#: includes/page-resource-free/page-resource-free.php:100
+#: includes/_functions/admin_top_bar.php:222
+#: includes/_functions/admin_top_bar.php:230
+#: includes/_toolbar_ui/toolbar_ui.php:297
+#: includes/_toolbar_ui/toolbar_ui.php:298
+msgid "Resource"
+msgstr "Kohde"
+
+#: core/admin/api-settings.php:1093 core/lang/wpbc_all_translations.php:101
+msgid "Default booking admin page"
+msgstr "Oletussivu varausten ylläpitäjälle"
+
+#: core/admin/api-settings.php:1087 core/lang/wpbc_all_translations.php:99
+#: core/wpbc.php:168 core/wpbc.php:169
+msgid "Bookings Listing"
+msgstr "Varauslistaus"
+
+#: core/admin/api-settings.php:1094 core/lang/wpbc_all_translations.php:102
+msgid "Select your default view mode of bookings at the booking listing page"
+msgstr "Valitse oletusnäkymä varauslistaussivulle"
+
+#: core/admin/api-settings.php:1139 core/lang/wpbc_all_translations.php:110
+msgid "Select your default calendar view mode at booking calendar overview page"
+msgstr "Valitse oletus kalenterinäkymälle varauskalenterin yleisnäkymä-sivulla"
+
+#: core/lang/wpbc_all_translations.php:851
+#: includes/_pagination/pagination.php:232
+msgid "ASC"
+msgstr "Nouseva"
+
+#: core/lang/wpbc_all_translations.php:852
+#: includes/_pagination/pagination.php:233
+msgid "DESC"
+msgstr "Laskeva"
+
+#: core/admin/api-settings.php:1224 core/lang/wpbc_all_translations.php:125
+msgid "Date Format"
+msgstr "Päivämäärän muoto"
+
+#: core/lang/wpbc_all_translations.php:551 core/wpbc-activation.php:1193
+#: includes/page-form-simple/form_simple__default.php:134
+msgid "Send"
+msgstr "Lähetä"
+
+#: core/admin/wpbc-toolbars.php:1639 core/lang/wpbc_all_translations.php:503
+msgid "Search"
+msgstr "Etsi"
+
+#: core/admin/api-settings.php:364 core/admin/api-settings.php:458
+#: core/admin/api-settings.php:531 core/admin/api-settings.php:660
+#: core/admin/api-settings.php:1427 core/admin/page-ics-export.php:470
+#: core/lang/wpbc_all_translations.php:43
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3143 js/wpbc-gutenberg.js:1094
+msgid "Note"
+msgstr "Muistiinpano"
+
+#: core/admin/api-settings.php:1696 core/admin/page-import-gcal.php:535
+#: core/lang/wpbc_all_translations.php:175
+#: core/timeline/v2/wpbc-class-timeline_v2.php:72 core/wpbc.php:225
+#: core/wpbc.php:227 includes/_functions/admin_top_bar.php:222
+#: includes/_functions/admin_top_bar.php:230
+msgid "Resources"
+msgstr "Kohteet"
+
+#: core/lang/wpbc_all_translations.php:527
+msgid "Help Info"
+msgstr "Tukitiedot"
+
+#: core/admin/api-settings.php:1686 core/admin/page-new.php:33
+#: core/admin/page-new.php:34 core/admin/page-new.php:35
+#: core/admin/wpbc-toolbars.php:1149 core/lang/wpbc_all_translations.php:174
+#: core/wpbc.php:195 core/wpbc.php:196 core/wpbc.php:197
+#: includes/_functions/admin_top_bar.php:110
+msgid "Add booking"
+msgstr "Lisää varaus"
+
+#: core/lang/wpbc_all_translations.php:736
+#: includes/_functions/booking_data__parse.php:652
+msgid "yes"
+msgstr "kyllä"
+
+#: core/lang/wpbc_all_translations1.php:42
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:784
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1222
+msgid "Su"
+msgstr "Su"
+
+#: core/lang/wpbc_all_translations1.php:37
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:779
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1217
+msgid "Tu"
+msgstr "Ti"
+
+#: core/lang/wpbc_all_translations1.php:39
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:781
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1219
+msgid "Th"
+msgstr "To"
+
+#: core/lang/wpbc_all_translations1.php:41
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:783
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1221
+msgid "Sa"
+msgstr "La"
+
+#: core/admin/api-settings.php:98 core/admin/api-settings.php:559
+#: core/lang/wpbc_all_translations.php:10
+#: core/timeline/v2/wpbc-class-timeline_v2.php:86
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: core/admin/api-settings.php:101 core/admin/api-settings.php:568
+#: core/lang/wpbc_all_translations.php:13
+#: core/timeline/v2/wpbc-class-timeline_v2.php:82
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: core/admin/api-settings.php:102 core/admin/api-settings.php:571
+#: core/lang/wpbc_all_translations.php:14
+#: core/timeline/v2/wpbc-class-timeline_v2.php:83
+msgid "Thursday"
+msgstr "Torstai"
+
+#: core/admin/api-settings.php:103 core/admin/api-settings.php:574
+#: core/lang/wpbc_all_translations.php:15
+#: core/timeline/v2/wpbc-class-timeline_v2.php:84
+msgid "Friday"
+msgstr "Perjantai"
+
+#: core/admin/api-settings.php:104 core/admin/api-settings.php:577
+#: core/lang/wpbc_all_translations.php:16
+#: core/timeline/v2/wpbc-class-timeline_v2.php:85
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: core/lang/wpbc_all_translations.php:985
+msgid "Costs"
+msgstr "Hinnat"
+
+#: core/admin/page-settings.php:90 core/admin/page-settings.php:239
+#: core/admin/page-settings.php:429 core/lang/wpbc_all_translations.php:396
+#: includes/page-form-simple/page-form-simple.php:687
+#: includes/page-resource-free/page-resource-free.php:233
+#: includes/page-settings-all/all__page.php:81
+#: includes/page-settings-all/all__page.php:147
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: core/admin/api-settings.php:657 core/lang/wpbc_all_translations.php:68
+#: includes/page-form-simple/page-form-simple.php:574
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: core/lang/wpbc_all_translations.php:658
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3082
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3084
+#: includes/page-bookings/bookings__sql.php:1834
+msgid "Payment"
+msgstr "Maksu"
+
+#: core/lang/wpbc_all_translations.php:747
+#: includes/_functions/admin_top_bar.php:326
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: core/lang/wpbc_all_translations.php:637 core/sync/wpbc-gcal-class.php:668
+#: core/timeline/v2/wpbc-class-timeline_v2.php:1500
+#: core/timeline/v2/wpbc-class-timeline_v2.php:1513
+msgid "Times"
+msgstr "Ajat"
+
+#: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
+#: core/admin/page-ics-general.php:445 core/admin/page-import-gcal.php:529
+#: core/admin/page-settings.php:75 core/admin/page-settings.php:76
+#: core/lang/wpbc_all_translations.php:315 core/wpbc.php:262
+#: includes/page-settings-all/all__page.php:40
+#: includes/page-settings-all/all__page.php:41
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+#: core/lang/wpbc_all_translations.php:622
+#: core/lib/wpdev-booking-widget.php:150 core/wpbc.php:250
+#: includes/page-availability/availability__class.php:372
+#: includes/page-resource-free/page-resource-free.php:36
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:279
+#: js/wpbc-gutenberg.js:653 js/wpbc-gutenberg.js:657 js/wpbc-gutenberg.js:748
+#: js/wpbc-gutenberg.js:752 js/wpbc-gutenberg.js:1020 js/wpbc-gutenberg.js:1024
+#: js/wpbc-gutenberg.js:1525 js/wpbc-gutenberg.js:1529
+msgid "Booking resource"
+msgstr "Varattava kohde"
+
+#: core/lang/wpbc_all_translations.php:618 core/lib/wpdev-booking-class.php:760
+#: core/lib/wpdev-booking-widget.php:54
+msgid "You need to use special shortcode [bookingedit] for booking editing."
+msgstr "Varausten muokkaamista varten on käytettävä erityistä shortcodea [bookingedit]"
+
+#: core/admin/wpbc-toolbars.php:900 core/lang/wpbc_all_translations.php:493
+#: core/lib/wpdev-booking-widget.php:167
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:331
+msgid "Visible months"
+msgstr "Näkyvät kuukaudet"
+
+#: core/lang/wpbc_all_translations.php:625
+#: core/lib/wpdev-booking-widget.php:193
+msgid "%sImportant!!!%s Please note, if you show booking calendar (inserted into post/page) with widget at the same page, then the last will not be visible."
+msgstr "%sTärkeää!!!%s Huomaa, että jos varauskalenteri on käytössä (sivulla tai postauksessa) yhtäaikaa vimpaimen kanssa, niin jälkimmäinen ei tule näkyviin."
+
+#: core/lang/wpbc_all_translations.php:646
+#: core/timeline/v2/wpbc-class-timeline_v2.php:89
+#: core/timeline/v2/wpbc-class-timeline_v2.php:98
+#: core/timeline/v2/wpbc-class-timeline_v2.php:107
+msgid "Mon"
+msgstr "Ma"
+
+#: core/lang/wpbc_all_translations.php:647
+#: core/timeline/v2/wpbc-class-timeline_v2.php:90
+#: core/timeline/v2/wpbc-class-timeline_v2.php:99
+#: core/timeline/v2/wpbc-class-timeline_v2.php:108
+msgid "Tue"
+msgstr "Ti"
+
+#: core/lang/wpbc_all_translations.php:648
+#: core/timeline/v2/wpbc-class-timeline_v2.php:91
+#: core/timeline/v2/wpbc-class-timeline_v2.php:100
+#: core/timeline/v2/wpbc-class-timeline_v2.php:109
+msgid "Wed"
+msgstr "Ke"
+
+#: core/lang/wpbc_all_translations.php:649
+#: core/timeline/v2/wpbc-class-timeline_v2.php:92
+#: core/timeline/v2/wpbc-class-timeline_v2.php:101
+#: core/timeline/v2/wpbc-class-timeline_v2.php:110
+msgid "Thu"
+msgstr "To"
+
+#: core/lang/wpbc_all_translations.php:650
+#: core/timeline/v2/wpbc-class-timeline_v2.php:93
+#: core/timeline/v2/wpbc-class-timeline_v2.php:102
+#: core/timeline/v2/wpbc-class-timeline_v2.php:111
+msgid "Fri"
+msgstr "Pe"
+
+#: core/lang/wpbc_all_translations.php:651
+#: core/timeline/v2/wpbc-class-timeline_v2.php:94
+#: core/timeline/v2/wpbc-class-timeline_v2.php:103
+#: core/timeline/v2/wpbc-class-timeline_v2.php:112
+msgid "Sat"
+msgstr "La"
+
+#: core/lang/wpbc_all_translations.php:652
+#: core/timeline/v2/wpbc-class-timeline_v2.php:95
+#: core/timeline/v2/wpbc-class-timeline_v2.php:104
+#: core/timeline/v2/wpbc-class-timeline_v2.php:113
+msgid "Sun"
+msgstr "Su"
+
+#. Plugin Name of the plugin
+#: wpdev-booking.php core/admin/wpbc-dashboard.php:188
+#: core/lang/wpbc_all_translations.php:427 core/lib/wpdev-booking-widget.php:30
+#: core/wpbc.php:169 core/wpbc.php:197 core/wpbc.php:206 core/wpbc.php:217
+#: core/wpbc.php:227 core/wpbc.php:239 core/wpbc.php:251 core/wpbc.php:263
+#: core/wpbc.php:274
+msgid "Booking Calendar"
+msgstr "Varauskalenteri"
+
+#: core/admin/wpbc-dashboard.php:643 core/lang/wpbc_all_translations.php:446
+msgid "Statistic"
+msgstr "Tilastot"
+
+#: core/admin/wpbc-dashboard.php:655 core/admin/wpbc-dashboard.php:887
+#: core/lang/wpbc_all_translations.php:449
+#: includes/_toolbar_ui/ui__settings_panel.php:1816
+msgid "New (unverified) booking(s)"
+msgstr "Uudet (vahvistamattomat) varaukset"
+
+#: core/admin/wpbc-dashboard.php:659 core/admin/wpbc-dashboard.php:870
+#: core/lang/wpbc_all_translations.php:450
+#: includes/_toolbar_ui/ui__settings_panel.php:1836
+msgid "Pending booking(s)"
+msgstr "Odottavat varaukset"
+
+#: core/admin/wpbc-dashboard.php:664 core/lang/wpbc_all_translations.php:451
+msgid "Agenda"
+msgstr "Tehtävälista"
+
+#: core/admin/wpbc-dashboard.php:651 core/admin/wpbc-dashboard.php:838
+#: core/lang/wpbc_all_translations.php:448
+#: includes/_toolbar_ui/ui__settings_panel.php:1895
+msgid "New booking(s) made today"
+msgstr "Tänään tehdyt uudet varaukset"
+
+#: core/admin/wpbc-dashboard.php:647 core/lang/wpbc_all_translations.php:447
+msgid "Bookings for today"
+msgstr "Varaukset tälle päivälle"
+
+#: core/lang/wpbc_all_translations.php:547
+#: includes/page-form-simple/page-form-simple.php:76
+msgid "Upgrade to higher versions"
+msgstr "Päivitä ylempääm versioon"
+
+#: core/admin/wpbc-dashboard.php:573 core/lang/wpbc_all_translations.php:438
+msgid "Current version"
+msgstr "Nykyinen versio"
+
+#: core/admin/wpbc-dashboard.php:582 core/lang/wpbc_all_translations.php:440
+msgid "Version"
+msgstr "Versio"
+
+#: core/admin/wpbc-dashboard.php:592 core/lang/wpbc_all_translations.php:441
+#: includes/page-form-simple/page-form-simple.php:602
+#: includes/page-form-simple/page-form-simple.php:695
+msgid "Type"
+msgstr "tyyppi"
+
+#: core/admin/wpbc-dashboard.php:598 core/lang/wpbc_all_translations.php:442
+msgid "Used for"
+msgstr "Käytetään"
+
+#: core/admin/wpbc-dashboard.php:520 core/lang/wpbc_all_translations.php:436
+#: includes/_feedback/feedback.php:565
+msgid "websites"
+msgstr "sivustoilla"
+
+#: core/admin/wpbc-dashboard.php:522 core/lang/wpbc_all_translations.php:437
+#: includes/_feedback/feedback.php:567
+msgid "website"
+msgstr "sivustolla"
+
+#: core/admin/wpbc-dashboard.php:605 core/lang/wpbc_all_translations.php:443
+msgid "Release date"
+msgstr "Julkaisupäivä"
+
+#: core/admin/wpbc-dashboard.php:616 core/lang/wpbc_all_translations.php:444
+msgid "Check Premium Features"
+msgstr "Katso Premium vaihtoehdot"
+
+#: core/admin/page-up.php:38 core/admin/wpbc-dashboard.php:618
+#: core/lang/wpbc_all_translations.php:426
+msgid "Upgrade"
+msgstr "Päivitä"
+
+#: core/admin/wpbc-dashboard.php:620 core/lang/wpbc_all_translations.php:445
+msgid "Explore Premium Features"
+msgstr "Katso Premium vaihtoehdot"
+
+#: core/admin/wpbc-dashboard.php:413 core/lang/wpbc_all_translations.php:429
+msgid "Support"
+msgstr "Tuki"
+
+#: core/admin/wpbc-dashboard.php:424 core/lang/wpbc_all_translations.php:430
+msgid "Getting Started"
+msgstr "Aloita tästä"
+
+#: core/admin/wpbc-dashboard.php:439 core/lang/wpbc_all_translations.php:434
+msgid "Contact email"
+msgstr "Ota yhteyttä"
+
+#: core/admin/wpbc-dashboard.php:442 core/lang/wpbc_all_translations.php:435
+msgid "Rate plugin (thanks:)"
+msgstr "Arvostele lisäosa (kiitos:)"
+
+#: core/admin/api-settings.php:1705 core/lang/wpbc_all_translations.php:176
+#: core/wpbc.php:261 core/wpbc.php:263 core/wpbc.php:471
+#: includes/page-settings-all/all__page.php:39
+#: includes/page-settings-all/all__page.php:74
+#: includes/_functions/admin_top_bar.php:263
+#: includes/_toolbar_ui/ui__settings_panel.php:116
+msgid "Settings"
+msgstr "Asetukset"
+
+#: core/admin/wpbc-dashboard.php:428 core/lang/wpbc_all_translations.php:431
+msgid "What's New"
+msgstr "Uutta"
+
+#: core/admin/api-settings.php:1645 core/lang/wpbc_all_translations.php:170
+#: core/timeline/v2/wpbc-class-timeline_v2.php:74 core/wpbc.php:167
+#: includes/_functions/admin_top_bar.php:73
+msgid "Bookings"
+msgstr "Varaukset"
+
+#: core/admin/wpbc-toolbars.php:304 core/admin/wpbc-toolbars.php:1175
+#: core/lang/wpbc_all_translations.php:463
+msgid "Send email notification to customer about this operation"
+msgstr "Lähetä sähköposti asiakkaalle tästä operaatiosta"
+
+#: core/admin/page-ics-general.php:335 core/admin/page-settings.php:74
+#: core/lang/wpbc_all_translations.php:314
+#: includes/_functions/admin_top_bar.php:273
+msgid "General"
+msgstr "Yleiset"
+
+#: core/lang/wpbc_all_translations.php:544
+#: includes/page-form-simple/page-form-simple.php:60
+msgid "Fields Settings"
+msgstr "Kenttien asetukset"
+
+#: core/admin/page-email-new-admin.php:543
+#: core/lang/wpbc_all_translations.php:257
+#: includes/page-settings-all/all__page.php:185
+#: includes/_functions/admin_top_bar.php:289
+#: includes/_toolbar_ui/ui__settings_panel.php:713
+msgid "Emails"
+msgstr "Sähköpostit"
+
+#: core/admin/page-email-approved.php:584 core/admin/page-email-deleted.php:582
+#: core/admin/page-email-deny.php:580 core/admin/page-email-new-admin.php:544
+#: core/admin/page-email-new-admin.php:545
+#: core/admin/page-email-new-admin.php:565
+#: core/admin/page-email-new-visitor.php:559
+#: core/admin/page-email-trash.php:587 core/lang/wpbc_all_translations.php:235
+msgid "Emails Settings"
+msgstr "Sähköpostiasetukset"
+
+#: core/lang/wpbc_all_translations2.php:139
+#: includes/page-settings-all/all__page.php:204
+msgid "Payments"
+msgstr "Maksut"
+
+#: core/lang/wpbc_all_translations.php:864
+#: includes/page-settings-all/all__page.php:56
+#: includes/page-settings-all/all__page.php:57
+msgid "Search Settings"
+msgstr "Hakuasetukset"
+
+#: core/lang/wpbc_all_translations1.php:167
+msgid "Users Settings"
+msgstr "Käyttäjäasetukset"
+
+#: core/lang/wpbc_all_translations.php:610 core/lib/wpdev-booking-class.php:202
+#: includes/page-availability/availability__class.php:200
+#: includes/page-availability/availability__page.php:294
+msgid "Calendar is loading..."
+msgstr "Kalenteri latautuu..."
+
+#: core/lang/wpbc_all_translations.php:614 core/lib/wpdev-booking-class.php:504
+msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
+msgstr "%sVaroitus Sivulla on jo varauskalenteri tälle kohteelle. Lue lisää tästä ongelmasta %stäältä%s"
+
+#: core/lang/wpbc_all_translations2.php:213 js/wpbc-gutenberg.js:1377
+#: js/wpbc-gutenberg.js:1463
+msgid "You do not set any parameters for booking editing"
+msgstr "Et ole antanut parametreja varauksen muokkausta varten."
+
+#: core/admin/page-email-new-admin.php:305
+#: core/admin/page-email-new-visitor.php:301
+#: core/lang/wpbc_all_translations.php:255 core/wpbc-activation.php:1143
+#: core/wpbc-activation.php:1150
+#: includes/page-bookings/bookings__actions.php:3126
+msgid "New booking"
+msgstr "Uusi varaus"
+
+#: core/admin/page-email-new-admin.php:334
+#: core/lang/wpbc_all_translations.php:256 core/wpbc-activation.php:1144
+msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
+msgstr "Vahvista varaus %s kohteelle: %s Varaajan tiedot :%s Varaus odottaa vahvistusta. Tarkista varaushallinto %sKiitos, %s"
+
+#: core/admin/page-email-new-visitor.php:321
+#: core/lang/wpbc_all_translations.php:261 core/wpbc-activation.php:1152
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
+msgstr "Varauksesi %s kohteessa %s on otettu käsittelyyn. Vahvistamme varauksen sähköpostilla. %sVoit muokata varausta tältä sivulta: %s  Kiitos, %s"
+
+#: core/admin/page-email-new-visitor.php:323
+#: core/lang/wpbc_all_translations.php:262 core/wpbc-activation.php:1154
+msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
+msgstr "Varauksesi %s kohteessa: %s on kävittelyssä. Vahvistamme varauksen sähköpostilla. %s Kiitos, %s"
+
+#: core/admin/page-email-approved.php:319
+#: core/lang/wpbc_all_translations.php:205 core/wpbc-activation.php:1161
+msgid "Your booking has been approved"
+msgstr "Varauksenne on vahvistettu"
+
+#: core/admin/page-email-approved.php:339
+#: core/lang/wpbc_all_translations.php:207 core/wpbc-activation.php:1163
+msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
+msgstr "Varauksesi %s kohteessa %s on vahvistettu.  %sVoit muokata varausta tältä sivulta: %s  Kiitos, %s"
+
+#: core/admin/page-email-approved.php:341
+#: core/lang/wpbc_all_translations.php:208 core/wpbc-activation.php:1165
+msgid "Your booking %s for: %s has been approved.%sThank you, %s"
+msgstr "Varauksesi %s kohteessa %s on vahvistettu.  %s  Kiitos, %s"
+
+#: core/admin/page-email-deleted.php:320 core/admin/page-email-deny.php:320
+#: core/admin/page-email-trash.php:325 core/lang/wpbc_all_translations.php:246
+#: core/wpbc-activation.php:1172
+msgid "Your booking has been declined"
+msgstr "Varaus on hylätty"
+
+#: core/admin/page-email-deleted.php:339 core/admin/page-email-deny.php:339
+#: core/admin/page-email-trash.php:344 core/lang/wpbc_all_translations.php:247
+#: core/wpbc-activation.php:1173
+msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
+msgstr "Varauksesi %s kohteessa: %s on peruttu. %sKiitos, %s"
+
+#: core/lang/wpbc_all_translations.php:663 core/wpbc-activation.php:1177
+msgid "Booking form"
+msgstr "Varauslomake"
+
+#: core/admin/api-settings.php:239 core/lang/wpbc_all_translations.php:32
+#: core/wpbc-activation.php:1197
+#: includes/page-availability/availability__toolbar_ui.php:155
+msgid "Available"
+msgstr "Vapaa"
+
+#: core/admin/api-settings.php:313 core/lang/wpbc_all_translations.php:38
+#: core/wpbc-activation.php:1205
+msgid "Booked"
+msgstr "Varattu"
+
+#: core/admin/api-settings.php:353 core/lang/wpbc_all_translations.php:41
+#: core/lib/wpbc-calendar-legend.php:145 core/wpbc-activation.php:1216
+#: includes/page-setup/template__bookings_types__action.php:113
+msgid "Partially booked"
+msgstr "Osittain varattu"
+
+#: core/lang/wpbc_all_translations.php:660 core/wpbc-activation.php:617
+msgid "%s Found %s not indexed bookings %s"
+msgstr "%s Löytyi %s indeksoimatonta varausta %s"
+
+#: core/lang/wpbc_all_translations.php:661 core/wpbc-activation.php:632
+msgid "%s Finish getting sort dates. %s"
+msgstr "%s Keskeytä indeksointi. %s"
+
+#: core/lang/wpbc_all_translations.php:662 core/wpbc-activation.php:641
+msgid "Updated booking: %s"
+msgstr "Varaus päivitetty: %s"
+
+#: core/lang/wpbc_all_translations.php:737
+#: includes/_functions/booking_data__parse.php:656
+msgid "no"
+msgstr "ei"
+
+#: core/lang/wpbc_all_translations.php:672 core/wpbc-emails.php:78
+msgid "Booking system"
+msgstr "Varausjärjestelmä"
+
+#: core/lang/wpbc_all_translations.php:752
+#: includes/_functions/news_version.php:140
+msgid "Warning! Some error occur, during sending registration request."
+msgstr "Varoitus! Jokin virhe tapahtui lähetettäessä varauspyyntöä."
+
+#: core/lang/wpbc_all_translations.php:753
+#: includes/_functions/news_version.php:145
+msgid "Please refresh this page and if the same error appear again contact support by email (with  info about order number and website) for finishing the registrations"
+msgstr "Päivitä sivu ja jos sama virhe esiintyy uudelleen, ota yhteyttä sähköpostitse käyttötukeen tehdäksesi varaus loppuun (liitä varausnumero mukaan)"
+
+#: core/lang/wpbc_all_translations.php:623
+#: core/lib/wpdev-booking-widget.php:183
+msgid "Footer"
+msgstr "Footer"
+
+#: core/lang/wpbc_all_translations.php:624
+#: core/lib/wpdev-booking-widget.php:188
+msgid "Example: %sMake booking here%s"
+msgstr "Esimerkki: %sTee varaus täällä%s"
+
+#: core/lang/wpbc_all_translations.php:626
+#: core/lib/wpdev-booking-widget.php:198
+msgid "%sSeveral widgets are supported at %spaid versions%s."
+msgstr "%sMaksulliset versiot%s tukevat %s useita vimpaimia."
+
+#: core/admin/page-settings.php:106 core/lang/wpbc_all_translations.php:398
+msgid "Form"
+msgstr "Lomake"
+
+#: core/admin/page-settings.php:124 core/lang/wpbc_all_translations.php:401
+msgid "Auto cancellation / approval"
+msgstr "Automaattinen peruutus / hyväksyntä"
+
+#: core/admin/page-ics-general.php:461 core/admin/page-ics-general.php:468
+#: core/admin/page-settings.php:139 core/admin/page-settings.php:362
+#: core/admin/page-settings.php:584 core/lang/wpbc_all_translations.php:317
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:247
+#: includes/ui_modal__shortcodes/sh_tpl_booking_calendar.php:116
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:127
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:121
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:219
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:120
+#: includes/_toolbar_ui/ui__settings_panel.php:245
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: core/admin/page-settings.php:149 core/lang/wpbc_all_translations.php:405
+msgid "Uninstall"
+msgstr "Poistaminen"
+
+#: core/admin/api-settings.php:56 core/lang/wpbc_all_translations.php:2
+#: includes/page-form-simple/form_simple__preview_templates.php:70
+msgid "Calendar Skin"
+msgstr "Kalenterin teema"
+
+#: core/admin/api-settings.php:57 core/lang/wpbc_all_translations.php:3
+msgid "Select the skin of the booking calendar"
+msgstr "Valitse kalenterin teema"
+
+#: core/admin/api-settings.php:76 core/admin/api-settings.php:77
+#: core/lang/wpbc_all_translations.php:4
+msgid "month(s)"
+msgstr "kuukautta"
+
+#: core/admin/api-settings.php:78 core/lang/wpbc_all_translations.php:5
+msgid "year(s)"
+msgstr "vuotta"
+
+#: core/admin/api-settings.php:84 core/lang/wpbc_all_translations.php:7
+msgid "Select the maximum number of months to show (scroll)"
+msgstr "Valitse maksimimäärä näytettäviä kuukausia"
+
+#: core/admin/api-settings.php:95 core/lang/wpbc_all_translations.php:8
+msgid "Start Day of the week"
+msgstr "Viikko alkaa"
+
+#: core/admin/api-settings.php:96 core/lang/wpbc_all_translations.php:9
+msgid "Select your start day of the week"
+msgstr "Valitse viikon alkupäivä"
+
+#: core/admin/api-settings.php:602 core/lang/wpbc_all_translations.php:61
+msgid "Unavailable days from today"
+msgstr "Ei varattavat päivät "
+
+#: core/admin/api-settings.php:603 core/lang/wpbc_all_translations.php:62
+msgid "Select number of unavailable days in calendar start from today."
+msgstr "Valitse ei-varattavien päivien määrä nykyisestä päivästä lähtien."
+
+#: core/admin/api-settings.php:554 core/lang/wpbc_all_translations.php:59
+msgid "Unavailable week days"
+msgstr "Viikonpäivät jolloin ei varattavissa"
+
+#: core/admin/api-settings.php:584 core/lang/wpbc_all_translations.php:60
+msgid "Check unavailable days in calendars. This option will overwrite all other settings."
+msgstr "Valitse ei varattavat viikonpäivät. Tätä valintaa käytetään muiden asetusten sijasta."
+
+#: core/admin/api-settings.php:116 core/lang/wpbc_all_translations.php:17
+msgid "Single day"
+msgstr "Päivä kerrallaan"
+
+#: core/admin/api-settings.php:122 core/lang/wpbc_all_translations.php:18
+msgid "Multiple days"
+msgstr "Useita päiviä"
+
+#: core/lang/wpbc_all_translations1.php:77
+msgid "Range days"
+msgstr "Peräkkäiset päivät"
+
+#: core/admin/api-settings.php:658 core/lang/wpbc_all_translations.php:69
+msgid "Check the box to activate CAPTCHA inside the booking form."
+msgstr "Valitse aktivoidaksesi CAPTCHA varauslomakkeelle"
+
+#: core/admin/api-settings.php:668 core/lang/wpbc_all_translations.php:71
+#: includes/page-form-simple/page-form-simple.php:544
+msgid "Auto-fill fields"
+msgstr "Kenttien automaattinen täyttö"
+
+#: core/admin/api-settings.php:669 core/lang/wpbc_all_translations.php:72
+#: includes/page-form-simple/page-form-simple.php:545
+msgid "Check the box to activate auto-fill form fields for logged in users."
+msgstr "Valitse aktivoidaksesi kenttien automaattinen täyttö kirjautuneille käyttäjille."
+
+#: core/admin/api-settings.php:1517 core/lang/wpbc_all_translations.php:152
+msgid "Use CSS BootStrap"
+msgstr "Käytä CSS BootStapia"
+
+#: core/admin/api-settings.php:1518 core/lang/wpbc_all_translations.php:153
+msgid "Using BootStrap CSS for the form fields"
+msgstr "Käytetään BootStrap CSS:ää lomakkeen kentille"
+
+#: core/lang/wpbc_all_translations.php:529
+msgid "You must not deactivate loading BootStrap files at advanced section of these settings!"
+msgstr "Huom: Älä ota BootStrap tiedostojen latausta pois päältä Lisäasetukset-osiossa!"
+
+#: core/admin/api-settings.php:819 core/lang/wpbc_all_translations.php:88
+msgid "Message title"
+msgstr "Viestin otsikko"
+
+#: core/lang/wpbc_all_translations.php:531
+msgid "Type title of message %safter booking has done by user%s"
+msgstr "Anna viestin otsikko, joka näytetään %skun varaus on tehty%s"
+
+#: core/lang/wpbc_all_translations.php:538
+#: includes/page-bookings/bookings__listing.php:120
+#: includes/page-form-simple/form_simple__timeslots.php:774
+#: includes/page-form-simple/page-form-simple.php:603
+#: includes/page-resource-free/page-resource-free.php:315
+#: includes/_toolbar_ui/toolbar_ui.php:69
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: core/lang/wpbc_all_translations.php:655
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2988
+#: includes/_toolbar_ui/toolbar_ui.php:1858
+msgid "Delete"
+msgstr "Poista"
+
+#: core/lang/wpbc_all_translations1.php:171
+#: includes/_toolbar_ui/toolbar_ui.php:774
+msgid "Status"
+msgstr "Tila"
+
+#: core/admin/api-settings.php:99 core/admin/api-settings.php:562
+#: core/lang/wpbc_all_translations.php:11
+#: core/timeline/v2/wpbc-class-timeline_v2.php:80
+msgid "Monday"
+msgstr "Maanantai"
+
+#: core/admin/api-settings.php:100 core/admin/api-settings.php:565
+#: core/lang/wpbc_all_translations.php:12
+#: core/timeline/v2/wpbc-class-timeline_v2.php:81
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: core/admin/wpbc-toolbars.php:333 core/admin/wpbc-toolbars.php:1555
+#: core/lang/wpbc_all_translations.php:465
+msgid "Go"
+msgstr "Mene"
+
+#: core/lang/wpbc_all_translations2.php:116
+#: includes/page-bookings/bookings__listing.php:120
+msgid "Labels"
+msgstr "Tila"
+
+#: core/admin/page-email-approved.php:583
+#: core/lang/wpbc_all_translations.php:234
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3053
+#: includes/page-bookings/bookings__listing.php:240
+#: includes/_toolbar_ui/toolbar_ui.php:778
+msgid "Approved"
+msgstr "Vahvistettu"
+
+#: core/admin/api-settings.php:276 core/admin/page-email-deny.php:579
+#: core/lang/wpbc_all_translations.php:35
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2997
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3050
+#: core/wpbc-activation.php:1201
+#: includes/page-bookings/bookings__actions.php:3082
+#: includes/page-bookings/bookings__listing.php:241
+#: includes/_toolbar_ui/toolbar_ui.php:777
+#: includes/_toolbar_ui/toolbar_ui.php:1744
+msgid "Pending"
+msgstr "Avoin"
+
+#: core/lang/wpbc_all_translations1.php:129
+#: includes/page-bookings/bookings__sql.php:1817
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: core/lang/wpbc_all_translations.php:659
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3172
+#: includes/page-bookings/bookings__listing.php:441
+msgid "Created"
+msgstr "Luotu"
+
+#: core/lang/wpbc_all_translations1.php:128
+#: includes/_toolbar_ui/toolbar_ui.php:1477
+msgid "Paid OK"
+msgstr "Maksu OK"
+
+#: core/admin/page-ics-general.php:205 core/lang/wpbc_all_translations.php:299
+msgid "All bookings"
+msgstr "Kaikki varaukset"
+
+#: core/admin/wpbc-toolbars.php:367 core/lang/wpbc_all_translations.php:466
+msgid "Technical Support"
+msgstr "Tekninen tuki"
+
+#: core/admin/wpbc-toolbars.php:294 core/admin/wpbc-toolbars.php:1165
+#: core/lang/wpbc_all_translations.php:462
+#: includes/_toolbar_ui/toolbar_ui.php:2248
+msgid "Emails sending"
+msgstr "Lähetä sähköposti"
+
+#: core/admin/wpbc-toolbars.php:330 core/lang/wpbc_all_translations.php:464
+#: includes/page-bookings/bookings__listing.php:298
+#: includes/page-bookings/bookings__listing.php:439
+msgid "Booking ID"
+msgstr "Varauksen ID"
+
+#: core/lang/wpbc_all_translations1.php:979
+#: includes/_toolbar_ui/toolbar_ui.php:785
+#: includes/_toolbar_ui/toolbar_ui.php:1149
+#: includes/_toolbar_ui/toolbar_ui.php:1194
+msgid "Any"
+msgstr "Kaikki"
+
+#: core/admin/api-settings.php:1721 core/lang/wpbc_all_translations.php:180
+#: core/lib/wpdev-booking-widget.php:136
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:90
+#: js/wpbc-gutenberg.js:1533
+msgid "Show"
+msgstr "Näytä"
+
+#: core/lang/wpbc_all_translations1.php:997
+#: includes/_toolbar_ui/toolbar_ui.php:1709
+msgid "Approve selected bookings"
+msgstr "Vahvista valitut varaukset"
+
+#: core/lang/wpbc_all_translations.php:656
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2994
+#: includes/page-bookings/bookings__actions.php:3040
+#: includes/_toolbar_ui/toolbar_ui.php:1708
+msgid "Approve"
+msgstr "Vahvista"
+
+#: core/lang/wpbc_all_translations1.php:998
+#: includes/_toolbar_ui/toolbar_ui.php:1745
+msgid "Set selected bookings as pending"
+msgstr "Aseta valitut varaukset odottaa-tilaan"
+
+#: core/lang/wpbc_all_translations2.php:2
+#: includes/page-bookings/bookings__actions.php:3086
+#: includes/_toolbar_ui/toolbar_ui.php:1747
+msgid "Do you really want to set booking as pending ?"
+msgstr "Haluatko todella asettaa varaukset odottaa-tilaan"
+
+#: core/lang/wpbc_all_translations2.php:5
+#: includes/_toolbar_ui/toolbar_ui.php:1859
+msgid "Delete selected bookings"
+msgstr "Poista valitut varaukset"
+
+#: core/lang/wpbc_all_translations2.php:8
+#: includes/_toolbar_ui/toolbar_ui.php:1915
+msgid "Mark as read all bookings"
+msgstr "Merkitse kaikki luetuiksi"
+
+#: core/lang/wpbc_all_translations2.php:7
+#: includes/_toolbar_ui/toolbar_ui.php:1914
+msgid "Read All"
+msgstr "Lue kaikki"
+
+#: core/lang/wpbc_all_translations2.php:10
+#: includes/_toolbar_ui/toolbar_ui.php:1951
+msgid "Mark as read selected bookings"
+msgstr "Merkitse valitut luetuiksi"
+
+#: core/lang/wpbc_all_translations2.php:9
+#: includes/_toolbar_ui/toolbar_ui.php:1950
+msgid "Read"
+msgstr "Lue"
+
+#: core/lang/wpbc_all_translations2.php:12
+#: includes/_toolbar_ui/toolbar_ui.php:1987
+msgid "Mark as Unread selected bookings"
+msgstr "Merkitse valitut lukemattomiksi"
+
+#: core/lang/wpbc_all_translations2.php:11
+#: includes/_toolbar_ui/toolbar_ui.php:1986
+msgid "Unread"
+msgstr "Lukematon"
+
+#: core/lang/wpbc_all_translations2.php:117
+#: includes/page-bookings/bookings__listing.php:121
+msgid "Booking Data"
+msgstr "Varauksen tiedot"
+
+#: core/lang/wpbc_all_translations2.php:118
+#: includes/page-bookings/bookings__listing.php:122
+msgid "Booking Dates"
+msgstr "Varatut päivät"
+
+#: core/lang/wpbc_all_translations2.php:119
+#: includes/page-bookings/bookings__listing.php:126
+msgid "Show ALL dates of booking"
+msgstr "Näytä varauksen kaikki päivät"
+
+#: core/lang/wpbc_all_translations2.php:120
+#: includes/page-bookings/bookings__listing.php:132
+msgid "Show only check in/out dates"
+msgstr "Näytä vain tulo-/lähtöpäivät"
+
+#: core/lang/wpbc_all_translations2.php:121
+#: includes/page-bookings/bookings__listing.php:234
+#: includes/page-bookings/bookings__sql.php:1732
+#: includes/page-bookings/bookings__sql.php:1940
+#: includes/page-bookings/bookings__sql.php:1991
+msgid "Resource not exist"
+msgstr "Kohdetta ei ole olemassa"
+
+#: core/lang/wpbc_all_translations2.php:100
+#: includes/page-bookings/bookings__actions.php:3000
+msgid "Do you really want to delete this booking ?"
+msgstr "Haluatko todella poistaa tämän varauksen?"
+
+#: core/lang/wpbc_all_translations.php:749 core/wpbc_functions.php:544
+#: includes/_pagination/pagination.php:159
+msgid "Prev"
+msgstr "Edellinen"
+
+#: core/admin/wpbc-toolbars.php:493 core/admin/wpbc-toolbars.php:547
+#: core/lang/wpbc_all_translations.php:471
+msgid "Show month"
+msgstr "Näytä kuukausi"
+
+#: core/admin/api-settings.php:1124 core/admin/api-settings.php:1131
+#: core/admin/wpbc-toolbars.php:492 core/admin/wpbc-toolbars.php:546
+#: core/lang/wpbc_all_translations.php:105
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2860
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2879
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:148
+msgid "Month"
+msgstr "Kuukausi"
+
+#: core/admin/api-settings.php:1126 core/admin/api-settings.php:1132
+#: core/lang/wpbc_all_translations.php:107
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:152
+msgid "3 Months"
+msgstr "3 kuukautta"
+
+#: core/admin/wpbc-toolbars.php:459 core/admin/wpbc-toolbars.php:519
+#: core/lang/wpbc_all_translations.php:469
+msgid "Show day"
+msgstr "Näytä päivä"
+
+#: core/admin/api-settings.php:1122 core/admin/wpbc-toolbars.php:458
+#: core/admin/wpbc-toolbars.php:518 core/lang/wpbc_all_translations.php:103
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2852
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2871
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:145
+msgid "Day"
+msgstr "Päivä"
+
+#: core/admin/wpbc-toolbars.php:476 core/admin/wpbc-toolbars.php:533
+#: core/lang/wpbc_all_translations.php:470
+msgid "Show week"
+msgstr "Näytä viikko"
+
+#: core/admin/api-settings.php:1123 core/admin/wpbc-toolbars.php:475
+#: core/admin/wpbc-toolbars.php:532 core/lang/wpbc_all_translations.php:104
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2856
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2875
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:146
+msgid "Week"
+msgstr "Viikko"
+
+#: core/admin/wpbc-toolbars.php:561 core/lang/wpbc_all_translations.php:472
+msgid "Show 2 months"
+msgstr "Näytä 2 kuukautta"
+
+#: core/admin/api-settings.php:1125 core/admin/wpbc-toolbars.php:560
+#: core/lang/wpbc_all_translations.php:106
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:150
+msgid "2 Months"
+msgstr "2 kuukautta"
+
+#: core/admin/wpbc-toolbars.php:618 core/admin/wpbc-toolbars.php:687
+#: core/lang/wpbc_all_translations.php:473
+msgid "Previous 4 weeks"
+msgstr "Edelliset 4 viikkoa"
+
+#: core/admin/wpbc-toolbars.php:619 core/admin/wpbc-toolbars.php:688
+#: core/lang/wpbc_all_translations.php:474
+msgid "Previous week"
+msgstr "Edellinen viikko"
+
+#: core/admin/wpbc-toolbars.php:620 core/admin/wpbc-toolbars.php:642
+#: core/admin/wpbc-toolbars.php:689 core/lang/wpbc_all_translations.php:475
+msgid "Current week"
+msgstr "Tämä viikko"
+
+#: core/admin/wpbc-toolbars.php:621 core/admin/wpbc-toolbars.php:690
+#: core/lang/wpbc_all_translations.php:476
+msgid "Next week"
+msgstr "Seuraava viikko"
+
+#: core/admin/wpbc-toolbars.php:622 core/admin/wpbc-toolbars.php:691
+#: core/lang/wpbc_all_translations.php:477
+msgid "Next 4 weeks"
+msgstr "Seuraavat 4 viikkoa"
+
+#: core/admin/wpbc-toolbars.php:654 core/admin/wpbc-toolbars.php:704
+#: core/admin/wpbc-toolbars.php:719 core/lang/wpbc_all_translations.php:480
+msgid "Previous 3 months"
+msgstr "Edelliset 3 kuukautta"
+
+#: core/admin/wpbc-toolbars.php:655 core/admin/wpbc-toolbars.php:705
+#: core/admin/wpbc-toolbars.php:720 core/lang/wpbc_all_translations.php:481
+msgid "Previous month"
+msgstr "Edellinen kuukausi"
+
+#: core/admin/wpbc-toolbars.php:656 core/admin/wpbc-toolbars.php:706
+#: core/admin/wpbc-toolbars.php:721 core/lang/wpbc_all_translations.php:482
+msgid "Current month"
+msgstr "Tämä kuukausi"
+
+#: core/admin/wpbc-toolbars.php:657 core/admin/wpbc-toolbars.php:707
+#: core/admin/wpbc-toolbars.php:722 core/lang/wpbc_all_translations.php:483
+msgid "Next month"
+msgstr "Seuraava kuukausi"
+
+#: core/admin/wpbc-toolbars.php:658 core/admin/wpbc-toolbars.php:708
+#: core/admin/wpbc-toolbars.php:723 core/lang/wpbc_all_translations.php:484
+msgid "Next 3 months"
+msgstr "Seuraavat 3 kuukautta"
+
+#: core/admin/wpbc-toolbars.php:672 core/lang/wpbc_all_translations.php:485
+msgid "Previous 7 days"
+msgstr "Edelliset 7 päivää"
+
+#: core/admin/wpbc-toolbars.php:673 core/lang/wpbc_all_translations.php:486
+msgid "Previous day"
+msgstr "Edellinen päivä"
+
+#: core/admin/wpbc-toolbars.php:674 core/lang/wpbc_all_translations.php:487
+msgid "Current day"
+msgstr "Tänään"
+
+#: core/admin/wpbc-toolbars.php:675 core/lang/wpbc_all_translations.php:488
+msgid "Next day"
+msgstr "Seuraava päivä"
+
+#: core/admin/wpbc-toolbars.php:676 core/lang/wpbc_all_translations.php:489
+msgid "Next 7 days"
+msgstr "Seuraavat 7 päivää"
+
+#: core/admin/wpbc-toolbars.php:369 core/lang/wpbc_all_translations.php:467
+msgid "About Booking Calendar"
+msgstr "Varauskalenteri"
+
+#: core/admin/wpbc-dashboard.php:436 core/admin/wpbc-toolbars.php:366
+#: core/lang/wpbc_all_translations.php:433
+msgid "FAQ"
+msgstr "FAQ"
+
+#: core/admin/page-email-approved.php:678 core/admin/page-email-deleted.php:676
+#: core/admin/page-email-deny.php:674 core/admin/page-email-new-admin.php:659
+#: core/admin/page-email-new-visitor.php:652
+#: core/admin/page-email-trash.php:681 core/admin/page-ics-import.php:196
+#: core/admin/page-import-gcal.php:596 core/admin/wpbc-toolbars.php:359
+#: core/admin/wpbc-toolbars.php:365 core/lang/wpbc_all_translations.php:239
+msgid "Help"
+msgstr "Ohje"
+
+#: core/admin/wpbc-toolbars.php:397 core/lang/wpbc_all_translations.php:468
+#: core/timeline/v2/wpbc-class-timeline_v2.php:2952
+#: includes/page-bookings/bookings__page.php:40
+#: includes/page-bookings/bookings__page.php:41
+#: includes/page-bookings/bookings__page.php:42
+#: includes/_functions/admin_top_bar.php:81
+msgid "Booking Listing"
+msgstr "Varauslistaus"
+
+#: core/admin/wpbc-toolbars.php:785 core/lang/wpbc_all_translations.php:490
+#: js/wpbc-gutenberg.js:868
+msgid "Start Date"
+msgstr "Alkaen päivästä"
+
+#: core/admin/api-settings.php:1232 core/admin/api-settings.php:1294
+#: core/admin/wpbc-toolbars.php:766 core/lang/wpbc_all_translations.php:126
+#: includes/_toolbar_ui/toolbar_ui.php:1497
+msgid "Custom"
+msgstr "Muokattu"
+
+#: core/lang/wpbc_all_translations1.php:977
+#: includes/_toolbar_ui/toolbar_ui.php:600
+#: includes/_toolbar_ui/toolbar_ui.php:1283
+msgid "Prior"
+msgstr "Edelliset"
+
+#: core/lang/wpbc_all_translations1.php:969
+#: includes/_toolbar_ui/toolbar_ui.php:437
+msgid "Check-in"
+msgstr "Kirjautuminen"
+
+#: core/lang/wpbc_all_translations1.php:970
+#: includes/_toolbar_ui/toolbar_ui.php:453
+msgid "Check-out"
+msgstr "Luovutus"
+
+#: core/admin/wpbc-toolbars.php:798 core/lang/wpbc_all_translations.php:491
+#: includes/page-availability/availability__toolbar_ui.php:215
+#: includes/_toolbar_ui/toolbar_ui.php:481
+#: includes/_toolbar_ui/toolbar_ui.php:698
+#: includes/_toolbar_ui/toolbar_ui.php:1381
+#: includes/_toolbar_ui/toolbar_ui.php:1538
+msgid "Apply"
+msgstr "Päivitä"
+
+#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/lang/wpbc_all_translations.php:479 core/wpbc_functions.php:577
+#: includes/_feedback/feedback.php:222 includes/_feedback/feedback.php:266
+#: includes/_feedback/feedback.php:287 includes/_feedback/feedback.php:324
+#: includes/_pagination/pagination.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:556 includes/_tour/wpbc_tour.php:175
+msgid "Next"
+msgstr "Seuraavat"
+
+#: core/lang/wpbc_all_translations1.php:974
+#: includes/_toolbar_ui/toolbar_ui.php:522
+msgid "Previous dates"
+msgstr "Edelliset päivät"
+
+#: core/lang/wpbc_all_translations1.php:975
+#: includes/_toolbar_ui/toolbar_ui.php:523
+#: includes/_toolbar_ui/toolbar_ui.php:1262
+msgid "All dates"
+msgstr "Kaikki"
+
+#: core/admin/api-settings.php:1127 core/admin/api-settings.php:1133
+#: core/lang/wpbc_all_translations.php:108
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:153
+#: includes/_toolbar_ui/toolbar_ui.php:386
+#: includes/_toolbar_ui/toolbar_ui.php:1247
+msgid "Year"
+msgstr "Vuosi"
+
+#: core/lang/wpbc_all_translations1.php:972
+#: includes/_toolbar_ui/toolbar_ui.php:520
+msgid "Current dates"
+msgstr "Valitut päivät"
+
+#: core/lang/wpbc_all_translations1.php:973
+#: includes/_toolbar_ui/toolbar_ui.php:521
+#: includes/_toolbar_ui/toolbar_ui.php:1261
+msgid "Today"
+msgstr "Tänään"
+
+#: core/lang/wpbc_all_translations1.php:967
+#: includes/_toolbar_ui/toolbar_ui.php:382
+#: includes/_toolbar_ui/toolbar_ui.php:1243
+msgid "month"
+msgstr "kuukausi"
+
+#: core/lang/wpbc_all_translations1.php:966
+#: includes/_toolbar_ui/toolbar_ui.php:381
+#: includes/_toolbar_ui/toolbar_ui.php:1242
+msgid "weeks"
+msgstr "viikkoa"
+
+#: core/lang/wpbc_all_translations1.php:968
+#: includes/_toolbar_ui/toolbar_ui.php:383
+#: includes/_toolbar_ui/toolbar_ui.php:384
+#: includes/_toolbar_ui/toolbar_ui.php:385
+#: includes/_toolbar_ui/toolbar_ui.php:1244
+#: includes/_toolbar_ui/toolbar_ui.php:1245
+#: includes/_toolbar_ui/toolbar_ui.php:1246
+msgid "months"
+msgstr "kuukautta"
+
+#: core/lang/wpbc_all_translations1.php:857
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:657
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:672
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:878
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1030
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1281
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1422
+msgid "Code Example"
+msgstr "Koodiesimerkki"
+
+#: core/lang/wpbc_all_translations1.php:965
+#: includes/_toolbar_ui/toolbar_ui.php:380
+#: includes/_toolbar_ui/toolbar_ui.php:1241
+msgid "week"
+msgstr "viikko"
+
+#: core/lang/wpbc_all_translations.php:926
+msgid "Description"
+msgstr "Kuvaus"
+
+#: core/lang/wpbc_all_translations1.php:841
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:332
+msgid "Select number of month to show for calendar."
+msgstr "Valitse kalenterissa näytettävien kuukausien määrä"
+
+#: core/lang/wpbc_all_translations1.php:850
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:478
+msgid "Start month:"
+msgstr "Alkukuukausi"
+
+#: core/lang/wpbc_all_translations1.php:851
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:536
+msgid "Select start month of calendar"
+msgstr "Valitse kalenterin alkukuukausi"
+
+#: core/lang/wpbc_all_translations.php:620
+#: core/lib/wpdev-booking-widget.php:140
+msgid "Booking form with calendar"
+msgstr "Varauslomake ja kalenteri"
+
+#: core/lang/wpbc_all_translations.php:621
+#: core/lib/wpdev-booking-widget.php:141
+msgid "Only availability calendar"
+msgstr "Vain saatavuuskalenteri"
+
+#: core/admin/wpbc-dashboard.php:907 core/lang/wpbc_all_translations.php:457
+#: includes/_toolbar_ui/ui__settings_panel.php:1700
+#: includes/_toolbar_ui/ui__settings_panel.php:1740
+msgid "for"
+msgstr " "
+
+#: core/lang/wpbc_all_translations1.php:219
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:280
+msgid "Select booking resource"
+msgstr "Valitse varattava kohde"
+
+#: core/lang/wpbc_all_translations.php:588
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3019
+#: includes/page-bookings/bookings__actions.php:2216
+#: includes/page-bookings/bookings__actions.php:2381
+#: includes/page-bookings/bookings__actions.php:2734
+#: includes/page-bookings/bookings__actions.php:3239
+#: includes/page-bookings/bookings__actions.php:3347
+#: includes/page-form-simple/page-form-simple.php:1130
+#: includes/page-form-simple/page-form-simple.php:1144
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: core/lang/wpbc_all_translations.php:769 core/wpbc_welcome.php:331
+msgid "Check %sBooking Listing%s page for new bookings."
+msgstr "Selaa uusi varauksia %sVarauslistauksesta%s"
+
+#: core/lang/wpbc_all_translations.php:771 core/wpbc_welcome.php:347
+msgid "Have a questions?"
+msgstr "Kysymyksiä?"
+
+#: core/lang/wpbc_all_translations.php:772 core/wpbc_welcome.php:350
+msgid "See %sFAQ%s."
+msgstr "Lue %sFAQ%s"
+
+#: core/lang/wpbc_all_translations.php:733 core/wpbc.php:295 core/wpbc.php:314
+msgid "Need even more functionality? Check %s higher versions %s"
+msgstr "Tarvitsetko enemmän ominaisuuksia? Katso %smuut versiot%s"
+
+#: core/lang/wpbc_all_translations1.php:953
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:35
+msgid "Insert booking calendar"
+msgstr "Sijoita varauskalenteri"
+
+#: core/lang/wpbc_all_translations1.php:954
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:36
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:316
+msgid "Booking calendar"
+msgstr "Varauskalenteri"
+
+#: core/lang/wpbc_all_translations2.php:307
+msgid "Ok"
+msgstr "Ok"
+
+#: core/lang/wpbc_all_translations.php:767 core/wpbc_welcome.php:317
+msgid "Next Steps"
+msgstr "Seuraavaksi"
+
+#: core/lang/wpbc_all_translations.php:715 core/wpbc-js-vars.php:99
+msgid "Please, select booking date(s) at Calendar."
+msgstr "Valitse varattavat päivät kalenterista."
+
+#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/lang/wpbc_all_translations.php:516
+msgid "Upgrade Now"
+msgstr "Päivitä nyt"
+
+#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/lang/wpbc_all_translations.php:515
+msgid "Purchase"
+msgstr "Osta"
+
+#: core/lang/wpbc_all_translations.php:761 core/wpbc_welcome.php:267
+msgid "We&#8217;ve assembled some links to get you started:"
+msgstr "Tässä linkkejä joilla pääset alkuun:"
+
+#: core/lang/wpbc_all_translations.php:762 core/wpbc_welcome.php:270
+msgid "Get Started"
+msgstr "Aloita tästä"
+
+#: core/lang/wpbc_all_translations2.php:18
+#: includes/_toolbar_ui/toolbar_ui.php:2134
+msgid "Export only current page of bookings to CSV format"
+msgstr "Vie vain nykyinen sivu varauksista CSV muotoon"
+
+#: core/lang/wpbc_all_translations.php:710 core/wpbc-js-vars.php:94
+msgid "This field is required"
+msgstr "Tämä on pakollinen kenttä"
+
+#: core/lang/wpbc_all_translations.php:711 core/wpbc-js-vars.php:95
+msgid "This checkbox must be checked"
+msgstr "Tämä valintaruutu täytyy olla valittuna"
+
+#: core/lang/wpbc_all_translations.php:712 core/wpbc-js-vars.php:96
+msgid "At least one option must be selected"
+msgstr "Vähintään yksi vaihtoehto täytyy olla valittuna"
+
+#: core/admin/page-ics-export.php:44 core/admin/page-ics-general.php:318
+#: core/admin/page-ics-general.php:452 core/admin/page-ics-general.php:461
+#: core/admin/page-ics-import.php:42 core/admin/page-ics-import.php:59
+#: core/admin/page-ics-import.php:60 core/admin/page-ics-import.php:62
+#: core/admin/page-ics-import.php:188 core/admin/page-ics-import.php:471
+#: core/admin/page-import-gcal.php:430 core/lang/wpbc_all_translations.php:270
+#: includes/_toolbar_ui/toolbar_ui.php:2053
+msgid "Import"
+msgstr "Tuo"
+
+#: core/admin/page-import-gcal.php:447 core/admin/page-import-gcal.php:448
+#: core/admin/page-import-gcal.php:449 core/lang/wpbc_all_translations.php:392
+#: includes/page-bookings/bookings__actions.php:3511
+#: includes/_toolbar_ui/toolbar_ui.php:2055
+#: includes/_toolbar_ui/ui__settings_panel.php:852
+msgid "Import Google Calendar Events"
+msgstr "Tuo tapahtumat Google-kalenterista"
+
+#: core/admin/wpbc-toolbars.php:818 core/lang/wpbc_all_translations.php:492
+#: includes/page-bookings/bookings__actions.php:2217
+#: includes/page-bookings/bookings__actions.php:2382
+#: includes/page-bookings/bookings__actions.php:2735
+#: includes/page-bookings/bookings__actions.php:3240
+#: includes/page-bookings/bookings__actions.php:3348
+#: includes/page-bookings/bookings__actions.php:3430
+#: includes/page-bookings/bookings__actions.php:3513
+#: includes/page-bookings/bookings__actions.php:3626
+#: includes/page-form-simple/page-form-simple.php:959
+#: includes/print/bookings_print.php:103
+#: includes/publish/wpbc-publish-shortcode.php:327
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:279
+#: includes/_toolbar_ui/toolbar_ui.php:717
+#: includes/_toolbar_ui/toolbar_ui.php:1400
+#: includes/_toolbar_ui/toolbar_ui.php:1557
+msgid "Close"
+msgstr "Sulje"
+
+#: core/lang/wpbc_all_translations2.php:90
+#: includes/page-bookings/bookings__actions.php:2032
+#: includes/page-bookings/bookings__actions.php:3477
+msgid "Please configure settings for import Google Calendar events"
+msgstr "Ole hyvä ja määritä Google Kalenterin tuontiasetukset"
+
+#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
+#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
+#: core/admin/page-email-new-visitor.php:491
+#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:233
+#: includes/page-bookings/bookings__actions.php:2033
+#: includes/page-bookings/bookings__actions.php:3478
+msgid "here"
+msgstr "tässä"
+
+#: core/lang/wpbc_all_translations2.php:106
+#: includes/page-bookings/bookings__actions.php:3505
+msgid "Configure"
+msgstr "Määritä"
+
+#: core/admin/page-import-gcal.php:119 core/lang/wpbc_all_translations.php:351
+msgid "Select time duration of import requests."
+msgstr "Valitse kuinka usein tapahtumat tuodaan"
+
+#: core/lang/wpbc_all_translations2.php:105
+#: includes/page-bookings/bookings__actions.php:3471
+msgid "Retrieve Google Calendar Events "
+msgstr "Nouda tapahtumat Google-kalenterista"
+
+#: core/admin/page-ics-export.php:140 core/class/wpbc-class-notices.php:25
+#: core/lang/wpbc_all_translations.php:273
+#: includes/page-bookings/bookings__actions.php:3470
+msgid "Warning!"
+msgstr "Varoitus!"
+
+#: core/lang/wpbc_all_translations.php:682 core/wpbc-emails.php:221
+#: includes/_toolbar_ui/toolbar_ui.php:374
+#: includes/_toolbar_ui/toolbar_ui.php:1235
+msgid "day"
+msgstr "päivä"
+
+#: core/admin/page-ics-general.php:159 core/lang/wpbc_all_translations.php:290
+#: core/sync/wpbc-gcal.php:265
+msgid "Select a city in your required timezone, if you are having problems with dates and times."
+msgstr "Valitse kaupunki omalla aikavyöhykkeelläsi, jos päivämäärien tai ajan kanssa on ongelmia"
+
+#: core/admin/page-import-gcal.php:60 core/lang/wpbc_all_translations.php:341
+msgid "Activate auto import"
+msgstr "Aktivoi automaattinen tuonti"
+
+#: core/admin/page-import-gcal.php:61 core/lang/wpbc_all_translations.php:342
+msgid "Check this box to %sactivate%s auto import events and creation bookings from them"
+msgstr "Valitse tämä %saktivoidaksesi%s automaattinen tapahtumien tuonti ja varauksien luonti niistä"
+
+#: core/admin/page-import-gcal.php:118 core/lang/wpbc_all_translations.php:350
+msgid "Import events every"
+msgstr "Tuo tapahtumat joka"
+
+#: core/admin/page-import-gcal.php:87 core/admin/page-import-gcal.php:89
+#: core/lang/wpbc_all_translations.php:344
+#: includes/page-form-simple/form_simple__timeslots.php:202
+msgid "hour"
+msgstr "tunti"
+
+#: core/admin/page-ics-general.php:131 core/lang/wpbc_all_translations.php:288
+#: core/sync/wpbc-gcal.php:235 includes/_capacity/resource_support.php:45
+msgid "Default"
+msgstr "Oletus"
+
+#: core/admin/page-import-gcal.php:136 core/lang/wpbc_all_translations.php:353
+msgid "Please enter your Google API key. This field required to import events."
+msgstr "Anna Google API key. Tämä on pakollinen tapahtumien tuomiseksi."
+
+#: core/admin/page-import-gcal.php:139 core/lang/wpbc_all_translations.php:355
+msgid "You can check in this %sinstruction how to generate and use your Google API key%s."
+msgstr "Ohjeet %skuinka luoda ja käyttää Google API key:tä%s"
+
+#: core/admin/page-ics-general.php:158 core/lang/wpbc_all_translations.php:289
+#: core/sync/wpbc-gcal.php:230
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: core/admin/page-import-gcal.php:256 core/admin/page-import-gcal.php:338
+#: core/lang/wpbc_all_translations.php:371 core/sync/wpbc-gcal.php:136
+msgid "You can specify an additional offset from you chosen start point. The offset can be negative."
+msgstr "Voit määritellä lisäksi siirron (offset) valitusta aloitusajasta. Siirto voi olla negatiivinen."
+
+#: core/admin/page-import-gcal.php:259 core/admin/page-import-gcal.php:341
+#: core/lang/wpbc_all_translations.php:372 core/sync/wpbc-gcal.php:139
+#: core/sync/wpbc-gcal.php:203
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:275
+msgid "Type your date in format %s. Example: %s"
+msgstr "Anna aika muodossa: %s. Esimerkki: %s"
+
+#: core/admin/page-import-gcal.php:281 core/lang/wpbc_all_translations.php:374
+#: core/sync/wpbc-gcal.php:156
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:63
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:60
+msgid "Until"
+msgstr "Mihin saakka"
+
+#: core/admin/page-import-gcal.php:275 core/lang/wpbc_all_translations.php:373
+#: core/sync/wpbc-gcal.php:174
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:59
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:56
+msgid "The end of time"
+msgstr "Ajan loppuun saakka"
+
+#: core/admin/page-import-gcal.php:282 core/lang/wpbc_all_translations.php:375
+#: core/sync/wpbc-gcal.php:182
+msgid "Select option, when to stop retrieving events."
+msgstr "Valitse, koska tapahtumien tuonti lopetetaan"
+
+#: core/lang/wpbc_all_translations.php:645 core/sync/wpbc-gcal.php:200
+msgid "You can specify an additional offset from you chosen end point. The offset can be negative."
+msgstr "Voit määritellä lisäksi offsetin valitusta lopetusajasta. Offset voi olla negatiivinen."
+
+#: core/admin/page-import-gcal.php:178 core/lang/wpbc_all_translations.php:357
+#: core/sync/wpbc-gcal.php:216
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:386
+msgid "Maximum number"
+msgstr "Maksimimäärä"
+
+#: core/admin/page-import-gcal.php:179 core/lang/wpbc_all_translations.php:358
+#: core/sync/wpbc-gcal.php:219
+msgid "You can specify the maximum number of events to import during one session."
+msgstr "Voit määritellä maksimäärän kerralla tuotaville tapahtumille"
+
+#: core/admin/page-import-gcal.php:135 core/lang/wpbc_all_translations.php:352
+msgid "Google API Key"
+msgstr "Google API Key"
+
+#: core/admin/page-import-gcal.php:92 core/admin/page-import-gcal.php:236
+#: core/admin/page-import-gcal.php:318 core/lang/wpbc_all_translations.php:345
+#: core/sync/wpbc-gcal.php:128 core/sync/wpbc-gcal.php:192
+#: includes/page-form-simple/form_simple__timeslots.php:201
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:265
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:415
+msgid "hours"
+msgstr "tunti"
+
+#: core/admin/page-import-gcal.php:237 core/admin/page-import-gcal.php:319
+#: core/admin/wpbc-toolbars.php:640 core/admin/wpbc-toolbars.php:641
+#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/lang/wpbc_all_translations.php:370 core/sync/wpbc-gcal.php:129
+#: core/sync/wpbc-gcal.php:193
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:998
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:1390
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:264
+#: includes/_toolbar_ui/toolbar_ui.php:375
+#: includes/_toolbar_ui/toolbar_ui.php:376
+#: includes/_toolbar_ui/toolbar_ui.php:377
+#: includes/_toolbar_ui/toolbar_ui.php:378
+#: includes/_toolbar_ui/toolbar_ui.php:379
+#: includes/_toolbar_ui/toolbar_ui.php:1236
+#: includes/_toolbar_ui/toolbar_ui.php:1237
+#: includes/_toolbar_ui/toolbar_ui.php:1238
+#: includes/_toolbar_ui/toolbar_ui.php:1239
+#: includes/_toolbar_ui/toolbar_ui.php:1240
+msgid "days"
+msgstr "päivät"
+
+#: core/admin/page-import-gcal.php:85 core/admin/page-import-gcal.php:89
+#: core/admin/page-import-gcal.php:235 core/admin/page-import-gcal.php:317
+#: core/lang/wpbc_all_translations.php:343 core/sync/wpbc-gcal.php:127
+#: core/sync/wpbc-gcal.php:191
+#: includes/page-form-simple/form_simple__timeslots.php:203
+#: includes/page-form-simple/form_simple__timeslots.php:204
+#: includes/page-form-simple/form_simple__timeslots.php:205
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:266
+msgid "minutes"
+msgstr "minuuttia"
+
+#: core/admin/page-import-gcal.php:189 core/admin/page-import-gcal.php:271
+#: core/lang/wpbc_all_translations.php:360 core/sync/wpbc-gcal.php:106
+#: core/sync/wpbc-gcal.php:170
+msgid "00:00 today"
+msgstr "00:00 tänään"
+
+#: core/admin/page-import-gcal.php:190 core/admin/page-import-gcal.php:272
+#: core/lang/wpbc_all_translations.php:361 core/sync/wpbc-gcal.php:107
+#: core/sync/wpbc-gcal.php:171
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:188
+msgid "Start of current week"
+msgstr "Tämän viikon alusta"
+
+#: core/admin/page-import-gcal.php:191 core/admin/page-import-gcal.php:273
+#: core/lang/wpbc_all_translations.php:362 core/sync/wpbc-gcal.php:108
+#: core/sync/wpbc-gcal.php:172
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:56
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:189
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:53
+msgid "Start of current month"
+msgstr "Tämän kuukauden alusta"
+
+#: core/admin/page-import-gcal.php:192 core/admin/page-import-gcal.php:274
+#: core/lang/wpbc_all_translations.php:363 core/sync/wpbc-gcal.php:109
+#: core/sync/wpbc-gcal.php:173
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:57
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:190
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:54
+msgid "End of current month"
+msgstr "Tämän kuukauden lopusta"
+
+#: core/admin/page-import-gcal.php:193 core/lang/wpbc_all_translations.php:364
+#: core/sync/wpbc-gcal.php:110
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:192
+msgid "The start of time"
+msgstr "Ajan alusta"
+
+#: core/admin/page-import-gcal.php:194 core/admin/page-import-gcal.php:276
+#: core/lang/wpbc_all_translations.php:365 core/sync/wpbc-gcal.php:111
+#: core/sync/wpbc-gcal.php:175
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:60
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:193
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:57
+msgid "Specific date / time"
+msgstr "Määritelty päivä / aika"
+
+#: core/admin/page-import-gcal.php:200 core/lang/wpbc_all_translations.php:366
+#: core/sync/wpbc-gcal.php:118
+msgid "Select option, when to start retrieving events."
+msgstr "Valitse, koska tapahtumien tuonti aloitetaan"
+
+#: core/admin/page-import-gcal.php:215 core/admin/page-import-gcal.php:297
+#: core/lang/wpbc_all_translations.php:367 core/sync/wpbc-gcal.php:120
+#: core/sync/wpbc-gcal.php:184
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:226
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:235
+msgid "Offset"
+msgstr "Siirtymä"
+
+#: core/admin/page-import-gcal.php:216 core/admin/page-import-gcal.php:298
+#: core/lang/wpbc_all_translations.php:368 core/sync/wpbc-gcal.php:120
+#: core/sync/wpbc-gcal.php:184
+msgid "Enter date / time"
+msgstr "Anna päivä / aika"
+
+#: core/admin/page-import-gcal.php:234 core/admin/page-import-gcal.php:316
+#: core/lang/wpbc_all_translations.php:369 core/sync/wpbc-gcal.php:126
+#: core/sync/wpbc-gcal.php:190
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:267
+msgid "seconds"
+msgstr "sekuntia"
+
+#: core/admin/page-email-approved.php:262 core/admin/page-email-deleted.php:262
+#: core/admin/page-email-deny.php:262 core/admin/page-email-new-admin.php:242
+#: core/admin/page-email-new-visitor.php:244
+#: core/admin/page-email-trash.php:262 core/admin/page-import-gcal.php:199
+#: core/lang/wpbc_all_translations.php:202 core/sync/wpbc-gcal.php:92
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:196
+#: includes/_toolbar_ui/toolbar_ui.php:1345
+msgid "From"
+msgstr "Lähettäjä"
+
+#: core/admin/page-import-gcal.php:188 core/admin/page-import-gcal.php:270
+#: core/lang/wpbc_all_translations.php:359 core/lib/wpbc-cron.php:305
+#: core/sync/wpbc-gcal.php:105 core/sync/wpbc-gcal.php:169
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:53
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:186
+#: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:50
+msgid "Now"
+msgstr "Heti"
+
+#: core/admin/page-ics-general.php:101 core/admin/page-ics-general.php:111
+#: core/admin/page-ics-general.php:121 core/lang/wpbc_all_translations.php:285
+msgid "Select field for assigning to %sevent property%s"
+msgstr "Valitse kenttä johon %stapahtuman ominaisuus%s asetetaan"
+
+#: core/admin/page-ics-general.php:110 core/lang/wpbc_all_translations.php:286
+msgid "Event Description (optional field)"
+msgstr "Tapahtuman kuvaus (valinnainen kenttä)"
+
+#: core/admin/page-ics-general.php:100 core/lang/wpbc_all_translations.php:284
+msgid "Event Title"
+msgstr "Tapahtuman otsikko"
+
+#: core/admin/page-ics-general.php:120 core/lang/wpbc_all_translations.php:287
+msgid "Location"
+msgstr "Sijainti"
+
+#: core/admin/page-import-gcal.php:363 core/lang/wpbc_all_translations.php:380
+msgid "Click APIs and make sure \"Calendar API\" is set to ON."
+msgstr "Klikkaa APIs ja varmista, että \"Calendar API\" kohdasta on valittuna ON."
+
+#: core/admin/page-import-gcal.php:364 core/lang/wpbc_all_translations.php:381
+msgid "Now click on \"Credentials\" in the sidebar."
+msgstr "Klikkaa \"Credentials\" sivupalkista."
+
+#: core/admin/page-import-gcal.php:365 core/lang/wpbc_all_translations.php:382
+msgid "Under the section \"Public API access\" click the button \"Create new Key\"."
+msgstr "Valitse \"Public API access\" kohta ja klikkaa \"Create a new Key\"."
+
+#: core/admin/page-import-gcal.php:366 core/lang/wpbc_all_translations.php:383
+msgid "On the popup click the button \"Server Key\" and click \"Create\"."
+msgstr "Ponnahdusikkunasta klikkaa \"Server Key\" ja klikkaa \"Luo\""
+
+#: core/admin/page-import-gcal.php:367 core/lang/wpbc_all_translations.php:384
+msgid "You will now see a table loaded with the top item being the API Key. Copy this and paste it into %sGoogle API Key%s field at this page."
+msgstr "Näkyviin tulevassa taulukossa ylimpänä pitäisi olla API Key. Kopioi/liimaa se %sGoogle API Key%s kenttään tällä sivulla."
+
+#: core/admin/page-import-gcal.php:370 core/lang/wpbc_all_translations.php:385
+msgid "Set Your Calendar to Public"
+msgstr "Tee Kalenteristasi julkinen"
+
+#: core/admin/page-import-gcal.php:372 core/admin/page-import-gcal.php:380
+#: core/lang/wpbc_all_translations.php:386
+msgid "Navigate to your Google calendars."
+msgstr "Mene omiin Google kalentereihisi"
+
+#: core/admin/page-import-gcal.php:373 core/admin/page-import-gcal.php:381
+#: core/lang/wpbc_all_translations.php:387
+msgid "Open the settings for the calendar."
+msgstr "Avaa kalenterin asetukset"
+
+#: core/admin/page-import-gcal.php:374 core/lang/wpbc_all_translations.php:388
+msgid "Click the \"Share this Calendar\" link."
+msgstr "Klikkaa \"Share this Calendar\" linkkiä."
+
+#: core/admin/page-import-gcal.php:375 core/lang/wpbc_all_translations.php:389
+msgid "Click the checkbox to make calendar public. Do not check the other option."
+msgstr "Klikkaa valintaruutua tehdäksesi kalenterista julkinen. Älä valitse muita vaihtoehtoja."
+
+#: core/admin/page-import-gcal.php:378 core/lang/wpbc_all_translations.php:390
+msgid "Find Your Calendar ID"
+msgstr "Etsi kalenterisi ID"
+
+#: core/admin/page-import-gcal.php:382 core/lang/wpbc_all_translations.php:391
+msgid "Now copy the Calendar ID to use in the plugin settings in your WordPress admin. Make sure to %suse the Calendar ID only, not the entire XML feed URL%s."
+msgstr "Kopioi kalenterin ID, jotta voit käyttää sitä lisäosan asetuksissa Wordpressin hallintapaneelissa. Varmista, että %skäytät vain kalenterin ID:tä, etkä koko XML syötteen URL:ia%s"
+
+#: core/admin/page-ics-general.php:67 core/lang/wpbc_all_translations.php:283
+#: includes/ui_modal__shortcodes/sh_tpl_booking.php:573
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:248
+msgid "None"
+msgstr "Ei mitään"
+
+#: core/admin/page-ics-general.php:452 core/lang/wpbc_all_translations.php:316
+msgid "Assign events fields to specific booking form field"
+msgstr "Sijoita tapahtumien kentät määrättyihin varauslomakkeen kenttiin"
+
+#: core/admin/page-import-gcal.php:531 core/admin/page-import-gcal.php:578
+#: core/lang/wpbc_all_translations.php:393
+msgid "Auto import events"
+msgstr "Tapahtumien automaattinen tuonti"
+
+#: core/admin/page-import-gcal.php:569 core/lang/wpbc_all_translations.php:395
+msgid "Google Calendar - General Settings"
+msgstr "Google kalenteri - Yleiset asetukset"
+
+#: core/admin/page-import-gcal.php:533 core/admin/page-import-gcal.php:586
+#: core/lang/wpbc_all_translations.php:394
+msgid "Default settings for retrieving events"
+msgstr "Oletusasetukset tapahtumien tuomiseksi"
+
+#: core/admin/page-import-gcal.php:160 core/lang/wpbc_all_translations.php:356
+msgid "Google Calendar ID"
+msgstr "Google kalenterin ID"
+
+#: core/admin/page-import-gcal.php:358 core/lang/wpbc_all_translations.php:376
+msgid "To get Google Calendar API key please follow this instruction"
+msgstr "Seuraa tätä ohjetta saadaksesi Google kalenterin API key:n"
+
+#: core/admin/page-import-gcal.php:360 core/lang/wpbc_all_translations.php:377
+msgid "Go to Google Developer Console: %s."
+msgstr "Mene Google kehittäjäkonsoliin: %s"
+
+#: core/admin/page-import-gcal.php:361 core/lang/wpbc_all_translations.php:378
+msgid "Give your project a name and click \"Create\"."
+msgstr "Anna projektille nimi ja klikkaa \"Luo\"."
+
+#: core/admin/page-import-gcal.php:362 core/lang/wpbc_all_translations.php:379
+msgid "In the sidebar click on \"APIs & auth\"."
+msgstr "Klikkaa sivupalkista \"APIs & auth\"."
+
+#: core/lang/wpbc_all_translations.php:643 core/sync/wpbc-gcal-class.php:798
+#: includes/_toolbar_ui/toolbar_ui.php:1861
+msgid "Do you really want to delete selected booking(s) ?"
+msgstr "Haluatko todella poistaa valitun varauksen?"
+
+#: core/lang/wpbc_all_translations.php:644 core/sync/wpbc-gcal-class.php:807
+msgid "Delete selected booking(s)"
+msgstr "Poista valitut varaukset"
+
+#: core/admin/page-ics-export.php:42 core/admin/page-ics-export.php:43
+#: core/admin/page-ics-general.php:316 core/admin/page-ics-general.php:317
+#: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
+#: core/admin/page-ics-import.php:40 core/admin/page-ics-import.php:41
+#: core/admin/page-import-gcal.php:428 core/admin/page-import-gcal.php:429
+#: core/lang/wpbc_all_translations.php:269
+#: includes/_functions/admin_top_bar.php:297
+msgid "Sync"
+msgstr "Synkronointi"
+
+#: core/lang/wpbc_all_translations.php:755 core/wpbc_functions.php:901
+#: includes/page-form-simple/form_simple__preview.php:209
+msgid "Click to toggle"
+msgstr "Klikkaa vaihtaaksesi"
+
+#: core/lang/wpbc_all_translations.php:636 core/sync/wpbc-gcal-class.php:666
+#: core/sync/wpbc-gcal-class.php:735 core/sync/wpbc-gcal-class.php:770
+#: core/timeline/v2/wpbc-class-timeline_v2.php:73
+#: core/wpbc_functions_dates.php:235 core/wpbc_functions_dates.php:277
+#: includes/_toolbar_ui/toolbar_ui.php:292
+#: includes/_toolbar_ui/toolbar_ui.php:293
+#: includes/_toolbar_ui/toolbar_ui.php:415
+#: includes/_toolbar_ui/toolbar_ui.php:1323
+msgid "Dates"
+msgstr "Päivämäärät"
+
+#: core/lang/wpbc_all_translations.php:639 core/sync/wpbc-gcal-class.php:736
+#: core/sync/wpbc-gcal-class.php:786
+msgid "GID"
+msgstr "GID"
+
+#: core/lang/wpbc_all_translations.php:640 core/sync/wpbc-gcal-class.php:750
+msgid "Selection"
+msgstr "Valinta"
+
+#: core/lang/wpbc_all_translations.php:641 core/sync/wpbc-gcal-class.php:764
+msgid "Location:"
+msgstr "Sijainti:"
+
+#: core/lang/wpbc_all_translations.php:642 core/sync/wpbc-gcal-class.php:794
+msgid "Reload page"
+msgstr "Päivitä sivu"
+
+#: core/admin/api-settings.php:1722 core/class/wpbc-class-notices.php:107
+#: core/lang/wpbc_all_translations.php:181 core/sync/wpbc-gcal-class.php:796
+#: core/wpbc_functions.php:808
+msgid "Hide"
+msgstr "Piilota"
+
+#: core/admin/api-settings.php:1769 core/lang/wpbc_all_translations.php:184
+#: core/sync/wpbc-gcal-class.php:492 core/sync/wpbc-gcal-class.php:734
+#: core/sync/wpbc-gcal-class.php:760
+msgid "Info"
+msgstr "Lisätieto"
+
+#: core/admin/page-email-approved.php:234
+#: core/admin/page-email-approved.php:290 core/admin/page-email-deleted.php:234
+#: core/admin/page-email-deleted.php:290 core/admin/page-email-deny.php:236
+#: core/admin/page-email-deny.php:290 core/admin/page-email-new-admin.php:218
+#: core/admin/page-email-new-admin.php:270
+#: core/admin/page-email-new-visitor.php:272
+#: core/admin/page-email-trash.php:234 core/admin/page-email-trash.php:295
+#: core/lang/wpbc_all_translations.php:200
+#: core/lib/wpdev-booking-widget.php:128 core/sync/wpbc-gcal-class.php:733
+#: core/sync/wpbc-gcal-class.php:756
+#: includes/page-form-simple/form_simple__timeslots.php:773
+#: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:80
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:191
+#: js/wpbc-gutenberg.js:859
+msgid "Title"
+msgstr "Otsikko"
+
+#: core/lang/wpbc_all_translations.php:638 core/sync/wpbc-gcal-class.php:732
+#: core/sync/wpbc-gcal-class.php:753 includes/_toolbar_ui/toolbar_ui.php:289
+#: includes/_toolbar_ui/toolbar_ui.php:290
+msgid "ID"
+msgstr "ID"
+
+#: core/lang/wpbc_all_translations.php:627 core/sync/wpbc-gcal-class.php:317
+msgid "Importing Feed"
+msgstr "Tuodaan syötettä"
+
+#: core/lang/wpbc_all_translations.php:628 core/sync/wpbc-gcal-class.php:333
+msgid "Data Parsing"
+msgstr "Jäsennetään tietoja"
+
+#: core/lang/wpbc_all_translations.php:629 core/sync/wpbc-gcal-class.php:476
+msgid "Some data was retrieved, but could not be parsed successfully. Please ensure your feed URL is correct."
+msgstr "Osa tiedoista voitiin noutaa, mutta jäsentäminen ei onnistunut. Varmista, että syötteen URL on oikein."
+
+#: core/lang/wpbc_all_translations.php:630 core/sync/wpbc-gcal-class.php:483
+msgid "The feed could not be found (404). Please ensure your feed URL is correct."
+msgstr "Syötettä ei löytynyt (404). Varmista, että syötteen URL on oikein."
+
+#: core/lang/wpbc_all_translations.php:631 core/sync/wpbc-gcal-class.php:486
+msgid "Access to this feed was denied (403). Please ensure you have public sharing enabled for your calendar."
+msgstr "Syötteen lukeminen on estetty (403). Varmista, että kalenteri on julkisesti jaettu."
+
+#: core/lang/wpbc_all_translations.php:632 core/sync/wpbc-gcal-class.php:489
+msgid "The feed data could not be retrieved. Error code: %s. Please ensure your feed URL is correct."
+msgstr "Syötettä ei voitu noutaa. Virhekoodi: %s. Varmista, että syötteen URL on oikein."
+
+#: core/admin/page-ics-import.php:713 core/lang/wpbc_all_translations.php:340
+#: core/sync/wpbc-gcal-class.php:512 includes/page-setup/setup_support.php:78
+#: includes/_feedback/feedback.php:305 includes/_feedback/feedback.php:339
+#: includes/_feedback/feedback.php:398 includes/_feedback/feedback.php:424
+msgid "Done"
+msgstr "Valmis"
+
+#: core/admin/page-email-approved.php:702 core/admin/page-email-deleted.php:700
+#: core/admin/page-email-deny.php:698 core/admin/page-email-new-admin.php:683
+#: core/admin/page-email-new-visitor.php:676
+#: core/admin/page-email-trash.php:705 core/admin/page-ics-export.php:239
+#: core/admin/page-ics-general.php:478 core/admin/page-ics-import.php:205
+#: core/admin/page-import-gcal.php:614 core/admin/page-settings.php:160
+#: core/admin/page-settings.php:649 core/lang/wpbc_all_translations.php:243
+#: includes/page-bookings/bookings__actions.php:2204
+#: includes/page-bookings/bookings__actions.php:2369
+#: includes/page-bookings/bookings__actions.php:2716
+#: includes/page-bookings/bookings__actions.php:3227
+#: includes/page-bookings/bookings__actions.php:3335
+#: includes/page-form-simple/page-form-simple.php:187
+#: includes/page-form-simple/page-form-simple.php:1139
+msgid "Save Changes"
+msgstr "Talleta muutokset"
+
+#: core/lang/wpbc_all_translations1.php:528
+msgid "Error!"
+msgstr "Virhe"
+
+#: core/admin/page-settings.php:560 core/lang/wpbc_all_translations.php:416
+#: core/wpbc_welcome.php:246
+#: includes/page-form-simple/form_simple__preview.php:239
+#: includes/page-resource-free/page-resource-free.php:216
+#: includes/_functions/is_dismissed.php:59
+#: includes/_functions/is_dismissed.php:110
+#: includes/_functions/is_dismissed.php:114
+#: includes/_functions/versions.php:374
+msgid "Dismiss"
+msgstr "Ohita"
+
+#: core/lang/wpbc_all_translations.php:602 core/lib/wpbc-ajax.php:127
+msgid "Set as Approved"
+msgstr "Asetettu vahvistetuksi"
+
+#: core/lang/wpbc_all_translations.php:603 core/lib/wpbc-ajax.php:129
+msgid "Set as Pending"
+msgstr "Asetettu odottamaan"
+
+#: core/lang/wpbc_all_translations.php:604 core/lib/wpbc-ajax.php:150
+#: core/lib/wpbc-ajax.php:238
+msgid "Reason for cancellation here"
+msgstr "Peruuttamisen syy"
+
+#: core/lang/wpbc_all_translations.php:605 core/lib/wpbc-ajax.php:151
+#: core/lib/wpbc-ajax.php:239
+msgid "Reason of cancellation here"
+msgstr "Peruuttamisen syy"
+
+#: core/lang/wpbc_all_translations1.php:797
+#: includes/_capacity/captcha_simple_text.php:34
+msgid "The code you entered is incorrect"
+msgstr "Koodi on virheellinen"
+
+#: core/admin/page-email-deleted.php:581
+#: core/lang/wpbc_all_translations.php:248 core/lib/wpbc-ajax.php:278
+msgid "Deleted"
+msgstr "Poistettu"
+
+#: core/lang/wpbc_all_translations.php:597 core/lib/wpbc-ajax.php:33
+#: includes/_functions/nonce_func.php:72
+msgid "%sError!%s Request do not pass security check! Please refresh the page and try one more time."
+msgstr "%sVirhe!%s Pyyntö ei läpäissyt turvatarkistusta! Päivitä sivu ja yritä uudelleen."

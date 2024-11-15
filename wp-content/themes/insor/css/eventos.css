@@ -1,0 +1,40 @@
+#tribe-events-pg-template,
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+    max-width: none;
+    padding: 0;
+}
+
+.tribe-events-event-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.tribe-events-event-meta:before {
+    border: 0;
+}
+
+.tribe-events-meta-group {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.wpbc_button_light {
+    background-color: var(--azul) !important;
+    color: white !important;
+    border-radius: 20px !important;
+}
+
+.wpbc_button_light:hover {
+    background-color: var(--amarillo) !important;
+    color: var(--azul) !important;
+    text-decoration: none;
+}
+
+.wpbc_booking_form_structure.wpbc_form_center .wpbc_times_selector {
+    max-width: 15em !important;
+}
+
+.wpbc_times_selector div {
+    flex: auto !important;
+}

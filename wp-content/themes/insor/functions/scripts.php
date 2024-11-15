@@ -40,6 +40,7 @@ function cargar_estilos_head()
     wp_register_style('header', get_template_directory_uri() . '/css/header.css', array(), '2024.10.30.02', 'all');
     wp_register_style('home', get_template_directory_uri() . '/css/home.css', array(), '2024.10.30.02', 'all');
     wp_register_style('footer', get_template_directory_uri() . '/css/footer.css', array(), '2024.10.30.02', 'all');
+    wp_register_style('eventos', get_template_directory_uri() . '/css/eventos.css', array(), '2024.10.30.02', 'all');
 
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('fontawesome');
@@ -47,6 +48,7 @@ function cargar_estilos_head()
     wp_enqueue_style('header');
     wp_enqueue_style('home');
     wp_enqueue_style('footer');
+    wp_enqueue_style('eventos');
 }
 
 function cargar_estilos_footer()
