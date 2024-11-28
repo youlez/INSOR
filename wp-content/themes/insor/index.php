@@ -16,11 +16,11 @@
     <div class="row m-0 banner">
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/DSC00824.JPG" class="imgBanner" alt="Banner Image">
+          <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/DSC00824.JPG" class="imgBanner" alt="Insor educativo">
           <h2 class="mb-4">
             INSOR <br />
             <span>EDUCATIVO</span>
-            <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
+            <img class="img-gif" alt="Insor educativo" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
           </h2>
         </a>
       </div>
@@ -28,11 +28,11 @@
       </hr>
       <div class="col-lg-6" id="mask">
         <a href="#" class="position-relative link-micrositios">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/Taller_Cultura_Sorda_3.jpg" class="imgBanner">
+          <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/Taller_Cultura_Sorda_3.jpg" alt="Insor lab" class="imgBanner">
           <h2 class="mb-4">
             INSOR <br />
             <span>LAB</span>
-            <img class="img-gif" src="<?php bloginfo('template_url'); ?>/assets/img/banner/BIDES.gif">
+            <img class="img-gif" alt="Insor lab" src="<?php bloginfo('template_url'); ?>/assets/img/banner/BIDES.gif">
           </h2>
         </a>
       </div>
@@ -94,7 +94,9 @@
 
     </div>
     <div class="d-flex justify-content-center mt-2">
-      <button type="button" class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
+      <a href="https://insor.consultorestic.com.co/noticias/" target="_blank">
+      <button type="button"  class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
+      </a>
     </div>
   </section>
 
@@ -137,13 +139,6 @@
                 <?php } ?>
               </div>
             </div>
-            <!-- 
-        <div class="col-6 order-3 col-md-3 my-4">
-          <div class="video-container">
-            <iframe frameborder="0" height="100%" scrolling="no" src="https://www.facebook.com/plugins/video.php?&amp;href=https%3A%2F%2Fwww.facebook.com%2FInsorColombiaOficial%2Fvideos%2F459759910166884%2F&amp;show_text=false&amp;width=560&amp;t=0" style="border:none;overflow:hidden" width="100%"></iframe>
-            <div class="video-overlay" data-action="next"></div>
-          </div>
-        </div> -->
         <?php
             $index++;
           }
@@ -151,7 +146,10 @@
         ?>
       </div>
     </div>
-    <div class="d-flex justify-content-center"><button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button></div>
+    <div class="d-flex justify-content-center">
+      <a href="https://insor.consultorestic.com.co/temas-de-interes/" target="_blank">
+        <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button></div>
+      </a>
 
   </section>
 
@@ -166,37 +164,37 @@
     </div>
     <div class="row m-0 justify-content-center">
       <div class="btn-icono m-2">
-        <a href="#">
+        <a href="https://insor.consultorestic.com.co/transparencia-y-acceso-a-la-informacion-publica/" target="_blank">
           <span class="icon-programa icon"></span>
           Programa de transparencia y ética pública
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="#">
+        <a href="https://orfeo.insor.gov.co/formatecnica/#/juridica" target="_blank">
           <span class="icon-formulario icon"></span>
           Formulario unico de solicitud de asistencia técnica
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="#">
+        <a href="https://insor.consultorestic.com.co/notificaciones-judiciales/" target="_blank">
           <span class="icon-notificaciones icon"></span>
           Notificaciones judiciales
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="#">
+        <a href="https://insor.consultorestic.com.co/peticiones-quejas-reclamos-sugerencias-y-denuncias-insor/" target="_blank">
           <span class="icon-peticiones icon"></span>
           Peticiones, quejas, reclamos y denuncias
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="#">
+        <a href="https://insor.consultorestic.com.co/contacto/" target="_blank">
           <span class="icon-contacto icon"></span>
           Contacto
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="#">
+        <a href="#" target="_blank">
           <span class="icon-agenda icon"></span>
           Agenda INSOR
         </a>
