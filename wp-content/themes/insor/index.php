@@ -95,7 +95,7 @@
     </div>
     <div class="d-flex justify-content-center mt-2">
       <a href="https://insor.consultorestic.com.co/noticias/" target="_blank">
-      <button type="button"  class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
+        <button type="button" class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
       </a>
     </div>
   </section>
@@ -148,8 +148,9 @@
     </div>
     <div class="d-flex justify-content-center">
       <a href="https://insor.consultorestic.com.co/temas-de-interes/" target="_blank">
-        <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button></div>
-      </a>
+        <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button>
+    </div>
+    </a>
 
   </section>
 
@@ -194,9 +195,15 @@
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="#" target="_blank">
+        <a href="https://insor.consultorestic.com.co/agendamiento-de-citas/" target="_blank">
           <span class="icon-agenda icon"></span>
           Agenda INSOR
+        </a>
+      </div>
+      <div class="btn-icono m-2">
+        <a href="#" target="_blank">
+          <i class="fa-solid fa-users-between-lines"></i>
+          Población sorda en cifras
         </a>
       </div>
 
