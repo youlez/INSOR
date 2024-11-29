@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-25 14:37:40+0000\n"
+"PO-Revision-Date: 2024-11-18 07:20:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,487 +11,619 @@ msgstr ""
 "Language: ca\n"
 "Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:1505
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:180
+msgid "Reset the Setup Wizard and start from beginning"
+msgstr "Reinicialitza l'assistent de configuració i comença des del principi"
+
+#: core/lang/wpbc_all_translations2.php:471
+#: includes/page-setup/templates/07.color_theme__tpl.php:209
+msgid "Appearance"
+msgstr "Aparença"
+
+#: core/lang/wpbc_all_translations2.php:469
+#: includes/page-setup/templates/06.cal_availability__tpl.php:279
+msgid "Apply Availability"
+msgstr "Aplica la disponibilitat"
+
+#: core/lang/wpbc_all_translations2.php:468
+msgid "You can configure form fields in your booking form at the %s page."
+msgstr "Podeu configurar els camps del formulari de reserva a la pàgina %s."
+
+#: core/lang/wpbc_all_translations2.php:467
+#: includes/page-setup/templates/05.form_structure__tpl.php:242
+msgid "No times"
+msgstr "No hi ha cap hora"
+
+#: core/lang/wpbc_all_translations2.php:466
+#: includes/page-setup/templates/05.form_structure__tpl.php:240
+#: includes/page-setup/templates/05.form_structure__tpl.php:260
+#: includes/page-setup/templates/05.form_structure__tpl.php:275
+msgid "Pro Versions"
+msgstr "Versions Pro"
+
+#: core/lang/wpbc_all_translations2.php:465
+#: includes/page-setup/templates/05.form_structure__tpl.php:232
+msgid "Free Version"
+msgstr "Versió gratuïta"
+
+#: core/lang/wpbc_all_translations2.php:464
+#: includes/page-setup/templates/05.form_structure__tpl.php:150
+#: includes/page-setup/templates/06.cal_availability__tpl.php:280
+msgid "Click to load selected form"
+msgstr "Feu clic per carregar el formulari seleccionat"
+
+#: core/lang/wpbc_all_translations2.php:463
+#: includes/page-setup/templates/05.form_structure__tpl.php:149
+msgid "Apply Form"
+msgstr "Aplica el formulari"
+
+#: core/lang/wpbc_all_translations2.php:462
+msgid "Customize your Booking Form Structure."
+msgstr "Personalitzeu l'estructura del vostre formulari de reserva."
+
+#: core/lang/wpbc_all_translations2.php:461
+#: includes/page-setup/templates/05.form_structure__tpl.php:46
+msgid "Booking Form Structure"
+msgstr "Estructura del formulari de reserva"
+
+#: core/lang/wpbc_all_translations2.php:460
+#: includes/page-setup/templates/04.bookings_types__tpl.php:260
+msgid "Vertical Lines"
+msgstr "Línies verticals"
+
+#: core/lang/wpbc_all_translations2.php:459
+#: includes/page-setup/templates/04.bookings_types__tpl.php:259
+msgid "Triangles"
+msgstr "Triangles"
+
+#: core/lang/wpbc_all_translations2.php:458
+#: includes/page-setup/templates/04.bookings_types__tpl.php:257
+msgid "Show change over days as"
+msgstr "Mostra els dies de relleu com a"
+
+#: core/lang/wpbc_all_translations2.php:457
+#: includes/page-setup/templates/04.bookings_types__tpl.php:238
+msgid "Drop-down list"
+msgstr "Llista desplegable"
+
+#: core/lang/wpbc_all_translations2.php:456
+#: includes/page-setup/templates/04.bookings_types__tpl.php:237
+msgid "Time Picker"
+msgstr "Selector d'hora"
+
+#: core/lang/wpbc_all_translations2.php:455
+#: includes/page-setup/templates/04.bookings_types__tpl.php:235
+msgid "Show time slots as"
+msgstr "Mostra les franges horàries com a"
+
+#: core/lang/wpbc_all_translations2.php:454
+#: includes/page-setup/templates/04.bookings_types__tpl.php:125
+msgid "Configure it at the %s page."
+msgstr "Configureu-lo a la pàgina %s."
+
+#: core/lang/wpbc_all_translations2.php:453
+msgid "This step will update booking form configuration."
+msgstr "Aquest pas actualitzarà la configuració del formulari de reserva."
+
+#: core/lang/wpbc_all_translations2.php:452
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:43
+msgid "Dates and times preferences"
+msgstr "Preferències de dates i hores"
+
+#: core/lang/wpbc_all_translations2.php:450
+msgid "You can setup parameters in widgets at right side of the page."
+msgstr "Podeu configurar els paràmetres als ginys a la part dreta de la pàgina."
+
+#: core/lang/wpbc_all_translations2.php:449
+msgid "This is preview of your booking form."
+msgstr "Aquesta és una previsualització del vostre formulari de reserva."
+
+#: core/lang/wpbc_all_translations2.php:448
+msgid "slots"
+msgstr "franges"
+
+#: core/lang/wpbc_all_translations2.php:447
+msgid "Check this box to display the available number of booking resources at the date cells in the calendar(s)."
+msgstr "Marqueu aquesta casella per mostrar el nombre disponible de recursos reservables a les cel·les de data dels calendaris."
+
+#: core/lang/wpbc_all_translations2.php:446
+msgid "Show availability in date cell"
+msgstr "Mostra la disponibilitat a les cel·les de data"
+
+#: core/lang/wpbc_all_translations2.php:445
+msgid "rooms"
+msgstr "habitacions"
+
+#: includes/_toolbar_ui/ui__settings_panel.php:1638
 msgid "Plugin Info & News"
 msgstr "Informació i notícies de l'extensió"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:1477
+#: includes/_toolbar_ui/ui__settings_panel.php:1603
 msgid "Uninstall / Deactivation"
 msgstr "Desinstal·lació / Desactivació"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:1450
+#: includes/_toolbar_ui/ui__settings_panel.php:1569
 msgid "Advanced Options"
 msgstr "Opcions avançades"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:1341
+#: includes/_toolbar_ui/ui__settings_panel.php:1439
 msgid "Date and Time Formats"
 msgstr "Formats de data i hora"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:1136
+#: includes/_toolbar_ui/ui__settings_panel.php:1201
 msgid "Timeline (Front-End)"
 msgstr "Cronologia (portada)"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:608
+#: includes/_toolbar_ui/ui__settings_panel.php:660
 msgid "Time Slot Appearance"
 msgstr "Aparença de la franja horària"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:581
+#: includes/_toolbar_ui/ui__settings_panel.php:626
 msgid "Booking Form Options"
 msgstr "Opcions del formulari de reserva"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:472
+#: includes/_toolbar_ui/ui__settings_panel.php:510
 msgid "Booking Capacity"
 msgstr "Capacitat de reserva"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:416
+#: includes/_toolbar_ui/ui__settings_panel.php:440
 msgid "Day Tooltips"
 msgstr "Indicadors emergents sobre el dia"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:371
+#: includes/_toolbar_ui/ui__settings_panel.php:389
 msgid "Changeover Days"
 msgstr "Dies de relleu"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:338
+#: includes/_toolbar_ui/ui__settings_panel.php:350
 msgid "Days Selection"
 msgstr "Selecció de dies"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:310
+#: core/lang/wpbc_all_translations2.php:470
+#: includes/page-setup/templates/07.color_theme__tpl.php:47
+#: includes/_toolbar_ui/ui__settings_panel.php:315
 msgid "Calendar Appearance"
 msgstr "Aparença del calendari"
 
-#: core/lang/wpbc_all_translations2.php:446
-#: includes/page-setup/template__welcome.php:73
+#: core/lang/wpbc_all_translations2.php:444
+#: includes/page-setup/templates/01.welcome__tpl.php:73
 msgid "Let's Get Started"
 msgstr "Comencem"
 
-#: core/lang/wpbc_all_translations2.php:445
-#: includes/page-setup/template__welcome.php:48
-msgid "We'll guide you through the steps to fully set up WP Booking Calendar on your site."
-msgstr "Us guiarem a través dels passos per configurar completament WP Booking Calendar al vostre lloc web."
-
-#: core/lang/wpbc_all_translations2.php:444
-#: includes/page-setup/template__welcome.php:43
+#: core/lang/wpbc_all_translations2.php:442
+#: includes/page-setup/templates/01.welcome__tpl.php:43
 msgid "Welcome to %s!"
 msgstr "Us donem la benvinguda a %s!"
 
-#: core/lang/wpbc_all_translations2.php:443
-#: includes/page-setup/template__general_info.php:224
+#: core/lang/wpbc_all_translations2.php:441
+#: includes/page-setup/templates/02.general_info__tpl.php:226
 msgid "By checking this box, I agree to share data from this page to personalize my setup experience, receive more relevant content, and help improve WP Booking Calendar for all users."
 msgstr "En marcar aquesta casella, accepto compartir dades d'aquesta pàgina per personalitzar la meva experiència de configuració, rebre contingut més rellevant i ajudar a millorar WP Booking Calendar per a tots els usuaris."
 
-#: core/lang/wpbc_all_translations2.php:442
-#: includes/page-setup/template__general_info.php:203
-msgid "You can always change this later!"
-msgstr "Sempre podeu canviar-ho més endavant!"
+#: core/lang/wpbc_all_translations2.php:451
+#: includes/page-setup/templates/02.general_info__tpl.php:203
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:134
+#: includes/page-setup/templates/04.bookings_types__tpl.php:124
+#: includes/page-setup/templates/06.cal_availability__tpl.php:863
+msgid "You can always change this later"
+msgstr "Sempre podeu canviar-ho més endavant"
 
-#: core/lang/wpbc_all_translations2.php:441
-#: includes/page-setup/template__general_info.php:198
+#: core/lang/wpbc_all_translations2.php:440
+#: includes/page-setup/templates/02.general_info__tpl.php:198
 msgid "Your Booking Email Address"
 msgstr "La vostra adreça electrònica de reserva"
 
-#: core/lang/wpbc_all_translations2.php:440
-#: includes/page-setup/template__general_info.php:66
+#: core/lang/wpbc_all_translations2.php:439
+#: includes/page-setup/templates/02.general_info__tpl.php:66
 msgid "What industry is your booking business in?"
 msgstr "En quin sector es troba el vostre negoci de reserves?"
 
-#: core/lang/wpbc_all_translations2.php:439
-#: includes/page-setup/template__general_info.php:60
+#: core/lang/wpbc_all_translations2.php:438
+#: includes/page-setup/templates/02.general_info__tpl.php:60
 msgid "I'm setting up a plugin for a client"
 msgstr "Estic configurant una extensió per a un client"
 
-#: core/lang/wpbc_all_translations2.php:438
-#: includes/page-setup/template__general_info.php:59
+#: core/lang/wpbc_all_translations2.php:437
+#: includes/page-setup/templates/02.general_info__tpl.php:59
 msgid "I'm already in business"
 msgstr "Ja estic en el negoci"
 
-#: core/lang/wpbc_all_translations2.php:437
-#: includes/page-setup/template__general_info.php:58
+#: core/lang/wpbc_all_translations2.php:436
+#: includes/page-setup/templates/02.general_info__tpl.php:58
 msgid "I'm just starting my business"
 msgstr "Acabo de posar en marxa el meu negoci"
 
-#: core/lang/wpbc_all_translations2.php:436
-#: includes/page-setup/template__general_info.php:56
+#: core/lang/wpbc_all_translations2.php:435
+#: includes/page-setup/templates/02.general_info__tpl.php:56
 msgid "Which one of these best describes you?"
 msgstr "Quina d'aquestes us descriu millor?"
 
-#: core/lang/wpbc_all_translations2.php:435
-#: includes/page-setup/template__general_info.php:49
+#: core/lang/wpbc_all_translations2.php:434
+#: includes/page-setup/templates/02.general_info__tpl.php:49
 msgid "What's the name of your business?"
 msgstr "Com es diu el vostre negoci?"
 
-#: core/lang/wpbc_all_translations2.php:434
-#: includes/page-setup/template__general_info.php:44
-msgid "This information will help customize your experience."
-msgstr "Aquesta informació ajudarà a personalitzar la vostra experiència."
-
-#: core/lang/wpbc_all_translations2.php:433
-#: includes/page-setup/template__general_info.php:43
+#: core/lang/wpbc_all_translations2.php:432
+#: includes/page-setup/templates/02.general_info__tpl.php:43
 msgid "Tell Us About Your Business"
 msgstr "Parleu-nos del vostre negoci"
 
-#: core/lang/wpbc_all_translations2.php:432
-#: includes/page-setup/template__bookings_types.php:143
+#: core/lang/wpbc_all_translations2.php:431
+#: includes/page-setup/templates/04.bookings_types__tpl.php:101
 msgid "Find more information about this feature on %sthis page%s."
 msgstr "Trobeu més informació sobre aquesta característica a %saquesta pàgina%s."
 
-#: core/lang/wpbc_all_translations2.php:431
-#: includes/page-setup/template__bookings_types.php:141
+#: core/lang/wpbc_all_translations2.php:430
+#: includes/page-setup/templates/04.bookings_types__tpl.php:99
 msgid "Manage multi-day bookings with specific check-in and check-out days, clearly marked with diagonal or vertical lines. Ideal for bookings that require split days."
 msgstr "Gestioneu les reserves de diversos dies amb dies específics d'entrada i sortida, clarament marcats amb línies diagonals o verticals. Ideal per a reserves que requereixen dies fraccionats."
 
-#: core/lang/wpbc_all_translations2.php:430
-#: includes/page-setup/template__bookings_types.php:140
+#: core/lang/wpbc_all_translations2.php:429
+#: includes/page-setup/templates/04.bookings_types__tpl.php:98
 msgid "Changeover Multi-Date Bookings"
 msgstr "Reserves de diverses dates amb relleu"
 
-#: core/lang/wpbc_all_translations2.php:429
-#: includes/page-setup/template__bookings_types.php:122
+#: core/lang/wpbc_all_translations2.php:428
+#: includes/page-setup/templates/04.bookings_types__tpl.php:77
 msgid "Manage bookings for specific times on selected dates. Allow clients to choose from available time slots in the booking form."
 msgstr "Gestioneu les reserves per a hores específiques en dates seleccionades. Permeteu als clients triar entre les franges horàries disponibles al formulari de reserva."
 
-#: core/lang/wpbc_all_translations2.php:428
-#: includes/page-setup/template__bookings_types.php:121
+#: core/lang/wpbc_all_translations2.php:427
+#: includes/page-setup/templates/04.bookings_types__tpl.php:76
+#: includes/page-setup/templates/05.form_structure__tpl.php:241
 msgid "Time-Based Appointments"
 msgstr "Cites per hora"
 
-#: core/lang/wpbc_all_translations2.php:427
-#: includes/page-setup/template__bookings_types.php:103
+#: core/lang/wpbc_all_translations2.php:426
+#: includes/page-setup/templates/04.bookings_types__tpl.php:58
 msgid "Manage bookings for entire days, whether it's for a single day or multiple days. No time selection is required."
 msgstr "Gestioneu les reserves de dies sencers, tant si es tracta d'un sol dia com de diversos dies. No cal seleccionar l'hora."
 
-#: core/lang/wpbc_all_translations2.php:426
-#: includes/page-setup/template__bookings_types.php:102
+#: core/lang/wpbc_all_translations2.php:425
+#: includes/page-setup/templates/04.bookings_types__tpl.php:57
 msgid "Full-Day Bookings"
 msgstr "Reserves de dia sencer"
 
-#: core/lang/wpbc_all_translations2.php:425
-#: includes/page-setup/template__bookings_types.php:44
+#: core/lang/wpbc_all_translations2.php:424
+#: core/lang/wpbc_all_translations2.php:433
+#: includes/page-setup/templates/02.general_info__tpl.php:44
+#: includes/page-setup/templates/04.bookings_types__tpl.php:45
 msgid "This will help customize your experience."
 msgstr "Això ajudarà a personalitzar la vostra experiència."
 
-#: core/lang/wpbc_all_translations2.php:424
-#: includes/page-setup/template__bookings_types.php:43
+#: core/lang/wpbc_all_translations2.php:423
+#: includes/page-setup/templates/04.bookings_types__tpl.php:44
 msgid "Select Your Booking Type"
 msgstr "Seleccioneu el vostre tipus de reserva"
 
-#: core/lang/wpbc_all_translations2.php:423
-#: includes/page-setup/setup_templates.php:309
-#: includes/page-setup/setup_templates.php:311
-#: includes/page-setup/template__bookings_types.php:216
-#: includes/page-setup/template__bookings_types.php:218
-#: includes/page-setup/template__general_info.php:254
-#: includes/page-setup/template__general_info.php:256
-#: includes/page-setup/template__welcome.php:82
-#: includes/page-setup/template__welcome.php:84
+#: core/lang/wpbc_all_translations2.php:422
+#: includes/page-setup/setup_templates.php:341
+#: includes/page-setup/setup_templates.php:343
+#: includes/page-setup/templates/01.welcome__tpl.php:82
+#: includes/page-setup/templates/01.welcome__tpl.php:84
+#: includes/page-setup/templates/02.general_info__tpl.php:256
+#: includes/page-setup/templates/02.general_info__tpl.php:258
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:173
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:175
+#: includes/page-setup/templates/04.bookings_types__tpl.php:194
+#: includes/page-setup/templates/04.bookings_types__tpl.php:196
+#: includes/page-setup/templates/05.form_structure__tpl.php:446
+#: includes/page-setup/templates/05.form_structure__tpl.php:448
+#: includes/page-setup/templates/07.color_theme__tpl.php:171
+#: includes/page-setup/templates/07.color_theme__tpl.php:173
 msgid "Exit and skip the setup wizard"
 msgstr "Surt i salta l'assistent de configuració"
 
-#: core/lang/wpbc_all_translations2.php:422
-#: includes/page-setup/setup_templates.php:301
-#: includes/page-setup/template__bookings_types.php:208
-#: includes/page-setup/template__general_info.php:245
+#: core/lang/wpbc_all_translations2.php:421
+#: includes/page-setup/setup_steps.php:48
+#: includes/page-setup/templates/02.general_info__tpl.php:221
+#: includes/page-setup/templates/02.general_info__tpl.php:247
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:164
+#: includes/page-setup/templates/04.bookings_types__tpl.php:186
+#: includes/page-setup/templates/05.form_structure__tpl.php:438
+#: includes/page-setup/templates/07.color_theme__tpl.php:163
 msgid "Save and Continue"
 msgstr "Desa i continua"
 
-#: core/lang/wpbc_all_translations2.php:421
-#: includes/page-setup/setup_support.php:84
+#: core/lang/wpbc_all_translations2.php:420
+#: includes/page-setup/setup_support.php:207
 msgid "Bookings Type"
 msgstr "Tipus de les reserves"
 
-#: core/lang/wpbc_all_translations2.php:420
-#: includes/page-setup/setup_support.php:70
+#: core/lang/wpbc_all_translations2.php:419
+#: includes/page-setup/setup_support.php:193
 msgid "General Info"
 msgstr "Informació general"
 
-#: core/lang/wpbc_all_translations2.php:419
-#: includes/page-setup/setup_steps.php:208
+#: core/lang/wpbc_all_translations2.php:418
+#: includes/page-setup/setup_steps.php:470
 msgid "Finish Setup"
 msgstr "Acaba la configuració"
 
-#: core/lang/wpbc_all_translations2.php:418
-#: includes/page-setup/setup_ajax.php:226
-#: includes/page-setup/setup_templates.php:316
-#: includes/page-setup/template__bookings_types.php:223
+#: core/lang/wpbc_all_translations2.php:417
+#: includes/page-setup/setup_ajax.php:239
+#: includes/page-setup/setup_templates.php:348
+#: includes/page-setup/templates/04.bookings_types__tpl.php:201
+#: includes/page-setup/templates/05.form_structure__tpl.php:453
+#: includes/page-setup/templates/07.color_theme__tpl.php:178
 msgid "Start Setup from Beginning"
 msgstr "Inicia la configuració des del principi"
 
-#: core/lang/wpbc_all_translations2.php:417
-#: includes/page-setup/setup__page.php:136
+#: core/lang/wpbc_all_translations2.php:416
+#: includes/page-setup/setup__page.php:191
 msgid "Exit Full Screen"
 msgstr "Surt de la pantalla completa"
 
-#: core/lang/wpbc_all_translations2.php:416
-#: includes/page-setup/setup__page.php:127
+#: core/lang/wpbc_all_translations2.php:415
+#: includes/page-setup/setup__page.php:182
 msgid "Full Screen"
 msgstr "Pantalla complerta"
 
-#: core/lang/wpbc_all_translations2.php:415
-#: includes/page-setup/setup__page.php:99
+#: core/lang/wpbc_all_translations2.php:414
+#: includes/page-setup/setup__page.php:154
 msgid "Initial Setup"
 msgstr "Configuració inicial"
 
-#: core/lang/wpbc_all_translations2.php:414
-#: includes/page-setup/setup__page.php:89
+#: core/lang/wpbc_all_translations2.php:413
+#: includes/page-setup/setup__page.php:144
 msgid "Go back to the Dashboard"
 msgstr "Torna al tauler"
 
-#: core/lang/wpbc_all_translations2.php:413
-#: includes/page-setup/setup__page.php:88
+#: core/lang/wpbc_all_translations2.php:412
+#: includes/page-setup/setup__page.php:143
 msgid "Go to Dashboard"
 msgstr "Vés al tauler"
 
-#: core/lang/wpbc_all_translations2.php:398 includes/_tour/wpbc_tour.php:174
+#: core/lang/wpbc_all_translations2.php:397 includes/_tour/wpbc_tour.php:173
 msgid "End Tour"
 msgstr "Final Tour"
 
-#: core/lang/wpbc_all_translations2.php:397 includes/_tour/wpbc_tour.php:166
+#: core/lang/wpbc_all_translations2.php:396 includes/_tour/wpbc_tour.php:165
 msgid "Let's go"
 msgstr "Anem-hi"
 
-#: core/lang/wpbc_all_translations2.php:395 includes/_tour/wpbc_tour.php:163
+#: core/lang/wpbc_all_translations2.php:394 includes/_tour/wpbc_tour.php:161
 msgid "Welcome to %s"
 msgstr "Us donem la benvinguda a %s"
 
-#: core/lang/wpbc_all_translations2.php:394
-#: includes/_toolbar_ui/ui__settings_panel.php:1856
+#: core/lang/wpbc_all_translations2.php:393
+#: includes/_toolbar_ui/ui__settings_panel.php:2000
 msgid "Approved booking(s)"
 msgstr "Reserva(es) aprovada(es)"
 
-#: core/lang/wpbc_all_translations2.php:393
-#: includes/_toolbar_ui/ui__settings_panel.php:1646
+#: core/any/activation.php:160 core/lang/wpbc_all_translations2.php:392
+#: includes/_toolbar_ui/ui__settings_panel.php:1790
 msgid "Start Setup Wizard"
 msgstr "Inicia l'assistent de configuració"
 
-#: core/lang/wpbc_all_translations2.php:392
-#: includes/_toolbar_ui/ui__settings_panel.php:1644
-msgid "Start Setup Wizard Guide"
-msgstr "Inicia la guia de l'assistent de configuració"
-
 #: core/lang/wpbc_all_translations2.php:391
-#: includes/_toolbar_ui/ui__settings_panel.php:1547
+#: includes/_toolbar_ui/ui__settings_panel.php:1694
 msgid "View system information and recover lost bookings or booking resources."
 msgstr "Consulteu la informació del sistema i recupereu les reserves o els recursos reservables perduts."
 
 #: core/lang/wpbc_all_translations2.php:390
-#: includes/_toolbar_ui/ui__settings_panel.php:1519
+#: includes/_toolbar_ui/ui__settings_panel.php:1659
 msgid "Stay informed with the latest news and details about the plugin."
 msgstr "Manteniu-vos informat amb les últimes notícies i detalls sobre l'extensió."
 
 #: core/lang/wpbc_all_translations2.php:389
-#: includes/_toolbar_ui/ui__settings_panel.php:1491
+#: includes/_toolbar_ui/ui__settings_panel.php:1624
 msgid "Enable the option to fully erase booking data when the plugin is deactivated."
 msgstr "Activeu aquesta opció per esborrar completament les dades de reserves quan l'extensió es desactivi."
 
 #: core/lang/wpbc_all_translations2.php:388
-#: includes/_toolbar_ui/ui__settings_panel.php:1464
+#: includes/_toolbar_ui/ui__settings_panel.php:1590
 msgid "Configure loading of CSS/JavaScript files, set the number of simultaneous requests, and other advanced options."
 msgstr "Configureu la càrrega de fitxers CSS/JavaScript, configureu el nombre de sol·licituds simultànies i altres opcions avançades."
 
 #: core/lang/wpbc_all_translations2.php:387
-#: includes/_toolbar_ui/ui__settings_panel.php:1411
+#: includes/_toolbar_ui/ui__settings_panel.php:1530
 msgid "Choose whether to use local translations or WordPress translations."
 msgstr "Trieu si voleu utilitzar traduccions locals o traduccions del WordPress."
 
 #: core/lang/wpbc_all_translations2.php:386
-#: includes/_toolbar_ui/ui__settings_panel.php:1383
+#: includes/_toolbar_ui/ui__settings_panel.php:1495
 msgid "Set user permissions for accessing plugin menu pages and configure the menu position."
 msgstr "Estableix els permisos d'usuari per accedir a les pàgines de menú de l'extensió i configurar la posició del menú."
 
 #: core/lang/wpbc_all_translations2.php:385
-#: includes/_toolbar_ui/ui__settings_panel.php:1355
+#: includes/_toolbar_ui/ui__settings_panel.php:1460
 msgid "Customize the display format for dates and times."
 msgstr "Personalitzeu el format de visualització de dates i hores."
 
 #: core/lang/wpbc_all_translations2.php:384
-#: includes/_toolbar_ui/ui__settings_panel.php:1327
+#: includes/_toolbar_ui/ui__settings_panel.php:1425
 msgid "Customize timeline options in the admin panel, including displaying booking details."
 msgstr "Personalitzeu les opcions de la cronologia al quadre d'administració, incloent la visualització dels detalls de la reserva."
 
 #: core/lang/wpbc_all_translations2.php:383
-#: includes/_toolbar_ui/ui__settings_panel.php:1300
+#: includes/_toolbar_ui/ui__settings_panel.php:1391
 msgid "Configure various options and settings in the admin panel."
 msgstr "Configureu diverses opcions i paràmetres al quadre d'administració."
 
 #: core/lang/wpbc_all_translations2.php:382
-#: includes/_toolbar_ui/ui__settings_panel.php:1246
+#: includes/_toolbar_ui/ui__settings_panel.php:1330
 msgid "Enable automatic approval or cancellation of bookings."
 msgstr "Activa l'aprovació o cancel·lació automàtica de reserves."
 
 #: core/lang/wpbc_all_translations2.php:381
-#: includes/_toolbar_ui/ui__settings_panel.php:1200
+#: includes/_toolbar_ui/ui__settings_panel.php:1278
 msgid "Allow customers to edit or cancel their own bookings."
 msgstr "Permeteu als clients editar o cancel·lar les seves pròpies reserves."
 
 #: core/lang/wpbc_all_translations2.php:380
-#: includes/_toolbar_ui/ui__settings_panel.php:1150
+#: includes/_toolbar_ui/ui__settings_panel.php:1222
 msgid "Customize timeline options, including the display of booking details."
 msgstr "Personalitzeu les opcions de la cronologia, incloent la visualització dels detalls de la reserva."
 
 #: core/lang/wpbc_all_translations2.php:379
-#: includes/_toolbar_ui/ui__settings_panel.php:1098
+#: includes/_toolbar_ui/ui__settings_panel.php:1163
 msgid "Enable separate booking admin panels for different WordPress users."
 msgstr "Activa quadres d'administració de reserves independents per a diferents usuaris del WordPress."
 
 #: core/lang/wpbc_all_translations2.php:378
-#: includes/_toolbar_ui/ui__settings_panel.php:1089
+#: includes/_toolbar_ui/ui__settings_panel.php:1154
 msgid "Multiuser Admin Panels"
 msgstr "Quadres d'administració multiusuari"
 
 #: core/lang/wpbc_all_translations2.php:377
-#: includes/_toolbar_ui/ui__settings_panel.php:989
+#: includes/_toolbar_ui/ui__settings_panel.php:1054
 msgid "Configure cost per day or night, and set up different payment methods and pricing options."
 msgstr "Configureu el cost per dia o per nit i configureu diferents mètodes de pagament i opcions de preus."
 
 #: core/lang/wpbc_all_translations2.php:376
-#: includes/_toolbar_ui/ui__settings_panel.php:953
+#: includes/_toolbar_ui/ui__settings_panel.php:1018
 msgid "Configure the currency used for bookings and payments."
 msgstr "Configureu la moneda utilitzada per a les reserves i els pagaments."
 
 #: core/lang/wpbc_all_translations2.php:375
-#: includes/_toolbar_ui/ui__settings_panel.php:944
+#: includes/_toolbar_ui/ui__settings_panel.php:1009
 msgid "Set Currency"
 msgstr "Estableix la moneda"
 
 #: core/lang/wpbc_all_translations2.php:374
-#: includes/_toolbar_ui/ui__settings_panel.php:917
+#: includes/_toolbar_ui/ui__settings_panel.php:982
 msgid "Set up payment methods such as %s"
 msgstr "Configureu els mètodes de pagament com ara %s"
 
 #: core/lang/wpbc_all_translations2.php:372
-#: includes/_toolbar_ui/ui__settings_panel.php:858
+#: includes/_toolbar_ui/ui__settings_panel.php:923
 msgid "Set up and configure the import of Google Calendar events using the API."
 msgstr "Configura la importació d'esdeveniments de Google Calendar mitjançant l'API."
 
 #: core/lang/wpbc_all_translations2.php:371
-#: includes/_toolbar_ui/ui__settings_panel.php:829
+#: includes/_toolbar_ui/ui__settings_panel.php:894
 msgid "Set up and configure the export of bookings into .ics feeds."
 msgstr "Configureu l'exportació de reserves a canals .ics."
 
 #: core/lang/wpbc_all_translations2.php:370
-#: includes/_toolbar_ui/ui__settings_panel.php:823
+#: includes/_toolbar_ui/ui__settings_panel.php:888
 msgid "Export Bookings via .ics"
 msgstr "Exporta reserves a través de .ics"
 
 #: core/lang/wpbc_all_translations2.php:369
-#: includes/_toolbar_ui/ui__settings_panel.php:800
+#: includes/_toolbar_ui/ui__settings_panel.php:865
 msgid "Set up and configure the import of events using .ics feeds."
 msgstr "Configureu la importació d'esdeveniments mitjançant canals .ics."
 
 #: core/lang/wpbc_all_translations2.php:368
-#: includes/_toolbar_ui/ui__settings_panel.php:794
+#: includes/_toolbar_ui/ui__settings_panel.php:859
 msgid "Import Bookings via .ics"
 msgstr "Importa reserves mitjançant .ics"
 
 #: core/lang/wpbc_all_translations2.php:367
-#: includes/_toolbar_ui/ui__settings_panel.php:771
+#: includes/_toolbar_ui/ui__settings_panel.php:836
 msgid "Configure import/export rules, timezones, and which fields to include in sync operations."
 msgstr "Configureu les regles d'importació/exportació, les zones horàries i quins camps voleu incloure a les operacions de sincronització."
 
 #: core/lang/wpbc_all_translations2.php:366
-#: includes/_toolbar_ui/ui__settings_panel.php:765
+#: includes/_toolbar_ui/ui__settings_panel.php:830
 msgid "Sync Options"
 msgstr "Opcions de sincronització"
 
 #: core/lang/wpbc_all_translations2.php:365
-#: includes/_toolbar_ui/ui__settings_panel.php:719
+#: includes/page-setup/templates/10.get_started__tpl.php:584
+#: includes/_toolbar_ui/ui__settings_panel.php:784
 msgid "Set up automatic email notifications for different booking actions."
 msgstr "Configureu notificacions per correu electrònic automàtiques per a diferents accions de reserva."
 
 #: core/lang/wpbc_all_translations2.php:364
-#: includes/_toolbar_ui/ui__settings_panel.php:671
+#: includes/_toolbar_ui/ui__settings_panel.php:736
 msgid "Customize how the booking summary is displayed after a booking is created."
 msgstr "Personalitzeu com es mostra el resum de la reserva després de crear-ne una."
 
 #: core/lang/wpbc_all_translations2.php:363
-#: includes/_toolbar_ui/ui__settings_panel.php:622
+#: includes/_toolbar_ui/ui__settings_panel.php:681
 msgid "Choose how time slots are shown in the form: as a dropdown list or a time picker, and set a color theme."
 msgstr "Trieu com es mostren les franges horàries al formulari: com a llista desplegable o com a selector d'hora, i establiu un tema de color."
 
 #: core/lang/wpbc_all_translations2.php:362
-#: includes/_toolbar_ui/ui__settings_panel.php:595
+#: includes/_toolbar_ui/ui__settings_panel.php:647
 msgid "Enable CAPTCHA, auto-fill fields, and customize the form's color theme."
 msgstr "Activeu el CAPTCHA, l'emplenament automàtic dels camps i personalitzeu el tema de color del formulari."
 
 #: core/lang/wpbc_all_translations2.php:361
-#: includes/_toolbar_ui/ui__settings_panel.php:566
+#: includes/_toolbar_ui/ui__settings_panel.php:611
 msgid "Enable and configure time selection fields in your booking form."
 msgstr "Activeu i configureu els camps de selecció d'hora al vostre formulari de reserva."
 
 #: core/lang/wpbc_all_translations2.php:360
-#: includes/_toolbar_ui/ui__settings_panel.php:560
+#: includes/_toolbar_ui/ui__settings_panel.php:605
 msgid "Time Slot Configuration"
 msgstr "Configuració de la franja horària"
 
 #: core/lang/wpbc_all_translations2.php:359
-#: includes/_toolbar_ui/ui__settings_panel.php:538
+#: includes/_toolbar_ui/ui__settings_panel.php:583
 msgid "Add, remove, or customize fields in your booking form."
 msgstr "Afegiu, suprimiu o personalitzeu els camps al formulari de reserva."
 
 #: core/lang/wpbc_all_translations2.php:358
-#: includes/_toolbar_ui/ui__settings_panel.php:532
+#: includes/_toolbar_ui/ui__settings_panel.php:577
 msgid "Booking Form Fields"
 msgstr "Camps del formulari de reserva"
 
 #: core/lang/wpbc_all_translations2.php:357
-#: includes/_toolbar_ui/ui__settings_panel.php:486
+#: includes/_toolbar_ui/ui__settings_panel.php:531
 msgid "Manage the ability to accept multiple bookings for the same date or time slot."
 msgstr "Gestioneu la possibilitat d'acceptar diverses reserves per a la mateixa data o franja horària."
 
 #: core/lang/wpbc_all_translations2.php:356
-#: includes/_toolbar_ui/ui__settings_panel.php:458
+#: includes/page-setup/templates/06.cal_availability__tpl.php:48
+#: includes/_toolbar_ui/ui__settings_panel.php:496
 msgid "Define unavailable weekdays, add booking buffers, and customize unavailable day options."
 msgstr "Definiu els dies laborables no disponibles, afegiu buffers de reserves i personalitzeu les opcions de dies no disponibles."
 
 #: core/lang/wpbc_all_translations2.php:355
-#: includes/_toolbar_ui/ui__settings_panel.php:430
+#: includes/_toolbar_ui/ui__settings_panel.php:461
 msgid "Configure tooltips to display information like booked times, costs, details, and availability when hovering over calendar days."
 msgstr "Configureu els indicadors emergents per mostrar informació com ara hores reservades, costos, detalls i disponibilitat en passar el ratolí sobre els dies del calendari."
 
 #: core/lang/wpbc_all_translations2.php:354
-#: includes/_toolbar_ui/ui__settings_panel.php:403
+#: includes/_toolbar_ui/ui__settings_panel.php:427
 msgid "Set up check-in and check-out days for multi-day bookings, with visual indicators like diagonal or vertical lines. Ideal for bookings that require split days."
 msgstr "Configureu els dies d'entrada i sortida per a reserves de diversos dies, amb indicadors visuals com ara línies diagonals o verticals. Ideal per a reserves que requereixen dies fraccionats."
 
 #: core/lang/wpbc_all_translations2.php:353
-#: includes/_toolbar_ui/ui__settings_panel.php:397
-#: includes/_toolbar_ui/ui__settings_panel.php:912
-#: includes/_toolbar_ui/ui__settings_panel.php:948
-#: includes/_toolbar_ui/ui__settings_panel.php:984
-#: includes/_toolbar_ui/ui__settings_panel.php:1039
-#: includes/_toolbar_ui/ui__settings_panel.php:1093
-#: includes/_toolbar_ui/ui__settings_panel.php:1152
-#: includes/_toolbar_ui/ui__settings_panel.php:1194
-#: includes/_toolbar_ui/ui__settings_panel.php:1240
+#: includes/page-setup/templates/10.get_started__tpl.php:548
+#: includes/page-setup/templates/10.get_started__tpl.php:635
+#: includes/_toolbar_ui/ui__settings_panel.php:421
+#: includes/_toolbar_ui/ui__settings_panel.php:977
+#: includes/_toolbar_ui/ui__settings_panel.php:1013
+#: includes/_toolbar_ui/ui__settings_panel.php:1049
+#: includes/_toolbar_ui/ui__settings_panel.php:1104
+#: includes/_toolbar_ui/ui__settings_panel.php:1158
+#: includes/_toolbar_ui/ui__settings_panel.php:1224
+#: includes/_toolbar_ui/ui__settings_panel.php:1272
+#: includes/_toolbar_ui/ui__settings_panel.php:1324
 msgid "Pro"
 msgstr "Pro"
 
 #: core/lang/wpbc_all_translations2.php:352
-#: includes/_toolbar_ui/ui__settings_panel.php:353
+#: includes/_toolbar_ui/ui__settings_panel.php:371
 msgid "Choose how users can select days: single day, multiple days, or a date range with minimum and maximum limits."
 msgstr "Trieu com els usuaris poden seleccionar dies: un sol dia, diversos dies o un interval de dates amb límits mínims i màxims."
 
 #: core/lang/wpbc_all_translations2.php:351
-#: includes/_toolbar_ui/ui__settings_panel.php:324
+#: includes/_toolbar_ui/ui__settings_panel.php:336
 msgid "Adjust the calendar's display by choosing a theme, setting how many months can be scrolled, and defining the legend."
 msgstr "Ajusteu la visualització del calendari triant un tema, establint quants mesos es poden desplaçar i definint la llegenda."
 
 #: core/lang/wpbc_all_translations2.php:350
-#: includes/_toolbar_ui/ui__settings_panel.php:229
+#: includes/_toolbar_ui/ui__settings_panel.php:234
 msgid "Multiuser Options"
 msgstr "Opcions multiusuari"
 
 #: core/lang/wpbc_all_translations2.php:349
-#: includes/_toolbar_ui/ui__settings_panel.php:164
+#: includes/_toolbar_ui/ui__settings_panel.php:169
 msgid "Sync Bookings"
 msgstr "Sincronitza les reserves"
 
 #: core/lang/wpbc_all_translations2.php:348
-#: includes/_toolbar_ui/ui__settings_panel.php:159
+#: includes/_toolbar_ui/ui__settings_panel.php:164
 msgid "Notifications"
 msgstr "Notificacions"
 
 #: core/lang/wpbc_all_translations2.php:347
-#: includes/_toolbar_ui/ui__settings_panel.php:155
+#: includes/_toolbar_ui/ui__settings_panel.php:160
 msgid "Booking Summary"
 msgstr "Resum de la reserva"
 
@@ -500,10 +632,12 @@ msgid "Customize booking form in a advanced setup"
 msgstr "Personalitzeu el formulari de reserva amb una configuració avançada"
 
 #: core/lang/wpbc_all_translations2.php:342
+#: includes/page-setup/templates/05.form_structure__tpl.php:240
 msgid "Advanced Form"
 msgstr "Formulari avançat"
 
 #: core/lang/wpbc_all_translations2.php:340
+#: includes/page-setup/templates/05.form_structure__tpl.php:232
 msgid "Simple Form"
 msgstr "Formulari senzill"
 
@@ -520,7 +654,7 @@ msgid "Custom Form"
 msgstr "Formulari personalitzat"
 
 #: core/lang/wpbc_all_translations2.php:336
-#: includes/page-setup/template__bookings_types__action.php:142
+#: includes/page-setup/templates/04.bookings_types__action.php:211
 msgid "Changeover"
 msgstr "Relleu"
 
@@ -528,7 +662,7 @@ msgstr "Relleu"
 msgid "Request Update"
 msgstr "Sol·liciteu una actualització"
 
-#: core/admin/page-settings.php:232 core/lang/wpbc_all_translations2.php:345
+#: core/admin/page-settings.php:234 core/lang/wpbc_all_translations2.php:345
 #: includes/_toolbar_ui/ui__settings_panel.php:115
 #: includes/_toolbar_ui/ui__settings_panel.php:121
 #: includes/_toolbar_ui/ui__settings_panel.php:122
@@ -543,7 +677,7 @@ msgstr "Activeu aquesta opció per permetre que es mostrin diversos mesos al cal
 msgid "Allow multiple months to be shown on mobile"
 msgstr "Permeteu que es mostrin diversos mesos al mòbil"
 
-#: core/lang/wpbc_all_translations2.php:412
+#: core/lang/wpbc_all_translations2.php:411
 #: includes/page-settings-all/all__page.php:88
 msgid "Calendar Look"
 msgstr "Aspecte del calendari"
@@ -551,48 +685,48 @@ msgstr "Aspecte del calendari"
 #: core/lang/wpbc_all_translations2.php:346
 #: includes/page-settings-all/all__page.php:82
 #: includes/page-settings-all/all__page.php:89
-#: includes/_toolbar_ui/ui__settings_panel.php:145
+#: includes/_toolbar_ui/ui__settings_panel.php:150
 msgid "Calendar Settings"
 msgstr "Configuració del calendari"
 
-#: core/lang/wpbc_all_translations2.php:411
+#: core/lang/wpbc_all_translations2.php:410
 #: includes/page-settings-all/all__page.php:75
 msgid "Settings General"
 msgstr "Configuració general"
 
-#: core/lang/wpbc_all_translations2.php:407
-#: includes/page-form-simple/page-form-simple.php:689
+#: core/lang/wpbc_all_translations2.php:406
+#: includes/page-form-simple/page-form-simple.php:730
 msgid "Button"
 msgstr "Botó"
 
-#: core/lang/wpbc_all_translations2.php:406
-#: includes/page-form-simple/page-form-simple.php:671
+#: core/lang/wpbc_all_translations2.php:405
+#: includes/page-form-simple/page-form-simple.php:712
 msgid "Select date(s)"
 msgstr "Seleccioneu la(es) data(es)"
 
-#: core/lang/wpbc_all_translations2.php:405
-#: includes/page-form-simple/page-form-simple.php:569
+#: core/lang/wpbc_all_translations2.php:404
+#: includes/page-form-simple/page-form-simple.php:610
 msgid "Global Settings"
 msgstr "Configuració global"
 
-#: core/lang/wpbc_all_translations2.php:404
+#: core/lang/wpbc_all_translations2.php:403
+#: includes/page-form-simple/page-form-simple.php:255
 #: includes/page-form-simple/page-form-simple.php:257
-#: includes/page-form-simple/page-form-simple.php:259
 msgid "Collapse menu"
 msgstr "Redueix el menú"
 
-#: core/lang/wpbc_all_translations2.php:403
+#: core/lang/wpbc_all_translations2.php:402
 #: includes/page-form-simple/form_simple__toolbar_free.php:233
 msgid "Reset booking form fields"
 msgstr "Reinicialitza els camps del formulari de reserva"
 
-#: core/lang/wpbc_all_translations2.php:402
+#: core/lang/wpbc_all_translations2.php:401
 #: includes/page-form-simple/form_simple__toolbar_free.php:197
 #: includes/page-form-simple/form_simple__toolbar_free.php:201
 msgid "Select a field type from the drop-down list on the left."
 msgstr "Seleccioneu un tipus de camp de la llista desplegable de l'esquerra."
 
-#: core/lang/wpbc_all_translations2.php:401
+#: core/lang/wpbc_all_translations2.php:400
 #: includes/page-form-simple/form_simple__toolbar_free.php:110
 msgid "Dropdown"
 msgstr "Desplegable"
@@ -607,20 +741,22 @@ msgstr "Personalitzeu el formulari de reserva amb una configuració senzilla"
 msgid "Form Fields Setup"
 msgstr "Configuració dels camps del formulari"
 
-#: core/lang/wpbc_all_translations2.php:399
-#: includes/page-form-simple/form_simple__default.php:72
+#: core/lang/wpbc_all_translations2.php:398
+#: includes/page-form-simple/form_simple__default.php:71
+#: includes/page-form-simple/form_simple__default.php:193
+#: includes/page-form-simple/form_simple__default.php:293
 msgid "Second Name"
 msgstr "Segon nom"
 
-#: core/lang/wpbc_all_translations2.php:335 core/wpbc_functions.php:254
+#: core/lang/wpbc_all_translations2.php:335 core/wpbc_functions.php:258
 msgid "Custom Calendar Skins"
 msgstr "Estils de calendari personalitzats"
 
-#: core/lang/wpbc_all_translations2.php:334 core/wpbc_functions.php:249
+#: core/lang/wpbc_all_translations2.php:334 core/wpbc_functions.php:253
 msgid "Legacy Calendar Skins"
 msgstr "Estils de calendari heretats"
 
-#: core/lang/wpbc_all_translations2.php:333 core/wpbc_functions.php:244
+#: core/lang/wpbc_all_translations2.php:333 core/wpbc_functions.php:248
 msgid "Calendar Skins"
 msgstr "Estils de calendari"
 
@@ -628,12 +764,13 @@ msgstr "Estils de calendari"
 msgid "Incorrect email address"
 msgstr "Adreça electrònica incorrecta"
 
-#: core/admin/api-settings.php:1088 core/admin/page-settings.php:334
+#: core/admin/api-settings.php:1088 core/admin/page-settings.php:336
 #: core/admin/page-timeline.php:45 core/admin/page-timeline.php:46
-#: core/admin/page-timeline.php:47 core/admin/wpbc-toolbars.php:412
+#: core/admin/page-timeline.php:47 core/admin/wpbc-toolbars.php:413
 #: core/lang/wpbc_all_translations.php:100
+#: includes/page-setup/templates/10.get_started__tpl.php:332
 #: includes/_functions/admin_top_bar.php:89
-#: includes/_toolbar_ui/ui__settings_panel.php:1313
+#: includes/_toolbar_ui/ui__settings_panel.php:1404
 msgid "Timeline View"
 msgstr "Vista de cronologia"
 
@@ -682,10 +819,12 @@ msgid "This option does not work with %s payment systems."
 msgstr "Aquesta opció no funciona amb els sistemes de pagament %s."
 
 #: core/lang/wpbc_all_translations2.php:314
+#: includes/page-setup/templates/05.form_structure__tpl.php:243
 msgid "Wizard"
 msgstr "Assistent"
 
 #: core/lang/wpbc_all_translations2.php:313
+#: includes/page-setup/templates/05.form_structure__tpl.php:275
 msgid "Times Templates"
 msgstr "Plantilles d'hores"
 
@@ -714,7 +853,7 @@ msgid "Contain"
 msgstr "Conté"
 
 #: core/lang/wpbc_all_translations2.php:305
-#: includes/_toolbar_ui/ui__settings_panel.php:1044
+#: includes/_toolbar_ui/ui__settings_panel.php:1109
 msgid "Configure the layout and functionality of both the search form and search results"
 msgstr "Configureu el disseny i la funcionalitat tant del formulari de cerca com dels resultats de la cerca"
 
@@ -999,20 +1138,20 @@ msgstr "Àtic"
 msgid "Standard Room"
 msgstr "Habitació estàndard"
 
-#: core/lang/wpbc_all_translations2.php:227 core/wpbc.php:273 core/wpbc.php:274
+#: core/lang/wpbc_all_translations2.php:227 core/wpbc.php:292 core/wpbc.php:293
 #: includes/page-settings-all/all__page.php:148
 #: includes/page-settings-all/all__page.php:167
 #: includes/page-settings-all/all__page.php:186
 #: includes/page-settings-all/all__page.php:205
 #: includes/page-settings-all/all__page.php:224
-#: includes/page-setup/setup_steps.php:250
-#: includes/page-setup/setup__page.php:52
-#: includes/page-setup/setup__page.php:53
-#: includes/page-setup/setup__page.php:54
-#: includes/page-setup/setup__page.php:69
-#: includes/page-setup/setup__page.php:70
-#: includes/page-setup/setup__page.php:71
-#: includes/page-setup/setup__page.php:98
+#: includes/page-setup/setup_steps.php:389
+#: includes/page-setup/setup__page.php:107
+#: includes/page-setup/setup__page.php:108
+#: includes/page-setup/setup__page.php:109
+#: includes/page-setup/setup__page.php:124
+#: includes/page-setup/setup__page.php:125
+#: includes/page-setup/setup__page.php:126
+#: includes/page-setup/setup__page.php:153
 msgid "Setup"
 msgstr "Configuració"
 
@@ -1020,11 +1159,11 @@ msgstr "Configuració"
 msgid "%s - inserting only booking dates without times"
 msgstr "%s - inserint només dates de reserva sense horaris"
 
-#: core/admin/page-settings.php:475 core/lang/wpbc_all_translations.php:410
+#: core/admin/page-settings.php:477 core/lang/wpbc_all_translations.php:410
 msgid "Personal Information"
 msgstr "Informació personal"
 
-#: core/admin/page-settings.php:475 core/admin/page-settings.php:481
+#: core/admin/page-settings.php:477 core/admin/page-settings.php:483
 #: core/lang/wpbc_all_translations.php:409
 msgid "Section"
 msgstr "Secció"
@@ -1071,7 +1210,7 @@ msgid "Update"
 msgstr "Actualitza"
 
 #: core/lang/wpbc_all_translations2.php:327
-#: includes/page-form-simple/page-form-simple.php:399
+#: includes/page-form-simple/page-form-simple.php:440
 msgid "Form Width:"
 msgstr "Amplada del formulari:"
 
@@ -1081,22 +1220,27 @@ msgstr "Podeu afegir %sfranges horàries%s al formulari de reserva, activant i c
 
 #: core/lang/wpbc_all_translations2.php:325
 #: includes/page-form-simple/form_simple__preview.php:32
-#: includes/page-form-simple/page-form-simple.php:242
-#: includes/page-form-simple/page-form-simple.php:243
+#: includes/page-form-simple/page-form-simple.php:240
+#: includes/page-form-simple/page-form-simple.php:241
+#: includes/page-setup/templates/05.form_structure__tpl.php:68
+#: includes/page-setup/templates/06.cal_availability__tpl.php:66
+#: includes/page-setup/templates/07.color_theme__tpl.php:66
+#: includes/page-setup/templates/08.optional_other_settings__tpl.php:70
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:120
 msgid "Preview"
 msgstr "Previsualitza"
 
 #: core/lang/wpbc_all_translations2.php:324
-#: includes/page-form-simple/page-form-simple.php:151
-#: includes/page-form-simple/page-form-simple.php:218
-#: includes/page-form-simple/page-form-simple.php:219
-#: includes/page-form-simple/page-form-simple.php:374
+#: includes/page-form-simple/page-form-simple.php:149
+#: includes/page-form-simple/page-form-simple.php:216
+#: includes/page-form-simple/page-form-simple.php:217
+#: includes/page-form-simple/page-form-simple.php:383
 msgid "Form Layout"
 msgstr "Disseny del formulari"
 
 #: core/lang/wpbc_all_translations2.php:323
-#: includes/page-form-simple/page-form-simple.php:212
-#: includes/page-form-simple/page-form-simple.php:213
+#: includes/page-form-simple/page-form-simple.php:210
+#: includes/page-form-simple/page-form-simple.php:211
 msgid "Form Fields"
 msgstr "Camps del formulari"
 
@@ -1125,11 +1269,11 @@ msgstr "Per assegurar-vos que les vostres notificacions arribin a la vostra bús
 msgid "%s - inserting creation date of booking "
 msgstr "%s - inserint la data de creació de la reserva "
 
-#: core/lang/wpbc_all_translations2.php:223 core/wpbc-activation.php:1516
+#: core/lang/wpbc_all_translations2.php:223 core/wpbc-activation.php:1526
 msgid "Please select check-in and check-out dates to perform the search."
 msgstr "Seleccioneu les dates d'entrada i sortida per dur a terme la cerca."
 
-#: core/lang/wpbc_all_translations2.php:222 core/wpbc-activation.php:1509
+#: core/lang/wpbc_all_translations2.php:222 core/wpbc-activation.php:1519
 msgid "Extended Search Results"
 msgstr "Resultats de cerca ampliats"
 
@@ -1184,7 +1328,7 @@ msgid "Change this date status at %sBooking Calendar %s Availability %s Season A
 msgstr "Canvieu l'estat d'aquesta data a la pàgina %sCalendari de reserves %s Disponibilitat %s Disponibilitat de temporada."
 
 #: core/lang/wpbc_all_translations1.php:955
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:213
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:216
 msgid "Shortcode Configuration"
 msgstr "Configuració del codi de substitució"
 
@@ -1205,7 +1349,7 @@ msgstr "Data d'inici:"
 
 #: core/lang/wpbc_all_translations1.php:945
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:189
-#: includes/_toolbar_ui/ui__settings_panel.php:1796
+#: includes/_toolbar_ui/ui__settings_panel.php:1940
 msgid "All Bookings"
 msgstr "Totes les reserves"
 
@@ -1555,7 +1699,7 @@ msgid "Calendar cell height:"
 msgstr "Alçada de la cel·la del calendari:"
 
 #: core/lang/wpbc_all_translations1.php:847
-#: includes/page-form-simple/page-form-simple.php:428
+#: includes/page-form-simple/page-form-simple.php:469
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:426
 msgid "Set width of calendar"
 msgstr "Estableix l'amplada del calendari"
@@ -1612,8 +1756,8 @@ msgstr "Importa esdeveniments (canal .ics)"
 #: core/lang/wpbc_all_translations1.php:834
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:74
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:108
-#: includes/_toolbar_ui/ui__settings_panel.php:208
-#: includes/_toolbar_ui/ui__settings_panel.php:1035
+#: includes/_toolbar_ui/ui__settings_panel.php:213
+#: includes/_toolbar_ui/ui__settings_panel.php:1100
 msgid "Search Availability"
 msgstr "Cerca la disponibilitat"
 
@@ -1663,7 +1807,7 @@ msgstr "Habitació doble"
 #: core/lang/wpbc_all_translations.php:745
 #: includes/_functions/admin_top_bar.php:210
 #: includes/_functions/admin_top_bar.php:306
-#: includes/_toolbar_ui/ui__settings_panel.php:183
+#: includes/_toolbar_ui/ui__settings_panel.php:188
 msgid "Payment Setup"
 msgstr "Configuració del pagament"
 
@@ -1720,76 +1864,83 @@ msgstr "Element no disponible"
 msgid "Customization of booking resources"
 msgstr "Personalització dels recursos reservables"
 
-#: core/lang/wpbc_all_translations2.php:410
+#: core/lang/wpbc_all_translations2.php:409
 #: includes/page-resource-free/page-resource-free.php:408
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:309
 msgid "Embed your booking form into the page"
 msgstr "Incrusteu el vostre formulari de reserva a la pàgina"
 
-#: core/lang/wpbc_all_translations2.php:409
+#: core/lang/wpbc_all_translations2.php:408
 #: includes/page-resource-free/page-resource-free.php:399
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:303
 msgid "Customize Booking Calendar shortcode"
 msgstr "Personalitza el codi de substitució del calendari de reserves"
 
-#: core/lang/wpbc_all_translations2.php:408
+#: core/lang/wpbc_all_translations2.php:407
 #: includes/page-resource-free/page-resource-free.php:391
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:296
 msgid "Learn how to integrate the booking form into a page using the shortcode."
 msgstr "Obteniu informació sobre com integrar el formulari de reserva en una pàgina mitjançant el codi de substitució."
 
 #: core/lang/wpbc_all_translations2.php:177
-#: includes/page-setup/setup_templates.php:288
-#: includes/page-setup/template__bookings_types.php:190
-#: includes/publish/wpbc-publish-shortcode.php:333
+#: includes/page-setup/setup_steps.php:47
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:148
+#: includes/page-setup/templates/04.bookings_types__tpl.php:166
+#: includes/page-setup/templates/05.form_structure__tpl.php:419
+#: includes/page-setup/templates/07.color_theme__tpl.php:144
+#: includes/page-setup/templates/10.get_started__tpl.php:99
+#: includes/publish/wpbc-publish-shortcode.php:342
 msgid "Go Back"
 msgstr "Vés enrere"
 
 #: core/lang/wpbc_all_translations2.php:176
-#: includes/publish/wpbc-publish-shortcode.php:318
+#: includes/publish/wpbc-publish-shortcode.php:327
 msgid "Create Page"
 msgstr "Crea una pàgina"
 
 #: core/lang/wpbc_all_translations2.php:175
-#: includes/publish/wpbc-publish-shortcode.php:315
+#: includes/publish/wpbc-publish-shortcode.php:324
 msgid "Enter Page Name"
 msgstr "Introduïu el nom de la pàgina"
 
 #: core/lang/wpbc_all_translations2.php:174
-#: includes/publish/wpbc-publish-shortcode.php:312
+#: includes/publish/wpbc-publish-shortcode.php:321
 msgid "Provide a name for your new page."
 msgstr "Proporcioneu un nom per a la nova pàgina."
 
 #: core/lang/wpbc_all_translations2.php:173
-#: includes/publish/wpbc-publish-shortcode.php:307
+#: includes/publish/wpbc-publish-shortcode.php:316
 msgid "Use This Page"
 msgstr "Utilitza aquesta pàgina"
 
 #: core/lang/wpbc_all_translations2.php:172
-#: includes/publish/wpbc-publish-shortcode.php:301
+#: includes/publish/wpbc-publish-shortcode.php:310
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Seleccioneu &mdash;"
 
 #: core/lang/wpbc_all_translations2.php:171
-#: includes/publish/wpbc-publish-shortcode.php:295
+#: includes/publish/wpbc-publish-shortcode.php:304
 msgid "Select the page where you want to embed your booking form."
 msgstr "Seleccioneu la pàgina on voleu incrustar el vostre formulari de reserva."
 
 #: core/lang/wpbc_all_translations2.php:170
-#: includes/publish/wpbc-publish-shortcode.php:291
+#: includes/publish/wpbc-publish-shortcode.php:300
 msgid "Create New Page"
 msgstr "Crea una nova pàgina"
 
 #: core/lang/wpbc_all_translations2.php:169
-#: includes/publish/wpbc-publish-shortcode.php:284
+#: includes/publish/wpbc-publish-shortcode.php:293
 msgid "Embed in Existing Page"
 msgstr "Incrusta a la pàgina existent"
 
 #: core/lang/wpbc_all_translations2.php:168
-#: includes/publish/wpbc-publish-shortcode.php:276
+#: includes/publish/wpbc-publish-shortcode.php:285
 msgid "Choose whether to embed your booking form in an existing page or create a new one."
 msgstr "Trieu si voleu inserir el vostre formulari de reserva en una pàgina existent o crear-ne una de nova."
 
 #: core/lang/wpbc_all_translations2.php:166
-#: includes/publish/wpbc-publish-shortcode.php:170
-#: includes/publish/wpbc-publish-shortcode.php:176
+#: includes/publish/wpbc-publish-shortcode.php:173
+#: includes/publish/wpbc-publish-shortcode.php:179
 msgid "Find more information at the %sFAQ page%s"
 msgstr "Trobeu més informació a la %spàgina de PMF%s"
 
@@ -1855,7 +2006,7 @@ msgstr "Tipus de botó de pagament"
 msgid "Client ID"
 msgstr "Identificador de client"
 
-#: core/lang/wpbc_all_translations1.php:753 core/wpbc_functions.php:213
+#: core/lang/wpbc_all_translations1.php:753 core/wpbc_functions.php:217
 msgid "Legacy"
 msgstr "Heretat"
 
@@ -1888,8 +2039,10 @@ msgstr "%sValida el camp de text per a dígits%s."
 msgid "Wrap checkbox with a label"
 msgstr "Envolta la casella de selecció amb una etiqueta"
 
-#: core/lang/wpbc_all_translations1.php:225 core/wpbc.php:249
+#: core/lang/wpbc_all_translations1.php:225 core/wpbc.php:259
 #: includes/page-resource-free/page-resource-free.php:409
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:126
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:310
 msgid "Publish"
 msgstr "Publica"
 
@@ -1942,11 +2095,11 @@ msgstr "Pagaments parcials"
 msgid "Customize costs based on form fields selections."
 msgstr "Personalitzeu els costos en funció de les seleccions dels camps del formulari."
 
-#: core/lang/wpbc_all_translations.php:773 core/wpbc_welcome.php:354
+#: core/lang/wpbc_all_translations.php:773 core/wpbc_welcome.php:310
 msgid "Contact %sSupport%s."
 msgstr "Contacteu amb l'equip de %ssuport%s."
 
-#: core/lang/wpbc_all_translations.php:764 core/wpbc_welcome.php:297
+#: core/lang/wpbc_all_translations.php:764
 msgid "%sIntegrate booking form%s into a page on your website in just a few clicks."
 msgstr "%sIntegreu el formulari de reserva%s a una pàgina del vostre lloc web amb només uns quants clics."
 
@@ -1956,6 +2109,7 @@ msgid "Discount Coupons"
 msgstr "Cupons de descompte"
 
 #: core/lang/wpbc_all_translations.php:743
+#: includes/page-setup/templates/10.get_started__tpl.php:578
 #: includes/_functions/admin_top_bar.php:184
 msgid "Form Options Costs"
 msgstr "Costos d'opcions del formulari"
@@ -1968,8 +2122,9 @@ msgstr "Costos diaris"
 #: core/lang/wpbc_all_translations.php:741
 #: includes/page-availability/availability__page.php:412
 #: includes/page-availability/availability__page.php:414
+#: includes/page-setup/templates/06.cal_availability__tpl.php:47
 #: includes/_functions/admin_top_bar.php:156
-#: includes/_toolbar_ui/ui__settings_panel.php:444
+#: includes/_toolbar_ui/ui__settings_panel.php:475
 msgid "General Availability"
 msgstr "Disponibilitat general"
 
@@ -1980,17 +2135,19 @@ msgid "Seasons"
 msgstr "Temporades"
 
 #: core/lang/wpbc_all_translations.php:739
+#: includes/page-setup/templates/10.get_started__tpl.php:488
 #: includes/_functions/admin_top_bar.php:137
 msgid "Season Availability"
 msgstr "Disponibilitat de temporada"
 
 #: core/lang/wpbc_all_translations.php:738
 #: includes/page-availability/availability__page.php:41
+#: includes/page-setup/templates/10.get_started__tpl.php:460
 #: includes/_functions/admin_top_bar.php:128
 msgid "Days Availability"
 msgstr "Disponibilitat de dies"
 
-#: core/lang/wpbc_all_translations.php:729 core/wpbc.php:216
+#: core/lang/wpbc_all_translations.php:729 core/wpbc.php:236
 msgid "Booking Prices"
 msgstr "Preus de reserva"
 
@@ -1999,13 +2156,13 @@ msgid "Calendar View"
 msgstr "Calendari"
 
 #: core/lang/wpbc_all_translations1.php:957
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:315
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:49
 msgid "Insert WP Booking Calendar"
 msgstr "Insereix WP Booking Calendar"
 
 #: core/lang/wpbc_all_translations1.php:956
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:276
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:278
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:279
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:281
 msgid "Insert"
 msgstr "Insereix"
 
@@ -2030,7 +2187,7 @@ msgid "Import conditions"
 msgstr "Condicions d'importació"
 
 #: core/admin/api-settings.php:1665 core/lang/wpbc_all_translations.php:172
-#: core/wpbc.php:215 core/wpbc.php:217
+#: core/wpbc.php:235 core/wpbc.php:237
 #: includes/_functions/admin_top_bar.php:168
 msgid "Prices"
 msgstr "Preus"
@@ -2043,11 +2200,11 @@ msgstr "N_O"
 msgid "Y_E_S"
 msgstr "S_Í"
 
-#: core/lang/wpbc_all_translations.php:766 core/wpbc_welcome.php:308
+#: core/lang/wpbc_all_translations.php:766 core/wpbc_welcome.php:223
 msgid "See %sall shortcodes%s of the Booking Calendar that you can use in pages."
 msgstr "Consulteu %stots els codis de substitució%s de Booking Calendar que podeu utilitzar a les pàgines."
 
-#: core/lang/wpbc_all_translations.php:765 core/wpbc_welcome.php:304
+#: core/lang/wpbc_all_translations.php:765 core/wpbc_welcome.php:219
 msgid "Learn how to %sAdd the Booking Form or Calendar to your page%s in WordPress Block Editor, Elementor, or other non-standard editors."
 msgstr "Apreneu a %safegir el formulari o el calendari de reserves a la vostra pàgina%s a l'editor de blocs del WordPress, Elementor o altres editors no estàndard."
 
@@ -2146,8 +2303,11 @@ msgid "Booking form shortcode"
 msgstr "Codi de substitució del formulari de reserva"
 
 #: core/lang/wpbc_all_translations2.php:145
-#: includes/page-setup/setup_templates.php:318
-#: includes/page-setup/template__bookings_types.php:225
+#: includes/page-setup/setup_templates.php:350
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:182
+#: includes/page-setup/templates/04.bookings_types__tpl.php:203
+#: includes/page-setup/templates/05.form_structure__tpl.php:455
+#: includes/page-setup/templates/07.color_theme__tpl.php:180
 msgid "Reset Wizard"
 msgstr "Reinicialitza l'assistent"
 
@@ -2156,6 +2316,7 @@ msgid "Skip Wizard"
 msgstr "Salta l'assistent"
 
 #: core/lang/wpbc_all_translations2.php:143
+#: includes/page-setup/templates/06.cal_availability__tpl.php:146
 msgid "Advanced availability"
 msgstr "Disponibilitat avançada"
 
@@ -2246,22 +2407,24 @@ msgid "Subtotal cost"
 msgstr "Cost subtotal"
 
 #: core/lang/wpbc_all_translations1.php:798
+#: includes/page-form-simple/form_templates.php:528
+#: includes/page-form-simple/form_templates.php:564
 #: includes/_capacity/confirmation.php:223
 msgid "Total Cost"
 msgstr "Cost total"
 
 #: core/admin/api-settings.php:889 core/lang/wpbc_all_translations.php:93
-#: core/wpbc-activation.php:1004
+#: core/wpbc-activation.php:1008
 msgid "Personal information"
 msgstr "Dades personals"
 
 #: core/admin/api-settings.php:853 core/lang/wpbc_all_translations.php:91
-#: core/wpbc-activation.php:999 includes/_capacity/confirmation.php:123
+#: core/wpbc-activation.php:1003 includes/_capacity/confirmation.php:123
 msgid "Your booking id: %s"
 msgstr "Identificador de la reserva: %s"
 
-#: core/lang/wpbc_all_translations1.php:796 includes/_capacity/capacity.php:785
-#: includes/_capacity/capacity.php:838 includes/_capacity/capacity.php:863
+#: core/lang/wpbc_all_translations1.php:796 includes/_capacity/capacity.php:795
+#: includes/_capacity/capacity.php:848 includes/_capacity/capacity.php:873
 msgid "Full day"
 msgstr "Tot el dia"
 
@@ -2295,10 +2458,16 @@ msgid "Pay Deposit cost"
 msgstr "Pagueu el cost del dipòsit"
 
 #: core/lang/wpbc_all_translations1.php:469
+#: includes/page-form-simple/form_templates.php:272
+#: includes/page-form-simple/form_templates.php:330
+#: includes/page-form-simple/form_templates.php:383
 msgid "Coupon (required)"
 msgstr "Cupó (obligatori)"
 
 #: core/lang/wpbc_all_translations1.php:461
+#: includes/page-form-simple/form_templates.php:114
+#: includes/page-form-simple/form_templates.php:145
+#: includes/page-form-simple/form_templates.php:516
 msgid "Select Date"
 msgstr "Seleccioneu una data"
 
@@ -2398,41 +2567,47 @@ msgstr "Marqueu aquesta casella per mostrar els detalls de la reserva amb un ind
 msgid "Discounts applied"
 msgstr "Descomptes aplicats"
 
-#: core/lang/wpbc_all_translations.php:774 core/wpbc_welcome.php:374
+#: core/lang/wpbc_all_translations.php:774
 msgid "Need even more functionality? Check %s Pro Versions %s."
 msgstr "Necessiteu encara més funcionalitats? Feu una ullada a les %s versions pro %s."
 
-#: core/lang/wpbc_all_translations.php:770 core/wpbc_welcome.php:336
+#: core/lang/wpbc_all_translations.php:770 core/wpbc_welcome.php:272
 msgid "Configure  %sForm Fields%s, %sEmails%s and other %sSettings%s."
 msgstr "Configureu %scamps de formulari%s, %scorreus electrònics%s i altres %sparàmetres%s."
 
-#: core/lang/wpbc_all_translations.php:768 core/wpbc_welcome.php:322
+#: core/lang/wpbc_all_translations.php:768 core/wpbc_welcome.php:258
 msgid "Start creating %snew bookings%s from %syour page%s or in the %sAdmin Panel%s."
 msgstr "Comenceu a crear %snoves reserves%s des de %sla vostra pàgina%s o al %squadre d'administració%s."
 
 #: core/lang/wpbc_all_translations.php:758 core/wpbc_functions_dates.php:283
+#: includes/page-form-simple/form_templates.php:525
+#: includes/page-form-simple/form_templates.php:561
 msgid "Time"
 msgstr "Hora"
 
 #: core/lang/wpbc_all_translations.php:757 core/wpbc_functions_dates.php:235
 #: core/wpbc_functions_dates.php:277
+#: includes/page-form-simple/form_templates.php:306
+#: includes/page-form-simple/form_templates.php:359
+#: includes/page-form-simple/form_templates.php:524
+#: includes/page-form-simple/form_templates.php:560
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:229
 msgid "Date"
 msgstr "Data"
 
-#: core/admin/api-settings.php:1676 core/lang/wpbc_all_translations.php:173
-#: core/wpbc.php:237 core/wpbc.php:238 core/wpbc.php:239
+#: core/lang/wpbc_all_translations.php:173
 #: includes/page-resource-free/page-resource-free.php:400
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:304
 msgid "Customize"
 msgstr "Personalitza"
 
 #: core/lang/wpbc_all_translations.php:724 core/wpbc-translation.php:591
-#: includes/_toolbar_ui/ui__settings_panel.php:1673
+#: includes/_toolbar_ui/ui__settings_panel.php:1817
 msgid "Show exist translations status"
 msgstr "Mostra l'estat de les traduccions existents"
 
 #: core/lang/wpbc_all_translations.php:723 core/wpbc-translation.php:581
-#: includes/_toolbar_ui/ui__settings_panel.php:1658
+#: includes/_toolbar_ui/ui__settings_panel.php:1802
 msgid "Download translation PO files from %s and update the current translation version."
 msgstr "Baixeu els fitxers PO de traducció de %s i actualitzeu la versió de la traducció actual."
 
@@ -2460,79 +2635,80 @@ msgstr "No hem trobat la vostra reserva. L'enllaç que heu utilitzat potser és 
 msgid "Oops!"
 msgstr "Vaja!"
 
-#: core/admin/wpbc-toolbars.php:992 core/lang/wpbc_all_translations.php:495
+#: core/admin/wpbc-toolbars.php:993 core/lang/wpbc_all_translations.php:495
 msgid "Maximum width of calendar"
 msgstr "Amplada màxima del calendari"
 
 #: core/admin/wpbc-dashboard.php:854 core/lang/wpbc_all_translations.php:456
-#: includes/_toolbar_ui/ui__settings_panel.php:1875
+#: includes/_toolbar_ui/ui__settings_panel.php:2019
 msgid "Booking(s) for today"
 msgstr "Reserva(es) per avui"
 
-#: core/admin/page-settings.php:599 core/lang/wpbc_all_translations.php:419
+#: core/admin/page-settings.php:601 core/lang/wpbc_all_translations.php:419
 msgid "Date : Time"
 msgstr "Data : Hora"
 
-#: core/admin/page-settings.php:570 core/lang/wpbc_all_translations.php:417
+#: core/admin/page-settings.php:572 core/lang/wpbc_all_translations.php:417
 msgid "Booking Quantity Control - Set limits for the number of bookings per day or time slot."
 msgstr "Control de quantitat de reserves -  Establiu límits per al nombre de reserves per dia o franja horària."
 
-#: core/admin/page-settings.php:499 core/lang/wpbc_all_translations.php:412
+#: core/admin/page-settings.php:501 core/lang/wpbc_all_translations.php:412
 msgid "Bookings Options"
 msgstr "Opcions de les reserves"
 
-#: core/admin/page-settings.php:436 core/lang/wpbc_all_translations.php:406
+#: core/admin/page-settings.php:438 core/lang/wpbc_all_translations.php:406
 msgid "Calendar Dates Tooltips"
 msgstr "Indicadors emergents sobre les dates del calendari"
 
-#: core/admin/page-settings.php:393 core/lang/wpbc_all_translations.php:526
+#: core/admin/page-settings.php:395 core/lang/wpbc_all_translations.php:526
 msgid "Show All Settings"
 msgstr "Mostra tots els paràmetres"
 
-#: core/admin/page-settings.php:384 core/admin/page-settings.php:621
+#: core/admin/page-settings.php:386 core/admin/page-settings.php:623
 #: core/lang/wpbc_all_translations.php:421
-#: includes/_toolbar_ui/ui__settings_panel.php:1533
+#: includes/_toolbar_ui/ui__settings_panel.php:1673
 msgid "Tools"
 msgstr "Eines"
 
-#: core/admin/page-settings.php:376 core/lang/wpbc_all_translations.php:525
+#: core/admin/page-settings.php:378 core/lang/wpbc_all_translations.php:525
 msgid "Info / News"
 msgstr "Informació / Notícies"
 
-#: core/admin/page-settings.php:348 core/lang/wpbc_all_translations.php:524
-#: includes/_toolbar_ui/ui__settings_panel.php:1369
+#: core/admin/page-settings.php:350 core/lang/wpbc_all_translations.php:524
+#: includes/_toolbar_ui/ui__settings_panel.php:1474
 msgid "Plugin Menu / Permissions"
 msgstr "Menú / Permisos de l'extensió"
 
-#: core/admin/page-settings.php:341 core/lang/wpbc_all_translations.php:523
+#: core/admin/page-settings.php:343 core/lang/wpbc_all_translations.php:523
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:136
 msgid "Date / Time Formats"
 msgstr "Formats de data / hora"
 
-#: core/admin/page-settings.php:307 core/lang/wpbc_all_translations.php:521
-#: includes/_toolbar_ui/ui__settings_panel.php:1218
+#: core/admin/page-settings.php:309 core/lang/wpbc_all_translations.php:521
+#: includes/_toolbar_ui/ui__settings_panel.php:1296
 msgid "Auto Cancellation / Auto Approval"
 msgstr "Cancel·lació automàtica / Aprovació automàtica"
 
-#: core/admin/page-settings.php:297 core/lang/wpbc_all_translations.php:520
-#: includes/_toolbar_ui/ui__settings_panel.php:238
-#: includes/_toolbar_ui/ui__settings_panel.php:1171
+#: core/admin/page-settings.php:299 core/lang/wpbc_all_translations.php:520
+#: includes/_toolbar_ui/ui__settings_panel.php:243
+#: includes/_toolbar_ui/ui__settings_panel.php:1243
 msgid "Manage Bookings"
 msgstr "Gestiona les reserves"
 
-#: core/admin/page-settings.php:281 core/admin/page-settings.php:467
+#: core/admin/page-settings.php:283 core/admin/page-settings.php:469
 #: core/lang/wpbc_all_translations.php:408
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:51
-#: includes/_toolbar_ui/ui__settings_panel.php:656
+#: includes/_toolbar_ui/ui__settings_panel.php:715
 msgid "Booking Confirmation"
 msgstr "Confirmació de reserva"
 
-#: core/admin/page-settings.php:267 core/admin/page-settings.php:458
+#: core/admin/page-settings.php:269 core/admin/page-settings.php:460
 #: core/lang/wpbc_all_translations.php:407
-#: includes/page-form-simple/page-form-simple.php:178
+#: includes/page-form-simple/page-form-simple.php:176
 msgid "Form Options"
 msgstr "Opcions del formulari"
 
-#: core/admin/page-settings.php:246 core/lang/wpbc_all_translations.php:519
+#: core/admin/page-settings.php:248 core/lang/wpbc_all_translations.php:519
 msgid "Tooltips in days"
 msgstr "Indicadors emergents en els dies"
 
@@ -2562,12 +2738,12 @@ msgid "Help Tips"
 msgstr "Consells d'ajuda"
 
 #: core/lang/wpbc_all_translations.php:546
-#: includes/page-form-simple/page-form-simple.php:75
+#: includes/page-form-simple/page-form-simple.php:73
 msgid "Free vs Pro"
 msgstr "Gratuïta vs pro"
 
 #: core/lang/wpbc_all_translations.php:545
-#: includes/page-form-simple/page-form-simple.php:61
+#: includes/page-form-simple/page-form-simple.php:59
 msgid "Customize fields in booking form"
 msgstr "Personalitzeu els camps del formulari de reserva"
 
@@ -2630,12 +2806,12 @@ msgid "Confirmation Page URL"
 msgstr "URL de la pàgina de confirmació"
 
 #: core/admin/api-settings.php:818 core/lang/wpbc_all_translations.php:87
-#: core/wpbc-activation.php:981
+#: core/wpbc-activation.php:985
 msgid "Your booking is received. Please proceed with payment to confirm it. Many thanks!"
 msgstr "S'ha rebut la vostra reserva. Continueu amb el pagament per confirmar-la. Moltes gràcies!"
 
 #: core/admin/api-settings.php:817 core/lang/wpbc_all_translations.php:86
-#: core/wpbc-activation.php:980
+#: core/wpbc-activation.php:984
 msgid "Your booking is received. We will confirm it soon. Many thanks!"
 msgstr "S'ha rebut la vostra reserva. La confirmarem aviat. Moltes gràcies!"
 
@@ -2654,12 +2830,14 @@ msgid "Show booking confirmation message"
 msgstr "Mostra el missatge de confirmació de la reserva"
 
 #: core/admin/api-settings.php:649 core/lang/wpbc_all_translations.php:67
-#: includes/page-form-simple/page-form-simple.php:459
+#: includes/page-form-simple/page-form-simple.php:500
+#: includes/page-setup/templates/07.color_theme__tpl.php:490
 msgid "Dark"
 msgstr "Fosc"
 
 #: core/admin/api-settings.php:648 core/lang/wpbc_all_translations.php:66
-#: includes/page-form-simple/page-form-simple.php:458
+#: includes/page-form-simple/page-form-simple.php:499
+#: includes/page-setup/templates/07.color_theme__tpl.php:489
 msgid "Light"
 msgstr "Clar"
 
@@ -2672,15 +2850,17 @@ msgid "feature"
 msgstr "característica"
 
 #: core/admin/api-settings.php:642 core/lang/wpbc_all_translations.php:64
-#: includes/page-form-simple/page-form-simple.php:453
+#: includes/page-form-simple/page-form-simple.php:494
+#: includes/page-setup/templates/07.color_theme__tpl.php:48
 msgid "Select a color theme for your booking form that matches the look of your website."
 msgstr "Seleccioneu un tema de color per al vostre formulari de reserva que coincideixi amb l'aspecte del vostre lloc web."
 
 #: core/admin/api-settings.php:641 core/lang/wpbc_all_translations.php:63
-#: includes/page-form-simple/page-form-simple.php:157
-#: includes/page-form-simple/page-form-simple.php:228
-#: includes/page-form-simple/page-form-simple.php:229
-#: includes/page-form-simple/page-form-simple.php:452
+#: includes/page-form-simple/page-form-simple.php:155
+#: includes/page-form-simple/page-form-simple.php:226
+#: includes/page-form-simple/page-form-simple.php:227
+#: includes/page-form-simple/page-form-simple.php:493
+#: includes/page-setup/templates/07.color_theme__tpl.php:478
 msgid "Color Theme"
 msgstr "Tema de color"
 
@@ -2697,7 +2877,7 @@ msgstr "Selecció de dies al calendari"
 msgid "Show all bookings."
 msgstr "Mostra totes les reserves."
 
-#: core/admin/wpbc-toolbars.php:1606 core/lang/wpbc_all_translations.php:502
+#: core/admin/wpbc-toolbars.php:1607 core/lang/wpbc_all_translations.php:502
 #: includes/_toolbar_ui/toolbar_ui.php:861
 msgid "Reset keyword text field"
 msgstr "Reinicialitza el camp de text de paraules clau"
@@ -2758,7 +2938,7 @@ msgstr "Edició de reserva"
 msgid "This page can only be accessed through links in emails related to your booking."
 msgstr "Només es pot accedir a aquesta pàgina mitjançant els enllaços als correus electrònics relacionats amb la vostra reserva."
 
-#: core/lang/wpbc_all_translations.php:734 core/wpbc.php:313
+#: core/lang/wpbc_all_translations.php:734 core/wpbc.php:333
 msgid "Get Pro"
 msgstr "Obteniu la versió pro"
 
@@ -2806,6 +2986,7 @@ msgstr "Elimina totes les dates no disponibles d'aquest calendari"
 
 #: core/lang/wpbc_all_translations2.php:39
 #: includes/page-availability/availability__toolbar_ui.php:289
+#: includes/page-setup/templates/06.cal_availability__tpl.php:821
 msgid "Reset availability"
 msgstr "Reinicialitza la disponibilitat"
 
@@ -2928,9 +3109,10 @@ msgid "Apply availability"
 msgstr "Aplica la disponibilitat"
 
 #: core/admin/api-settings.php:396 core/lang/wpbc_all_translations.php:46
-#: core/lib/wpbc-calendar-legend.php:156 core/wpbc-activation.php:1210
+#: core/lib/wpbc-calendar-legend.php:156 core/wpbc-activation.php:1209
 #: includes/page-availability/availability__toolbar_ui.php:191
-#: includes/_capacity/capacity.php:998
+#: includes/page-setup/templates/06.cal_availability__tpl.php:387
+#: includes/_capacity/capacity.php:1008
 msgid "Unavailable"
 msgstr "No disponible"
 
@@ -3045,36 +3227,36 @@ msgstr "Simula l'inici de sessió com a %s"
 msgid "Log Off"
 msgstr "Surt"
 
-#: core/lang/wpbc_all_translations.php:731 core/wpbc.php:291
+#: core/lang/wpbc_all_translations.php:731 core/wpbc.php:311
 msgid "Log out as regular user and login as super booking admin user"
 msgstr "Sortiu com a usuari habitual i entreu com a usuari super administrador de reserves"
 
-#: core/admin/page-settings.php:318 core/admin/page-settings.php:638
+#: core/admin/page-settings.php:320 core/admin/page-settings.php:640
 #: core/lang/wpbc_all_translations.php:423
 msgid "Multiuser options"
 msgstr "Opcions multiusuari"
 
 #: core/admin/wpbc-dashboard.php:680 core/lang/wpbc_all_translations.php:455
 #: includes/_toolbar_ui/toolbar_ui.php:531
-#: includes/_toolbar_ui/ui__settings_panel.php:1975
+#: includes/_toolbar_ui/ui__settings_panel.php:2119
 msgid "Check out - Tomorrow"
 msgstr "Sortida - Demà"
 
 #: core/admin/wpbc-dashboard.php:676 core/lang/wpbc_all_translations.php:454
 #: includes/_toolbar_ui/toolbar_ui.php:530
-#: includes/_toolbar_ui/ui__settings_panel.php:1955
+#: includes/_toolbar_ui/ui__settings_panel.php:2099
 msgid "Check in - Tomorrow"
 msgstr "Entrada - Demà"
 
 #: core/admin/wpbc-dashboard.php:672 core/lang/wpbc_all_translations.php:453
 #: includes/_toolbar_ui/toolbar_ui.php:529
-#: includes/_toolbar_ui/ui__settings_panel.php:1935
+#: includes/_toolbar_ui/ui__settings_panel.php:2079
 msgid "Check out - Today"
 msgstr "Sortida - Avui"
 
 #: core/admin/wpbc-dashboard.php:668 core/lang/wpbc_all_translations.php:452
 #: includes/_toolbar_ui/toolbar_ui.php:528
-#: includes/_toolbar_ui/ui__settings_panel.php:1915
+#: includes/_toolbar_ui/ui__settings_panel.php:2059
 msgid "Check in - Today"
 msgstr "Entrada - Avui"
 
@@ -3094,7 +3276,7 @@ msgstr "No"
 
 #: core/lang/wpbc_all_translations.php:553
 #: includes/page-bookings/bookings__sql.php:2078
-#: includes/page-form-simple/form_simple__get_data.php:615
+#: includes/page-form-simple/form_simple__get_data.php:955
 msgid "Yes"
 msgstr "Sí"
 
@@ -3546,7 +3728,7 @@ msgid "Please check more here %s"
 msgstr "Més informació aquí %s"
 
 #: core/lang/wpbc_all_translations.php:725 core/wpbc-translation.php:596
-#: includes/_toolbar_ui/ui__settings_panel.php:1676
+#: includes/_toolbar_ui/ui__settings_panel.php:1820
 msgid "Show translations status"
 msgstr "Mostra l'estat de les traduccions"
 
@@ -3638,41 +3820,41 @@ msgstr "Totes les traduccions estan actualitzades."
 msgid "Some of your translations need updating. Sit tight for a few more seconds while we update them as well."
 msgstr "Algunes de les traduccions necessiten actualització. No us mogueu durant uns segons mentre les actualitzem també."
 
-#: core/admin/wpbc-toolbars.php:640 core/admin/wpbc-toolbars.php:641
+#: core/admin/wpbc-toolbars.php:641 core/admin/wpbc-toolbars.php:642
 #: core/lang/wpbc_all_translations.php:478
 msgid "Previous"
 msgstr "Anteriors"
 
-#: core/admin/page-settings.php:661 core/lang/wpbc_all_translations.php:424
+#: core/admin/page-settings.php:663 core/lang/wpbc_all_translations.php:424
 #: core/wpbc-translation.php:585
-#: includes/_toolbar_ui/ui__settings_panel.php:1661
+#: includes/_toolbar_ui/ui__settings_panel.php:1805
 msgid "Update Translations"
 msgstr "Actualitza les traduccions"
 
-#: core/admin/page-settings.php:355 core/admin/page-settings.php:628
+#: core/admin/page-settings.php:357 core/admin/page-settings.php:630
 #: core/lang/wpbc_all_translations.php:422
-#: includes/_toolbar_ui/ui__settings_panel.php:1397
+#: includes/_toolbar_ui/ui__settings_panel.php:1509
 msgid "Translations"
 msgstr "Traduccions"
 
-#: core/admin/page-settings.php:289 core/admin/page-settings.php:523
+#: core/admin/page-settings.php:291 core/admin/page-settings.php:525
 #: core/lang/wpbc_all_translations.php:414
 msgid "Timeline (front-end)"
 msgstr "Cronologia (portada)"
 
-#: core/admin/page-settings.php:514 core/lang/wpbc_all_translations.php:413
+#: core/admin/page-settings.php:516 core/lang/wpbc_all_translations.php:413
 msgid "Calendar Overview (admin panel)"
 msgstr "Resum del calendari (quadre d'administració)"
 
-#: core/admin/api-settings.php:1852 core/lang/wpbc_all_translations.php:187
+#: core/admin/api-settings.php:1841 core/lang/wpbc_all_translations.php:187
 msgid "The plugin tries to use translations from %s, if failed (doesn't exist), try using translations from %s folder. You can change this behavior with this option."
 msgstr "L'extensió intenta utilitzar traduccions de %s, si falla (no existeix), proveu d'utilitzar traduccions de la carpeta %s. Podeu canviar aquest comportament amb aquesta opció."
 
-#: core/admin/api-settings.php:1842 core/lang/wpbc_all_translations.php:186
+#: core/admin/api-settings.php:1831 core/lang/wpbc_all_translations.php:186
 msgid "Local"
 msgstr "Local"
 
-#: core/admin/api-settings.php:1839 core/lang/wpbc_all_translations.php:185
+#: core/admin/api-settings.php:1828 core/lang/wpbc_all_translations.php:185
 msgid "Firstly load translation"
 msgstr "En primer lloc, carrega la traducció"
 
@@ -3807,14 +3989,24 @@ msgid "Title of send button"
 msgstr "Títol del botó d'enviament"
 
 #: core/lang/wpbc_all_translations1.php:242
+#: includes/page-setup/templates/05.form_structure__tpl.php:243
+#: includes/page-setup/templates/05.form_structure__tpl.php:277
+#: includes/page-setup/templates/05.form_structure__tpl.php:278
+#: includes/page-setup/templates/05.form_structure__tpl.php:279
+#: includes/page-setup/templates/05.form_structure__tpl.php:280
+#: includes/page-setup/templates/05.form_structure__tpl.php:281
+#: includes/page-setup/templates/05.form_structure__tpl.php:282
 msgid "Time slots"
 msgstr "Franges horàries"
 
 #: core/lang/wpbc_all_translations1.php:241
+#: includes/page-setup/templates/05.form_structure__tpl.php:267
 msgid "2 columns with  times"
 msgstr "2 columnes amb les hores"
 
 #: core/lang/wpbc_all_translations1.php:240
+#: includes/page-setup/templates/05.form_structure__tpl.php:265
+#: includes/page-setup/templates/05.form_structure__tpl.php:266
 msgid "columns"
 msgstr "columnes"
 
@@ -3824,16 +4016,17 @@ msgstr "Seleccioneu un estil per al selector d'hora"
 
 #: core/admin/api-settings.php:517 core/lang/wpbc_all_translations.php:55
 #: includes/page-form-simple/form_simple__preview_templates.php:147
+#: includes/page-setup/templates/07.color_theme__tpl.php:369
 msgid "Time Picker Skin"
 msgstr "Estil del selector d'hora"
 
 #: core/admin/api-settings.php:492 core/lang/wpbc_all_translations.php:54
-#: includes/page-form-simple/page-form-simple.php:558
+#: includes/page-form-simple/page-form-simple.php:599
 msgid "Show time slots as a time picker instead of a select box."
 msgstr "Mostra les franges horàries com a selector d'hora en lloc d'un camp desplegable."
 
 #: core/admin/api-settings.php:491 core/lang/wpbc_all_translations.php:53
-#: includes/page-form-simple/page-form-simple.php:557
+#: includes/page-form-simple/page-form-simple.php:598
 msgid "Time picker for time slots"
 msgstr "Selector d'hora per a franges horàries"
 
@@ -4182,7 +4375,7 @@ msgid "Set Early / Late Booking"
 msgstr "Estableix la reserva anticipada/tardana"
 
 #: core/lang/wpbc_all_translations1.php:653
-#: includes/_toolbar_ui/ui__settings_panel.php:980
+#: includes/_toolbar_ui/ui__settings_panel.php:1045
 msgid "Payment Options"
 msgstr "Opcions de pagament"
 
@@ -4272,9 +4465,9 @@ msgstr "Estableix la data de sortida com a disponible"
 msgid "if selected %s"
 msgstr "si se selecciona %s"
 
-#: core/admin/api-settings.php:998 core/admin/page-settings.php:481
-#: core/lang/wpbc_all_translations.php:96 core/wpbc-activation.php:1011
-#: includes/_capacity/capacity.php:1334
+#: core/admin/api-settings.php:998 core/admin/page-settings.php:483
+#: core/lang/wpbc_all_translations.php:96 core/wpbc-activation.php:1015
+#: includes/_capacity/capacity.php:1386
 msgid "Booking details"
 msgstr "Dades de la reserva"
 
@@ -4362,11 +4555,11 @@ msgstr "Paga"
 #: includes/page-availability/availability__page.php:267
 #: includes/page-bookings/bookings__page.php:187
 #: includes/page-settings-all/all__page.php:393
-#: includes/page-setup/setup__page.php:208
+#: includes/page-setup/setup__page.php:265
 msgid "Loading"
 msgstr "S'està carregant"
 
-#: core/class/wpbc-class-notices.php:26 core/lang/wpbc_all_translations.php:505
+#: core/class/wpbc-class-notices.php:41 core/lang/wpbc_all_translations.php:505
 msgid "Probably you updated your paid version of Booking Calendar by free version or update process failed. You can request the new update of your paid version at %1sthis page%2s."
 msgstr "Probablement heu actualitzat la vostra versió de pagament de Booking Calendar amb la versió gratuïta o el procés d'actualització ha fallat. Podeu sol·licitar la nova actualització de la vostra versió de pagament en %1saquesta pàgina%2s."
 
@@ -4542,22 +4735,25 @@ msgid "feed"
 msgstr "canal"
 
 #: core/lang/wpbc_all_translations.php:569
-#: includes/page-form-simple/page-form-simple.php:341
+#: includes/page-form-simple/page-form-simple.php:350
+#: includes/page-setup/templates/05.form_structure__tpl.php:236
 msgid "Form and calendar are centered"
 msgstr "El formulari i el calendari estan centrats"
 
 #: core/lang/wpbc_all_translations.php:568
-#: includes/page-form-simple/page-form-simple.php:331
+#: includes/page-form-simple/page-form-simple.php:340
+#: includes/page-setup/templates/05.form_structure__tpl.php:235
 msgid "Form at right side of calendar"
 msgstr "Formulari al costat dret del calendari"
 
 #: core/lang/wpbc_all_translations.php:567
-#: includes/page-form-simple/page-form-simple.php:321
+#: includes/page-form-simple/page-form-simple.php:330
+#: includes/page-setup/templates/05.form_structure__tpl.php:234
 msgid "Form under calendar"
 msgstr "Formulari sota el calendari"
 
 #: core/lang/wpbc_all_translations.php:566
-#: includes/page-form-simple/page-form-simple.php:318
+#: includes/page-form-simple/page-form-simple.php:316
 msgid "Standard Forms"
 msgstr "Formularis estàndard"
 
@@ -4607,11 +4803,11 @@ msgstr "Demostració"
 msgid "Video guide"
 msgstr "Vídeo guia"
 
-#: core/admin/api-settings.php:1718 core/lang/wpbc_all_translations.php:179
+#: core/admin/api-settings.php:1707 core/lang/wpbc_all_translations.php:179
 msgid "Show / hide menu"
 msgstr "Mostra / amaga el menú"
 
-#: core/admin/api-settings.php:1717 core/lang/wpbc_all_translations.php:178
+#: core/admin/api-settings.php:1706 core/lang/wpbc_all_translations.php:178
 msgid "Premium"
 msgstr "Prèmium"
 
@@ -4647,7 +4843,7 @@ msgstr "Mostra els dies reservats parcialment amb el mateix fons que a l'element
 msgid "Do not change background color for partially booked days"
 msgstr "No canviïs el color de fons per als dies reservats parcialment"
 
-#: core/admin/page-settings.php:670 core/lang/wpbc_all_translations.php:425
+#: core/admin/page-settings.php:672 core/lang/wpbc_all_translations.php:425
 #: includes/page-resource-free/page-resource-free.php:430
 msgid "Restore all dismissed windows"
 msgstr "Restaura totes les finestres descartades"
@@ -4657,7 +4853,7 @@ msgstr "Restaura totes les finestres descartades"
 msgid "Timeline"
 msgstr "Cronologia"
 
-#: core/admin/page-settings.php:111 core/admin/page-settings.php:507
+#: core/admin/page-settings.php:111 core/admin/page-settings.php:509
 #: core/lang/wpbc_all_translations.php:399
 msgid "Booking Admin Panel"
 msgstr "Quadre d'administració de reserves"
@@ -4681,7 +4877,7 @@ msgid "Customization of email template, which is sent to Visitor after rejecting
 msgstr "Personalització de la plantilla de correu electrònic, que s'envia al visitant després de rebutjar la reserva"
 
 #: core/lang/wpbc_all_translations.php:596
-#: includes/page-form-simple/form_simple__timeslots.php:601
+#: includes/page-form-simple/form_simple__timeslots.php:618
 msgid "+ Add Time Slot"
 msgstr "+ Afegeix una franja horària"
 
@@ -4720,8 +4916,10 @@ msgstr "Personalització de la plantilla de correu electrònic, que s'envia al v
 msgid "Email Address will be used in the FROM field of response to Visitor."
 msgstr "L'adreça electrònica s'utilitzarà al camp REMITENT de resposta al visitant."
 
-#: core/admin/wpbc-toolbars.php:1208 core/admin/wpbc-toolbars.php:1209
-#: core/lang/wpbc_all_translations.php:499
+#: core/admin/page-email-approved.php:956 core/admin/page-email-deny.php:945
+#: core/admin/page-email-new-admin.php:934
+#: core/admin/page-email-new-visitor.php:922 core/admin/wpbc-toolbars.php:1209
+#: core/admin/wpbc-toolbars.php:1210 core/lang/wpbc_all_translations.php:499
 #: includes/page-bookings/bookings__actions.php:2875
 msgid "Add to Google Calendar"
 msgstr "Afegeix a Google Calendar"
@@ -4788,7 +4986,7 @@ msgstr "Importades"
 msgid "In Trash / Rejected"
 msgstr "A la paperera / Rebutjada"
 
-#: core/lang/wpbc_all_translations.php:812 core/wpbc-activation.php:1511
+#: core/lang/wpbc_all_translations.php:812 core/wpbc-activation.php:1521
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:212
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:223
 msgid "Nothing Found"
@@ -4799,7 +4997,7 @@ msgstr "No s'ha trobat res"
 msgid "wpdevelop, oplugins"
 msgstr "wpdevelop, oplugins"
 
-#: core/wpbc_functions.php:481
+#: core/wpbc_functions.php:489
 msgid "Thanks :)"
 msgstr "Gràcies"
 
@@ -4843,7 +5041,7 @@ msgstr "Introduïu el vostre identificador de comerciant iDEAL"
 msgid "Merchant ID"
 msgstr "Identificador de comerciant"
 
-#: core/lang/wpbc_all_translations.php:756 core/wpbc_functions.php:1265
+#: core/lang/wpbc_all_translations.php:756 core/wpbc_functions.php:1273
 msgid "Payment rejected"
 msgstr "Pagament rebutjat"
 
@@ -5252,7 +5450,7 @@ msgid "Payment Gateways - General Settings"
 msgstr "Passarel·les de pagament - Configuració general"
 
 #: core/lang/wpbc_all_translations2.php:373
-#: includes/_toolbar_ui/ui__settings_panel.php:908
+#: includes/_toolbar_ui/ui__settings_panel.php:973
 msgid "Payment Gateways"
 msgstr "Passarel·les de Pagament"
 
@@ -5273,6 +5471,8 @@ msgid "Show booking details in payment form"
 msgstr "Mostra els detalls de la reserva al formulari de pagament"
 
 #: core/lang/wpbc_all_translations1.php:645
+#: includes/page-form-simple/form_templates.php:806
+#: includes/page-form-simple/form_templates.php:1137
 msgid "State"
 msgstr "Estat"
 
@@ -5770,100 +5970,396 @@ msgid "Check in"
 msgstr "Entrada"
 
 #: core/lang/wpbc_all_translations1.php:475
+#: includes/page-form-simple/form_templates.php:466
+#: includes/page-form-simple/form_templates.php:805
+#: includes/page-form-simple/form_templates.php:808
+#: includes/page-form-simple/form_templates.php:1004
+#: includes/page-form-simple/form_templates.php:1041
+#: includes/page-form-simple/form_templates.php:1135
 msgid "Country"
 msgstr "País"
 
 #: core/lang/wpbc_all_translations1.php:474
+#: includes/page-form-simple/form_templates.php:465
+#: includes/page-form-simple/form_templates.php:803
+#: includes/page-form-simple/form_templates.php:1003
+#: includes/page-form-simple/form_templates.php:1040
+#: includes/page-form-simple/form_templates.php:1134
 msgid "Post code"
 msgstr "Codi Postal"
 
 #: core/lang/wpbc_all_translations1.php:473
+#: includes/page-form-simple/form_templates.php:464
+#: includes/page-form-simple/form_templates.php:802
+#: includes/page-form-simple/form_templates.php:1000
+#: includes/page-form-simple/form_templates.php:1037
+#: includes/page-form-simple/form_templates.php:1133
 msgid "City"
 msgstr "Ciutat"
 
 #: core/lang/wpbc_all_translations1.php:472
+#: includes/page-form-simple/form_templates.php:463
+#: includes/page-form-simple/form_templates.php:801
+#: includes/page-form-simple/form_templates.php:999
+#: includes/page-form-simple/form_templates.php:1036
+#: includes/page-form-simple/form_templates.php:1132
 msgid "Address"
 msgstr "Adreça"
 
 #: core/lang/wpbc_all_translations1.php:471
-#: includes/page-form-simple/form_simple__default.php:81
+#: includes/page-form-simple/form_simple__default.php:80
+#: includes/page-form-simple/form_simple__default.php:202
+#: includes/page-form-simple/form_simple__default.php:302
+#: includes/page-form-simple/form_templates.php:431
+#: includes/page-form-simple/form_templates.php:446
+#: includes/page-form-simple/form_templates.php:459
+#: includes/page-form-simple/form_templates.php:476
+#: includes/page-form-simple/form_templates.php:490
+#: includes/page-form-simple/form_templates.php:545
+#: includes/page-form-simple/form_templates.php:647
+#: includes/page-form-simple/form_templates.php:699
+#: includes/page-form-simple/form_templates.php:722
+#: includes/page-form-simple/form_templates.php:759
+#: includes/page-form-simple/form_templates.php:799
+#: includes/page-form-simple/form_templates.php:879
+#: includes/page-form-simple/form_templates.php:926
+#: includes/page-form-simple/form_templates.php:995
+#: includes/page-form-simple/form_templates.php:1032
+#: includes/page-form-simple/form_templates.php:1072
+#: includes/page-form-simple/form_templates.php:1093
+#: includes/page-form-simple/form_templates.php:1120
+#: includes/page-form-simple/form_templates.php:1130
+#: includes/page-form-simple/form_templates.php:1155
+#: includes/page-form-simple/form_templates.php:1168
+#: includes/page-form-simple/form_templates.php:1180
 msgid "Email"
 msgstr "Correu electrònic"
 
 #: core/lang/wpbc_all_translations1.php:470
+#: includes/page-form-simple/form_templates.php:430
+#: includes/page-form-simple/form_templates.php:445
+#: includes/page-form-simple/form_templates.php:458
+#: includes/page-form-simple/form_templates.php:475
+#: includes/page-form-simple/form_templates.php:489
+#: includes/page-form-simple/form_templates.php:542
+#: includes/page-form-simple/form_templates.php:644
+#: includes/page-form-simple/form_templates.php:698
+#: includes/page-form-simple/form_templates.php:721
+#: includes/page-form-simple/form_templates.php:756
+#: includes/page-form-simple/form_templates.php:798
+#: includes/page-form-simple/form_templates.php:876
+#: includes/page-form-simple/form_templates.php:925
+#: includes/page-form-simple/form_templates.php:992
+#: includes/page-form-simple/form_templates.php:1029
+#: includes/page-form-simple/form_templates.php:1069
+#: includes/page-form-simple/form_templates.php:1092
+#: includes/page-form-simple/form_templates.php:1119
+#: includes/page-form-simple/form_templates.php:1129
+#: includes/page-form-simple/form_templates.php:1154
+#: includes/page-form-simple/form_templates.php:1167
+#: includes/page-form-simple/form_templates.php:1179
 msgid "Last Name"
 msgstr "Cognoms"
 
 #: core/lang/wpbc_all_translations.php:581
-#: includes/page-form-simple/form_simple__default.php:63
-#: includes/page-form-simple/page-form-simple.php:977
+#: includes/page-form-simple/form_simple__default.php:62
+#: includes/page-form-simple/form_simple__default.php:184
+#: includes/page-form-simple/form_simple__default.php:284
+#: includes/page-form-simple/form_templates.php:429
+#: includes/page-form-simple/form_templates.php:444
+#: includes/page-form-simple/form_templates.php:457
+#: includes/page-form-simple/form_templates.php:474
+#: includes/page-form-simple/form_templates.php:488
+#: includes/page-form-simple/form_templates.php:541
+#: includes/page-form-simple/form_templates.php:643
+#: includes/page-form-simple/form_templates.php:697
+#: includes/page-form-simple/form_templates.php:720
+#: includes/page-form-simple/form_templates.php:755
+#: includes/page-form-simple/form_templates.php:797
+#: includes/page-form-simple/form_templates.php:875
+#: includes/page-form-simple/form_templates.php:924
+#: includes/page-form-simple/form_templates.php:991
+#: includes/page-form-simple/form_templates.php:1028
+#: includes/page-form-simple/form_templates.php:1068
+#: includes/page-form-simple/form_templates.php:1091
+#: includes/page-form-simple/form_templates.php:1118
+#: includes/page-form-simple/form_templates.php:1128
+#: includes/page-form-simple/form_templates.php:1153
+#: includes/page-form-simple/form_templates.php:1166
+#: includes/page-form-simple/form_templates.php:1178
+#: includes/page-form-simple/page-form-simple.php:1018
 msgid "First Name"
 msgstr "Nom"
 
-#: core/lang/wpbc_all_translations2.php:400
-#: includes/page-form-simple/form_simple__default.php:91
+#: core/lang/wpbc_all_translations2.php:399
+#: includes/page-form-simple/form_simple__default.php:89
+#: includes/page-form-simple/form_simple__default.php:211
+#: includes/page-form-simple/form_simple__default.php:311
 msgid "Visitors"
 msgstr "Visitants"
 
 #: core/lang/wpbc_all_translations1.php:464
+#: includes/page-form-simple/form_templates.php:195
+#: includes/page-form-simple/form_templates.php:231
+#: includes/page-form-simple/form_templates.php:250
+#: includes/page-form-simple/form_templates.php:282
+#: includes/page-form-simple/form_templates.php:340
+#: includes/page-form-simple/form_templates.php:393
+#: includes/page-form-simple/form_templates.php:637
+#: includes/page-form-simple/form_templates.php:668
+#: includes/page-form-simple/form_templates.php:717
+#: includes/page-form-simple/form_templates.php:746
+#: includes/page-form-simple/form_templates.php:780
+#: includes/page-form-simple/form_templates.php:861
+#: includes/page-form-simple/form_templates.php:900
 msgid "Full cost of the booking"
 msgstr "Cost total de la reserva"
 
 #: core/lang/wpbc_all_translations1.php:463
+#: includes/page-form-simple/form_templates.php:194
+#: includes/page-form-simple/form_templates.php:230
+#: includes/page-form-simple/form_templates.php:249
+#: includes/page-form-simple/form_templates.php:281
+#: includes/page-form-simple/form_templates.php:339
+#: includes/page-form-simple/form_templates.php:392
+#: includes/page-form-simple/form_templates.php:636
+#: includes/page-form-simple/form_templates.php:667
+#: includes/page-form-simple/form_templates.php:716
+#: includes/page-form-simple/form_templates.php:745
+#: includes/page-form-simple/form_templates.php:779
+#: includes/page-form-simple/form_templates.php:860
+#: includes/page-form-simple/form_templates.php:899
 msgid "night(s)"
 msgstr "nit(s)"
 
 #: core/lang/wpbc_all_translations1.php:468
+#: includes/page-form-simple/form_templates.php:213
 msgid "Country (required)"
 msgstr "País (obligatori)"
 
 #: core/lang/wpbc_all_translations1.php:467
+#: includes/page-form-simple/form_templates.php:212
 msgid "Post code (required)"
 msgstr "Codi postal (obligatori)"
 
 #: core/lang/wpbc_all_translations1.php:466
+#: includes/page-form-simple/form_templates.php:209
 msgid "City (required)"
 msgstr "Ciutat (obligatori)"
 
 #: core/lang/wpbc_all_translations1.php:465
+#: includes/page-form-simple/form_templates.php:208
 msgid "Address (required)"
 msgstr "Direcció (obligatori)"
 
 #: core/lang/wpbc_all_translations1.php:462
+#: includes/page-form-simple/form_templates.php:115
+#: includes/page-form-simple/form_templates.php:146
+#: includes/page-form-simple/form_templates.php:298
+#: includes/page-form-simple/form_templates.php:517
+#: includes/page-form-simple/form_templates.php:586
+#: includes/page-form-simple/form_templates.php:836
+#: includes/page-form-simple/form_templates.php:1064
 msgid "Select Times"
 msgstr "Selecciona les hores"
 
 #: core/lang/wpbc_all_translations1.php:460
+#: includes/page-form-simple/form_templates.php:44
+#: includes/page-form-simple/form_templates.php:66
+#: includes/page-form-simple/form_templates.php:100
+#: includes/page-form-simple/form_templates.php:225
+#: includes/page-form-simple/form_templates.php:276
+#: includes/page-form-simple/form_templates.php:334
+#: includes/page-form-simple/form_templates.php:387
+#: includes/page-form-simple/form_templates.php:554
+#: includes/page-form-simple/form_templates.php:660
+#: includes/page-form-simple/form_templates.php:704
+#: includes/page-form-simple/form_templates.php:727
+#: includes/page-form-simple/form_templates.php:772
+#: includes/page-form-simple/form_templates.php:813
+#: includes/page-form-simple/form_templates.php:892
+#: includes/page-form-simple/form_templates.php:932
+#: includes/page-form-simple/form_templates.php:1098
 msgid "I Accept term and conditions"
 msgstr "Accepto els termes i condicions"
 
 #: core/lang/wpbc_all_translations1.php:459
-#: includes/page-form-simple/form_simple__default.php:112
+#: includes/page-form-simple/form_simple__default.php:110
+#: includes/page-form-simple/form_simple__default.php:232
+#: includes/page-form-simple/form_simple__default.php:332
+#: includes/page-form-simple/form_templates.php:43
+#: includes/page-form-simple/form_templates.php:64
+#: includes/page-form-simple/form_templates.php:96
+#: includes/page-form-simple/form_templates.php:131
+#: includes/page-form-simple/form_templates.php:171
+#: includes/page-form-simple/form_templates.php:220
+#: includes/page-form-simple/form_templates.php:268
+#: includes/page-form-simple/form_templates.php:326
+#: includes/page-form-simple/form_templates.php:379
+#: includes/page-form-simple/form_templates.php:435
+#: includes/page-form-simple/form_templates.php:450
+#: includes/page-form-simple/form_templates.php:467
+#: includes/page-form-simple/form_templates.php:481
+#: includes/page-form-simple/form_templates.php:495
+#: includes/page-form-simple/form_templates.php:549
+#: includes/page-form-simple/form_templates.php:655
+#: includes/page-form-simple/form_templates.php:703
+#: includes/page-form-simple/form_templates.php:726
+#: includes/page-form-simple/form_templates.php:767
+#: includes/page-form-simple/form_templates.php:812
+#: includes/page-form-simple/form_templates.php:887
+#: includes/page-form-simple/form_templates.php:930
+#: includes/page-form-simple/form_templates.php:1011
+#: includes/page-form-simple/form_templates.php:1048
+#: includes/page-form-simple/form_templates.php:1080
+#: includes/page-form-simple/form_templates.php:1097
+#: includes/page-form-simple/form_templates.php:1122
+#: includes/page-form-simple/form_templates.php:1141
+#: includes/page-form-simple/form_templates.php:1159
+#: includes/page-form-simple/form_templates.php:1171
+#: includes/page-form-simple/form_templates.php:1184
 msgid "Details"
 msgstr "Detalls"
 
 #: core/lang/wpbc_all_translations1.php:458
+#: includes/page-form-simple/form_templates.php:42
+#: includes/page-form-simple/form_templates.php:63
+#: includes/page-form-simple/form_templates.php:93
+#: includes/page-form-simple/form_templates.php:128
+#: includes/page-form-simple/form_templates.php:168
+#: includes/page-form-simple/form_templates.php:217
+#: includes/page-form-simple/form_templates.php:265
+#: includes/page-form-simple/form_templates.php:323
+#: includes/page-form-simple/form_templates.php:376
+#: includes/page-form-simple/form_templates.php:434
+#: includes/page-form-simple/form_templates.php:449
+#: includes/page-form-simple/form_templates.php:462
+#: includes/page-form-simple/form_templates.php:479
+#: includes/page-form-simple/form_templates.php:493
+#: includes/page-form-simple/form_templates.php:652
+#: includes/page-form-simple/form_templates.php:702
+#: includes/page-form-simple/form_templates.php:725
+#: includes/page-form-simple/form_templates.php:764
+#: includes/page-form-simple/form_templates.php:811
+#: includes/page-form-simple/form_templates.php:884
+#: includes/page-form-simple/form_templates.php:929
+#: includes/page-form-simple/form_templates.php:1008
+#: includes/page-form-simple/form_templates.php:1045
+#: includes/page-form-simple/form_templates.php:1077
+#: includes/page-form-simple/form_templates.php:1096
+#: includes/page-form-simple/form_templates.php:1140
+#: includes/page-form-simple/form_templates.php:1158
+#: includes/page-form-simple/form_templates.php:1170
+#: includes/page-form-simple/form_templates.php:1183
 msgid "Children"
 msgstr "Nens"
 
 #: core/lang/wpbc_all_translations1.php:457
+#: includes/page-form-simple/form_templates.php:41
+#: includes/page-form-simple/form_templates.php:62
+#: includes/page-form-simple/form_templates.php:92
+#: includes/page-form-simple/form_templates.php:127
+#: includes/page-form-simple/form_templates.php:167
+#: includes/page-form-simple/form_templates.php:216
+#: includes/page-form-simple/form_templates.php:264
+#: includes/page-form-simple/form_templates.php:322
+#: includes/page-form-simple/form_templates.php:375
+#: includes/page-form-simple/form_templates.php:433
+#: includes/page-form-simple/form_templates.php:448
+#: includes/page-form-simple/form_templates.php:461
+#: includes/page-form-simple/form_templates.php:478
+#: includes/page-form-simple/form_templates.php:492
+#: includes/page-form-simple/form_templates.php:651
+#: includes/page-form-simple/form_templates.php:701
+#: includes/page-form-simple/form_templates.php:724
+#: includes/page-form-simple/form_templates.php:763
+#: includes/page-form-simple/form_templates.php:810
+#: includes/page-form-simple/form_templates.php:883
+#: includes/page-form-simple/form_templates.php:928
+#: includes/page-form-simple/form_templates.php:1007
+#: includes/page-form-simple/form_templates.php:1044
+#: includes/page-form-simple/form_templates.php:1076
+#: includes/page-form-simple/form_templates.php:1095
+#: includes/page-form-simple/form_templates.php:1139
+#: includes/page-form-simple/form_templates.php:1157
+#: includes/page-form-simple/form_templates.php:1169
+#: includes/page-form-simple/form_templates.php:1182
 msgid "Adults"
 msgstr "Adults"
 
 #: core/lang/wpbc_all_translations1.php:456
-#: includes/page-form-simple/form_simple__default.php:103
+#: includes/page-form-simple/form_simple__default.php:101
+#: includes/page-form-simple/form_simple__default.php:223
+#: includes/page-form-simple/form_simple__default.php:323
+#: includes/page-form-simple/form_templates.php:40
+#: includes/page-form-simple/form_templates.php:61
+#: includes/page-form-simple/form_templates.php:89
+#: includes/page-form-simple/form_templates.php:124
+#: includes/page-form-simple/form_templates.php:164
+#: includes/page-form-simple/form_templates.php:205
+#: includes/page-form-simple/form_templates.php:261
+#: includes/page-form-simple/form_templates.php:319
+#: includes/page-form-simple/form_templates.php:372
+#: includes/page-form-simple/form_templates.php:432
+#: includes/page-form-simple/form_templates.php:447
+#: includes/page-form-simple/form_templates.php:460
+#: includes/page-form-simple/form_templates.php:477
+#: includes/page-form-simple/form_templates.php:491
+#: includes/page-form-simple/form_templates.php:546
+#: includes/page-form-simple/form_templates.php:648
+#: includes/page-form-simple/form_templates.php:700
+#: includes/page-form-simple/form_templates.php:723
+#: includes/page-form-simple/form_templates.php:760
+#: includes/page-form-simple/form_templates.php:800
+#: includes/page-form-simple/form_templates.php:880
+#: includes/page-form-simple/form_templates.php:927
+#: includes/page-form-simple/form_templates.php:996
+#: includes/page-form-simple/form_templates.php:1033
+#: includes/page-form-simple/form_templates.php:1073
+#: includes/page-form-simple/form_templates.php:1094
+#: includes/page-form-simple/form_templates.php:1121
+#: includes/page-form-simple/form_templates.php:1131
+#: includes/page-form-simple/form_templates.php:1156
+#: includes/page-form-simple/form_templates.php:1181
 msgid "Phone"
 msgstr "Telèfon"
 
 #: core/lang/wpbc_all_translations1.php:455
+#: includes/page-form-simple/form_templates.php:39
+#: includes/page-form-simple/form_templates.php:60
+#: includes/page-form-simple/form_templates.php:88
+#: includes/page-form-simple/form_templates.php:123
+#: includes/page-form-simple/form_templates.php:163
+#: includes/page-form-simple/form_templates.php:204
+#: includes/page-form-simple/form_templates.php:260
+#: includes/page-form-simple/form_templates.php:318
+#: includes/page-form-simple/form_templates.php:371
 msgid "Email (required)"
 msgstr "Correu electrònic (obligatori)"
 
 #: core/lang/wpbc_all_translations1.php:454
+#: includes/page-form-simple/form_templates.php:38
+#: includes/page-form-simple/form_templates.php:59
+#: includes/page-form-simple/form_templates.php:85
+#: includes/page-form-simple/form_templates.php:120
+#: includes/page-form-simple/form_templates.php:160
+#: includes/page-form-simple/form_templates.php:201
+#: includes/page-form-simple/form_templates.php:257
+#: includes/page-form-simple/form_templates.php:315
+#: includes/page-form-simple/form_templates.php:368
 msgid "Last Name (required)"
 msgstr "Cognoms (obligatori)"
 
 #: core/lang/wpbc_all_translations1.php:453
+#: includes/page-form-simple/form_templates.php:37
+#: includes/page-form-simple/form_templates.php:58
+#: includes/page-form-simple/form_templates.php:84
+#: includes/page-form-simple/form_templates.php:119
+#: includes/page-form-simple/form_templates.php:159
+#: includes/page-form-simple/form_templates.php:200
+#: includes/page-form-simple/form_templates.php:256
+#: includes/page-form-simple/form_templates.php:314
+#: includes/page-form-simple/form_templates.php:367
 msgid "First Name (required)"
 msgstr "Nom (obligatori)"
 
@@ -5921,8 +6417,10 @@ msgid "Cancel Booking"
 msgstr "Cancel·la la reserva"
 
 #: core/lang/wpbc_all_translations.php:554
-#: includes/page-form-simple/form_simple__get_data.php:448
-#: includes/page-form-simple/form_simple__get_data.php:660
+#: includes/page-form-simple/form_simple__get_data.php:255
+#: includes/page-form-simple/form_simple__get_data.php:625
+#: includes/page-form-simple/form_simple__get_data.php:659
+#: includes/page-form-simple/form_simple__get_data.php:1000
 msgid "Change your Booking"
 msgstr "Canvieu la vostra reserva"
 
@@ -5979,7 +6477,7 @@ msgstr "Imprimeix reserves"
 msgid "Change"
 msgstr "Canvia"
 
-#: core/admin/wpbc-toolbars.php:1108 core/lang/wpbc_all_translations.php:497
+#: core/admin/wpbc-toolbars.php:1109 core/lang/wpbc_all_translations.php:497
 #: includes/page-bookings/bookings__actions.php:2715
 msgid "Save"
 msgstr "Desa"
@@ -6341,10 +6839,14 @@ msgid "End Time - Text field"
 msgstr "Hora de finalització - Camp de text"
 
 #: core/lang/wpbc_all_translations1.php:322
+#: includes/page-form-simple/form_templates.php:620
+#: includes/page-setup/templates/05.form_structure__tpl.php:284
 msgid "Duration Time"
 msgstr "Durada"
 
 #: core/lang/wpbc_all_translations1.php:321
+#: includes/page-form-simple/form_templates.php:616
+#: includes/page-setup/templates/05.form_structure__tpl.php:283
 msgid "End Time"
 msgstr "Hora final"
 
@@ -6357,6 +6859,9 @@ msgid "Please note: this field only supports military time format %s(24 Hour Tim
 msgstr "Tingueu en compte: aquest camp només admet el format d'hora militar %s(24 hores)%s."
 
 #: core/lang/wpbc_all_translations1.php:318
+#: includes/page-form-simple/form_templates.php:611
+#: includes/page-setup/templates/05.form_structure__tpl.php:283
+#: includes/page-setup/templates/05.form_structure__tpl.php:284
 msgid "Start Time"
 msgstr "Hora de començament"
 
@@ -6527,6 +7032,60 @@ msgid "One option per line"
 msgstr "Una opció per línia"
 
 #: core/lang/wpbc_all_translations1.php:262
+#: includes/page-form-simple/form_templates.php:541
+#: includes/page-form-simple/form_templates.php:542
+#: includes/page-form-simple/form_templates.php:545
+#: includes/page-form-simple/form_templates.php:586
+#: includes/page-form-simple/form_templates.php:611
+#: includes/page-form-simple/form_templates.php:616
+#: includes/page-form-simple/form_templates.php:620
+#: includes/page-form-simple/form_templates.php:643
+#: includes/page-form-simple/form_templates.php:644
+#: includes/page-form-simple/form_templates.php:647
+#: includes/page-form-simple/form_templates.php:697
+#: includes/page-form-simple/form_templates.php:698
+#: includes/page-form-simple/form_templates.php:699
+#: includes/page-form-simple/form_templates.php:720
+#: includes/page-form-simple/form_templates.php:721
+#: includes/page-form-simple/form_templates.php:722
+#: includes/page-form-simple/form_templates.php:755
+#: includes/page-form-simple/form_templates.php:756
+#: includes/page-form-simple/form_templates.php:759
+#: includes/page-form-simple/form_templates.php:797
+#: includes/page-form-simple/form_templates.php:798
+#: includes/page-form-simple/form_templates.php:799
+#: includes/page-form-simple/form_templates.php:801
+#: includes/page-form-simple/form_templates.php:802
+#: includes/page-form-simple/form_templates.php:803
+#: includes/page-form-simple/form_templates.php:805
+#: includes/page-form-simple/form_templates.php:808
+#: includes/page-form-simple/form_templates.php:836
+#: includes/page-form-simple/form_templates.php:875
+#: includes/page-form-simple/form_templates.php:876
+#: includes/page-form-simple/form_templates.php:879
+#: includes/page-form-simple/form_templates.php:924
+#: includes/page-form-simple/form_templates.php:925
+#: includes/page-form-simple/form_templates.php:926
+#: includes/page-form-simple/form_templates.php:991
+#: includes/page-form-simple/form_templates.php:992
+#: includes/page-form-simple/form_templates.php:995
+#: includes/page-form-simple/form_templates.php:999
+#: includes/page-form-simple/form_templates.php:1000
+#: includes/page-form-simple/form_templates.php:1003
+#: includes/page-form-simple/form_templates.php:1004
+#: includes/page-form-simple/form_templates.php:1028
+#: includes/page-form-simple/form_templates.php:1029
+#: includes/page-form-simple/form_templates.php:1032
+#: includes/page-form-simple/form_templates.php:1036
+#: includes/page-form-simple/form_templates.php:1037
+#: includes/page-form-simple/form_templates.php:1040
+#: includes/page-form-simple/form_templates.php:1041
+#: includes/page-form-simple/form_templates.php:1068
+#: includes/page-form-simple/form_templates.php:1069
+#: includes/page-form-simple/form_templates.php:1072
+#: includes/page-form-simple/form_templates.php:1091
+#: includes/page-form-simple/form_templates.php:1092
+#: includes/page-form-simple/form_templates.php:1093
 msgid "required"
 msgstr "obligatori"
 
@@ -6575,14 +7134,20 @@ msgid "Reset Form"
 msgstr "Reinicialitza el formulari"
 
 #: core/lang/wpbc_all_translations1.php:246
+#: includes/page-setup/templates/05.form_structure__tpl.php:254
+#: includes/page-setup/templates/05.form_structure__tpl.php:255
 msgid "Hints"
 msgstr "Pistes"
 
 #: core/lang/wpbc_all_translations1.php:245
+#: includes/page-setup/templates/05.form_structure__tpl.php:253
 msgid "Time slots for different weekdays"
 msgstr "Franges horàries per a diferents dies de la setmana"
 
 #: core/lang/wpbc_all_translations1.php:244
+#: includes/page-form-simple/page-form-simple.php:320
+#: includes/page-setup/templates/05.form_structure__tpl.php:233
+#: includes/page-setup/templates/05.form_structure__tpl.php:242
 msgid "Wizard (several steps)"
 msgstr "Assistent (diversos passos)"
 
@@ -6590,21 +7155,22 @@ msgstr "Assistent (diversos passos)"
 msgid "Advanced Templates"
 msgstr "Plantilles avançades"
 
-#: core/admin/page-settings.php:96 core/admin/page-settings.php:274
-#: core/admin/page-settings.php:444 core/lang/wpbc_all_translations.php:397
-#: includes/page-form-simple/form_simple__default.php:43
+#: core/admin/page-settings.php:96 core/admin/page-settings.php:276
+#: core/admin/page-settings.php:446 core/lang/wpbc_all_translations.php:397
+#: includes/page-form-simple/form_simple__default.php:52
 #: includes/page-form-simple/form_simple__timeslots.php:112
-#: includes/page-form-simple/form_simple__timeslots.php:207
-#: includes/page-form-simple/form_simple__timeslots.php:772
-#: includes/page-form-simple/form_simple__timeslots.php:822
+#: includes/page-form-simple/form_simple__timeslots.php:208
+#: includes/page-form-simple/form_simple__timeslots.php:789
+#: includes/page-form-simple/form_simple__timeslots.php:839
 #: includes/page-form-simple/form_simple__toolbar_free.php:140
-#: includes/page-form-simple/page-form-simple.php:688
-#: includes/page-form-simple/page-form-simple.php:938
-#: includes/page-form-simple/page-form-simple.php:939
+#: includes/page-form-simple/page-form-simple.php:729
+#: includes/page-form-simple/page-form-simple.php:979
+#: includes/page-form-simple/page-form-simple.php:980
 msgid "Time Slots"
 msgstr "Franges horaries"
 
 #: core/lang/wpbc_all_translations1.php:274
+#: includes/page-form-simple/page-form-simple.php:414
 msgid "Columns"
 msgstr "Columnes"
 
@@ -6613,6 +7179,7 @@ msgid "Standard Templates"
 msgstr "Plantilles estàndard"
 
 #: core/lang/wpbc_all_translations1.php:237
+#: includes/page-setup/templates/05.form_structure__tpl.php:126
 msgid "Form Template"
 msgstr "Plantilla del formulari"
 
@@ -6676,9 +7243,9 @@ msgstr "Marqueu aquesta casella si voleu %smostrar una finestra emergent amb els
 msgid "Booking details in popover"
 msgstr "Detalls de la reserva en una finestra emergent"
 
-#: core/admin/page-settings.php:327 core/lang/wpbc_all_translations.php:522
-#: includes/_toolbar_ui/ui__settings_panel.php:242
-#: includes/_toolbar_ui/ui__settings_panel.php:1286
+#: core/admin/page-settings.php:329 core/lang/wpbc_all_translations.php:522
+#: includes/_toolbar_ui/ui__settings_panel.php:247
+#: includes/_toolbar_ui/ui__settings_panel.php:1370
 msgid "Admin Panel"
 msgstr "Quadre d'administració"
 
@@ -6953,6 +7520,8 @@ msgid "Payment status"
 msgstr "Estat de pagament"
 
 #: core/lang/wpbc_all_translations1.php:799
+#: includes/page-form-simple/form_templates.php:308
+#: includes/page-form-simple/form_templates.php:361
 #: includes/_capacity/confirmation.php:242
 msgid "Total cost"
 msgstr "Cost total"
@@ -7031,6 +7600,7 @@ msgid "Type your time format for emails and the booking table. %sDocumentation o
 msgstr "Escriviu el vostre format d'hora per als correus electrònics i la taula de reserves. %sDocumentació sobre el format horari%s"
 
 #: core/admin/api-settings.php:1286 core/lang/wpbc_all_translations.php:128
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:66
 msgid "Time Format"
 msgstr "Format de l'hora"
 
@@ -7251,18 +7821,21 @@ msgid "Jan"
 msgstr "Gen"
 
 #: core/lang/wpbc_all_translations1.php:40
+#: includes/page-setup/templates/06.cal_availability__tpl.php:218
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:782
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1220
 msgid "Fr"
 msgstr "Dv"
 
 #: core/lang/wpbc_all_translations1.php:38
+#: includes/page-setup/templates/06.cal_availability__tpl.php:216
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:780
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1218
 msgid "We"
 msgstr "Dc"
 
 #: core/lang/wpbc_all_translations1.php:36
+#: includes/page-setup/templates/06.cal_availability__tpl.php:214
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:778
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1216
 msgid "Mo"
@@ -7388,8 +7961,9 @@ msgstr "El cost específic es farà efectiu només si està actiu (la casella de
 
 #: core/admin/api-settings.php:889 core/admin/api-settings.php:998
 #: core/lang/wpbc_all_translations.php:92
-#: includes/page-setup/template__general_info.php:52
-#: includes/page-setup/template__general_info.php:201
+#: includes/page-setup/templates/02.general_info__tpl.php:52
+#: includes/page-setup/templates/02.general_info__tpl.php:201
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:122
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:157
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:181
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:212
@@ -7574,7 +8148,7 @@ msgstr "Amaga els filtres de temporada"
 msgid "unavailable"
 msgstr "no disponible"
 
-#: core/lang/wpbc_all_translations.php:928
+#: core/lang/wpbc_all_translations.php:928 core/wpbc-activation.php:1492
 msgid "available"
 msgstr "disponible"
 
@@ -7609,6 +8183,7 @@ msgid "Availability Settings"
 msgstr "Configuració de disponibilitat"
 
 #: core/lang/wpbc_all_translations.php:919
+#: includes/page-setup/templates/10.get_started__tpl.php:494
 msgid "Configuration of availability for booking resources"
 msgstr "Configuració de la disponibilitat dels recursos reservables"
 
@@ -7649,6 +8224,8 @@ msgid "Showing cost in date cell"
 msgstr "Es mostra el cost a la cel·la de data"
 
 #: core/lang/wpbc_all_translations.php:905
+#: includes/page-setup/templates/06.cal_availability__tpl.php:695
+#: includes/page-setup/templates/06.cal_availability__tpl.php:775
 msgid "After booking"
 msgstr "Després de la reserva"
 
@@ -7657,6 +8234,8 @@ msgid "Select unavailable time interval."
 msgstr "Seleccioneu l'interval de temps no disponible."
 
 #: core/lang/wpbc_all_translations.php:903
+#: includes/page-setup/templates/06.cal_availability__tpl.php:667
+#: includes/page-setup/templates/06.cal_availability__tpl.php:747
 msgid "Before booking"
 msgstr "Abans de reservar"
 
@@ -7665,6 +8244,7 @@ msgid "This feature is applying only for bookings for specific timeslots, or if 
 msgstr "Aquesta característica només s'aplica a les reserves per a franges horàries específiques o, si està activada, l'opció d'hora d'entrada i sortida."
 
 #: core/lang/wpbc_all_translations.php:901
+#: includes/page-setup/templates/06.cal_availability__tpl.php:493
 msgid "Unavailable time before / after booking"
 msgstr "Temps no disponible abans/després de la reserva"
 
@@ -7673,6 +8253,7 @@ msgid "Select number of available days in calendar start from today."
 msgstr "Seleccioneu el nombre de dies disponibles al calendari a partir d'avui."
 
 #: core/lang/wpbc_all_translations.php:899
+#: includes/page-setup/templates/06.cal_availability__tpl.php:411
 msgid "Limit available days from today"
 msgstr "Limita els dies disponibles a partir d'avui"
 
@@ -7748,14 +8329,14 @@ msgstr "La memòria cau caducarà:"
 msgid "Reset current Form"
 msgstr "Reinicialitza el formulari actual"
 
-#: core/admin/wpbc-toolbars.php:1128 core/lang/wpbc_all_translations.php:498
+#: core/admin/wpbc-toolbars.php:1129 core/lang/wpbc_all_translations.php:498
 #: includes/page-availability/availability__toolbar_ui.php:253
 #: includes/page-form-simple/form_simple__toolbar_free.php:232
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:857
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1012
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1262
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1404
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:272
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:275
 #: includes/_toolbar_ui/toolbar_ui.php:895
 msgid "Reset"
 msgstr "Reinicialitza"
@@ -7805,6 +8386,8 @@ msgid "Cache expiration"
 msgstr "Caducitat de la memòria cau"
 
 #: core/admin/page-import-gcal.php:95 core/lang/wpbc_all_translations.php:346
+#: includes/page-setup/templates/06.cal_availability__tpl.php:559
+#: includes/page-setup/templates/06.cal_availability__tpl.php:740
 msgid "day(s)"
 msgstr "dia(es)"
 
@@ -7930,6 +8513,8 @@ msgid "Enter coupon code."
 msgstr "Introduïu el codi de cupó."
 
 #: core/lang/wpbc_all_translations.php:811
+#: includes/page-form-simple/form_templates.php:480
+#: includes/page-form-simple/form_templates.php:494
 msgid "Coupon"
 msgstr "Cupó"
 
@@ -8082,7 +8667,7 @@ msgstr "Recurs #1"
 msgid "Standard"
 msgstr "Estàndard"
 
-#: core/lang/wpbc_all_translations.php:735 core/wpbc.php:357 core/wpbc.php:364
+#: core/lang/wpbc_all_translations.php:735 core/wpbc.php:377 core/wpbc.php:384
 msgid "Action is not allowed!"
 msgstr "L'acció no es permet!"
 
@@ -8100,23 +8685,25 @@ msgstr "S'està suprimint"
 
 #: core/lang/wpbc_all_translations.php:595 core/wpbc-js-vars.php:100
 #: includes/page-bookings/bookings__actions.php:2127
-#: includes/page-form-simple/form_simple__timeslots.php:428
-#: includes/page-form-simple/form_simple__timeslots.php:438
-#: includes/page-form-simple/form_simple__timeslots.php:441
-#: includes/page-form-simple/form_simple__timeslots.php:450
-#: includes/page-form-simple/form_simple__timeslots.php:452
-#: includes/page-form-simple/form_simple__timeslots.php:461
-#: includes/page-form-simple/form_simple__timeslots.php:463
-#: includes/page-form-simple/form_simple__timeslots.php:472
-#: includes/page-form-simple/form_simple__timeslots.php:474
+#: includes/page-form-simple/form_simple__timeslots.php:429
+#: includes/page-form-simple/form_simple__timeslots.php:439
+#: includes/page-form-simple/form_simple__timeslots.php:442
+#: includes/page-form-simple/form_simple__timeslots.php:451
+#: includes/page-form-simple/form_simple__timeslots.php:453
+#: includes/page-form-simple/form_simple__timeslots.php:462
+#: includes/page-form-simple/form_simple__timeslots.php:464
+#: includes/page-form-simple/form_simple__timeslots.php:473
+#: includes/page-form-simple/form_simple__timeslots.php:475
+#: includes/page-form-simple/form_simple__timeslots.php:484
+#: includes/page-form-simple/form_simple__timeslots.php:486
 msgid "Processing"
 msgstr "S'està processant"
 
-#: core/lang/wpbc_all_translations.php:754 core/wpbc_functions.php:757
+#: core/lang/wpbc_all_translations.php:754 core/wpbc_functions.php:765
 msgid "Changes saved."
 msgstr "S'han desat els canvis."
 
-#: core/lang/wpbc_all_translations.php:748 core/wpbc_functions.php:479
+#: core/lang/wpbc_all_translations.php:748 core/wpbc_functions.php:487
 msgid "If you like %s please leave us a %s rating. A huge thank you in advance!"
 msgstr "Si us agrada %s, deixeu-nos una valoració de %s. Moltes gràcies per endavant!"
 
@@ -8156,28 +8743,28 @@ msgstr "%s - inicia una nova secció de traducció, on %s - configuració region
 msgid "Configuration in several languages"
 msgstr "Configuració en diversos idiomes"
 
-#: core/lang/wpbc_all_translations.php:670 core/wpbc-activation.php:1484
+#: core/lang/wpbc_all_translations.php:670 core/wpbc-activation.php:1487
 msgid "Available: "
 msgstr "Disponible: "
 
-#: core/lang/wpbc_all_translations.php:669 core/wpbc-activation.php:1449
+#: core/lang/wpbc_all_translations.php:669 core/wpbc-activation.php:1452
 msgid "Cost: "
 msgstr "Cost: "
 
-#: core/lang/wpbc_all_translations.php:668 core/wpbc-activation.php:1410
+#: core/lang/wpbc_all_translations.php:668 core/wpbc-activation.php:1413
 msgid "You need to make payment %s for reservation %s at %s. %s Please make payment on this page: %s  Thank you, %s"
 msgstr "Heu de fer el pagament %s per a la reserva %s a %s. %s Feu el pagament en aquesta pàgina: %s Gràcies, %s"
 
-#: core/lang/wpbc_all_translations.php:667 core/wpbc-activation.php:1409
+#: core/lang/wpbc_all_translations.php:667 core/wpbc-activation.php:1412
 msgid "You need to make payment for this reservation"
 msgstr "Cal fer el pagament d'aquesta reserva"
 
-#: core/lang/wpbc_all_translations.php:666 core/wpbc-activation.php:1373
+#: core/lang/wpbc_all_translations.php:666 core/wpbc-activation.php:1376
 msgid "This booking canceled because we did not receive payment and the administrator did not approve it."
 msgstr "Aquesta reserva s'ha cancel·lat perquè no hem rebut el pagament i l'administrador no l'ha aprovat."
 
 #: core/admin/api-settings.php:189 core/lang/wpbc_all_translations.php:26
-#: core/wpbc-activation.php:1060
+#: core/wpbc-activation.php:1064
 msgid "Booked Times:"
 msgstr "Hores reservades:"
 
@@ -8195,9 +8782,9 @@ msgid "Please check more about configuration at  %sthis page%s"
 msgstr "Més informació sobre la configuració en %saquesta pàgina%s"
 
 #: core/lang/wpbc_all_translations.php:671 core/wpbc-debug.php:189
-#: core/wpbc-emails.php:507 core/wpbc.php:417 core/wpbc.php:458
+#: core/wpbc-emails.php:507 core/wpbc.php:437 core/wpbc.php:478
 #: includes/page-bookings/bookings__actions.php:2106
-#: includes/publish/wpbc-publish-shortcode.php:189
+#: includes/publish/wpbc-publish-shortcode.php:192
 #: includes/_functions/nonce_func.php:60
 msgid "Error"
 msgstr "Error"
@@ -8214,16 +8801,16 @@ msgstr "Restaurat"
 msgid "Email copy to"
 msgstr "Còpia per correu electrònic a"
 
-#: core/admin/wpbc-toolbars.php:1551 core/admin/wpbc-toolbars.php:1591
+#: core/admin/wpbc-toolbars.php:1552 core/admin/wpbc-toolbars.php:1592
 #: core/lang/wpbc_all_translations.php:501
 msgid "ID or Title"
 msgstr "Identificador o títol"
 
-#: core/admin/wpbc-toolbars.php:1412 core/lang/wpbc_all_translations.php:500
+#: core/admin/wpbc-toolbars.php:1413 core/lang/wpbc_all_translations.php:500
 msgid "Total"
 msgstr "Total"
 
-#: core/admin/wpbc-toolbars.php:1040 core/lang/wpbc_all_translations.php:496
+#: core/admin/wpbc-toolbars.php:1041 core/lang/wpbc_all_translations.php:496
 msgid "Calendar cell height"
 msgstr "Alçada de la cel·la del calendari"
 
@@ -8232,7 +8819,7 @@ msgstr "Alçada de la cel·la del calendari"
 msgid "Calendar width:"
 msgstr "Amplada del calendari:"
 
-#: core/admin/wpbc-toolbars.php:947 core/lang/wpbc_all_translations.php:494
+#: core/admin/wpbc-toolbars.php:948 core/lang/wpbc_all_translations.php:494
 msgid "Number of months in one row"
 msgstr "Nombre de mesos en una fila"
 
@@ -8251,8 +8838,8 @@ msgstr "Amplia la barra d'eines avançada"
 msgid "Select type of info to show."
 msgstr "Seleccioneu el tipus d'informació que voleu mostrar."
 
-#: core/admin/page-settings.php:130 core/admin/page-settings.php:260
-#: core/admin/page-settings.php:545 core/lang/wpbc_all_translations.php:402
+#: core/admin/page-settings.php:130 core/admin/page-settings.php:262
+#: core/admin/page-settings.php:547 core/lang/wpbc_all_translations.php:402
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:85
 msgid "Capacity"
 msgstr "Capacitat"
@@ -8298,7 +8885,7 @@ msgstr "Escriviu el missatge quan no s'ha trobat res."
 msgid "Nothing Found Message"
 msgstr "Missatge de «No s'ha trobat res»"
 
-#: core/lang/wpbc_all_translations.php:889 core/wpbc-activation.php:1507
+#: core/lang/wpbc_all_translations.php:889 core/wpbc-activation.php:1517
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:181
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:192
 msgid "Result(s) Found"
@@ -8370,13 +8957,14 @@ msgstr "Recurs preseleccionat"
 msgid "Select booking resources, for showing in selectbox. Please use CTRL to select multiple booking resources."
 msgstr "Seleccioneu recursos reservables per mostrar-los al camp desplegable. Utilitzeu CTRL per seleccionar diversos recursos reservables."
 
-#: core/admin/api-settings.php:1474 core/admin/wpbc-toolbars.php:948
+#: core/admin/api-settings.php:1474 core/admin/wpbc-toolbars.php:949
 #: core/lang/wpbc_all_translations.php:143
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:287
 msgid "All"
 msgstr "Tot"
 
 #: core/lang/wpbc_all_translations.php:868
+#: includes/page-setup/templates/04.bookings_types__tpl.php:122
 msgid "Note!"
 msgstr "Atenció!"
 
@@ -8434,11 +9022,12 @@ msgid "parent resource"
 msgstr "recurs pare"
 
 #: core/lang/wpbc_all_translations2.php:167
-#: includes/publish/wpbc-publish-shortcode.php:258
+#: includes/publish/wpbc-publish-shortcode.php:267
 msgid "Insert into page"
 msgstr "Insereix a la pàgina"
 
 #: core/lang/wpbc_all_translations1.php:397
+#: includes/page-setup/templates/05.form_structure__tpl.php:260
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:85
 msgid "Other"
 msgstr "Altres"
@@ -8461,21 +9050,25 @@ msgid "TimeLine"
 msgstr "Cronologia"
 
 #: core/admin/api-settings.php:680 core/lang/wpbc_all_translations.php:74
-#: includes/page-form-simple/page-form-simple.php:59
+#: includes/page-form-simple/page-form-simple.php:57
 #: includes/page-settings-all/all__page.php:166
+#: includes/page-setup/templates/05.form_structure__tpl.php:70
+#: includes/page-setup/templates/06.cal_availability__tpl.php:66
+#: includes/page-setup/templates/07.color_theme__tpl.php:66
+#: includes/page-setup/templates/08.optional_other_settings__tpl.php:70
 #: includes/publish/wpbc-create-pages.php:164
 #: includes/publish/wpbc-create-pages.php:330
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:310
 #: includes/_functions/admin_top_bar.php:281
-#: includes/_toolbar_ui/ui__settings_panel.php:149 js/wpbc-gutenberg.js:612
+#: includes/_toolbar_ui/ui__settings_panel.php:154 js/wpbc-gutenberg.js:612
 msgid "Booking Form"
 msgstr "Formulari de reserva"
 
-#: core/admin/page-settings.php:535 core/lang/wpbc_all_translations.php:415
+#: core/admin/page-settings.php:537 core/lang/wpbc_all_translations.php:415
 msgid "Auto cancellation / auto approval of bookings"
 msgstr "Cancel·lació automàtica / aprovació automàtica de reserves"
 
-#: core/admin/page-settings.php:144 core/admin/page-settings.php:607
+#: core/admin/page-settings.php:144 core/admin/page-settings.php:609
 #: core/lang/wpbc_all_translations.php:404
 msgid "Plugin Menu"
 msgstr "Menú de l'extensió"
@@ -8485,18 +9078,18 @@ msgid "Note:"
 msgstr "Nota:"
 
 #: core/lang/wpbc_all_translations.php:586
-#: includes/page-form-simple/page-form-simple.php:1090
+#: includes/page-form-simple/page-form-simple.php:1131
 msgid "Values"
 msgstr "Valors"
 
 #: core/lang/wpbc_all_translations.php:585
-#: includes/page-form-simple/page-form-simple.php:1069
+#: includes/page-form-simple/page-form-simple.php:1110
 msgid "Type only %sunique field name%s, that is not using in form"
 msgstr "Escriviu només un %snom de camp únic%s, que no s'estigui utilitzant al formulari"
 
 #: core/lang/wpbc_all_translations.php:584
-#: includes/page-form-simple/form_simple__timeslots.php:790
-#: includes/page-form-simple/page-form-simple.php:1040
+#: includes/page-form-simple/form_simple__timeslots.php:807
+#: includes/page-form-simple/page-form-simple.php:1081
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:370
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:190
 #: js/wpbc-gutenberg.js:939
@@ -8504,52 +9097,52 @@ msgid "Label"
 msgstr "Etiqueta"
 
 #: core/lang/wpbc_all_translations.php:583
-#: includes/page-form-simple/page-form-simple.php:1020
+#: includes/page-form-simple/page-form-simple.php:1061
 msgid "Set field as required"
 msgstr "Estableix el camp com a obligatori"
 
 #: core/lang/wpbc_all_translations.php:582
-#: includes/page-form-simple/page-form-simple.php:999
+#: includes/page-form-simple/page-form-simple.php:1040
 msgid "Show / hide field in booking form"
 msgstr "Mostra / amaga el camp al formulari de reserva"
 
 #: core/lang/wpbc_all_translations.php:579
-#: includes/page-form-simple/page-form-simple.php:847
+#: includes/page-form-simple/page-form-simple.php:888
 msgid "Default Form Templates"
 msgstr "Plantilles de formulari predeterminades"
 
 #: core/lang/wpbc_all_translations.php:578
-#: includes/page-form-simple/page-form-simple.php:845
+#: includes/page-form-simple/page-form-simple.php:886
 msgid "Please read more about the booking form fields configuration %shere%s."
 msgstr "Més informació sobre la configuració dels camps del formulari de reserva %saquí%s."
 
 #: core/lang/wpbc_all_translations.php:577
-#: includes/page-form-simple/page-form-simple.php:844
+#: includes/page-form-simple/page-form-simple.php:885
 msgid "You can generate the form fields for your form (at the left side) by selection specific field in the above selectbox."
 msgstr "Podeu generar els camps del formulari per al vostre formulari (al costat esquerre) mitjançant la selecció de camps específics al camp desplegable anterior."
 
-#: core/admin/page-settings.php:490 core/lang/wpbc_all_translations.php:411
-#: includes/page-form-simple/page-form-simple.php:843
+#: core/admin/page-settings.php:492 core/lang/wpbc_all_translations.php:411
+#: core/wpbc_welcome.php:211 includes/page-form-simple/page-form-simple.php:884
 msgid "Shortcodes"
 msgstr "Codis de substitució"
 
 #: core/lang/wpbc_all_translations.php:576
-#: includes/page-form-simple/form_simple__timeslots.php:794
-#: includes/page-form-simple/page-form-simple.php:750
+#: includes/page-form-simple/form_simple__timeslots.php:811
+#: includes/page-form-simple/page-form-simple.php:791
 msgid "Remove"
 msgstr "Suprimeix"
 
 #: core/lang/wpbc_all_translations.php:575
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2967
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3018
-#: includes/page-form-simple/page-form-simple.php:749
+#: includes/page-form-simple/page-form-simple.php:790
 msgid "Edit"
 msgstr "Edita"
 
 #: core/lang/wpbc_all_translations.php:574
-#: includes/page-form-simple/page-form-simple.php:602
-#: includes/page-form-simple/page-form-simple.php:697
-#: includes/page-form-simple/page-form-simple.php:1064
+#: includes/page-form-simple/page-form-simple.php:643
+#: includes/page-form-simple/page-form-simple.php:738
+#: includes/page-form-simple/page-form-simple.php:1105
 msgid "Name"
 msgstr "Nom"
 
@@ -8588,7 +9181,7 @@ msgstr "Seleccioneu"
 
 #: core/lang/wpbc_all_translations.php:557
 #: includes/page-form-simple/form_simple__toolbar_free.php:196
-#: includes/page-form-simple/page-form-simple.php:1125
+#: includes/page-form-simple/page-form-simple.php:1166
 msgid "Add New Field"
 msgstr "Afegiu un camp"
 
@@ -8597,7 +9190,7 @@ msgid "Reset to default form"
 msgstr "Reinicialitza al formulari predeterminat"
 
 #: core/lang/wpbc_all_translations.php:548
-#: includes/page-form-simple/page-form-simple.php:278
+#: includes/page-form-simple/page-form-simple.php:276
 msgid "Form Field Configuration"
 msgstr "Configuració dels camps del formulari"
 
@@ -8902,9 +9495,12 @@ msgid "Plugin menu position"
 msgstr "Posició del menú de l'extensió"
 
 #: core/admin/api-settings.php:1654 core/admin/page-settings.php:101
-#: core/admin/page-settings.php:253 core/admin/page-settings.php:451
-#: core/lang/wpbc_all_translations.php:171 core/wpbc.php:204 core/wpbc.php:205
-#: core/wpbc.php:206 includes/page-availability/availability__page.php:86
+#: core/admin/page-settings.php:255 core/admin/page-settings.php:453
+#: core/lang/wpbc_all_translations.php:171 core/wpbc.php:224 core/wpbc.php:225
+#: core/wpbc.php:226 includes/page-availability/availability__page.php:86
+#: includes/page-form-simple/form_templates.php:252
+#: includes/page-form-simple/form_templates.php:630
+#: includes/page-form-simple/form_templates.php:748
 #: includes/_functions/admin_top_bar.php:120
 msgid "Availability"
 msgstr "Disponibilitat"
@@ -9111,7 +9707,7 @@ msgid "To"
 msgstr "A"
 
 #: core/lang/wpbc_all_translations.php:587
-#: includes/page-form-simple/page-form-simple.php:1095
+#: includes/page-form-simple/page-form-simple.php:1136
 msgid "Enter dropdown options. One option per line."
 msgstr "Introduïu les opcions del desplegable. Una opció per línia."
 
@@ -9127,19 +9723,19 @@ msgstr "Introduïu les opcions del desplegable. Una opció per línia."
 #: core/admin/page-email-new-visitor.php:314
 #: core/admin/page-email-trash.php:215 core/admin/page-email-trash.php:277
 #: core/admin/page-email-trash.php:338 core/lang/wpbc_all_translations.php:198
-#: includes/page-form-simple/page-form-simple.php:601
-#: includes/page-form-simple/page-form-simple.php:1019
+#: includes/page-form-simple/page-form-simple.php:642
+#: includes/page-form-simple/page-form-simple.php:1060
 msgid "Required"
 msgstr "Obligatori"
 
 #: core/lang/wpbc_all_translations.php:572
-#: includes/page-form-simple/page-form-simple.php:599
-#: includes/page-form-simple/page-form-simple.php:998
+#: includes/page-form-simple/page-form-simple.php:640
+#: includes/page-form-simple/page-form-simple.php:1039
 msgid "Active"
 msgstr "Actiu"
 
 #: core/lang/wpbc_all_translations.php:573
-#: includes/page-form-simple/page-form-simple.php:600
+#: includes/page-form-simple/page-form-simple.php:641
 msgid "Field Label"
 msgstr "Etiqueta del camp"
 
@@ -9196,24 +9792,24 @@ msgstr "Marqueu aquesta casella per mostrar una llegenda de dates sota el calend
 msgid "Show legend below calendar"
 msgstr "Mostra la llegenda a sota del calendari"
 
-#: core/admin/api-settings.php:1740 core/lang/wpbc_all_translations.php:183
+#: core/admin/api-settings.php:1729 core/lang/wpbc_all_translations.php:183
 msgid "Check this box to delete all booking data when you uninstal this plugin."
 msgstr "Marqueu aquesta casella per esborrar totes les dades de reserva quan desinstal·leu aquesta extensió."
 
-#: core/admin/api-settings.php:2117 core/lang/wpbc_all_translations.php:191
+#: core/admin/api-settings.php:2106 core/lang/wpbc_all_translations.php:191
 msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
 msgstr "Si marqueu aquesta opció, totes les dades de la reserva se suprimiran quan desinstal·leu aquesta extensió. Segur que voleu fer-ho?"
 
-#: core/admin/api-settings.php:1739 core/lang/wpbc_all_translations.php:182
+#: core/admin/api-settings.php:1728 core/lang/wpbc_all_translations.php:182
 msgid "Delete booking data, when plugin deactivated"
 msgstr "Suprimeix les dades de les reserves, quan es desactivi l'extensió"
 
-#: core/admin/page-settings.php:369 core/admin/page-settings.php:614
+#: core/admin/page-settings.php:371 core/admin/page-settings.php:616
 #: core/lang/wpbc_all_translations.php:420
 msgid "Uninstall / deactivation"
 msgstr "Desinstal·lació / desactivació"
 
-#: core/admin/api-settings.php:1706 core/lang/wpbc_all_translations.php:177
+#: core/admin/api-settings.php:1695 core/lang/wpbc_all_translations.php:177
 msgid "Select user access level for the menu pages of plugin"
 msgstr "Seleccioneu el nivell d'accés d'usuari per a les pàgines de menú de l'extensió"
 
@@ -9221,7 +9817,7 @@ msgstr "Seleccioneu el nivell d'accés d'usuari per a les pàgines de menú de l
 msgid "User permissions for plugin menu pages"
 msgstr "Permisos d'usuari per a les pàgines de menú de l'extensió"
 
-#: core/admin/page-settings.php:591 core/lang/wpbc_all_translations.php:418
+#: core/admin/page-settings.php:593 core/lang/wpbc_all_translations.php:418
 msgid "Information"
 msgstr "Informació"
 
@@ -9265,7 +9861,7 @@ msgstr "Activa la càrrega dels fitxers CSS i JavaScript de l'extensió només e
 msgid "Load JS and CSS files only on specific pages"
 msgstr "Carrega els fitxers JS i CSS només en pàgines específiques"
 
-#: core/admin/api-settings.php:2080 core/lang/wpbc_all_translations.php:190
+#: core/admin/api-settings.php:2069 core/lang/wpbc_all_translations.php:190
 msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
 msgstr "Heu d'estar segur del que esteu fent. Esteu desactivant la càrrega d'alguns JavaScripts. Segur que voleu fer-ho?"
 
@@ -9273,7 +9869,7 @@ msgstr "Heu d'estar segur del que esteu fent. Esteu desactivant la càrrega d'al
 msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
 msgstr "Marqueu aquesta casella si voleu %sestablir qualsevol dia com a disponible%s al calendari. Els visitants podran fer %sreserves il·limitades a les mateixes dates del calendari i no veuran les dates reservades%s d'altres visitants."
 
-#: core/admin/api-settings.php:2036 core/lang/wpbc_all_translations.php:189
+#: core/admin/api-settings.php:2025 core/lang/wpbc_all_translations.php:189
 msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
 msgstr "Permeteu un nombre il·limitat de reserves a les mateixes dates, pot ser motiu de reserves dobles a la mateixa data. Segur que voleu fer-ho?"
 
@@ -9281,8 +9877,8 @@ msgstr "Permeteu un nombre il·limitat de reserves a les mateixes dates, pot ser
 msgid "Allow unlimited bookings per same day(s)"
 msgstr "Permeteu múltiples reserves a un mateix dia"
 
-#: core/admin/api-settings.php:2035 core/admin/api-settings.php:2079
-#: core/admin/api-settings.php:2116 core/lang/wpbc_all_translations.php:188
+#: core/admin/api-settings.php:2024 core/admin/api-settings.php:2068
+#: core/admin/api-settings.php:2105 core/lang/wpbc_all_translations.php:188
 #: includes/page-bookings/bookings__actions.php:1532
 msgid "Warning"
 msgstr "Avís"
@@ -9300,10 +9896,12 @@ msgid "Select the default view for dates on the booking tables"
 msgstr "Seleccioneu la vista predeterminada per a les dates de les taules de reserves"
 
 #: core/admin/api-settings.php:1209 core/lang/wpbc_all_translations.php:124
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:108
 msgid "Wide days view"
 msgstr "Vista de dies àmplia"
 
 #: core/admin/api-settings.php:1208 core/lang/wpbc_all_translations.php:123
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:107
 msgid "Short days view"
 msgstr "Vista de dies curta"
 
@@ -9316,6 +9914,7 @@ msgid "Type your date format for emails and the booking table. %sDocumentation o
 msgstr "Escriviu el format de data per als correus electrònics i la taula de reserves. %sDocumentació sobre els formats de data%s"
 
 #: core/admin/api-settings.php:1224 core/lang/wpbc_all_translations.php:125
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:49
 msgid "Date Format"
 msgstr "Format de data"
 
@@ -9328,7 +9927,7 @@ msgid "Cost"
 msgstr "Cost"
 
 #: core/lang/wpbc_all_translations.php:635 core/sync/wpbc-gcal-class.php:665
-#: core/wpbc.php:251 includes/page-resource-free/page-resource-free.php:34
+#: core/wpbc.php:261 includes/page-resource-free/page-resource-free.php:34
 #: includes/page-resource-free/page-resource-free.php:100
 #: includes/_functions/admin_top_bar.php:222
 #: includes/_functions/admin_top_bar.php:230
@@ -9356,7 +9955,7 @@ msgid "Select your default view mode of bookings at the booking listing page"
 msgstr "Seleccioneu la vista de reserves predeterminada a la pàgina amb la llista de reserves"
 
 #: core/admin/api-settings.php:1087 core/lang/wpbc_all_translations.php:99
-#: core/wpbc.php:168 core/wpbc.php:169
+#: core/wpbc.php:188 core/wpbc.php:189
 msgid "Bookings Listing"
 msgstr "Llista de reserves"
 
@@ -9380,7 +9979,8 @@ msgstr "No heu de desactivar la càrrega de fitxers de BootStrap a la secció av
 #: core/admin/api-settings.php:531 core/admin/api-settings.php:660
 #: core/admin/api-settings.php:1427 core/admin/page-ics-export.php:470
 #: core/lang/wpbc_all_translations.php:43
-#: core/timeline/v2/wpbc-class-timeline_v2.php:3143 js/wpbc-gutenberg.js:1094
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3143
+#: includes/page-setup/setup_support.php:122 js/wpbc-gutenberg.js:1094
 msgid "Note"
 msgstr "Nota"
 
@@ -9393,12 +9993,12 @@ msgid "Use CSS BootStrap"
 msgstr "Utilitza CSS de BootStrap"
 
 #: core/admin/api-settings.php:669 core/lang/wpbc_all_translations.php:72
-#: includes/page-form-simple/page-form-simple.php:545
+#: includes/page-form-simple/page-form-simple.php:586
 msgid "Check the box to activate auto-fill form fields for logged in users."
 msgstr "Marqueu la casella per activar els camps d'emplenament automàtic del formulari per als usuaris que han iniciat sessió."
 
 #: core/admin/api-settings.php:668 core/lang/wpbc_all_translations.php:71
-#: includes/page-form-simple/page-form-simple.php:544
+#: includes/page-form-simple/page-form-simple.php:585
 msgid "Auto-fill fields"
 msgstr "Emplena camps automàticament"
 
@@ -9407,7 +10007,7 @@ msgid "Check the box to activate CAPTCHA inside the booking form."
 msgstr "Marqueu la casella per activar el CAPTCHA al formulari de reserva."
 
 #: core/admin/api-settings.php:657 core/lang/wpbc_all_translations.php:68
-#: includes/page-form-simple/page-form-simple.php:574
+#: includes/page-form-simple/page-form-simple.php:615
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -9423,19 +10023,12 @@ msgstr "Diversos dies"
 msgid "Single day"
 msgstr "Dia únic"
 
-#: core/admin/api-settings.php:584 core/lang/wpbc_all_translations.php:60
-msgid "Check unavailable days in calendars. This option will overwrite all other settings."
-msgstr "Marqueu els dies no disponibles als calendaris. Aquesta opció sobreescriurà la resta de configuracions."
-
-#: core/admin/api-settings.php:554 core/lang/wpbc_all_translations.php:59
-msgid "Unavailable week days"
-msgstr "Dies de la setmana no disponibles"
-
 #: core/admin/api-settings.php:603 core/lang/wpbc_all_translations.php:62
 msgid "Select number of unavailable days in calendar start from today."
 msgstr "Seleccioneu el nombre de dies no disponibles al calendari a partir d'avui."
 
 #: core/admin/api-settings.php:602 core/lang/wpbc_all_translations.php:61
+#: includes/page-setup/templates/06.cal_availability__tpl.php:338
 msgid "Unavailable days from today"
 msgstr "Dies no disponibles des d'avui"
 
@@ -9466,6 +10059,7 @@ msgstr "Seleccioneu la plantilla pel calendari de reserva"
 
 #: core/admin/api-settings.php:56 core/lang/wpbc_all_translations.php:2
 #: includes/page-form-simple/form_simple__preview_templates.php:70
+#: includes/page-setup/templates/07.color_theme__tpl.php:253
 msgid "Calendar Skin"
 msgstr "Estil del calendari"
 
@@ -9481,15 +10075,15 @@ msgid "Uninstall"
 msgstr "Desinstal·la"
 
 #: core/admin/page-ics-general.php:461 core/admin/page-ics-general.php:468
-#: core/admin/page-settings.php:139 core/admin/page-settings.php:362
-#: core/admin/page-settings.php:584 core/lang/wpbc_all_translations.php:317
+#: core/admin/page-settings.php:139 core/admin/page-settings.php:364
+#: core/admin/page-settings.php:586 core/lang/wpbc_all_translations.php:317
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:247
 #: includes/ui_modal__shortcodes/sh_tpl_booking_calendar.php:116
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:127
 #: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:121
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:219
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:120
-#: includes/_toolbar_ui/ui__settings_panel.php:245
+#: includes/_toolbar_ui/ui__settings_panel.php:250
 msgid "Advanced"
 msgstr "Avançat"
 
@@ -9505,9 +10099,9 @@ msgstr "Costos"
 msgid "Form"
 msgstr "Formulari"
 
-#: core/admin/page-settings.php:90 core/admin/page-settings.php:239
-#: core/admin/page-settings.php:429 core/lang/wpbc_all_translations.php:396
-#: includes/page-form-simple/page-form-simple.php:687
+#: core/admin/page-settings.php:90 core/admin/page-settings.php:241
+#: core/admin/page-settings.php:431 core/lang/wpbc_all_translations.php:396
+#: includes/page-form-simple/page-form-simple.php:728
 #: includes/page-resource-free/page-resource-free.php:233
 #: includes/page-settings-all/all__page.php:81
 #: includes/page-settings-all/all__page.php:147
@@ -9534,14 +10128,14 @@ msgstr "Exemple: %sFeu una reserva aquí%s"
 msgid "Footer"
 msgstr "Peu de pàgina"
 
-#: core/admin/wpbc-toolbars.php:900 core/lang/wpbc_all_translations.php:493
+#: core/admin/wpbc-toolbars.php:901 core/lang/wpbc_all_translations.php:493
 #: core/lib/wpdev-booking-widget.php:167
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:331
 msgid "Visible months"
 msgstr "Mesos visibles"
 
 #: core/lang/wpbc_all_translations.php:622
-#: core/lib/wpdev-booking-widget.php:150 core/wpbc.php:250
+#: core/lib/wpdev-booking-widget.php:150 core/wpbc.php:260
 #: includes/page-availability/availability__class.php:372
 #: includes/page-resource-free/page-resource-free.php:36
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:279
@@ -9588,72 +10182,73 @@ msgid "%s Found %s not indexed bookings %s"
 msgstr "%s Trobades %s reserves no indexades %s"
 
 #: core/admin/api-settings.php:353 core/lang/wpbc_all_translations.php:41
-#: core/lib/wpbc-calendar-legend.php:145 core/wpbc-activation.php:1216
-#: includes/page-setup/template__bookings_types__action.php:113
+#: core/lib/wpbc-calendar-legend.php:145 core/wpbc-activation.php:1215
+#: includes/page-setup/templates/04.bookings_types__action.php:163
 msgid "Partially booked"
 msgstr "Reservat parcialment"
 
 #: core/admin/api-settings.php:313 core/lang/wpbc_all_translations.php:38
-#: core/wpbc-activation.php:1205
+#: core/wpbc-activation.php:1204
 msgid "Booked"
 msgstr "Reservat"
 
 #: core/admin/api-settings.php:239 core/lang/wpbc_all_translations.php:32
-#: core/wpbc-activation.php:1197
+#: core/wpbc-activation.php:1196
 #: includes/page-availability/availability__toolbar_ui.php:155
+#: includes/page-setup/templates/06.cal_availability__tpl.php:465
 msgid "Available"
 msgstr "Disponible"
 
-#: core/lang/wpbc_all_translations.php:663 core/wpbc-activation.php:1177
+#: core/lang/wpbc_all_translations.php:663 core/wpbc-activation.php:1176
 msgid "Booking form"
 msgstr "Formulari de reserva"
 
 #: core/admin/page-email-deleted.php:339 core/admin/page-email-deny.php:339
 #: core/admin/page-email-trash.php:344 core/lang/wpbc_all_translations.php:247
-#: core/wpbc-activation.php:1173
+#: core/wpbc-activation.php:1172
 msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
 msgstr "La vostra reserva %s per a: %s s'ha cancel·lat. %s Gràcies, %s"
 
 #: core/admin/page-email-deleted.php:320 core/admin/page-email-deny.php:320
 #: core/admin/page-email-trash.php:325 core/lang/wpbc_all_translations.php:246
-#: core/wpbc-activation.php:1172
+#: core/wpbc-activation.php:1171
 msgid "Your booking has been declined"
 msgstr "La vostra reserva s'ha rebutjat"
 
 #: core/admin/page-email-approved.php:341
-#: core/lang/wpbc_all_translations.php:208 core/wpbc-activation.php:1165
+#: core/lang/wpbc_all_translations.php:208 core/wpbc-activation.php:1164
 msgid "Your booking %s for: %s has been approved.%sThank you, %s"
 msgstr "La vostra reserva %s per a: %s s'ha aprovat. %s Gràcies, %s"
 
 #: core/admin/page-email-approved.php:339
-#: core/lang/wpbc_all_translations.php:207 core/wpbc-activation.php:1163
+#: core/lang/wpbc_all_translations.php:207 core/wpbc-activation.php:1162
 msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
 msgstr "La vostra reserva %s per a: %s s'ha aprovat.%sPodeu modificar la reserva en aquesta pàgina: %s Gràcies, %s"
 
 #: core/admin/page-email-approved.php:319
-#: core/lang/wpbc_all_translations.php:205 core/wpbc-activation.php:1161
+#: core/lang/wpbc_all_translations.php:205 core/wpbc-activation.php:1160
 msgid "Your booking has been approved"
 msgstr "La vostra reserva s'ha aprovat"
 
 #: core/admin/page-email-new-visitor.php:323
-#: core/lang/wpbc_all_translations.php:262 core/wpbc-activation.php:1154
+#: core/lang/wpbc_all_translations.php:262 core/wpbc-activation.php:1153
 msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
 msgstr "La vostra reserva %s per a: %s s'està processant! Us enviarem una confirmació per correu electrònic. %s Gràcies, %s"
 
 #: core/admin/page-email-new-visitor.php:321
-#: core/lang/wpbc_all_translations.php:261 core/wpbc-activation.php:1152
+#: core/lang/wpbc_all_translations.php:261 core/wpbc-activation.php:1151
 msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
 msgstr "La vostra reserva %s per a: %s s'està processant! Us enviarem una confirmació per correu electrònic. %sPodeu editar la reserva en aquesta pàgina: %s Gràcies, %s"
 
 #: core/admin/page-email-new-admin.php:334
-#: core/lang/wpbc_all_translations.php:256 core/wpbc-activation.php:1144
+#: core/lang/wpbc_all_translations.php:256 core/wpbc-activation.php:1143
 msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
 msgstr "Heu d'aprovar una nova reserva %s per a: %s Informació sobre la persona: %s Una nova reserva està pendent d'aprovació actualment. Visiteu el quadre de moderació %sGràcies, %s"
 
 #: core/admin/page-email-new-admin.php:305
 #: core/admin/page-email-new-visitor.php:301
-#: core/lang/wpbc_all_translations.php:255 core/wpbc-activation.php:1143
-#: core/wpbc-activation.php:1150
+#: core/lang/wpbc_all_translations.php:255 core/wpbc-activation.php:1142
+#: core/wpbc-activation.php:1149
 #: includes/page-bookings/bookings__actions.php:3126
 msgid "New booking"
 msgstr "Nova reserva"
@@ -9672,8 +10267,27 @@ msgstr "Heu d'utilitzar el codi de substitució especial [bookingedit] per edita
 msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
 msgstr "%sAvís! El calendari de reserva per a aquest recurs reservable ja es troba a la pàgina, més informació sobre aquest problema en %saquesta pàgina%s"
 
-#: core/lang/wpbc_all_translations.php:551 core/wpbc-activation.php:1193
-#: includes/page-form-simple/form_simple__default.php:134
+#: core/lang/wpbc_all_translations.php:551 core/wpbc-activation.php:1192
+#: includes/page-form-simple/form_simple__default.php:130
+#: includes/page-form-simple/form_simple__default.php:252
+#: includes/page-form-simple/form_simple__default.php:352
+#: includes/page-form-simple/form_templates.php:46
+#: includes/page-form-simple/form_templates.php:70
+#: includes/page-form-simple/form_templates.php:103
+#: includes/page-form-simple/form_templates.php:134
+#: includes/page-form-simple/form_templates.php:179
+#: includes/page-form-simple/form_templates.php:570
+#: includes/page-form-simple/form_templates.php:674
+#: includes/page-form-simple/form_templates.php:706
+#: includes/page-form-simple/form_templates.php:729
+#: includes/page-form-simple/form_templates.php:786
+#: includes/page-form-simple/form_templates.php:815
+#: includes/page-form-simple/form_templates.php:908
+#: includes/page-form-simple/form_templates.php:936
+#: includes/page-form-simple/form_templates.php:1014
+#: includes/page-form-simple/form_templates.php:1051
+#: includes/page-form-simple/form_templates.php:1083
+#: includes/page-form-simple/form_templates.php:1100
 msgid "Send"
 msgstr "Envia"
 
@@ -9698,7 +10312,7 @@ msgstr "Usuaris"
 msgid "Search Settings"
 msgstr "Configuració de la cerca"
 
-#: core/admin/wpbc-toolbars.php:1639 core/lang/wpbc_all_translations.php:503
+#: core/admin/wpbc-toolbars.php:1640 core/lang/wpbc_all_translations.php:503
 msgid "Search"
 msgstr "Cerca"
 
@@ -9724,12 +10338,12 @@ msgstr "Configuracions de correu electrònic"
 #: core/lang/wpbc_all_translations.php:257
 #: includes/page-settings-all/all__page.php:185
 #: includes/_functions/admin_top_bar.php:289
-#: includes/_toolbar_ui/ui__settings_panel.php:713
+#: includes/_toolbar_ui/ui__settings_panel.php:778
 msgid "Emails"
 msgstr "Correus electrònics"
 
 #: core/lang/wpbc_all_translations.php:544
-#: includes/page-form-simple/page-form-simple.php:60
+#: includes/page-form-simple/page-form-simple.php:58
 msgid "Fields Settings"
 msgstr "Configuració dels camps"
 
@@ -9743,7 +10357,7 @@ msgstr "camps"
 msgid "General"
 msgstr "General"
 
-#: core/admin/wpbc-toolbars.php:304 core/admin/wpbc-toolbars.php:1175
+#: core/admin/wpbc-toolbars.php:304 core/admin/wpbc-toolbars.php:1176
 #: core/lang/wpbc_all_translations.php:463
 msgid "Send email notification to customer about this operation"
 msgstr "Envia una notificació per correu electrònic al client sobre aquesta operació"
@@ -9751,14 +10365,14 @@ msgstr "Envia una notificació per correu electrònic al client sobre aquesta op
 #: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
 #: core/admin/page-ics-general.php:445 core/admin/page-import-gcal.php:529
 #: core/admin/page-settings.php:75 core/admin/page-settings.php:76
-#: core/lang/wpbc_all_translations.php:315 core/wpbc.php:262
+#: core/lang/wpbc_all_translations.php:315 core/wpbc.php:272
 #: includes/page-settings-all/all__page.php:40
 #: includes/page-settings-all/all__page.php:41
 msgid "General Settings"
 msgstr "Configuració general"
 
 #: core/admin/api-settings.php:1645 core/lang/wpbc_all_translations.php:170
-#: core/timeline/v2/wpbc-class-timeline_v2.php:74 core/wpbc.php:167
+#: core/timeline/v2/wpbc-class-timeline_v2.php:74 core/wpbc.php:187
 #: includes/_functions/admin_top_bar.php:73
 msgid "Bookings"
 msgstr "Reserves"
@@ -9767,10 +10381,10 @@ msgstr "Reserves"
 msgid "Booking Calendar Editing"
 msgstr "Edició del calendari de reserves"
 
-#: core/admin/api-settings.php:1686 core/admin/page-new.php:33
+#: core/admin/api-settings.php:1675 core/admin/page-new.php:33
 #: core/admin/page-new.php:34 core/admin/page-new.php:35
-#: core/admin/wpbc-toolbars.php:1149 core/lang/wpbc_all_translations.php:174
-#: core/wpbc.php:195 core/wpbc.php:196 core/wpbc.php:197
+#: core/admin/wpbc-toolbars.php:1150 core/lang/wpbc_all_translations.php:174
+#: core/wpbc.php:215 core/wpbc.php:216 core/wpbc.php:217
 #: includes/_functions/admin_top_bar.php:110
 msgid "Add booking"
 msgstr "Afegeix una reserva"
@@ -9779,10 +10393,11 @@ msgstr "Afegeix una reserva"
 msgid "What's New"
 msgstr "Novetats"
 
-#: core/admin/api-settings.php:1705 core/lang/wpbc_all_translations.php:176
-#: core/wpbc.php:261 core/wpbc.php:263 core/wpbc.php:471
+#: core/admin/api-settings.php:1694 core/lang/wpbc_all_translations.php:176
+#: core/wpbc.php:271 core/wpbc.php:273 core/wpbc.php:491
 #: includes/page-settings-all/all__page.php:39
 #: includes/page-settings-all/all__page.php:74
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:136
 #: includes/_functions/admin_top_bar.php:263
 #: includes/_toolbar_ui/ui__settings_panel.php:116
 msgid "Settings"
@@ -9826,12 +10441,12 @@ msgid "Release date"
 msgstr "Data de publicació"
 
 #: core/admin/wpbc-dashboard.php:522 core/lang/wpbc_all_translations.php:437
-#: includes/_feedback/feedback.php:567
+#: includes/_feedback/feedback.php:562
 msgid "website"
 msgstr "lloc web"
 
 #: core/admin/wpbc-dashboard.php:520 core/lang/wpbc_all_translations.php:436
-#: includes/_feedback/feedback.php:565
+#: includes/_feedback/feedback.php:560
 msgid "websites"
 msgstr "llocs webs"
 
@@ -9840,8 +10455,8 @@ msgid "Used for"
 msgstr "Utilitzat per a"
 
 #: core/admin/wpbc-dashboard.php:592 core/lang/wpbc_all_translations.php:441
-#: includes/page-form-simple/page-form-simple.php:602
-#: includes/page-form-simple/page-form-simple.php:695
+#: includes/page-form-simple/page-form-simple.php:643
+#: includes/page-form-simple/page-form-simple.php:736
 msgid "Type"
 msgstr "Tipus"
 
@@ -9854,7 +10469,7 @@ msgid "Current version"
 msgstr "Versió actual"
 
 #: core/lang/wpbc_all_translations.php:547
-#: includes/page-form-simple/page-form-simple.php:76
+#: includes/page-form-simple/page-form-simple.php:74
 msgid "Upgrade to higher versions"
 msgstr "Actualitza a versions superiors"
 
@@ -9864,7 +10479,7 @@ msgstr "Totes les reserves per a avui"
 
 #: core/admin/wpbc-dashboard.php:651 core/admin/wpbc-dashboard.php:838
 #: core/lang/wpbc_all_translations.php:448
-#: includes/_toolbar_ui/ui__settings_panel.php:1895
+#: includes/_toolbar_ui/ui__settings_panel.php:2039
 msgid "New booking(s) made today"
 msgstr "Noves reserves realitzades avui"
 
@@ -9874,13 +10489,13 @@ msgstr "Agenda"
 
 #: core/admin/wpbc-dashboard.php:659 core/admin/wpbc-dashboard.php:870
 #: core/lang/wpbc_all_translations.php:450
-#: includes/_toolbar_ui/ui__settings_panel.php:1836
+#: includes/_toolbar_ui/ui__settings_panel.php:1980
 msgid "Pending booking(s)"
 msgstr "Reserves pendents"
 
 #: core/admin/wpbc-dashboard.php:655 core/admin/wpbc-dashboard.php:887
 #: core/lang/wpbc_all_translations.php:449
-#: includes/_toolbar_ui/ui__settings_panel.php:1816
+#: includes/_toolbar_ui/ui__settings_panel.php:1960
 msgid "New (unverified) booking(s)"
 msgstr "Noves reserves (sense verificar)"
 
@@ -9891,9 +10506,8 @@ msgstr "Estadística"
 #. Plugin Name of the plugin
 #: wpdev-booking.php core/admin/wpbc-dashboard.php:188
 #: core/lang/wpbc_all_translations.php:427 core/lib/wpdev-booking-widget.php:30
-#: core/wpbc.php:169 core/wpbc.php:197 core/wpbc.php:206 core/wpbc.php:217
-#: core/wpbc.php:227 core/wpbc.php:239 core/wpbc.php:251 core/wpbc.php:263
-#: core/wpbc.php:274
+#: core/wpbc.php:189 core/wpbc.php:217 core/wpbc.php:226 core/wpbc.php:237
+#: core/wpbc.php:247 core/wpbc.php:261 core/wpbc.php:273 core/wpbc.php:293
 msgid "Booking Calendar"
 msgstr "Booking Calendar"
 
@@ -9901,13 +10515,15 @@ msgstr "Booking Calendar"
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3082
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3084
 #: includes/page-bookings/bookings__sql.php:1834
+#: includes/page-setup/templates/05.form_structure__tpl.php:270
+#: includes/page-setup/templates/05.form_structure__tpl.php:271
 msgid "Payment"
 msgstr "Pagament"
 
-#: core/admin/api-settings.php:1696 core/admin/page-import-gcal.php:535
+#: core/admin/api-settings.php:1685 core/admin/page-import-gcal.php:535
 #: core/lang/wpbc_all_translations.php:175
-#: core/timeline/v2/wpbc-class-timeline_v2.php:72 core/wpbc.php:225
-#: core/wpbc.php:227 includes/_functions/admin_top_bar.php:222
+#: core/timeline/v2/wpbc-class-timeline_v2.php:72 core/wpbc.php:245
+#: core/wpbc.php:247 includes/_functions/admin_top_bar.php:222
 #: includes/_functions/admin_top_bar.php:230
 msgid "Resources"
 msgstr "Recursos"
@@ -9915,6 +10531,12 @@ msgstr "Recursos"
 #: core/lang/wpbc_all_translations.php:637 core/sync/wpbc-gcal-class.php:668
 #: core/timeline/v2/wpbc-class-timeline_v2.php:1500
 #: core/timeline/v2/wpbc-class-timeline_v2.php:1513
+#: includes/page-form-simple/form_templates.php:307
+#: includes/page-form-simple/form_templates.php:360
+#: includes/page-form-simple/form_templates.php:443
+#: includes/page-form-simple/form_templates.php:487
+#: includes/page-form-simple/form_templates.php:1117
+#: includes/page-form-simple/form_templates.php:1152
 msgid "Times"
 msgstr "Hores"
 
@@ -9968,24 +10590,28 @@ msgid "Mon"
 msgstr "Dl"
 
 #: core/lang/wpbc_all_translations1.php:42
+#: includes/page-setup/templates/06.cal_availability__tpl.php:220
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:784
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1222
 msgid "Su"
 msgstr "Dg"
 
 #: core/lang/wpbc_all_translations1.php:41
+#: includes/page-setup/templates/06.cal_availability__tpl.php:219
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:783
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1221
 msgid "Sa"
 msgstr "Ds"
 
 #: core/lang/wpbc_all_translations1.php:39
+#: includes/page-setup/templates/06.cal_availability__tpl.php:217
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:781
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1219
 msgid "Th"
 msgstr "Dj"
 
 #: core/lang/wpbc_all_translations1.php:37
+#: includes/page-setup/templates/06.cal_availability__tpl.php:215
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:779
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1217
 msgid "Tu"
@@ -9994,147 +10620,154 @@ msgstr "Dt"
 #: core/admin/api-settings.php:98 core/admin/api-settings.php:559
 #: core/lang/wpbc_all_translations.php:10
 #: core/timeline/v2/wpbc-class-timeline_v2.php:86
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:84
 msgid "Sunday"
 msgstr "Diumenge"
 
 #: core/admin/api-settings.php:104 core/admin/api-settings.php:577
 #: core/lang/wpbc_all_translations.php:16
 #: core/timeline/v2/wpbc-class-timeline_v2.php:85
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:90
 msgid "Saturday"
 msgstr "Dissabte"
 
 #: core/admin/api-settings.php:103 core/admin/api-settings.php:574
 #: core/lang/wpbc_all_translations.php:15
 #: core/timeline/v2/wpbc-class-timeline_v2.php:84
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:89
 msgid "Friday"
 msgstr "Divendres"
 
 #: core/admin/api-settings.php:102 core/admin/api-settings.php:571
 #: core/lang/wpbc_all_translations.php:14
 #: core/timeline/v2/wpbc-class-timeline_v2.php:83
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:88
 msgid "Thursday"
 msgstr "Dijous"
 
 #: core/admin/api-settings.php:101 core/admin/api-settings.php:568
 #: core/lang/wpbc_all_translations.php:13
 #: core/timeline/v2/wpbc-class-timeline_v2.php:82
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:87
 msgid "Wednesday"
 msgstr "Dimecres"
 
 #: core/admin/api-settings.php:100 core/admin/api-settings.php:565
 #: core/lang/wpbc_all_translations.php:12
 #: core/timeline/v2/wpbc-class-timeline_v2.php:81
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:86
 msgid "Tuesday"
 msgstr "Dimarts"
 
 #: core/admin/api-settings.php:99 core/admin/api-settings.php:562
 #: core/lang/wpbc_all_translations.php:11
 #: core/timeline/v2/wpbc-class-timeline_v2.php:80
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:85
 msgid "Monday"
 msgstr "Dilluns"
 
-#: core/admin/wpbc-toolbars.php:676 core/lang/wpbc_all_translations.php:489
+#: core/admin/wpbc-toolbars.php:677 core/lang/wpbc_all_translations.php:489
 msgid "Next 7 days"
 msgstr "7 dies següents"
 
-#: core/admin/wpbc-toolbars.php:675 core/lang/wpbc_all_translations.php:488
+#: core/admin/wpbc-toolbars.php:676 core/lang/wpbc_all_translations.php:488
 msgid "Next day"
 msgstr "Dia següent"
 
-#: core/admin/wpbc-toolbars.php:674 core/lang/wpbc_all_translations.php:487
+#: core/admin/wpbc-toolbars.php:675 core/lang/wpbc_all_translations.php:487
 msgid "Current day"
 msgstr "Dia actual"
 
-#: core/admin/wpbc-toolbars.php:673 core/lang/wpbc_all_translations.php:486
+#: core/admin/wpbc-toolbars.php:674 core/lang/wpbc_all_translations.php:486
 msgid "Previous day"
 msgstr "Dia anterior"
 
-#: core/admin/wpbc-toolbars.php:672 core/lang/wpbc_all_translations.php:485
+#: core/admin/wpbc-toolbars.php:673 core/lang/wpbc_all_translations.php:485
 msgid "Previous 7 days"
 msgstr "7 dies anteriors"
 
-#: core/admin/wpbc-toolbars.php:658 core/admin/wpbc-toolbars.php:708
-#: core/admin/wpbc-toolbars.php:723 core/lang/wpbc_all_translations.php:484
+#: core/admin/wpbc-toolbars.php:659 core/admin/wpbc-toolbars.php:709
+#: core/admin/wpbc-toolbars.php:724 core/lang/wpbc_all_translations.php:484
 msgid "Next 3 months"
 msgstr "3 mesos següents"
 
-#: core/admin/wpbc-toolbars.php:657 core/admin/wpbc-toolbars.php:707
-#: core/admin/wpbc-toolbars.php:722 core/lang/wpbc_all_translations.php:483
+#: core/admin/wpbc-toolbars.php:658 core/admin/wpbc-toolbars.php:708
+#: core/admin/wpbc-toolbars.php:723 core/lang/wpbc_all_translations.php:483
 msgid "Next month"
 msgstr "Mes següent"
 
-#: core/admin/wpbc-toolbars.php:656 core/admin/wpbc-toolbars.php:706
-#: core/admin/wpbc-toolbars.php:721 core/lang/wpbc_all_translations.php:482
+#: core/admin/wpbc-toolbars.php:657 core/admin/wpbc-toolbars.php:707
+#: core/admin/wpbc-toolbars.php:722 core/lang/wpbc_all_translations.php:482
 msgid "Current month"
 msgstr "Mes actual"
 
-#: core/admin/wpbc-toolbars.php:655 core/admin/wpbc-toolbars.php:705
-#: core/admin/wpbc-toolbars.php:720 core/lang/wpbc_all_translations.php:481
+#: core/admin/wpbc-toolbars.php:656 core/admin/wpbc-toolbars.php:706
+#: core/admin/wpbc-toolbars.php:721 core/lang/wpbc_all_translations.php:481
 msgid "Previous month"
 msgstr "Mes anterior"
 
-#: core/admin/wpbc-toolbars.php:654 core/admin/wpbc-toolbars.php:704
-#: core/admin/wpbc-toolbars.php:719 core/lang/wpbc_all_translations.php:480
+#: core/admin/wpbc-toolbars.php:655 core/admin/wpbc-toolbars.php:705
+#: core/admin/wpbc-toolbars.php:720 core/lang/wpbc_all_translations.php:480
 msgid "Previous 3 months"
 msgstr "3 mesos anteriors"
 
-#: core/admin/wpbc-toolbars.php:622 core/admin/wpbc-toolbars.php:691
+#: core/admin/wpbc-toolbars.php:623 core/admin/wpbc-toolbars.php:692
 #: core/lang/wpbc_all_translations.php:477
 msgid "Next 4 weeks"
 msgstr "4 setmanes següents"
 
-#: core/admin/wpbc-toolbars.php:621 core/admin/wpbc-toolbars.php:690
+#: core/admin/wpbc-toolbars.php:622 core/admin/wpbc-toolbars.php:691
 #: core/lang/wpbc_all_translations.php:476
 msgid "Next week"
 msgstr "Setmana següent"
 
-#: core/admin/wpbc-toolbars.php:620 core/admin/wpbc-toolbars.php:642
-#: core/admin/wpbc-toolbars.php:689 core/lang/wpbc_all_translations.php:475
+#: core/admin/wpbc-toolbars.php:621 core/admin/wpbc-toolbars.php:643
+#: core/admin/wpbc-toolbars.php:690 core/lang/wpbc_all_translations.php:475
 msgid "Current week"
 msgstr "Setmana actual"
 
-#: core/admin/wpbc-toolbars.php:619 core/admin/wpbc-toolbars.php:688
+#: core/admin/wpbc-toolbars.php:620 core/admin/wpbc-toolbars.php:689
 #: core/lang/wpbc_all_translations.php:474
 msgid "Previous week"
 msgstr "Setmana anterior"
 
-#: core/admin/wpbc-toolbars.php:618 core/admin/wpbc-toolbars.php:687
+#: core/admin/wpbc-toolbars.php:619 core/admin/wpbc-toolbars.php:688
 #: core/lang/wpbc_all_translations.php:473
 msgid "Previous 4 weeks"
 msgstr "4 setmanes anteriors"
 
-#: core/admin/api-settings.php:1125 core/admin/wpbc-toolbars.php:560
+#: core/admin/api-settings.php:1125 core/admin/wpbc-toolbars.php:561
 #: core/lang/wpbc_all_translations.php:106
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:150
 msgid "2 Months"
 msgstr "2 mesos"
 
-#: core/admin/wpbc-toolbars.php:561 core/lang/wpbc_all_translations.php:472
+#: core/admin/wpbc-toolbars.php:562 core/lang/wpbc_all_translations.php:472
 msgid "Show 2 months"
 msgstr "Mostra 2 mesos"
 
-#: core/admin/api-settings.php:1123 core/admin/wpbc-toolbars.php:475
-#: core/admin/wpbc-toolbars.php:532 core/lang/wpbc_all_translations.php:104
+#: core/admin/api-settings.php:1123 core/admin/wpbc-toolbars.php:476
+#: core/admin/wpbc-toolbars.php:533 core/lang/wpbc_all_translations.php:104
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2856
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2875
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:146
 msgid "Week"
 msgstr "Setmana"
 
-#: core/admin/wpbc-toolbars.php:476 core/admin/wpbc-toolbars.php:533
+#: core/admin/wpbc-toolbars.php:477 core/admin/wpbc-toolbars.php:534
 #: core/lang/wpbc_all_translations.php:470
 msgid "Show week"
 msgstr "Mostra la setmana"
 
-#: core/admin/api-settings.php:1122 core/admin/wpbc-toolbars.php:458
-#: core/admin/wpbc-toolbars.php:518 core/lang/wpbc_all_translations.php:103
+#: core/admin/api-settings.php:1122 core/admin/wpbc-toolbars.php:459
+#: core/admin/wpbc-toolbars.php:519 core/lang/wpbc_all_translations.php:103
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2852
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2871
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:145
 msgid "Day"
 msgstr "Dia"
 
-#: core/admin/wpbc-toolbars.php:459 core/admin/wpbc-toolbars.php:519
+#: core/admin/wpbc-toolbars.php:460 core/admin/wpbc-toolbars.php:520
 #: core/lang/wpbc_all_translations.php:469
 msgid "Show day"
 msgstr "Mostra el dia"
@@ -10146,7 +10779,7 @@ msgid "3 Months"
 msgstr "3 mesos"
 
 #: core/admin/api-settings.php:1124 core/admin/api-settings.php:1131
-#: core/admin/wpbc-toolbars.php:492 core/admin/wpbc-toolbars.php:546
+#: core/admin/wpbc-toolbars.php:493 core/admin/wpbc-toolbars.php:547
 #: core/lang/wpbc_all_translations.php:105
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2860
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2879
@@ -10154,12 +10787,12 @@ msgstr "3 mesos"
 msgid "Month"
 msgstr "Mes"
 
-#: core/admin/wpbc-toolbars.php:493 core/admin/wpbc-toolbars.php:547
+#: core/admin/wpbc-toolbars.php:494 core/admin/wpbc-toolbars.php:548
 #: core/lang/wpbc_all_translations.php:471
 msgid "Show month"
 msgstr "Mostra el mes"
 
-#: core/lang/wpbc_all_translations.php:749 core/wpbc_functions.php:544
+#: core/lang/wpbc_all_translations.php:749 core/wpbc_functions.php:552
 #: includes/_pagination/pagination.php:159
 msgid "Prev"
 msgstr "Ant"
@@ -10291,7 +10924,7 @@ msgstr "Aprova"
 msgid "Approve selected bookings"
 msgstr "Aprova les reserves seleccionades"
 
-#: core/admin/api-settings.php:1721 core/lang/wpbc_all_translations.php:180
+#: core/admin/api-settings.php:1710 core/lang/wpbc_all_translations.php:180
 #: core/lib/wpdev-booking-widget.php:136
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:90
 #: js/wpbc-gutenberg.js:1533
@@ -10332,7 +10965,7 @@ msgstr "Aprovada"
 #: core/lang/wpbc_all_translations.php:35
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2997
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3050
-#: core/wpbc-activation.php:1201
+#: core/wpbc-activation.php:1200
 #: includes/page-bookings/bookings__actions.php:3082
 #: includes/page-bookings/bookings__listing.php:241
 #: includes/_toolbar_ui/toolbar_ui.php:777
@@ -10340,7 +10973,7 @@ msgstr "Aprovada"
 msgid "Pending"
 msgstr "Pendent"
 
-#: core/admin/wpbc-toolbars.php:333 core/admin/wpbc-toolbars.php:1555
+#: core/admin/wpbc-toolbars.php:333 core/admin/wpbc-toolbars.php:1556
 #: core/lang/wpbc_all_translations.php:465
 msgid "Go"
 msgstr "Vés-hi"
@@ -10351,7 +10984,7 @@ msgstr "Vés-hi"
 msgid "Booking ID"
 msgstr "Identificador de reserva"
 
-#: core/admin/wpbc-toolbars.php:294 core/admin/wpbc-toolbars.php:1165
+#: core/admin/wpbc-toolbars.php:294 core/admin/wpbc-toolbars.php:1166
 #: core/lang/wpbc_all_translations.php:462
 #: includes/_toolbar_ui/toolbar_ui.php:2248
 msgid "Emails sending"
@@ -10363,8 +10996,8 @@ msgstr "Redueix la barra d'eines avançada"
 
 #: core/lang/wpbc_all_translations.php:538
 #: includes/page-bookings/bookings__listing.php:120
-#: includes/page-form-simple/form_simple__timeslots.php:774
-#: includes/page-form-simple/page-form-simple.php:603
+#: includes/page-form-simple/form_simple__timeslots.php:791
+#: includes/page-form-simple/page-form-simple.php:644
 #: includes/page-resource-free/page-resource-free.php:315
 #: includes/_toolbar_ui/toolbar_ui.php:69
 msgid "Actions"
@@ -10375,16 +11008,16 @@ msgstr "Accions"
 msgid "Filters"
 msgstr "Filtres"
 
-#: core/admin/wpbc-toolbars.php:367 core/lang/wpbc_all_translations.php:466
+#: core/lang/wpbc_all_translations.php:466
 msgid "Technical Support"
 msgstr "Suport tècnic"
 
-#: core/admin/wpbc-dashboard.php:436 core/admin/wpbc-toolbars.php:366
+#: core/admin/wpbc-dashboard.php:436 core/admin/wpbc-toolbars.php:363
 #: core/lang/wpbc_all_translations.php:433
 msgid "FAQ"
 msgstr "PMF"
 
-#: core/admin/wpbc-toolbars.php:369 core/lang/wpbc_all_translations.php:467
+#: core/lang/wpbc_all_translations.php:467
 msgid "About Booking Calendar"
 msgstr "En quant a Booking Calendar"
 
@@ -10393,31 +11026,32 @@ msgstr "En quant a Booking Calendar"
 #: core/admin/page-email-new-visitor.php:652
 #: core/admin/page-email-trash.php:681 core/admin/page-ics-import.php:196
 #: core/admin/page-import-gcal.php:596 core/admin/wpbc-toolbars.php:359
-#: core/admin/wpbc-toolbars.php:365 core/lang/wpbc_all_translations.php:239
+#: core/lang/wpbc_all_translations.php:239
 msgid "Help"
 msgstr "Ajuda"
 
-#: core/admin/wpbc-toolbars.php:397 core/lang/wpbc_all_translations.php:468
+#: core/admin/wpbc-toolbars.php:398 core/lang/wpbc_all_translations.php:468
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2952
 #: includes/page-bookings/bookings__page.php:40
 #: includes/page-bookings/bookings__page.php:41
 #: includes/page-bookings/bookings__page.php:42
+#: includes/page-setup/templates/10.get_started__tpl.php:304
 #: includes/_functions/admin_top_bar.php:81
 msgid "Booking Listing"
 msgstr "Llista de reserves"
 
-#: core/admin/wpbc-toolbars.php:785 core/lang/wpbc_all_translations.php:490
+#: core/admin/wpbc-toolbars.php:786 core/lang/wpbc_all_translations.php:490
 #: js/wpbc-gutenberg.js:868
 msgid "Start Date"
 msgstr "Data d'inici"
 
 #: core/admin/api-settings.php:1232 core/admin/api-settings.php:1294
-#: core/admin/wpbc-toolbars.php:766 core/lang/wpbc_all_translations.php:126
+#: core/admin/wpbc-toolbars.php:767 core/lang/wpbc_all_translations.php:126
 #: includes/_toolbar_ui/toolbar_ui.php:1497
 msgid "Custom"
 msgstr "Personalitzat"
 
-#: core/admin/wpbc-toolbars.php:798 core/lang/wpbc_all_translations.php:491
+#: core/admin/wpbc-toolbars.php:799 core/lang/wpbc_all_translations.php:491
 #: includes/page-availability/availability__toolbar_ui.php:215
 #: includes/_toolbar_ui/toolbar_ui.php:481
 #: includes/_toolbar_ui/toolbar_ui.php:698
@@ -10447,12 +11081,12 @@ msgstr "Entrada/sortida avui"
 msgid "Prior"
 msgstr "Anterior a"
 
-#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
-#: core/lang/wpbc_all_translations.php:479 core/wpbc_functions.php:577
+#: core/admin/wpbc-toolbars.php:644 core/admin/wpbc-toolbars.php:645
+#: core/lang/wpbc_all_translations.php:479 core/wpbc_functions.php:585
 #: includes/_feedback/feedback.php:222 includes/_feedback/feedback.php:266
 #: includes/_feedback/feedback.php:287 includes/_feedback/feedback.php:324
 #: includes/_pagination/pagination.php:196
-#: includes/_toolbar_ui/toolbar_ui.php:556 includes/_tour/wpbc_tour.php:175
+#: includes/_toolbar_ui/toolbar_ui.php:556 includes/_tour/wpbc_tour.php:174
 msgid "Next"
 msgstr "Següent"
 
@@ -10530,8 +11164,8 @@ msgstr "Descripció"
 
 #: core/admin/wpbc-toolbars.php:133 core/lang/wpbc_all_translations.php:458
 #: includes/page-availability/availability__page.php:110
-#: includes/page-form-simple/page-form-simple.php:234
-#: includes/page-form-simple/page-form-simple.php:235
+#: includes/page-form-simple/page-form-simple.php:232
+#: includes/page-form-simple/page-form-simple.php:233
 #: includes/page-resource-free/page-resource-free.php:237
 #: includes/_toolbar_ui/toolbar_ui.php:94 js/wpbc-gutenberg.js:672
 #: js/wpbc-gutenberg.js:764 js/wpbc-gutenberg.js:960
@@ -10539,8 +11173,8 @@ msgid "Options"
 msgstr "Opcions"
 
 #: core/admin/wpbc-dashboard.php:907 core/lang/wpbc_all_translations.php:457
-#: includes/_toolbar_ui/ui__settings_panel.php:1700
-#: includes/_toolbar_ui/ui__settings_panel.php:1740
+#: includes/_toolbar_ui/ui__settings_panel.php:1844
+#: includes/_toolbar_ui/ui__settings_panel.php:1884
 msgid "for"
 msgstr "per a"
 
@@ -10574,7 +11208,7 @@ msgstr "Seleccioneu el nombre de mesos a mostrar al calendari."
 msgid "Select booking resource"
 msgstr "Seleccioneu un recurs reservable"
 
-#: core/lang/wpbc_all_translations.php:730 core/wpbc.php:226
+#: core/lang/wpbc_all_translations.php:730 core/wpbc.php:246
 msgid "Booking resources"
 msgstr "Recursos reservables"
 
@@ -10585,8 +11219,8 @@ msgstr "Recursos reservables"
 #: includes/page-bookings/bookings__actions.php:2734
 #: includes/page-bookings/bookings__actions.php:3239
 #: includes/page-bookings/bookings__actions.php:3347
-#: includes/page-form-simple/page-form-simple.php:1130
-#: includes/page-form-simple/page-form-simple.php:1144
+#: includes/page-form-simple/page-form-simple.php:1171
+#: includes/page-form-simple/page-form-simple.php:1185
 msgid "Cancel"
 msgstr "Cancel·la"
 
@@ -10595,50 +11229,48 @@ msgid "Ok"
 msgstr "D'acord"
 
 #: core/lang/wpbc_all_translations1.php:954
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:36
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:316
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:50
 msgid "Booking calendar"
 msgstr "Calendari de reserva"
 
 #: core/lang/wpbc_all_translations1.php:953
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:35
 msgid "Insert booking calendar"
 msgstr "Inseriu un calendari de reserva"
 
-#: core/lang/wpbc_all_translations.php:733 core/wpbc.php:295 core/wpbc.php:314
+#: core/lang/wpbc_all_translations.php:733 core/wpbc.php:315 core/wpbc.php:334
 msgid "Need even more functionality? Check %s higher versions %s"
 msgstr "Necessita més funcionalitat? Feu una ullada a les %sversions superiors%s"
 
-#: core/lang/wpbc_all_translations.php:772 core/wpbc_welcome.php:350
+#: core/lang/wpbc_all_translations.php:772 core/wpbc_welcome.php:305
 msgid "See %sFAQ%s."
 msgstr "Consulteu les %sPMF%s."
 
-#: core/lang/wpbc_all_translations.php:771 core/wpbc_welcome.php:347
+#: core/lang/wpbc_all_translations.php:771 core/wpbc_welcome.php:297
 msgid "Have a questions?"
 msgstr "Teniu alguna pregunta?"
 
-#: core/lang/wpbc_all_translations.php:769 core/wpbc_welcome.php:331
+#: core/lang/wpbc_all_translations.php:769 core/wpbc_welcome.php:267
 msgid "Check %sBooking Listing%s page for new bookings."
 msgstr "Consulteu la pàgina %sLlista de reserves%s per veure les noves reserves."
 
-#: core/lang/wpbc_all_translations.php:767 core/wpbc_welcome.php:317
+#: core/lang/wpbc_all_translations.php:767 core/wpbc_welcome.php:248
 msgid "Next Steps"
 msgstr "Passos següents"
 
-#: core/lang/wpbc_all_translations.php:762 core/wpbc_welcome.php:270
+#: core/lang/wpbc_all_translations.php:762
 msgid "Get Started"
 msgstr "Comença"
 
-#: core/lang/wpbc_all_translations.php:761 core/wpbc_welcome.php:267
+#: core/lang/wpbc_all_translations.php:761 core/wpbc_welcome.php:140
 msgid "We&#8217;ve assembled some links to get you started:"
 msgstr "Hem agrupat alguns enllaços i anotacions per facilitar l'ús de l'extensió:"
 
-#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/class/wpbc-class-welcome.php:860 core/class/wpbc-class-welcome.php:1346
 #: core/lang/wpbc_all_translations.php:516
 msgid "Upgrade Now"
 msgstr "Actualitza'l ara"
 
-#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/class/wpbc-class-welcome.php:860 core/class/wpbc-class-welcome.php:1346
 #: core/lang/wpbc_all_translations.php:515
 msgid "Purchase"
 msgstr "Compra"
@@ -10674,7 +11306,7 @@ msgstr "Exporta només la pàgina actual de reserves en format CSV"
 msgid "Import"
 msgstr "Importa"
 
-#: core/admin/wpbc-toolbars.php:818 core/lang/wpbc_all_translations.php:492
+#: core/admin/wpbc-toolbars.php:819 core/lang/wpbc_all_translations.php:492
 #: includes/page-bookings/bookings__actions.php:2217
 #: includes/page-bookings/bookings__actions.php:2382
 #: includes/page-bookings/bookings__actions.php:2735
@@ -10683,10 +11315,10 @@ msgstr "Importa"
 #: includes/page-bookings/bookings__actions.php:3430
 #: includes/page-bookings/bookings__actions.php:3513
 #: includes/page-bookings/bookings__actions.php:3626
-#: includes/page-form-simple/page-form-simple.php:959
+#: includes/page-form-simple/page-form-simple.php:1000
 #: includes/print/bookings_print.php:103
-#: includes/publish/wpbc-publish-shortcode.php:327
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:279
+#: includes/publish/wpbc-publish-shortcode.php:336
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:282
 #: includes/_toolbar_ui/toolbar_ui.php:717
 #: includes/_toolbar_ui/toolbar_ui.php:1400
 #: includes/_toolbar_ui/toolbar_ui.php:1557
@@ -10697,7 +11329,7 @@ msgstr "Tanca"
 #: core/admin/page-import-gcal.php:449 core/lang/wpbc_all_translations.php:392
 #: includes/page-bookings/bookings__actions.php:3511
 #: includes/_toolbar_ui/toolbar_ui.php:2055
-#: includes/_toolbar_ui/ui__settings_panel.php:852
+#: includes/_toolbar_ui/ui__settings_panel.php:917
 msgid "Import Google Calendar Events"
 msgstr "Importa esdeveniments de Google Calendar"
 
@@ -10726,7 +11358,7 @@ msgstr "Configureu les opcions per importar els esdeveniments de Google Calendar
 msgid "Retrieve Google Calendar Events "
 msgstr "Recupera els esdeveniments de calendari de Google "
 
-#: core/admin/page-ics-export.php:140 core/class/wpbc-class-notices.php:25
+#: core/admin/page-ics-export.php:140 core/class/wpbc-class-notices.php:40
 #: core/lang/wpbc_all_translations.php:273
 #: includes/page-bookings/bookings__actions.php:3470
 msgid "Warning!"
@@ -10745,6 +11377,10 @@ msgstr "dia"
 #: core/admin/page-import-gcal.php:87 core/admin/page-import-gcal.php:89
 #: core/lang/wpbc_all_translations.php:344
 #: includes/page-form-simple/form_simple__timeslots.php:202
+#: includes/page-setup/templates/05.form_structure__tpl.php:279
+#: includes/page-setup/templates/05.form_structure__tpl.php:280
+#: includes/page-setup/templates/06.cal_availability__tpl.php:654
+#: includes/page-setup/templates/06.cal_availability__tpl.php:656
 msgid "hour"
 msgstr "hora"
 
@@ -10834,10 +11470,11 @@ msgid "You can specify an additional offset from you chosen start point. The off
 msgstr "Podeu especificar un desplaçament addicional des del punt d'inici triat. El desplaçament pot ser negatiu."
 
 #: core/admin/page-import-gcal.php:237 core/admin/page-import-gcal.php:319
-#: core/admin/wpbc-toolbars.php:640 core/admin/wpbc-toolbars.php:641
-#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/admin/wpbc-toolbars.php:641 core/admin/wpbc-toolbars.php:642
+#: core/admin/wpbc-toolbars.php:644 core/admin/wpbc-toolbars.php:645
 #: core/lang/wpbc_all_translations.php:370 core/sync/wpbc-gcal.php:129
 #: core/sync/wpbc-gcal.php:193
+#: includes/page-setup/templates/05.form_structure__tpl.php:255
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:998
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1390
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:264
@@ -10858,6 +11495,9 @@ msgstr "dies"
 #: core/admin/page-import-gcal.php:318 core/lang/wpbc_all_translations.php:345
 #: core/sync/wpbc-gcal.php:128 core/sync/wpbc-gcal.php:192
 #: includes/page-form-simple/form_simple__timeslots.php:201
+#: includes/page-setup/templates/05.form_structure__tpl.php:278
+#: includes/page-setup/templates/06.cal_availability__tpl.php:528
+#: includes/page-setup/templates/06.cal_availability__tpl.php:660
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:265
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:415
 msgid "hours"
@@ -10870,6 +11510,14 @@ msgstr "hores"
 #: includes/page-form-simple/form_simple__timeslots.php:203
 #: includes/page-form-simple/form_simple__timeslots.php:204
 #: includes/page-form-simple/form_simple__timeslots.php:205
+#: includes/page-form-simple/form_simple__timeslots.php:206
+#: includes/page-setup/templates/05.form_structure__tpl.php:241
+#: includes/page-setup/templates/05.form_structure__tpl.php:243
+#: includes/page-setup/templates/05.form_structure__tpl.php:281
+#: includes/page-setup/templates/05.form_structure__tpl.php:282
+#: includes/page-setup/templates/06.cal_availability__tpl.php:528
+#: includes/page-setup/templates/06.cal_availability__tpl.php:652
+#: includes/page-setup/templates/06.cal_availability__tpl.php:656
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:266
 msgid "minutes"
 msgstr "minuts"
@@ -10983,6 +11631,9 @@ msgid "Select field for assigning to %sevent property%s"
 msgstr "Seleccioneu un camp per assignar a la %spropietat de l'esdeveniment%s"
 
 #: core/admin/page-ics-general.php:67 core/lang/wpbc_all_translations.php:283
+#: includes/page-setup/setup_ajax.php:470
+#: includes/page-setup/setup_ajax.php:507
+#: includes/page-setup/templates/06.cal_availability__tpl.php:505
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:573
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:248
 msgid "None"
@@ -11076,7 +11727,7 @@ msgstr "Importa esdeveniments automàticament"
 msgid "Assign events fields to specific booking form field"
 msgstr "Assigna camps d'esdeveniments a un camp de formulari de reserva específic"
 
-#: core/lang/wpbc_all_translations.php:755 core/wpbc_functions.php:901
+#: core/lang/wpbc_all_translations.php:755 core/wpbc_functions.php:909
 #: includes/page-form-simple/form_simple__preview.php:209
 msgid "Click to toggle"
 msgstr "Fes clic per alternar"
@@ -11100,9 +11751,9 @@ msgstr "Suprimeix les reserves seleccionades"
 msgid "Do you really want to delete selected booking(s) ?"
 msgstr "Segur que voleu suprimir les reserves seleccionades?"
 
-#: core/admin/api-settings.php:1722 core/class/wpbc-class-notices.php:107
+#: core/admin/api-settings.php:1711 core/class/wpbc-class-notices.php:111
 #: core/lang/wpbc_all_translations.php:181 core/sync/wpbc-gcal-class.php:796
-#: core/wpbc_functions.php:808
+#: core/wpbc_functions.php:816
 msgid "Hide"
 msgstr "Amaga"
 
@@ -11127,6 +11778,19 @@ msgstr "GID"
 #: core/sync/wpbc-gcal-class.php:735 core/sync/wpbc-gcal-class.php:770
 #: core/timeline/v2/wpbc-class-timeline_v2.php:73
 #: core/wpbc_functions_dates.php:235 core/wpbc_functions_dates.php:277
+#: includes/page-form-simple/form_templates.php:194
+#: includes/page-form-simple/form_templates.php:230
+#: includes/page-form-simple/form_templates.php:249
+#: includes/page-form-simple/form_templates.php:281
+#: includes/page-form-simple/form_templates.php:339
+#: includes/page-form-simple/form_templates.php:392
+#: includes/page-form-simple/form_templates.php:635
+#: includes/page-form-simple/form_templates.php:666
+#: includes/page-form-simple/form_templates.php:716
+#: includes/page-form-simple/form_templates.php:744
+#: includes/page-form-simple/form_templates.php:778
+#: includes/page-form-simple/form_templates.php:859
+#: includes/page-form-simple/form_templates.php:898
 #: includes/_toolbar_ui/toolbar_ui.php:292
 #: includes/_toolbar_ui/toolbar_ui.php:293
 #: includes/_toolbar_ui/toolbar_ui.php:415
@@ -11134,7 +11798,7 @@ msgstr "GID"
 msgid "Dates"
 msgstr "Dates"
 
-#: core/admin/api-settings.php:1769 core/lang/wpbc_all_translations.php:184
+#: core/admin/api-settings.php:1758 core/lang/wpbc_all_translations.php:184
 #: core/sync/wpbc-gcal-class.php:492 core/sync/wpbc-gcal-class.php:734
 #: core/sync/wpbc-gcal-class.php:760
 msgid "Info"
@@ -11150,7 +11814,7 @@ msgstr "Informació"
 #: core/lang/wpbc_all_translations.php:200
 #: core/lib/wpdev-booking-widget.php:128 core/sync/wpbc-gcal-class.php:733
 #: core/sync/wpbc-gcal-class.php:756
-#: includes/page-form-simple/form_simple__timeslots.php:773
+#: includes/page-form-simple/form_simple__timeslots.php:790
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:80
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:191
 #: js/wpbc-gutenberg.js:859
@@ -11164,7 +11828,7 @@ msgid "ID"
 msgstr "Identificador"
 
 #: core/admin/page-ics-import.php:713 core/lang/wpbc_all_translations.php:340
-#: core/sync/wpbc-gcal-class.php:512 includes/page-setup/setup_support.php:78
+#: core/sync/wpbc-gcal-class.php:512 includes/page-setup/setup_support.php:201
 #: includes/_feedback/feedback.php:305 includes/_feedback/feedback.php:339
 #: includes/_feedback/feedback.php:398 includes/_feedback/feedback.php:424
 msgid "Done"
@@ -11200,19 +11864,19 @@ msgstr "S'està important el canal"
 #: core/admin/page-email-trash.php:705 core/admin/page-ics-export.php:239
 #: core/admin/page-ics-general.php:478 core/admin/page-ics-import.php:205
 #: core/admin/page-import-gcal.php:614 core/admin/page-settings.php:160
-#: core/admin/page-settings.php:649 core/lang/wpbc_all_translations.php:243
+#: core/admin/page-settings.php:651 core/lang/wpbc_all_translations.php:243
 #: includes/page-bookings/bookings__actions.php:2204
 #: includes/page-bookings/bookings__actions.php:2369
 #: includes/page-bookings/bookings__actions.php:2716
 #: includes/page-bookings/bookings__actions.php:3227
 #: includes/page-bookings/bookings__actions.php:3335
-#: includes/page-form-simple/page-form-simple.php:187
-#: includes/page-form-simple/page-form-simple.php:1139
+#: includes/page-form-simple/page-form-simple.php:185
+#: includes/page-form-simple/page-form-simple.php:1180
 msgid "Save Changes"
 msgstr "Desa els canvis"
 
-#: core/admin/page-settings.php:560 core/lang/wpbc_all_translations.php:416
-#: core/wpbc_welcome.php:246
+#: core/admin/page-settings.php:562 core/lang/wpbc_all_translations.php:416
+#: core/wpbc_welcome.php:39
 #: includes/page-form-simple/form_simple__preview.php:239
 #: includes/page-resource-free/page-resource-free.php:216
 #: includes/_functions/is_dismissed.php:59

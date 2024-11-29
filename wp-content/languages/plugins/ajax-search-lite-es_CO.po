@@ -1,15 +1,15 @@
-# Translation of Plugins - Ajax Search Lite - Stable (latest release) in Spanish (Colombia)
-# This file is distributed under the same license as the Plugins - Ajax Search Lite - Stable (latest release) package.
+# Translation of Plugins - Ajax Search Lite &#8211; Live Search &amp; Filter - Stable (latest release) in Spanish (Colombia)
+# This file is distributed under the same license as the Plugins - Ajax Search Lite &#8211; Live Search &amp; Filter - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 14:58:56+0000\n"
+"PO-Revision-Date: 2024-11-20 03:21:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es_CO\n"
-"Project-Id-Version: Plugins - Ajax Search Lite - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Ajax Search Lite &#8211; Live Search &amp; Filter - Stable (latest release)\n"
 
 #: backend/tabs/instance/advanced/exclude_results.php:40
 msgid "Exclude results"
@@ -898,11 +898,6 @@ msgstr "Normalmente, la eliminar el shortcode es mucho más rápido, especialmen
 msgid "Ernest Marcinko"
 msgstr "Ernest Marcinko"
 
-#. Description of the plugin
-#: ajax-search-lite.php
-msgid "The lite version of the most powerful ajax powered search engine for WordPress."
-msgstr "La versión ligera del más potente motor de búsqueda ajax para WordPress."
-
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 #: ajax-search-lite.php
@@ -1214,3 +1209,8 @@ msgstr "Texto de «No hay resultados»"
 #: backend/tabs/instance/layout/results_behaviour.php:27
 msgid "Show the close icon?"
 msgstr "¿Mostrar el icono de cierre?"
+
+#. Description of the plugin
+#: ajax-search-lite.php
+msgid "The free version of the most powerful ajax powered search engine for WordPress."
+msgstr "La versión gratuita del motor de búsqueda más potente con Ajax para WordPress."

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-11 12:49:09+0000\n"
+"PO-Revision-Date: 2024-11-18 09:12:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,106 +11,196 @@ msgstr ""
 "Language: sv_SE\n"
 "Project-Id-Version: Plugins - WP Booking Calendar - Stable (latest release)\n"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:1313
+#: includes/page-setup/templates/10.get_started__tpl.php:629
+msgid "Add New Resource"
+msgstr "Lägg till ny resurs"
+
+#: includes/page-setup/templates/10.get_started__tpl.php:382
+msgid "Add New Booking"
+msgstr "Lägg till ny bokning"
+
+#: includes/page-setup/templates/10.get_started__tpl.php:220
+msgid "Set Prices"
+msgstr "Ställ in priser"
+
+#: includes/page-setup/templates/08.optional_other_settings__tpl.php:108
+msgid "Skip for Now"
+msgstr "Hoppa över just nu"
+
+#: includes/page-setup/templates/02.general_info__tpl.php:221
+msgid "Skip"
+msgstr "Hoppa över"
+
+#: includes/page-setup/setup_steps.php:91
+#: includes/page-setup/setup_steps.php:99
+#: includes/page-setup/setup_steps.php:116
+#: includes/page-setup/setup_steps.php:127
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: includes/page-form-simple/form_simple__default.php:174
+msgid "Select Time"
+msgstr "Välj tid"
+
+#: includes/page-form-simple/form_simple__default.php:153
+msgid "Select date"
+msgstr "Välj datum"
+
+#: core/lang/wpbc_all_translations2.php:471
+#: includes/page-setup/templates/07.color_theme__tpl.php:209
+msgid "Appearance"
+msgstr "Utseende"
+
+#: core/lang/wpbc_all_translations2.php:467
+#: includes/page-setup/templates/05.form_structure__tpl.php:242
+msgid "No times"
+msgstr "Inga tider"
+
+#: core/lang/wpbc_all_translations2.php:465
+#: includes/page-setup/templates/05.form_structure__tpl.php:232
+msgid "Free Version"
+msgstr "Gratisversion"
+
+#: core/lang/wpbc_all_translations2.php:459
+#: includes/page-setup/templates/04.bookings_types__tpl.php:259
+msgid "Triangles"
+msgstr "Trianglar"
+
+#: core/lang/wpbc_all_translations2.php:456
+#: includes/page-setup/templates/04.bookings_types__tpl.php:237
+msgid "Time Picker"
+msgstr "Tidsväljare"
+
+#: core/lang/wpbc_all_translations2.php:445
+msgid "rooms"
+msgstr "rum"
+
+#: core/admin/wpbc-toolbars.php:370
+msgid "About"
+msgstr "Om"
+
+#: core/admin/wpbc-toolbars.php:366
+msgid "Contact Support"
+msgstr "Kontakta support"
+
+#: core/admin/wpbc-toolbars.php:364 core/wpbc_welcome.php:307
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#: includes/_toolbar_ui/ui__settings_panel.php:1404
 msgid "Back-End"
 msgstr "Back-end"
 
-#: includes/_toolbar_ui/ui__settings_panel.php:310
+#: core/lang/wpbc_all_translations2.php:470
+#: includes/page-setup/templates/07.color_theme__tpl.php:47
+#: includes/_toolbar_ui/ui__settings_panel.php:315
 msgid "Calendar Appearance"
 msgstr "Kalenderutseende"
 
-#: core/lang/wpbc_all_translations2.php:446
-#: includes/page-setup/template__welcome.php:73
+#: core/lang/wpbc_all_translations2.php:444
+#: includes/page-setup/templates/01.welcome__tpl.php:73
 msgid "Let's Get Started"
 msgstr "Då sätter vi igång"
 
-#: core/lang/wpbc_all_translations2.php:444
-#: includes/page-setup/template__welcome.php:43
+#: core/lang/wpbc_all_translations2.php:442
+#: includes/page-setup/templates/01.welcome__tpl.php:43
 msgid "Welcome to %s!"
 msgstr "Välkommen till %s!"
 
-#: core/lang/wpbc_all_translations2.php:433
-#: includes/page-setup/template__general_info.php:43
+#: core/lang/wpbc_all_translations2.php:432
+#: includes/page-setup/templates/02.general_info__tpl.php:43
 msgid "Tell Us About Your Business"
 msgstr "Berätta om ditt företag"
 
-#: core/lang/wpbc_all_translations2.php:422
-#: includes/page-setup/setup_templates.php:301
-#: includes/page-setup/template__bookings_types.php:208
-#: includes/page-setup/template__general_info.php:245
+#: core/lang/wpbc_all_translations2.php:421
+#: includes/page-setup/setup_steps.php:48
+#: includes/page-setup/templates/02.general_info__tpl.php:221
+#: includes/page-setup/templates/02.general_info__tpl.php:247
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:164
+#: includes/page-setup/templates/04.bookings_types__tpl.php:186
+#: includes/page-setup/templates/05.form_structure__tpl.php:438
+#: includes/page-setup/templates/07.color_theme__tpl.php:163
 msgid "Save and Continue"
 msgstr "Spara och fortsätt"
 
-#: core/lang/wpbc_all_translations2.php:420
-#: includes/page-setup/setup_support.php:70
+#: core/lang/wpbc_all_translations2.php:419
+#: includes/page-setup/setup_support.php:193
 msgid "General Info"
 msgstr "Allmän information"
 
-#: core/lang/wpbc_all_translations2.php:419
-#: includes/page-setup/setup_steps.php:208
+#: core/lang/wpbc_all_translations2.php:418
+#: includes/page-setup/setup_steps.php:470
 msgid "Finish Setup"
 msgstr "Slutför inställning"
 
-#: core/lang/wpbc_all_translations2.php:415
-#: includes/page-setup/setup__page.php:99
+#: core/lang/wpbc_all_translations2.php:414
+#: includes/page-setup/setup__page.php:154
 msgid "Initial Setup"
 msgstr "Initial inställning"
 
-#: core/lang/wpbc_all_translations2.php:414
-#: includes/page-setup/setup__page.php:89
+#: core/lang/wpbc_all_translations2.php:413
+#: includes/page-setup/setup__page.php:144
 msgid "Go back to the Dashboard"
 msgstr "Gå tillbaka till adminpanelen"
 
-#: core/lang/wpbc_all_translations2.php:413
-#: includes/page-setup/setup__page.php:88
+#: core/lang/wpbc_all_translations2.php:412
+#: includes/page-setup/setup__page.php:143
 msgid "Go to Dashboard"
 msgstr "Gå till adminpanel"
 
-#: core/lang/wpbc_all_translations2.php:398 includes/_tour/wpbc_tour.php:174
+#: core/lang/wpbc_all_translations2.php:397 includes/_tour/wpbc_tour.php:173
 msgid "End Tour"
 msgstr "Avsluta rundtur"
 
-#: core/lang/wpbc_all_translations2.php:397 includes/_tour/wpbc_tour.php:166
+#: core/lang/wpbc_all_translations2.php:396 includes/_tour/wpbc_tour.php:165
 msgid "Let's go"
 msgstr "Nu kör vi"
 
-#: core/lang/wpbc_all_translations2.php:395 includes/_tour/wpbc_tour.php:163
+#: core/lang/wpbc_all_translations2.php:394 includes/_tour/wpbc_tour.php:161
 msgid "Welcome to %s"
 msgstr "Välkommen till %s"
 
 #: core/lang/wpbc_all_translations2.php:375
-#: includes/_toolbar_ui/ui__settings_panel.php:944
+#: includes/_toolbar_ui/ui__settings_panel.php:1009
 msgid "Set Currency"
 msgstr "Ställ in valuta"
 
 #: core/lang/wpbc_all_translations2.php:366
-#: includes/_toolbar_ui/ui__settings_panel.php:765
+#: includes/_toolbar_ui/ui__settings_panel.php:830
 msgid "Sync Options"
 msgstr "Synkronisera alternativ"
 
+#: includes/_toolbar_ui/ui__settings_panel.php:1569
+msgid "Advanced Options"
+msgstr "Avancerade alternativ"
+
 #: core/lang/wpbc_all_translations2.php:353
-#: includes/_toolbar_ui/ui__settings_panel.php:397
-#: includes/_toolbar_ui/ui__settings_panel.php:912
-#: includes/_toolbar_ui/ui__settings_panel.php:948
-#: includes/_toolbar_ui/ui__settings_panel.php:984
-#: includes/_toolbar_ui/ui__settings_panel.php:1039
-#: includes/_toolbar_ui/ui__settings_panel.php:1093
-#: includes/_toolbar_ui/ui__settings_panel.php:1152
-#: includes/_toolbar_ui/ui__settings_panel.php:1194
-#: includes/_toolbar_ui/ui__settings_panel.php:1240
+#: includes/page-setup/templates/10.get_started__tpl.php:548
+#: includes/page-setup/templates/10.get_started__tpl.php:635
+#: includes/_toolbar_ui/ui__settings_panel.php:421
+#: includes/_toolbar_ui/ui__settings_panel.php:977
+#: includes/_toolbar_ui/ui__settings_panel.php:1013
+#: includes/_toolbar_ui/ui__settings_panel.php:1049
+#: includes/_toolbar_ui/ui__settings_panel.php:1104
+#: includes/_toolbar_ui/ui__settings_panel.php:1158
+#: includes/_toolbar_ui/ui__settings_panel.php:1224
+#: includes/_toolbar_ui/ui__settings_panel.php:1272
+#: includes/_toolbar_ui/ui__settings_panel.php:1324
 msgid "Pro"
 msgstr "Pro"
 
 #: core/lang/wpbc_all_translations2.php:348
-#: includes/_toolbar_ui/ui__settings_panel.php:159
+#: includes/_toolbar_ui/ui__settings_panel.php:164
 msgid "Notifications"
 msgstr "Aviseringar"
 
 #: core/lang/wpbc_all_translations2.php:342
+#: includes/page-setup/templates/05.form_structure__tpl.php:240
 msgid "Advanced Form"
 msgstr "Avancerat formulär"
 
 #: core/lang/wpbc_all_translations2.php:340
+#: includes/page-setup/templates/05.form_structure__tpl.php:232
 msgid "Simple Form"
 msgstr "Enkelt formulär"
 
@@ -118,7 +208,7 @@ msgstr "Enkelt formulär"
 msgid "Custom Form"
 msgstr "Anpassat formulär"
 
-#: core/admin/page-settings.php:232 core/lang/wpbc_all_translations2.php:345
+#: core/admin/page-settings.php:234 core/lang/wpbc_all_translations2.php:345
 #: includes/_toolbar_ui/ui__settings_panel.php:115
 #: includes/_toolbar_ui/ui__settings_panel.php:121
 #: includes/_toolbar_ui/ui__settings_panel.php:122
@@ -128,32 +218,32 @@ msgstr "Adminpanel"
 #: core/lang/wpbc_all_translations2.php:346
 #: includes/page-settings-all/all__page.php:82
 #: includes/page-settings-all/all__page.php:89
-#: includes/_toolbar_ui/ui__settings_panel.php:145
+#: includes/_toolbar_ui/ui__settings_panel.php:150
 msgid "Calendar Settings"
 msgstr "Kalenderinställningar"
 
-#: core/lang/wpbc_all_translations2.php:407
-#: includes/page-form-simple/page-form-simple.php:689
+#: core/lang/wpbc_all_translations2.php:406
+#: includes/page-form-simple/page-form-simple.php:730
 msgid "Button"
 msgstr "Knapp"
 
-#: core/lang/wpbc_all_translations2.php:406
-#: includes/page-form-simple/page-form-simple.php:671
+#: core/lang/wpbc_all_translations2.php:405
+#: includes/page-form-simple/page-form-simple.php:712
 msgid "Select date(s)"
 msgstr "Välj datum"
 
-#: core/lang/wpbc_all_translations2.php:405
-#: includes/page-form-simple/page-form-simple.php:569
+#: core/lang/wpbc_all_translations2.php:404
+#: includes/page-form-simple/page-form-simple.php:610
 msgid "Global Settings"
 msgstr "Globala inställningar"
 
-#: core/lang/wpbc_all_translations2.php:404
+#: core/lang/wpbc_all_translations2.php:403
+#: includes/page-form-simple/page-form-simple.php:255
 #: includes/page-form-simple/page-form-simple.php:257
-#: includes/page-form-simple/page-form-simple.php:259
 msgid "Collapse menu"
 msgstr "Minimera meny"
 
-#: core/lang/wpbc_all_translations2.php:401
+#: core/lang/wpbc_all_translations2.php:400
 #: includes/page-form-simple/form_simple__toolbar_free.php:110
 msgid "Dropdown"
 msgstr "Rullgardinsmeny"
@@ -167,6 +257,7 @@ msgid "Payment mode"
 msgstr "Betalningsläge"
 
 #: core/lang/wpbc_all_translations2.php:314
+#: includes/page-setup/templates/05.form_structure__tpl.php:243
 msgid "Wizard"
 msgstr "Guide"
 
@@ -246,28 +337,28 @@ msgstr "Visa mer"
 msgid "Standard Room"
 msgstr "Standardrum"
 
-#: core/lang/wpbc_all_translations2.php:227 core/wpbc.php:273 core/wpbc.php:274
+#: core/lang/wpbc_all_translations2.php:227 core/wpbc.php:292 core/wpbc.php:293
 #: includes/page-settings-all/all__page.php:148
 #: includes/page-settings-all/all__page.php:167
 #: includes/page-settings-all/all__page.php:186
 #: includes/page-settings-all/all__page.php:205
 #: includes/page-settings-all/all__page.php:224
-#: includes/page-setup/setup_steps.php:250
-#: includes/page-setup/setup__page.php:52
-#: includes/page-setup/setup__page.php:53
-#: includes/page-setup/setup__page.php:54
-#: includes/page-setup/setup__page.php:69
-#: includes/page-setup/setup__page.php:70
-#: includes/page-setup/setup__page.php:71
-#: includes/page-setup/setup__page.php:98
+#: includes/page-setup/setup_steps.php:389
+#: includes/page-setup/setup__page.php:107
+#: includes/page-setup/setup__page.php:108
+#: includes/page-setup/setup__page.php:109
+#: includes/page-setup/setup__page.php:124
+#: includes/page-setup/setup__page.php:125
+#: includes/page-setup/setup__page.php:126
+#: includes/page-setup/setup__page.php:153
 msgid "Setup"
 msgstr "Ställ in"
 
-#: core/admin/page-settings.php:475 core/lang/wpbc_all_translations.php:410
+#: core/admin/page-settings.php:477 core/lang/wpbc_all_translations.php:410
 msgid "Personal Information"
 msgstr "Personlig information"
 
-#: core/admin/page-settings.php:475 core/admin/page-settings.php:481
+#: core/admin/page-settings.php:477 core/admin/page-settings.php:483
 #: core/lang/wpbc_all_translations.php:409
 msgid "Section"
 msgstr "Sektion"
@@ -295,28 +386,33 @@ msgid "Update"
 msgstr "Uppdatera"
 
 #: core/lang/wpbc_all_translations2.php:327
-#: includes/page-form-simple/page-form-simple.php:399
+#: includes/page-form-simple/page-form-simple.php:440
 msgid "Form Width:"
 msgstr "Formulärets bredd:"
 
 #: core/lang/wpbc_all_translations2.php:325
 #: includes/page-form-simple/form_simple__preview.php:32
-#: includes/page-form-simple/page-form-simple.php:242
-#: includes/page-form-simple/page-form-simple.php:243
+#: includes/page-form-simple/page-form-simple.php:240
+#: includes/page-form-simple/page-form-simple.php:241
+#: includes/page-setup/templates/05.form_structure__tpl.php:68
+#: includes/page-setup/templates/06.cal_availability__tpl.php:66
+#: includes/page-setup/templates/07.color_theme__tpl.php:66
+#: includes/page-setup/templates/08.optional_other_settings__tpl.php:70
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:120
 msgid "Preview"
 msgstr "Förhandsgranska"
 
 #: core/lang/wpbc_all_translations2.php:324
-#: includes/page-form-simple/page-form-simple.php:151
-#: includes/page-form-simple/page-form-simple.php:218
-#: includes/page-form-simple/page-form-simple.php:219
-#: includes/page-form-simple/page-form-simple.php:374
+#: includes/page-form-simple/page-form-simple.php:149
+#: includes/page-form-simple/page-form-simple.php:216
+#: includes/page-form-simple/page-form-simple.php:217
+#: includes/page-form-simple/page-form-simple.php:383
 msgid "Form Layout"
 msgstr "Formulärlayout"
 
 #: core/lang/wpbc_all_translations2.php:323
-#: includes/page-form-simple/page-form-simple.php:212
-#: includes/page-form-simple/page-form-simple.php:213
+#: includes/page-form-simple/page-form-simple.php:210
+#: includes/page-form-simple/page-form-simple.php:211
 msgid "Form Fields"
 msgstr "Formulärfält"
 
@@ -337,7 +433,7 @@ msgstr "Startdatum:"
 
 #: core/lang/wpbc_all_translations1.php:945
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:189
-#: includes/_toolbar_ui/ui__settings_panel.php:1796
+#: includes/_toolbar_ui/ui__settings_panel.php:1940
 msgid "All Bookings"
 msgstr "Alla bokningar"
 
@@ -385,39 +481,43 @@ msgid "Setup Size & Structure"
 msgstr "Ställ in storlek och struktur"
 
 #: core/lang/wpbc_all_translations2.php:170
-#: includes/publish/wpbc-publish-shortcode.php:291
+#: includes/publish/wpbc-publish-shortcode.php:300
 msgid "Create New Page"
 msgstr "Skapa ny sida"
 
 #: core/lang/wpbc_all_translations2.php:177
-#: includes/page-setup/setup_templates.php:288
-#: includes/page-setup/template__bookings_types.php:190
-#: includes/publish/wpbc-publish-shortcode.php:333
+#: includes/page-setup/setup_steps.php:47
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:148
+#: includes/page-setup/templates/04.bookings_types__tpl.php:166
+#: includes/page-setup/templates/05.form_structure__tpl.php:419
+#: includes/page-setup/templates/07.color_theme__tpl.php:144
+#: includes/page-setup/templates/10.get_started__tpl.php:99
+#: includes/publish/wpbc-publish-shortcode.php:342
 msgid "Go Back"
 msgstr "Gå tillbaka"
 
 #: core/lang/wpbc_all_translations2.php:173
-#: includes/publish/wpbc-publish-shortcode.php:307
+#: includes/publish/wpbc-publish-shortcode.php:316
 msgid "Use This Page"
 msgstr "Använd denna sida"
 
 #: core/lang/wpbc_all_translations2.php:169
-#: includes/publish/wpbc-publish-shortcode.php:284
+#: includes/publish/wpbc-publish-shortcode.php:293
 msgid "Embed in Existing Page"
 msgstr "Bädda in på befintlig sida"
 
 #: core/lang/wpbc_all_translations2.php:176
-#: includes/publish/wpbc-publish-shortcode.php:318
+#: includes/publish/wpbc-publish-shortcode.php:327
 msgid "Create Page"
 msgstr "Skapa sida"
 
 #: core/lang/wpbc_all_translations2.php:175
-#: includes/publish/wpbc-publish-shortcode.php:315
+#: includes/publish/wpbc-publish-shortcode.php:324
 msgid "Enter Page Name"
 msgstr "Ange sidnamn"
 
 #: core/lang/wpbc_all_translations2.php:172
-#: includes/publish/wpbc-publish-shortcode.php:301
+#: includes/publish/wpbc-publish-shortcode.php:310
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Välj &mdash;"
 
@@ -435,8 +535,10 @@ msgstr "Klient-ID"
 msgid "Add Resource"
 msgstr "Lägg till resurs"
 
-#: core/lang/wpbc_all_translations1.php:225 core/wpbc.php:249
+#: core/lang/wpbc_all_translations1.php:225 core/wpbc.php:259
 #: includes/page-resource-free/page-resource-free.php:409
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:126
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:310
 msgid "Publish"
 msgstr "Publicera"
 
@@ -452,8 +554,9 @@ msgstr "Återställ allt"
 #: core/lang/wpbc_all_translations.php:741
 #: includes/page-availability/availability__page.php:412
 #: includes/page-availability/availability__page.php:414
+#: includes/page-setup/templates/06.cal_availability__tpl.php:47
 #: includes/_functions/admin_top_bar.php:156
-#: includes/_toolbar_ui/ui__settings_panel.php:444
+#: includes/_toolbar_ui/ui__settings_panel.php:475
 msgid "General Availability"
 msgstr "Allmän tillgänglighet"
 
@@ -467,18 +570,18 @@ msgstr "Säsonger"
 msgid "Calendar View"
 msgstr "Kalendervy"
 
-#: core/lang/wpbc_all_translations.php:729 core/wpbc.php:216
+#: core/lang/wpbc_all_translations.php:729 core/wpbc.php:236
 msgid "Booking Prices"
 msgstr "Bokningspriser"
 
 #: core/lang/wpbc_all_translations1.php:956
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:276
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:278
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:279
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:281
 msgid "Insert"
 msgstr "Infoga"
 
 #: core/admin/api-settings.php:1665 core/lang/wpbc_all_translations.php:172
-#: core/wpbc.php:215 core/wpbc.php:217
+#: core/wpbc.php:235 core/wpbc.php:237
 #: includes/_functions/admin_top_bar.php:168
 msgid "Prices"
 msgstr "Priser"
@@ -503,6 +606,9 @@ msgid "Show more details"
 msgstr "Visa fler detaljer"
 
 #: core/lang/wpbc_all_translations1.php:461
+#: includes/page-form-simple/form_templates.php:114
+#: includes/page-form-simple/form_templates.php:145
+#: includes/page-form-simple/form_templates.php:516
 msgid "Select Date"
 msgstr "Välj datum"
 
@@ -535,18 +641,24 @@ msgid "Row: "
 msgstr "Rad: "
 
 #: core/lang/wpbc_all_translations.php:758 core/wpbc_functions_dates.php:283
+#: includes/page-form-simple/form_templates.php:525
+#: includes/page-form-simple/form_templates.php:561
 msgid "Time"
 msgstr "Tid"
 
 #: core/lang/wpbc_all_translations.php:757 core/wpbc_functions_dates.php:235
 #: core/wpbc_functions_dates.php:277
+#: includes/page-form-simple/form_templates.php:306
+#: includes/page-form-simple/form_templates.php:359
+#: includes/page-form-simple/form_templates.php:524
+#: includes/page-form-simple/form_templates.php:560
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:229
 msgid "Date"
 msgstr "Datum"
 
-#: core/admin/api-settings.php:1676 core/lang/wpbc_all_translations.php:173
-#: core/wpbc.php:237 core/wpbc.php:238 core/wpbc.php:239
+#: core/lang/wpbc_all_translations.php:173
 #: includes/page-resource-free/page-resource-free.php:400
+#: includes/page-setup/templates/09.wizard_publish__tpl.php:304
 msgid "Customize"
 msgstr "Anpassa"
 
@@ -558,28 +670,28 @@ msgstr "Anpassa"
 msgid "Oops!"
 msgstr "Hoppsan!"
 
-#: core/admin/page-settings.php:384 core/admin/page-settings.php:621
+#: core/admin/page-settings.php:386 core/admin/page-settings.php:623
 #: core/lang/wpbc_all_translations.php:421
-#: includes/_toolbar_ui/ui__settings_panel.php:1533
+#: includes/_toolbar_ui/ui__settings_panel.php:1673
 msgid "Tools"
 msgstr "Verktyg"
 
-#: core/admin/page-settings.php:297 core/lang/wpbc_all_translations.php:520
-#: includes/_toolbar_ui/ui__settings_panel.php:238
-#: includes/_toolbar_ui/ui__settings_panel.php:1171
+#: core/admin/page-settings.php:299 core/lang/wpbc_all_translations.php:520
+#: includes/_toolbar_ui/ui__settings_panel.php:243
+#: includes/_toolbar_ui/ui__settings_panel.php:1243
 msgid "Manage Bookings"
 msgstr "Hantera bokningar"
 
-#: core/admin/page-settings.php:281 core/admin/page-settings.php:467
+#: core/admin/page-settings.php:283 core/admin/page-settings.php:469
 #: core/lang/wpbc_all_translations.php:408
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:51
-#: includes/_toolbar_ui/ui__settings_panel.php:656
+#: includes/_toolbar_ui/ui__settings_panel.php:715
 msgid "Booking Confirmation"
 msgstr "Bokningsbekräftelse"
 
-#: core/admin/page-settings.php:267 core/admin/page-settings.php:458
+#: core/admin/page-settings.php:269 core/admin/page-settings.php:460
 #: core/lang/wpbc_all_translations.php:407
-#: includes/page-form-simple/page-form-simple.php:178
+#: includes/page-form-simple/page-form-simple.php:176
 msgid "Form Options"
 msgstr "Formuläralternativ"
 
@@ -588,7 +700,8 @@ msgid "Read more"
 msgstr "Läs mer"
 
 #: core/admin/api-settings.php:649 core/lang/wpbc_all_translations.php:67
-#: includes/page-form-simple/page-form-simple.php:459
+#: includes/page-form-simple/page-form-simple.php:500
+#: includes/page-setup/templates/07.color_theme__tpl.php:490
 msgid "Dark"
 msgstr "Mörk"
 
@@ -642,7 +755,7 @@ msgstr[0] "%s år"
 msgstr[1] "%s år"
 
 #: core/admin/api-settings.php:853 core/lang/wpbc_all_translations.php:91
-#: core/wpbc-activation.php:999 includes/_capacity/confirmation.php:123
+#: core/wpbc-activation.php:1003 includes/_capacity/confirmation.php:123
 msgid "Your booking id: %s"
 msgstr "Ditt boknings-ID: %s"
 
@@ -671,12 +784,12 @@ msgid "Calendar size"
 msgstr "Kalenderstorlek"
 
 #: core/admin/api-settings.php:889 core/lang/wpbc_all_translations.php:93
-#: core/wpbc-activation.php:1004
+#: core/wpbc-activation.php:1008
 msgid "Personal information"
 msgstr "Personlig information"
 
-#: core/lang/wpbc_all_translations1.php:796 includes/_capacity/capacity.php:785
-#: includes/_capacity/capacity.php:838 includes/_capacity/capacity.php:863
+#: core/lang/wpbc_all_translations1.php:796 includes/_capacity/capacity.php:795
+#: includes/_capacity/capacity.php:848 includes/_capacity/capacity.php:873
 msgid "Full day"
 msgstr "Heldag"
 
@@ -684,20 +797,20 @@ msgstr "Heldag"
 msgid "Discounts applied"
 msgstr "Rabatt tillämpat"
 
-#: core/admin/page-settings.php:499 core/lang/wpbc_all_translations.php:412
+#: core/admin/page-settings.php:501 core/lang/wpbc_all_translations.php:412
 msgid "Bookings Options"
 msgstr "Bokningsalternativ"
 
-#: core/admin/page-settings.php:393 core/lang/wpbc_all_translations.php:526
+#: core/admin/page-settings.php:395 core/lang/wpbc_all_translations.php:526
 msgid "Show All Settings"
 msgstr "Visa alla inställningar"
 
-#: core/admin/page-settings.php:376 core/lang/wpbc_all_translations.php:525
+#: core/admin/page-settings.php:378 core/lang/wpbc_all_translations.php:525
 msgid "Info / News"
 msgstr "Info/nyheter"
 
 #: core/lang/wpbc_all_translations.php:546
-#: includes/page-form-simple/page-form-simple.php:75
+#: includes/page-form-simple/page-form-simple.php:73
 msgid "Free vs Pro"
 msgstr "Jämför gratis och Pro"
 
@@ -706,7 +819,7 @@ msgstr "Jämför gratis och Pro"
 msgid "Show all bookings."
 msgstr "Visa alla bokningar."
 
-#: core/lang/wpbc_all_translations.php:734 core/wpbc.php:313
+#: core/lang/wpbc_all_translations.php:734 core/wpbc.php:333
 msgid "Get Pro"
 msgstr "Skaffa Pro"
 
@@ -721,7 +834,7 @@ msgstr "Nej"
 
 #: core/lang/wpbc_all_translations.php:553
 #: includes/page-bookings/bookings__sql.php:2078
-#: includes/page-form-simple/form_simple__get_data.php:615
+#: includes/page-form-simple/form_simple__get_data.php:955
 msgid "Yes"
 msgstr "Ja"
 
@@ -895,24 +1008,24 @@ msgstr "Kunde inte ta bort den gamla översättningen."
 msgid "Translation update failed."
 msgstr "Uppdatering av översättning misslyckades."
 
-#: core/admin/wpbc-toolbars.php:640 core/admin/wpbc-toolbars.php:641
+#: core/admin/wpbc-toolbars.php:641 core/admin/wpbc-toolbars.php:642
 #: core/lang/wpbc_all_translations.php:478
 msgid "Previous"
 msgstr "Föregående"
 
-#: core/admin/page-settings.php:661 core/lang/wpbc_all_translations.php:424
+#: core/admin/page-settings.php:663 core/lang/wpbc_all_translations.php:424
 #: core/wpbc-translation.php:585
-#: includes/_toolbar_ui/ui__settings_panel.php:1661
+#: includes/_toolbar_ui/ui__settings_panel.php:1805
 msgid "Update Translations"
 msgstr "Uppdatera översättningar"
 
-#: core/admin/page-settings.php:355 core/admin/page-settings.php:628
+#: core/admin/page-settings.php:357 core/admin/page-settings.php:630
 #: core/lang/wpbc_all_translations.php:422
-#: includes/_toolbar_ui/ui__settings_panel.php:1397
+#: includes/_toolbar_ui/ui__settings_panel.php:1509
 msgid "Translations"
 msgstr "Översättningar"
 
-#: core/admin/api-settings.php:1842 core/lang/wpbc_all_translations.php:186
+#: core/admin/api-settings.php:1831 core/lang/wpbc_all_translations.php:186
 msgid "Local"
 msgstr "Lokal"
 
@@ -943,7 +1056,7 @@ msgid "Your translations are all up to date."
 msgstr "Alla dina översättningar är uppdaterade."
 
 #: core/lang/wpbc_all_translations.php:725 core/wpbc-translation.php:596
-#: includes/_toolbar_ui/ui__settings_panel.php:1676
+#: includes/_toolbar_ui/ui__settings_panel.php:1820
 msgid "Show translations status"
 msgstr "Visa översättningsstatus"
 
@@ -978,19 +1091,29 @@ msgid "Payment Methods"
 msgstr "Betalningsmetoder"
 
 #: core/lang/wpbc_all_translations1.php:242
+#: includes/page-setup/templates/05.form_structure__tpl.php:243
+#: includes/page-setup/templates/05.form_structure__tpl.php:277
+#: includes/page-setup/templates/05.form_structure__tpl.php:278
+#: includes/page-setup/templates/05.form_structure__tpl.php:279
+#: includes/page-setup/templates/05.form_structure__tpl.php:280
+#: includes/page-setup/templates/05.form_structure__tpl.php:281
+#: includes/page-setup/templates/05.form_structure__tpl.php:282
 msgid "Time slots"
 msgstr "Tidslucka"
 
 #: core/lang/wpbc_all_translations1.php:240
+#: includes/page-setup/templates/05.form_structure__tpl.php:265
+#: includes/page-setup/templates/05.form_structure__tpl.php:266
 msgid "columns"
 msgstr "kolumner"
 
 #: core/admin/api-settings.php:491 core/lang/wpbc_all_translations.php:53
-#: includes/page-form-simple/page-form-simple.php:557
+#: includes/page-form-simple/page-form-simple.php:598
 msgid "Time picker for time slots"
 msgstr "Tidväljare för tidsluckor"
 
 #: core/lang/wpbc_all_translations1.php:241
+#: includes/page-setup/templates/05.form_structure__tpl.php:267
 msgid "2 columns with  times"
 msgstr "2 kolumner med tider"
 
@@ -1167,9 +1290,9 @@ msgstr "Mina bokningar"
 msgid "Inline Search Form Template"
 msgstr "Radbaserad sökformulärsmall"
 
-#: core/admin/api-settings.php:998 core/admin/page-settings.php:481
-#: core/lang/wpbc_all_translations.php:96 core/wpbc-activation.php:1011
-#: includes/_capacity/capacity.php:1334
+#: core/admin/api-settings.php:998 core/admin/page-settings.php:483
+#: core/lang/wpbc_all_translations.php:96 core/wpbc-activation.php:1015
+#: includes/_capacity/capacity.php:1386
 msgid "Booking details"
 msgstr "Bokningsdetaljer"
 
@@ -1222,7 +1345,7 @@ msgid "Check this box if you want to show deposit amount and total booking cost,
 msgstr "Kryssa i denna ruta om du vill visa depositionssumman och den totala kostnaden efter bokningen är skickad."
 
 #: core/lang/wpbc_all_translations1.php:653
-#: includes/_toolbar_ui/ui__settings_panel.php:980
+#: includes/_toolbar_ui/ui__settings_panel.php:1045
 msgid "Payment Options"
 msgstr "Betalningsalternativ"
 
@@ -1230,7 +1353,7 @@ msgstr "Betalningsalternativ"
 msgid "This feature require %s"
 msgstr "Denna funktion kräver %s"
 
-#: core/admin/page-settings.php:670 core/lang/wpbc_all_translations.php:425
+#: core/admin/page-settings.php:672 core/lang/wpbc_all_translations.php:425
 #: includes/page-resource-free/page-resource-free.php:430
 msgid "Restore all dismissed windows"
 msgstr "Återställ alla avfärdade fönster"
@@ -1307,22 +1430,24 @@ msgstr "Rabattkodens värde för bokningen."
 msgid "require PHP version %s or newer!"
 msgstr "kräver PHP-version %s eller nyare!"
 
-#: core/admin/api-settings.php:1717 core/lang/wpbc_all_translations.php:178
+#: core/admin/api-settings.php:1706 core/lang/wpbc_all_translations.php:178
 msgid "Premium"
 msgstr "Premium"
 
 #: core/lang/wpbc_all_translations.php:566
-#: includes/page-form-simple/page-form-simple.php:318
+#: includes/page-form-simple/page-form-simple.php:316
 msgid "Standard Forms"
 msgstr "Standardformulär"
 
 #: core/lang/wpbc_all_translations.php:567
-#: includes/page-form-simple/page-form-simple.php:321
+#: includes/page-form-simple/page-form-simple.php:330
+#: includes/page-setup/templates/05.form_structure__tpl.php:234
 msgid "Form under calendar"
 msgstr "Formulär under kalender"
 
 #: core/lang/wpbc_all_translations.php:569
-#: includes/page-form-simple/page-form-simple.php:341
+#: includes/page-form-simple/page-form-simple.php:350
+#: includes/page-setup/templates/05.form_structure__tpl.php:236
 msgid "Form and calendar are centered"
 msgstr "Formulär och kalendern är centrerade"
 
@@ -1330,12 +1455,13 @@ msgstr "Formulär och kalendern är centrerade"
 msgid "View"
 msgstr "Vy"
 
-#: core/admin/api-settings.php:1718 core/lang/wpbc_all_translations.php:179
+#: core/admin/api-settings.php:1707 core/lang/wpbc_all_translations.php:179
 msgid "Show / hide menu"
 msgstr "Visa/dölj meny"
 
 #: core/lang/wpbc_all_translations.php:568
-#: includes/page-form-simple/page-form-simple.php:331
+#: includes/page-form-simple/page-form-simple.php:340
+#: includes/page-setup/templates/05.form_structure__tpl.php:235
 msgid "Form at right side of calendar"
 msgstr "Formulär på höger sida av kalendern"
 
@@ -1420,8 +1546,10 @@ msgstr "Hur börjar man export av .ics-flöden (filer)?"
 msgid "How to start import of .ics feeds (files)?"
 msgstr "Hur börjar man import av .ics-flöden (filer)?"
 
-#: core/admin/wpbc-toolbars.php:1208 core/admin/wpbc-toolbars.php:1209
-#: core/lang/wpbc_all_translations.php:499
+#: core/admin/page-email-approved.php:956 core/admin/page-email-deny.php:945
+#: core/admin/page-email-new-admin.php:934
+#: core/admin/page-email-new-visitor.php:922 core/admin/wpbc-toolbars.php:1209
+#: core/admin/wpbc-toolbars.php:1210 core/lang/wpbc_all_translations.php:499
 #: includes/page-bookings/bookings__actions.php:2875
 msgid "Add to Google Calendar"
 msgstr "Lägg till i Google-kalendern"
@@ -1430,7 +1558,7 @@ msgstr "Lägg till i Google-kalendern"
 msgid "%s - inserting link for export booking to"
 msgstr "%s - placerar länk för export av bokningen till"
 
-#: core/lang/wpbc_all_translations.php:812 core/wpbc-activation.php:1511
+#: core/lang/wpbc_all_translations.php:812 core/wpbc-activation.php:1521
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:212
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:223
 msgid "Nothing Found"
@@ -1515,7 +1643,7 @@ msgstr "Start månad"
 #: includes/page-availability/availability__page.php:267
 #: includes/page-bookings/bookings__page.php:187
 #: includes/page-settings-all/all__page.php:393
-#: includes/page-setup/setup__page.php:208
+#: includes/page-setup/setup__page.php:265
 msgid "Loading"
 msgstr "Laddar"
 
@@ -1577,6 +1705,14 @@ msgstr "Parametrar"
 msgid "%sname%s – the unique name of the condition group, containing several conditions with different values. For example, if you want to have specific HTML content for the different week days, you can have several conditions, with the same name but with different value parameters in conditions. Please check more about it, in the examples."
 msgstr "%snamn%s - unikt namn för villkorsgruppen, innehåller flera villkor med olika värden. Vill du ha specifikt HTML-innehåll för olika veckodagar, kan du ha flera villkor, med samma namn men med olika värdes parametrar i villkoren. Läs mer om det i exemplen."
 
+#: core/lang/wpbc_all_translations1.php:335
+msgid "%stype%s – type of the condition. There are 2 types of condition: \"weekday\" and \"season\". \"weekday\" – is the condition rule based on the selected day of week value, like Monday, Tuesday, etc… . \"season\" – is the condition rule based on the \"season filter\" name of selected date. In other words the condition is TRUE if the selected day belongs to a season filter in the Season Filters page."
+msgstr "%sange%s - typ av villkor. Det finns 2 olika typer av villkor:  \"veckodag\" och \"säsong\". För \"veckodag\" är villkorsregeln baserad på valda veckodagar, som Måndag, Tisdag, etc., för \"Säsong\" är villkorsregeln baserad på \"säsongsfiltrets\" namn för valt datum. Med andra ord är villkoret sant om de valda dagarna finns med i ett säsongsfilter på säsongsfilter-sidan."
+
+#: core/lang/wpbc_all_translations1.php:336
+msgid "%svalue%s – value of the specific conditions. If the value is true, the content of the conditions will show in the booking form. You can have the default value (empty – \"\", or like this – \"*\") for showing the content of this condition, if all other conditions are FALSE, or at initial stage, when the date in calendar is not yet selected."
+msgstr "%svärde%s - värdet av specifika villkor. Är värdet sant, kommer innehållet av villkoren visas i bokningsformuläret. Du kan ha ett standardvärde (tomt: \"\", eller: \"*\") för att visa innehållet av detta villkor, om alla andra villkor är falska, eller i utgångsläge, när datumet i kalendern inte är vald."
+
 #: core/lang/wpbc_all_translations1.php:286
 msgid "Examples"
 msgstr "Exempel"
@@ -1608,14 +1744,6 @@ msgstr "Säsongsfilter på säsongsfiltersidan"
 #: core/lang/wpbc_all_translations1.php:344
 msgid "Please use  %sSingle day%s selection mode in the General Booking Settings page at calendar section."
 msgstr "Använd %senskild dag%s-valet under allmänna inställningar sidan i kalender sektionen."
-
-#: core/lang/wpbc_all_translations1.php:335
-msgid "%stype%s – type of the condition. There are 2 types of condition: \"weekday\" and \"season\". \"weekday\" – is the condition rule based on the selected day of week value, like Monday, Tuesday, etc… . \"season\" – is the condition rule based on the \"season filter\" name of selected date. In other words the condition is TRUE if the selected day belongs to a season filter in the Season Filters page."
-msgstr "%sange%s - typ av villkor. Det finns 2 olika typer av villkor:  \"veckodag\" och \"säsong\". För \"veckodag\" är villkorsregeln baserad på valda veckodagar, som Måndag, Tisdag, etc., för \"Säsong\" är villkorsregeln baserad på \"säsongsfiltrets\" namn för valt datum. Med andra ord är villkoret sant om de valda dagarna finns med i ett säsongsfilter på säsongsfilter-sidan."
-
-#: core/lang/wpbc_all_translations1.php:336
-msgid "%svalue%s – value of the specific conditions. If the value is true, the content of the conditions will show in the booking form. You can have the default value (empty – \"\", or like this – \"*\") for showing the content of this condition, if all other conditions are FALSE, or at initial stage, when the date in calendar is not yet selected."
-msgstr "%svärde%s - värdet av specifika villkor. Är värdet sant, kommer innehållet av villkoren visas i bokningsformuläret. Du kan ha ett standardvärde (tomt: \"\", eller: \"*\") för att visa innehållet av detta villkor, om alla andra villkor är falska, eller i utgångsläge, när datumet i kalendern inte är vald."
 
 #: core/lang/wpbc_all_translations1.php:345
 msgid "Please check more about this feature at  %sthis page%s"
@@ -1689,6 +1817,10 @@ msgstr "Olika formulärfält, för olika veckodagar"
 msgid "This feature provides the possibility to show the different form fields or any other HTML content in the booking form, depending on the selection of specific week day in calendar or different days, which are assigned to the specific season filters"
 msgstr "Denna funktion erbjuder möjligheten att visa olika formulärfält och annat HTML innehåll i bokningsformuläret, beroende på valet av specifik veckodag i kalender eller olika dagar, som har tilldelats olika säsongsfilter"
 
+#: core/lang/wpbc_all_translations1.php:366
+msgid "%svalue%s – value of the specific conditions. If the value is true, so then the content of the conditions will show in the booking form. You can have the default value (empty – \"\", or like this – \"*\") for showing the content of this condition, if all other conditions are FALSE, or at initial stage, when the date in calendar is not yet selected."
+msgstr "%svärde%s - värde för de olika villkoren. Om värdet är sant, kommer villkorens innehåll visas i bokningsformuläret. Man kan ha ursprungsvärde (tomt – \"\", eller så här – \"*\") för att visa innehållet av detta villkor, om alla andra villkor är falska, eller i ett inledande skede, när datumet i kalendern inte är vald."
+
 #: core/lang/wpbc_all_translations1.php:367
 msgid "You can use several values, separated by comma."
 msgstr "Du kan använda flera värden, separerade med komma."
@@ -1696,10 +1828,6 @@ msgstr "Du kan använda flera värden, separerade med komma."
 #: core/lang/wpbc_all_translations1.php:368
 msgid "You can use several values, separated by a comma."
 msgstr "Du kan använda flera värden, separerade med ett komma."
-
-#: core/lang/wpbc_all_translations1.php:366
-msgid "%svalue%s – value of the specific conditions. If the value is true, so then the content of the conditions will show in the booking form. You can have the default value (empty – \"\", or like this – \"*\") for showing the content of this condition, if all other conditions are FALSE, or at initial stage, when the date in calendar is not yet selected."
-msgstr "%svärde%s - värde för de olika villkoren. Om värdet är sant, kommer villkorens innehåll visas i bokningsformuläret. Man kan ha ursprungsvärde (tomt – \"\", eller så här – \"*\") för att visa innehållet av detta villkor, om alla andra villkor är falska, eller i ett inledande skede, när datumet i kalendern inte är vald."
 
 #: core/lang/wpbc_all_translations1.php:369
 msgid "Cost Fields"
@@ -1848,7 +1976,7 @@ msgstr "Ändra resurs"
 msgid "Duplicate Booking"
 msgstr "Kopiera bokning"
 
-#: core/admin/wpbc-toolbars.php:1108 core/lang/wpbc_all_translations.php:497
+#: core/admin/wpbc-toolbars.php:1109 core/lang/wpbc_all_translations.php:497
 #: includes/page-bookings/bookings__actions.php:2715
 msgid "Save"
 msgstr "Spara"
@@ -1902,8 +2030,10 @@ msgid "Incorrect date format"
 msgstr "Felaktigt datumformat"
 
 #: core/lang/wpbc_all_translations.php:554
-#: includes/page-form-simple/form_simple__get_data.php:448
-#: includes/page-form-simple/form_simple__get_data.php:660
+#: includes/page-form-simple/form_simple__get_data.php:255
+#: includes/page-form-simple/form_simple__get_data.php:625
+#: includes/page-form-simple/form_simple__get_data.php:659
+#: includes/page-form-simple/form_simple__get_data.php:1000
 msgid "Change your Booking"
 msgstr "Ändra din bokning"
 
@@ -1961,102 +2091,398 @@ msgid "View details"
 msgstr "Visa detaljer"
 
 #: core/lang/wpbc_all_translations1.php:453
+#: includes/page-form-simple/form_templates.php:37
+#: includes/page-form-simple/form_templates.php:58
+#: includes/page-form-simple/form_templates.php:84
+#: includes/page-form-simple/form_templates.php:119
+#: includes/page-form-simple/form_templates.php:159
+#: includes/page-form-simple/form_templates.php:200
+#: includes/page-form-simple/form_templates.php:256
+#: includes/page-form-simple/form_templates.php:314
+#: includes/page-form-simple/form_templates.php:367
 msgid "First Name (required)"
 msgstr "Förnamn (obligatoriskt)"
 
 #: core/lang/wpbc_all_translations1.php:454
+#: includes/page-form-simple/form_templates.php:38
+#: includes/page-form-simple/form_templates.php:59
+#: includes/page-form-simple/form_templates.php:85
+#: includes/page-form-simple/form_templates.php:120
+#: includes/page-form-simple/form_templates.php:160
+#: includes/page-form-simple/form_templates.php:201
+#: includes/page-form-simple/form_templates.php:257
+#: includes/page-form-simple/form_templates.php:315
+#: includes/page-form-simple/form_templates.php:368
 msgid "Last Name (required)"
 msgstr "Efternamn (obligatoriskt)"
 
 #: core/lang/wpbc_all_translations1.php:455
+#: includes/page-form-simple/form_templates.php:39
+#: includes/page-form-simple/form_templates.php:60
+#: includes/page-form-simple/form_templates.php:88
+#: includes/page-form-simple/form_templates.php:123
+#: includes/page-form-simple/form_templates.php:163
+#: includes/page-form-simple/form_templates.php:204
+#: includes/page-form-simple/form_templates.php:260
+#: includes/page-form-simple/form_templates.php:318
+#: includes/page-form-simple/form_templates.php:371
 msgid "Email (required)"
 msgstr "E-post (obligatoriskt)"
 
 #: core/lang/wpbc_all_translations1.php:456
-#: includes/page-form-simple/form_simple__default.php:103
+#: includes/page-form-simple/form_simple__default.php:101
+#: includes/page-form-simple/form_simple__default.php:223
+#: includes/page-form-simple/form_simple__default.php:323
+#: includes/page-form-simple/form_templates.php:40
+#: includes/page-form-simple/form_templates.php:61
+#: includes/page-form-simple/form_templates.php:89
+#: includes/page-form-simple/form_templates.php:124
+#: includes/page-form-simple/form_templates.php:164
+#: includes/page-form-simple/form_templates.php:205
+#: includes/page-form-simple/form_templates.php:261
+#: includes/page-form-simple/form_templates.php:319
+#: includes/page-form-simple/form_templates.php:372
+#: includes/page-form-simple/form_templates.php:432
+#: includes/page-form-simple/form_templates.php:447
+#: includes/page-form-simple/form_templates.php:460
+#: includes/page-form-simple/form_templates.php:477
+#: includes/page-form-simple/form_templates.php:491
+#: includes/page-form-simple/form_templates.php:546
+#: includes/page-form-simple/form_templates.php:648
+#: includes/page-form-simple/form_templates.php:700
+#: includes/page-form-simple/form_templates.php:723
+#: includes/page-form-simple/form_templates.php:760
+#: includes/page-form-simple/form_templates.php:800
+#: includes/page-form-simple/form_templates.php:880
+#: includes/page-form-simple/form_templates.php:927
+#: includes/page-form-simple/form_templates.php:996
+#: includes/page-form-simple/form_templates.php:1033
+#: includes/page-form-simple/form_templates.php:1073
+#: includes/page-form-simple/form_templates.php:1094
+#: includes/page-form-simple/form_templates.php:1121
+#: includes/page-form-simple/form_templates.php:1131
+#: includes/page-form-simple/form_templates.php:1156
+#: includes/page-form-simple/form_templates.php:1181
 msgid "Phone"
 msgstr "Telefon"
 
 #: core/lang/wpbc_all_translations1.php:457
+#: includes/page-form-simple/form_templates.php:41
+#: includes/page-form-simple/form_templates.php:62
+#: includes/page-form-simple/form_templates.php:92
+#: includes/page-form-simple/form_templates.php:127
+#: includes/page-form-simple/form_templates.php:167
+#: includes/page-form-simple/form_templates.php:216
+#: includes/page-form-simple/form_templates.php:264
+#: includes/page-form-simple/form_templates.php:322
+#: includes/page-form-simple/form_templates.php:375
+#: includes/page-form-simple/form_templates.php:433
+#: includes/page-form-simple/form_templates.php:448
+#: includes/page-form-simple/form_templates.php:461
+#: includes/page-form-simple/form_templates.php:478
+#: includes/page-form-simple/form_templates.php:492
+#: includes/page-form-simple/form_templates.php:651
+#: includes/page-form-simple/form_templates.php:701
+#: includes/page-form-simple/form_templates.php:724
+#: includes/page-form-simple/form_templates.php:763
+#: includes/page-form-simple/form_templates.php:810
+#: includes/page-form-simple/form_templates.php:883
+#: includes/page-form-simple/form_templates.php:928
+#: includes/page-form-simple/form_templates.php:1007
+#: includes/page-form-simple/form_templates.php:1044
+#: includes/page-form-simple/form_templates.php:1076
+#: includes/page-form-simple/form_templates.php:1095
+#: includes/page-form-simple/form_templates.php:1139
+#: includes/page-form-simple/form_templates.php:1157
+#: includes/page-form-simple/form_templates.php:1169
+#: includes/page-form-simple/form_templates.php:1182
 msgid "Adults"
 msgstr "Vuxna"
 
 #: core/lang/wpbc_all_translations1.php:458
+#: includes/page-form-simple/form_templates.php:42
+#: includes/page-form-simple/form_templates.php:63
+#: includes/page-form-simple/form_templates.php:93
+#: includes/page-form-simple/form_templates.php:128
+#: includes/page-form-simple/form_templates.php:168
+#: includes/page-form-simple/form_templates.php:217
+#: includes/page-form-simple/form_templates.php:265
+#: includes/page-form-simple/form_templates.php:323
+#: includes/page-form-simple/form_templates.php:376
+#: includes/page-form-simple/form_templates.php:434
+#: includes/page-form-simple/form_templates.php:449
+#: includes/page-form-simple/form_templates.php:462
+#: includes/page-form-simple/form_templates.php:479
+#: includes/page-form-simple/form_templates.php:493
+#: includes/page-form-simple/form_templates.php:652
+#: includes/page-form-simple/form_templates.php:702
+#: includes/page-form-simple/form_templates.php:725
+#: includes/page-form-simple/form_templates.php:764
+#: includes/page-form-simple/form_templates.php:811
+#: includes/page-form-simple/form_templates.php:884
+#: includes/page-form-simple/form_templates.php:929
+#: includes/page-form-simple/form_templates.php:1008
+#: includes/page-form-simple/form_templates.php:1045
+#: includes/page-form-simple/form_templates.php:1077
+#: includes/page-form-simple/form_templates.php:1096
+#: includes/page-form-simple/form_templates.php:1140
+#: includes/page-form-simple/form_templates.php:1158
+#: includes/page-form-simple/form_templates.php:1170
+#: includes/page-form-simple/form_templates.php:1183
 msgid "Children"
 msgstr "Barn"
 
-#: core/lang/wpbc_all_translations1.php:459
-#: includes/page-form-simple/form_simple__default.php:112
-msgid "Details"
-msgstr "Detaljer"
-
-#: core/lang/wpbc_all_translations1.php:460
-msgid "I Accept term and conditions"
-msgstr "Jag accepterar villkoren"
-
 #: core/lang/wpbc_all_translations1.php:462
+#: includes/page-form-simple/form_templates.php:115
+#: includes/page-form-simple/form_templates.php:146
+#: includes/page-form-simple/form_templates.php:298
+#: includes/page-form-simple/form_templates.php:517
+#: includes/page-form-simple/form_templates.php:586
+#: includes/page-form-simple/form_templates.php:836
+#: includes/page-form-simple/form_templates.php:1064
 msgid "Select Times"
 msgstr "Välj tider"
 
 #: core/lang/wpbc_all_translations1.php:465
+#: includes/page-form-simple/form_templates.php:208
 msgid "Address (required)"
 msgstr "Adress (obligatoriskt)"
 
 #: core/lang/wpbc_all_translations1.php:466
+#: includes/page-form-simple/form_templates.php:209
 msgid "City (required)"
 msgstr "Ort (obligatoriskt)"
 
 #: core/lang/wpbc_all_translations1.php:467
+#: includes/page-form-simple/form_templates.php:212
 msgid "Post code (required)"
 msgstr "Postnummer (obligatoriskt)"
 
 #: core/lang/wpbc_all_translations1.php:468
+#: includes/page-form-simple/form_templates.php:213
 msgid "Country (required)"
 msgstr "Land (obligatoriskt)"
 
+#: core/lang/wpbc_all_translations2.php:399
+#: includes/page-form-simple/form_simple__default.php:89
+#: includes/page-form-simple/form_simple__default.php:211
+#: includes/page-form-simple/form_simple__default.php:311
+msgid "Visitors"
+msgstr "Gäster"
+
+#: core/lang/wpbc_all_translations1.php:472
+#: includes/page-form-simple/form_templates.php:463
+#: includes/page-form-simple/form_templates.php:801
+#: includes/page-form-simple/form_templates.php:999
+#: includes/page-form-simple/form_templates.php:1036
+#: includes/page-form-simple/form_templates.php:1132
+msgid "Address"
+msgstr "Adress"
+
+#: core/lang/wpbc_all_translations1.php:459
+#: includes/page-form-simple/form_simple__default.php:110
+#: includes/page-form-simple/form_simple__default.php:232
+#: includes/page-form-simple/form_simple__default.php:332
+#: includes/page-form-simple/form_templates.php:43
+#: includes/page-form-simple/form_templates.php:64
+#: includes/page-form-simple/form_templates.php:96
+#: includes/page-form-simple/form_templates.php:131
+#: includes/page-form-simple/form_templates.php:171
+#: includes/page-form-simple/form_templates.php:220
+#: includes/page-form-simple/form_templates.php:268
+#: includes/page-form-simple/form_templates.php:326
+#: includes/page-form-simple/form_templates.php:379
+#: includes/page-form-simple/form_templates.php:435
+#: includes/page-form-simple/form_templates.php:450
+#: includes/page-form-simple/form_templates.php:467
+#: includes/page-form-simple/form_templates.php:481
+#: includes/page-form-simple/form_templates.php:495
+#: includes/page-form-simple/form_templates.php:549
+#: includes/page-form-simple/form_templates.php:655
+#: includes/page-form-simple/form_templates.php:703
+#: includes/page-form-simple/form_templates.php:726
+#: includes/page-form-simple/form_templates.php:767
+#: includes/page-form-simple/form_templates.php:812
+#: includes/page-form-simple/form_templates.php:887
+#: includes/page-form-simple/form_templates.php:930
+#: includes/page-form-simple/form_templates.php:1011
+#: includes/page-form-simple/form_templates.php:1048
+#: includes/page-form-simple/form_templates.php:1080
+#: includes/page-form-simple/form_templates.php:1097
+#: includes/page-form-simple/form_templates.php:1122
+#: includes/page-form-simple/form_templates.php:1141
+#: includes/page-form-simple/form_templates.php:1159
+#: includes/page-form-simple/form_templates.php:1171
+#: includes/page-form-simple/form_templates.php:1184
+msgid "Details"
+msgstr "Detaljer"
+
+#: core/lang/wpbc_all_translations1.php:460
+#: includes/page-form-simple/form_templates.php:44
+#: includes/page-form-simple/form_templates.php:66
+#: includes/page-form-simple/form_templates.php:100
+#: includes/page-form-simple/form_templates.php:225
+#: includes/page-form-simple/form_templates.php:276
+#: includes/page-form-simple/form_templates.php:334
+#: includes/page-form-simple/form_templates.php:387
+#: includes/page-form-simple/form_templates.php:554
+#: includes/page-form-simple/form_templates.php:660
+#: includes/page-form-simple/form_templates.php:704
+#: includes/page-form-simple/form_templates.php:727
+#: includes/page-form-simple/form_templates.php:772
+#: includes/page-form-simple/form_templates.php:813
+#: includes/page-form-simple/form_templates.php:892
+#: includes/page-form-simple/form_templates.php:932
+#: includes/page-form-simple/form_templates.php:1098
+msgid "I Accept term and conditions"
+msgstr "Jag accepterar villkoren"
+
 #: core/lang/wpbc_all_translations1.php:463
+#: includes/page-form-simple/form_templates.php:194
+#: includes/page-form-simple/form_templates.php:230
+#: includes/page-form-simple/form_templates.php:249
+#: includes/page-form-simple/form_templates.php:281
+#: includes/page-form-simple/form_templates.php:339
+#: includes/page-form-simple/form_templates.php:392
+#: includes/page-form-simple/form_templates.php:636
+#: includes/page-form-simple/form_templates.php:667
+#: includes/page-form-simple/form_templates.php:716
+#: includes/page-form-simple/form_templates.php:745
+#: includes/page-form-simple/form_templates.php:779
+#: includes/page-form-simple/form_templates.php:860
+#: includes/page-form-simple/form_templates.php:899
 msgid "night(s)"
 msgstr "natt/nätter"
 
 #: core/lang/wpbc_all_translations1.php:464
+#: includes/page-form-simple/form_templates.php:195
+#: includes/page-form-simple/form_templates.php:231
+#: includes/page-form-simple/form_templates.php:250
+#: includes/page-form-simple/form_templates.php:282
+#: includes/page-form-simple/form_templates.php:340
+#: includes/page-form-simple/form_templates.php:393
+#: includes/page-form-simple/form_templates.php:637
+#: includes/page-form-simple/form_templates.php:668
+#: includes/page-form-simple/form_templates.php:717
+#: includes/page-form-simple/form_templates.php:746
+#: includes/page-form-simple/form_templates.php:780
+#: includes/page-form-simple/form_templates.php:861
+#: includes/page-form-simple/form_templates.php:900
 msgid "Full cost of the booking"
 msgstr "Totala kostnaden för bokningen"
 
-#: core/lang/wpbc_all_translations2.php:400
-#: includes/page-form-simple/form_simple__default.php:91
-msgid "Visitors"
-msgstr "Gäster"
-
 #: core/lang/wpbc_all_translations.php:581
-#: includes/page-form-simple/form_simple__default.php:63
-#: includes/page-form-simple/page-form-simple.php:977
+#: includes/page-form-simple/form_simple__default.php:62
+#: includes/page-form-simple/form_simple__default.php:184
+#: includes/page-form-simple/form_simple__default.php:284
+#: includes/page-form-simple/form_templates.php:429
+#: includes/page-form-simple/form_templates.php:444
+#: includes/page-form-simple/form_templates.php:457
+#: includes/page-form-simple/form_templates.php:474
+#: includes/page-form-simple/form_templates.php:488
+#: includes/page-form-simple/form_templates.php:541
+#: includes/page-form-simple/form_templates.php:643
+#: includes/page-form-simple/form_templates.php:697
+#: includes/page-form-simple/form_templates.php:720
+#: includes/page-form-simple/form_templates.php:755
+#: includes/page-form-simple/form_templates.php:797
+#: includes/page-form-simple/form_templates.php:875
+#: includes/page-form-simple/form_templates.php:924
+#: includes/page-form-simple/form_templates.php:991
+#: includes/page-form-simple/form_templates.php:1028
+#: includes/page-form-simple/form_templates.php:1068
+#: includes/page-form-simple/form_templates.php:1091
+#: includes/page-form-simple/form_templates.php:1118
+#: includes/page-form-simple/form_templates.php:1128
+#: includes/page-form-simple/form_templates.php:1153
+#: includes/page-form-simple/form_templates.php:1166
+#: includes/page-form-simple/form_templates.php:1178
+#: includes/page-form-simple/page-form-simple.php:1018
 msgid "First Name"
 msgstr "Förnamn"
 
-#: core/lang/wpbc_all_translations1.php:470
-msgid "Last Name"
-msgstr "Efternamn"
-
-#: core/lang/wpbc_all_translations1.php:471
-#: includes/page-form-simple/form_simple__default.php:81
-msgid "Email"
-msgstr "E-post"
-
-#: core/lang/wpbc_all_translations1.php:472
-msgid "Address"
-msgstr "Adress"
-
 #: core/lang/wpbc_all_translations1.php:473
+#: includes/page-form-simple/form_templates.php:464
+#: includes/page-form-simple/form_templates.php:802
+#: includes/page-form-simple/form_templates.php:1000
+#: includes/page-form-simple/form_templates.php:1037
+#: includes/page-form-simple/form_templates.php:1133
 msgid "City"
 msgstr "Ort"
 
 #: core/lang/wpbc_all_translations1.php:474
+#: includes/page-form-simple/form_templates.php:465
+#: includes/page-form-simple/form_templates.php:803
+#: includes/page-form-simple/form_templates.php:1003
+#: includes/page-form-simple/form_templates.php:1040
+#: includes/page-form-simple/form_templates.php:1134
 msgid "Post code"
 msgstr "Postnummer"
 
 #: core/lang/wpbc_all_translations1.php:475
+#: includes/page-form-simple/form_templates.php:466
+#: includes/page-form-simple/form_templates.php:805
+#: includes/page-form-simple/form_templates.php:808
+#: includes/page-form-simple/form_templates.php:1004
+#: includes/page-form-simple/form_templates.php:1041
+#: includes/page-form-simple/form_templates.php:1135
 msgid "Country"
 msgstr "Land"
+
+#: core/lang/wpbc_all_translations1.php:470
+#: includes/page-form-simple/form_templates.php:430
+#: includes/page-form-simple/form_templates.php:445
+#: includes/page-form-simple/form_templates.php:458
+#: includes/page-form-simple/form_templates.php:475
+#: includes/page-form-simple/form_templates.php:489
+#: includes/page-form-simple/form_templates.php:542
+#: includes/page-form-simple/form_templates.php:644
+#: includes/page-form-simple/form_templates.php:698
+#: includes/page-form-simple/form_templates.php:721
+#: includes/page-form-simple/form_templates.php:756
+#: includes/page-form-simple/form_templates.php:798
+#: includes/page-form-simple/form_templates.php:876
+#: includes/page-form-simple/form_templates.php:925
+#: includes/page-form-simple/form_templates.php:992
+#: includes/page-form-simple/form_templates.php:1029
+#: includes/page-form-simple/form_templates.php:1069
+#: includes/page-form-simple/form_templates.php:1092
+#: includes/page-form-simple/form_templates.php:1119
+#: includes/page-form-simple/form_templates.php:1129
+#: includes/page-form-simple/form_templates.php:1154
+#: includes/page-form-simple/form_templates.php:1167
+#: includes/page-form-simple/form_templates.php:1179
+msgid "Last Name"
+msgstr "Efternamn"
+
+#: core/lang/wpbc_all_translations1.php:471
+#: includes/page-form-simple/form_simple__default.php:80
+#: includes/page-form-simple/form_simple__default.php:202
+#: includes/page-form-simple/form_simple__default.php:302
+#: includes/page-form-simple/form_templates.php:431
+#: includes/page-form-simple/form_templates.php:446
+#: includes/page-form-simple/form_templates.php:459
+#: includes/page-form-simple/form_templates.php:476
+#: includes/page-form-simple/form_templates.php:490
+#: includes/page-form-simple/form_templates.php:545
+#: includes/page-form-simple/form_templates.php:647
+#: includes/page-form-simple/form_templates.php:699
+#: includes/page-form-simple/form_templates.php:722
+#: includes/page-form-simple/form_templates.php:759
+#: includes/page-form-simple/form_templates.php:799
+#: includes/page-form-simple/form_templates.php:879
+#: includes/page-form-simple/form_templates.php:926
+#: includes/page-form-simple/form_templates.php:995
+#: includes/page-form-simple/form_templates.php:1032
+#: includes/page-form-simple/form_templates.php:1072
+#: includes/page-form-simple/form_templates.php:1093
+#: includes/page-form-simple/form_templates.php:1120
+#: includes/page-form-simple/form_templates.php:1130
+#: includes/page-form-simple/form_templates.php:1155
+#: includes/page-form-simple/form_templates.php:1168
+#: includes/page-form-simple/form_templates.php:1180
+msgid "Email"
+msgstr "E-post"
 
 #: core/lang/wpbc_all_translations.php:759 core/wpbc_functions_dates.php:285
 msgid "Check in"
@@ -2560,7 +2986,7 @@ msgid "Configure booking details summary above the payment form"
 msgstr "Konfigurera sammandrag av bokningsdetaljerna att visa ovan betalningsformuläret"
 
 #: core/lang/wpbc_all_translations2.php:373
-#: includes/_toolbar_ui/ui__settings_panel.php:908
+#: includes/_toolbar_ui/ui__settings_panel.php:973
 msgid "Payment Gateways"
 msgstr "Betalningsfunktioner"
 
@@ -2944,7 +3370,7 @@ msgstr "Israeliska Shekel"
 msgid "If you have no account on this system, please visit %s to create one."
 msgstr "Om du inte har något konto på detta system, var god besök %s för att skapa ett. "
 
-#: core/lang/wpbc_all_translations.php:756 core/wpbc_functions.php:1265
+#: core/lang/wpbc_all_translations.php:756 core/wpbc_functions.php:1273
 msgid "Payment rejected"
 msgstr "Betalningen nekades"
 
@@ -2952,7 +3378,7 @@ msgstr "Betalningen nekades"
 msgid "Processing your %s payments through %s"
 msgstr "Dina %s-betalningar hanteras via %s"
 
-#: core/wpbc_functions.php:481
+#: core/wpbc_functions.php:489
 msgid "Thanks :)"
 msgstr "Tackar :)"
 
@@ -3203,6 +3629,9 @@ msgid "Enter %s in text field."
 msgstr "Ange %s i textfältet."
 
 #: core/lang/wpbc_all_translations1.php:318
+#: includes/page-form-simple/form_templates.php:611
+#: includes/page-setup/templates/05.form_structure__tpl.php:283
+#: includes/page-setup/templates/05.form_structure__tpl.php:284
 msgid "Start Time"
 msgstr "Starttid"
 
@@ -3215,10 +3644,14 @@ msgid "You can also use the %s in the form."
 msgstr "Du kan också använda %s i formuläret."
 
 #: core/lang/wpbc_all_translations1.php:321
+#: includes/page-form-simple/form_templates.php:616
+#: includes/page-setup/templates/05.form_structure__tpl.php:283
 msgid "End Time"
 msgstr "Sluttid"
 
 #: core/lang/wpbc_all_translations1.php:322
+#: includes/page-form-simple/form_templates.php:620
+#: includes/page-setup/templates/05.form_structure__tpl.php:284
 msgid "Duration Time"
 msgstr "Varaktighet"
 
@@ -3263,6 +3696,8 @@ msgid "hour(s)"
 msgstr "timme(ar)"
 
 #: core/admin/page-import-gcal.php:95 core/lang/wpbc_all_translations.php:346
+#: includes/page-setup/templates/06.cal_availability__tpl.php:559
+#: includes/page-setup/templates/06.cal_availability__tpl.php:740
 msgid "day(s)"
 msgstr "dag(ar)"
 
@@ -3294,14 +3729,14 @@ msgstr "Horisontellt sökformulärsmall"
 msgid "Standard Search Form Template"
 msgstr "Standard sökformulärsmall"
 
-#: core/admin/wpbc-toolbars.php:1128 core/lang/wpbc_all_translations.php:498
+#: core/admin/wpbc-toolbars.php:1129 core/lang/wpbc_all_translations.php:498
 #: includes/page-availability/availability__toolbar_ui.php:253
 #: includes/page-form-simple/form_simple__toolbar_free.php:232
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:857
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1012
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1262
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1404
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:272
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:275
 #: includes/_toolbar_ui/toolbar_ui.php:895
 msgid "Reset"
 msgstr "Återställ"
@@ -3367,6 +3802,7 @@ msgid "High season"
 msgstr "Högsäsong"
 
 #: core/lang/wpbc_all_translations.php:899
+#: includes/page-setup/templates/06.cal_availability__tpl.php:411
 msgid "Limit available days from today"
 msgstr "Begränsa tillgängliga dagar från idag"
 
@@ -3375,6 +3811,7 @@ msgid "Select number of available days in calendar start from today."
 msgstr "Välj antalet tillgängliga dagar i kalendern med start från och med idag."
 
 #: core/lang/wpbc_all_translations.php:901
+#: includes/page-setup/templates/06.cal_availability__tpl.php:493
 msgid "Unavailable time before / after booking"
 msgstr "Otillgänglig tid före och efter bokning"
 
@@ -3383,6 +3820,8 @@ msgid "This feature is applying only for bookings for specific timeslots, or if 
 msgstr "Denna funktion används endast för bokningar för specifika tidssegment, eller om alternativet In-/Utcheckstid är aktiverat."
 
 #: core/lang/wpbc_all_translations.php:903
+#: includes/page-setup/templates/06.cal_availability__tpl.php:667
+#: includes/page-setup/templates/06.cal_availability__tpl.php:747
 msgid "Before booking"
 msgstr "Innan bokning"
 
@@ -3391,6 +3830,8 @@ msgid "Select unavailable time interval."
 msgstr "Välj tidsintervall som är otillgängligt."
 
 #: core/lang/wpbc_all_translations.php:905
+#: includes/page-setup/templates/06.cal_availability__tpl.php:695
+#: includes/page-setup/templates/06.cal_availability__tpl.php:775
 msgid "After booking"
 msgstr "Efter bokning"
 
@@ -3423,6 +3864,7 @@ msgid "Type your %scost%s description"
 msgstr "Ange en %spris%s beskrivning"
 
 #: core/lang/wpbc_all_translations.php:919
+#: includes/page-setup/templates/10.get_started__tpl.php:494
 msgid "Configuration of availability for booking resources"
 msgstr "Konfiguration av tillgänglighet för bokningsresurser"
 
@@ -3456,7 +3898,7 @@ msgstr "Resursnamn"
 msgid "All days"
 msgstr "Alla dagar"
 
-#: core/lang/wpbc_all_translations.php:928
+#: core/lang/wpbc_all_translations.php:928 core/wpbc-activation.php:1492
 msgid "available"
 msgstr "tillgänglig"
 
@@ -3626,20 +4068,6 @@ msgstr "För"
 msgid "%s and %s terms have higher priority than a range %s days."
 msgstr "%s och %s villkoren har högre prioritet än ett antal %s dagar."
 
-#: core/admin/api-settings.php:889 core/admin/api-settings.php:998
-#: core/lang/wpbc_all_translations.php:92
-#: includes/page-setup/template__general_info.php:52
-#: includes/page-setup/template__general_info.php:201
-#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:157
-#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:181
-#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:212
-#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:299
-#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:369
-#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:402
-#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:189
-msgid "Example"
-msgstr "Exempel"
-
 #: core/lang/wpbc_all_translations.php:993
 msgid "Specific cost will take affect, only if it active (the box at the left side is checked) and if \"Check In\" (start) date belong to selected season filter or if set \"Any days\"."
 msgstr "Specifik kostnad tar effekt endast om den är aktiverad (boxen på vänstersida är markerad) och om \"incheckningsdatum\" tillhör valt säsongsfilter eller om  \"valfria dagar\" är satt."
@@ -3672,6 +4100,21 @@ msgstr "Villkorligt Datumfilter"
 #: core/lang/wpbc_all_translations1.php:18
 msgid "Filter Name"
 msgstr "Filternamn"
+
+#: core/admin/api-settings.php:889 core/admin/api-settings.php:998
+#: core/lang/wpbc_all_translations.php:92
+#: includes/page-setup/templates/02.general_info__tpl.php:52
+#: includes/page-setup/templates/02.general_info__tpl.php:201
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:122
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:157
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:181
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:212
+#: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:299
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:369
+#: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:402
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:189
+msgid "Example"
+msgstr "Exempel"
 
 #: core/lang/wpbc_all_translations1.php:19
 msgid "Type filter name"
@@ -3739,18 +4182,21 @@ msgid "Years"
 msgstr "År"
 
 #: core/lang/wpbc_all_translations1.php:36
+#: includes/page-setup/templates/06.cal_availability__tpl.php:214
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:778
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1216
 msgid "Mo"
 msgstr "Mån"
 
 #: core/lang/wpbc_all_translations1.php:38
+#: includes/page-setup/templates/06.cal_availability__tpl.php:216
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:780
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1218
 msgid "We"
 msgstr "Ons"
 
 #: core/lang/wpbc_all_translations1.php:40
+#: includes/page-setup/templates/06.cal_availability__tpl.php:218
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:782
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1220
 msgid "Fr"
@@ -3969,6 +4415,7 @@ msgid "Type your %stitle%s, what will show in mouseover tooltip near booked time
 msgstr "Ange %stitel%s som visas när muspekaren hålls över bokade tider"
 
 #: core/admin/api-settings.php:1286 core/lang/wpbc_all_translations.php:128
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:66
 msgid "Time Format"
 msgstr "Tidsformat"
 
@@ -4046,6 +4493,8 @@ msgid "The changing of payment status is failed"
 msgstr "Ändringen av betalningsstatus misslyckades"
 
 #: core/lang/wpbc_all_translations1.php:799
+#: includes/page-form-simple/form_templates.php:308
+#: includes/page-form-simple/form_templates.php:361
 #: includes/_capacity/confirmation.php:242
 msgid "Total cost"
 msgstr "Total kostnad"
@@ -4348,24 +4797,26 @@ msgid "Generate tag"
 msgstr "Skapa tagg"
 
 #: core/lang/wpbc_all_translations1.php:237
+#: includes/page-setup/templates/05.form_structure__tpl.php:126
 msgid "Form Template"
 msgstr "Formulärsmall"
 
 #: core/lang/wpbc_all_translations1.php:274
+#: includes/page-form-simple/page-form-simple.php:414
 msgid "Columns"
 msgstr "Kolumner"
 
-#: core/admin/page-settings.php:96 core/admin/page-settings.php:274
-#: core/admin/page-settings.php:444 core/lang/wpbc_all_translations.php:397
-#: includes/page-form-simple/form_simple__default.php:43
+#: core/admin/page-settings.php:96 core/admin/page-settings.php:276
+#: core/admin/page-settings.php:446 core/lang/wpbc_all_translations.php:397
+#: includes/page-form-simple/form_simple__default.php:52
 #: includes/page-form-simple/form_simple__timeslots.php:112
-#: includes/page-form-simple/form_simple__timeslots.php:207
-#: includes/page-form-simple/form_simple__timeslots.php:772
-#: includes/page-form-simple/form_simple__timeslots.php:822
+#: includes/page-form-simple/form_simple__timeslots.php:208
+#: includes/page-form-simple/form_simple__timeslots.php:789
+#: includes/page-form-simple/form_simple__timeslots.php:839
 #: includes/page-form-simple/form_simple__toolbar_free.php:140
-#: includes/page-form-simple/page-form-simple.php:688
-#: includes/page-form-simple/page-form-simple.php:938
-#: includes/page-form-simple/page-form-simple.php:939
+#: includes/page-form-simple/page-form-simple.php:729
+#: includes/page-form-simple/page-form-simple.php:979
+#: includes/page-form-simple/page-form-simple.php:980
 msgid "Time Slots"
 msgstr "Tidsintervall"
 
@@ -4374,14 +4825,20 @@ msgid "Advanced Templates"
 msgstr "Avancerade mallar"
 
 #: core/lang/wpbc_all_translations1.php:244
+#: includes/page-form-simple/page-form-simple.php:320
+#: includes/page-setup/templates/05.form_structure__tpl.php:233
+#: includes/page-setup/templates/05.form_structure__tpl.php:242
 msgid "Wizard (several steps)"
 msgstr "Guide (flera steg)"
 
 #: core/lang/wpbc_all_translations1.php:245
+#: includes/page-setup/templates/05.form_structure__tpl.php:253
 msgid "Time slots for different weekdays"
 msgstr "Tidsintervall för olika helger"
 
 #: core/lang/wpbc_all_translations1.php:246
+#: includes/page-setup/templates/05.form_structure__tpl.php:254
+#: includes/page-setup/templates/05.form_structure__tpl.php:255
 msgid "Hints"
 msgstr "Tips"
 
@@ -4425,10 +4882,6 @@ msgstr "Skriv en rubrik innan fält"
 msgid "Make it %sexclusive%s"
 msgstr "Gör den %sexklusiv%s"
 
-#: core/lang/wpbc_all_translations1.php:262
-msgid "required"
-msgstr "obligatoriskt"
-
 #: core/lang/wpbc_all_translations.php:592
 #: includes/page-form-simple/form_simple__timeslots.php:157
 msgid "One title per line"
@@ -4465,6 +4918,64 @@ msgstr "Maxlängd"
 #: core/lang/wpbc_all_translations1.php:272
 msgid "Put this code in %sContent of Booking Fields%s and in %sEmail Templates%s"
 msgstr "Lägg till den här koden i %sbokningsfältets innehåll%s  och i %se-postmallarna%s"
+
+#: core/lang/wpbc_all_translations1.php:262
+#: includes/page-form-simple/form_templates.php:541
+#: includes/page-form-simple/form_templates.php:542
+#: includes/page-form-simple/form_templates.php:545
+#: includes/page-form-simple/form_templates.php:586
+#: includes/page-form-simple/form_templates.php:611
+#: includes/page-form-simple/form_templates.php:616
+#: includes/page-form-simple/form_templates.php:620
+#: includes/page-form-simple/form_templates.php:643
+#: includes/page-form-simple/form_templates.php:644
+#: includes/page-form-simple/form_templates.php:647
+#: includes/page-form-simple/form_templates.php:697
+#: includes/page-form-simple/form_templates.php:698
+#: includes/page-form-simple/form_templates.php:699
+#: includes/page-form-simple/form_templates.php:720
+#: includes/page-form-simple/form_templates.php:721
+#: includes/page-form-simple/form_templates.php:722
+#: includes/page-form-simple/form_templates.php:755
+#: includes/page-form-simple/form_templates.php:756
+#: includes/page-form-simple/form_templates.php:759
+#: includes/page-form-simple/form_templates.php:797
+#: includes/page-form-simple/form_templates.php:798
+#: includes/page-form-simple/form_templates.php:799
+#: includes/page-form-simple/form_templates.php:801
+#: includes/page-form-simple/form_templates.php:802
+#: includes/page-form-simple/form_templates.php:803
+#: includes/page-form-simple/form_templates.php:805
+#: includes/page-form-simple/form_templates.php:808
+#: includes/page-form-simple/form_templates.php:836
+#: includes/page-form-simple/form_templates.php:875
+#: includes/page-form-simple/form_templates.php:876
+#: includes/page-form-simple/form_templates.php:879
+#: includes/page-form-simple/form_templates.php:924
+#: includes/page-form-simple/form_templates.php:925
+#: includes/page-form-simple/form_templates.php:926
+#: includes/page-form-simple/form_templates.php:991
+#: includes/page-form-simple/form_templates.php:992
+#: includes/page-form-simple/form_templates.php:995
+#: includes/page-form-simple/form_templates.php:999
+#: includes/page-form-simple/form_templates.php:1000
+#: includes/page-form-simple/form_templates.php:1003
+#: includes/page-form-simple/form_templates.php:1004
+#: includes/page-form-simple/form_templates.php:1028
+#: includes/page-form-simple/form_templates.php:1029
+#: includes/page-form-simple/form_templates.php:1032
+#: includes/page-form-simple/form_templates.php:1036
+#: includes/page-form-simple/form_templates.php:1037
+#: includes/page-form-simple/form_templates.php:1040
+#: includes/page-form-simple/form_templates.php:1041
+#: includes/page-form-simple/form_templates.php:1068
+#: includes/page-form-simple/form_templates.php:1069
+#: includes/page-form-simple/form_templates.php:1072
+#: includes/page-form-simple/form_templates.php:1091
+#: includes/page-form-simple/form_templates.php:1092
+#: includes/page-form-simple/form_templates.php:1093
+msgid "required"
+msgstr "obligatoriskt"
 
 #: core/lang/wpbc_all_translations1.php:273
 msgid "Rows"
@@ -4651,9 +5162,9 @@ msgstr "Notera, i %svallistan%s kan du endast använda tid i %s24-timmars%s form
 msgid "One Value from %sOptions%s list or term %s for selection of all checkboxes"
 msgstr "Ett värde från %svallistan%s eller villkor %s för val av alla kryssrutor"
 
-#: core/admin/page-settings.php:327 core/lang/wpbc_all_translations.php:522
-#: includes/_toolbar_ui/ui__settings_panel.php:242
-#: includes/_toolbar_ui/ui__settings_panel.php:1286
+#: core/admin/page-settings.php:329 core/lang/wpbc_all_translations.php:522
+#: includes/_toolbar_ui/ui__settings_panel.php:247
+#: includes/_toolbar_ui/ui__settings_panel.php:1370
 msgid "Admin Panel"
 msgstr "Adminpanel"
 
@@ -4783,6 +5294,8 @@ msgid "All resources"
 msgstr "Alla resurser"
 
 #: core/lang/wpbc_all_translations.php:811
+#: includes/page-form-simple/form_templates.php:480
+#: includes/page-form-simple/form_templates.php:494
 msgid "Coupon"
 msgstr "Kupong"
 
@@ -4861,19 +5374,19 @@ msgstr "Expandera Avancerat Verktygsfält"
 msgid "Filter bookings by booking dates"
 msgstr "Filtrera bokningar efter bokningsdatum"
 
-#: core/admin/wpbc-toolbars.php:947 core/lang/wpbc_all_translations.php:494
+#: core/admin/wpbc-toolbars.php:948 core/lang/wpbc_all_translations.php:494
 msgid "Number of months in one row"
 msgstr "Antal månader i en rad"
 
-#: core/admin/wpbc-toolbars.php:1040 core/lang/wpbc_all_translations.php:496
+#: core/admin/wpbc-toolbars.php:1041 core/lang/wpbc_all_translations.php:496
 msgid "Calendar cell height"
 msgstr "Kalenderns cellhöjd"
 
-#: core/admin/wpbc-toolbars.php:1412 core/lang/wpbc_all_translations.php:500
+#: core/admin/wpbc-toolbars.php:1413 core/lang/wpbc_all_translations.php:500
 msgid "Total"
 msgstr "Totalt"
 
-#: core/admin/wpbc-toolbars.php:1551 core/admin/wpbc-toolbars.php:1591
+#: core/admin/wpbc-toolbars.php:1552 core/admin/wpbc-toolbars.php:1592
 #: core/lang/wpbc_all_translations.php:501
 msgid "ID or Title"
 msgstr "ID eller Titel"
@@ -4900,27 +5413,27 @@ msgid "The reservation %s for: %s has been modified. %sYou can edit this booking
 msgstr "Reservationen %s gällande datum %s har ändrats. %sDu kan ändra bokningen på denna sida: %s Tack så mycket, %s"
 
 #: core/admin/api-settings.php:189 core/lang/wpbc_all_translations.php:26
-#: core/wpbc-activation.php:1060
+#: core/wpbc-activation.php:1064
 msgid "Booked Times:"
 msgstr "Bokade tider:"
 
-#: core/lang/wpbc_all_translations.php:666 core/wpbc-activation.php:1373
+#: core/lang/wpbc_all_translations.php:666 core/wpbc-activation.php:1376
 msgid "This booking canceled because we did not receive payment and the administrator did not approve it."
 msgstr "Denna bokning annulerades för att vi inte mottog någon betalning och för att administratören inte godkände den."
 
-#: core/lang/wpbc_all_translations.php:667 core/wpbc-activation.php:1409
+#: core/lang/wpbc_all_translations.php:667 core/wpbc-activation.php:1412
 msgid "You need to make payment for this reservation"
 msgstr "Du behöver göra en inbetalning för denna reservationen"
 
-#: core/lang/wpbc_all_translations.php:668 core/wpbc-activation.php:1410
+#: core/lang/wpbc_all_translations.php:668 core/wpbc-activation.php:1413
 msgid "You need to make payment %s for reservation %s at %s. %s Please make payment on this page: %s  Thank you, %s"
 msgstr "Du behöver göra en inbetalning %s för reservationen %s vid %s. %s Var god gör betalningen på denna sida: %s Tack så mycket, %s"
 
-#: core/lang/wpbc_all_translations.php:669 core/wpbc-activation.php:1449
+#: core/lang/wpbc_all_translations.php:669 core/wpbc-activation.php:1452
 msgid "Cost: "
 msgstr "Pris:"
 
-#: core/lang/wpbc_all_translations.php:670 core/wpbc-activation.php:1484
+#: core/lang/wpbc_all_translations.php:670 core/wpbc-activation.php:1487
 msgid "Available: "
 msgstr "Tillgänglighet:"
 
@@ -4960,25 +5473,27 @@ msgstr "Kuponger"
 msgid "Season Filters"
 msgstr "Säsongsfilter"
 
-#: core/lang/wpbc_all_translations.php:748 core/wpbc_functions.php:479
+#: core/lang/wpbc_all_translations.php:748 core/wpbc_functions.php:487
 msgid "If you like %s please leave us a %s rating. A huge thank you in advance!"
 msgstr "Om du gillar %s vänligen lämna ett %s betyg. Stort tack på förhand!"
 
-#: core/lang/wpbc_all_translations.php:754 core/wpbc_functions.php:757
+#: core/lang/wpbc_all_translations.php:754 core/wpbc_functions.php:765
 msgid "Changes saved."
 msgstr "Ändringar sparade."
 
 #: core/lang/wpbc_all_translations.php:595 core/wpbc-js-vars.php:100
 #: includes/page-bookings/bookings__actions.php:2127
-#: includes/page-form-simple/form_simple__timeslots.php:428
-#: includes/page-form-simple/form_simple__timeslots.php:438
-#: includes/page-form-simple/form_simple__timeslots.php:441
-#: includes/page-form-simple/form_simple__timeslots.php:450
-#: includes/page-form-simple/form_simple__timeslots.php:452
-#: includes/page-form-simple/form_simple__timeslots.php:461
-#: includes/page-form-simple/form_simple__timeslots.php:463
-#: includes/page-form-simple/form_simple__timeslots.php:472
-#: includes/page-form-simple/form_simple__timeslots.php:474
+#: includes/page-form-simple/form_simple__timeslots.php:429
+#: includes/page-form-simple/form_simple__timeslots.php:439
+#: includes/page-form-simple/form_simple__timeslots.php:442
+#: includes/page-form-simple/form_simple__timeslots.php:451
+#: includes/page-form-simple/form_simple__timeslots.php:453
+#: includes/page-form-simple/form_simple__timeslots.php:462
+#: includes/page-form-simple/form_simple__timeslots.php:464
+#: includes/page-form-simple/form_simple__timeslots.php:473
+#: includes/page-form-simple/form_simple__timeslots.php:475
+#: includes/page-form-simple/form_simple__timeslots.php:484
+#: includes/page-form-simple/form_simple__timeslots.php:486
 msgid "Processing"
 msgstr "Bearbetar"
 
@@ -4994,7 +5509,7 @@ msgstr "Uppdaterar"
 msgid "Saving"
 msgstr "Sparar"
 
-#: core/lang/wpbc_all_translations.php:735 core/wpbc.php:357 core/wpbc.php:364
+#: core/lang/wpbc_all_translations.php:735 core/wpbc.php:377 core/wpbc.php:384
 msgid "Action is not allowed!"
 msgstr "Handlingen är er tillåten!"
 
@@ -5243,7 +5758,7 @@ msgid "Email is sending to Visitor after creation of booking."
 msgstr "E-post som skickas till Gästen då bokning Skapas."
 
 #: core/lang/wpbc_all_translations.php:548
-#: includes/page-form-simple/page-form-simple.php:278
+#: includes/page-form-simple/page-form-simple.php:276
 msgid "Form Field Configuration"
 msgstr "Konfigurera Formulärfält"
 
@@ -5253,7 +5768,7 @@ msgstr "Återställ"
 
 #: core/lang/wpbc_all_translations.php:557
 #: includes/page-form-simple/form_simple__toolbar_free.php:196
-#: includes/page-form-simple/page-form-simple.php:1125
+#: includes/page-form-simple/page-form-simple.php:1166
 msgid "Add New Field"
 msgstr "Lägg till nytt fält"
 
@@ -5291,72 +5806,76 @@ msgid "Advanced Fields"
 msgstr "Avancerade fält"
 
 #: core/lang/wpbc_all_translations.php:574
-#: includes/page-form-simple/page-form-simple.php:602
-#: includes/page-form-simple/page-form-simple.php:697
-#: includes/page-form-simple/page-form-simple.php:1064
+#: includes/page-form-simple/page-form-simple.php:643
+#: includes/page-form-simple/page-form-simple.php:738
+#: includes/page-form-simple/page-form-simple.php:1105
 msgid "Name"
 msgstr "Namn"
 
 #: core/lang/wpbc_all_translations.php:575
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2967
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3018
-#: includes/page-form-simple/page-form-simple.php:749
+#: includes/page-form-simple/page-form-simple.php:790
 msgid "Edit"
 msgstr "Ändra"
 
 #: core/lang/wpbc_all_translations.php:576
-#: includes/page-form-simple/form_simple__timeslots.php:794
-#: includes/page-form-simple/page-form-simple.php:750
+#: includes/page-form-simple/form_simple__timeslots.php:811
+#: includes/page-form-simple/page-form-simple.php:791
 msgid "Remove"
 msgstr "Radera"
 
 #: core/lang/wpbc_all_translations.php:577
-#: includes/page-form-simple/page-form-simple.php:844
+#: includes/page-form-simple/page-form-simple.php:885
 msgid "You can generate the form fields for your form (at the left side) by selection specific field in the above selectbox."
 msgstr "Du kan generera formulärfält för ditt formulär (på vänster sida) genom att välja fält i ovanstående vallista."
 
 #: core/lang/wpbc_all_translations.php:578
-#: includes/page-form-simple/page-form-simple.php:845
+#: includes/page-form-simple/page-form-simple.php:886
 msgid "Please read more about the booking form fields configuration %shere%s."
 msgstr "Du kan läsa mer om inställningar av bokningsformulär %shär%s."
 
 #: core/lang/wpbc_all_translations.php:579
-#: includes/page-form-simple/page-form-simple.php:847
+#: includes/page-form-simple/page-form-simple.php:888
 msgid "Default Form Templates"
 msgstr "Standardformulärmallar"
 
 #: core/lang/wpbc_all_translations.php:582
-#: includes/page-form-simple/page-form-simple.php:999
+#: includes/page-form-simple/page-form-simple.php:1040
 msgid "Show / hide field in booking form"
 msgstr "Visa / dölj fält i bokningsformulär"
 
 #: core/lang/wpbc_all_translations.php:585
-#: includes/page-form-simple/page-form-simple.php:1069
+#: includes/page-form-simple/page-form-simple.php:1110
 msgid "Type only %sunique field name%s, that is not using in form"
 msgstr "Ange endast %sunikt fältnamn%s, som inte används i formulär"
 
 #: core/lang/wpbc_all_translations.php:586
-#: includes/page-form-simple/page-form-simple.php:1090
+#: includes/page-form-simple/page-form-simple.php:1131
 msgid "Values"
 msgstr "Värden"
 
-#: core/admin/page-settings.php:144 core/admin/page-settings.php:607
+#: core/admin/page-settings.php:144 core/admin/page-settings.php:609
 #: core/lang/wpbc_all_translations.php:404
 msgid "Plugin Menu"
 msgstr "Pluginmeny"
 
-#: core/admin/page-settings.php:535 core/lang/wpbc_all_translations.php:415
+#: core/admin/page-settings.php:537 core/lang/wpbc_all_translations.php:415
 msgid "Auto cancellation / auto approval of bookings"
 msgstr "Automatiskt avslag / godkännande av bokningar"
 
 #: core/admin/api-settings.php:680 core/lang/wpbc_all_translations.php:74
-#: includes/page-form-simple/page-form-simple.php:59
+#: includes/page-form-simple/page-form-simple.php:57
 #: includes/page-settings-all/all__page.php:166
+#: includes/page-setup/templates/05.form_structure__tpl.php:70
+#: includes/page-setup/templates/06.cal_availability__tpl.php:66
+#: includes/page-setup/templates/07.color_theme__tpl.php:66
+#: includes/page-setup/templates/08.optional_other_settings__tpl.php:70
 #: includes/publish/wpbc-create-pages.php:164
 #: includes/publish/wpbc-create-pages.php:330
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:310
 #: includes/_functions/admin_top_bar.php:281
-#: includes/_toolbar_ui/ui__settings_panel.php:149 js/wpbc-gutenberg.js:612
+#: includes/_toolbar_ui/ui__settings_panel.php:154 js/wpbc-gutenberg.js:612
 msgid "Booking Form"
 msgstr "Bokningsformulär"
 
@@ -5367,6 +5886,7 @@ msgid "TimeLine"
 msgstr "Tidslinje"
 
 #: core/lang/wpbc_all_translations1.php:397
+#: includes/page-setup/templates/05.form_structure__tpl.php:260
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:85
 msgid "Other"
 msgstr "Annat"
@@ -5404,10 +5924,11 @@ msgid "Aggregate booking dates from other resources"
 msgstr "Sammanför bokningsdatum från andra resurser"
 
 #: core/lang/wpbc_all_translations.php:868
+#: includes/page-setup/templates/04.bookings_types__tpl.php:122
 msgid "Note!"
 msgstr "Notera!"
 
-#: core/admin/api-settings.php:1474 core/admin/wpbc-toolbars.php:948
+#: core/admin/api-settings.php:1474 core/admin/wpbc-toolbars.php:949
 #: core/lang/wpbc_all_translations.php:143
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:287
 msgid "All"
@@ -5474,7 +5995,7 @@ msgstr "Adress till sökresultaten."
 msgid "Type the URL of search results page."
 msgstr "Ange adressen till sökresultats sidan."
 
-#: core/lang/wpbc_all_translations.php:889 core/wpbc-activation.php:1507
+#: core/lang/wpbc_all_translations.php:889 core/wpbc-activation.php:1517
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:181
 #: includes/ui_modal__shortcodes/sh_tpl_booking_search.php:192
 msgid "Result(s) Found"
@@ -5500,8 +6021,8 @@ msgstr "Visa information om Bokningsresursen"
 msgid "The content of field %sURL to edit bookings%s on the %sgeneral booking settings page%s must link to this page"
 msgstr "Innehållet i detta fält %sadress för att redigera bokningar%s på %ssidan för allmänna inställningar av bokningar%s måste vidarebefodras till denna sida"
 
-#: core/admin/page-settings.php:130 core/admin/page-settings.php:260
-#: core/admin/page-settings.php:545 core/lang/wpbc_all_translations.php:402
+#: core/admin/page-settings.php:130 core/admin/page-settings.php:262
+#: core/admin/page-settings.php:547 core/lang/wpbc_all_translations.php:402
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:85
 msgid "Capacity"
 msgstr "Kapacitet"
@@ -5512,9 +6033,9 @@ msgid "Select type of info to show."
 msgstr "Välj viken sorts information som ska visas."
 
 #: core/lang/wpbc_all_translations.php:671 core/wpbc-debug.php:189
-#: core/wpbc-emails.php:507 core/wpbc.php:417 core/wpbc.php:458
+#: core/wpbc-emails.php:507 core/wpbc.php:437 core/wpbc.php:478
 #: includes/page-bookings/bookings__actions.php:2106
-#: includes/publish/wpbc-publish-shortcode.php:189
+#: includes/publish/wpbc-publish-shortcode.php:192
 #: includes/_functions/nonce_func.php:60
 msgid "Error"
 msgstr "Fel"
@@ -5542,7 +6063,7 @@ msgid "View mode"
 msgstr "Visningsläge"
 
 #: core/lang/wpbc_all_translations2.php:167
-#: includes/publish/wpbc-publish-shortcode.php:258
+#: includes/publish/wpbc-publish-shortcode.php:267
 msgid "Insert into page"
 msgstr "Infoga på sida"
 
@@ -5552,8 +6073,8 @@ msgid "Only Form"
 msgstr "Endast formulär"
 
 #: core/lang/wpbc_all_translations.php:584
-#: includes/page-form-simple/form_simple__timeslots.php:790
-#: includes/page-form-simple/page-form-simple.php:1040
+#: includes/page-form-simple/form_simple__timeslots.php:807
+#: includes/page-form-simple/page-form-simple.php:1081
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:370
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:190
 #: js/wpbc-gutenberg.js:939
@@ -5597,7 +6118,7 @@ msgid "Email sent to "
 msgstr "E-post skickades till "
 
 #: core/lang/wpbc_all_translations.php:583
-#: includes/page-form-simple/page-form-simple.php:1020
+#: includes/page-form-simple/page-form-simple.php:1061
 msgid "Set field as required"
 msgstr "Ange fält som obligatoriskt"
 
@@ -5635,8 +6156,8 @@ msgstr "Standardfärg"
 msgid "Use these shortcodes for customization: "
 msgstr "Använd dessa Kortkoder för konfigurering: "
 
-#: core/admin/page-settings.php:490 core/lang/wpbc_all_translations.php:411
-#: includes/page-form-simple/page-form-simple.php:843
+#: core/admin/page-settings.php:492 core/lang/wpbc_all_translations.php:411
+#: core/wpbc_welcome.php:211 includes/page-form-simple/page-form-simple.php:884
 msgid "Shortcodes"
 msgstr "Kortkoder"
 
@@ -5666,9 +6187,12 @@ msgid "Do you really want to do this ?"
 msgstr "Vill du verkligen göra detta?"
 
 #: core/admin/api-settings.php:1654 core/admin/page-settings.php:101
-#: core/admin/page-settings.php:253 core/admin/page-settings.php:451
-#: core/lang/wpbc_all_translations.php:171 core/wpbc.php:204 core/wpbc.php:205
-#: core/wpbc.php:206 includes/page-availability/availability__page.php:86
+#: core/admin/page-settings.php:255 core/admin/page-settings.php:453
+#: core/lang/wpbc_all_translations.php:171 core/wpbc.php:224 core/wpbc.php:225
+#: core/wpbc.php:226 includes/page-availability/availability__page.php:86
+#: includes/page-form-simple/form_templates.php:252
+#: includes/page-form-simple/form_templates.php:630
+#: includes/page-form-simple/form_templates.php:748
 #: includes/_functions/admin_top_bar.php:120
 msgid "Availability"
 msgstr "Tillgänglighet"
@@ -5708,6 +6232,7 @@ msgid "Type your date format for emails and the booking table. %sDocumentation o
 msgstr "Ange önskat datumformat för e-post och bokningstabellen. %sHjälp om datumformatering%s"
 
 #: core/admin/api-settings.php:1209 core/lang/wpbc_all_translations.php:124
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:108
 msgid "Wide days view"
 msgstr "Hela namn"
 
@@ -5723,13 +6248,13 @@ msgstr "Visa eller dölj hjälp"
 msgid "Check this box if you want to show help hints on the admin panel."
 msgstr "Markera denna ruta om du vill visa hjälptexter i administratörspanelen."
 
-#: core/admin/api-settings.php:2035 core/admin/api-settings.php:2079
-#: core/admin/api-settings.php:2116 core/lang/wpbc_all_translations.php:188
+#: core/admin/api-settings.php:2024 core/admin/api-settings.php:2068
+#: core/admin/api-settings.php:2105 core/lang/wpbc_all_translations.php:188
 #: includes/page-bookings/bookings__actions.php:1532
 msgid "Warning"
 msgstr "Varning"
 
-#: core/admin/api-settings.php:2036 core/lang/wpbc_all_translations.php:189
+#: core/admin/api-settings.php:2025 core/lang/wpbc_all_translations.php:189
 msgid "You allow unlimited number of bookings per same dates, its can be a reason of double bookings on the same date. Do you really want to do this?"
 msgstr "Du tillåter obegränsat antal bokningar för samma datum, det kan ge upphov till dubbelbokningar på samma datum. Vill du verkligen göra detta?"
 
@@ -5737,19 +6262,19 @@ msgstr "Du tillåter obegränsat antal bokningar för samma datum, det kan ge up
 msgid "Check this box, if you want to %sset any days as available%s in calendar. Your visitors will be able to make %sunlimited bookings per same date(s) in calendar and do not see any booked date(s)%s of other visitors."
 msgstr "Markera om du vill %sställa in kalenderns alla dagar som tillgängliga%s. Dina besökare kommer kunna boka %sobegränsat antal bokningar samma datum i kalendern och kommer inte se andra besökares redan bokade datum%s."
 
-#: core/admin/page-settings.php:591 core/lang/wpbc_all_translations.php:418
+#: core/admin/page-settings.php:593 core/lang/wpbc_all_translations.php:418
 msgid "Information"
 msgstr "Information"
 
-#: core/admin/api-settings.php:1706 core/lang/wpbc_all_translations.php:177
+#: core/admin/api-settings.php:1695 core/lang/wpbc_all_translations.php:177
 msgid "Select user access level for the menu pages of plugin"
 msgstr "Ange användares behörighetsnivåer för tilläggets menysidor"
 
-#: core/admin/api-settings.php:2117 core/lang/wpbc_all_translations.php:191
+#: core/admin/api-settings.php:2106 core/lang/wpbc_all_translations.php:191
 msgid "If you check this option, all booking data will be deleted when you uninstall this plugin. Do you really want to do this?"
 msgstr "Om du väljer detta kommer alla bokningar att raderas när tillägget avinstalleras. Vill du verkligen göra detta?"
 
-#: core/admin/api-settings.php:1740 core/lang/wpbc_all_translations.php:183
+#: core/admin/api-settings.php:1729 core/lang/wpbc_all_translations.php:183
 msgid "Check this box to delete all booking data when you uninstal this plugin."
 msgstr "Markera denna ruta för att radera alla bokningar när tillägget avinstalleras."
 
@@ -5779,13 +6304,13 @@ msgid "Partially booked item - day, which is booked for the specific time-slot(s
 msgstr "Delvis bokad enhet - dag, som är bokad specifik tid."
 
 #: core/lang/wpbc_all_translations.php:573
-#: includes/page-form-simple/page-form-simple.php:600
+#: includes/page-form-simple/page-form-simple.php:641
 msgid "Field Label"
 msgstr "Rubrik för fält"
 
 #: core/lang/wpbc_all_translations.php:572
-#: includes/page-form-simple/page-form-simple.php:599
-#: includes/page-form-simple/page-form-simple.php:998
+#: includes/page-form-simple/page-form-simple.php:640
+#: includes/page-form-simple/page-form-simple.php:1039
 msgid "Active"
 msgstr "Aktiv"
 
@@ -5831,7 +6356,7 @@ msgid "Default booking admin page"
 msgstr "Standard Admin-bokningssida"
 
 #: core/admin/api-settings.php:1087 core/lang/wpbc_all_translations.php:99
-#: core/wpbc.php:168 core/wpbc.php:169
+#: core/wpbc.php:188 core/wpbc.php:189
 msgid "Bookings Listing"
 msgstr "Bokningslista"
 
@@ -5844,7 +6369,7 @@ msgid "Select your default calendar view mode at booking calendar overview page"
 msgstr "Välj standard kalendervy för bokningsöversikten"
 
 #: core/lang/wpbc_all_translations.php:635 core/sync/wpbc-gcal-class.php:665
-#: core/wpbc.php:251 includes/page-resource-free/page-resource-free.php:34
+#: core/wpbc.php:261 includes/page-resource-free/page-resource-free.php:34
 #: includes/page-resource-free/page-resource-free.php:100
 #: includes/_functions/admin_top_bar.php:222
 #: includes/_functions/admin_top_bar.php:230
@@ -5862,6 +6387,7 @@ msgid "Cost"
 msgstr "Pris"
 
 #: core/admin/api-settings.php:1224 core/lang/wpbc_all_translations.php:125
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:49
 msgid "Date Format"
 msgstr "Datumformat"
 
@@ -5906,6 +6432,7 @@ msgid "Activate and type your %stitle of partially booked%s item in legend"
 msgstr "Aktivera och skriv din %stitel på delvis bokad%s som visas i teckenförklaringen."
 
 #: core/admin/api-settings.php:1208 core/lang/wpbc_all_translations.php:123
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:107
 msgid "Short days view"
 msgstr "Kort dagsvy"
 
@@ -5945,24 +6472,13 @@ msgstr "Dölj inställningar för \"drivs av\" meddelande"
 msgid "User permissions for plugin menu pages"
 msgstr "Behörigheter för bokningskalenderns menysidor"
 
-#: core/admin/api-settings.php:1739 core/lang/wpbc_all_translations.php:182
+#: core/admin/api-settings.php:1728 core/lang/wpbc_all_translations.php:182
 msgid "Delete booking data, when plugin deactivated"
 msgstr "Radera bokningsdata, när tillägget avaktiveras"
 
-#: core/admin/api-settings.php:2080 core/lang/wpbc_all_translations.php:190
+#: core/admin/api-settings.php:2069 core/lang/wpbc_all_translations.php:190
 msgid "You are need to be sure what you are doing. You are disable of loading some JavaScripts Do you really want to do this?"
 msgstr "Du måste veta vad du gör, du håller på att inaktivera laddningen av vissa Javascript. Vill du verkligen göra detta?"
-
-#: core/lang/wpbc_all_translations.php:536
-msgid "Type your email %ssubject%s for the booking confimation message."
-msgstr "Ange e-post meddelandets %sämne%s för bokningsbekräftelse."
-
-#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
-#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
-#: core/admin/page-email-new-visitor.php:491
-#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:232
-msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
-msgstr "Exempel: \"Du har en ny bokning %s för följande datum: %s Kontakt information: %s Du kan godkänna eller avböja bokningen här: %s Tack så mycket, Bokningsservice.\""
 
 #: core/admin/page-email-approved.php:215
 #: core/admin/page-email-approved.php:272
@@ -5976,10 +6492,21 @@ msgstr "Exempel: \"Du har en ny bokning %s för följande datum: %s Kontakt info
 #: core/admin/page-email-new-visitor.php:314
 #: core/admin/page-email-trash.php:215 core/admin/page-email-trash.php:277
 #: core/admin/page-email-trash.php:338 core/lang/wpbc_all_translations.php:198
-#: includes/page-form-simple/page-form-simple.php:601
-#: includes/page-form-simple/page-form-simple.php:1019
+#: includes/page-form-simple/page-form-simple.php:642
+#: includes/page-form-simple/page-form-simple.php:1060
 msgid "Required"
 msgstr "Obligatorisk"
+
+#: core/lang/wpbc_all_translations.php:536
+msgid "Type your email %ssubject%s for the booking confimation message."
+msgstr "Ange e-post meddelandets %sämne%s för bokningsbekräftelse."
+
+#: core/admin/page-email-approved.php:510 core/admin/page-email-deleted.php:508
+#: core/admin/page-email-deny.php:507 core/admin/page-email-new-admin.php:489
+#: core/admin/page-email-new-visitor.php:491
+#: core/admin/page-email-trash.php:513 core/lang/wpbc_all_translations.php:232
+msgid "For example: \"You have a new reservation %s on the following date(s): %s Contact information: %s You can approve or cancel this booking at: %s Thank you, Reservation service.\""
+msgstr "Exempel: \"Du har en ny bokning %s för följande datum: %s Kontakt information: %s Du kan godkänna eller avböja bokningen här: %s Tack så mycket, Bokningsservice.\""
 
 #: core/lang/wpbc_all_translations.php:543
 msgid "Customization of email template, which is sending to Admin after new booking"
@@ -5991,11 +6518,11 @@ msgid "Customization of email template, which is sending to Visitor after new bo
 msgstr "Konfigurering av e-postmall, som skickas till gästen efter ny bokning"
 
 #: core/lang/wpbc_all_translations.php:587
-#: includes/page-form-simple/page-form-simple.php:1095
+#: includes/page-form-simple/page-form-simple.php:1136
 msgid "Enter dropdown options. One option per line."
 msgstr "Ange rullgardinsmeny inställningar. Ett alternativ per linje."
 
-#: core/admin/page-settings.php:369 core/admin/page-settings.php:614
+#: core/admin/page-settings.php:371 core/admin/page-settings.php:616
 #: core/lang/wpbc_all_translations.php:420
 msgid "Uninstall / deactivation"
 msgstr "Avinstallera / avaktivera"
@@ -6120,52 +6647,61 @@ msgstr "Du kan använda följande kortkoder för innehållet i denna mall"
 #: core/admin/api-settings.php:101 core/admin/api-settings.php:568
 #: core/lang/wpbc_all_translations.php:13
 #: core/timeline/v2/wpbc-class-timeline_v2.php:82
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:87
 msgid "Wednesday"
 msgstr "Onsdag"
 
 #: core/admin/api-settings.php:102 core/admin/api-settings.php:571
 #: core/lang/wpbc_all_translations.php:14
 #: core/timeline/v2/wpbc-class-timeline_v2.php:83
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:88
 msgid "Thursday"
 msgstr "Torsdag"
 
 #: core/admin/api-settings.php:103 core/admin/api-settings.php:574
 #: core/lang/wpbc_all_translations.php:15
 #: core/timeline/v2/wpbc-class-timeline_v2.php:84
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:89
 msgid "Friday"
 msgstr "Fredag"
 
 #: core/admin/api-settings.php:104 core/admin/api-settings.php:577
 #: core/lang/wpbc_all_translations.php:16
 #: core/timeline/v2/wpbc-class-timeline_v2.php:85
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:90
 msgid "Saturday"
 msgstr "Lördag"
 
 #: core/admin/api-settings.php:98 core/admin/api-settings.php:559
 #: core/lang/wpbc_all_translations.php:10
 #: core/timeline/v2/wpbc-class-timeline_v2.php:86
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:84
 msgid "Sunday"
 msgstr "Söndag"
 
 #: core/lang/wpbc_all_translations1.php:37
+#: includes/page-setup/templates/06.cal_availability__tpl.php:215
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:779
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1217
 msgid "Tu"
 msgstr "Tis"
 
 #: core/lang/wpbc_all_translations1.php:39
+#: includes/page-setup/templates/06.cal_availability__tpl.php:217
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:781
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1219
 msgid "Th"
 msgstr "Tor"
 
 #: core/lang/wpbc_all_translations1.php:41
+#: includes/page-setup/templates/06.cal_availability__tpl.php:219
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:783
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1221
 msgid "Sa"
 msgstr "Lör"
 
 #: core/lang/wpbc_all_translations1.php:42
+#: includes/page-setup/templates/06.cal_availability__tpl.php:220
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:784
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1222
 msgid "Su"
@@ -6223,13 +6759,19 @@ msgstr "Sön"
 #: core/lang/wpbc_all_translations.php:637 core/sync/wpbc-gcal-class.php:668
 #: core/timeline/v2/wpbc-class-timeline_v2.php:1500
 #: core/timeline/v2/wpbc-class-timeline_v2.php:1513
+#: includes/page-form-simple/form_templates.php:307
+#: includes/page-form-simple/form_templates.php:360
+#: includes/page-form-simple/form_templates.php:443
+#: includes/page-form-simple/form_templates.php:487
+#: includes/page-form-simple/form_templates.php:1117
+#: includes/page-form-simple/form_templates.php:1152
 msgid "Times"
 msgstr "Tider"
 
-#: core/admin/api-settings.php:1696 core/admin/page-import-gcal.php:535
+#: core/admin/api-settings.php:1685 core/admin/page-import-gcal.php:535
 #: core/lang/wpbc_all_translations.php:175
-#: core/timeline/v2/wpbc-class-timeline_v2.php:72 core/wpbc.php:225
-#: core/wpbc.php:227 includes/_functions/admin_top_bar.php:222
+#: core/timeline/v2/wpbc-class-timeline_v2.php:72 core/wpbc.php:245
+#: core/wpbc.php:247 includes/_functions/admin_top_bar.php:222
 #: includes/_functions/admin_top_bar.php:230
 msgid "Resources"
 msgstr "Resurser"
@@ -6238,6 +6780,8 @@ msgstr "Resurser"
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3082
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3084
 #: includes/page-bookings/bookings__sql.php:1834
+#: includes/page-setup/templates/05.form_structure__tpl.php:270
+#: includes/page-setup/templates/05.form_structure__tpl.php:271
 msgid "Payment"
 msgstr "Betalning"
 
@@ -6247,7 +6791,7 @@ msgstr "Statistik"
 
 #: core/admin/wpbc-dashboard.php:655 core/admin/wpbc-dashboard.php:887
 #: core/lang/wpbc_all_translations.php:449
-#: includes/_toolbar_ui/ui__settings_panel.php:1816
+#: includes/_toolbar_ui/ui__settings_panel.php:1960
 msgid "New (unverified) booking(s)"
 msgstr "Nya (ej verifierade) bokningar"
 
@@ -6257,12 +6801,12 @@ msgstr "Agenda"
 
 #: core/admin/wpbc-dashboard.php:651 core/admin/wpbc-dashboard.php:838
 #: core/lang/wpbc_all_translations.php:448
-#: includes/_toolbar_ui/ui__settings_panel.php:1895
+#: includes/_toolbar_ui/ui__settings_panel.php:2039
 msgid "New booking(s) made today"
 msgstr "Nya bokningar idag"
 
 #: core/lang/wpbc_all_translations.php:547
-#: includes/page-form-simple/page-form-simple.php:76
+#: includes/page-form-simple/page-form-simple.php:74
 msgid "Upgrade to higher versions"
 msgstr "Uppgradera till nyare version"
 
@@ -6275,8 +6819,8 @@ msgid "Version"
 msgstr "Version"
 
 #: core/admin/wpbc-dashboard.php:592 core/lang/wpbc_all_translations.php:441
-#: includes/page-form-simple/page-form-simple.php:602
-#: includes/page-form-simple/page-form-simple.php:695
+#: includes/page-form-simple/page-form-simple.php:643
+#: includes/page-form-simple/page-form-simple.php:736
 msgid "Type"
 msgstr "Typ"
 
@@ -6309,10 +6853,11 @@ msgstr "Kontakt via e-post"
 msgid "Rate plugin (thanks:)"
 msgstr "Lämna omdöme om detta tillägg (tack:)"
 
-#: core/admin/api-settings.php:1705 core/lang/wpbc_all_translations.php:176
-#: core/wpbc.php:261 core/wpbc.php:263 core/wpbc.php:471
+#: core/admin/api-settings.php:1694 core/lang/wpbc_all_translations.php:176
+#: core/wpbc.php:271 core/wpbc.php:273 core/wpbc.php:491
 #: includes/page-settings-all/all__page.php:39
 #: includes/page-settings-all/all__page.php:74
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:136
 #: includes/_functions/admin_top_bar.php:263
 #: includes/_toolbar_ui/ui__settings_panel.php:116
 msgid "Settings"
@@ -6322,21 +6867,21 @@ msgstr "Inställningar"
 msgid "What's New"
 msgstr "Nyheter"
 
-#: core/admin/api-settings.php:1686 core/admin/page-new.php:33
+#: core/admin/api-settings.php:1675 core/admin/page-new.php:33
 #: core/admin/page-new.php:34 core/admin/page-new.php:35
-#: core/admin/wpbc-toolbars.php:1149 core/lang/wpbc_all_translations.php:174
-#: core/wpbc.php:195 core/wpbc.php:196 core/wpbc.php:197
+#: core/admin/wpbc-toolbars.php:1150 core/lang/wpbc_all_translations.php:174
+#: core/wpbc.php:215 core/wpbc.php:216 core/wpbc.php:217
 #: includes/_functions/admin_top_bar.php:110
 msgid "Add booking"
 msgstr "Lägg till bokning"
 
 #: core/admin/api-settings.php:1645 core/lang/wpbc_all_translations.php:170
-#: core/timeline/v2/wpbc-class-timeline_v2.php:74 core/wpbc.php:167
+#: core/timeline/v2/wpbc-class-timeline_v2.php:74 core/wpbc.php:187
 #: includes/_functions/admin_top_bar.php:73
 msgid "Bookings"
 msgstr "Bokningar"
 
-#: core/admin/wpbc-toolbars.php:304 core/admin/wpbc-toolbars.php:1175
+#: core/admin/wpbc-toolbars.php:304 core/admin/wpbc-toolbars.php:1176
 #: core/lang/wpbc_all_translations.php:463
 msgid "Send email notification to customer about this operation"
 msgstr "Meddela kunden via e-post"
@@ -6348,7 +6893,7 @@ msgid "General"
 msgstr "Allmänt"
 
 #: core/lang/wpbc_all_translations.php:544
-#: includes/page-form-simple/page-form-simple.php:60
+#: includes/page-form-simple/page-form-simple.php:58
 msgid "Fields Settings"
 msgstr "Fältinställningar"
 
@@ -6356,7 +6901,7 @@ msgstr "Fältinställningar"
 #: core/lang/wpbc_all_translations.php:257
 #: includes/page-settings-all/all__page.php:185
 #: includes/_functions/admin_top_bar.php:289
-#: includes/_toolbar_ui/ui__settings_panel.php:713
+#: includes/_toolbar_ui/ui__settings_panel.php:778
 msgid "Emails"
 msgstr "E-post"
 
@@ -6365,7 +6910,7 @@ msgstr "E-post"
 msgid "Payments"
 msgstr "Betalningar"
 
-#: core/admin/wpbc-toolbars.php:1639 core/lang/wpbc_all_translations.php:503
+#: core/admin/wpbc-toolbars.php:1640 core/lang/wpbc_all_translations.php:503
 msgid "Search"
 msgstr "Sök"
 
@@ -6378,8 +6923,27 @@ msgstr "Användare"
 msgid "Users Settings"
 msgstr "Användarinställningar"
 
-#: core/lang/wpbc_all_translations.php:551 core/wpbc-activation.php:1193
-#: includes/page-form-simple/form_simple__default.php:134
+#: core/lang/wpbc_all_translations.php:551 core/wpbc-activation.php:1192
+#: includes/page-form-simple/form_simple__default.php:130
+#: includes/page-form-simple/form_simple__default.php:252
+#: includes/page-form-simple/form_simple__default.php:352
+#: includes/page-form-simple/form_templates.php:46
+#: includes/page-form-simple/form_templates.php:70
+#: includes/page-form-simple/form_templates.php:103
+#: includes/page-form-simple/form_templates.php:134
+#: includes/page-form-simple/form_templates.php:179
+#: includes/page-form-simple/form_templates.php:570
+#: includes/page-form-simple/form_templates.php:674
+#: includes/page-form-simple/form_templates.php:706
+#: includes/page-form-simple/form_templates.php:729
+#: includes/page-form-simple/form_templates.php:786
+#: includes/page-form-simple/form_templates.php:815
+#: includes/page-form-simple/form_templates.php:908
+#: includes/page-form-simple/form_templates.php:936
+#: includes/page-form-simple/form_templates.php:1014
+#: includes/page-form-simple/form_templates.php:1051
+#: includes/page-form-simple/form_templates.php:1083
+#: includes/page-form-simple/form_templates.php:1100
 msgid "Send"
 msgstr "Skicka"
 
@@ -6389,41 +6953,42 @@ msgstr "%sVarning! Bokningskalender för denna bokningsresurs finns redan på si
 
 #: core/admin/page-email-new-admin.php:305
 #: core/admin/page-email-new-visitor.php:301
-#: core/lang/wpbc_all_translations.php:255 core/wpbc-activation.php:1143
-#: core/wpbc-activation.php:1150
+#: core/lang/wpbc_all_translations.php:255 core/wpbc-activation.php:1142
+#: core/wpbc-activation.php:1149
 #: includes/page-bookings/bookings__actions.php:3126
 msgid "New booking"
 msgstr "Ny bokning"
 
 #: core/admin/page-email-approved.php:319
-#: core/lang/wpbc_all_translations.php:205 core/wpbc-activation.php:1161
+#: core/lang/wpbc_all_translations.php:205 core/wpbc-activation.php:1160
 msgid "Your booking has been approved"
 msgstr "Din bokning har godkänts"
 
 #: core/admin/page-email-deleted.php:320 core/admin/page-email-deny.php:320
 #: core/admin/page-email-trash.php:325 core/lang/wpbc_all_translations.php:246
-#: core/wpbc-activation.php:1172
+#: core/wpbc-activation.php:1171
 msgid "Your booking has been declined"
 msgstr "Din bokning har avböjts"
 
-#: core/lang/wpbc_all_translations.php:663 core/wpbc-activation.php:1177
+#: core/lang/wpbc_all_translations.php:663 core/wpbc-activation.php:1176
 msgid "Booking form"
 msgstr "Bokningsformulär"
 
 #: core/admin/api-settings.php:239 core/lang/wpbc_all_translations.php:32
-#: core/wpbc-activation.php:1197
+#: core/wpbc-activation.php:1196
 #: includes/page-availability/availability__toolbar_ui.php:155
+#: includes/page-setup/templates/06.cal_availability__tpl.php:465
 msgid "Available"
 msgstr "Tillgänglig"
 
 #: core/admin/api-settings.php:313 core/lang/wpbc_all_translations.php:38
-#: core/wpbc-activation.php:1205
+#: core/wpbc-activation.php:1204
 msgid "Booked"
 msgstr "Bokad"
 
 #: core/admin/api-settings.php:353 core/lang/wpbc_all_translations.php:41
-#: core/lib/wpbc-calendar-legend.php:145 core/wpbc-activation.php:1216
-#: includes/page-setup/template__bookings_types__action.php:113
+#: core/lib/wpbc-calendar-legend.php:145 core/wpbc-activation.php:1215
+#: includes/page-setup/templates/04.bookings_types__action.php:163
 msgid "Partially booked"
 msgstr "Delvis bokad"
 
@@ -6450,7 +7015,7 @@ msgid "no"
 msgstr "inga"
 
 #: core/lang/wpbc_all_translations.php:622
-#: core/lib/wpdev-booking-widget.php:150 core/wpbc.php:250
+#: core/lib/wpdev-booking-widget.php:150 core/wpbc.php:260
 #: includes/page-availability/availability__class.php:372
 #: includes/page-resource-free/page-resource-free.php:36
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:279
@@ -6460,7 +7025,7 @@ msgstr "inga"
 msgid "Booking resource"
 msgstr "Bokningsresurs"
 
-#: core/admin/wpbc-toolbars.php:900 core/lang/wpbc_all_translations.php:493
+#: core/admin/wpbc-toolbars.php:901 core/lang/wpbc_all_translations.php:493
 #: core/lib/wpdev-booking-widget.php:167
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:331
 msgid "Visible months"
@@ -6476,9 +7041,9 @@ msgstr "Sidfot"
 msgid "Example: %sMake booking here%s"
 msgstr "Exempel: %sGör bokning här%s"
 
-#: core/admin/page-settings.php:90 core/admin/page-settings.php:239
-#: core/admin/page-settings.php:429 core/lang/wpbc_all_translations.php:396
-#: includes/page-form-simple/page-form-simple.php:687
+#: core/admin/page-settings.php:90 core/admin/page-settings.php:241
+#: core/admin/page-settings.php:431 core/lang/wpbc_all_translations.php:396
+#: includes/page-form-simple/page-form-simple.php:728
 #: includes/page-resource-free/page-resource-free.php:233
 #: includes/page-settings-all/all__page.php:81
 #: includes/page-settings-all/all__page.php:147
@@ -6498,15 +7063,15 @@ msgid "Auto cancellation / approval"
 msgstr "Automatisk avbokning / godkänande"
 
 #: core/admin/page-ics-general.php:461 core/admin/page-ics-general.php:468
-#: core/admin/page-settings.php:139 core/admin/page-settings.php:362
-#: core/admin/page-settings.php:584 core/lang/wpbc_all_translations.php:317
+#: core/admin/page-settings.php:139 core/admin/page-settings.php:364
+#: core/admin/page-settings.php:586 core/lang/wpbc_all_translations.php:317
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:247
 #: includes/ui_modal__shortcodes/sh_tpl_booking_calendar.php:116
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:127
 #: includes/ui_modal__shortcodes/sh_tpl_booking_listing.php:121
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:219
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:120
-#: includes/_toolbar_ui/ui__settings_panel.php:245
+#: includes/_toolbar_ui/ui__settings_panel.php:250
 msgid "Advanced"
 msgstr "Avancerad"
 
@@ -6527,16 +7092,14 @@ msgid "Start Day of the week"
 msgstr "Veckan börjar med"
 
 #: core/admin/api-settings.php:602 core/lang/wpbc_all_translations.php:61
+#: includes/page-setup/templates/06.cal_availability__tpl.php:338
 msgid "Unavailable days from today"
 msgstr "Obokningsbara dagar från idag"
 
 #: core/admin/api-settings.php:554 core/lang/wpbc_all_translations.php:59
-msgid "Unavailable week days"
+#: includes/page-setup/templates/06.cal_availability__tpl.php:121
+msgid "Unavailable Weekdays"
 msgstr "Otillgängliga veckodagar"
-
-#: core/admin/api-settings.php:584 core/lang/wpbc_all_translations.php:60
-msgid "Check unavailable days in calendars. This option will overwrite all other settings."
-msgstr "Ange vilka veckodagar som inte kan bokas i kalendern. Detta val överskrider alla andra inställningar."
 
 #: core/admin/api-settings.php:116 core/lang/wpbc_all_translations.php:17
 msgid "Single day"
@@ -6547,7 +7110,7 @@ msgid "Range days"
 msgstr "Datumperiod"
 
 #: core/admin/api-settings.php:669 core/lang/wpbc_all_translations.php:72
-#: includes/page-form-simple/page-form-simple.php:545
+#: includes/page-form-simple/page-form-simple.php:586
 msgid "Check the box to activate auto-fill form fields for logged in users."
 msgstr "Markera för att aktivera automatisk ifyllnad av formulärfält för inloggade användare."
 
@@ -6559,11 +7122,11 @@ msgstr "Meddelande rubrik"
 msgid "Type title of message %safter booking has done by user%s"
 msgstr "Medelanderubrik %sefter genomförd bokning av användare%s"
 
-#: core/admin/wpbc-toolbars.php:367 core/lang/wpbc_all_translations.php:466
+#: core/lang/wpbc_all_translations.php:466
 msgid "Technical Support"
 msgstr "Teknisk support"
 
-#: core/admin/wpbc-toolbars.php:333 core/admin/wpbc-toolbars.php:1555
+#: core/admin/wpbc-toolbars.php:333 core/admin/wpbc-toolbars.php:1556
 #: core/lang/wpbc_all_translations.php:465
 msgid "Go"
 msgstr "Sök"
@@ -6572,7 +7135,7 @@ msgstr "Sök"
 #: core/lang/wpbc_all_translations.php:35
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2997
 #: core/timeline/v2/wpbc-class-timeline_v2.php:3050
-#: core/wpbc-activation.php:1201
+#: core/wpbc-activation.php:1200
 #: includes/page-bookings/bookings__actions.php:3082
 #: includes/page-bookings/bookings__listing.php:241
 #: includes/_toolbar_ui/toolbar_ui.php:777
@@ -6604,7 +7167,7 @@ msgstr "Status"
 msgid "All bookings"
 msgstr "Alla bokningar"
 
-#: core/admin/api-settings.php:1721 core/lang/wpbc_all_translations.php:180
+#: core/admin/api-settings.php:1710 core/lang/wpbc_all_translations.php:180
 #: core/lib/wpdev-booking-widget.php:136
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:90
 #: js/wpbc-gutenberg.js:1533
@@ -6683,13 +7246,13 @@ msgstr "Okänd"
 msgid "Created"
 msgstr "Skapad"
 
-#: core/admin/wpbc-toolbars.php:493 core/admin/wpbc-toolbars.php:547
+#: core/admin/wpbc-toolbars.php:494 core/admin/wpbc-toolbars.php:548
 #: core/lang/wpbc_all_translations.php:471
 msgid "Show month"
 msgstr "Visa månad"
 
 #: core/admin/api-settings.php:1124 core/admin/api-settings.php:1131
-#: core/admin/wpbc-toolbars.php:492 core/admin/wpbc-toolbars.php:546
+#: core/admin/wpbc-toolbars.php:493 core/admin/wpbc-toolbars.php:547
 #: core/lang/wpbc_all_translations.php:105
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2860
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2879
@@ -6697,111 +7260,113 @@ msgstr "Visa månad"
 msgid "Month"
 msgstr "Månad"
 
-#: core/admin/wpbc-toolbars.php:459 core/admin/wpbc-toolbars.php:519
+#: core/admin/wpbc-toolbars.php:460 core/admin/wpbc-toolbars.php:520
 #: core/lang/wpbc_all_translations.php:469
 msgid "Show day"
 msgstr "Visa dag"
 
-#: core/admin/api-settings.php:1122 core/admin/wpbc-toolbars.php:458
-#: core/admin/wpbc-toolbars.php:518 core/lang/wpbc_all_translations.php:103
+#: core/admin/api-settings.php:1122 core/admin/wpbc-toolbars.php:459
+#: core/admin/wpbc-toolbars.php:519 core/lang/wpbc_all_translations.php:103
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2852
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2871
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:145
 msgid "Day"
 msgstr "Dag"
 
-#: core/admin/wpbc-toolbars.php:476 core/admin/wpbc-toolbars.php:533
+#: core/admin/wpbc-toolbars.php:477 core/admin/wpbc-toolbars.php:534
 #: core/lang/wpbc_all_translations.php:470
 msgid "Show week"
 msgstr "Visa vecka"
 
-#: core/admin/api-settings.php:1123 core/admin/wpbc-toolbars.php:475
-#: core/admin/wpbc-toolbars.php:532 core/lang/wpbc_all_translations.php:104
+#: core/admin/api-settings.php:1123 core/admin/wpbc-toolbars.php:476
+#: core/admin/wpbc-toolbars.php:533 core/lang/wpbc_all_translations.php:104
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2856
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2875
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:146
 msgid "Week"
 msgstr "Vecka"
 
-#: core/admin/wpbc-toolbars.php:561 core/lang/wpbc_all_translations.php:472
+#: core/admin/wpbc-toolbars.php:562 core/lang/wpbc_all_translations.php:472
 msgid "Show 2 months"
 msgstr "Visa 2 månader"
 
-#: core/admin/wpbc-toolbars.php:618 core/admin/wpbc-toolbars.php:687
+#: core/admin/wpbc-toolbars.php:619 core/admin/wpbc-toolbars.php:688
 #: core/lang/wpbc_all_translations.php:473
 msgid "Previous 4 weeks"
 msgstr "Föregående 4 veckor"
 
-#: core/admin/wpbc-toolbars.php:619 core/admin/wpbc-toolbars.php:688
+#: core/admin/wpbc-toolbars.php:620 core/admin/wpbc-toolbars.php:689
 #: core/lang/wpbc_all_translations.php:474
 msgid "Previous week"
 msgstr "Föregående vecka"
 
-#: core/admin/wpbc-toolbars.php:620 core/admin/wpbc-toolbars.php:642
-#: core/admin/wpbc-toolbars.php:689 core/lang/wpbc_all_translations.php:475
+#: core/admin/wpbc-toolbars.php:621 core/admin/wpbc-toolbars.php:643
+#: core/admin/wpbc-toolbars.php:690 core/lang/wpbc_all_translations.php:475
 msgid "Current week"
 msgstr "Aktuell vecka"
 
-#: core/admin/wpbc-toolbars.php:621 core/admin/wpbc-toolbars.php:690
+#: core/admin/wpbc-toolbars.php:622 core/admin/wpbc-toolbars.php:691
 #: core/lang/wpbc_all_translations.php:476
 msgid "Next week"
 msgstr "Nästa vecka"
 
-#: core/admin/wpbc-toolbars.php:622 core/admin/wpbc-toolbars.php:691
+#: core/admin/wpbc-toolbars.php:623 core/admin/wpbc-toolbars.php:692
 #: core/lang/wpbc_all_translations.php:477
 msgid "Next 4 weeks"
 msgstr "Nästa 4 veckor"
 
-#: core/admin/wpbc-toolbars.php:654 core/admin/wpbc-toolbars.php:704
-#: core/admin/wpbc-toolbars.php:719 core/lang/wpbc_all_translations.php:480
+#: core/admin/wpbc-toolbars.php:655 core/admin/wpbc-toolbars.php:705
+#: core/admin/wpbc-toolbars.php:720 core/lang/wpbc_all_translations.php:480
 msgid "Previous 3 months"
 msgstr "Föregående 3 månader"
 
-#: core/admin/wpbc-toolbars.php:655 core/admin/wpbc-toolbars.php:705
-#: core/admin/wpbc-toolbars.php:720 core/lang/wpbc_all_translations.php:481
+#: core/admin/wpbc-toolbars.php:656 core/admin/wpbc-toolbars.php:706
+#: core/admin/wpbc-toolbars.php:721 core/lang/wpbc_all_translations.php:481
 msgid "Previous month"
 msgstr "Föregående månad"
 
-#: core/admin/wpbc-toolbars.php:656 core/admin/wpbc-toolbars.php:706
-#: core/admin/wpbc-toolbars.php:721 core/lang/wpbc_all_translations.php:482
+#: core/admin/wpbc-toolbars.php:657 core/admin/wpbc-toolbars.php:707
+#: core/admin/wpbc-toolbars.php:722 core/lang/wpbc_all_translations.php:482
 msgid "Current month"
 msgstr "Aktuell månad"
 
-#: core/admin/wpbc-toolbars.php:657 core/admin/wpbc-toolbars.php:707
-#: core/admin/wpbc-toolbars.php:722 core/lang/wpbc_all_translations.php:483
+#: core/admin/wpbc-toolbars.php:658 core/admin/wpbc-toolbars.php:708
+#: core/admin/wpbc-toolbars.php:723 core/lang/wpbc_all_translations.php:483
 msgid "Next month"
 msgstr "Nästa månad"
 
-#: core/admin/wpbc-toolbars.php:658 core/admin/wpbc-toolbars.php:708
-#: core/admin/wpbc-toolbars.php:723 core/lang/wpbc_all_translations.php:484
+#: core/admin/wpbc-toolbars.php:659 core/admin/wpbc-toolbars.php:709
+#: core/admin/wpbc-toolbars.php:724 core/lang/wpbc_all_translations.php:484
 msgid "Next 3 months"
 msgstr "Nästa 3 månader"
 
-#: core/admin/wpbc-toolbars.php:672 core/lang/wpbc_all_translations.php:485
+#: core/admin/wpbc-toolbars.php:673 core/lang/wpbc_all_translations.php:485
 msgid "Previous 7 days"
 msgstr "Tidigare 7 dagar"
 
-#: core/admin/wpbc-toolbars.php:673 core/lang/wpbc_all_translations.php:486
+#: core/admin/wpbc-toolbars.php:674 core/lang/wpbc_all_translations.php:486
 msgid "Previous day"
 msgstr "Tidigare dag"
 
-#: core/admin/wpbc-toolbars.php:675 core/lang/wpbc_all_translations.php:488
+#: core/admin/wpbc-toolbars.php:676 core/lang/wpbc_all_translations.php:488
 msgid "Next day"
 msgstr "Nästa dag"
 
-#: core/admin/wpbc-toolbars.php:676 core/lang/wpbc_all_translations.php:489
+#: core/admin/wpbc-toolbars.php:677 core/lang/wpbc_all_translations.php:489
 msgid "Next 7 days"
 msgstr "Nästa 7 dagar"
 
 #: core/admin/api-settings.php:99 core/admin/api-settings.php:562
 #: core/lang/wpbc_all_translations.php:11
 #: core/timeline/v2/wpbc-class-timeline_v2.php:80
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:85
 msgid "Monday"
 msgstr "Måndag"
 
 #: core/admin/api-settings.php:100 core/admin/api-settings.php:565
 #: core/lang/wpbc_all_translations.php:12
 #: core/timeline/v2/wpbc-class-timeline_v2.php:81
+#: includes/page-setup/templates/03.date_time_formats__tpl.php:86
 msgid "Tuesday"
 msgstr "Tisdag"
 
@@ -6816,6 +7381,7 @@ msgstr "Standardspråk"
 
 #: core/admin/api-settings.php:56 core/lang/wpbc_all_translations.php:2
 #: includes/page-form-simple/form_simple__preview_templates.php:70
+#: includes/page-setup/templates/07.color_theme__tpl.php:253
 msgid "Calendar Skin"
 msgstr "Kalender tema"
 
@@ -6837,7 +7403,7 @@ msgid "Select number of unavailable days in calendar start from today."
 msgstr "Välj antalet otillgängliga dagar i kalendern, med start får idag."
 
 #: core/admin/api-settings.php:657 core/lang/wpbc_all_translations.php:68
-#: includes/page-form-simple/page-form-simple.php:574
+#: includes/page-form-simple/page-form-simple.php:615
 msgid "CAPTCHA"
 msgstr "Robotfälla"
 
@@ -6846,7 +7412,7 @@ msgid "Check the box to activate CAPTCHA inside the booking form."
 msgstr "Markera för att använda en robotfälla i bokningsformuläret."
 
 #: core/admin/api-settings.php:668 core/lang/wpbc_all_translations.php:71
-#: includes/page-form-simple/page-form-simple.php:544
+#: includes/page-form-simple/page-form-simple.php:585
 msgid "Auto-fill fields"
 msgstr "Fyll i fälten automatiskt"
 
@@ -6862,7 +7428,8 @@ msgstr "Använd Bootstrap CSS för formulärsfälten"
 #: core/admin/api-settings.php:531 core/admin/api-settings.php:660
 #: core/admin/api-settings.php:1427 core/admin/page-ics-export.php:470
 #: core/lang/wpbc_all_translations.php:43
-#: core/timeline/v2/wpbc-class-timeline_v2.php:3143 js/wpbc-gutenberg.js:1094
+#: core/timeline/v2/wpbc-class-timeline_v2.php:3143
+#: includes/page-setup/setup_support.php:122 js/wpbc-gutenberg.js:1094
 msgid "Note"
 msgstr "Notera"
 
@@ -6871,12 +7438,12 @@ msgid "You must not deactivate loading BootStrap files at advanced section of th
 msgstr "Användandet av Bootstrap får inte vara avaktiverat i avancerade sektionen!"
 
 #: core/admin/page-email-approved.php:339
-#: core/lang/wpbc_all_translations.php:207 core/wpbc-activation.php:1163
+#: core/lang/wpbc_all_translations.php:207 core/wpbc-activation.php:1162
 msgid "Your reservation %s for: %s has been approved.%sYou can edit the booking on this page: %s Thank you, %s"
 msgstr "Din reservation %s gällande datum %s har uppdaterats.%sDu kan redigera bokningen på denna sida: %s Tack så mycket, %s"
 
 #: core/admin/page-email-approved.php:341
-#: core/lang/wpbc_all_translations.php:208 core/wpbc-activation.php:1165
+#: core/lang/wpbc_all_translations.php:208 core/wpbc-activation.php:1164
 msgid "Your booking %s for: %s has been approved.%sThank you, %s"
 msgstr "Din bokning %s gällande datum %s har blivit godkänd.%sTack så mycket, %s"
 
@@ -6889,22 +7456,22 @@ msgstr "Inställningar sparade."
 
 #: core/admin/page-email-deleted.php:339 core/admin/page-email-deny.php:339
 #: core/admin/page-email-trash.php:344 core/lang/wpbc_all_translations.php:247
-#: core/wpbc-activation.php:1173
+#: core/wpbc-activation.php:1172
 msgid "Your booking %s for: %s has been  canceled. %sThank you, %s"
 msgstr "Din bokning %s gällande datum %s har blivit avbruten. %sTack så mycket, %s"
 
 #: core/admin/page-email-new-admin.php:334
-#: core/lang/wpbc_all_translations.php:256 core/wpbc-activation.php:1144
+#: core/lang/wpbc_all_translations.php:256 core/wpbc-activation.php:1143
 msgid "You need to approve a new booking %s for: %s Person detail information:%s Currently a new booking is waiting for approval. Please visit the moderation panel%sThank you, %s"
 msgstr "Du behöver godkänna en ny bokning %s gällande datum: %s Gästinformation:%s En ny bokning väntar på ditt godkännande. Var god och använd inställningspanelen %sTack så mycket, %s"
 
 #: core/admin/page-email-new-visitor.php:321
-#: core/lang/wpbc_all_translations.php:261 core/wpbc-activation.php:1152
+#: core/lang/wpbc_all_translations.php:261 core/wpbc-activation.php:1151
 msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %sYou can edit this booking at this page: %s  Thank you, %s"
 msgstr "Din reservation %s gällande datum %s behandlas nu! Vi kommer skicka en bekräftelse via e-post. %sDu kan redigera denna bokning på denna sida. %s Tack så mycket, %s"
 
 #: core/admin/page-email-new-visitor.php:323
-#: core/lang/wpbc_all_translations.php:262 core/wpbc-activation.php:1154
+#: core/lang/wpbc_all_translations.php:262 core/wpbc-activation.php:1153
 msgid "Your reservation %s for: %s is processing now! We will send confirmation by email. %s Thank you, %s"
 msgstr "Din reservation %s gällande datum %s behandlas nu! Vi kommer skicka en bekräftelse via e-post. %s Tack så mycket, %s"
 
@@ -6914,7 +7481,7 @@ msgstr "Visa Premium-funktioner"
 
 #: core/admin/wpbc-dashboard.php:659 core/admin/wpbc-dashboard.php:870
 #: core/lang/wpbc_all_translations.php:450
-#: includes/_toolbar_ui/ui__settings_panel.php:1836
+#: includes/_toolbar_ui/ui__settings_panel.php:1980
 msgid "Pending booking(s)"
 msgstr "Reserverade bokningar"
 
@@ -6996,11 +7563,11 @@ msgstr "Markera valda bokningar som lästa"
 msgid "Mark as Unread selected bookings"
 msgstr "Markera valda bokningar som olästa"
 
-#: core/admin/wpbc-toolbars.php:674 core/lang/wpbc_all_translations.php:487
+#: core/admin/wpbc-toolbars.php:675 core/lang/wpbc_all_translations.php:487
 msgid "Current day"
 msgstr "Idag"
 
-#: core/lang/wpbc_all_translations.php:749 core/wpbc_functions.php:544
+#: core/lang/wpbc_all_translations.php:749 core/wpbc_functions.php:552
 #: includes/_pagination/pagination.php:159
 msgid "Prev"
 msgstr "Föregående"
@@ -7028,7 +7595,7 @@ msgstr "E-postinställningar"
 msgid "Help Info"
 msgstr "Hjälpinformation"
 
-#: core/admin/api-settings.php:1125 core/admin/wpbc-toolbars.php:560
+#: core/admin/api-settings.php:1125 core/admin/wpbc-toolbars.php:561
 #: core/lang/wpbc_all_translations.php:106
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:150
 msgid "2 Months"
@@ -7045,7 +7612,7 @@ msgstr "Betalning OK"
 msgid "Booking ID"
 msgstr "Boknings-ID"
 
-#: core/admin/wpbc-toolbars.php:294 core/admin/wpbc-toolbars.php:1165
+#: core/admin/wpbc-toolbars.php:294 core/admin/wpbc-toolbars.php:1166
 #: core/lang/wpbc_all_translations.php:462
 #: includes/_toolbar_ui/toolbar_ui.php:2248
 msgid "Emails sending"
@@ -7077,19 +7644,19 @@ msgid "%sSeveral widgets are supported at %spaid versions%s."
 msgstr "%sFler widgetar stöds i %sbetalversionerna%s."
 
 #: core/admin/wpbc-dashboard.php:520 core/lang/wpbc_all_translations.php:436
-#: includes/_feedback/feedback.php:565
+#: includes/_feedback/feedback.php:560
 msgid "websites"
 msgstr "webbplatser"
 
 #: core/admin/wpbc-dashboard.php:522 core/lang/wpbc_all_translations.php:437
-#: includes/_feedback/feedback.php:567
+#: includes/_feedback/feedback.php:562
 msgid "website"
 msgstr "webbplats"
 
 #: core/admin/page-ics-general.php:336 core/admin/page-ics-general.php:337
 #: core/admin/page-ics-general.php:445 core/admin/page-import-gcal.php:529
 #: core/admin/page-settings.php:75 core/admin/page-settings.php:76
-#: core/lang/wpbc_all_translations.php:315 core/wpbc.php:262
+#: core/lang/wpbc_all_translations.php:315 core/wpbc.php:272
 #: includes/page-settings-all/all__page.php:40
 #: includes/page-settings-all/all__page.php:41
 msgid "General Settings"
@@ -7098,9 +7665,8 @@ msgstr "Allmänna inställningar"
 #. Plugin Name of the plugin
 #: wpdev-booking.php core/admin/wpbc-dashboard.php:188
 #: core/lang/wpbc_all_translations.php:427 core/lib/wpdev-booking-widget.php:30
-#: core/wpbc.php:169 core/wpbc.php:197 core/wpbc.php:206 core/wpbc.php:217
-#: core/wpbc.php:227 core/wpbc.php:239 core/wpbc.php:251 core/wpbc.php:263
-#: core/wpbc.php:274
+#: core/wpbc.php:189 core/wpbc.php:217 core/wpbc.php:226 core/wpbc.php:237
+#: core/wpbc.php:247 core/wpbc.php:261 core/wpbc.php:273 core/wpbc.php:293
 msgid "Booking Calendar"
 msgstr "Booking Calendar"
 
@@ -7110,18 +7676,18 @@ msgstr "Utforska premiumfunktioner"
 
 #: core/lang/wpbc_all_translations.php:538
 #: includes/page-bookings/bookings__listing.php:120
-#: includes/page-form-simple/form_simple__timeslots.php:774
-#: includes/page-form-simple/page-form-simple.php:603
+#: includes/page-form-simple/form_simple__timeslots.php:791
+#: includes/page-form-simple/page-form-simple.php:644
 #: includes/page-resource-free/page-resource-free.php:315
 #: includes/_toolbar_ui/toolbar_ui.php:69
 msgid "Actions"
 msgstr "Åtgärder"
 
-#: core/admin/wpbc-toolbars.php:369 core/lang/wpbc_all_translations.php:467
+#: core/lang/wpbc_all_translations.php:467
 msgid "About Booking Calendar"
 msgstr "Om Bokningskalender"
 
-#: core/admin/wpbc-dashboard.php:436 core/admin/wpbc-toolbars.php:366
+#: core/admin/wpbc-dashboard.php:436 core/admin/wpbc-toolbars.php:363
 #: core/lang/wpbc_all_translations.php:433
 msgid "FAQ"
 msgstr "Vanliga frågor"
@@ -7131,26 +7697,27 @@ msgstr "Vanliga frågor"
 #: core/admin/page-email-new-visitor.php:652
 #: core/admin/page-email-trash.php:681 core/admin/page-ics-import.php:196
 #: core/admin/page-import-gcal.php:596 core/admin/wpbc-toolbars.php:359
-#: core/admin/wpbc-toolbars.php:365 core/lang/wpbc_all_translations.php:239
+#: core/lang/wpbc_all_translations.php:239
 msgid "Help"
 msgstr "Hjälp"
 
-#: core/admin/wpbc-toolbars.php:397 core/lang/wpbc_all_translations.php:468
+#: core/admin/wpbc-toolbars.php:398 core/lang/wpbc_all_translations.php:468
 #: core/timeline/v2/wpbc-class-timeline_v2.php:2952
 #: includes/page-bookings/bookings__page.php:40
 #: includes/page-bookings/bookings__page.php:41
 #: includes/page-bookings/bookings__page.php:42
+#: includes/page-setup/templates/10.get_started__tpl.php:304
 #: includes/_functions/admin_top_bar.php:81
 msgid "Booking Listing"
 msgstr "Bokningslista"
 
-#: core/admin/wpbc-toolbars.php:785 core/lang/wpbc_all_translations.php:490
+#: core/admin/wpbc-toolbars.php:786 core/lang/wpbc_all_translations.php:490
 #: js/wpbc-gutenberg.js:868
 msgid "Start Date"
 msgstr "Startdatum"
 
 #: core/admin/api-settings.php:1232 core/admin/api-settings.php:1294
-#: core/admin/wpbc-toolbars.php:766 core/lang/wpbc_all_translations.php:126
+#: core/admin/wpbc-toolbars.php:767 core/lang/wpbc_all_translations.php:126
 #: includes/_toolbar_ui/toolbar_ui.php:1497
 msgid "Custom"
 msgstr "Anpassad"
@@ -7165,7 +7732,7 @@ msgstr "Incheckning"
 msgid "Check-out"
 msgstr "Utcheckning"
 
-#: core/admin/wpbc-toolbars.php:798 core/lang/wpbc_all_translations.php:491
+#: core/admin/wpbc-toolbars.php:799 core/lang/wpbc_all_translations.php:491
 #: includes/page-availability/availability__toolbar_ui.php:215
 #: includes/_toolbar_ui/toolbar_ui.php:481
 #: includes/_toolbar_ui/toolbar_ui.php:698
@@ -7185,12 +7752,12 @@ msgstr "In-/utchecking idag"
 msgid "Prior"
 msgstr "Tidigare"
 
-#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
-#: core/lang/wpbc_all_translations.php:479 core/wpbc_functions.php:577
+#: core/admin/wpbc-toolbars.php:644 core/admin/wpbc-toolbars.php:645
+#: core/lang/wpbc_all_translations.php:479 core/wpbc_functions.php:585
 #: includes/_feedback/feedback.php:222 includes/_feedback/feedback.php:266
 #: includes/_feedback/feedback.php:287 includes/_feedback/feedback.php:324
 #: includes/_pagination/pagination.php:196
-#: includes/_toolbar_ui/toolbar_ui.php:556 includes/_tour/wpbc_tour.php:175
+#: includes/_toolbar_ui/toolbar_ui.php:556 includes/_tour/wpbc_tour.php:174
 msgid "Next"
 msgstr "Nästa"
 
@@ -7268,8 +7835,8 @@ msgstr "Beskrivning"
 
 #: core/admin/wpbc-toolbars.php:133 core/lang/wpbc_all_translations.php:458
 #: includes/page-availability/availability__page.php:110
-#: includes/page-form-simple/page-form-simple.php:234
-#: includes/page-form-simple/page-form-simple.php:235
+#: includes/page-form-simple/page-form-simple.php:232
+#: includes/page-form-simple/page-form-simple.php:233
 #: includes/page-resource-free/page-resource-free.php:237
 #: includes/_toolbar_ui/toolbar_ui.php:94 js/wpbc-gutenberg.js:672
 #: js/wpbc-gutenberg.js:764 js/wpbc-gutenberg.js:960
@@ -7297,8 +7864,8 @@ msgid "Only availability calendar"
 msgstr "Endast tillgänglighetskalender"
 
 #: core/admin/wpbc-dashboard.php:907 core/lang/wpbc_all_translations.php:457
-#: includes/_toolbar_ui/ui__settings_panel.php:1700
-#: includes/_toolbar_ui/ui__settings_panel.php:1740
+#: includes/_toolbar_ui/ui__settings_panel.php:1844
+#: includes/_toolbar_ui/ui__settings_panel.php:1884
 msgid "for"
 msgstr "för"
 
@@ -7312,7 +7879,7 @@ msgstr "Start månad:"
 msgid "Select booking resource"
 msgstr "Välj bokningsresurs"
 
-#: core/lang/wpbc_all_translations.php:730 core/wpbc.php:226
+#: core/lang/wpbc_all_translations.php:730 core/wpbc.php:246
 msgid "Booking resources"
 msgstr "Bokningsresurs"
 
@@ -7323,18 +7890,17 @@ msgstr "Bokningsresurs"
 #: includes/page-bookings/bookings__actions.php:2734
 #: includes/page-bookings/bookings__actions.php:3239
 #: includes/page-bookings/bookings__actions.php:3347
-#: includes/page-form-simple/page-form-simple.php:1130
-#: includes/page-form-simple/page-form-simple.php:1144
+#: includes/page-form-simple/page-form-simple.php:1171
+#: includes/page-form-simple/page-form-simple.php:1185
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: core/lang/wpbc_all_translations.php:769 core/wpbc_welcome.php:331
+#: core/lang/wpbc_all_translations.php:769 core/wpbc_welcome.php:267
 msgid "Check %sBooking Listing%s page for new bookings."
 msgstr "Hitta nya bokningar i %sBokningslistan%s."
 
 #: core/lang/wpbc_all_translations1.php:954
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:36
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:316
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:50
 msgid "Booking calendar"
 msgstr "Bokningskalender"
 
@@ -7342,42 +7908,41 @@ msgstr "Bokningskalender"
 msgid "Ok"
 msgstr "Ok"
 
-#: core/lang/wpbc_all_translations.php:772 core/wpbc_welcome.php:350
+#: core/lang/wpbc_all_translations.php:772 core/wpbc_welcome.php:305
 msgid "See %sFAQ%s."
 msgstr "Läs %sVanliga frågor%s."
 
-#: core/lang/wpbc_all_translations.php:733 core/wpbc.php:295 core/wpbc.php:314
+#: core/lang/wpbc_all_translations.php:733 core/wpbc.php:315 core/wpbc.php:334
 msgid "Need even more functionality? Check %s higher versions %s"
 msgstr "Behöver du ännu fler funktioner? Försök med en %s nyare version %s"
 
 #: core/lang/wpbc_all_translations1.php:953
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:35
 msgid "Insert booking calendar"
 msgstr "Lägg till bokningskalender"
 
-#: core/lang/wpbc_all_translations.php:771 core/wpbc_welcome.php:347
+#: core/lang/wpbc_all_translations.php:771 core/wpbc_welcome.php:297
 msgid "Have a questions?"
 msgstr "Har du några frågor?"
 
-#: core/lang/wpbc_all_translations.php:767 core/wpbc_welcome.php:317
+#: core/lang/wpbc_all_translations.php:767 core/wpbc_welcome.php:248
 msgid "Next Steps"
 msgstr "Nästa steg"
 
-#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/class/wpbc-class-welcome.php:860 core/class/wpbc-class-welcome.php:1346
 #: core/lang/wpbc_all_translations.php:515
 msgid "Purchase"
 msgstr "Köp"
 
-#: core/class/wpbc-class-welcome.php:897 core/class/wpbc-class-welcome.php:1383
+#: core/class/wpbc-class-welcome.php:860 core/class/wpbc-class-welcome.php:1346
 #: core/lang/wpbc_all_translations.php:516
 msgid "Upgrade Now"
 msgstr "Uppgradera nu"
 
-#: core/lang/wpbc_all_translations.php:761 core/wpbc_welcome.php:267
+#: core/lang/wpbc_all_translations.php:761 core/wpbc_welcome.php:140
 msgid "We&#8217;ve assembled some links to get you started:"
 msgstr "Vi har sammanfattat några länkar för att hjälpa dig komma igång:"
 
-#: core/lang/wpbc_all_translations.php:762 core/wpbc_welcome.php:270
+#: core/lang/wpbc_all_translations.php:762
 msgid "Get Started"
 msgstr "Komma igång"
 
@@ -7412,7 +7977,7 @@ msgstr "Denna kryssruta måste vara markerad"
 msgid "Import"
 msgstr "Importera"
 
-#: core/admin/wpbc-toolbars.php:818 core/lang/wpbc_all_translations.php:492
+#: core/admin/wpbc-toolbars.php:819 core/lang/wpbc_all_translations.php:492
 #: includes/page-bookings/bookings__actions.php:2217
 #: includes/page-bookings/bookings__actions.php:2382
 #: includes/page-bookings/bookings__actions.php:2735
@@ -7421,10 +7986,10 @@ msgstr "Importera"
 #: includes/page-bookings/bookings__actions.php:3430
 #: includes/page-bookings/bookings__actions.php:3513
 #: includes/page-bookings/bookings__actions.php:3626
-#: includes/page-form-simple/page-form-simple.php:959
+#: includes/page-form-simple/page-form-simple.php:1000
 #: includes/print/bookings_print.php:103
-#: includes/publish/wpbc-publish-shortcode.php:327
-#: includes/ui_modal__shortcodes/tiny-button-popup.php:279
+#: includes/publish/wpbc-publish-shortcode.php:336
+#: includes/ui_modal__shortcodes/tiny-button-popup.php:282
 #: includes/_toolbar_ui/toolbar_ui.php:717
 #: includes/_toolbar_ui/toolbar_ui.php:1400
 #: includes/_toolbar_ui/toolbar_ui.php:1557
@@ -7435,7 +8000,7 @@ msgstr "Stäng"
 #: core/admin/page-import-gcal.php:449 core/lang/wpbc_all_translations.php:392
 #: includes/page-bookings/bookings__actions.php:3511
 #: includes/_toolbar_ui/toolbar_ui.php:2055
-#: includes/_toolbar_ui/ui__settings_panel.php:852
+#: includes/_toolbar_ui/ui__settings_panel.php:917
 msgid "Import Google Calendar Events"
 msgstr "Importera Google Kalender händelser"
 
@@ -7459,7 +8024,7 @@ msgstr "Konfigurera"
 msgid "Please configure settings for import Google Calendar events"
 msgstr "Var god och konfigurera inställningar för import av Google Kalender händelser"
 
-#: core/admin/page-ics-export.php:140 core/class/wpbc-class-notices.php:25
+#: core/admin/page-ics-export.php:140 core/class/wpbc-class-notices.php:40
 #: core/lang/wpbc_all_translations.php:273
 #: includes/page-bookings/bookings__actions.php:3470
 msgid "Warning!"
@@ -7496,6 +8061,10 @@ msgstr "Markera denna ruta för att %saktivera%s automatisk import av händelser
 #: core/admin/page-import-gcal.php:87 core/admin/page-import-gcal.php:89
 #: core/lang/wpbc_all_translations.php:344
 #: includes/page-form-simple/form_simple__timeslots.php:202
+#: includes/page-setup/templates/05.form_structure__tpl.php:279
+#: includes/page-setup/templates/05.form_structure__tpl.php:280
+#: includes/page-setup/templates/06.cal_availability__tpl.php:654
+#: includes/page-setup/templates/06.cal_availability__tpl.php:656
 msgid "hour"
 msgstr "timme"
 
@@ -7571,6 +8140,18 @@ msgstr "Du kan ange ytterligare en förskjutning från din valda startpunkt. Den
 msgid "You can specify an additional offset from you chosen end point. The offset can be negative."
 msgstr "Du kan ange ytterligare en förskjutning från din valda sluttid. Denna förskjutning kan vara negativ."
 
+#: core/admin/page-import-gcal.php:92 core/admin/page-import-gcal.php:236
+#: core/admin/page-import-gcal.php:318 core/lang/wpbc_all_translations.php:345
+#: core/sync/wpbc-gcal.php:128 core/sync/wpbc-gcal.php:192
+#: includes/page-form-simple/form_simple__timeslots.php:201
+#: includes/page-setup/templates/05.form_structure__tpl.php:278
+#: includes/page-setup/templates/06.cal_availability__tpl.php:528
+#: includes/page-setup/templates/06.cal_availability__tpl.php:660
+#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:265
+#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:415
+msgid "hours"
+msgstr "timmar"
+
 #: core/admin/page-import-gcal.php:85 core/admin/page-import-gcal.php:89
 #: core/admin/page-import-gcal.php:235 core/admin/page-import-gcal.php:317
 #: core/lang/wpbc_all_translations.php:343 core/sync/wpbc-gcal.php:127
@@ -7578,24 +8159,24 @@ msgstr "Du kan ange ytterligare en förskjutning från din valda sluttid. Denna 
 #: includes/page-form-simple/form_simple__timeslots.php:203
 #: includes/page-form-simple/form_simple__timeslots.php:204
 #: includes/page-form-simple/form_simple__timeslots.php:205
+#: includes/page-form-simple/form_simple__timeslots.php:206
+#: includes/page-setup/templates/05.form_structure__tpl.php:241
+#: includes/page-setup/templates/05.form_structure__tpl.php:243
+#: includes/page-setup/templates/05.form_structure__tpl.php:281
+#: includes/page-setup/templates/05.form_structure__tpl.php:282
+#: includes/page-setup/templates/06.cal_availability__tpl.php:528
+#: includes/page-setup/templates/06.cal_availability__tpl.php:652
+#: includes/page-setup/templates/06.cal_availability__tpl.php:656
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:266
 msgid "minutes"
 msgstr "minuter"
 
-#: core/admin/page-import-gcal.php:92 core/admin/page-import-gcal.php:236
-#: core/admin/page-import-gcal.php:318 core/lang/wpbc_all_translations.php:345
-#: core/sync/wpbc-gcal.php:128 core/sync/wpbc-gcal.php:192
-#: includes/page-form-simple/form_simple__timeslots.php:201
-#: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:265
-#: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:415
-msgid "hours"
-msgstr "timmar"
-
 #: core/admin/page-import-gcal.php:237 core/admin/page-import-gcal.php:319
-#: core/admin/wpbc-toolbars.php:640 core/admin/wpbc-toolbars.php:641
-#: core/admin/wpbc-toolbars.php:643 core/admin/wpbc-toolbars.php:644
+#: core/admin/wpbc-toolbars.php:641 core/admin/wpbc-toolbars.php:642
+#: core/admin/wpbc-toolbars.php:644 core/admin/wpbc-toolbars.php:645
 #: core/lang/wpbc_all_translations.php:370 core/sync/wpbc-gcal.php:129
 #: core/sync/wpbc-gcal.php:193
+#: includes/page-setup/templates/05.form_structure__tpl.php:255
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:998
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:1390
 #: includes/ui_modal__shortcodes/sh_tpl_booking_import.php:264
@@ -7726,6 +8307,9 @@ msgid "Open the settings for the calendar."
 msgstr "Öppna inställningarna för kalendern."
 
 #: core/admin/page-ics-general.php:67 core/lang/wpbc_all_translations.php:283
+#: includes/page-setup/setup_ajax.php:470
+#: includes/page-setup/setup_ajax.php:507
+#: includes/page-setup/templates/06.cal_availability__tpl.php:505
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:573
 #: includes/ui_modal__shortcodes/sh_tpl_booking_select.php:248
 msgid "None"
@@ -7809,7 +8393,7 @@ msgstr "Google Kalender-ID"
 msgid "In the sidebar click on \"APIs & auth\"."
 msgstr "Klicka på ”API:er och auth” i sidopanelen."
 
-#: core/lang/wpbc_all_translations.php:755 core/wpbc_functions.php:901
+#: core/lang/wpbc_all_translations.php:755 core/wpbc_functions.php:909
 #: includes/page-form-simple/form_simple__preview.php:209
 msgid "Click to toggle"
 msgstr "Klicka för att växla"
@@ -7837,6 +8421,19 @@ msgstr "Synka"
 #: core/sync/wpbc-gcal-class.php:735 core/sync/wpbc-gcal-class.php:770
 #: core/timeline/v2/wpbc-class-timeline_v2.php:73
 #: core/wpbc_functions_dates.php:235 core/wpbc_functions_dates.php:277
+#: includes/page-form-simple/form_templates.php:194
+#: includes/page-form-simple/form_templates.php:230
+#: includes/page-form-simple/form_templates.php:249
+#: includes/page-form-simple/form_templates.php:281
+#: includes/page-form-simple/form_templates.php:339
+#: includes/page-form-simple/form_templates.php:392
+#: includes/page-form-simple/form_templates.php:635
+#: includes/page-form-simple/form_templates.php:666
+#: includes/page-form-simple/form_templates.php:716
+#: includes/page-form-simple/form_templates.php:744
+#: includes/page-form-simple/form_templates.php:778
+#: includes/page-form-simple/form_templates.php:859
+#: includes/page-form-simple/form_templates.php:898
 #: includes/_toolbar_ui/toolbar_ui.php:292
 #: includes/_toolbar_ui/toolbar_ui.php:293
 #: includes/_toolbar_ui/toolbar_ui.php:415
@@ -7857,9 +8454,9 @@ msgstr "Val"
 msgid "Location:"
 msgstr "Plats:"
 
-#: core/admin/api-settings.php:1722 core/class/wpbc-class-notices.php:107
+#: core/admin/api-settings.php:1711 core/class/wpbc-class-notices.php:111
 #: core/lang/wpbc_all_translations.php:181 core/sync/wpbc-gcal-class.php:796
-#: core/wpbc_functions.php:808
+#: core/wpbc_functions.php:816
 msgid "Hide"
 msgstr "Dölj"
 
@@ -7867,7 +8464,7 @@ msgstr "Dölj"
 msgid "Reload page"
 msgstr "Ladda om sidan"
 
-#: core/admin/api-settings.php:1769 core/lang/wpbc_all_translations.php:184
+#: core/admin/api-settings.php:1758 core/lang/wpbc_all_translations.php:184
 #: core/sync/wpbc-gcal-class.php:492 core/sync/wpbc-gcal-class.php:734
 #: core/sync/wpbc-gcal-class.php:760
 msgid "Info"
@@ -7883,7 +8480,7 @@ msgstr "Info"
 #: core/lang/wpbc_all_translations.php:200
 #: core/lib/wpdev-booking-widget.php:128 core/sync/wpbc-gcal-class.php:733
 #: core/sync/wpbc-gcal-class.php:756
-#: includes/page-form-simple/form_simple__timeslots.php:773
+#: includes/page-form-simple/form_simple__timeslots.php:790
 #: includes/ui_modal__shortcodes/sh_tpl_booking_other.php:80
 #: includes/ui_modal__shortcodes/sh_tpl_booking_timeline.php:191
 #: js/wpbc-gutenberg.js:859
@@ -7897,7 +8494,7 @@ msgid "ID"
 msgstr "ID"
 
 #: core/admin/page-ics-import.php:713 core/lang/wpbc_all_translations.php:340
-#: core/sync/wpbc-gcal-class.php:512 includes/page-setup/setup_support.php:78
+#: core/sync/wpbc-gcal-class.php:512 includes/page-setup/setup_support.php:201
 #: includes/_feedback/feedback.php:305 includes/_feedback/feedback.php:339
 #: includes/_feedback/feedback.php:398 includes/_feedback/feedback.php:424
 msgid "Done"
@@ -7933,14 +8530,14 @@ msgstr "Detta flöde kunde inte hämtas. Felkod: %s.  Var god och säkerställ a
 #: core/admin/page-email-trash.php:705 core/admin/page-ics-export.php:239
 #: core/admin/page-ics-general.php:478 core/admin/page-ics-import.php:205
 #: core/admin/page-import-gcal.php:614 core/admin/page-settings.php:160
-#: core/admin/page-settings.php:649 core/lang/wpbc_all_translations.php:243
+#: core/admin/page-settings.php:651 core/lang/wpbc_all_translations.php:243
 #: includes/page-bookings/bookings__actions.php:2204
 #: includes/page-bookings/bookings__actions.php:2369
 #: includes/page-bookings/bookings__actions.php:2716
 #: includes/page-bookings/bookings__actions.php:3227
 #: includes/page-bookings/bookings__actions.php:3335
-#: includes/page-form-simple/page-form-simple.php:187
-#: includes/page-form-simple/page-form-simple.php:1139
+#: includes/page-form-simple/page-form-simple.php:185
+#: includes/page-form-simple/page-form-simple.php:1180
 msgid "Save Changes"
 msgstr "Spara ändringar"
 
@@ -7948,8 +8545,8 @@ msgstr "Spara ändringar"
 msgid "Error!"
 msgstr "Fel!"
 
-#: core/admin/page-settings.php:560 core/lang/wpbc_all_translations.php:416
-#: core/wpbc_welcome.php:246
+#: core/admin/page-settings.php:562 core/lang/wpbc_all_translations.php:416
+#: core/wpbc_welcome.php:39
 #: includes/page-form-simple/form_simple__preview.php:239
 #: includes/page-resource-free/page-resource-free.php:216
 #: includes/_functions/is_dismissed.php:59
