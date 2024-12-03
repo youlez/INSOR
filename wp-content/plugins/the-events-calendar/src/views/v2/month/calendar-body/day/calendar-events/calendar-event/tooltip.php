@@ -1,5 +1,4 @@
 <?php
-
 /**
  * View: Month View - Calendar Event Tooltip
  *
@@ -21,12 +20,13 @@
 <div class="tribe-events-calendar-month__calendar-event-tooltip-template tribe-common-a11y-hidden">
 	<div
 		class="tribe-events-calendar-month__calendar-event-tooltip"
-		id="tribe-events-tooltip-content-<?php echo esc_attr($event->ID); ?>"
-		role="tooltip">
-		<?php $this->template('month/calendar-body/day/calendar-events/calendar-event/tooltip/featured-image', ['event' => $event]); ?>
-		<?php $this->template('month/calendar-body/day/calendar-events/calendar-event/tooltip/date', ['event' => $event]); ?>
-		<?php $this->template('month/calendar-body/day/calendar-events/calendar-event/tooltip/title', ['event' => $event]); ?>
-		<?php $this->template('month/calendar-body/day/calendar-events/calendar-event/tooltip/description', ['event' => $event]); ?>
-		<?php $this->template('month/calendar-body/day/calendar-events/calendar-event/tooltip/cost', ['event' => $event]); ?>
+		id="tribe-events-tooltip-content-<?php echo esc_attr( $event->ID ); ?>"
+		role="tooltip"
+	>
+		<?php $this->template( 'month/calendar-body/day/calendar-events/calendar-event/tooltip/featured-image', [ 'event' => $event ] ); ?>
+		<?php $this->template( 'month/calendar-body/day/calendar-events/calendar-event/tooltip/date', [ 'event' => $event ] ); ?>
+		<?php $this->template( 'month/calendar-body/day/calendar-events/calendar-event/tooltip/title', [ 'event' => $event ] ); ?>
+		<?php $this->template( 'month/calendar-body/day/calendar-events/calendar-event/tooltip/description', [ 'event' => $event ] ); ?>
+		<?php $this->template( 'month/calendar-body/day/calendar-events/calendar-event/tooltip/cost', [ 'event' => $event ] ); ?>
 	</div>
 </div>

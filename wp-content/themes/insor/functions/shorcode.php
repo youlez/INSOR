@@ -137,20 +137,22 @@ function contenido_interactivo_shortcode($atts)
 
     //incluir el filtro para glosario
     add_filter('posts_where', 'filter_where_title_starts_with', 10, 2);
-    function filter_where_title_starts_with($where, $query)
-    {
-      global $wpdb;
+    if (! function_exists('filter_where_title_starts_with')) {
+      function filter_where_title_starts_with($where, $query)
+      {
+        global $wpdb;
 
-      if ($query->get('title_starts_with')) {
-        $first_letter = $query->get('title_starts_with');
-        // Escapar y asegurar que la letra esté formateada correctamente
-        $first_letter = esc_sql($first_letter);
+        if ($query->get('title_starts_with')) {
+          $first_letter = $query->get('title_starts_with');
+          // Escapar y asegurar que la letra esté formateada correctamente
+          $first_letter = esc_sql($first_letter);
 
-        // Añadir condición para que el título comience con la letra específica
-        $where .= " AND {$wpdb->posts}.post_title LIKE '{$first_letter}%'";
+          // Añadir condición para que el título comience con la letra específica
+          $where .= " AND {$wpdb->posts}.post_title LIKE '{$first_letter}%'";
+        }
+
+        return $where;
       }
-
-      return $where;
     }
 
     $args = array(
