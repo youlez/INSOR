@@ -8,6 +8,7 @@ include('functions/elementos.php');
 include('functions/tipos-lista.php');
 include('functions/shorcode.php');
 include('functions/columna-taxonomia.php');
+include('functions/orden.php');
 
 add_theme_support('post-thumbnails');
 

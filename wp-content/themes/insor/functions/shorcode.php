@@ -31,9 +31,9 @@ function contenido_interactivo_shortcode($atts)
     $hijos = get_terms(array(
       'taxonomy' => $taxonomia,
       'parent' => $id_term,
-      'hide_empty' => false, // Si quieres incluir categorías vacías
-      'orderby' => 'name',
-      'order' => 'DESC',
+      'hide_empty' => false,
+      'orderby' => 'orden_lista', // Ordenar por campo meta
+      'order' => 'ASC', // Orden ascendente o descendente
     ));
 
     // Mostrar los hijos (subcategorías)
