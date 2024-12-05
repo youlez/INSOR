@@ -33,7 +33,7 @@ function contenido_interactivo_shortcode($atts)
       'parent' => $id_term,
       'hide_empty' => false,
       'orderby' => 'orden_lista', // Ordenar por campo meta
-      'order' => 'ASC', // Orden ascendente o descendente
+      'order' => 'DESC', // Orden ascendente o descendente
     ));
 
     // Mostrar los hijos (subcategorías)
