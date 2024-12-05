@@ -430,6 +430,6 @@ hr {
 }
 
 .wpbc_r_autorizacion label {
-  line-height: 1.5rem;
+  line-height: 1.5rem !important;
   font-weight: normal !important;
 }
