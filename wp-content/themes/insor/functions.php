@@ -143,5 +143,8 @@ add_action('save_post', 'guardar_archivo_medios');*/
 
 include('ajax/lista-archivos.php');
 include('ajax/glosario.php');
+include('ajax/noticias.php');
+include('ajax/paginacion.php');
 
 include('html/miga_pan.php');
+include('html/paginacion.php');

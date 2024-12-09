@@ -67,11 +67,12 @@
             $query->the_post();
             $post_thumbnail_id = get_post_thumbnail_id();
             $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
+            $alt_text = get_post_meta($post_thumbnail_id, '_wp_attachment_image_alt', true);
         ?>
             <div class="col-lg-6 py-2">
-              <a class="link-noticias row m-0" href="<?php bloginfo('url'); ?>/<?php echo get_post_field('post_name', get_post()); ?>">
+              <a class="link-noticias row m-0" href="<?php bloginfo('url'); ?>/<?php echo get_post_field('post_name', get_post()); ?>" aria-label="<?php echo get_the_title(); ?>">
                 <div class="imagen p-0">
-                  <img src="<?php echo $post_thumbnail_url; ?>">
+                  <img src="<?php echo $post_thumbnail_url; ?>" alt="<?php echo $alt_text; ?>">
                 </div>
                 <div class="texto p-3">
                   <span><?php echo get_the_date(); ?></span>
@@ -94,7 +95,7 @@
 
     </div>
     <div class="d-flex justify-content-center mt-2">
-      <a href="https://insor.consultorestic.com.co/noticias/" target="_blank">
+      <a href="/noticias" target="_blank">
         <button type="button" class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
       </a>
     </div>
@@ -147,7 +148,7 @@
       </div>
     </div>
     <div class="d-flex justify-content-center">
-      <a href="https://insor.consultorestic.com.co/temas-de-interes/" target="_blank">
+      <a href="/temas-de-interes" target="_blank">
         <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button>
     </div>
     </a>
@@ -165,7 +166,7 @@
     </div>
     <div class="row m-0 justify-content-center">
       <div class="btn-icono m-2">
-        <a href="https://insor.consultorestic.com.co/transparencia-y-acceso-a-la-informacion-publica/" target="_blank">
+        <a href="/transparencia-y-acceso-a-la-informacion-publica/" target="_blank">
           <span class="icon-programa icon"></span>
           Programa de transparencia y ética pública
         </a>
@@ -177,25 +178,25 @@
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="https://insor.consultorestic.com.co/notificaciones-judiciales/" target="_blank">
+        <a href="/notificaciones-judiciales/" target="_blank">
           <span class="icon-notificaciones icon"></span>
           Notificaciones judiciales
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="https://insor.consultorestic.com.co/peticiones-quejas-reclamos-sugerencias-y-denuncias-insor/" target="_blank">
+        <a href="/peticiones-quejas-reclamos-sugerencias-y-denuncias-insor/" target="_blank">
           <span class="icon-peticiones icon"></span>
           Peticiones, quejas, reclamos y denuncias
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="https://insor.consultorestic.com.co/contacto/" target="_blank">
+        <a href="/contacto/" target="_blank">
           <span class="icon-contacto icon"></span>
           Contacto
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="https://insor.consultorestic.com.co/agendamiento-de-citas/" target="_blank">
+        <a href="/agendamiento-de-citas/" target="_blank">
           <span class="icon-agenda icon"></span>
           Agenda INSOR
         </a>

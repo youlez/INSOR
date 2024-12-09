@@ -14,6 +14,26 @@ while (have_posts()) : the_post();
     </div>
     <div><?php the_content(); ?></div>
     <?php
+    if ($post_name == "noticias") {
+    ?>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="cargando" class=" row m-0 justify-content-center p-4" style="display: none;">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Cargando ...</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="noticias">
+            <div class="row mt-2 contenedor_noticias">
+            </div>
+          </div>
+        </div>
+      </div>
+      <?php
+    }
 
     // Obtiene el ID de la página actual o especifica el ID de la página deseada
     $page_id = get_the_ID(); // o coloca el ID de la página específica aquí
@@ -74,7 +94,7 @@ while (have_posts()) : the_post();
 
           // Mostrar los hijos (subcategorías)
           if ($hijos && !is_wp_error($hijos)) {
-    ?>
+      ?>
 
             <h2><?php echo $dato->name ?></h2>
             <div class="row mb-4">

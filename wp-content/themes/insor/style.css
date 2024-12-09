@@ -433,3 +433,9 @@ hr {
   line-height: 1.5rem !important;
   font-weight: normal !important;
 }
+
+.fecha_noticia {
+  font-size: 1.2rem;
+  color: var(--azul);
+  font-weight: bold;
+}

@@ -12,7 +12,7 @@
 <body>
   <header>
     <div class="container">
-      <a class='skip-link btn btn-amarillo' href='#content'>Saltar al contenido principal</a>
+      <a class='skip-link btn btn-amarillo' aria-label="Saltar a contenido" href='#content'>Saltar al contenido principal</a>
     </div>
     <div class="barra-superior-govco topbar" aria-label="Barra superior">
       <div class="container">
@@ -102,4 +102,9 @@
         </a>
       </div>
     </div>
+    <?php
+    if (!is_home()) {
+      echo '<input id="pagina" value="' . get_post_field('post_name', get_post()) . '" hidden>';
+    }
+    ?>
   </header>
