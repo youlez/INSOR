@@ -95,7 +95,7 @@
 
     </div>
     <div class="d-flex justify-content-center mt-2">
-      <a href="/noticias" target="_blank">
+      <a href="<?php bloginfo('url'); ?>/noticias">
         <button type="button" class="btn btn-azul justify-self-center">VER MÁS NOTICIAS</button>
       </a>
     </div>
@@ -148,7 +148,7 @@
       </div>
     </div>
     <div class="d-flex justify-content-center">
-      <a href="/temas-de-interes" target="_blank">
+      <a href="<?php bloginfo('url'); ?>/temas-de-interes">
         <button type="button" class="btn btn-azul justify-self-center">VER MÁS TEMAS</button>
     </div>
     </a>
@@ -166,7 +166,7 @@
     </div>
     <div class="row m-0 justify-content-center">
       <div class="btn-icono m-2">
-        <a href="/transparencia-y-acceso-a-la-informacion-publica/" target="_blank">
+        <a href="<?php bloginfo('url'); ?>/transparencia-y-acceso-a-la-informacion-publica/">
           <span class="icon-programa icon"></span>
           Programa de transparencia y ética pública
         </a>
@@ -178,25 +178,25 @@
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="/notificaciones-judiciales/" target="_blank">
+        <a href="<?php bloginfo('url'); ?>/notificaciones-judiciales/">
           <span class="icon-notificaciones icon"></span>
           Notificaciones judiciales
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="/peticiones-quejas-reclamos-sugerencias-y-denuncias-insor/" target="_blank">
+        <a href="<?php bloginfo('url'); ?>/peticiones-quejas-reclamos-sugerencias-y-denuncias-insor/">
           <span class="icon-peticiones icon"></span>
           Peticiones, quejas, reclamos y denuncias
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="/contacto/" target="_blank">
+        <a href="<?php bloginfo('url'); ?>/contacto/">
           <span class="icon-contacto icon"></span>
           Contacto
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="/agendamiento-de-citas/" target="_blank">
+        <a href="<?php bloginfo('url'); ?>/agendamiento-de-citas/">
           <span class="icon-agenda icon"></span>
           Agenda INSOR
         </a>

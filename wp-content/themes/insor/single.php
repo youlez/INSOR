@@ -14,10 +14,10 @@ while (have_posts()) : the_post();
           <a class="link" href="/">Inicio</a>
         </div>
         <div class="miga">
-          <a class="link" href="/sala-de-prensa">Sala de Prensa</a>
+          <a class="link" href="<?php bloginfo('url'); ?>/sala-de-prensa">Sala de Prensa</a>
         </div>
         <div class="miga">
-          <a class="link" href="/noticias">Noticias</a>
+          <a class="link" href="<?php bloginfo('url'); ?>/noticias">Noticias</a>
         </div><span><?php the_title(); ?></span>
       </div>
 

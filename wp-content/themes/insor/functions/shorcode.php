@@ -14,6 +14,7 @@ function contenido_interactivo_shortcode($atts)
       'post_status' => 'publish',
       'orderby'  => 'menu_order',
       'order' => 'ASC',
+      'posts_per_page' => -1,
       'tax_query' => array(
         array(
           'taxonomy' => $taxonomia,

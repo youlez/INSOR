@@ -4,7 +4,7 @@ function miga_pan()
 ?>
   <div style="display: ruby;">
     <div class="miga">
-      <a class="link" href="/">Inicio</a>
+      <a class="link" href="<?php bloginfo('url'); ?>/">Inicio</a>
     </div>
     <?php
     // Obtener el menú asignado en WordPress

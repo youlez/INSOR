@@ -77,13 +77,13 @@ $cost  = tribe_get_formatted_cost($event_id);
 
   <div style="display: ruby;">
     <div class="miga">
-      <a class="link" href="/">Inicio</a>
+      <a class="link" href="<?php bloginfo('url'); ?>/">Inicio</a>
     </div>
     <div class="miga">
       <a class="link" href="#">Atención y Servicios a la ciudadanía</a>
     </div>
     <div class="miga">
-      <a class="link" href="/calendario-de-actividades">Calendario de actividades</a>
+      <a class="link" href="<?php bloginfo('url'); ?>/calendario-de-actividades">Calendario de actividades</a>
     </div><span><?php the_title() ?></span>
   </div>
 

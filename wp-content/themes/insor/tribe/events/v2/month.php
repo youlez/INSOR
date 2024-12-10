@@ -32,7 +32,7 @@ if (empty($disable_event_search)) {
 <section class="container my-4 page-interna">
 	<div style="display: ruby;">
 		<div class="miga">
-			<a class="link" href="/">Inicio</a>
+			<a class="link" href="<?php bloginfo('url'); ?>/">Inicio</a>
 		</div>
 		<div class="miga">
 			<a class="link" href="#">Atención y Servicios a la ciudadanía</a>
