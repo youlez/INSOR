@@ -52,7 +52,7 @@ function paginacion($count, $actual, $ancho)
         ) {
             $html .= '
                 <a href="' . $i . '" class="pag ';
-            $html .= ($i == $actual) ? "activo" : "";
+            $html .= ($i == $actual) ? "active" : "";
             $html .= ' py-1 px-0 text-center text-white text-decoration-none boton boton_claro">
                     ' . $i . '
                 </a>';

@@ -439,3 +439,7 @@ hr {
   color: var(--azul);
   font-weight: bold;
 }
+
+.leaflet-pane.leaflet-tooltip-pane {
+  display: none;
+}

@@ -1,0 +1,891 @@
+# Translation of Plugins - Interactive Image Map Plugin &#8211; Draw Attention - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Interactive Image Map Plugin &#8211; Draw Attention - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-11-17 16:42:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Interactive Image Map Plugin &#8211; Draw Attention - Stable (latest release)\n"
+
+#: public/class-drawattention.php:333
+msgid "Close"
+msgstr "Cerrar"
+
+#: public/includes/lib/CMB2/example-functions.php:858
+msgid "%s &mdash; Updated!"
+msgstr "%s &mdash; ¡Actualizado!"
+
+#: public/includes/lib/CMB2/includes/CMB2_Hookup_Base.php:44
+msgid "%1$s should be implemented by the extended class."
+msgstr "%1$s tiene que ser implementado por la clase extendida."
+
+#: public/includes/lib/CMB2/includes/CMB2_Base.php:458
+msgid "%1$s was called with a parameter that is <strong>deprecated</strong> since version %2$s with no alternative available."
+msgstr "Se ha llamado a %1$s con un parámetro que está <strong>obsoleto</strong> desde la versión %2$s sin ninguna alternativa disponible."
+
+#: public/includes/lib/CMB2/includes/CMB2_Base.php:456
+msgid "%1$s was called with a parameter that is <strong>deprecated</strong> since version %2$s! %3$s"
+msgstr "Se ha llamado a %1$s con un parámetro que está <strong>obsoleto</strong> ¡desde la versión %2$s! %3$s"
+
+#: public/includes/lib/CMB2/includes/rest-api/CMB2_REST_Controller.php:390
+msgid "A human-readable description of the object."
+msgstr "Una descripción legible del objeto."
+
+#: public/includes/lib/CMB2/example-functions.php:769
+msgid "Arbitrary Term Field"
+msgstr "Campo de término arbitrario"
+
+#: public/includes/lib/CMB2/example-functions.php:741
+msgid "Category Metabox"
+msgstr "Caja meta de categoría"
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_Counter_Base.php:57
+msgid "Characters"
+msgstr "Caracteres"
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_Counter_Base.php:56
+msgid "Characters left"
+msgstr "Caracteres restantes"
+
+#: public/includes/lib/CMB2/example-functions.php:760
+msgid "Term Image"
+msgstr "Imagen del término"
+
+#: public/includes/lib/CMB2/example-functions.php:789
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: public/includes/lib/CMB2/includes/rest-api/CMB2_REST_Controller.php:259
+msgid "This box does not have read permissions."
+msgstr "Esta caja no tiene permisos de lectura."
+
+#: public/includes/lib/CMB2/includes/rest-api/CMB2_REST_Controller.php:283
+msgid "This box does not have write permissions."
+msgstr "Esta caja no tiene permisos de escritura."
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_Counter_Base.php:51
+msgid "Words"
+msgstr "Palabras"
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_Counter_Base.php:50
+msgid "Words left"
+msgstr "Palabras restantes"
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_Counter_Base.php:62
+msgid "Your text may be truncated."
+msgstr "Tu texto puede ser acortado."
+
+#: public/includes/lib/CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php:439
+msgid "Value Error for %s"
+msgstr "Error de valor para %s"
+
+#: public/includes/actions/action-bigcommerce.php:43
+msgid "Big Commerce Product"
+msgstr "Producto de Big Commerce"
+
+#: public/includes/actions/action-bigcommerce.php:24
+msgid "Display BigCommerce Product"
+msgstr "Mostrar producto de BigCommerce"
+
+#: public/includes/import-export.php:106
+msgid "Import / Export"
+msgstr "Importar / Exportar"
+
+#: public/includes/lib/CMB2/example-functions.php:629
+msgid "Entry Image"
+msgstr "Imagen de la entrada"
+
+#: public/includes/lib/CMB2/example-functions.php:638
+msgid "Image Caption"
+msgstr "Leyenda de la imagen"
+
+#: public/includes/lib/CMB2/example-functions.php:657
+msgid "User Profile Metabox"
+msgstr "Caja meta del perfil de usuario"
+
+#: public/includes/lib/CMB2/example-functions.php:666
+#: public/includes/lib/CMB2/example-functions.php:750
+msgid "Extra Info"
+msgstr "Información adicional"
+
+#: public/includes/lib/CMB2/example-functions.php:676
+msgid "Avatar"
+msgstr "Avatar"
+
+#: public/includes/lib/CMB2/example-functions.php:685
+msgid "Facebook URL"
+msgstr "URL de Facebook"
+
+#: public/includes/lib/CMB2/example-functions.php:694
+msgid "Twitter URL"
+msgstr "URL de Twitter"
+
+#: public/includes/lib/CMB2/example-functions.php:703
+msgid "Google+ URL"
+msgstr "URL de Google+"
+
+#: public/includes/lib/CMB2/example-functions.php:712
+msgid "Linkedin URL"
+msgstr "URL de LinkedIn"
+
+#: public/includes/lib/CMB2/example-functions.php:721
+msgid "User Field"
+msgstr "Campo de usuario"
+
+#: public/includes/lib/CMB2/example-functions.php:821
+msgid "Site Background Color"
+msgstr "Color de fondo del sitio"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:36
+msgid "Success:"
+msgstr "Lo lograste:"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:36
+msgid "The plugin options have been successfully updated!"
+msgstr "¡Las opciones del plugin se han actualizado con éxito!"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:41
+msgid "Please make sure you filled in all the required fields before submitting. At least <em><strong>one post type</strong></em> and <em><strong>one extension</strong></em> must be selected!"
+msgstr "Por favor, asegúrate de rellenar todos los campos obligatorios antes de enviarlo. ¡Se debe seleccionar al menos <em><strong>un tipo de entrada</strong></em> y <em><strong>una extensión</strong></em>!"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:54
+msgid "Contact me"
+msgstr "Contáctame"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:56
+msgid "If you have any questions regarding this plugin or have ideas on how to improve it then please dont hesitate to"
+msgstr "Si tienes alguna pregunta acerca de este plugin o tienes ideas sobre cómo mejorarlo, por favor no dudes en"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:56
+msgid "contact me"
+msgstr "contáctame"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:58
+msgid "Send me an email"
+msgstr "Envíame un correo electrónico"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:59
+msgid "Find me on Facebook"
+msgstr "Encuéntrame en Facebook"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:60
+msgid "Find me on Twitter"
+msgstr "Encuéntrame en Twitter"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:61
+msgid "Find me on Google+"
+msgstr "Encuéntrame en Google+"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:73
+msgid "Available options:"
+msgstr "Opciones disponibles:"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:97
+msgid "Which of the following file types should be supported?"
+msgstr "¿Cuál de los siguientes tipos de archivo debe ser compatible?"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:115
+msgid "Change the capability required to customize the plugin settings"
+msgstr "Cambia la capacidad necesaria para personalizar los ajustes del plugin"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:116
+msgid "The default capability is <code>manage_options</code> and applies to administrators."
+msgstr "La capacidad predeterminada es <code>manage_options</code> y se aplica a los administradores."
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:123
+msgid "Publish / update post after successful image upload?"
+msgstr "¿Publicar/actualizar entrada después de la subida exitosa de la imagen?"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:124
+msgid "If you like some users upload the featured image as the last step when publishing a post, this option is for you."
+msgstr "Si quieres que algunos usuarios suban la imagen destacada como último paso al publicar una entrada, esta opción es para ti."
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:136
+msgid "Update settings"
+msgstr "Actualizar ajustes"
+
+#: public/includes/cpt.php:38 public/includes/cpt.php:136
+#: public/includes/lib/drag-drop-featured-image/index.php:154
+msgid "Image"
+msgstr "Imagen"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:192
+#: public/includes/lib/drag-drop-featured-image/index.php:193
+msgid "Set featured image"
+msgstr "Establecer imagen destacada"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:264
+msgid "Remove image"
+msgstr "Quitar imagen"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:276
+msgid "Drop image here"
+msgstr "Suelta la imagen aquí"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:277
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "o"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:278
+msgid "Upload Image"
+msgstr "Subir imagen"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:284
+#: public/includes/lib/drag-drop-featured-image/index.php:288
+msgid "Media Library"
+msgstr "Biblioteca multimedia"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:315
+msgid "Allowed Files"
+msgstr "Archivos permitidos"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:366
+msgid "You may only upload one image at a time!"
+msgstr "¡Solo se puede subir una imagen a la vez!"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:381
+msgid "The file you selected exceeds the maximum filesize limit."
+msgstr "El archivo que has seleccionado supera el tamaño máximo de archivo."
+
+#: public/includes/lib/drag-drop-featured-image/index.php:554
+msgid "Drag & Drop Feaured image: Unknown post och attachment ID, please try again!"
+msgstr "Arrastrar y soltar imagen destacada: ID de entrada o adjunto desconocido, ¡inténtalo de nuevo, por favor!"
+
+#: public/includes/lib/drag-drop-featured-image/index.php:578
+msgid "Drag & Drop Feaured image: An error occured, please reload page!"
+msgstr "Arrastrar y soltar imagen destacada: Se ha producido un error, ¡vuelve a cargar la página, por favor!"
+
+#: public/includes/actions/action-url.php:8
+msgid "Go to URL"
+msgstr "Ir a la URL"
+
+#: public/includes/actions/action-url.php:11
+msgid "URL"
+msgstr "URL"
+
+#: public/includes/actions/action-url.php:21
+msgid "Open in New Window"
+msgstr "Abrir en nueva ventana"
+
+#: public/includes/custom_fields.php:81 public/includes/custom_fields.php:222
+msgid "Hotspot Areas"
+msgstr "Áreas activas"
+
+#: public/includes/custom_fields.php:96
+msgid "Highlight Styling"
+msgstr "Estilo de resaltado"
+
+#: public/includes/custom_fields.php:103
+msgid "Highlight Color"
+msgstr "Color de resaltado"
+
+#: public/includes/custom_fields.php:110
+msgid "Highlight Opacity"
+msgstr "Opacidad de resaltado"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:78
+msgid "Which post types do you want the meta box to display at?"
+msgstr "¿En qué tipos de contenido quieres que se muestre la caja meta?"
+
+#: public/includes/lib/drag-drop-featured-image/assets/views/options.php:118
+msgid "User roles &amp; capabilities"
+msgstr "Perfiles y capacidades de usuario"
+
+#: public/includes/custom_fields.php:118
+msgid "Border Color"
+msgstr "Color del borde"
+
+#: public/includes/custom_fields.php:125
+msgid "Border Opacity"
+msgstr "Opacidad del borde"
+
+#: public/includes/custom_fields.php:132
+msgid "Border Width"
+msgstr "Ancho del borde"
+
+#: public/includes/custom_fields.php:162
+msgid "Image Background Color"
+msgstr "Color de fondo de la imagen"
+
+#: public/includes/custom_fields.php:163
+msgid "Set the background color of behind the image"
+msgstr "Establece el color de fondo de detrás de la imagen"
+
+#: public/includes/custom_fields.php:170
+msgid "Title Color"
+msgstr "Color del título"
+
+#: public/includes/custom_fields.php:178
+msgid "Text Color"
+msgstr "Color de texto"
+
+#: public/includes/custom_fields.php:228
+msgid "Draw the clickable areas of your image"
+msgstr "Dibuja las áreas clicables de tu imagen"
+
+#: public/includes/custom_fields.php:231
+msgid "Add Another Area"
+msgstr "Añadir otra área"
+
+#: public/includes/custom_fields.php:232
+msgid "Remove Area"
+msgstr "Eliminar área"
+
+#: public/includes/custom_fields.php:239
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+#: public/includes/custom_fields.php:253
+msgid "Title"
+msgstr "Título"
+
+#: public/includes/custom_fields.php:258
+msgid "Action"
+msgstr "Acción"
+
+#: public/includes/custom_fields.php:294
+msgid "Detail Image"
+msgstr "Imagen de detalle"
+
+#: public/includes/cpt.php:39
+msgid "All Images"
+msgstr "Todas las imágenes"
+
+#: public/includes/cpt.php:40
+msgid "Add New"
+msgstr "Añadir nueva"
+
+#: public/includes/cpt.php:42
+msgid "Edit"
+msgstr "Editar"
+
+#: admin/class-drawattention-admin.php:268 public/includes/cpt.php:43
+#: public/views/shortcode_template.php:22
+msgid "Edit Image"
+msgstr "Editar imagen"
+
+#: public/includes/cpt.php:44
+msgid "New Image"
+msgstr "Nueva imagen"
+
+#: public/includes/cpt.php:45
+msgid "View Image"
+msgstr "Ver imagen"
+
+#: public/includes/cpt.php:46
+msgid "Search Images"
+msgstr "Buscar imágenes"
+
+#: public/includes/cpt.php:47
+msgid "Nothing found in the Database."
+msgstr "No se ha encontrado nada en la base de datos."
+
+#: public/includes/cpt.php:48
+msgid "Nothing found in Trash"
+msgstr "No se ha encontrado nada en la papelera"
+
+#: public/includes/cpt.php:51
+msgid "Stores "
+msgstr "Tiendas "
+
+#: public/views/shortcode_template.php:21
+msgid "You need to define some clickable areas for your image."
+msgstr "Tiene que definir algunas áreas clicables en tu imagen."
+
+#: public/views/single-da_image.php:18
+msgid "Edit Interactive Image"
+msgstr "Editar imagen interactiva"
+
+#: admin/upsell-admin.php:19 admin/upsell-admin.php:34
+msgid "Upgrade to Pro"
+msgstr "Actualizar a la versión Pro"
+
+#: admin/class-drawattention-admin.php:226
+#: admin/class-drawattention-admin.php:227
+msgid "DrawAttention"
+msgstr "DrawAttention"
+
+#: admin/class-drawattention-admin.php:256
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Plugin Name of the plugin
+#: draw-attention.php public/includes/cpt.php:37
+msgid "Draw Attention"
+msgstr "Draw Attention"
+
+#. Plugin URI of the plugin
+#: draw-attention.php
+msgid "https://wpdrawattention.com"
+msgstr "https://wpdrawattention.com"
+
+#. Description of the plugin
+#: draw-attention.php
+msgid "Create interactive images in WordPress"
+msgstr "Crea imágenes interactivas en WordPress"
+
+#: public/class-drawattention.php:569
+msgid "Copy Shortcode"
+msgstr "Copiar shortcode"
+
+#: public/includes/themes.php:13
+msgid "Apply Color Scheme"
+msgstr "Aplicar esquema de color"
+
+#: public/includes/themes.php:17
+msgid "Quickly apply a theme (you can adjust each color afterwards)."
+msgstr "Aplica rápidamente un tema (puedes ajustar cada color después)."
+
+#: public/includes/themes.php:19
+msgid "Select a theme..."
+msgstr "Selecciona un tema..."
+
+#: public/includes/lib/CMB2/includes/CMB2_Field.php:1495
+#: public/includes/lib/CMB2/includes/CMB2_Field.php:1499
+msgid "None"
+msgstr "Ninguna"
+
+#: public/includes/lib/CMB2/example-functions.php:116
+msgid "Test Metabox"
+msgstr "Probar caja meta"
+
+#: public/includes/custom_fields.php:155
+msgid "More Info Box Styling"
+msgstr "Estilo de la caja «Más información»"
+
+#: public/includes/custom_fields.php:171
+msgid "Set the color of titles in More Info box"
+msgstr "Establece el color de los títulos de la caja «Más información»"
+
+#: public/includes/custom_fields.php:179
+msgid "Set the color of body text in More Info box"
+msgstr "Establece el color del texto de la caja «Más información»"
+
+#: public/includes/custom_fields.php:186
+msgid "More Info Background Color"
+msgstr "Color de fondo de la caja «Más información»"
+
+#: public/includes/custom_fields.php:187
+msgid "Set the background color of the More Info box"
+msgstr "Establece el color de fondo de la caja «Más información»"
+
+#: public/includes/custom_fields.php:194
+msgid "Default More Info"
+msgstr "Valor predeterminado de la caja «Más información»"
+
+#: public/includes/custom_fields.php:195
+msgid "Set the text to show up in the more info box (when no area is selected)"
+msgstr "Establece el texto que se mostrará en la caja «Más información» (cuando no se seleccione ninguna área)"
+
+#: public/includes/custom_fields.php:230
+msgid "Clickable Area #{#}"
+msgstr "Área clicable #{#}"
+
+#: public/includes/custom_fields.php:295
+msgid "Upload an image or enter a URL to show in the more info box"
+msgstr "Sube una imagen o introduce una URL a mostrar en la caja «Más información»"
+
+#: public/includes/cpt.php:41
+msgid "Add New Image"
+msgstr "Añadir nueva imagen"
+
+#: public/includes/lib/CMB2/example-functions.php:460
+msgid "Test Multi Checkbox"
+msgstr "Probar casilla de selección múltiple"
+
+#: public/includes/lib/CMB2/example-functions.php:152
+#: public/includes/lib/CMB2/example-functions.php:167
+#: public/includes/lib/CMB2/example-functions.php:182
+#: public/includes/lib/CMB2/example-functions.php:191
+#: public/includes/lib/CMB2/example-functions.php:206
+#: public/includes/lib/CMB2/example-functions.php:216
+#: public/includes/lib/CMB2/example-functions.php:227
+#: public/includes/lib/CMB2/example-functions.php:237
+#: public/includes/lib/CMB2/example-functions.php:256
+#: public/includes/lib/CMB2/example-functions.php:266
+#: public/includes/lib/CMB2/example-functions.php:276
+#: public/includes/lib/CMB2/example-functions.php:295
+#: public/includes/lib/CMB2/example-functions.php:306
+#: public/includes/lib/CMB2/example-functions.php:324
+#: public/includes/lib/CMB2/example-functions.php:333
+#: public/includes/lib/CMB2/example-functions.php:342
+#: public/includes/lib/CMB2/example-functions.php:371
+#: public/includes/lib/CMB2/example-functions.php:386
+#: public/includes/lib/CMB2/example-functions.php:401
+#: public/includes/lib/CMB2/example-functions.php:415
+#: public/includes/lib/CMB2/example-functions.php:431
+#: public/includes/lib/CMB2/example-functions.php:441
+#: public/includes/lib/CMB2/example-functions.php:452
+#: public/includes/lib/CMB2/example-functions.php:461
+#: public/includes/lib/CMB2/example-functions.php:477
+#: public/includes/lib/CMB2/example-functions.php:559
+#: public/includes/lib/CMB2/example-functions.php:667
+#: public/includes/lib/CMB2/example-functions.php:677
+#: public/includes/lib/CMB2/example-functions.php:686
+#: public/includes/lib/CMB2/example-functions.php:695
+#: public/includes/lib/CMB2/example-functions.php:704
+#: public/includes/lib/CMB2/example-functions.php:713
+#: public/includes/lib/CMB2/example-functions.php:722
+#: public/includes/lib/CMB2/example-functions.php:751
+#: public/includes/lib/CMB2/example-functions.php:761
+#: public/includes/lib/CMB2/example-functions.php:770
+#: public/includes/lib/CMB2/example-functions.php:822
+msgid "field description (optional)"
+msgstr "descripción del campo (opcional)"
+
+#: public/includes/lib/CMB2/example-functions.php:466
+msgid "Check One"
+msgstr "Marca uno"
+
+#: public/includes/lib/CMB2/example-functions.php:467
+msgid "Check Two"
+msgstr "Marca dos"
+
+#: public/includes/lib/CMB2/example-functions.php:468
+msgid "Check Three"
+msgstr "Marca tres"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:240
+#: public/includes/lib/CMB2/includes/CMB2_Types.php:408
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_File_Base.php:86
+msgid "Remove"
+msgstr "Quitar"
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_File_List.php:44
+msgid "Add or Upload Files"
+msgstr "Añadir o subir archivos"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:242
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_File_Base.php:84
+msgid "Download"
+msgstr "Descargar"
+
+#: public/includes/lib/CMB2/includes/CMB2_Field_Display.php:460
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:241
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_File_Base.php:81
+msgid "File:"
+msgstr "Archivo:"
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_File.php:82
+msgid "Add or Upload File"
+msgstr "Añadir o subir archivo"
+
+#: public/includes/lib/CMB2/includes/CMB2_Ajax.php:186
+msgid "Remove Embed"
+msgstr "Eliminar el incrustado"
+
+#: public/includes/lib/CMB2/includes/CMB2.php:609
+msgid "Click to toggle"
+msgstr "Haz clic para alternar"
+
+#: public/includes/lib/CMB2/includes/CMB2_Field.php:1461
+msgid "Add Group"
+msgstr "Añadir grupo"
+
+#: public/includes/lib/CMB2/includes/CMB2_Field.php:1462
+msgid "Remove Group"
+msgstr "Eliminar grupo"
+
+#: public/includes/lib/CMB2/includes/helper-functions.php:309
+msgid "Save"
+msgstr "Guardar"
+
+#: public/includes/lib/CMB2/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr "Añadir fila"
+
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr "Ningún término"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:239
+#: public/includes/lib/CMB2/includes/types/CMB2_Type_File_Base.php:65
+msgid "Remove Image"
+msgstr "Eliminar imagen"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:175
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:221
+msgid "Clear"
+msgstr "Limpiar"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:176
+msgid "Default"
+msgstr "Predeterminado"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:177
+msgid "Select Color"
+msgstr "Seleccionar color"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:178
+msgid "Current Color"
+msgstr "Color actual"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:211
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "mm/dd/yy"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:212
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "Domingo, Lunes, Martes, Miércoles, Jueves, Viernes, Sábado"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:213
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "Do, Lu, Ma, Mi, Ju, Vi, Sa"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:214
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "Dom, Lun, Mar, Mie, Jue, Vie, Sab"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:215
+msgid "January, February, March, April, May, June, July, August, September, October, November, December"
+msgstr "Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:216
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "Ene, Feb, Mar, Apr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:217
+msgid "Next"
+msgstr "Siguiente"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:218
+msgid "Prev"
+msgstr "Anterior"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:219
+msgid "Today"
+msgstr "Hoy"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:220
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:230
+msgid "Done"
+msgstr "Hecho"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:224
+msgid "Choose Time"
+msgstr "Elegir hora"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:225
+msgid "Time"
+msgstr "Hora"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:226
+msgid "Hour"
+msgstr "Hora"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:227
+msgid "Minute"
+msgstr "Minuto"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:228
+msgid "Second"
+msgstr "Segundo"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:229
+msgid "Now"
+msgstr "Ahora"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:231
+msgctxt "Valid formatting string, as per http://trentrichardson.com/examples/timepicker/"
+msgid "hh:mm TT"
+msgstr "hh:mm TT"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:237
+msgid "Use this file"
+msgstr "Usa este archivo"
+
+#: public/includes/lib/CMB2/example-functions.php:151
+#: public/includes/lib/CMB2/example-functions.php:558
+msgid "Test Text"
+msgstr "Probar texto"
+
+#: public/includes/lib/CMB2/example-functions.php:166
+msgid "Test Text Small"
+msgstr "Probar texto pequeño"
+
+#: public/includes/lib/CMB2/example-functions.php:181
+msgid "Test Text Medium"
+msgstr "Probar texto medio"
+
+#: public/includes/lib/CMB2/example-functions.php:215
+msgid "Website URL"
+msgstr "URL de la web"
+
+#: public/includes/lib/CMB2/example-functions.php:226
+msgid "Test Text Email"
+msgstr "Probar texto de correo electrónico"
+
+#: public/includes/lib/CMB2/example-functions.php:236
+msgid "Test Time"
+msgstr "Probar hora"
+
+#: public/includes/lib/CMB2/includes/CMB2_JS.php:243
+msgid "Select / Deselect All"
+msgstr "Seleccionar / Anular selección todo"
+
+#: public/includes/lib/CMB2/example-functions.php:385
+msgid "Test Radio inline"
+msgstr "Probar radio integrado"
+
+#: public/includes/lib/CMB2/example-functions.php:255
+msgid "Test Date Picker"
+msgstr "Probar selector de fecha"
+
+#: public/includes/lib/CMB2/example-functions.php:265
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr "Probar selector de fecha (timestamp UNIX)"
+
+#: public/includes/lib/CMB2/example-functions.php:275
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr "Probar selector de fecha/hora (timestamp UNIX)"
+
+#: public/includes/lib/CMB2/example-functions.php:294
+msgid "Test Money"
+msgstr "Probar dinero"
+
+#: public/includes/lib/CMB2/example-functions.php:305
+msgid "Test Color Picker"
+msgstr "Probar selector de color"
+
+#: public/includes/lib/CMB2/example-functions.php:323
+msgid "Test Text Area"
+msgstr "Probar área de texto"
+
+#: public/includes/lib/CMB2/example-functions.php:332
+msgid "Test Text Area Small"
+msgstr "Probar área de texto pequeña"
+
+#: public/includes/lib/CMB2/example-functions.php:341
+msgid "Test Text Area for Code"
+msgstr "Probar área de texto para código"
+
+#: public/includes/lib/CMB2/example-functions.php:361
+msgid "Test Title Weeeee"
+msgstr "Probar título weeeee"
+
+#: public/includes/lib/CMB2/example-functions.php:362
+msgid "This is a title description"
+msgstr "Esto es la descripción del título"
+
+#: public/includes/lib/CMB2/example-functions.php:370
+msgid "Test Select"
+msgstr "Probar selector"
+
+#: public/includes/lib/CMB2/example-functions.php:376
+#: public/includes/lib/CMB2/example-functions.php:391
+#: public/includes/lib/CMB2/example-functions.php:405
+msgid "Option One"
+msgstr "Opción Uno"
+
+#: public/includes/lib/CMB2/example-functions.php:377
+#: public/includes/lib/CMB2/example-functions.php:392
+#: public/includes/lib/CMB2/example-functions.php:406
+msgid "Option Two"
+msgstr "Opción Dos"
+
+#: public/includes/lib/CMB2/example-functions.php:378
+#: public/includes/lib/CMB2/example-functions.php:393
+#: public/includes/lib/CMB2/example-functions.php:407
+msgid "Option Three"
+msgstr "Opción Tres"
+
+#: public/includes/lib/CMB2/example-functions.php:400
+msgid "Test Radio"
+msgstr "Probar radio"
+
+#: public/includes/lib/CMB2/example-functions.php:414
+msgid "Test Taxonomy Radio"
+msgstr "Probar radio de taxonomías"
+
+#: public/includes/lib/CMB2/example-functions.php:430
+msgid "Test Taxonomy Select"
+msgstr "Probar selector de taxonomías"
+
+#: public/includes/lib/CMB2/example-functions.php:476
+msgid "Test wysiwyg"
+msgstr "Probar wysiwyg"
+
+#: public/includes/lib/CMB2/example-functions.php:488
+msgid "Test Image"
+msgstr "Probar imagen"
+
+#: public/includes/lib/CMB2/example-functions.php:489
+msgid "Upload an image or enter a URL."
+msgstr "Sube una imagen o introduce una URL."
+
+#: public/includes/lib/CMB2/example-functions.php:498
+msgid "Upload or add multiple images/attachments."
+msgstr "Sube o añade varias imágenes/adjuntos."
+
+#: public/includes/lib/CMB2/example-functions.php:507
+msgid "oEmbed"
+msgstr "oEmbed"
+
+#: public/includes/lib/CMB2/example-functions.php:578
+msgid "Repeating Field Group"
+msgstr "Grupo de campo repetidor"
+
+#: public/includes/lib/CMB2/example-functions.php:590
+msgid "Entry {#}"
+msgstr "Entrada {#}"
+
+#: public/includes/lib/CMB2/example-functions.php:591
+msgid "Add Another Entry"
+msgstr "Añadir otra entrada"
+
+#: public/includes/lib/CMB2/example-functions.php:592
+msgid "Remove Entry"
+msgstr "Eliminar entrada"
+
+#: public/includes/lib/CMB2/example-functions.php:609
+msgid "Entry Title"
+msgstr "Título de la entrada"
+
+#: public/includes/custom_fields.php:271
+#: public/includes/lib/CMB2/example-functions.php:619
+msgid "Description"
+msgstr "Descripción"
+
+#: public/includes/lib/CMB2/example-functions.php:620
+msgid "Write a short description for this entry"
+msgstr "Escribe una descripción corta para esta entrada"
+
+#: public/includes/lib/CMB2/example-functions.php:440
+msgid "Test Taxonomy Multi Checkbox"
+msgstr "Probar casilla de selección múltiple de taxonomías"
+
+#: public/includes/lib/CMB2/example-functions.php:451
+msgid "Test Checkbox"
+msgstr "Probar casilla de selección"
+
+#: public/includes/lib/CMB2/example-functions.php:497
+msgid "Multiple Files"
+msgstr "Varios archivos"
+
+#: public/includes/lib/CMB2/example-functions.php:545
+msgid "About Page Metabox"
+msgstr "Caja meta de la página «Acerca de»"
+
+#: public/includes/lib/CMB2/example-functions.php:588
+msgid "Generates reusable form entries"
+msgstr "Genera entradas de formulario reutilizables"
+
+#: public/includes/lib/CMB2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "Por favor, inténtalo de nuevo"
+
+#: public/includes/lib/CMB2/example-functions.php:246
+#: public/includes/lib/CMB2/example-functions.php:247
+msgid "Time zone"
+msgstr "Zona horaria"
+
+#. Author of the plugin
+#: draw-attention.php
+msgid "NSquared"
+msgstr "NSquared"

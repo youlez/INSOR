@@ -56,7 +56,7 @@ function paginacion($count, $actual, $ancho)
       $html .= '
             <li class="page-item">
               <a href="' . $i . '" class="pag ';
-      $html .= ($i == $actual) ? "activo" : "";
+      $html .= ($i == $actual) ? "active" : "";
       $html .= ' page-link" aria-label="Paginación número ' . $i . '">
                     ' . $i . '
               </a>
