@@ -7,6 +7,10 @@ function pagination()
 
     if ($pagina == "noticias")
         $html = mostrar_noticias($pagenumber, $ancho);
+    if ($pagina == "transmisiones")
+        $html = mostrar_transmisiones($pagenumber, $ancho);
+    if ($pagina == "temas-de-interes")
+        $html = mostrar_videos($pagenumber, $ancho);
 
     echo json_encode($html);
     wp_die();

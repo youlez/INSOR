@@ -81,5 +81,7 @@ function crear_entradas()
     crear_entrada('items-acordeon', 'Item Acordeon', 'Items Acordeon', 'm', 'post');
     crear_entrada('items-lista', 'Contenido de Lista', 'Contenidos de Listas', 'm', 'post');
     crear_entrada('items-glosario', 'Item Glosario', 'Items Glosario', 'm', 'post');
+    crear_entrada('gif', 'Gif', 'Gifs', 'm', 'post');
+    crear_entrada('transmisiones', 'Transmisión', 'Transmisiones', 'f', 'post');
 }
 add_action('init', 'crear_entradas');

@@ -16,6 +16,9 @@ function paginacion(pagenumber) {
   if (pagina == "noticias") {
     div = '.contenedor_noticias';
   }
+  if (pagina == "transmisiones" || pagina == "temas-de-interes") {
+    div = '.contenedor_transmisiones';
+  }
 
   jQuery.ajax({
     url: ajaxurl,

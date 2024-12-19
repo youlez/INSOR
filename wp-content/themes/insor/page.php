@@ -32,6 +32,26 @@ while (have_posts()) : the_post();
           </div>
         </div>
       </div>
+    <?php
+    }
+    if (($post_name == "transmisiones") || ($post_name == "temas-de-interes")) {
+    ?>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="cargando" class=" row m-0 justify-content-center p-4" style="display: none;">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Cargando ...</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="transmisiones">
+            <div class="row mt-2 contenedor_transmisiones">
+            </div>
+          </div>
+        </div>
+      </div>
       <?php
     }
 
