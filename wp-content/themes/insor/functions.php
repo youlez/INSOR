@@ -10,6 +10,7 @@ include('functions/shorcode.php');
 include('functions/columna-taxonomia.php');
 include('functions/orden.php');
 include('functions/gif.php');
+include('functions/transmisiones.php');
 
 add_theme_support('post-thumbnails');
 

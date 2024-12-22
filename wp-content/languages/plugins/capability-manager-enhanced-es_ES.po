@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - PublishPress Capabilities &#8211; User Role Editor, Access Permissions, Admin Menus - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-17 16:04:42+0000\n"
+"PO-Revision-Date: 2024-12-17 19:00:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,46 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - PublishPress Capabilities &#8211; User Role Editor, Access Permissions, Admin Menus - Stable (latest release)\n"
+
+#: includes/redirects/redirects.php:324
+msgid "How to use Redirect Features"
+msgstr "Cómo utilizar las características de redirección"
+
+#: includes/redirects/redirects.php:321
+msgid "Redirect Features allows you to redirect users in a role after Registration, Login or Logout."
+msgstr "Las características de redirección te permiten redirigir a los usuarios en un perfil después del registro, acceso o desconexión."
+
+#: includes/redirects/redirects.php:94
+msgid "%s Redirects"
+msgstr "%s redirecciones"
+
+#: includes/redirects/redirects.php:82
+msgid "Enter the URL users in this role should be redirected to after their first login."
+msgstr "Introduce la URL a la que deben ser redirigidos los usuarios de este perfil después de su primer acceso."
+
+#: includes/redirects/redirects.php:73
+msgid "Enter the URL users in this role should be redirected to after registration."
+msgstr "Introduce la URL a la que deben ser redirigidos los usuarios de este perfil después de registrarse."
+
+#: includes/redirects/redirects.php:47 includes/redirects/redirects.php:81
+msgid "First Login Redirect"
+msgstr "Redirección del primer acceso"
+
+#: includes/redirects/redirects.php:43 includes/redirects/redirects.php:72
+msgid "Registration Redirect"
+msgstr "Redirección de inscription"
+
+#: includes/manager.php:880
+msgid "Invalid form. Reload this page and try again."
+msgstr "Formulario no válido. Recarga esta página e inténtalo de nuevo."
+
+#: includes/manager.php:858
+msgid "You do not have permission to manage redirect."
+msgstr "No tienes permisos para gestionar la redirección"
+
+#: includes/functions-admin.php:394
+msgid "Redirects allows you to redirect users in a role after Registration, Login or Logout."
+msgstr "Las redirecciones te permiten redirigir a los usuarios en un perfil después del registro, acceso o desconexión."
 
 #: includes/features/restrict-editor-features.php:422
 msgid "Settings Panel"

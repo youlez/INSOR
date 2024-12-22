@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WP Booking Calendar - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-16 08:05:57+0000\n"
+"PO-Revision-Date: 2024-12-19 08:20:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3472,12 +3472,12 @@ msgstr "Votre réservation a été modifiée"
 msgid "You need to make payment for this reservation"
 msgstr "Vous devez effectuer un paiement pour cette réservation"
 
-#: core/lang/wpbc_all_translations.php:714 core/wpbc-emails.php:341
+#: core/lang/wpbc_all_translations.php:714 core/wpbc-emails.php:347
 #: core/wpbc-translation.php:452
 msgid "Configuration in several languages"
 msgstr "Configuration dans plusieurs langues"
 
-#: core/lang/wpbc_all_translations.php:715 core/wpbc-emails.php:342
+#: core/lang/wpbc_all_translations.php:715 core/wpbc-emails.php:348
 #: core/wpbc-translation.php:453
 msgid "%s - start new translation section, where %s - locale of translation"
 msgstr "%s - démarrer une nouvelle section de traduction, où %s - lieu de traduction"
@@ -3502,7 +3502,7 @@ msgstr "Filtres de Saison"
 msgid "Changes saved."
 msgstr "Modifications sauvegardées."
 
-#: core/lang/wpbc_all_translations.php:604 core/wpbc-js-vars.php:114
+#: core/lang/wpbc_all_translations.php:604 core/wpbc-js-vars.php:115
 #: includes/page-bookings/bookings__actions.php:2127
 #: includes/page-form-simple/form_simple__timeslots.php:429
 #: includes/page-form-simple/form_simple__timeslots.php:439
@@ -3518,15 +3518,15 @@ msgstr "Modifications sauvegardées."
 msgid "Processing"
 msgstr "En cours de traitement"
 
-#: core/lang/wpbc_all_translations.php:724 core/wpbc-js-vars.php:115
+#: core/lang/wpbc_all_translations.php:724 core/wpbc-js-vars.php:116
 msgid "Deleting"
 msgstr "Suppression"
 
-#: core/lang/wpbc_all_translations.php:725 core/wpbc-js-vars.php:116
+#: core/lang/wpbc_all_translations.php:725 core/wpbc-js-vars.php:117
 msgid "Updating"
 msgstr "Mise à jour"
 
-#: core/lang/wpbc_all_translations.php:726 core/wpbc-js-vars.php:117
+#: core/lang/wpbc_all_translations.php:726 core/wpbc-js-vars.php:118
 msgid "Saving"
 msgstr "Sauvegarde"
 
@@ -3784,7 +3784,7 @@ msgstr "Menu Plugin"
 #: includes/page-setup/templates/07.color_theme__tpl.php:66
 #: includes/page-setup/templates/08.optional_other_settings__tpl.php:70
 #: includes/publish/wpbc-create-pages.php:164
-#: includes/publish/wpbc-create-pages.php:330
+#: includes/publish/wpbc-create-pages.php:335
 #: includes/ui_modal__shortcodes/sh_tpl_booking.php:310
 #: includes/_functions/admin_top_bar.php:281
 #: includes/_toolbar_ui/ui__settings_panel.php:154 js/wpbc-gutenberg.js:612
@@ -3930,7 +3930,7 @@ msgid "Capacity"
 msgstr "Capacité"
 
 #: core/lang/wpbc_all_translations.php:680 core/wpbc-debug.php:189
-#: core/wpbc-emails.php:507 core/wpbc.php:437 core/wpbc.php:478
+#: core/wpbc-emails.php:513 core/wpbc.php:437 core/wpbc.php:478
 #: includes/page-bookings/bookings__actions.php:2106
 #: includes/publish/wpbc-publish-shortcode.php:192
 #: includes/_functions/nonce_func.php:60
@@ -4048,7 +4048,7 @@ msgstr "Déplacer dans la corbeille"
 msgid "Do you really want to do this ?"
 msgstr "Voulez vous vraiment faire cela ?"
 
-#: core/lang/wpbc_all_translations.php:722 core/wpbc-js-vars.php:112
+#: core/lang/wpbc_all_translations.php:722 core/wpbc-js-vars.php:113
 msgid "Your emails do not match"
 msgstr "Vos e-mails ne correspondent pas"
 
@@ -4288,7 +4288,7 @@ msgstr "Requis"
 msgid "%s - inserting data info about the booking"
 msgstr "%s - insertion de données relative à la réservation"
 
-#: core/lang/wpbc_all_translations.php:702 core/wpbc-emails.php:281
+#: core/lang/wpbc_all_translations.php:702 core/wpbc-emails.php:287
 msgid "%s - inserting moderate link of new booking "
 msgstr "%s - inserer le lien pour modérée la nouvelle réservation "
 
@@ -4368,7 +4368,7 @@ msgstr "%s - insérez l’ID de réservation"
 msgid "%s or %s - inserting the title of the booking resource "
 msgstr "%s ou %s  - insérez le titre de la ressource de réservation "
 
-#: core/lang/wpbc_all_translations.php:694 core/wpbc-emails.php:245
+#: core/lang/wpbc_all_translations.php:694 core/wpbc-emails.php:251
 msgid "%s - inserting the cost of  booking "
 msgstr "%s - insérez le coût de la réservation "
 
@@ -4417,47 +4417,47 @@ msgstr "Cochez cette case si vous voulez supprimer toutes les données de réser
 msgid "Delete booking data, when plugin deactivated"
 msgstr "Supprimer les donnée de réservation, quand l’extension est désactivée"
 
-#: core/lang/wpbc_all_translations.php:695 core/wpbc-emails.php:250
+#: core/lang/wpbc_all_translations.php:695 core/wpbc-emails.php:256
 msgid "%s - inserting your site URL "
 msgstr "%s - insérez l’URL de votre site"
 
-#: core/lang/wpbc_all_translations.php:696 core/wpbc-emails.php:253
+#: core/lang/wpbc_all_translations.php:696 core/wpbc-emails.php:259
 msgid "%s - inserting IP address of the user who made this action "
 msgstr "%s - insérez l’adresse IP de l’utilisateur/utilisatrice ayant fait l’action "
 
-#: core/lang/wpbc_all_translations.php:697 core/wpbc-emails.php:254
+#: core/lang/wpbc_all_translations.php:697 core/wpbc-emails.php:260
 msgid "%s - inserting contents of the User-Agent: header from the current request, if there is one "
 msgstr "%s - insérez le contenu de l’en-tête User-Agent de la requête actuelle, si disponible "
 
-#: core/lang/wpbc_all_translations.php:698 core/wpbc-emails.php:255
+#: core/lang/wpbc_all_translations.php:698 core/wpbc-emails.php:261
 msgid "%s - inserting address of the page (if any), where visitor make this action "
 msgstr "%s - insérez l’adresse de la page (le cas échéant), d’où la personne visitant le site a fait l’action "
 
-#: core/lang/wpbc_all_translations.php:700 core/wpbc-emails.php:259
+#: core/lang/wpbc_all_translations.php:700 core/wpbc-emails.php:265
 msgid "%s - inserting date of this action "
 msgstr "%s - insérez la date de cette action "
 
-#: core/lang/wpbc_all_translations.php:699 core/wpbc-emails.php:256
+#: core/lang/wpbc_all_translations.php:699 core/wpbc-emails.php:262
 msgid "%s - inserting time of this action "
 msgstr "%s - insérez l’heure de cette action "
 
-#: core/lang/wpbc_all_translations.php:711 core/wpbc-emails.php:321
+#: core/lang/wpbc_all_translations.php:711 core/wpbc-emails.php:327
 msgid "%s - inserting link to payment page where visitor can pay for the reservation  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
 msgstr "%s - insérez le lien vers la page où la personne visitant le site peut payer la réservation, (il est possible d’utiliser le paramètre %s pour régler différents %s dans cette page. Exemple: %s )"
 
-#: core/lang/wpbc_all_translations.php:709 core/wpbc-emails.php:307
+#: core/lang/wpbc_all_translations.php:709 core/wpbc-emails.php:313
 msgid "%s - inserting link to the page where visitor can edit the reservation,  (possible to use the %s parameter for setting different %s of this page. Example: %s )"
 msgstr "%s - insérez le lien vers la page où la personne visitant le site peut modifier la réservation, (il est possible d’utiliser le paramètre %s pour régler différents %s dans cette page. Exemple: %s )"
 
-#: core/lang/wpbc_all_translations.php:710 core/wpbc-emails.php:313
+#: core/lang/wpbc_all_translations.php:710 core/wpbc-emails.php:319
 msgid "%s - inserting link to the page where visitor can cancel the reservation, (possible to use the %s parameter for setting different %s of this page. Example: %s )"
 msgstr "%s - insérez le lien vers la page où la personne visitant le site peut annuler la réservation, (il est possible d’utiliser le paramètre %s pour régler différents %s dans cette page. Exemple: %s )"
 
-#: core/lang/wpbc_all_translations.php:712 core/wpbc-emails.php:327
+#: core/lang/wpbc_all_translations.php:712 core/wpbc-emails.php:333
 msgid "%s - add the reason for booking payment, you can enter it before sending email, "
 msgstr "%s  - ajoutez la raison du paiement de la réservation, vous pouvez le saisir avant l’envoi du mail, "
 
-#: core/lang/wpbc_all_translations.php:713 core/wpbc-emails.php:333
+#: core/lang/wpbc_all_translations.php:713 core/wpbc-emails.php:339
 msgid "%s - add the reason booking was cancelled, you can enter it before sending email, "
 msgstr "%s  - insérez la raison d’annulation de la réservation, vous pouvez le saisir avant l’envoi du mail, "
 
@@ -4658,7 +4658,7 @@ msgstr "Paramètres Généraux"
 msgid "Booking resource"
 msgstr "Ressource de réservation "
 
-#: core/lang/wpbc_all_translations.php:627 core/lib/wpdev-booking-class.php:760
+#: core/lang/wpbc_all_translations.php:627 core/lib/wpdev-booking-class.php:767
 #: core/lib/wpdev-booking-widget.php:54
 msgid "You need to use special shortcode [bookingedit] for booking editing."
 msgstr "Vous devez utiliser le shortcode spéciaux [bookingedit] pour l'édition de la réservation."
@@ -4893,7 +4893,7 @@ msgstr "Paramètres Utilisateurs"
 msgid "Calendar is loading..."
 msgstr "Chargement du calendrier..."
 
-#: core/lang/wpbc_all_translations.php:623 core/lib/wpdev-booking-class.php:504
+#: core/lang/wpbc_all_translations.php:623 core/lib/wpdev-booking-class.php:511
 msgid "%sWarning! Booking calendar for this booking resource are already at the page, please check more about this issue at %sthis page%s"
 msgstr "%sAttention! Le calendrier des réservations pour ce type de ressources est déjà sur la page, veuillez vérifier toute question à ce sujet sur %scette page%s."
 
@@ -5757,7 +5757,7 @@ msgstr "Ok"
 msgid "Next Steps"
 msgstr "Etape Suivante"
 
-#: core/lang/wpbc_all_translations.php:723 core/wpbc-js-vars.php:113
+#: core/lang/wpbc_all_translations.php:723 core/wpbc-js-vars.php:114
 msgid "Please, select booking date(s) at Calendar."
 msgstr "Merci de sélectionner vos dates de réservation dans le calendrier."
 
@@ -5782,15 +5782,15 @@ msgstr "Nous avons rassemblé quelques liens pour vous aider à démarrer :"
 msgid "Export only current page of bookings to CSV format"
 msgstr "Exporter seulement la page actuelle de réservations au format CSV"
 
-#: core/lang/wpbc_all_translations.php:718 core/wpbc-js-vars.php:108
+#: core/lang/wpbc_all_translations.php:718 core/wpbc-js-vars.php:109
 msgid "This field is required"
 msgstr "Ce champ est obligatoire"
 
-#: core/lang/wpbc_all_translations.php:719 core/wpbc-js-vars.php:109
+#: core/lang/wpbc_all_translations.php:719 core/wpbc-js-vars.php:110
 msgid "This checkbox must be checked"
 msgstr "Cette case doit être cochée"
 
-#: core/lang/wpbc_all_translations.php:720 core/wpbc-js-vars.php:110
+#: core/lang/wpbc_all_translations.php:720 core/wpbc-js-vars.php:111
 msgid "At least one option must be selected"
 msgstr "Au moins une option doit etre sélectionnée"
 

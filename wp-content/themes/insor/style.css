@@ -444,6 +444,23 @@ hr {
   display: none;
 }
 
+.texto-transmision {
+  background-color: var(--azul);
+  display: flex;
+  align-items: center;
+
+  h2 {
+    width: 100%;
+    font-weight: bold;
+    color: var(--amarillo);
+  }
+
+  span {
+    width: 100%;
+    color: white;
+  }
+}
+
 .transmisiones {
   .texto {
     background-color: var(--azul);
