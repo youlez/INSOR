@@ -77,24 +77,24 @@
     </div>
     <div class="row m-0 banner">
       <div class="col-lg-6" id="mask">
-        <a href="#" class="position-relative link-micrositios">
+        <a href="https://educativo.insor.gov.co" target="_blank" class="position-relative link-micrositios">
           <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/DSC00824.JPG" class="imgBanner" alt="Insor educativo">
           <h2 class="mb-4">
             INSOR <br />
             <span>EDUCATIVO</span>
-            <img class="img-gif" alt="Insor educativo" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
+            <img class="img-gif" alt="Insor educativo" target="_blank" href="https://educativo.insor.gov.co" src="<?php bloginfo('template_url'); ?>/assets/img/banner/INSOR_EDUCATIVO.gif">
           </h2>
         </a>
       </div>
       <hr class="barra d-none d-lg-block">
       </hr>
       <div class="col-lg-6" id="mask">
-        <a href="#" class="position-relative link-micrositios">
+        <a href="https://www.insor.gov.co/insorlab" class="position-relative link-micrositios">
           <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/Taller_Cultura_Sorda_3.jpg" alt="Insor lab" class="imgBanner">
           <h2 class="mb-4">
             INSOR <br />
             <span>LAB</span>
-            <img class="img-gif" alt="Insor lab" src="<?php bloginfo('template_url'); ?>/assets/img/banner/BIDES.gif">
+            <img class="img-gif" alt="Insor Lab" target="_blank" href="https://www.insor.gov.co/insorlab" src="<?php bloginfo('template_url'); ?>/assets/img/banner/BIDES.gif">
           </h2>
         </a>
       </div>
@@ -283,7 +283,7 @@
       <div class="col-lg-8"> </div>
     </div>
     <div class="mt-4 position-relative link-kids">
-      <a target="_blank" href="https://www.insor.gov.co/portalninos/">
+      <a target="_blank" href="https://www.insor.gov.co/insorninos/">
         <div class="tituloKids position-absolute d-none d-lg-flex">
           <p>
             INSOR <br />

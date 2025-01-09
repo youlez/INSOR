@@ -38,7 +38,7 @@
                 ?>
               </a>
             </div>
-            <div class="mt-lg-4">
+        <!--    <div class="mt-lg-4">
               <div class="row redes">
                 <div class="col-12 col-lg-6">
                   <a
@@ -101,7 +101,7 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="col-12 mt-4">
             <div class="gov-link">

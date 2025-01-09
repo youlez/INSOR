@@ -60,6 +60,32 @@ function cargar_estilos_footer()
     wp_enqueue_style('buscador');
 }
 
+function add_accordion_numbering_script() {
+    ?>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Encuentra todos los contenedores de acordeones
+        const accordionContainers = document.querySelectorAll('.accordion');
+        
+        accordionContainers.forEach(container => {
+            let counter = 1;
+            const accordionItems = container.querySelectorAll('.accordion-item');
+            
+            accordionItems.forEach((item) => {
+                const button = item.querySelector('.accordion-button');
+                if (button) {
+                    const menuOrder = item.getAttribute('data-menu-order');
+                    const number = menuOrder || counter++;
+                    button.setAttribute('data-number', number);
+                }
+            });
+        });
+    });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'add_accordion_numbering_script');
+
 add_action('wp_enqueue_scripts', 'cargar_scripts');
 add_action('wp_enqueue_scripts', 'cargar_estilos_head');
 add_action('wp_footer', 'cargar_estilos_footer');
