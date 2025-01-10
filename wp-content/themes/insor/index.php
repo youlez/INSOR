@@ -471,4 +471,36 @@
     </div>
   </section>
   <?php
+  $popup = new WP_Query([
+    'post_type'      => 'modales', // Cambia a tu tipo de post personalizado
+    'meta_key'       => '_activo_inactivo',
+    'meta_value'     => '1', // Solo transmisiones activas
+    'posts_per_page' => 1,   // Solo una
+    'orderby'        => 'date',
+    'order'          => 'DESC',
+  ]);
+
+  if ($popup->have_posts()) {
+  ?>
+    <div class="modal fade" id="modalInicio" tabindex="-1" aria-labelledby="modalInicioLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <?php
+          while ($popup->have_posts()) {
+            $popup->the_post();
+          ?>
+            <div class="modal-header">
+              <h1 class="modal-title fs-3" id="modalInicioLabel"><?php the_title(); ?></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <?php the_content(); ?>
+            </div>
+        </div>
+      <?php } ?>
+      </div>
+    </div>
+
+  <?php
+  }
   get_footer();

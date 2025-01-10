@@ -83,5 +83,6 @@ function crear_entradas()
     crear_entrada('items-glosario', 'Item Glosario', 'Items Glosario', 'm', 'post');
     crear_entrada('gif', 'Gif', 'Gifs', 'm', 'post');
     crear_entrada('transmisiones', 'Transmisión', 'Transmisiones', 'f', 'post');
+    crear_entrada('modales', 'Modal', 'Modales', 'm', 'post');
 }
 add_action('init', 'crear_entradas');
