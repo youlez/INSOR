@@ -1,8 +1,3 @@
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const videoContainers = document.querySelectorAll('.video-container');
     const overlays = document.querySelectorAll('.video-overlay');

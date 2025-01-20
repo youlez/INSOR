@@ -53,7 +53,6 @@
   --azul-c: #3cbfe4;
   --azul-ct: #e6effd;
   --azul-r: #25368b;
- /* --azul-r: #3366cc; */
   --azul-cr: #f5f7f6;
   --morado-c: #d2d6e0;
   --amarillo: #f0bc37;
@@ -282,28 +281,35 @@ label,
   .accordion-button {
     border-radius: 0;
     background-color: var(--azul-cr);
-    font-family: 'Montserrat-SemiBold';
     border-bottom: var(--azul-ct) 2px solid;
-    color: black;
     box-shadow: none;
     min-height: 70px;
-	  position: relative;
-    padding-left: 60px !important
+    position: relative;
+    padding-left: 60px !important;
+
+    label {
+      color: black;
+      font-family: 'Montserrat-SemiBold';
+    }
   }
-	
-	.accordion-button::before {
-		content: attr(data-number);
-		position: absolute;
-		left: 15px; /* Ajusta este valor según sea necesario */
-		background-color: var(--azul);
-		border-radius: 50%;
-		height: 35px;
-		min-width: 35px;
-		color: white;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+
+  .accordion-button:focus label {
+    border: var(--azul) 2px solid;
+  }
+
+  .accordion-button::before {
+    content: attr(data-number);
+    position: absolute;
+    left: 15px;
+    background-color: var(--azul);
+    border-radius: 50%;
+    height: 35px;
+    min-width: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .accordion-button::after {
     font-family: "govco-font";

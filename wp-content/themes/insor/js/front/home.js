@@ -5,6 +5,4 @@ jQuery(document).ready(function ($) {
   $(".link-micrositios").mouseleave(function () {
     $(this).find('.img-gif').removeClass("opacity-100");
   });
-
-  $("#modalInicio").modal('show');
 });

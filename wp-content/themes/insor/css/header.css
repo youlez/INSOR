@@ -881,6 +881,7 @@ div.asl_w .probox .proinput input::placeholder {
           border-top: var(--azul-ct) 2px solid;
           border-left: none !important;
           border-right: none !important;
+          box-shadow: none !important;
           position: relative;
           padding-left: 10px;
           opacity: 1;

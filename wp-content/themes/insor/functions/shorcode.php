@@ -210,13 +210,13 @@ function contenido_interactivo_shortcode($atts)
                         data-bs-toggle="collapse" 
                         data-bs-target="#' . $item_name . '" 
                         aria-expanded="true" 
-                        aria-controls="' . $item_name . '">' . get_the_title() . '
+                        aria-controls="' . $item_name . '">
+                        <label>' . get_the_title() . '</label>
                       </button>
                     </div>
                     <div 
                       id="' . $item_name . '" 
-                      class="accordion-collapse collapse ' . ($index == 0 ? 'show' : '') . '" 
-                      data-bs-parent="#accordion' . $id_term . '">
+                      class="accordion-collapse collapse ' . ($index == 0 ? 'show' : '') . '" >
                       <div class="accordion-body">' . apply_filters('the_content', get_the_content()) . '</div>
                     </div>
                   </div>';

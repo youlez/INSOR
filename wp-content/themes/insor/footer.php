@@ -38,7 +38,7 @@
                 ?>
               </a>
             </div>
-        <!--    <div class="mt-lg-4">
+            <!--    <div class="mt-lg-4">
               <div class="row redes">
                 <div class="col-12 col-lg-6">
                   <a
@@ -125,9 +125,8 @@
       </div>
     </div>
   </div>
-
   <div class="govco-footer-logo position-relative">
-    <div class="govco-logo-container">
+    <div class="container">
       <a href="https://colombia.co/" target="_blank">
         <span class="govco-co"></span></a>
       <span class="govco-separator"></span>

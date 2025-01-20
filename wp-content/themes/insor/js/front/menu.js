@@ -14,16 +14,15 @@ jQuery(document).ready(function ($) {
       $(this).find('a .img-menu').first().removeClass("show-img");
     });
   }
-  else {
-    $(document).on('click', '.btn-menu', function (e) {
-      $(this).toggleClass('active');
-      $("#menu").toggleClass('show-menu');
-    });
-    $(document).on('click', '.btn-acceso', function (e) {
-      $(this).toggleClass('active');
-      $(".content-example-barra").toggleClass('active');
-    });
-  }
+
+  $(document).on('click', '.btn-menu', function (e) {
+    $(this).toggleClass('active');
+    $("#menu").toggleClass('show-menu');
+  });
+  $(document).on('click', '.btn-acceso', function (e) {
+    $(this).toggleClass('active');
+    $(".content-example-barra").toggleClass('active');
+  });
 });
 
 jQuery(window).on("resize", function () {
