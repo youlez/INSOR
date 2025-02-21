@@ -19,7 +19,7 @@ function mostrar_noticias($pagenumber, $ancho)
       $alt_text = get_post_meta($post_thumbnail_id, '_wp_attachment_image_alt', true);
       $html .= '
             <div class="col-lg-6 py-2">
-              <a class="link-noticias row m-0" href="' . get_bloginfo('url') . '/' . get_post_field('post_name', get_post()) . '" aria-label="' . get_the_title() . '">
+              <a class="link-noticias row m-0" href="' . get_bloginfo('url') . '/' . get_post_field('post_name', get_post()) . '" target="_blank" aria-label="' . get_the_title() . '">
                 <div class="imagen p-0">
                   <img src="' . $post_thumbnail_url . '" alt="' . $alt_text . '">
                 </div>
@@ -95,7 +95,7 @@ function mostrar_transmisiones($pagenumber, $ancho)
                   ' . get_the_title() . '
                 </h2>
               </div>
-              <a class="link-transmisiones row m-0" href="' . get_bloginfo('url') . '/' . get_post_field('post_name', get_post()) . '" aria-label="' . get_the_title() . '">                                              
+              <a class="link-transmisiones row m-0" href="' . get_bloginfo('url') . '/' . get_post_field('post_name', get_post()) . '" target="_blank" aria-label="' . get_the_title() . '">                                              
               </a>
             </div>';
     }
@@ -159,7 +159,7 @@ function mostrar_videos($pagenumber, $ancho)
                   ' . get_the_title() . '
                 </h2>
               </div>
-              <a class="link-transmisiones row m-0" href="' . get_bloginfo('url') . '/' . get_post_field('post_name', get_post()) . '" aria-label="' . get_the_title() . '">                                              
+              <a class="link-transmisiones row m-0" href="' . get_bloginfo('url') . '/' . get_post_field('post_name', get_post()) . '" target="_blank" aria-label="' . get_the_title() . '">                                              
               </a>
             </div>';
     }

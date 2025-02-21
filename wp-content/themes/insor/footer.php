@@ -107,13 +107,13 @@
             <div class="gov-link">
               <div class="row">
                 <div class="col-12 col-lg-4">
-                  <a class="" href="#" target="_blank">Política de privacidad y condiciones de uso</a>
+                  <a class="" href="<?php bloginfo('url'); ?>/wp-content/uploads/2025/02/RES_057_2021_Politica_de_Seguridad_y_Privacidad_de_la_Informacion.pdf" target="_blank">Política de privacidad y condiciones de uso</a>
                 </div>
                 <div class="col-12 col-lg-5">
-                  <a class="" href="#" target="_blank">Política de privacidad y tratamiento de datos personales</a>
+                  <a class="" href="<?php bloginfo('url'); ?>/wp-content/uploads/2025/02/Proteccion_datos_personales.pdf" target="_blank">Política de privacidad y tratamiento de datos personales</a>
                 </div>
                 <div class="col-12 col-lg-1">
-                  <a class="" href="#" target="_blank">Contacto</a>
+                  <a class="" href="<?php bloginfo('url'); ?>/contacto" target="_blank">Contacto</a>
                 </div>
                 <div class="col-12 col-lg-2">
                   <a class="" href="#" target="_blank">Mapa del sitio</a>

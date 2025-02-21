@@ -107,4 +107,7 @@
       echo '<input id="pagina" value="' . get_post_field('post_name', get_post()) . '" hidden>';
     }
     ?>
+	
+
   </header>
+

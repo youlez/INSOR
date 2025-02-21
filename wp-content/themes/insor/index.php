@@ -89,7 +89,7 @@
       <hr class="barra d-none d-lg-block">
       </hr>
       <div class="col-lg-6" id="mask">
-        <a href="https://www.insor.gov.co/insorlab" class="position-relative link-micrositios">
+        <a href="https://www.insor.gov.co/insorlab" target="_blank" class="position-relative link-micrositios">
           <img src="<?php bloginfo('template_url'); ?>/assets/img/banner/Taller_Cultura_Sorda_3.jpg" alt="Insor lab" class="imgBanner">
           <h2 class="mb-4">
             INSOR <br />
@@ -228,43 +228,43 @@
     </div>
     <div class="row m-0 justify-content-center">
       <div class="btn-icono m-2">
-        <a href="<?php bloginfo('url'); ?>/transparencia-y-acceso-a-la-informacion-publica/">
+        <a href="<?php bloginfo('url'); ?>/transparencia-y-acceso-a-la-informacion-publica/" target="_blank">
           <span class="icon-programa icon"></span>
           Programa de transparencia y ética pública
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="https://orfeo.insor.gov.co/formatecnica/#/juridica" target="_blank">
+        <a href="<?php bloginfo('url'); ?>/asistencia-tecnica/" target="_blank">
           <span class="icon-formulario icon"></span>
           Formulario unico de solicitud de asistencia técnica
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="<?php bloginfo('url'); ?>/notificaciones-judiciales/">
+        <a href="<?php bloginfo('url'); ?>/notificaciones-judiciales/" target="_blank">
           <span class="icon-notificaciones icon"></span>
           Notificaciones judiciales
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="<?php bloginfo('url'); ?>/peticiones-quejas-reclamos-sugerencias-y-denuncias-insor/">
+        <a href="<?php bloginfo('url'); ?>/peticiones-quejas-reclamos-sugerencias-y-denuncias-insor/" target="_blank">
           <span class="icon-peticiones icon"></span>
           Peticiones, quejas, reclamos y denuncias
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="<?php bloginfo('url'); ?>/contacto/">
+        <a href="<?php bloginfo('url'); ?>/contacto/" target="_blank">
           <span class="icon-contacto icon"></span>
           Contacto
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="<?php bloginfo('url'); ?>/agendamiento-de-citas/">
+        <a href="<?php bloginfo('url'); ?>/calendario-de-actividades/" target="_blank">
           <span class="icon-agenda icon"></span>
           Agenda INSOR
         </a>
       </div>
       <div class="btn-icono m-2">
-        <a href="#" target="_blank">
+        <a href="<?php bloginfo('url'); ?>/poblacion-sorda-en-cifras/" target="_blank">
           <i class="fa-solid fa-users-between-lines"></i>
           Población sorda en cifras
         </a>
@@ -375,7 +375,7 @@
                 <a target="_blank" href="https://www.presidencia.gov.co/">Presidencia</a>
               </li>
               <li>
-                <a target="_blank" href="https://www.vicepresidencia.gov.co/">Vidcepresidencia</a>
+                <a target="_blank" href="https://www.vicepresidencia.gov.co/">Vicepresidencia</a>
               </li>
               <li>
                 <a target="_blank" href="https://www.minjusticia.gov.co/">MinJusticia</a>

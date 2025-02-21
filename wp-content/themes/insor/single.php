@@ -58,7 +58,7 @@ while (have_posts()) : the_post();
       <?php
       if ($post_thumbnail_url != "" && get_post_type() != "transmisiones" && get_post_type() != "videos") {
       ?>
-        <img src="<?php echo $post_thumbnail_url; ?>" alt="<?php echo $alt_text; ?>" class="me-3 <?php (get_the_content() != "") ? "float-start" : "" ?> col-12 col-lg-6">
+        <img src="<?php echo $post_thumbnail_url; ?>" alt="<?php echo $alt_text; ?>" class="col-12 offset-lg-3 col-lg-6">
       <?php
       }
       echo the_content(); ?>

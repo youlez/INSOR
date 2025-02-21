@@ -204,6 +204,7 @@ div.asl_w .probox .proinput input::placeholder {
 
     .sub-menu {
       top: 0;
+      z-index: 1000;
     }
 
   }
@@ -217,6 +218,13 @@ div.asl_w .probox .proinput input::placeholder {
     left: calc(100% + 2px);
 
     .img-menu {
+      left: 100%;
+      right: auto;
+    }
+  }
+
+  .right-submenu:not(:has(.left-submenu)) {
+    .img-menu {
       right: 100%;
       left: auto;
     }
@@ -225,6 +233,13 @@ div.asl_w .probox .proinput input::placeholder {
   .left-submenu {
     right: calc(100% + 2px);
 
+    .img-menu {
+      right: 100%;
+      left: auto;
+    }
+  }
+
+  .left-submenu:not(:has(.right-submenu)) {
     .img-menu {
       left: 100%;
       right: auto;

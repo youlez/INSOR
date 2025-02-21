@@ -33,8 +33,7 @@ function contenido_interactivo_shortcode($atts)
       'taxonomy' => $taxonomia,
       'parent' => $id_term,
       'hide_empty' => false,
-      'orderby' => 'orden_lista', // Ordenar por campo meta
-      'order' => 'DESC', // Orden ascendente o descendente
+      'order'      => 'DESC', // Orden ascendente o descendente
     ));
 
     // Mostrar los hijos (subcategorías)
@@ -186,7 +185,7 @@ function contenido_interactivo_shortcode($atts)
 
     if ($taxonomia == "acordeon") {
       $html .= '<div class="d-flex justify-content-center">
-                <div class="accordion" id="accordion' . $id_term . '">';
+                <div class="accordion accordion-flush" id="accordion' . $id_term . '">';
     }
 
     if ($taxonomia == 'glosario') {
@@ -205,18 +204,19 @@ function contenido_interactivo_shortcode($atts)
         $html .= '  <div class="accordion-item">
                     <div class="accordion-header">
                       <button 
-                        class="accordion-button ' . ($index == 0 ? '' : 'collapsed') . '" 
+                        class="accordion-button collapsed" 
                         type="button" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#' . $item_name . '" 
-                        aria-expanded="true" 
+                        aria-expanded="false" 
                         aria-controls="' . $item_name . '">
                         <label>' . get_the_title() . '</label>
                       </button>
                     </div>
                     <div 
                       id="' . $item_name . '" 
-                      class="accordion-collapse collapse ' . ($index == 0 ? 'show' : '') . '" >
+                      class="accordion-collapse collapse" 
+                      data-bs-parent="#accordion' . $id_term . '">
                       <div class="accordion-body">' . apply_filters('the_content', get_the_content()) . '</div>
                     </div>
                   </div>';

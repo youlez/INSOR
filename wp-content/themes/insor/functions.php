@@ -36,21 +36,15 @@ function ocultar_hijos_taxonomias_en_pages($args)
   return $args;
 }
 add_action('admin_head', 'ocultar_hijos_taxonomias_en_pages');
-
-add_action('phpmailer_init', 'configuracion_smtp');
-
-function configuracion_smtp($phpmailer)
+function ordenar_terms_por_meta_y_nombre($query)
 {
-  $phpmailer->Host = 'mail.consultorestic.com.co';
-  $phpmailer->SMTPAuth = true;
-  $phpmailer->Port = 465;
-  $phpmailer->Username = 'noresponder@consultorestic.com.co';
-  $phpmailer->Password = "3hUeljmQw8+H";
-  $phpmailer->SMTPSecure = 'ssl';
-  $phpmailer->From = 'noresponder@consultorestic.com.co';
-  $phpmailer->FromName = 'INSOR - Instituto Nacional para Sordos';
-  $phpmailer->isSMTP();
+  if (!is_admin() && isset($query->query_vars['taxonomy']) && $query->query_vars['taxonomy'] === 'tu_taxonomia') {
+    $query->query_vars['meta_key'] = 'orden_lista';
+    $query->query_vars['orderby']  = array('meta_value_num' => 'DESC', 'name' => 'DESC');
+  }
 }
+add_action('pre_get_terms', 'ordenar_terms_por_meta_y_nombre');
+
 
 include('ajax/lista-archivos.php');
 include('ajax/glosario.php');
