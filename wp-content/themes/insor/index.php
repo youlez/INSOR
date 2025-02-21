@@ -132,7 +132,7 @@
             $alt_text = get_post_meta($post_thumbnail_id, '_wp_attachment_image_alt', true);
         ?>
             <div class="col-lg-6 py-2">
-              <a class="link-noticias row m-0" href="<?php bloginfo('url'); ?>/<?php echo get_post_field('post_name', get_post()); ?>" aria-label="<?php echo get_the_title(); ?>">
+              <a class="link-noticias row m-0" target="_blank" href="<?php bloginfo('url'); ?>/<?php echo get_post_field('post_name', get_post()); ?>" aria-label="<?php echo get_the_title(); ?>">
                 <div class="imagen p-0">
                   <img src="<?php echo $post_thumbnail_url; ?>" alt="<?php echo $alt_text; ?>">
                 </div>
@@ -448,7 +448,7 @@
           <div class="col-4 col-lg-2 mt-2 mb-2">
             <ul>
               <li>
-                <a target="_blank" href="http://www.dps.gov.co/">DPS</a>
+                <a target="_blank" href="https://prosperidadsocial.gov.co/">DPS</a>
               </li>
               <li>
                 <a target="_blank" href="https://dni.gov.co/">DNI</a>

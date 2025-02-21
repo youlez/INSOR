@@ -36,15 +36,6 @@ function ocultar_hijos_taxonomias_en_pages($args)
   return $args;
 }
 add_action('admin_head', 'ocultar_hijos_taxonomias_en_pages');
-function ordenar_terms_por_meta_y_nombre($query)
-{
-  if (!is_admin() && isset($query->query_vars['taxonomy']) && $query->query_vars['taxonomy'] === 'tu_taxonomia') {
-    $query->query_vars['meta_key'] = 'orden_lista';
-    $query->query_vars['orderby']  = array('meta_value_num' => 'DESC', 'name' => 'DESC');
-  }
-}
-add_action('pre_get_terms', 'ordenar_terms_por_meta_y_nombre');
-
 
 include('ajax/lista-archivos.php');
 include('ajax/glosario.php');
