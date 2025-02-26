@@ -56,7 +56,7 @@ while (have_posts()) : the_post();
     ?>
     <div class="mt-3">
       <?php
-      if ($post_thumbnail_url != "" && get_post_type() != "transmisiones" && get_post_type() != "videos") {
+      if ($post_thumbnail_url != "" && get_post_type() != "transmisiones" && get_post_type() != "videos" && get_post_type() != "post") {
       ?>
         <img src="<?php echo $post_thumbnail_url; ?>" alt="<?php echo $alt_text; ?>" class="col-12 offset-lg-3 col-lg-6">
       <?php

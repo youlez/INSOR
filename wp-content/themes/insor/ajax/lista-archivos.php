@@ -54,6 +54,12 @@ function mostrarcontenidotabla()
         if ($extension[count($extension) - 1] == "xlsx" || $extension[count($extension) - 1] == "XLSX" || $extension[count($extension) - 1] == "xls" || $extension[count($extension) - 1] == "XLS") {
           $icono = '<i class="fa-solid fa-file-excel"></i>';
         }
+        if ($extension[count($extension) - 1] == "docx" || $extension[count($extension) - 1] == "DOCX" || $extension[count($extension) - 1] == "doc" || $extension[count($extension) - 1] == "DOC") {
+          $icono = '<i class="fa-solid fa-file-word"></i>';
+        }
+        if ($extension[count($extension) - 1] == "zip" || $extension[count($extension) - 1] == "ZIP") {
+          $icono = '<i class="fa-solid fa-file-zipper"></i>';
+        }
         if ($archivo_medios) {
           $html .= '
               <tr>
@@ -129,6 +135,12 @@ function mostrarcontenidotabla()
                 }
                 if ($extension[count($extension) - 1] == "xlsx" || $extension[count($extension) - 1] == "XLSX" || $extension[count($extension) - 1] == "xls" || $extension[count($extension) - 1] == "XLS") {
                   $icono = '<i class="fa-solid fa-file-excel"></i>';
+                }
+                if ($extension[count($extension) - 1] == "docx" || $extension[count($extension) - 1] == "DOCX" || $extension[count($extension) - 1] == "doc" || $extension[count($extension) - 1] == "DOC") {
+                  $icono = '<i class="fa-solid fa-file-word"></i>';
+                }
+                if ($extension[count($extension) - 1] == "zip" || $extension[count($extension) - 1] == "ZIP") {
+                  $icono = '<i class="fa-solid fa-file-zipper"></i>';
                 }
                 if ($archivo_medios) {
                   $html .= '<tr>

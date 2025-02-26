@@ -38,6 +38,12 @@ function modificar_elementos($content)
         if ((strpos($matches[1], '.xlsx') !== false) || (strpos($matches[1], '.XLSX') !== false) || (strpos($matches[1], '.xls') !== false) || (strpos($matches[1], '.XLS') !== false)) {
           $matches[2]  = '<i class="fa-solid fa-file-excel"></i>' . $matches[2];
         }
+        if ((strpos($matches[1], '.docx') !== false) || (strpos($matches[1], '.DOCX') !== false) || (strpos($matches[1], '.doc') !== false) || (strpos($matches[1], '.DOC') !== false)) {
+          $matches[2]  = '<i class="fa-solid fa-file-word"></i>' . $matches[2];
+        }
+        if ((strpos($matches[1], '.zip') !== false) || (strpos($matches[1], '.ZIP') !== false)) {
+          $matches[2]  = '<i class="fa-solid fa-file-zipper"></i>' . $matches[2];
+        }
         $cont = '<a' . $matches[1] . '>' . $matches[2] . '</a>';
 
         if (strpos($matches[1], 'class=') !== false) {

@@ -16,12 +16,18 @@ function mostrar_noticias($pagenumber, $ancho)
       $query->the_post();
       $post_thumbnail_id = get_post_thumbnail_id();
       $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
+
+      $logo = false;
+      if (!is_array(@getimagesize($post_thumbnail_url))) {
+        $logo = true;
+        $post_thumbnail_url = "https://www.insor.gov.co/home/wp-content/uploads/2024/10/logo-principal.png";
+      }
       $alt_text = get_post_meta($post_thumbnail_id, '_wp_attachment_image_alt', true);
       $html .= '
             <div class="col-lg-6 py-2">
               <a class="link-noticias row m-0" href="' . get_bloginfo('url') . '/' . get_post_field('post_name', get_post()) . '" target="_blank" aria-label="' . get_the_title() . '">
-                <div class="imagen p-0">
-                  <img src="' . $post_thumbnail_url . '" alt="' . $alt_text . '">
+                <div class="imagen ' . ($logo ? 'd-flex align-items-center' : 'p-0') . '">
+                  <img src="' . $post_thumbnail_url . '" alt="' . $alt_text . '" ' . ($logo ? 'style="height: auto;"' : '') . '>
                 </div>
                 <div class="texto p-3">
                   <span>' . get_the_date() . '</span>

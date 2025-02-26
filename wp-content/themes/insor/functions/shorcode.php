@@ -209,14 +209,14 @@ function contenido_interactivo_shortcode($atts)
                         data-bs-toggle="collapse" 
                         data-bs-target="#' . $item_name . '" 
                         aria-expanded="false" 
-                        aria-controls="' . $item_name . '">
+                        aria-controls="' . $item_name . '"
+                        data-number="' . ($index + 1) . '">
                         <label>' . get_the_title() . '</label>
                       </button>
                     </div>
                     <div 
                       id="' . $item_name . '" 
-                      class="accordion-collapse collapse" 
-                      data-bs-parent="#accordion' . $id_term . '">
+                      class="accordion-collapse collapse" >
                       <div class="accordion-body">' . apply_filters('the_content', get_the_content()) . '</div>
                     </div>
                   </div>';
