@@ -20,7 +20,7 @@ function mostrar_noticias($pagenumber, $ancho)
       $logo = false;
       if (!is_array(@getimagesize($post_thumbnail_url))) {
         $logo = true;
-        $post_thumbnail_url = "https://www.insor.gov.co/home/wp-content/uploads/2024/10/logo-principal.png";
+        $post_thumbnail_url = get_bloginfo('url') . "/wp-content/uploads/2024/10/logo-principal.png";
       }
       $alt_text = get_post_meta($post_thumbnail_id, '_wp_attachment_image_alt', true);
       $html .= '
