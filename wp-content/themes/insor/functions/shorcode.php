@@ -33,7 +33,8 @@ function contenido_interactivo_shortcode($atts)
       'taxonomy' => $taxonomia,
       'parent' => $id_term,
       'hide_empty' => false,
-      'order'      => 'DESC', // Orden ascendente o descendente
+      'orderby'    => 'orden_lista',
+      'order' => 'DESC' // Orden ascendente o descendente
     ));
 
     // Mostrar los hijos (subcategorías)
@@ -246,6 +247,7 @@ function contenido_interactivo_shortcode($atts)
     }
     if ($taxonomia == "acordeon") {
       $html .= '  </div>
+                </div>
               </div>';
     }
     if ($taxonomia == 'glosario') {
