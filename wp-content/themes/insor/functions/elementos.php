@@ -68,7 +68,6 @@ function modificar_elementos($content)
     }, $content);
   }
 
-
   if (strpos($content, 'btn-icono') !== false) {
     $content = preg_replace_callback('/<div(.*?)class=["\'](.*?)btn-icono(.*?)[\'"](.*?)>(.*?)<a(.*?)>(.*?)<\/a>(.*?)<\/div>/is', function ($matches) {
       // Obtener las clases después de `btn-icono`
@@ -85,6 +84,15 @@ function modificar_elementos($content)
 
       // Unir el div y el nuevo enlace con el contenido que pueda estar después del <a>
       return $div . $matches[5] . $link . $matches[8] . '</div>';
+    }, $content);
+  }
+
+  if (strpos($content, 'youtube') !== false) {
+    $pattern = '/<iframe.*?<\/iframe>/is';
+
+    // Reemplazar cada iframe con un div que lo envuelva
+    $content = preg_replace_callback($pattern, function ($matches) {
+      return '<div class="ratio ratio-16x9">' . $matches[0] . '</div>';
     }, $content);
   }
 
