@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_url'); ?>/images/logos/logo_peq.png" />
+  <link rel="icon" href="<?php echo get_site_icon_url(); ?>" type="image/png" />
   <?php wp_head(); ?>
 </head>
 
@@ -107,7 +107,6 @@
       echo '<input id="pagina" value="' . get_post_field('post_name', get_post()) . '" hidden>';
     }
     ?>
-	
+
 
   </header>
-

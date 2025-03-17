@@ -16,6 +16,9 @@ function mostrar_noticias($pagenumber, $ancho)
       $query->the_post();
       $post_thumbnail_id = get_post_thumbnail_id();
       $post_thumbnail_url = wp_get_attachment_url($post_thumbnail_id);
+      if ($post_thumbnail_url == "") {
+        $post_thumbnail_url = get_bloginfo('url') . "/wp-content/uploads/2024/10/logo-principal.png";
+      }
 
       $alt_text = get_post_meta($post_thumbnail_id, '_wp_attachment_image_alt', true);
       $html .= '

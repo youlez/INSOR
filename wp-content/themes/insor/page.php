@@ -366,7 +366,21 @@ while (have_posts()) : the_post();
       }
     }
       ?>
+      <?php
+      if ($post_name == "mapa-del-sitio") {
+      ?>
+        <section class="mapa-sitio">
+          <?php
+          wp_nav_menu(array(
+            'theme_location' => 'menu-principal', // Nombre registrado
+            'container' => 'ul', // Etiqueta HTML para contener el menú
+            'container_class' => '', // Clase CSS opcional para el contenedor
+            'menu_class' => '', // Clase CSS opcional para los elementos del menú
+          ));
+          ?>
+        </section>
   </section>
 <?php
-endwhile;
-get_footer();
+      }
+    endwhile;
+    get_footer();

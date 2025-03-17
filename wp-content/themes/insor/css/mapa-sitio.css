@@ -1,0 +1,58 @@
+.mapa-sitio {
+  .img-menu {
+    display: none;
+
+    a {
+      text-decoration: none;
+      color: var(--azul);
+      transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+      color: var(--azul-r);
+      text-decoration: underline;
+    }
+  }
+}
+
+.mapa-sitio>ul {
+  padding: 0px;
+}
+
+.mapa-sitio>ul>li {
+  display: block;
+  margin-bottom: 10px;
+
+  ul {
+    padding-left: 20px;
+  }
+}
+
+.mapa-sitio>ul>li>a {
+  font-family: "WorkSans";
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.mapa-sitio ul {
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.mapa-sitio>ul>li>ul>li>a {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.mapa-sitio>ul>li>ul>li:not(:has(ul))>a {
+  font-weight: normal;
+}
+
+ul ul {
+  list-style-type: disc;
+  color: var(--amarillo);
+}
