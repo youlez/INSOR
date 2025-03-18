@@ -146,6 +146,17 @@
     overflow: hidden;
   }
 
+  .img-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 90%;
+      height: auto;
+    }
+  }
+
   .texto {
     width: calc(100% - 250px);
     background-color: var(--azul);

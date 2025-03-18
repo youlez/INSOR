@@ -379,8 +379,10 @@ while (have_posts()) : the_post();
           ));
           ?>
         </section>
+      <?php
+      }
+      ?>
   </section>
 <?php
-      }
-    endwhile;
-    get_footer();
+endwhile;
+get_footer();
