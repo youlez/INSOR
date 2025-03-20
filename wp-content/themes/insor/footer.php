@@ -116,7 +116,7 @@
                   <a class="" href="<?php bloginfo('url'); ?>/contacto" target="_blank">Contacto</a>
                 </div>
                 <div class="col-12 col-lg-2">
-                  <a class="" href="#" target="_blank">Mapa del sitio</a>
+                  <a class="" href="<?php bloginfo('url'); ?>/mapa-del-sitio" target="_blank">Mapa del sitio</a>
                 </div>
               </div>
             </div>

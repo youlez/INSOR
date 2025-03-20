@@ -236,7 +236,7 @@
       <div class="btn-icono m-2">
         <a href="<?php bloginfo('url'); ?>/asistencia-tecnica/" target="_blank">
           <span class="icon-formulario icon"></span>
-          Formulario unico de solicitud de asistencia técnica
+          Solicitud de Asistencia técnica
         </a>
       </div>
       <div class="btn-icono m-2">
