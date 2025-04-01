@@ -33,9 +33,29 @@ function contenido_interactivo_shortcode($atts)
       'taxonomy' => $taxonomia,
       'parent' => $id_term,
       'hide_empty' => false,
-      'orderby'    => 'orden_lista',
-      'order' => 'DESC' // Orden ascendente o descendente
+      'orderby'    => 'name',
+      'order'      => 'DESC'
     ));
+    switch (get_term_meta($id_term, 'ordenamiento', true)) {
+      case '1':
+        $hijos = get_terms(array(
+          'taxonomy' => $taxonomia,
+          'parent' => $id_term,
+          'hide_empty' => false,
+          'orderby'    => 'orden_lista',
+          'order' => 'ASC' // Orden ascendente o descendente
+        ));
+        break;
+      case '2':
+        $hijos = get_terms(array(
+          'taxonomy' => $taxonomia,
+          'parent' => $id_term,
+          'hide_empty' => false,
+          'orderby'    => 'orden_lista',
+          'order' => 'DESC' // Orden ascendente o descendente
+        ));
+        break;
+    }
 
     // Mostrar los hijos (subcategorías)
     if ($hijos && !is_wp_error($hijos)) {

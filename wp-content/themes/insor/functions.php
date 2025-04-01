@@ -14,29 +14,6 @@ include('functions/modales.php');
 
 add_theme_support('post-thumbnails');
 
-function ocultar_hijos_taxonomias_en_pages($args)
-{
-  global $pagenow, $post;
-
-  // Verifica si estamos en el editor de páginas y en el tipo de post 'page'
-  if ($pagenow == 'post.php' && $post->post_type == 'page') {
-    // Configura el argumento 'parent' a 0 para mostrar solo los términos padre
-    echo '<style>
-            .editor-post-taxonomies__hierarchical-terms-subchoices {
-                display:none !important;
-            } 
-            #orden_taxonomias{
-              display: none !important;
-            }
-            .components-panel__body{
-              display: none !important;
-            }  
-        </style>';
-  }
-  return $args;
-}
-add_action('admin_head', 'ocultar_hijos_taxonomias_en_pages');
-
 include('ajax/lista-archivos.php');
 include('ajax/glosario.php');
 include('ajax/noticias.php');
