@@ -25,71 +25,71 @@
 
 $header_classes = ['tribe-events-header'];
 if (empty($disable_event_search)) {
-	$header_classes[] = 'tribe-events-header--has-event-search';
+  $header_classes[] = 'tribe-events-header--has-event-search';
 }
 ?>
+<div
+  <?php tribe_classes($container_classes); ?>
+  data-js="tribe-events-view"
+  data-view-rest-url="<?php echo esc_url($rest_url); ?>"
+  data-view-rest-method="<?php echo esc_attr($rest_method); ?>"
+  data-view-manage-url="<?php echo esc_attr($should_manage_url); ?>"
+  <?php foreach ($container_data as $key => $value) : ?>
+  data-view-<?php echo esc_attr($key) ?>="<?php echo esc_attr($value) ?>"
+  <?php endforeach; ?>
+  <?php if (! empty($breakpoint_pointer)) : ?>
+  data-view-breakpoint-pointer="<?php echo esc_attr($breakpoint_pointer); ?>"
+  <?php endif; ?>>
+  <div class="container my-4 page-interna">
+    <div style="display: ruby;">
+      <div class="miga">
+        <a class="link" href="<?php bloginfo('url'); ?>/">Inicio</a>
+      </div>
+      <div class="miga">
+        <a class="link" href="<?php bloginfo('url'); ?>/atencion-y-servicios-a-la-ciudadania">Atención y Servicios a la ciudadanía</a>
+      </div><span>Calendario de actividades</span>
+    </div>
+    <div class="titulo-internas my-4" id="content">
+      <h1 class="px-4 py-2">
+        Calendario de actividades
+      </h1>
+    </div>
+    <div class="tribe-common-l-container tribe-events-l-container">
+      <?php $this->template('components/loader', ['text' => __('Loading...', 'the-events-calendar')]); ?>
 
-<section class="container my-4 page-interna">
-	<div style="display: ruby;">
-		<div class="miga">
-			<a class="link" href="<?php bloginfo('url'); ?>/">Inicio</a>
-		</div>
-		<div class="miga">
-			<a class="link" href="<?php bloginfo('url'); ?>/atencion-y-servicios-a-la-ciudadania">Atención y Servicios a la ciudadanía</a>
-		</div><span>Calendario de actividades</span>
-	</div>
-	<div class="titulo-internas my-4" id="content">
-		<h1 class="px-4 py-2">
-			Calendario de actividades
-		</h1>
-	</div>
-	<div
-		<?php tribe_classes($container_classes); ?>
-		data-js="tribe-events-view"
-		data-view-rest-url="<?php echo esc_url($rest_url); ?>"
-		data-view-rest-method="<?php echo esc_attr($rest_method); ?>"
-		data-view-manage-url="<?php echo esc_attr($should_manage_url); ?>"
-		<?php foreach ($container_data as $key => $value) : ?>
-		data-view-<?php echo esc_attr($key) ?>="<?php echo esc_attr($value) ?>"
-		<?php endforeach; ?>
-		<?php if (! empty($breakpoint_pointer)) : ?>
-		data-view-breakpoint-pointer="<?php echo esc_attr($breakpoint_pointer); ?>"
-		<?php endif; ?>>
-		<div class="tribe-common-l-container tribe-events-l-container">
-			<?php $this->template('components/loader', ['text' => __('Loading...', 'the-events-calendar')]); ?>
+      <?php $this->template('components/json-ld-data'); ?>
 
-			<?php $this->template('components/json-ld-data'); ?>
+      <?php $this->template('components/data'); ?>
 
-			<?php $this->template('components/data'); ?>
+      <?php $this->template('components/before'); ?>
 
-			<?php $this->template('components/before'); ?>
+      <?php $this->template('components/header'); ?>
 
-			<?php $this->template('components/header'); ?>
+      <?php $this->template('components/filter-bar'); ?>
 
-			<?php $this->template('components/filter-bar'); ?>
+      <div
+        class="tribe-events-calendar-month"
+        role="grid"
+        aria-labelledby="tribe-events-calendar-header"
+        aria-readonly="true"
+        data-js="tribe-events-month-grid">
 
-			<div
-				class="tribe-events-calendar-month"
-				role="grid"
-				aria-labelledby="tribe-events-calendar-header"
-				aria-readonly="true"
-				data-js="tribe-events-month-grid">
+        <?php $this->template('month/calendar-header'); ?>
 
-				<?php $this->template('month/calendar-header'); ?>
+        <?php $this->template('month/calendar-body'); ?>
 
-				<?php $this->template('month/calendar-body'); ?>
+      </div>
 
-			</div>
+      <?php $this->template('components/messages', ['classes' => ['tribe-events-header__messages--mobile']]); ?>
 
-			<?php $this->template('components/messages', ['classes' => ['tribe-events-header__messages--mobile']]); ?>
+      <?php $this->template('month/mobile-events'); ?>
 
-			<?php $this->template('month/mobile-events'); ?>
+      <?php $this->template('components/after'); ?>
 
-			<?php $this->template('components/after'); ?>
+    </div>
 
-		</div>
+  </div>
 
-	</div>
-</section>
+</div>
 
 <?php $this->template('components/breakpoints'); ?>

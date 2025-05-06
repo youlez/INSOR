@@ -61,6 +61,10 @@
   --gris-o: #4B4B4B;
 }
 
+.tribe-common .container {
+  margin: auto;
+}
+
 .titulo-internas {
   background-color: var(--amarillo);
 
@@ -90,7 +94,8 @@
 }
 
 
-a.link {
+a.link,
+.tribe-common a.link {
   text-decoration: 0;
   color: var(--azul);
   transition: all 0.3s ease-in-out;
